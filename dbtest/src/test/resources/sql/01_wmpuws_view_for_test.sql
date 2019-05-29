@@ -1,0 +1,1 @@
+SELECT * FROM ws$test_payment_data
