@@ -1,0 +1,37 @@
+#!/usr/bin/python -tt
+import sys
+import string
+from string import join
+
+if len(sys.argv) <= 1:
+    print("file name should be specified")
+    sys.exit(1)
+
+parameters = list()
+with open(sys.argv[1]) as f:
+    for each_line in f:
+        index = each_line.find("name=")
+        if index<=0:
+            continue
+        each_line = each_line[(index+6):]
+        parameters.append(each_line[:each_line.index("\"")])
+
+# list of parameters for input
+print(join(parameters, ","))
+print()
+
+# fields
+for each in parameters:
+    print ("private String %s;" % each)
+print()
+
+# setters
+for each in parameters:
+    print ("returnValue.set%s(\"\");" % (string.upper(each[0:1])+each[1:]))
+
+
+
+
+
+
+
