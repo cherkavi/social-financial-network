@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  old approach to use route via XML DSL  -->
+<routes xmlns="http://camel.apache.org/schema/spring">
+
+    <!-- here we define the bar route -->
+    <route id="incoming-payment">
+		<!-- "timer://unique_name?fixedRate=true&period=1000"  -->
+        <from uri="jetty:http://localhost:2015/payment" />
+
+        <!--  transform -->
+		<bean ref="Body2String" method="convertBody"/>
+		
+		<choice>
+            <when>
+            	<simple>${headers.operationName}</simple>
+                <!-- <xpath>boolean('/Body/GetStatus')</xpath>  -->
+                <to uri="stream:out"/>
+            </when>
+            <otherwise>
+				<!-- <to uri="log?level=ERROR"/>  -->
+            	<log loggingLevel="ERROR" message="not found message ${body}" marker="external request"/>
+                <to uri="stream:err"/>
+            </otherwise>
+        </choice>
+        
+
+    </route>
+ 
+</routes>
