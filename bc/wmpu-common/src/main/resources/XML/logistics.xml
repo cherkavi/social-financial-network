@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<logistics>
+
+	<general>
+		<RU>Логистика</RU>
+		<UA>Логістика</UA>
+		<EN>Logistic</EN></general>
+	<cards>
+		<ru>Логистика: карты</ru>
+		<ua>Логістика: карти</ua>
+		<en>Logistic: cards</en></cards>
+	<terminals>
+		<ru>Логистика: терминалы</ru>
+		<ua>Логістика: термінали</ua>
+		<en>Logistic: terminals</en></terminals>
+	<sam>
+		<ru>Логистика: модули безопасности</ru>
+		<ua>Логістика: модулі безпеки</ua>
+		<en>Logistic: SAM</en></sam>
+	<questionnaires>
+		<ru>Логистика: анкеты</ru>
+		<ua>Логістика: анкети</ua>
+		<en>Logistic: questionnaires</en></questionnaires>
+	<gifts>
+		<ru>Логистика: подарки</ru>
+		<ua>Логістика: подарунки</ua>
+		<en>Logistic: gifts</en></gifts>
+	<others>
+		<ru>Логистика: другое</ru>
+		<ua>Логістика: інше</ua>
+		<en>Logistic: others</en></others>
+		
+	<id_lg_record>
+		<ru>ИД операции</ru>
+		<ua>ІД операції</ua>
+		<en>Operation ID</en>
+	</id_lg_record>
+	<begin_cd_card2>
+		<ru>Начало диапазона</ru>
+		<ua>Початок діапазону</ua>
+		<en>Range beginning</en>
+	</begin_cd_card2>
+	<end_cd_card2>
+		<ru>Конец диапазона</ru>
+		<ua>Кінець діапазону</ua>
+		<en>Range end</en>
+	</end_cd_card2>
+	<sname_issuer>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en>
+	</sname_issuer>
+	<name_payment_system>
+		<ru>Платежная система</ru>
+		<ua>Платіжна система</ua>
+		<en>Payment system</en>
+	</name_payment_system>
+	<name_card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</name_card_status>
+	<card_found>
+		<ru>Найдено в системе</ru>
+		<ua>Знайдено в системі</ua>
+		<en>Cards in system</en>
+	</card_found>
+	<card_must_found>
+		<ru>Карт в диапазоне</ru>
+		<ua>Карт в діапазоні</ua>
+		<en>Cards id range</en>
+	</card_must_found>
+	<state_record>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</state_record>
+	<sname_jur_prs_receiver>
+		<ru>Получатель</ru>
+		<ua>Отримувач</ua>
+		<en>Receiver</en>
+	</sname_jur_prs_receiver>
+	<id_service_place_receiver>
+		<ru>Пункт обслуживания получателя</ru>
+		<ua>Пункт обслуговування отримувача</ua>
+		<en>Receiver's service place</en>
+	</id_service_place_receiver>
+	<id_contact_prs_receiver>
+		<ru>Контактное лицо получателя</ru>
+		<ua>Контактна особа отримувача</ua>
+		<en>Receiver's contact person</en>
+	</id_contact_prs_receiver>
+	<desc_receiver>
+		<ru>Описание получателя</ru>
+		<ua>Опис отримувача</ua>
+		<en>Receiver's description</en>
+	</desc_receiver>
+	<sname_jur_prs_sender>
+		<ru>Отправитель</ru>
+		<ua>Відправник</ua>
+		<en>Sender</en>
+	</sname_jur_prs_sender>
+	<id_service_place_sender>
+		<ru>Пункт обслуживания отправителя</ru>
+		<ua>Пункт обслуговування відправника</ua>
+		<en>Sender's service place</en>
+	</id_service_place_sender>
+	<id_contact_prs_sender>
+		<ru>Контактное лицо отправителя</ru>
+		<ua>Контактна особа відправника</ua>
+		<en>Sender's contact person</en>
+	</id_contact_prs_sender>
+	<desc_sender>
+		<ru>Описание отправителя</ru>
+		<ua>Опис відправника</ua>
+		<en>Sender description</en>
+	</desc_sender>
+	<action_date>
+		<ru>Дата операции</ru>
+		<ua>Дата операції</ua>
+		<en>Operation date</en>
+	</action_date>
+	<operation_desc>
+		<ru>Описание операции</ru>
+		<ua>Опис операції</ua>
+		<en>Operation description</en>
+	</operation_desc>
+	<object_count>
+		<ru>Количество объектов</ru>
+		<ua>Кількість об'єктів</ua>
+		<en>Objects count</en>
+	</object_count>
+	<bon_cards_count>
+		<ru>Количество карт</ru>
+		<ua>Кількість карт</ua>
+		<en>Cards count</en>
+	</bon_cards_count>
+	<terminals_count>
+		<ru>Количество терминалов</ru>
+		<ua>Кількість терміналів</ua>
+		<en>Terminals count</en>
+	</terminals_count>
+	<sam_count>
+		<ru>Количество модулей безопасности</ru>
+		<ua>Кількість модулів безпеки</ua>
+		<en>SAMs count</en>
+	</sam_count>
+	<questionnaires_count>
+		<ru>Количество анкет</ru>
+		<ua>Кількість анкет</ua>
+		<en>Questionnaires count</en>
+	</questionnaires_count>
+	<gifts_count>
+		<ru>Количество подарков</ru>
+		<ua>Кількість подарунків</ua>
+		<en>Gifts count</en>
+	</gifts_count>
+	<id_lg_type>
+		<ru>Тип операции</ru>
+		<ua>Тип операції</ua>
+		<en>Operation type</en>
+	</id_lg_type>
+	<name_lg_type>
+		<ru>Тип операции</ru>
+		<ua>Тип операції</ua>
+		<en>Operation type</en>
+	</name_lg_type>
+	<h_action_bon_card_add>
+		<ru>Добавить информацию о передаче карт</ru>
+		<ua>Додати інформацію про передачу карт</ua>
+		<en>Add cards transfer information</en>
+	</h_action_bon_card_add>
+	<h_action_bon_card_edit>
+		<ru>Изменить информацию о передаче карт</ru>
+		<ua>Змінити информацию о передаче карт</ua>
+		<en>Edit cards transfer information</en>
+	</h_action_bon_card_edit>
+	<h_action_bon_card_delete>
+		<ru>Удалить информацию о передаче карт</ru>
+		<ua>Видалити информацию о передаче карт</ua>
+		<en>Delete cards transfer information</en>
+	</h_action_bon_card_delete>
+	<h_action_questionnaires_add>
+		<ru>Добавить информацию о передаче анкет</ru>
+		<ua>Додати інформацію про передачу анкет</ua>
+		<en>Add questionnaires transfer information</en>
+	</h_action_questionnaires_add>
+	<h_action_questionnaires_edit>
+		<ru>Изменить информацию о передаче анкет</ru>
+		<ua>Змінити информацию о передаче анкет</ua>
+		<en>Edit questionnaires transfer information</en>
+	</h_action_questionnaires_edit>
+	<h_action_questionnaires_delete>
+		<ru>Удалить информацию о передаче анкет</ru>
+		<ua>Видалити информацию о передаче анкет</ua>
+		<en>Delete questionnaires transfer information</en>
+	</h_action_questionnaires_delete>
+	<h_action_terminals_add>
+		<ru>Добавить информацию о передаче терминалов</ru>
+		<ua>Додати інформацію про передачу терминалів</ua>
+		<en>Add terminals transfer information</en>
+	</h_action_terminals_add>
+	<h_action_terminals_edit>
+		<ru>Изменить информацию о передаче терминалов</ru>
+		<ua>Змінити информацию о передаче терминалів</ua>
+		<en>Edit terminals transfer information</en>
+	</h_action_terminals_edit>
+	<h_action_terminals_delete>
+		<ru>Удалить информацию о передаче терминалов</ru>
+		<ua>Видалити информацию о передаче терминалів</ua>
+		<en>Delete terminals transfer information</en>
+	</h_action_terminals_delete>
+	<h_action_sam_add>
+		<ru>Добавить информацию о передаче модулей безопасности</ru>
+		<ua>Додати інформацію про передачу модулів безпеки</ua>
+		<en>Add SAMs transfer information</en>
+	</h_action_sam_add>
+	<h_action_sam_edit>
+		<ru>Изменить информацию о передаче модулей безопасности</ru>
+		<ua>Змінити информацию о передаче модулів безпеки</ua>
+		<en>Edit SAMs transfer information</en>
+	</h_action_sam_edit>
+	<h_action_sam_delete>
+		<ru>Удалить информацию о передаче модулей безопасности</ru>
+		<ua>Видалити информацию о передаче модулів безпеки</ua>
+		<en>Delete SAMs transfer information</en>
+	</h_action_sam_delete>
+	<h_action_others_add>
+		<ru>Добавить информацию о передаче продукции</ru>
+		<ua>Додати інформацію про передачу продукції</ua>
+		<en>Add production transfer information</en>
+	</h_action_others_add>
+	<h_action_others_edit>
+		<ru>Изменить информацию о передаче продукции</ru>
+		<ua>Змінити информацию о передаче продукції</ua>
+		<en>Edit production transfer information</en>
+	</h_action_others_edit>
+	<h_action_others_delete>
+		<ru>Удалить информацию о передаче продукции</ru>
+		<ua>Видалити информацию о передаче продукції</ua>
+		<en>Delete production transfer information</en>
+	</h_action_others_delete>
+	<h_action_gifts_add>
+		<ru>Добавить информацию о передаче подарков</ru>
+		<ua>Додати інформацію про передачу подарунків</ua>
+		<en>Add gifts transfer information</en>
+	</h_action_gifts_add>
+	<h_action_gifts_delete>
+		<ru>Удалить информацию о передаче подарков</ru>
+		<ua>Видалити информацию о передаче подарунків</ua>
+		<en>Delete gifts transfer information</en>
+	</h_action_gifts_delete>
+	
+	<h_range_add>
+		<ru>Добавить диапазон</ru>
+		<ua>Додати діапазон</ua>
+		<en>Add range</en>
+	</h_range_add>
+	<h_range_edit>
+		<ru>Редактировать параметры диапазона</ru>
+		<ua>Редагувати параметри діапазону</ua>
+		<en>Edit range</en>
+	</h_range_edit>
+	<h_range_delete>
+		<ru>Удалить диапазон</ru>
+		<ua>Видалити діапазон</ua>
+		<en>Delete range</en>
+	</h_range_delete>
+		
+	<id_lg_production>
+		<ru>ИД продукции</ru>
+		<ua>ІД продукції</ua>
+		<en>Production ID</en>
+	</id_lg_production>
+	<cd_lg_production>
+		<ru>Код продукции</ru>
+		<ua>Код продукції</ua>
+		<en>Production code</en>
+	</cd_lg_production>
+	<name_lg_production>
+		<ru>Название продукции</ru>
+		<ua>Назва продукції</ua>
+		<en>Production name</en>
+	</name_lg_production>
+	<desc_lg_production>
+		<ru>Описание продукции</ru>
+		<ua>Опис продукції</ua>
+		<en>Production description</en>
+	</desc_lg_production>
+	<cd_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</cd_currency>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</name_currency>
+	<cost_lg_production>
+		<ru>Стоимость единицы</ru>
+		<ua>Вартість одиниці</ua>
+		<en>One cost</en>
+	</cost_lg_production>
+	<cost_all_production>
+		<ru>Стоимость всего</ru>
+		<ua>Вартість всього</ua>
+		<en>All cost</en>
+	</cost_all_production>
+	<count_lg_production>
+		<ru>Количество единиц</ru>
+		<ua>Кількість одиниць</ua>
+		<en>Count</en>
+	</count_lg_production>
+	<h_production_add>
+		<ru>Добавить продукцию в каталог</ru>
+		<ua>Додати продукцію в каталог</ua>
+		<en>Add production in catalog</en>
+	</h_production_add>
+	<h_production_delete>
+		<ru>Удалить продукцию из каталога</ru>
+		<ua>Видалити продукцію з каталога</ua>
+		<en>Delete production from catalog</en>
+	</h_production_delete>
+	
+	<h_add_sam_select>
+		<ru>Выбрать модули безопасности из списка</ru>
+		<ua>Вибрати модулі безпеки зі списку</ua>
+		<en>Select SAMs from list</en>
+	</h_add_sam_select>
+	<h_add_sam>
+		<ru>Добавить модуль безопасности в список передачи</ru>
+		<ua>Додати модуль безпеки до списку передачі</ua>
+		<en>Add SAMs to transfer list</en>
+	</h_add_sam>
+	<h_delete_sam>
+		<ru>Удалить модуль безопасности из списка передачи</ru>
+		<ua>Видалити модуль безпеки зі списку передачі</ua>
+		<en>Delete SAMs from transfer list</en>
+	</h_delete_sam>
+	
+	<h_add_term_select>
+		<ru>Выбрать терминалы из списка</ru>
+		<ua>Вибрати термінали зі списку</ua>
+		<en>Select terminals from list</en>
+	</h_add_term_select>
+	<h_add_term>
+		<ru>Добавить терминал в список передачи</ru>
+		<ua>Додати термінал до списку передачі</ua>
+		<en>Add terminal to transfer list</en>
+	</h_add_term>
+	<h_delete_term>
+		<ru>Удалить терминал из списка передачи</ru>
+		<ua>Видалити термінал зі списку передачі</ua>
+		<en>Delete terminal from transfer list</en>
+	</h_delete_term>
+	<h_object_selected>
+		<ru>Выбрано</ru>
+		<ua>Вибрано</ua>
+		<en>Selected</en>
+	</h_object_selected>
+	
+	<h_other_production_add>
+		<ru>Добавить продукцию в список передачи</ru>
+		<ua>Додати продукцію в список передачі</ua>
+		<en>Add production in transfer list</en>
+	</h_other_production_add>
+	<h_other_production_delete>
+		<ru>Удалить продукцию из списка передачи</ru>
+		<ua>Видалити продукцію зі списку передачі</ua>
+		<en>Delete production from transfer list</en>
+	</h_other_production_delete>
+	<h_other_production_edit>
+		<ru>Редактировать параметры продукции в списке передачи</ru>
+		<ua>Редагувати параметри продукції в списку передачі</ua>
+		<en>Edit production parameters in transfer list</en>
+	</h_other_production_edit>
+	
+	<id_jur_prs>
+		<ru>ИД Партнера</ru>
+		<ua>ІД Партнера</ua>
+		<en>Partner's ID</en>
+	</id_jur_prs>
+	<name_jur_prs_type>
+		<ru>Тип юрлица</ru>
+		<ua>Тип юрособи</ua>
+		<en>Juridical person type</en>
+	</name_jur_prs_type>
+	<sname_jur_prs>
+		<ru>Сокращенное название Партнера</ru>
+		<ua>Скорочена назва Партнера</ua>
+		<en>Partner's short name</en>
+	</sname_jur_prs>
+	<calc_date>
+		<ru>Дата сбора статистики</ru>
+		<ua>Дата збору статистики</ua>
+		<en>Gathering statistics date</en>
+	</calc_date>
+	<bon_cards_received>
+		<ru>Карт получено</ru>
+		<ua>Карт отримано</ua>
+		<en>Cards received</en>
+	</bon_cards_received>
+	<bon_cards_distributed>
+		<ru>Карт роздано</ru>
+		<ua>Карт роздано</ua>
+		<en>Cards distributed</en>
+	</bon_cards_distributed>
+	<questionnaires_receiver>
+		<ru>Анкет получено</ru>
+		<ua>Анкет отримано</ua>
+		<en>Questionnaires received</en>
+	</questionnaires_receiver>
+	<quest_receiver>
+		<ru>Анкет получено</ru>
+		<ua>Анкет отримано</ua>
+		<en>Questionnaires received</en>
+	</quest_receiver>
+	<questionnaires_distributed>
+		<ru>Анкет роздано</ru>
+		<ua>Анкет роздано</ua>
+		<en>Questionnaires distributed</en>
+	</questionnaires_distributed>
+	<quest_distributed>
+		<ru>Анкет роздано</ru>
+		<ua>Анкет роздано</ua>
+		<en>Questionnaires distributed</en>
+	</quest_distributed>
+	<sams_received>
+		<ru>Модулей безопасности получено</ru>
+		<ua>Модулів безпеки отримано</ua>
+		<en>SAMs received</en>
+	</sams_received>
+	<terminals_received>
+		<ru>Терминалов получено</ru>
+		<ua>Терміналів отримано</ua>
+		<en>Terminals received</en>
+	</terminals_received>
+	<others_received>
+		<ru>Другой продукции получено</ru>
+		<ua>Іншої продукції отримано</ua>
+		<en>Other production received</en>
+	</others_received>
+	<cost_others_received>
+		<ru>Другой продукции стоимость</ru>
+		<ua>Іншої продукції вартість</ua>
+		<en>Other production costs</en>
+	</cost_others_received>
+	
+	<h_update_all_analytics>
+		<ru>Обновить всю аналитическую информацию</ru>
+		<ua>Оновити всю аналітичну інформацію</ua>
+		<en>Update all analytics information</en>
+	</h_update_all_analytics>
+	<h_update_jur_prs_analytics>
+		<ru>Обновить аналитическую информацию об юрлице</ru>
+		<ua>Оновити аналітичну інформацію про юрособу</ua>
+		<en>Update analytics information for legal person</en>
+	</h_update_jur_prs_analytics>
+	
+	<jur_prs>
+		<ru>Партнер</ru>
+		<ua>Партрер</ua>
+		<en>Partner</en>
+	</jur_prs>
+	<service_place>
+		<ru>Пункт обслуживания</ru>
+		<ua>Пункт обслуговування</ua>
+		<en>Service place</en>
+	</service_place>
+	<adr_full>
+		<ru>Адрес</ru>
+		<ua>Адреса</ua>
+		<en>Adress</en>
+	</adr_full>
+	<name_jur_prs_primary_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN></name_jur_prs_primary_type>
+	
+	<lg_promoter>
+		<ru>Промоутер</ru>
+		<ua>Промоутер</ua>
+		<en>Promoter</en>
+	</lg_promoter>
+	<id_lg_promoter>
+		<ru>ИД промоутера</ru>
+		<ua>ІД промоутера</ua>
+		<en>Promoter ID</en>
+	</id_lg_promoter>
+	<cd_lg_promoter>
+		<ru>Код промоутера</ru>
+		<ua>Код промоутера</ua>
+		<en>Promoter code</en>
+	</cd_lg_promoter>
+	<name_lg_promoter>
+		<ru>Название промоутера</ru>
+		<ua>Назва промоутера</ua>
+		<en>Promoter name</en>
+	</name_lg_promoter>
+	<desc_lg_promoter>
+		<ru>Примечания</ru>
+		<ua>Примітки</ua>
+		<en>Notes</en>
+	</desc_lg_promoter>
+	<cd_lg_promoter_post>
+		<ru>Должность</ru>
+		<ua>Посада</ua>
+		<en>Post</en>
+	</cd_lg_promoter_post>
+	<name_lg_promoter_post>
+		<ru>Должность</ru>
+		<ua>Посада</ua>
+		<en>Post</en>
+	</name_lg_promoter_post>
+	<date_begin_work>
+		<ru>Дата приема</ru>
+		<ua>Дата прийому</ua>
+		<en>Employment date</en>
+	</date_begin_work>
+	<date_end_work>
+		<ru>Дата увольнения</ru>
+		<ua>Дата звільнення</ua>
+		<en>Dismission date</en>
+	</date_end_work>
+	<cd_lg_promoter_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</cd_lg_promoter_state>
+	<name_lg_promoter_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</name_lg_promoter_state>
+	<cd_lg_promoter_work_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</cd_lg_promoter_work_state>
+	<name_lg_promoter_work_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</name_lg_promoter_work_state>
+	<cd_lg_promoter_give_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</cd_lg_promoter_give_state>
+	<name_lg_promoter_give_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</name_lg_promoter_give_state>
+	<phone_mobile>
+		<ru>Мобильный телефон</ru>
+		<ua>Мобільний телефон</ua>
+		<en>Mobile phone</en>
+	</phone_mobile>
+	
+	<h_promoter_add>
+		<ru>Добавить промоутера</ru>
+		<ua>Додати промоутера</ua>
+		<en>Add promoter</en>
+	</h_promoter_add>
+	
+	<id_lg_unit>
+		<ru>ИД группы</ru>
+		<ua>ІД групи</ua>
+		<en>Group ID</en>
+	</id_lg_unit>
+	<name_lg_unit>
+		<ru>Название группы</ru>
+		<ua>Назва групи</ua>
+		<en>Group name</en>
+	</name_lg_unit>
+	<date_lg_unit>
+		<ru>Дата создания группы</ru>
+		<ua>Дата створення групи</ua>
+		<en>Group creation date</en>
+	</date_lg_unit>
+	<service_places_count>
+		<ru>Количество пунктов обслуживания</ru>
+		<ua>Кількість пунктів обслуговування</ua>
+		<en>Service places count</en>
+	</service_places_count>
+	<promoters_count>
+		<ru>Количество промоутеров</ru>
+		<ua>Кількість промоутерів</ua>
+		<en>Promoters count</en>
+	</promoters_count>
+	<include_to_unit>
+		<ru>Включено в группу</ru>
+		<ua>Входить в групу</ua>
+		<en>Include to group</en>
+	</include_to_unit>
+	<date_include>
+		<ru>Дата включения в группу</ru>
+		<ua>Дата включення до групи</ua>
+		<en>Date of include to group</en>
+	</date_include>
+	
+	<id_lg_unit_schedule>
+		<ru>ИД графика</ru>
+		<ua>ІД графіка</ua>
+		<en>Schedule ID</en>
+	</id_lg_unit_schedule>
+	<date_lg_unit_schedule>
+		<ru>Дата графика</ru>
+		<ua>Дата графіка</ua>
+		<en>Schedule date</en>
+	</date_lg_unit_schedule>
+	<sales_cards_count>
+		<ru>Количество выданных карт</ru>
+		<ua>Кількість виданих карт</ua>
+		<en>Cards given count</en>
+	</sales_cards_count>
+	<sales_cards_cashier_count>
+		<ru>Количество выданных карт кассирами</ru>
+		<ua>Кількість виданих карт касирами</ua>
+		<en>Cashiers cards given count </en>
+	</sales_cards_cashier_count>
+	
+	<id_lg_unit_schedule_line>
+		<ru>ИД строки графика</ru>
+		<ua>ІД рядка графіка</ua>
+		<en>Schedule line ID</en>
+	</id_lg_unit_schedule_line>
+	<begin_work_time>
+		<ru>Время начала работы (ЧЧ24:МИ)</ru>
+		<ua>Час початку роботи (ГГ24:ХВ)</ua>
+		<en>Begin work time (HH24:MI)</en>
+	</begin_work_time>
+	<end_work_time>
+		<ru>Время окончания работы (ЧЧ24:МИ)</ru>
+		<ua>Час завершення роботи (ГГ24:ХВ)</ua>
+		<en>End work time (HH24:MI)</en>
+	</end_work_time>
+	<notes>
+		<ru>Примечания</ru>
+		<ua>Примітки</ua>
+		<en>Notes</en>
+	</notes>
+	
+	<h_add_schedule>
+		<ru>Добавить график</ru>
+		<ua>Додати графік</ua>
+		<en>Add schedule</en>
+	</h_add_schedule>
+	<h_copy_schedule>
+		<ru>Копировать график</ru>
+		<ua>Копіювати графік</ua>
+		<en>Copy schedule</en>
+	</h_copy_schedule>
+	<h_delete_schedule>
+		<ru>Удалить график</ru>
+		<ua>Видалити графік</ua>
+		<en>Delete schedule</en>
+	</h_delete_schedule>
+	<h_add_schedule_line>
+		<ru>Добавить строку графика</ru>
+		<ua>Додати рядок графіка</ua>
+		<en>Add schedule line</en>
+	</h_add_schedule_line>
+	<h_delete_schedule_line>
+		<ru>Удалить строку графика</ru>
+		<ua>Видалити рядок графіка</ua>
+		<en>Delete schedule line</en>
+	</h_delete_schedule_line>
+	
+	<count_gift_all>
+		<ru>Количество всего</ru>
+		<ua>Кількість всього</ua>
+		<en>Totally quantity</en></count_gift_all>
+	<count_gift_remain>
+		<ru>Осталось</ru>
+		<ua>Залишились</ua>
+		<en>Remaining</en></count_gift_remain>
+	<count_gift_given>
+		<ru>Выдано</ru>
+		<ua>Видано</ua>
+		<en>Given</en></count_gift_given>
+		
+	<date_card_given>
+		<ru>Дата выдачи карт</ru>
+		<ua>Дата видачі карт</ua>
+		<en>Cards given date</en></date_card_given>
+		
+	<id_lg_cc_given_schedule>
+		<ru>ИД графика выдачи</ru>
+		<ua>ІД графіка видачі</ua>
+		<en>Given schedule ID</en></id_lg_cc_given_schedule>
+		
+	<cd_lg_service_place>
+		<ru>Код пункта выдачи в логистике</ru>
+		<ua>Код пункта видачі в логістиці</ua>
+		<en>Delivery point code in logistic</en></cd_lg_service_place>
+
+	<supervisor_date_beg>
+		<ru>Начало периода</ru>
+		<ua>Початок періода</ua>
+		<en>Period begin</en></supervisor_date_beg>
+	<supervisor_date_end>
+		<ru>Окончание периода</ru>
+		<ua>Завершення періода</ua>
+		<en>Period end</en></supervisor_date_end>
+	<id_lg_supervisor>
+		<ru>Супервайзер</ru>
+		<ua>Супервайзер</ua>
+		<en>Supervisor</en></id_lg_supervisor>
+	<name_lg_supervisor>
+		<ru>Супервайзер</ru>
+		<ua>Супервайзер</ua>
+		<en>Supervisor</en></name_lg_supervisor>
+	<id_lg_manager>
+		<ru>Руководитель</ru>
+		<ua>Керівник</ua>
+		<en>Manager</en></id_lg_manager>
+	<name_lg_manager>
+		<ru>Руководитель</ru>
+		<ua>Керівник</ua>
+		<en>Manager</en></name_lg_manager>
+	<plan_promoter_count>
+		<ru>План по количеству промоутеров</ru>
+		<ua>План по кількості промоутерів</ua>
+		<en>Plan of promoter's count</en></plan_promoter_count>
+	<plan_day_sale_prom_card_count>
+		<ru>План по количеству проданных карт одним промоутером в день</ru>
+		<ua>План по кількості проданих карт одним промоутером в день</ua>
+		<en>Plan for one promouter for day's cards sale</en></plan_day_sale_prom_card_count>
+	<plan_day_all_prom_card_count>
+		<ru>План по количеству проданных карт всего в день</ru>
+		<ua>План по кількості проданих карт всього в день</ua>
+		<en>Plan for all day's sales of cards</en></plan_day_all_prom_card_count>
+		
+	<h_promoter_work_param>
+		<ru>Место работы</ru>
+		<ua>Місце роботи</ua>
+		<en>Work place</en></h_promoter_work_param>
+	<h_promoter_payment_param>
+		<ru>Параметры выплат</ru>
+		<ua>Параметри виплат</ua>
+		<en>Payment parameters</en></h_promoter_payment_param>
+	<bon_card_for_payment>
+		<ru>Карта для выплат баллами</ru>
+		<ua>Карта для виплат балами</ua>
+		<en>Card for points payments</en></bon_card_for_payment>
+	<bon_payment_percent>
+		<ru>% выплат баллами</ru>
+		<ua>% виплат балами</ua>
+		<en>Points payment percent</en></bon_payment_percent>
+	<date_begin_payment>
+		<ru>Дата начала выплат</ru>
+		<ua>Дата початку виплат</ua>
+		<en>Begin payment date</en></date_begin_payment>
+	<date_end_payment>
+		<ru>Дата окончания выплат</ru>
+		<ua>Дата завершення виплат</ua>
+		<en>End payment date</en></date_end_payment>
+	
+	
+	<h_promoter_payment_param>
+		<ru>Параметры выплат</ru>
+		<ua>Параметри виплат</ua>
+		<en>Payment parameters</en></h_promoter_payment_param>
+	<h_promoter_payment_card>
+		<ru>Карты для выплат</ru>
+		<ua>Карти для виплат</ua>
+		<en>Cards for payment</en></h_promoter_payment_card>
+	<h_supervisor_param>
+		<ru>Супервайзеры</ru>
+		<ua>Супервайзери</ua>
+		<en>Supervisors</en></h_supervisor_param>
+	<h_manager_param>
+		<ru>Руководители</ru>
+		<ua>Керівники</ua>
+		<en>Managers</en></h_manager_param>
+	<l_remove_work_h>
+		<ru>Удалить информацию о работе промоутера</ru>
+		<ua>Видалити інформацію про роботу промоутера</ua>
+		<en>Delete promoter's work information</en></l_remove_work_h>
+	<l_remove_supervisor_h>
+		<ru>Удалить назначение супервайзера</ru>
+		<ua>Видалити призначення супервайзера</ua>
+		<en>Delete set of supervisor</en></l_remove_supervisor_h>
+	<l_remove_pay_param_h>
+		<ru>Удалить параметр выплат</ru>
+		<ua>Видалити параметр виплат</ua>
+		<en>Delete payment parameter</en></l_remove_pay_param_h>
+		
+	<date_begin_set>
+		<ru>Дата назначения</ru>
+		<ua>Дата призначення</ua>
+		<en>Set date</en></date_begin_set>
+	<date_end_set>
+		<ru>Дата отмены</ru>
+		<ua>Дата відміни</ua>
+		<en>Cancel date</en></date_end_set>
+		
+	<date_begin_pay_param>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+		<en>Begin action date</en></date_begin_pay_param>
+	<date_end_pay_param>
+		<ru>Дата окончания действия</ru>
+		<ua>Дата завершення дії</ua>
+		<en>End action date</en></date_end_pay_param>
+	<base_rate>
+		<ru>Базовая ставка</ru>
+		<ua>Базова ставка</ua>
+		<en>Base rate</en></base_rate>
+	<bon_pay_percent>
+		<ru>% выплат баллами</ru>
+		<ua>% виплат балами</ua>
+		<en>Points pay percent</en></bon_pay_percent>
+	<button_set_supervisor>
+		<ru>Назначить</ru>
+		<ua>Призначити</ua>
+		<en>Set</en></button_set_supervisor>
+		
+	<h_button_work_place_accept>
+		<ru>Принять</ru>
+		<ua>Призначити</ua>
+		<en>Accept</en></h_button_work_place_accept>
+	<h_button_work_place_transfer>
+		<ru>Перевести</ru>
+		<ua>Перевести</ua>
+		<en>Transfer</en></h_button_work_place_transfer>
+	<h_button_work_place_dismiss>
+		<ru>Уволить</ru>
+		<ua>Звільнити</ua>
+		<en>Dismiss</en></h_button_work_place_dismiss>
+		
+	<cd_lg_promoter_state_work>
+		<ru>Работает</ru>
+		<ua>Працює</ua>
+		<en>Work</en></cd_lg_promoter_state_work>
+		
+	<value_paym_for_one_card_sale>
+		<ru>Выплаты за одну проданную карту</ru>
+		<ua>Виплати за одну продану карту</ua>
+		<en>Payment for one card sale</en></value_paym_for_one_card_sale>
+	<value_paym_for_oc_sale>
+		<ru>Выплаты за одну проданную карту</ru>
+		<ua>Виплати за одну продану карту</ua>
+		<en>Payment for one card sale</en></value_paym_for_oc_sale>
+	<cashier_pay_one_card_salary>
+		<ru>Выплаты за одну проданную карту</ru>
+		<ua>Виплати за одну продану карту</ua>
+		<en>Payment for one card sale</en></cashier_pay_one_card_salary>
+	<cashier_pay_oc_salary>
+		<ru>Выплаты за одну проданную карту</ru>
+		<ua>Виплати за одну продану карту</ua>
+		<en>Payment for one card sale</en></cashier_pay_oc_salary>
+	<cashier_first_card_not_pay>
+		<ru>Не выплачивать за первые проданные N карт</ru>
+		<ua>Не виплачувати за перші продані N карт</ua>
+		<en>Do not pay for N card's sale</en></cashier_first_card_not_pay>
+	<cashier_first_card_np>
+		<ru>Не выплачивать за первые проданные N карт</ru>
+		<ua>Не виплачувати за перші продані N карт</ua>
+		<en>Do not pay for N card's sale</en></cashier_first_card_np>
+	<promoter_min_day_salary>
+		<ru>Минимальная зарплата в день</ru>
+		<ua>Мінімальна зарплата в день</ua>
+		<en>Day minimum salary</en></promoter_min_day_salary>
+	<promoter_cost_one_card_less>
+		<ru>Уменьшить выплату на ... при невыполенении плана (для одной карты)</ru>
+		<ua>Зменшити виплату на ... при невиконанні плану (для однієї карти)</ua>
+		<en>Down payment on ... for dismiss plan (for one card)</en></promoter_cost_one_card_less>
+	<promoter_cost_oc_less>
+		<ru>Уменьшить выплату на ... при невыполенении плана (для одной карты)</ru>
+		<ua>Зменшити виплату на ... при невиконанні плану (для однієї карти)</ua>
+		<en>Down payment on ... for dismiss plan (for one card)</en></promoter_cost_oc_less>
+	<promoter_cost_oc_over>
+		<ru>Увеличить выплату на ... при перевыполнении плана (для одной карты)</ru>
+		<ua>Збільшити виплату на ... при перевиконанні плану (для однієї карти)</ua>
+		<en>Up payment on ... for great plan (for one card)</en></promoter_cost_oc_over>
+	<promoter_cost_one_card_over>
+		<ru>Увеличить выплату на ... при перевыполнении плана (для одной карты)</ru>
+		<ua>Збільшити виплату на ... при перевиконанні плану (для однієї карти)</ua>
+		<en>Up payment on ... for great plan (for one card)</en></promoter_cost_one_card_over>
+	<promoter_plan_day_salary>
+		<ru>Зарплата в день</ru>
+		<ua>Зарплата в день</ua>
+		<en>Day salary</en></promoter_plan_day_salary>
+	<supervisor_month_base_rate>
+		<ru>Базовая ставка в месяц</ru>
+		<ua>Базова ставка за місяць</ua>
+		<en>Month base rate</en></supervisor_month_base_rate>
+	<supervisor_month_br>
+		<ru>Базовая ставка в месяц</ru>
+		<ua>Базова ставка за місяць</ua>
+		<en>Month base rate</en></supervisor_month_br>
+	<supervisor_cost_one_card_overp>
+		<ru>Увеличить выплату на ... при перевыполнении плана (для одной карты)</ru>
+		<ua>Збільшити виплату на ... при перевиконанні плану (для однієї карти)</ua>
+		<en>Up payment on ... for great plan (for one card)</en></supervisor_cost_one_card_overp>
+	<supervisor_cost_oc_overp>
+		<ru>Увеличить выплату на ... при перевыполнении плана (для одной карты)</ru>
+		<ua>Збільшити виплату на ... при перевиконанні плану (для однієї карти)</ua>
+		<en>Up payment on ... for great plan (for one card)</en></supervisor_cost_oc_overp>
+	<date_begin_pay_card>
+		<ru>Дата начала выплат</ru>
+		<ua>Дата початку виплат</ua>
+		<en>Begin payment date</en></date_begin_pay_card>
+	<date_end_pay_card>
+		<ru>Дата окончания выплат</ru>
+		<ua>Дата завершення виплат</ua>
+		<en>End payment date</en></date_end_pay_card>
+		
+	<id_lg_promoter_penalty>
+		<ru>ИД штрафа</ru>
+		<ua>ІД штрафу</ua>
+		<en>Penalty ID</en></id_lg_promoter_penalty>
+	<date_lg_promoter_penalty>
+		<ru>Дата наложения штрафа</ru>
+		<ua>Дата накладання штрафу</ua>
+		<en>Penalty date</en></date_lg_promoter_penalty>
+	<value_lg_promoter_penalty>
+		<ru>Сумма штрафа</ru>
+		<ua>Сума штрафа</ua>
+		<en>Penalty amount</en></value_lg_promoter_penalty>
+	<reason_lg_promoter_penalty>
+		<ru>Причина наложения штрафа</ru>
+		<ua>Причина накладання штрафу</ua>
+		<en>Penalty reason</en></reason_lg_promoter_penalty>
+	<value_lg_penalty_wr_off>
+		<ru>Сумма списания</ru>
+		<ua>Сума списання</ua>
+		<en>Write off value</en></value_lg_penalty_wr_off>
+		
+	<id_lg_promoter_payment>
+		<ru>ИД выплат</ru>
+		<ua>ІД виплат</ua>
+		<en>Payment ID</en></id_lg_promoter_payment>
+	<id_lg_promoter_pay_line>
+		<ru>ИД строки выплат</ru>
+		<ua>ІД рядка виплат</ua>
+		<en>Payment line ID</en></id_lg_promoter_pay_line>
+	<cd_lg_promoter_pay_kind>
+		<ru>Вид выплат</ru>
+		<ua>Вид виплат</ua>
+		<en>Payment kind</en></cd_lg_promoter_pay_kind>
+	<name_lg_promoter_pay_kind>
+		<ru>Вид выплат</ru>
+		<ua>Вид виплат</ua>
+		<en>Payment kind</en></name_lg_promoter_pay_kind>
+	<cd_lg_promoter_pay_state>
+		<ru>Состояние выплат</ru>
+		<ua>Стан виплат</ua>
+		<en>Payment state</en></cd_lg_promoter_pay_state>
+	<name_lg_promoter_pay_state>
+		<ru>Состояние выплат</ru>
+		<ua>Стан виплат</ua>
+		<en>Payment state</en></name_lg_promoter_pay_state>
+	<date_lg_promoter_payment>
+		<ru>Дата формирования документа</ru>
+		<ua>Дата формування документа</ua>
+		<en>Document creation date</en></date_lg_promoter_payment>
+	<date_begin_sale>
+		<ru>Начало периода продажи карт</ru>
+		<ua>Початок періода продажу карт</ua>
+		<en>Cards sale period begin</en></date_begin_sale>
+	<date_end_sale>
+		<ru>Окончание периода продажи карт</ru>
+		<ua>Завершення періода продажу карт</ua>
+		<en>Cards sale period end</en></date_end_sale>
+	<date_begin_sale_period>
+		<ru>Начало периода продажи карт</ru>
+		<ua>Початок періода продажу карт</ua>
+		<en>Cards sale period begin</en></date_begin_sale_period>
+	<date_end_sale_period>
+		<ru>Окончание периода продажи карт</ru>
+		<ua>Завершення періода продажу карт</ua>
+		<en>Cards sale period end</en></date_end_sale_period>
+	<amount_all_payment>
+		<ru>Всего начислено</ru>
+		<ua>Всього нараховано</ua>
+		<en>Calculated</en></amount_all_payment>
+	<amount_currency_payment>
+		<ru>Выплаты наличными</ru>
+		<ua>Виплата готівкою</ua>
+		<en>Cash payment</en></amount_currency_payment>
+	<amount_penalty>
+		<ru>Штрафы</ru>
+		<ua>Штрафи</ua>
+		<en>Penalties</en></amount_penalty>
+	<amount_bon_payment>
+		<ru>Выплаты баллами</ru>
+		<ua>Виплати балами</ua>
+		<en>Payments in points</en></amount_bon_payment>
+		
+	<h_action_promoter_payment_add>
+		<ru>Добавить выплату</ru>
+		<ua>Додати виплату</ua>
+		<en>Add payments</en></h_action_promoter_payment_add>
+	<h_action_promoter_payment_delete>
+		<ru>Удалить выплату</ru>
+		<ua>Видалити виплату</ua>
+		<en>Delete payments</en></h_action_promoter_payment_delete>
+
+	<h_action_penalty_add>
+		<ru>Добавить штраф</ru>
+		<ua>Додати штраф</ua>
+		<en>Add penalty</en></h_action_penalty_add>
+	<h_action_penalty_delete>
+		<ru>Удалить штраф</ru>
+		<ua>Видалити штраф</ua>
+		<en>Delete penalty</en></h_action_penalty_delete>
+
+	<h_action_promoter_transfer>
+		<ru>Перевести промоутера</ru>
+		<ua>Перевести промоутера</ua>
+		<en>Transfer of promoter</en></h_action_promoter_transfer>
+	<date_promoter_transfer>
+		<ru>Дата перевода</ru>
+		<ua>Дата переведення</ua>
+		<en>Transfer date</en></date_promoter_transfer>
+	<h_action_promoter_dismiss>
+		<ru>Уволить промоутера</ru>
+		<ua>Звільнити промоутера</ua>
+		<en>Dismiss of promoter</en></h_action_promoter_dismiss>
+	<date_promoter_dismiss>
+		<ru>Дата увольнения</ru>
+		<ua>Дата звільнення</ua>
+		<en>Dismiss date</en></date_promoter_dismiss>
+		
+	<h_action_promoter_pay_param_add>
+		<ru>Добавить параметры выплат</ru>
+		<ua>Додати параметри виплат</ua>
+		<en>Add payment parameters</en></h_action_promoter_pay_param_add>
+</logistics>

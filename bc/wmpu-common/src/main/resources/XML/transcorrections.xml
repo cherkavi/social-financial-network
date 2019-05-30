@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<transcorrections>
+	<general>
+        <ru>Ошибочные транзакции</ru>
+		<ua>Помилкові транзакції</ua>
+	    <en>Error transactions</en></general>
+	<ID_TERM>
+        <ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en></ID_TERM>
+	<ID_TRANS>
+ 		<ru>ИД транзакции</ru>
+		<ua>ІД транзакції</ua>
+		<en>Transaction ID</en></ID_TRANS>
+	<CD_CARD>
+		<ru>Номер карты</ru>
+		<ua>Номер картки</ua>
+		<en>Card number</en></CD_CARD>
+	<STATE_TRANS>
+		<ru>Статус транзакции</ru>
+		<ua>Статус транзакції</ua>
+	       	<en>Transaction Status</en></STATE_TRANS>
+	<MEANING>
+    		<ru>Значение статуса</ru>
+		<ua>Значення статуса</ua>
+	       	<en>Status Meaning</en></MEANING>
+	<SYS_DATE>
+        	<ru>Дата операции</ru>
+		<ua>Дата операції</ua>
+	       	<en>Operation Date</en></SYS_DATE>
+	<SYS_TIME>
+		<ru>Время операции</ru>
+		<ua>Час операції</ua>
+		<en>Operation Time</en></SYS_TIME>
+	<C_NT_ICC>
+		<RU>№ клубной транзакции</RU>
+		<UA>№ клубної транзакції</UA>
+		<US>Club transaction number</US></C_NT_ICC>
+	<NT_EXT>
+		<ru>Номер внешней транзакции карты</ru>
+		<ua>Номер зовнішньої транзакції картки</ua>
+	    <en>External Transaction Number</en></NT_EXT>
+	<LAB_EDIT_PARM>
+		<ru>Редактировать параметр</ru>
+		<ua>Редагувати параметр</ua>
+		<en>Edit parameter</en></LAB_EDIT_PARM> 
+	<t_features>
+		<ru>Значение параметра</ru>
+		<ua>Значення параметра</ua>
+		<en>Parameter setting</en> </t_features>   
+</transcorrections>    

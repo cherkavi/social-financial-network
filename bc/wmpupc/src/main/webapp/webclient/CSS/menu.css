@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+	
+	#slidetabsmenu {
+		float:left;
+		width:100%;
+		font-size:90%;
+    	top: 20px;
+		line-height:normal;
+		vertical-align: bottom;
+		border-bottom: 0px solid gray;
+	}
+
+	* html #slidetabsmenu{
+		margin-bottom: 1em;
+	}
+	
+	#slidetabsmenu ul{
+		list-style-type: none;
+		margin:0;
+		margin-left: 10px;
+		padding:0;
+	}
+	
+	#slidetabsmenu li{
+		display:inline;
+		margin:0;
+		padding:0;
+	}
+	
+	#slidetabsmenu a {
+		float:left;
+		background:url(images/tab-left.gif) no-repeat left top;
+		margin:0;
+		padding:0 0 0 9px;
+		text-decoration:none;
+	}
+	
+	#slidetabsmenu a span {
+		float:left;
+		display:block;
+		background:url(images/tab-right.gif) no-repeat right top;
+		padding:3px 14px 3px 5px;
+		font-weight:bold;
+		color:#3B3B3B;
+		font-size: 14px;
+	}
+	
+	
+	#slidetabsmenu a span {
+		float:none;
+	}
+	
+	
+	#slidetabsmenu a:hover span {
+		color: black;
+	}
+	
+	#slidetabsmenu #current a {
+		background-position:0 -125px;
+	}
+	
+	#slidetabsmenu #current a span {
+		background-position:100% -125px;
+		color: black;
+		font-size: 14px;
+	}
+	
+	#slidetabsmenu a:hover {
+		background-position:0% -125px;
+	}
+	
+	#slidetabsmenu a:hover span {
+		background-position:100% -125px;
+	}

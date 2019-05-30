@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<club>
+	<general>
+		<RU>СМПУ</RU>
+		<UA>ММПО</UA>
+		<EN>SMPU</EN>
+	</general>
+	<club>
+		<RU>СМПУ</RU>
+		<UA>ММПО</UA>
+		<EN>SMPU</EN>
+	</club>
+	<h_all_clubs>
+		<RU>Все СМПУ</RU>
+		<UA>Всі ММПО</UA>
+		<EN>All SMPU</EN>
+	</h_all_clubs>
+	<h_out_of_clubs>
+		<RU>Вне СМПУ</RU>
+		<UA>Поза ММПО</UA>
+		<EN>Out of SMPU</EN>
+	</h_out_of_clubs>
+	<club_date_beg>
+		<ru>Дата регистрации в СМПУ</ru>
+		<ua>Дата реєстрації в ММПО</ua>
+		<en>Date of registration in SMPU</en>
+	</club_date_beg>
+	<id_jur_prs>
+		<RU>ИД оператора (юридического лица)</RU>
+		<UA>IД оператора (юридичної особи)</UA>
+		<EN>Operator ID (legal person)</EN>
+	</id_jur_prs>
+	<code_country>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</code_country>
+	<id_jur_prs_parent>
+		<RU>ИД высшего юридического лица</RU>
+		<UA>IД вищої юридичної особи</UA>
+		<EN>Higher legal person ID</EN>
+	</id_jur_prs_parent>
+	<submission_level>
+		<RU>Уровень подчинения</RU>
+		<UA>Рiвень пiдпорядкування</UA>
+		<EN>Submission level</EN>
+	</submission_level>
+	<id_submission_type>
+		<RU>Тип подчинения</RU>
+		<UA>Тип пiдпорядкування</UA>
+		<EN>Submission type</EN>
+	</id_submission_type>
+	<name_submission_type>
+		<RU>Тип подчинения</RU>
+		<UA>Тип пiдпорядкування</UA>
+		<EN>Submission type</EN>
+	</name_submission_type>
+	<inn_number>
+		<RU>ИНН</RU>
+		<UA>ІПН</UA>
+		<EN>ITN</EN>
+	</inn_number>
+	<jur_prs_and_target_prg>
+		<RU>Партнер/ целевая программа</RU>
+		<UA>Партнер/ цільова програма</UA>
+		<EN>Partner/ target program</EN>
+	</jur_prs_and_target_prg>
+	<jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</jur_prs>
+	<name_jur_prs>
+		<RU>Название партнера</RU>
+		<UA>Назва партнера</UA>
+		<EN>Partner name</EN>
+	</name_jur_prs>
+	<sname_jur_prs>
+		<RU>Сокращенное название партнера</RU>
+		<UA>Скорочена назва партнера</UA>
+		<EN>Partner name</EN>
+	</sname_jur_prs>
+	<adr_zip_code>
+		<RU>Почтовый индекс</RU>
+		<UA>Поштовий iндекс</UA>
+		<EN>ZIP code</EN>
+	</adr_zip_code>
+	<adr_oblast>
+		<RU>Область</RU>
+		<UA>Область</UA>
+		<EN>Oblast</EN>
+	</adr_oblast>
+	<adr_district>
+		<RU>Район</RU>
+		<UA>Район</UA>
+		<EN>District</EN>
+	</adr_district>
+	<adr_city>
+		<RU>Город</RU>
+		<UA>Мiсто</UA>
+		<EN>City</EN>
+	</adr_city>
+	<adr_street>
+		<RU>Улица</RU>
+		<UA>Вулиця</UA>
+		<EN>Street</EN>
+	</adr_street>
+	<adr_det>
+		<RU>Детальное размещение</RU>
+		<UA>Детальне розмiщення</UA>
+		<EN>Detailed location</EN>
+	</adr_det>
+	<adr_date_beg>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Beginning date</EN>
+	</adr_date_beg>
+	<adr_date_end>
+		<RU>Дата завершения</RU>
+		<UA>Дата завершення</UA>
+		<EN>Ending date</EN>
+	</adr_date_end>
+	<phone_work>
+		<RU>Рабочий телефон</RU>
+		<UA>Робочий телефон</UA>
+		<EN>Work phone</EN>
+	</phone_work>
+	<phone_mobile>
+		<RU>Мобильный телефон</RU>
+		<UA>Мобiльний телефон</UA>
+		<EN>Mobile phone</EN>
+	</phone_mobile>
+	<fax>
+		<RU>Факс</RU>
+		<UA>Факс</UA>
+		<EN>Fax</EN>
+	</fax>
+	<pager>
+		<RU>Пейджер</RU>
+		<UA>Пейджер</UA>
+		<EN>Pager</EN>
+	</pager>
+	<email>
+		<RU>Электронная почта</RU>
+		<UA>Електронна пошта</UA>
+		<EN>E-mail</EN>
+	</email>
+	<manager>
+		<RU>Руководитель</RU>
+		<UA>Керiвник</UA>
+		<EN>Leader</EN>
+	</manager>
+	<accountant>
+		<RU>Главный бухгалтер</RU>
+		<UA>Головний бухгалтер</UA>
+		<EN>Chief accountant</EN>
+	</accountant>
+	<contact_person>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</contact_person>
+	<ver_key>
+		<RU>Версия ключа</RU>
+		<UA>Версiя ключа</UA>
+		<EN>Key version</EN>
+	</ver_key>
+	<addition_inf>
+		<RU>Дополнительная информация</RU>
+		<UA>Додаткова iнформацiя</UA>
+		<EN>Additional information</EN>
+	</addition_inf>
+	<adr_full>
+		<RU>Адрес</RU>
+		<UA>Адреса</UA>
+		<EN>Address</EN>
+	</adr_full>
+	<id_club>
+		<RU>ИД СМПУ</RU>
+		<UA>ІД ММПО</UA>
+		<EN>SMPY ID</EN>
+	</id_club>
+	<cd_club>
+		<RU>Код СМПУ</RU>
+		<UA>Код ММПО</UA>
+		<EN>SMPY code</EN>
+	</cd_club>
+	<name_club>
+		<RU>Название СМПУ</RU>
+		<UA>Назва ММПО</UA>
+		<EN>SMPY name</EN>
+	</name_club>
+	<sname_club>
+		<RU>Сокращенное название СМПУ</RU>
+		<UA>Скорочена назва ММПО</UA>
+		<EN>SMPY short name</EN>
+	</sname_club>
+	<id_operator>
+		<RU>ИД оператора</RU>
+		<UA>ІД оператора</UA>
+		<EN>Operator ID</EN>
+	</id_operator>
+	<name_operator>
+		<RU>Оператор СМПУ</RU>
+		<UA>Оператор ММПО</UA>
+		<EN>SMPU operator</EN>
+	</name_operator>
+	<id_clearing_bank>
+		<RU>ИД расчетного банка</RU>
+		<UA>IД розрахункового банку</UA>
+		<EN>Calculation bank ID</EN>
+	</id_clearing_bank>
+	<name_clearing_bank>
+		<RU>Расчетный банк</RU>
+		<UA>Розрахунковий банк</UA>
+		<EN>Calculation bank</EN>
+	</name_clearing_bank>
+	<cd_currency_base>
+		<RU>Базовая валюта</RU>
+		<UA>Базова валюта</UA>
+		<EN>Base currency</EN>
+	</cd_currency_base>
+	<account_postings_immediate>
+		<RU>Проводки немедленно после проверок</RU>
+		<UA>Проведення негайно пiсля перевiрок</UA>
+		<EN>Entries immediately after verifications</EN>
+	</account_postings_immediate>
+	<code_country_def>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</code_country_def>
+	<name_country_def>
+		<RU>Страна по умолчанию</RU>
+		<UA>Країна за умовчанням</UA>
+		<EN>Default country</EN>
+	</name_country_def>
+	<currency_rounding_rule>
+		<RU>Правила округления курсов валют</RU>
+		<UA>Правила округлення курсiв валют</UA>
+		<EN>Rules of exchange rates rounding</EN>
+	</currency_rounding_rule>
+	<debugging>
+		<RU>Режим отладки</RU>
+		<UA>Режим настройки</UA>
+		<EN>Debugging regime</EN>
+	</debugging>
+	<default_trace_level>
+		<RU>Уровень трассировки</RU>
+		<UA>Рiвень трасування</UA>
+		<EN>Level of tracing</EN>
+	</default_trace_level>
+	<def_term_loyalty_sheme>
+		<RU>Схема лояльности по умолчанию</RU>
+		<UA>Схема лояльностi за умовчанням</UA>
+		<EN>loyalty scheme by default</EN>
+	</def_term_loyalty_sheme>
+	<exc_wtx_time>
+		<RU>Прирост времени ожидания телеграммы (сек.)</RU>
+		<UA>Приріст часу очiкування телеграми (сек.)</UA>
+		<EN>Add telegram's expectation time (sec.)</EN>
+	</exc_wtx_time>
+	<expect_time>
+		<RU>Количество дней ожидания</RU>
+		<UA>Кiлькiсть днiв очiкування</UA>
+		<EN>Quantity of expectation days</EN>
+	</expect_time>
+	<max_error_messages>
+		<RU>Максимальное количество ошибочных телеграмм</RU>
+		<UA>Максимальна кiлькiсть помилкових телеграм</UA>
+		<EN>Maximal quamtity of erroneous telegrams</EN>
+	</max_error_messages>
+	<outputdest>
+		<RU>Путь вывода информации</RU>
+		<UA>Шлях виведення iнформацiї</UA>
+		<EN>Way of information outputing</EN>
+	</outputdest>
+	<outputdir>
+		<RU>Каталог вывода информации</RU>
+		<UA>Каталог виведення iнформацiї</UA>
+		<EN>Catalogue of information outputing</EN>
+	</outputdir>
+	<rounding_rule>
+		<RU>Правила округления проводок</RU>
+		<UA>Правила округлення проведень</UA>
+		<EN>Ruls of entries rounding</EN>
+	</rounding_rule>
+	<term_parm_time>
+		<RU>Количество дней актуальности параметров терминала</RU>
+		<UA>Кiлькість днiв актуальностi параметрiв терминалу</UA>
+		<EN>Quantity of days of terminal profiles actuality</EN>
+	</term_parm_time>
+	<def_ver_key>
+		<RU>Версия ключа шифрования телеграмм</RU>
+		<UA>Версiя ключа шифрування телеграм</UA>
+		<EN>Version of encrypt key of telegrams</EN>
+	</def_ver_key>
+	<def_ver_telgr>
+		<RU>Версия телеграмм</RU>
+		<UA>Версiя телеграм</UA>
+		<EN>Version of telegram</EN>
+	</def_ver_telgr>
+	<t_parameters>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_parameters>
+	<t_accounts>
+		<RU>Банковские счета</RU>
+		<UA>Банкiвськi рахунки</UA>
+		<EN>Bank accounts</EN>
+	</t_accounts>
+	<h_add_bank_account>
+		<ru>Назначить банковский счет юридическому лицу</ru>
+		<ua>Призначити банківський рахунок юридичній особі</ua>
+		<en>To appoint bank account to legal person</en></h_add_bank_account>
+	<bk_account_segments_count>
+		<ru>Количество сегментов в бухгалтерском счете</ru>
+		<ua>Кількість сегментів в бухгалтерському рахунку</ua>
+		<en>Quantity of segments in business account</en></bk_account_segments_count>
+	<t_comission>
+		<ru>Комиссии</ru>
+		<ua>Комісії</ua>
+		<en>Comissions</en></t_comission>
+	<h_add_comission>
+		<ru>Добавить комиссию</ru>
+		<ua>Додати комісію</ua>
+		<en>Add commission</en></h_add_comission>
+	<h_add_club>
+		<ru>Добавить СМПУ</ru>
+		<ua>Додати ММПО</ua>
+		<en>Add SMPU</en></h_add_club>
+	<h_remove_club>
+		<ru>Удалить СМПУ</ru>
+		<ua>Видалити ММПО</ua>
+		<en>Delete SMPU</en></h_remove_club>
+	<bk_account_consolidate>
+		<ru>Группировать бухгалтерские проводки</ru>
+		<ua>Групувати бухгалтерські проведення</ua>
+		<en>Group accountant entries</en></bk_account_consolidate>
+	<clearing_doc_number>
+		<ru>Номер документа по клирингу</ru>
+		<ua>Номер документа по клірингу</ua>
+		<en>Document number by clearing</en></clearing_doc_number>
+	<clearing_doc_pattern>
+		<ru>Шаблон документа по клирингу</ru>
+		<ua>Шаблон документа по клірингу</ua>
+		<en>Template of document by clearing</en></clearing_doc_pattern>
+	<h_jur_prs>
+		<RU>Регистрационные данные</RU>
+		<UA>Реєстраційні дані</UA>
+		<EN>Registration data</EN></h_jur_prs>
+	<h_club_param>
+		<RU>Параметры СМПУ</RU>
+		<UA>Параметри ММПО</UA>
+		<EN>SMPU parameters</EN>
+	</h_club_param>
+	<bk_export_format>
+		<RU>Формат файлов</RU>
+		<UA>Формат файлів</UA>
+		<EN>Files format</EN>
+	</bk_export_format>
+	<bk_export_dir>
+		<RU>Каталог для выгрузки</RU>
+		<UA>Каталог для вигрузки</UA>
+		<EN>Export directory</EN>
+	</bk_export_dir>
+	<bk_export_coding>
+		<RU>Кодировка файлов</RU>
+		<UA>Кодова сторінка файлів</UA>
+		<EN>Files coding</EN>
+	</bk_export_coding>
+	<clearing_export_format>
+		<RU>Формат файлов</RU>
+		<UA>Формат файлів</UA>
+		<EN>Files format</EN>
+	</clearing_export_format>
+	<clearing_export_dir>
+		<RU>Каталог для выгрузки</RU>
+		<UA>Каталог для вигрузки</UA>
+		<EN>Export directory</EN>
+	</clearing_export_dir>
+	<clearing_export_coding>
+		<RU>Кодировка файлов</RU>
+		<UA>Кодова сторінка файлів</UA>
+		<EN>Files coding</EN>
+	</clearing_export_coding>
+	<bank_statement_import_format>
+		<RU>Формат файлов</RU>
+		<UA>Формат файлів</UA>
+		<EN>Files format</EN>
+	</bank_statement_import_format>
+	<bank_statement_import_dir>
+		<RU>Каталог для выгрузки</RU>
+		<UA>Каталог для вигрузки</UA>
+		<EN>Export directory</EN>
+	</bank_statement_import_dir>
+	<bank_statement_import_coding>
+		<RU>Кодировка файлов</RU>
+		<UA>Кодова сторінка файлів</UA>
+		<EN>Files coding</EN>
+	</bank_statement_import_coding>
+	<auth_server_host>
+		<RU>Сервер</RU>
+		<UA>Сервер</UA>
+		<EN>Server</EN>
+	</auth_server_host>
+	<auth_server_port>
+		<RU>Порт</RU>
+		<UA>Порт</UA>
+		<EN>Port</EN>
+	</auth_server_port>
+	<auth_server_charset>
+		<RU>Кодовая страница</RU>
+		<UA>Кодова сторінка</UA>
+		<EN>Code page</EN>
+	</auth_server_charset>
+	<parse_trans_immediately>
+		<RU>Режим распознавания транзакций</RU>
+		<UA>Режим розпізнавання транзакцій</UA>
+		<EN>Mode of transactions recognition</EN>
+	</parse_trans_immediately>
+	<parse_trans_count>
+		<RU>Количество распознанных транзакций</RU>
+		<UA>Кількість розпізнаних транзакцій</UA>
+		<EN>Quantity of recognized transactions</EN>
+	</parse_trans_count>
+	<parse_trans_total_time>
+		<RU>Время распознавания транзакций (сек.)</RU>
+		<UA>Час розпізнавання транзакцій (сек.)</UA>
+		<EN>Time of transactions recognition (sec.)</EN>
+	</parse_trans_total_time>
+	<parse_trans_avg_time_limit>
+		<RU>Макс. время распознавания транзакций (сек.)</RU>
+		<UA>Макс. час розпізнавання транзакцій (сек.)</UA>
+		<EN>Maximum time of transactions recognition (sec.)</EN>
+	</parse_trans_avg_time_limit>
+	<parse_trans_avg_time>
+		<RU>Среднее время распознавания транзакций (сек.)</RU>
+		<UA>Середній час розпізнавання транзакцій (сек.)</UA>
+		<EN>Average time  of transactions recognition (sec.)</EN>
+	</parse_trans_avg_time>
+	<max_resp_time>
+		<RU>Максимальное время ожидания (сек.)</RU>
+		<UA>Максимальний час очікування (сек.)</UA>
+		<EN>Maximal waiting time(sec.)</EN>
+	</max_resp_time>
+	<posting_doc_number>
+		<RU>Номер бух.документа</RU>
+		<UA>Номер бух.документу</UA>
+		<EN>Accounting document number</EN>
+	</posting_doc_number>
+	<posting_doc_pattern>
+		<RU>Шаблон бух.документа</RU>
+		<UA>Шаблон бух.документу</UA>
+		<EN>Accounting  document template</EN>
+	</posting_doc_pattern>
+	<t_info>
+		<RU>Регистрационные данные</RU>
+		<UA>Реєстраційні дані</UA>
+		<EN>Registration data</EN></t_info>
+	<no_actions_with_card_max_days>
+		<RU>Максимальное время отсутствия действий с картой (дней)</RU>
+		<UA>Максимальний час відсутності дій з картою (днів)</UA>
+		<EN>Maximum time of actions absence with card (days)</EN></no_actions_with_card_max_days>
+	<t_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></t_bk_accounts>
+	<t_issuer>
+		<ru>Параметры эмитента</ru>		
+		<ua>Параметри емітента</ua>
+		<en>Issuer's parameters</en></t_issuer>
+	<h_term_exchange>
+		<ru>Обмен с терминалами</ru>
+		<ua>Обмін з терміналами</ua>
+		<en>Interchange with terminals</en></h_term_exchange>
+	<h_bk_accounts>
+		<ru>Бухгалтерские счета</ru>
+		<ua>Бухгалтерські рахунки</ua>
+		<en>Accounts</en></h_bk_accounts>
+	<h_posting>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></h_posting>
+	<h_bk_documents>
+		<ru>Бухгалтерские документы</ru>
+		<ua>Бугалтерські документи</ua>
+		<en>Accounting documents</en></h_bk_documents>
+	<h_bk_export>
+		<ru>Выгрузка бухгалтерских документов</ru>
+		<ua>Вигрузка бухгалтерських документів</ua>
+		<en>Accounting documents export</en></h_bk_export>
+	<h_clearing>
+		<ru>Клиринг</ru>
+		<ua>Кліринг</ua>
+		<en>Clearing</en></h_clearing>
+	<h_clearing_export>
+		<ru>Выгрузка клиринга</ru>
+		<ua>Вигрузка кліринга</ua>
+		<en>Clearing export</en></h_clearing_export>
+	<h_bank_statements_import>
+		<ru>Загрузка банковских выписок</ru>
+		<ua>Завантаження банківських виписок</ua>
+		<en>Import statements of account</en></h_bank_statements_import>
+	<h_general_auth_server>
+		<ru>Основной сервер авторизации</ru>
+		<ua>Основний сервер авторизації</ua>
+		<en>General authentification server</en></h_general_auth_server>
+	<h_reserve_auth_server>
+		<ru>Резервный сервер авторизации</ru>
+		<ua>Резервний сервер авторизації</ua>
+		<en>Reserve authentification server</en></h_reserve_auth_server>
+	<h_transaction_processing>
+		<ru>Обработка транзакций</ru>
+		<ua>Обробка транзакцій</ua>
+		<en>Transaction processing</en></h_transaction_processing>
+	<h_card_processing>
+		<ru>Работа с картами</ru>
+		<ua>Робота з картами</ua>
+		<en>Card processing</en></h_card_processing>
+	<group_clearing_lines>
+		<ru>Группировать строки клиринга</ru>
+		<ua>Групувати рядки клірингу</ua>
+		<en>Clearing lines grouping</en></group_clearing_lines>
+	<term_code_page>
+		<RU>Кодовая страница терминала</RU>
+		<UA>Кодова сторінка терміналу</UA>
+		<EN>Terminal code page</EN></term_code_page>
+	<crypt_telgr>
+		<RU>Шифровать телеграммы</RU>
+		<UA>Шифрувати телеграми</UA>
+		<EN>Encrypt telegrams</EN>
+	</crypt_telgr>
+	<term_certificates_dir>
+		<RU>Хранилище сертификатов</RU>
+		<UA>Сховище сертифікатів</UA>
+		<EN>Certificate's warehouse</EN>
+	</term_certificates_dir>
+	<h_admin>
+		<RU>Администрирование</RU>
+		<UA>Адміністрування</UA>
+		<EN>Administration</EN>
+	</h_admin>
+	<t_connections>
+		<RU>Подключения</RU>
+		<UA>Підключення</UA>
+		<EN>Connections</EN>
+	</t_connections>
+	<h_delete_comission>
+		<ru>Удалить комиссию</ru>
+		<ua>Видалити комісію</ua>
+		<en>Delete comission</en>
+	</h_delete_comission>
+	<h_debugging>
+		<ru>Отладка</ru>
+		<ua>Налагодження</ua>
+		<en>Debug</en>
+	</h_debugging>
+	
+	<h_registration_data>
+		<ru>Регистрационные данные</ru>
+		<ua>Реэстраційні дані</ua>
+		<en>Registration data</en>
+	</h_registration_data>
+	<h_general_parameters>
+		<ru>Основные параметры</ru>
+		<ua>Основні параметри</ua>
+		<en>General parameters</en>
+	</h_general_parameters>
+	
+	
+	<h_add_online_payment_type>
+		<ru>Добавить тип платежа</ru>
+		<ua>Додати тип платежу</ua>
+		<en>Add payment type</en>
+	</h_add_online_payment_type>
+	<h_delete_online_payment_type>
+		<ru>Удалить тип платежа</ru>
+		<ua>Видалити тип платежу</ua>
+		<en>Delete payment type</en>
+	</h_delete_online_payment_type>
+	<h_update_online_payment_type>
+		<ru>Изменить тип платежа</ru>
+		<ua>Змінити тип платежу</ua>
+		<en>Update payment type</en>
+	</h_update_online_payment_type>
+	<id_club_online_pay_type>
+		<ru>ИД вида платежа</ru>
+		<ua>ІД виду платежу</ua>
+		<en>Payment type ID</en>
+	</id_club_online_pay_type>
+	<name_club_online_pay_type>
+		<ru>Название вида платежа</ru>
+		<ua>Назва виду платежу</ua>
+		<en>Name of payment type</en>
+	</name_club_online_pay_type>
+	<desc_club_online_pay_type>
+		<ru>Описание вида платежа</ru>
+		<ua>Видалити карту</ua>
+		<en>Description of payment type</en>
+	</desc_club_online_pay_type>
+	<exist_club_online_pay_type>
+		<ru>Действующий</ru>
+		<ua>Діючий</ua>
+		<en>Work</en>
+	</exist_club_online_pay_type>
+	<term_card_req_club_pay_id_def>
+		<ru>Код платежа в телеграммах</ru>
+		<ua>Код платежа в телеграмах</ua>
+		<en>Payment code in telegrams</en>
+	</term_card_req_club_pay_id_def>
+	<need_calc_pin>
+		<ru>Требовать ПИН</ru>
+		<ua>Вимагати ПІН</ua>
+		<en>Require PIN</en>
+	</need_calc_pin>
+	
+	<is_club_member>
+		<ru>Участвует в СМПУ</ru>
+		<ua>Бере участь в ММПО</ua>
+		<en>Is member of SMPU</en>
+	</is_club_member>
+	
+	<club_member_type>
+		<ru>Тип участия в СМПУ</ru>
+		<ua>Тип участі в ММПО</ua>
+		<en>Type of participation in SMPU</en>
+	</club_member_type>
+	<club_member_status>
+		<ru>Статус участия в СМПУ</ru>
+		<ua>Статус участі в ММПО</ua>
+		<en>Status of participation in SMPU</en>
+	</club_member_status>
+	
+	<id_referral_scheme>
+		<ru>ИД реферальной схемы</ru>
+		<ua>ІД реферальної схеми</ua>
+		<en>Referral scheme ID</en>
+	</id_referral_scheme>
+	<name_referral_scheme>
+		<ru>Название реферальной схемы</ru>
+		<ua>Назва реферальної схеми</ua>
+		<en>Referral scheme name</en>
+	</name_referral_scheme>
+	<desc_referral_scheme>
+		<ru>Описание реферальной схемы</ru>
+		<ua>Опис реферальної схеми</ua>
+		<en>Referral scheme description</en>
+	</desc_referral_scheme>
+	<cd_referral_scheme_type>
+		<ru>Тип реферальной схемы</ru>
+		<ua>Тип реферальної схеми</ua>
+		<en>Referral scheme type</en>
+	</cd_referral_scheme_type>
+	<name_referral_scheme_type>
+		<ru>Тип реферальной схемы</ru>
+		<ua>Тип реферальної схеми</ua>
+		<en>Referral scheme type</en>
+	</name_referral_scheme_type>
+	<cd_referral_scheme_rec_type>
+		<ru>Тип реферала</ru>
+		<ua>Тип реферала</ua>
+		<en>Referral type</en>
+	</cd_referral_scheme_rec_type>
+	<name_referral_scheme_rec_type>
+		<ru>Тип реферала</ru>
+		<ua>Тип реферала</ua>
+		<en>Referral type</en>
+	</name_referral_scheme_rec_type>
+	<cd_referral_scheme_calc_type>
+		<ru>Способ начисления реферальных баллов</ru>
+		<ua>Спосіб нарахування реферальних балів</ua>
+		<en>Way of referral points charge</en>
+	</cd_referral_scheme_calc_type>
+	<name_referral_scheme_calc_type>
+		<ru>Способ начисления реферальных баллов</ru>
+		<ua>Спосіб нарахування реферальних балів</ua>
+		<en>Way of referral points charge</en>
+	</name_referral_scheme_calc_type>
+	
+	<h_add_referral_scheme>
+		<ru>Добавить реферальную схему</ru>
+		<ua>Додати реферальну схему</ua>
+		<en>Add referral scheme</en>
+	</h_add_referral_scheme>
+	<h_delete_referral_scheme>
+		<ru>Удалить реферальную схему</ru>
+		<ua>Видалити реферальну схему</ua>
+		<en>Delete referral scheme</en>
+	</h_delete_referral_scheme>
+	<h_update_referral_scheme>
+		<ru>Изменить параметры реферальной схемы</ru>
+		<ua>Змінити параметри реферальної схеми</ua>
+		<en>Change referral scheme parameters</en>
+	</h_update_referral_scheme>
+	<h_select_referral_scheme>
+		<ru>Выберите реферальную схему</ru>
+		<ua>Виберіть реферальну схему</ua>
+		<en>Select referral scheme</en>
+	</h_select_referral_scheme>
+	
+	<h_add_referral_scheme_line>
+		<ru>Добавить уровень реферальной схемы</ru>
+		<ua>Додати рівень реферальної схеми</ua>
+		<en>Add referral scheme level</en>
+	</h_add_referral_scheme_line>
+	<h_update_referral_scheme_line>
+		<ru>Изменить уровень реферальной схемы</ru>
+		<ua>Змінити рівень реферальної схеми</ua>
+		<en>Update referral scheme level</en>
+	</h_update_referral_scheme_line>
+	<h_delete_referral_scheme_line>
+		<ru>Удалить уровень реферальной схемы</ru>
+		<ua>Видалити рівень реферальної схеми</ua>
+		<en>Delete referral scheme level</en>
+	</h_delete_referral_scheme_line>
+	
+	<target_prg>
+		<RU>Целевая программа</RU>
+		<UA>Цільова програма</UA>
+		<EN>Target program</EN>
+	</target_prg>
+	<partner>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</partner>
+	<is_base>
+		<ru>Базовая схема</ru>
+		<ua>Базова схема</ua>
+		<en>Base scheme</en>
+	</is_base>
+	<is_base_short>
+		<ru>Базовая</ru>
+		<ua>Базова</ua>
+		<en>Base</en>
+	</is_base_short>
+	<date_beg>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Beginning date</EN>
+	</date_beg>
+	<date_end>
+		<RU>Дата завершения</RU>
+		<UA>Дата завершення</UA>
+		<EN>Ending date</EN>
+	</date_end>
+	<name_target_prg>
+		<RU>Целевая программа</RU>
+		<UA>Цільова програма</UA>
+		<EN>Target program</EN>
+	</name_target_prg>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<fio_nat_prs>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</fio_nat_prs>
+	
+	<accounting_level>
+		<RU>Уровень</RU>
+		<UA>Рівень</UA>
+		<EN>Level</EN>
+	</accounting_level>
+	<accounting_level_count>
+		<RU>Количество уровней</RU>
+		<UA>Кількість рівнів</UA>
+		<EN>Level count</EN>
+	</accounting_level_count>
+	
+	<accounting_percent>
+		<RU>Процент начислений</RU>
+		<UA>Процент нарахувань</UA>
+		<EN>Percent</EN>
+	</accounting_percent>
+	<accounting_percent_all>
+		<RU>Общий процент начислений</RU>
+		<UA>Загальний процент нарахувань</UA>
+		<EN>Total percent</EN>
+	</accounting_percent_all>
+	
+	<default_referral>
+		<RU>Реферал по умолчанию</RU>
+		<UA>Реферал за замовчуванням</UA>
+		<EN>Default referral</EN>
+	</default_referral>
+	<shareholder_point_percent>
+		<RU>Процент баллов пайщику при оплате</RU>
+		<UA>Процент балів пайовику при оплаті</UA>
+		<EN>Points percent to shareholder</EN>
+	</shareholder_point_percent>
+	<doc_file_dir>
+		<RU>Каталог файлов документов</RU>
+		<UA>Каталог файлів документів</UA>
+		<EN>Documents files directory</EN>
+	</doc_file_dir>
+</club>

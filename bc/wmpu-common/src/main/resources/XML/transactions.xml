@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<transactions>
+	<general>
+		<RU>Успешные транзакции</RU>
+		<UA>Успішні транзакцiї</UA>
+		<EN>Correct transactions</EN>
+	</general>
+	<TYPE_TABLE>
+		<RU>Тип таблицы</RU>
+		<UA>Тип таблицi</UA>
+		<EN>Table type</EN>
+	</TYPE_TABLE>
+	<id_term_ses>
+		<RU>ИД сессии</RU>
+		<UA>IД сесії</UA>
+		<EN>Session ID</EN>
+	</id_term_ses>
+	<ID_TELGR>
+		<RU>Телеграмма</RU>
+		<UA>Телеграма</UA>
+		<EN>Telegram</EN>
+	</ID_TELGR>
+	<ID_TERM>
+		<RU>Терминал</RU>
+		<UA>Термiнал</UA>
+		<EN>Terminal</EN>
+	</ID_TERM>
+	<ID_TRANS>
+		<RU>Транзакция</RU>
+		<UA>Транзакцiя</UA>
+		<EN>Transaction</EN>
+	</ID_TRANS>
+	<TYPE_TRANS>
+		<RU>Тип транзакции</RU>
+		<UA>Тип транзакцiї</UA>
+		<EN>Transaction type</EN>
+	</TYPE_TRANS>
+	<TYPE_TRANS_TXT>
+		<RU>Тип транзакции</RU>
+		<UA>Тип транзакцiї</UA>
+		<EN>Transaction type</EN>
+	</TYPE_TRANS_TXT>
+	<CARD_SERIAL_NUMBER>
+		<RU>Серийный номер карты</RU>
+		<UA>Серійний номер карти</UA>
+		<EN>Card serial number</EN>
+	</CARD_SERIAL_NUMBER>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<card_nr>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</card_nr>
+	<CD_CURRENCY>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</CD_CURRENCY>
+	<TC_P>
+		<RU>Контекст</RU>
+		<UA>Контекст</UA>
+		<EN>Context</EN>
+	</TC_P>
+	<SYS_DATE>
+		<RU>Системная дата</RU>
+		<UA>Системна дата</UA>
+		<EN>System date</EN>
+	</SYS_DATE>
+	<SYS_TIME>
+		<RU>Системное время</RU>
+		<UA>Системний час</UA>
+		<EN>System time</EN>
+	</SYS_TIME>
+	<NT_ICC>
+		<RU>№ транзакции</RU>
+		<UA>№ транзакції</UA>
+		<EN>Transaction number</EN>
+	</NT_ICC>
+	<NT_EXT>
+		<RU>№ внешней транзакции</RU>
+		<UA>№ зовнішньої транзакцiї</UA>
+		<EN>External transaction number</EN>
+	</NT_EXT>
+	<VK_ENC>
+		<RU>Версия ключа шифрования</RU>
+		<UA>Версiя ключа шифрування</UA>
+		<EN>Encrypting key version</EN>
+	</VK_ENC>
+	<ACTION>
+		<RU>Действие</RU>
+		<UA>Дiя</UA>
+		<EN>Action</EN>
+	</ACTION>
+	<CLUB_ST_PRV>
+		<RU>Вид карты до операции</RU>
+		<UA>Вид карти до операцiї</UA>
+		<EN>Card kind before operation</EN>
+	</CLUB_ST_PRV>
+	<CLUB_DISC_PRV>
+		<RU>% скидки до операции</RU>
+		<UA>% знижки до операцiї</UA>
+		<EN>% of discount before operation</EN>
+	</CLUB_DISC_PRV>
+	<CLUB_BON_PRV>
+		<RU>% баллов до операции</RU>
+		<UA>% балів до операцiї</UA>
+		<EN>% of points before operation</EN>
+	</CLUB_BON_PRV>
+	<DATE_ACC_PRV>
+		<RU>Дата накопления баллов до операции</RU>
+		<UA>Дата накопичення балів до операцiї</UA>
+		<EN>Date of points accumulation before operation</EN>
+	</DATE_ACC_PRV>
+	<DATE_MOV_PRV>
+		<RU>Дата перевода баллов до операции</RU>
+		<UA>Дата переводу балів у використ.</UA>
+		<EN>Date of points transfering before operation</EN>
+	</DATE_MOV_PRV>
+	<DATE_CALC_PRV>
+		<RU>Дата расчета % баллов и скидки до операции</RU>
+		<UA>Дата розрахунку % балів і знижки до операції</UA>
+		<EN>Date of points calculation % before operation</EN>
+	</DATE_CALC_PRV>
+	<BAL_ACC_PRV>
+		<RU>Остаток накопленных баллов до операции</RU>
+		<UA>Залишок накопичених балів до операцiї</UA>
+		<EN>Remain of accumulated points before operation</EN>
+	</BAL_ACC_PRV>
+	<BAL_CUR_PRV>
+		<RU>Остаток использованных баллов до операции</RU>
+		<UA>Залишок використаних балів до операцiї</UA>
+		<EN>Remain of used points before operation</EN>
+	</BAL_CUR_PRV>
+	<BAL_BON_PER_PRV>
+		<RU>Остаток баллов за период до операции</RU>
+		<UA>Залишок балів за период до операцiї</UA>
+		<EN>Remain of points before operation by the period</EN>
+	</BAL_BON_PER_PRV>
+	<BAL_DISC_PER_PRV>
+		<RU>Накопленная скидка до операции</RU>
+		<UA>Накопичена знижка до операцiї</UA>
+		<EN>Accumulated discount before operation</EN>
+	</BAL_DISC_PER_PRV>
+	<OPR_SUM>
+		<RU>Сумма операции</RU>
+		<UA>Сума операцiї</UA>
+		<EN>Operation amount</EN>
+	</OPR_SUM>
+	<SUM_BON>
+		<RU>Насчитано баллов (всего)</RU>
+		<UA>Нараховано балів (всього)</UA>
+		<EN>Counted points (all)</EN>
+	</SUM_BON>
+	<SUM_DISC>
+		<RU>Насчитано скидки</RU>
+		<UA>Нараховано знижки</UA>
+		<EN>Counted discount</EN>
+	</SUM_DISC>
+	<CLUB_ST>
+		<RU>Вид карты</RU>
+		<UA>Вид карти</UA>
+		<EN>Card kind</EN>
+	</CLUB_ST>
+	<CLUB_DISC>
+		<RU>% скидки</RU>
+		<UA>% знижки</UA>
+		<EN>% of discount</EN>
+	</CLUB_DISC>
+	<CLUB_BON>
+		<RU>% баллов</RU>
+		<UA>% балів</UA>
+		<EN>% of points</EN>
+	</CLUB_BON>
+	<DATE_ACC>
+		<RU>Дата накопления баллов</RU>
+		<UA>Дата накопичення балів</UA>
+		<EN>Date of points accumulation</EN>
+	</DATE_ACC>
+	<DATE_MOV>
+		<RU>Дата перевода баллов в использованные</RU>
+		<UA>Дата переведення балів у використані</UA>
+		<EN>Date of points transfering to used</EN>
+	</DATE_MOV>
+	<BAL_ACC>
+		<RU>Остаток накопленных баллов</RU>
+		<UA>Залишок накопичених балів</UA>
+		<EN>Remain of accumulated points</EN>
+	</BAL_ACC>
+	<BAL_CUR>
+		<RU>Остаток использованных баллов</RU>
+		<UA>Залишок використаних балів</UA>
+		<EN>Remain of used points</EN>
+	</BAL_CUR>
+	<BAL_BON_PER>
+		<RU>Остаток баллов за период</RU>
+		<UA>Залишок балів за період</UA>
+		<EN>Remain of points by the period</EN>
+	</BAL_BON_PER>
+	<BAL_DISC_PER>
+		<RU>Накопленная скидка</RU>
+		<UA>Накопичена знижка</UA>
+		<EN>Accumulated discount</EN>
+	</BAL_DISC_PER>
+	<ERR_TX>
+		<RU>Код ошибки в транзакции</RU>
+		<UA>Код помилки в транзакції</UA>
+		<EN>Error code in transaction</EN>
+	</ERR_TX>
+	<STATE_TRANS>
+		<RU>Состояние транзакции</RU>
+		<UA>Стан транзакцiї</UA>
+		<EN>Transaction state</EN>
+	</STATE_TRANS>
+	<pay_type>
+		<RU>Способ оплаты</RU>
+		<UA>Спосіб оплати</UA>
+		<EN>Payment way</EN>
+	</pay_type>
+	<ID_SAM>
+		<RU>SAM</RU>
+		<UA>SAM</UA>
+		<EN>SAM</EN>
+	</ID_SAM>
+	<NT_SAM>
+		<RU>№ транзакции SAM</RU>
+		<UA>№ транзакцiї SAM</UA>
+		<EN>SAM transaction number</EN>
+	</NT_SAM>
+	<MAC_ICC>
+		<RU>MAC ICC</RU>
+		<UA>MAC ICC</UA>
+		<EN>MAC ICC</EN>
+	</MAC_ICC>
+	<MAC_PDA>
+		<RU>MAC PDA</RU>
+		<UA>MAC PDA</UA>
+		<EN>MAC PDA</EN>
+	</MAC_PDA>
+	<VER_TRANS>
+		<RU>Версия транзакции</RU>
+		<UA>Версiя транзакцiї</UA>
+		<EN>Transaction version</EN>
+	</VER_TRANS>
+	<IS_POSTING>
+		<RU>Формировались проводки?</RU>
+		<UA>Формувались проведення?</UA>
+		<EN>Were entries formed?</EN>
+	</IS_POSTING>
+	<ID_TRANS_REVERSED>
+		<RU>ИД сторнированной транзакции</RU>
+		<UA>ІД сторнованої транзакцiї</UA>
+		<EN>Storned transaction ID</EN>
+	</ID_TRANS_REVERSED>
+	<STATE_TRANS>
+		<RU>Состояние транзакции</RU>
+		<UA>Стан транзакції</UA>
+		<EN>Transaction state</EN></STATE_TRANS>
+	<ID_ISSUER>
+		<RU>Эмитент</RU>
+		<UA>Емітент</UA>
+		<EN>Issuer</EN></ID_ISSUER>
+	<ID_ISSUER_TYPE>
+		<RU>Тип эмитента</RU>
+		<UA>Тип емітенту</UA>
+		<EN>Issuer type</EN></ID_ISSUER_TYPE>
+	<ID_PAYMENT_SYSTEM>
+		<RU>Платежная система</RU>
+		<UA>Платіжна система</UA>
+		<EN>Payment system</EN></ID_PAYMENT_SYSTEM>
+	<NAME_CURRENCY>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN></NAME_CURRENCY>
+	<SUM_PAY_CASH>
+		<RU>Сумма оплаты наличными</RU>
+		<UA>Сума оплати готівкою</UA>
+		<EN>Cash payment sum</EN></SUM_PAY_CASH>
+	<SUM_PAY_CARD>
+		<RU>Сумма оплаты картой</RU>
+		<UA>Сума оплати картою</UA>
+		<EN>Sum of payment by card</EN></SUM_PAY_CARD>
+	<SUM_PAY_BON>
+		<RU>Сумма оплаты баллами</RU>
+		<UA>Сума оплати балами</UA>
+		<EN>Sum of payment by points</EN></SUM_PAY_BON>
+	<ERR_TX_DESC>
+		<RU>Код ошибки</RU>
+		<UA>Код помилки</UA>
+		<EN>Error code</EN></ERR_TX_DESC>
+	<IS_POSTING>
+		<RU>Формировались проводки?</RU>
+		<UA>Формувались проведення?</UA>
+		<EN>Were entries formed?</EN></IS_POSTING>
+	<ID_TRANS_DOUBLE>
+		<RU>ИД дублирующей транзакции</RU>
+		<UA>ІД дублюючої транзакції</UA>
+		<EN>Duplicating transaction ID</EN></ID_TRANS_DOUBLE>
+	<SRC_TRANS>
+		<RU>Исходный код транзакции</RU>
+		<UA>Вихідний код транзакції</UA>
+		<EN>Source code of transaction</EN></SRC_TRANS>
+	<ID_PURCHASE>
+		<RU>ИД покупки</RU>
+		<UA>ІД купівлі</UA>
+		<EN>Purchsing ID</EN></ID_PURCHASE>
+	<CHANGED_BY_USER>
+		<RU>Изменено пользователем</RU>
+		<UA>Змінено користувачем</UA>
+		<EN>Changed by user</EN></CHANGED_BY_USER>
+	<USER_WHO_HAS_CHANGED>
+		<RU>Пользователь, который внес изменения</RU>
+		<UA>Користувач, що вніс зміни</UA>
+		<EN>User who made changes</EN></USER_WHO_HAS_CHANGED>
+	<BASES_FOR_CHANGES>
+		<RU>Основание для изменений</RU>
+		<UA>Підстава для змін</UA>
+		<EN>Base for changes</EN></BASES_FOR_CHANGES>
+	<DATE_LAST_USERS_CHANGES>
+		<RU>Дата изменений</RU>
+		<UA>Дата змін</UA>
+		<EN>Changes date</EN></DATE_LAST_USERS_CHANGES>
+	<hint_telgr>
+		<ru>Перейти на описание телеграммы</ru>
+		<ua>Перейти до опису телеграми</ua>
+		<en>Pass to telegram description</en></hint_telgr>
+	<hint_term>
+		<ru>Перейти на описание терминала</ru>
+		<ua>Перейти до опису термінала</ua>
+		<en>Pass to telegram descriptionn</en></hint_term>
+	<hint_sam>
+		<ru>Перейти на описание SAM</ru>
+		<ua>Перейти до опису SAM</ua>
+		<en>Pass to SAM description</en></hint_sam>
+	<hint_trans>
+		<ru>Перейти на описание транзакции</ru>
+		<ua>Перейти до опису транзакції</ua>
+		<en>Pass to transaction description</en></hint_trans>
+	<t_param>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></t_param>
+	<t_telegram>
+		<ru>Телеграмма</ru>
+		<ua>Телеграма</ua>
+		<en>Telegram</en></t_telegram>
+	<t_postings>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></t_postings>
+	<t_broken>
+		<ru>Забраковать</ru>
+		<ua>Забракувати</ua>
+		<en>Reject</en></t_broken>
+	<t_cancel_broken>
+		<ru>Отменить забраковку</ru>
+		<ua>Скасувати забракування</ua>
+		<en>Cancel rejection</en></t_cancel_broken>
+	<t_sys_monitor>
+		<RU>Системный монитор</RU>
+		<UA>Системний монітор</UA>
+		<EN>System monitor</EN></t_sys_monitor>
+	<t_sys_log>
+		<RU>Журнальная информация</RU>
+		<UA>Журнальна інформація</UA>
+		<EN>Log information</EN></t_sys_log>
+	<h_param_before>
+		<ru>Параметры паевого приложения до операции</ru>
+		<ua>Параметри паєвого додатку до операції</ua>
+		<en>Parameters of share application before operation</en></h_param_before>
+	<h_param_after>
+		<ru>Параметры паевого приложения после операции</ru>
+		<ua>Параметри паєвого додатку після операції</ua>
+		<en>Parameters of share application after operation</en></h_param_after>
+	<h_param_operation>
+		<ru>Параметры операции</ru>
+		<ua>Параметри операції</ua>
+		<en>Parameters of operation</en></h_param_operation>
+	<h_param_check>
+		<ru>Параметры кассового приложения</ru>
+		<ua>Параметри касового застосування</ua>
+		<en>Parameters of cass application</en></h_param_check>
+	<h_param_im>
+		<ru>Параметры интернет-магазина</ru>
+		<ua>Параметри інтернет-магазину</ua>
+		<en>Parameters of internet shop</en></h_param_im>
+	<h_param_result>
+		<ru>Результаты обработки</ru>
+		<ua>Результати обробки</ua>
+		<en>Results of treatment</en></h_param_result>
+	<h_user_changing>
+		<ru>Изменения пользователем</ru>
+		<ua>Зміни користувачем</ua>
+		<en>Changes by user</en></h_user_changing>
+	<h_rejection_report>
+		<ru>Результат отбраковки транзакции</ru>
+		<ua>Результат відбракування транзакції</ua>
+		<en>Result of transaction rejection </en></h_rejection_report>
+	<rn>
+		<ru>№ п/п</ru>
+		<ua>№ з/п</ua>
+		<en>Number one after other</en></rn>
+	<fl_ext_loyl>
+		<ru>Флаг использования внешней системы</ru>
+		<ua>Прапорець використання зовнішньої системи</ua>
+		<en>External system usage flag</en></fl_ext_loyl>
+	<club_sum>
+		<ru>Сумма паевой покупки</ru>
+		<ua>Сума паевої купівлі</ua>
+		<en>Amount of share purchasing</en></club_sum>
+	<cash_card_nr>
+		<ru>Номер карты кассира</ru>
+		<ua>Номер карти касира</ua>
+		<en>Number of cashier's card</en></cash_card_nr>
+	<c_nr>
+		<ru>Номер кассового аппарата</ru>
+		<ua>Номер касового апарату</ua>
+		<en>Number of cash register</en></c_nr>
+	<c_check_nr>
+		<ru>Номер кассового чека</ru>
+		<ua>Номер касового чека</ua>
+		<en>Number of cash check</en></c_check_nr>
+	<date_calc>
+		<RU>Дата расчета % баллов и скидки</RU>
+		<UA>Дата розрахунку % балів і знижки</UA>
+		<EN>Date  of calculation % of points and discount</EN></date_calc>
+	<date_onl>
+		<RU>Дата обращения в режиме ONLINE</RU>
+		<UA>Дата звернення в режимі ONLINE</UA>
+		<EN>Appeal date n the mode ONLINE</EN></date_onl>
+	<is_crypted>
+		<RU>Шифровано?</RU>
+		<UA>Шифровано?</UA>
+		<EN>Crypted?</EN></is_crypted>
+	<fl_has_format_error>
+		<RU>Ошибка формата?</RU>
+		<UA>Помилка формату?</UA>
+		<EN>Format error?</EN></fl_has_format_error>
+	<cd_issuer>
+		<RU>Код эмитента</RU>
+		<UA>Код емітента</UA>
+		<EN>Issuer code</EN></cd_issuer>
+	<cd_paym_sys>
+		<RU>Код платежной системы</RU>
+		<UA>Код платіжної системи</UA>
+		<EN>Payment system code</EN></cd_paym_sys>
+	<last_check_phase>
+		<RU>Фаза проверки</RU>
+		<UA>Фаза перевірки</UA>
+		<EN>Checking phase</EN></last_check_phase>
+	<option_blocked>
+		<RU>Блокирована</RU>
+		<UA>Блокована</UA>
+		<EN>Blocked</EN></option_blocked>
+	<LAB_ADD_POSTING>
+		<RU>Добавить проводку</RU>
+		<UA>Додати проводку</UA>
+		<EN>Add entry</EN></LAB_ADD_POSTING>
+	<LAB_EDIT_POSTING>
+		<RU>Редактировать параметры проводки</RU>
+		<UA>Редагувати параметри проводки</UA>
+		<EN>Edit entry</EN></LAB_EDIT_POSTING>
+	<LAB_DELETE_ALL_POSTINGS>
+		<RU>Удалить все проводки для транзакции</RU>
+		<UA>Видалити всі проведення для транзакції</UA>
+		<EN>Delete all transaction entries</EN></LAB_DELETE_ALL_POSTINGS>
+	<LAB_DELETE_ONE_POSTING>
+		<RU>Удалить проводку</RU>
+		<UA>Видалити проводку</UA>
+		<EN>Delete entry</EN></LAB_DELETE_ONE_POSTING>
+	<LAB_CANCEL_POSTING>
+		<RU>Не формировать проводки</RU>
+		<UA>Не формувати проведення</UA>
+		<EN>Cancel posting</EN></LAB_CANCEL_POSTING>
+	<LAB_BROKEN1>
+		<RU>Система забраковывает транзакцию (устанавливает ее состояние в "Ошибка")</RU>
+		<UA>Система забраковує транзакцію (встановлює її стан в "Помилка")</UA>
+		<EN>System rejects transaction (sets its state in "Error")</EN></LAB_BROKEN1>
+	<LAB_BROKEN2>
+		<RU>Примечание: поскольку по транзакции были сформированы проводки, система создаст сторнирующие проводки (см. "Финансы"->"Схема проводок")</RU>
+		<UA>Примітка: оскільки по транзакції були сформовані проведення, система створить сторновані проведення (див. "Фінанси"->"Схема проведень")</UA>
+		<EN>Note: as entries were formed by transactions thje system will create storned entries (see "Finance"->"Entry scheme")</EN></LAB_BROKEN2>
+	<LAB_BROKEN3>
+		<RU>Система устанавливает транзакцию в состояние "Без ошибок"</RU>
+		<UA>Система встанавлює транзакцію в стан "Без помилок"</UA>
+		<EN>System sets transaction in state "Without errors"</EN></LAB_BROKEN3>
+	<h_delete_trans>
+		<RU>Удалить транзакцию</RU>
+		<UA>Видалити транзакцію</UA>
+		<EN>Delete transaction</EN></h_delete_trans>
+		
+	<imid>
+		<RU>Номер ИМ</RU>
+		<UA>Номер ІМ</UA>
+		<EN>IM number</EN></imid>
+	<specid>
+		<RU>Номер заказа</RU>
+		<UA>Номер замовлення</UA>
+		<EN>IM purchase</EN></specid>
+	<clubcard>
+		<RU>Паевая карта?</RU>
+		<UA>Паєва карта?</UA>
+		<EN>Is share card?</EN></clubcard>
+	<cardid>
+		<RU>Код карты</RU>
+		<UA>Код карти</UA>
+		<EN>Card code</EN></cardid>
+		
+	<sum_bon_cash>
+		<RU>Насчитано баллов за платеж наличными</RU>
+		<UA>Нараховано балів за платіж готівкою</UA>
+		<EN>Counted points for payment by cash</EN></sum_bon_cash>
+	<sum_bon_card>
+		<RU>Насчитано баллов за платеж картой</RU>
+		<UA>Нараховано балів за платіж картою</UA>
+		<EN>Counted points for payment by card</EN></sum_bon_card>
+	<sum_bon_bon>
+		<RU>Насчитано баллов за платеж баллами</RU>
+		<UA>Нараховано балів за платіж балами</UA>
+		<EN>Counted points for payment by points</EN></sum_bon_bon>
+	<sum_bon_disc>
+		<RU>Насчитано баллов на скидку</RU>
+		<UA>Нараховано балів на знижку</UA>
+		<EN>Counted points for discount</EN></sum_bon_disc>
+		
+	<h_add_transaction>
+		<RU>Добавить транзакцию</RU>
+		<UA>Додати транзакцію</UA>
+		<EN>Add transaction</EN></h_add_transaction>
+		
+	<input_transaction_type>
+		<RU>Способ ввода информации</RU>
+		<UA>Спосіб введення інформації</UA>
+		<EN>Input information way</EN></input_transaction_type>
+	<input_transaction_source>
+		<RU>Исходный код</RU>
+		<UA>Вихідний код</UA>
+		<EN>Source code</EN></input_transaction_source>
+	<input_transaction_parsed>
+		<RU>Распознанная транзакция</RU>
+		<UA>Розпізнана транзакція</UA>
+		<EN>Parsed transaction</EN></input_transaction_parsed>
+		
+	<entered_manually>
+		<RU>Введена вручную</RU>
+		<UA>Введена вручну</UA>
+		<EN>Entered manually</EN></entered_manually>
+	<h_entered_manually>
+		<RU>введена вручную</RU>
+		<UA>введена вручну</UA>
+		<EN>entered manually</EN></h_entered_manually>
+	<h_log_transaction>
+		<RU>Транзакции</RU>
+		<UA>Транзакції</UA>
+		<EN>Transactions</EN></h_log_transaction>
+	<h_log_posting>
+		<RU>Проводки</RU>
+		<UA>Проводки</UA>
+		<EN>Entries</EN></h_log_posting>
+	<id_profile>
+		<RU>Фильтр</RU>
+		<UA>Фільтр</UA>
+		<EN>Filter</EN></id_profile>
+	<h_trans_ver_not_found>
+		<RU>Транзакции этой версии не существует</RU>
+		<UA>Транзакції цієї версії не існує</UA>
+		<EN>Transaction for this version not found</EN></h_trans_ver_not_found>
+	<h_trans_ver_0_not_found>
+		<RU>Транзакции для версии 0 не существует</RU>
+		<UA>Транзакції для версії 0 не існує</UA>
+		<EN>Transaction for version 0 not found</EN></h_trans_ver_0_not_found>
+	<h_trans_ver_1_not_found>
+		<RU>Транзакции для версии 1 не существует</RU>
+		<UA>Транзакції для версії 1 не існує</UA>
+		<EN>Transaction for version 1 not found</EN></h_trans_ver_1_not_found>
+	<h_trans_ver_2_not_found>
+		<RU>Транзакции для версии 2 не существует</RU>
+		<UA>Транзакції для версії 2 не існує</UA>
+		<EN>Transaction for version 2 not found</EN></h_trans_ver_2_not_found>
+	<h_this_trans_ver_not_found>
+		<RU>Транзакции версии %VER_TRANS% не существует</RU>
+		<UA>Транзакції версії %VER_TRANS% не існує</UA>
+		<EN>Transaction version %VER_TRANS% not found</EN></h_this_trans_ver_not_found>
+	<h_relationships>
+		<RU>Взаимоотношения</RU>
+		<UA>Взаємовідносни</UA>
+		<EN>Relationships</EN></h_relationships>
+	<id_card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</id_card_status>
+	<id_bon_category>
+		<ru>Категория по баллам</ru>
+		<ua>Категорія за балами</ua>
+		<en>Category on points</en>
+	</id_bon_category>
+	<id_disc_category>
+		<ru>Категория по скидке</ru>
+		<ua>Категорія за знижкою</ua>
+		<en>Category on discount</en>
+	</id_disc_category>
+	
+	<id_dealer>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</id_dealer>
+	<name_dealer>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</name_dealer>
+	<sname_dealer>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</sname_dealer>
+	<id_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service point</EN>
+	</id_service_place>
+	<name_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service point</EN>
+	</name_service_place>
+	
+	<h_loyality_param>
+		<ru>Параметры лояльности терминала</ru>
+		<ua>Параметри лояльності термінала</ua>
+		<en>Terminal's loyality parameters</en>
+	</h_loyality_param>
+	<h_loyality_bon>
+		<ru>Параметры лояльности по баллам</ru>
+		<ua>Параметри лояльності за балами</ua>
+		<en>Loyality parameters on points</en>
+	</h_loyality_bon>
+	<h_loyality_disc>
+		<ru>Параметры лояльности по скидкам</ru>
+		<ua>Параметри лояльності за знижками</ua>
+		<en>Loyality parameters on discount</en>
+	</h_loyality_disc>
+	
+	<h_rec_payment_ext_param>
+		<ru>Параметры расширенной транзакции платежа</ru>
+		<ua>Параметри розширеної транзакції платежу</ua>
+		<en>Parameters of extended payment transaction</en>
+	</h_rec_payment_ext_param>
+	<c_nomenkl>
+		<ru>Номенклатура</ru>
+		<ua>Номенклатура</ua>
+		<en>Nomenclature</en>
+	</c_nomenkl>
+	
+	<id_trans_collection>
+		<ru>ИД сбора</ru>
+		<ua>ІД збору</ua>
+		<en>Collection ID</en>
+	</id_trans_collection>
+	<desc_trans_collection>
+		<ru>Описание сбора</ru>
+		<ua>Опис збору</ua>
+		<en>Collection description</en>
+	</desc_trans_collection>
+	<state_trans_collection>
+		<ru>Состояние сбора</ru>
+		<ua>Стан збору</ua>
+		<en>Collection state</en>
+	</state_trans_collection>
+	<send_date_trans_collect>
+		<ru>Дата отправки</ru>
+		<ua>Дата відсилання</ua>
+		<en>Send date</en>
+	</send_date_trans_collect>
+	<rec_all_count>
+		<ru>Количество транзакций</ru>
+		<ua>Кількість транзакцій</ua>
+		<en>Transaction's count</en>
+	</rec_all_count>
+	<rec_payment_count>
+		<ru>Количество REC_PAYMENT</ru>
+		<ua>Кількість REC_PAYMENT</ua>
+		<en>REC_PAYMENT count</en>
+	</rec_payment_count>
+	<rec_payment_ext_count>
+		<ru>Количество REC_PAYMENT_EXT</ru>
+		<ua>Кількість REC_PAYMENT_EXT</ua>
+		<en>REC_PAYMENT_EXT count</en>
+	</rec_payment_ext_count>
+	<rec_payment_im_count>
+		<ru>Количество REC_PAYMENT_IM</ru>
+		<ua>Кількість REC_PAYMENT_IM</ua>
+		<en>REC_PAYMENT_IM count</en>
+	</rec_payment_im_count>
+	<rec_payment_all_count>
+		<ru>Количество REC_PAYMENT</ru>
+		<ua>Кількість REC_PAYMENT</ua>
+		<en>REC_PAYMENT count</en>
+	</rec_payment_all_count>
+	<rec_mov_bon_count>
+		<ru>Количество REC_MOV_BON</ru>
+		<ua>Кількість REC_MOV_BON</ua>
+		<en>REC_MOV_BON count</en>
+	</rec_mov_bon_count>
+	<rec_chk_card_count>
+		<ru>Количество REC_CHK_CARD</ru>
+		<ua>Кількість REC_CHK_CARD</ua>
+		<en>REC_CHK_CARD count</en>
+	</rec_chk_card_count>
+	<rec_inval_card_count>
+		<ru>Количество REC_INVAL_CARD</ru>
+		<ua>Кількість REC_INVAL_CARD</ua>
+		<en>REC_INVAL_CARD count</en>
+	</rec_inval_card_count>
+	<rec_storno_bon_count>
+		<ru>Количество REC_STORNO_BON</ru>
+		<ua>Кількість REC_STORNO_BON</ua>
+		<en>REC_STORNO_BON count</en>
+	</rec_storno_bon_count>
+	<min_trans_sys_date>
+		<ru>Мин.дата транзакций</ru>
+		<ua>Мін.дата транзакцій</ua>
+		<en>Minimum trasnsaction date</en>
+	</min_trans_sys_date>
+	<max_trans_sys_date>
+		<ru>Макс.дата транзакций</ru>
+		<ua>Макс.дата транзакцій</ua>
+		<en>Maximum trasnsaction date</en>
+	</max_trans_sys_date>
+	<h_send_collection>
+		<ru>Отправить сбор терминала</ru>
+		<ua>Відіслати збір термінала</ua>
+		<en>Send terminal's collection</en>
+	</h_send_collection>
+	<h_send_collection_result>
+		<ru>Результат отправки сбора терминала</ru>
+		<ua>Результат відсилання збору термінала</ua>
+		<en>Send terminal's collection result</en>
+	</h_send_collection_result>
+	
+	<adv_code_nr>
+		<ru>Код участия в акции</ru>
+		<ua>Код участі в акції</ua>
+		<en>Event code</en>
+	</adv_code_nr>
+	<club_pay_id>
+		<ru>Код платежа</ru>
+		<ua>Код платежу</ua>
+		<en>Payment code</en>
+	</club_pay_id>
+	<bon_change>
+		<ru>Сумма мелочи в баллы</ru>
+		<ua>Сума мілких грошей в бали</ua>
+		<en>Cash to points</en>
+	</bon_change>
+	
+	<h_calc_payment_param>
+		<ru>Рассчет параметров платежа</ru>
+		<ua>Розрахунок параметрів платежу</ua>
+		<en>Calculate of payment parameters</en>
+	</h_calc_payment_param>
+	
+	<rrn>
+		<ru>RRN</ru>
+		<ua>RRN</ua>
+		<en>RRN</en>
+	</rrn>
+	<rrn_prv>
+		<ru>RRN последней транзакции на карте</ru>
+		<ua>RRN останньої транзакції на карті</ua>
+		<en>RRN las transaction on card</en>
+	</rrn_prv>
+	
+	<h_messages>
+		<ru>Сообщения</ru>
+		<ua>Повідомлення</ua>
+		<en>Messages</en>
+	</h_messages>
+	<club_msg>
+		<ru>Сообщение на карту</ru>
+		<ua>Повідомлення на карту</ua>
+		<en>Message on card</en>
+	</club_msg>
+	<term_msg>
+		<ru>Сообщение терминала</ru>
+		<ua>Повідомлення термінала</ua>
+		<en>Message from terminal</en>
+	</term_msg>
+	
+	<date_trans>
+		<ru>Дата операции</ru>
+		<ua>Дата операції</ua>
+		<en>Operation date</en>
+	</date_trans>
+	<desc_trans>
+		<ru>Описание операции</ru>
+		<ua>Опис операції</ua>
+		<en>Operation description</en>
+	</desc_trans>
+	<name_trans_type>
+		<ru>Тип операции</ru>
+		<ua>Тип операції</ua>
+		<en>Operation type</en>
+	</name_trans_type>
+	<name_trans_state>
+		<ru>Состояние операции</ru>
+		<ua>Стан операції</ua>
+		<en>Operation state</en>
+	</name_trans_state>
+	<cashier_name>
+		<ru>Кассир</ru>
+		<ua>Касир</ua>
+		<en>Cashier</en>
+	</cashier_name>
+	<nc_term>
+		<ru>№ документа</ru>
+		<ua>№ документа</ua>
+		<en>Document</en>
+	</nc_term>
+	<cheque_type>
+		<RU>Тип чека</RU>
+		<UA>Тип чека</UA>
+		<EN>Cheque type</EN>
+	</cheque_type>
+</transactions>

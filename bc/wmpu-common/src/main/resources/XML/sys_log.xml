@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sys_log>
+	<general>
+		<RU>Журнальная информация</RU>
+		<UA>Журнальна інформація</UA>
+		<EN>Login information</EN>
+	</general>
+	<id_log>
+		<RU>ИД записи</RU>
+		<UA>ІД запису</UA>
+		<EN>Record ID</EN>
+	</id_log>
+	<oper_log>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN>
+	</oper_log>
+	<text_log>
+		<RU>Текст</RU>
+		<UA>Текст</UA>
+		<EN>Text</EN>
+	</text_log>
+	<creation_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</creation_date>
+	<user_log_id>
+		<RU>ИД сессии пользователя</RU>
+		<UA>ІД сесії користувача</UA>
+		<EN>User session ID</EN>
+	</user_log_id>
+	<user_name>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User name</EN>
+	</user_name>
+	<database_sid>
+		<RU>SID:SERIAL# базы данных</RU>
+		<UA>SID:SERIAL# бази даних</UA>
+		<EN>Database SID:SERIAL#</EN>
+	</database_sid>
+	<outher_sid>
+		<RU>ИД внешней сессии</RU>
+		<UA>ІД зовнішньої сесії</UA>
+		<EN>External session ID</EN>
+	</outher_sid>
+	<id_telgr>
+		<RU>ИД телеграммы</RU>
+		<UA>ІД телеграми</UA>
+		<EN>Telegram ID</EN>
+	</id_telgr>
+	<id_trans>
+		<RU>ИД транзакции</RU>
+		<UA>ІД транзакції</UA>
+		<EN>Transaction ID</EN>
+	</id_trans>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<row_type>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en></row_type>
+</sys_log>

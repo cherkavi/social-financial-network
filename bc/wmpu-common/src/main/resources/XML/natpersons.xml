@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<natpersons>
+	<general>
+		<RU>Пайщики</RU>
+		<UA>Пайовики</UA>
+		<EN>Shareholders</EN></general>
+	<h_client_not_found>
+		<RU>Пайщик не указан</RU>
+		<UA>Пайовик не вказаний</UA>
+		<EN>Shareholder not entered</EN></h_client_not_found>
+	<ID_NAT_PRS order="1" isObvious="Y" isInFilter="Y" size="" JStype="integer">
+		<ru>ИД </ru>
+		<ua>ІД </ua>
+		<en>ID </en>
+	</ID_NAT_PRS>
+	<CODE_COUNTRY>
+		<ru>Код страны</ru>
+		<ua>Код країни</ua>
+		<en>Country code</en>
+	</CODE_COUNTRY>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країнa</ua>		
+		<en>Country</en>
+	</NAME_COUNTRY>
+	<TAX_CODE>
+		<ru>ИНН</ru>
+		<ua>ІНН</ua>
+		<en>ITN</en>
+		</TAX_CODE>
+	<fio_nat_prs>
+		<ru>Пайщик</ru>
+		<ua>Пайовик</ua>
+		<en>Shareholder</en>
+	</fio_nat_prs>
+	<SURNAME>
+		<ru>Фамилия</ru>
+		<ua>Прізвище</ua>
+		<en>Surname</en>
+	</SURNAME>
+	<NAME>
+		<ru>Имя</ru>
+		<ua>Ім'я</ua>
+		<en>Name</en>
+	</NAME>
+	<PATRONYMIC>
+		<ru>Отчество</ru>
+		<ua>По-батькові</ua>
+		<en>Patronymic</en>
+	</PATRONYMIC>
+	<FULL_NAME order="2" isObvious="N" isInFilter="Y" size="30" JStype="varchar2">
+		<ru>Полное имя</ru>
+		<ua>Повне ім'я</ua>
+		<en>Full name</en>
+	</FULL_NAME>
+	<SEX>
+		<ru>Пол</ru>
+		<ua>Стать</ua>
+		<en>Sex</en>
+	</SEX>
+	<DATE_OF_BIRTH order="4" isObvious="N" isInFilter="Y" size="14" JStype="date">
+		<ru>Дата рождения</ru>
+		<ua>Дата народження</ua>
+		<en>Birthday</en>
+	</DATE_OF_BIRTH>
+	<REG_ADR_FULL>
+		<ru>Адрес регистрации</ru>
+		<ua>Адреса реєстрації</ua>
+		<en>Registration address</en>
+	</REG_ADR_FULL>	
+	<REG_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</REG_ADR_ZIP_CODE>
+	<REG_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</REG_ADR_OBLAST>
+	<REG_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en>
+	</REG_ADR_DISTRICT>
+	<REG_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlment</en>
+	</REG_ADR_CITY>
+	<REG_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</REG_ADR_STREET>
+	<REG_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</REG_ADR_HOUSE>
+	<REG_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</REG_ADR_CASE>
+	<REG_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</REG_ADR_APARTMENT>
+	<PHONE_WORK>
+		<ru>Рабочий телефон</ru>
+		<ua>Робочий телефон</ua>
+		<en>Work phone</en>
+	</PHONE_WORK>
+	<PHONE_HOME>
+		<ru>Домашний телефон</ru>
+		<ua>Домашній телефон</ua>
+		<en>Home phone</en>
+	</PHONE_HOME>
+	<PHONE_MOBILE>
+		<ru>Мобильный телефон</ru>
+		<ua>Мобільний телефон</ua>
+		<en>Mobile phone</en>
+	</PHONE_MOBILE>
+	<PHONE_CONTACT order="5" isObvious="N" isInFilter="Y" size="14" JStype="varchar2">
+		<ru>Контактный телефон</ru>
+		<ua>Контактний телефон</ua>
+		<en>Contact number</en>
+	</PHONE_CONTACT>
+	<FAX>
+		<ru>Факс</ru>
+		<ua>Факс</ua>
+		<en>Fax</en>
+	</FAX>
+	<PAGER>
+		<ru>Пейджер</ru>
+		<ua>Пейджер</ua>
+		<en>Pager</en>
+	</PAGER>
+	<EMAIL order="6" isObvious="N" isInFilter="Y" size="10" JStype="email" value="example@gmail.com">
+		<ru>Электронная почта</ru>
+		<ua>Електронна пошта</ua>
+		<en>E-mail</en>
+	</EMAIL>
+	
+	<h_contact_invalid>
+		<RU>неправильный</RU>
+		<UA>неправильний</UA>
+		<EN>wrong</EN>
+	</h_contact_invalid>
+	<h_contact_checked>
+		<RU>Проверено</RU>
+		<UA>Перевірено</UA>
+		<EN>Checked</EN>
+	</h_contact_checked>
+	
+	<CAN_ACTION_MSG isInFilter="Y">
+		<ru>Признак согласия принимать информацию об акциях</ru>
+		<ua>Ознака згоди на отримання інформації про акції</ua>
+		<en>Sign to receive events information</en>
+	</CAN_ACTION_MSG>
+	<TAB_NATPRS_INFO>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en>
+	</TAB_NATPRS_INFO>
+	<TAB_CLUBCARDS>
+		<ru>Карты</ru>
+		<ua>Карти</ua>
+		<en>Cards</en>
+	</TAB_CLUBCARDS>
+	<LAB_ADD_NATPRS>
+		<ru>Добавить пайщика</ru>
+		<ua>Добавити пайовика</ua>
+		<en>Add new shareholder</en>
+	</LAB_ADD_NATPRS>	
+	<LAB_DELETE_FLD>
+		<ru>Удалить</ru>
+		<ua>Видалити </ua>
+		<en>Delete</en>
+	</LAB_DELETE_FLD>
+	<LAB_EDIT_NATPRS>
+		<ru>Редактировать параметри</ru>
+		<ua>Редагувати параметри</ua>
+		<en>Edit parameters</en>
+	</LAB_EDIT_NATPRS>
+	<CD_CARD>
+		<ru>Карта</ru>
+		<ua>Карти</ua>
+		<en>Card</en>
+	</CD_CARD>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<name_card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</name_card_status>
+	<name_card_type>
+		<ru>Тип карты</ru>
+		<ua>Тип карти</ua>
+		<en>Card type</en>
+	</name_card_type>
+	<date_open>
+		<ru>Дата выдачи</ru>		
+		<ua>Дата видачі</ua>
+		<en>Date of outgiving</en>
+	</date_open>
+	<date_close>
+		<ru>Дата закрытия</ru>		
+		<ua>Дата вилучення</ua>
+		<en>Date of closing</en>
+	</date_close>
+	<name_eng>
+		<ru>Имя на английском</ru>
+		<ua>Ім'я англійською</ua>
+		<en>Name in English</en></name_eng>
+	<surname_eng>
+		<ru>Фамилия на английском</ru>
+		<ua>Прізвище англійською</ua>
+		<en>Last name in English</en></surname_eng>
+	<can_action_msg>
+		<ru>Получать сообщения об акциях</ru>
+		<ua>Отримувати повідомлення про акції</ua>
+		<en>Receive messages about events</en></can_action_msg>
+	<contract_number>
+		<ru>№ анкеты</ru>
+		<ua>№ анкети</ua>
+		<en>Questionnaire number</en></contract_number>
+	<contract_date>
+		<ru>Дата анкеты</ru>
+		<ua>Дата анкети</ua>
+		<en>uestionnaire date</en></contract_date>
+	<contract_desc>
+		<ru>Описание анкеты</ru>
+		<ua>Опис анкети</ua>
+		<en>uestionnaire description</en></contract_desc>
+	<id_jur_prs>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en>
+	</id_jur_prs>
+	<id_contact_prs>
+		<ru>Контактное лицо</ru>
+		<ua>Контактна особа</ua>
+		<en>Contact person</en>
+	</id_contact_prs>
+	<FACT_ADR_FULL order="3" isObvious="N" isInFilter="Y" size="50" JStype="varchar2">
+		<ru>Фактический адрес</ru>
+		<ua>Фактична адреса</ua>
+		<en>Actual address</en>
+	</FACT_ADR_FULL>	
+	<FACT_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</FACT_ADR_ZIP_CODE>
+	<FACT_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</FACT_ADR_OBLAST>
+	<FACT_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en>
+	</FACT_ADR_DISTRICT>
+	<FACT_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en>
+	</FACT_ADR_CITY>
+	<FACT_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</FACT_ADR_STREET>
+	<FACT_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</FACT_ADR_HOUSE>
+	<FACT_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</FACT_ADR_CASE>
+	<FACT_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</FACT_ADR_APARTMENT>
+	<title_pasport>		
+		<ru>Паспорт</ru>
+		<ua>Паспорт</ua>
+		<en>Passport</en>
+	</title_pasport>
+	<PASPORT_CODE_COUNTRY>		
+		<ru>Страна выдачи</ru>
+		<ua>Країна видачі</ua>
+		<en>Country</en>
+	</PASPORT_CODE_COUNTRY>
+	<pasport_series>
+		<ru>Серия паспорта</ru>
+		<ua>Серія паспорта</ua>
+		<en>Passport series</en>
+	</pasport_series>
+	<PASPORT_NUMBER>
+		<ru>Номер паспорта</ru>
+		<ua>Номер паспорта</ua>
+		<en>Passport number</en>
+	</PASPORT_NUMBER>
+	<pasport_series_number>
+		<ru>Серия/номер паспорта</ru>
+		<ua>Серія/номер паспорта</ua>
+		<en>Passport series/number</en>
+	</pasport_series_number>
+	<pasport_division_code>
+		<ru>Код подразделения</ru>
+		<ua>Код підрозділу</ua>
+		<en>Division code</en>
+	</pasport_division_code>
+	<PASPORT_DATE>
+		<ru>Дата выдачи паспорта</ru>
+		<ua>Дата видачі паспорта</ua>
+		<en>Issuing date</en>
+	</PASPORT_DATE>
+	<PASPORT_TEXT>
+		<ru>Кем выдано</ru>
+		<ua>Ким видано</ua>
+		<en>Issued by</en>
+	</PASPORT_TEXT>
+	<FIND_PESON>
+		<ru>Поиск пайщиков</ru>
+		<ua>Пошук пайовиків</ua>
+		<en>Search of shareholders</en>
+	</FIND_PESON>
+	<CD_NAT_PRS_GROUP>
+		<RU>Социально-профессиональная группа</RU>
+		<UA>Соціально-професійна група</UA>
+		<EN>Socially-professional group</EN></CD_NAT_PRS_GROUP>
+	<NAME_OTHER_VARIANT_GROUP>
+		<RU>Другой вариант</RU>
+		<UA>Інший варіант</UA>
+		<EN>Other variant</EN>
+	</NAME_OTHER_VARIANT_GROUP>
+	<reception_information_way>
+		<RU>Получать информацию</RU>
+		<UA>Отримувати інформацію</UA>
+		<EN>Receive the information</EN>
+	</reception_information_way>
+	<can_info_phone>
+		<RU>Телефоном</RU>
+		<UA>Телефоном</UA>
+		<EN>By phone</EN>
+		</can_info_phone>
+	<can_info_email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+		</can_info_email>
+	<can_info_sms>
+		<RU>SMS</RU>
+		<UA>SMS</UA>
+		<EN>SMS</EN>
+		</can_info_sms>
+	<can_info_post>
+		<RU>Почта</RU>
+		<UA>Пошта</UA>
+		<EN>Post</EN>
+		</can_info_post>
+	<shop_advantage>
+		<RU>Преимущества Товарного Партнера</RU>
+		<UA>Переваги Товарного Партнера</UA>
+		<EN>Commodity Partner adwantages</EN>
+		</shop_advantage>
+	<shop_advantage_site>
+		<RU>Местоположение</RU>
+		<UA>Розташування</UA>
+		<EN>Location</EN>
+		</shop_advantage_site>
+	<shop_advantage_low_prices>
+		<RU>Низкие цены</RU>
+		<UA>Низькі ціни</UA>
+		<EN>Low prices</EN>
+		</shop_advantage_low_prices>
+	<shop_advantage_privileges>
+		<RU>Привилегии</RU>
+		<UA>Привілеї</UA>
+		<EN>Privileges</EN>
+		</shop_advantage_privileges>
+	<shop_advantage_assortment>
+		<RU>Ассортимент</RU>
+		<UA>Асортимент</UA>
+		<EN>Assortment</EN>
+		</shop_advantage_assortment>
+	<shop_advantage_service>
+		<RU>Обслуживание</RU>
+		<UA>Обслуговування</UA>
+		<EN>Service</EN>
+		</shop_advantage_service>
+	<t_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></t_bk_accounts>
+	<date_beg>
+		<RU>Дата регистрации у оператора</RU>
+		<UA>Дата реєстрації у оператора</UA>
+		<EN>Operator registration date</EN></date_beg>
+	<button_copy_fact_address>
+		<RU>Копировать фактический адрес</RU>
+		<UA>Копіювати фактичну адресу</UA>
+		<EN>Copy actual adress</EN></button_copy_fact_address>
+	<id_quest_int>
+		<RU>ИД анкеты</RU>
+		<UA>ІД анкети</UA>
+		<EN>Questionaire ID</EN></id_quest_int>
+	<cd_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN></cd_post>
+	<name_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN></name_post>
+	<additional_info>
+		<RU>Дополнительная информация</RU>
+		<UA>Додаткова інформація</UA>
+		<EN>Additional information</EN></additional_info>
+	<validity_percent>
+		<RU>Валидность анкеты (%)</RU>
+		<UA>Валідність анкети (%)</UA>
+		<EN>Questionnaire validity (%)</EN></validity_percent>
+	<h_operator_registration>
+		<RU>Регистрация в потребительском обществе</RU>
+		<UA>Реєстрація в споживчому товаристві</UA>
+		<EN>Registration in consumer society</EN></h_operator_registration>
+	<h_contact_information>
+		<RU>Контактная информация</RU>
+		<UA>Контактна інформація</UA>
+		<EN>Contact information</EN></h_contact_information>
+	<h_working_information>
+		<RU>Является работником</RU>
+		<UA>Є працівником</UA>
+		<EN>Was worker</EN></h_working_information>
+		
+	<id_nat_prs_office>
+		<RU>ИД заявки</RU>
+		<UA>ІД заявки</UA>
+		<EN>Request ID</EN></id_nat_prs_office>
+	<login_nat_prs>
+		<RU>Логин</RU>
+		<UA>Логін</UA>
+		<EN>Login</EN></login_nat_prs>
+	<password_nat_prs>
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN></password_nat_prs>
+	<cd_office_demand_state>
+		<RU>Состояние заявки</RU>
+		<UA>Стан заявки</UA>
+		<EN>Request state</EN></cd_office_demand_state>
+	<number_office_demand>
+		<RU>Номер заявки</RU>
+		<UA>Номер заявки</UA>
+		<EN>Request number</EN></number_office_demand>
+	<name_office_demand_state>
+		<RU>Состояние заявки</RU>
+		<UA>Стан заявки</UA>
+		<EN>Request state</EN></name_office_demand_state>
+	
+	<id_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</id_office_private>
+	<name_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</name_office_private>
+	<sname_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</sname_office_private>
+	
+	<type_shareholder>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN>
+	</type_shareholder>
+	<name_shareholder>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</name_shareholder>
+	<adr_full>
+		<RU>Адрес регистрации/проживания</RU>
+		<UA>Адреса реєстрації/проживання</UA>
+		<EN>Adress</EN>
+	</adr_full>
+	
+	<cd_nat_prs_role_state>
+		<RU>Состояние выдачи карты</RU>
+		<UA>Стан видачі карти</UA>
+		<EN>Card given state</EN>
+	</cd_nat_prs_role_state>
+	<name_nat_prs_role_state>
+		<RU>Состояние выдачи карты</RU>
+		<UA>Стан видачі карти</UA>
+		<EN>Card given state</EN>
+	</name_nat_prs_role_state>
+	<date_card_sale>
+		<RU>Дата продажи карты</RU>
+		<UA>Дата продажу карти</UA>
+		<EN>Date card sale</EN>
+	</date_card_sale>
+	<total_amount_card_sale>
+		<RU>Общая стоимость</RU>
+		<UA>Загальна вартість</UA>
+		<EN>Total amount</EN>
+	</total_amount_card_sale>
+	
+	<photo_nat_prs>
+		<RU>Фотография</RU>
+		<UA>Фотографія</UA>
+		<EN>Photo</EN>
+	</photo_nat_prs>
+	<title_nat_prs_club>
+		<RU>СМПУ</RU>
+		<UA>ММПО</UA>
+		<EN>SMPU</EN>
+	</title_nat_prs_club>
+	<title_nat_prs_cards>
+		<RU>Выданные карты</RU>
+		<UA>Видані карти</UA>
+		<EN>Geven cards</EN>
+	</title_nat_prs_cards>
+	<title_nat_prs_contact_prs>
+		<RU>Место работы</RU>
+		<UA>Місце роботи</UA>
+		<EN>Work place</EN>
+	</title_nat_prs_contact_prs>
+	<h_role_edit>
+		<RU>Изменить параметры участия в СМПУ</RU>
+		<UA>Змінити параметри участі в ММПО</UA>
+		<EN>Сhange parameters of participation in SMPU</EN>
+	</h_role_edit>
+	<club_date_beg>
+		<RU>Дата регистрации в СМПУ</RU>
+		<UA>Дата реєстрації в ММПО</UA>
+		<EN>Date of registration in SMPU</EN>
+	</club_date_beg>
+	<club_date_end>
+		<RU>Дата выхода в СМПУ</RU>
+		<UA>Дата виходу в ММПО</UA>
+		<EN>Date of exit in SMPU</EN>
+	</club_date_end>
+	<desc_nat_prs_role>
+		<RU>Комментарии</RU>
+		<UA>Коментарі</UA>
+		<EN>Comments</EN>
+	</desc_nat_prs_role>
+	<is_questionnaire_checked>
+		<RU>Анкета проверера</RU>
+		<UA>Анкета перевірена</UA>
+		<EN>Questionnaire was checked</EN>
+	</is_questionnaire_checked>
+	<is_organizer>
+		<RU>Оргаризатор</RU>
+		<UA>Організатор</UA>
+		<EN>Organizer</EN>
+	</is_organizer>
+	<is_investor>
+		<RU>Инвестор</RU>
+		<UA>Інвестор</UA>
+		<EN>Investor</EN>
+	</is_investor>
+	<can_use_share_account>
+		<RU>Разрешение на использование паевого счета</RU>
+		<UA>Дозвіл на використання паєвого рахунку</UA>
+		<EN>Permission to use of the share account</EN>
+	</can_use_share_account>
+	<email_work>
+		<RU>Рабочий E-mail</RU>
+		<UA>Робочий E-mail</UA>
+		<EN>Work E-mail</EN>
+	</email_work>
+	<membership_month_sum>
+		<RU>Сумма ежемесячного членского взноса</RU>
+		<UA>Сума щомісячного членського внеску</UA>
+		<EN>Sum of monthly membership dues</EN>
+	</membership_month_sum>
+	<membership_last_date>
+		<RU>Членский взнос оплачен до</RU>
+		<UA>Членський внесок сплачено до</UA>
+		<EN>The membership dues are paid to</EN>
+	</membership_last_date>
+	<id_jur_prs_who_card_sold>
+		<RU>Партнер, который продал карту</RU>
+		<UA>Партнер, який продав карту</UA>
+		<EN>Partner who has sold the card</EN>
+	</id_jur_prs_who_card_sold>
+	<name_serv_plce_where_card_sold>
+		<RU>Пункт обсл., где продана карта</RU>
+		<UA>Пункт обсл., де продано карту</UA>
+		<EN>Service place where the card is sold</EN>
+	</name_serv_plce_where_card_sold>
+	<id_term_who_card_sold>
+		<RU>Терминал, на котором продана карта</RU>
+		<UA>Термінал, на якому продана карта</UA>
+		<EN>The terminal where the card has been sold</EN>
+	</id_term_who_card_sold>
+	<id_user_who_card_sold>
+		<RU>Пользователь, который продал карту</RU>
+		<UA>Користувач, який продав карту</UA>
+		<EN>The user who has sold the card</EN>
+	</id_user_who_card_sold>
+	<id_trans_card_given>
+		<RU>Транзакция продажи карты</RU>
+		<UA>Транзакція продажу карти</UA>
+		<EN>Transaction of sale of the card</EN>
+	</id_trans_card_given>
+	<id_trans_card_activation>
+		<RU>Транзакция активации карты</RU>
+		<UA>Транзакція активації карти</UA>
+		<EN>Transaction of activation of the card</EN>
+	</id_trans_card_activation>
+	<id_jur_prs_card_pack>
+		<RU>Пакет, по которому продана карта</RU>
+		<UA>Пакет, за яким продана карта</UA>
+		<EN>Package on which the card is sold</EN>
+	</id_jur_prs_card_pack>
+	<cd_referral_card1>
+		<RU>Карта рекомендующего пайщика (ИН)</RU>
+		<UA>Карта рекомендуючого пайовика (ІН)</UA>
+		<EN>Recommending shareholder card (IN)</EN>
+	</cd_referral_card1>
+	<id_referral_nat_prs_role>
+		<RU>Реферал</RU>
+		<UA>Реферал</UA>
+		<EN>Referral</EN>
+	</id_referral_nat_prs_role>
+	<referral_isnot_specified>
+		<RU>Реферал не указан</RU>
+		<UA>Реферал не указан</UA>
+		<EN>The referral isn't specified</EN>
+	</referral_isnot_specified>
+	<referral_isnot_specified_short>
+		<RU>Не указана</RU>
+		<UA>Не вказана</UA>
+		<EN>Іsn't specified</EN>
+	</referral_isnot_specified_short>
+	<title_work_place>
+		<RU>Место работы</RU>
+		<UA>Місце роботи</UA>
+		<EN>Work place</EN>
+	</title_work_place>
+	<title_card_sale>
+		<RU>Информация о продаже карты</RU>
+		<UA>Інформація про продаж карти</UA>
+		<EN>Information about card sale</EN>
+	</title_card_sale>
+	<title_card_give>
+		<RU>Выдача карты</RU>
+		<UA>Видача карти</UA>
+		<EN>Card give</EN>
+	</title_card_give>
+	<title_nat_prs_param>
+		<RU>Данные пайщика</RU>
+		<UA>Дані пайовика</UA>
+		<EN>Data of shareholder</EN>
+	</title_nat_prs_param>
+	<CODE_COUNTRY_GIVE>
+		<ru>Страна, где продана карта</ru>
+		<ua>Країна, де продана карта</ua>
+		<en>Country where card is sold</en>
+	</CODE_COUNTRY_GIVE>
+	<title_card>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</title_card>
+	<is_corporate_card>
+		<RU>Корпоративная</RU>
+		<UA>Корпоративна</UA>
+		<EN>Corporate</EN>
+	</is_corporate_card>
+	<is_temporary_card>
+		<RU>Временная</RU>
+		<UA>Тимчасова</UA>
+		<EN>Temporary</EN>
+	</is_temporary_card>
+</natpersons>

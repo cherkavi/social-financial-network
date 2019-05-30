@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<call_center>
+	<general>
+		<RU>Call-центр</RU>
+		<UA>Call-центр</UA>
+		<EN>Call-center</EN>
+	</general>
+	<registration>
+		<RU>Регистрация вопросов</RU>
+		<UA>Реєстрація запитань</UA>
+		<EN>Questions registrations</EN>
+	</registration>
+	<faq>
+		<RU>FAQ</RU>
+		<UA>FAQ</UA>
+		<EN>FAQ</EN>
+	</faq>
+	<administration>
+		<RU>Администрирование</RU>
+		<UA>Адміністрування</UA>
+		<EN>Administration</EN>
+	</administration>
+	<id_cc_faq>
+		<RU>ИД FAQ</RU>
+		<UA>ІД FAQ</UA>
+		<EN>FAQ ID</EN>
+	</id_cc_faq>
+	<cd_cc_faq>
+		<RU>Код FAQ</RU>
+		<UA>Код FAQ</UA>
+		<EN>FAQ code</EN>
+	</cd_cc_faq>
+	<title_cc_faq>
+		<RU>Заголовок</RU>
+		<UA>Заголовок</UA>
+		<EN>Title</EN>
+	</title_cc_faq>
+	<question_cc_faq>
+		<RU>Вопрос</RU>
+		<UA>Запитання</UA>
+		<EN>Question</EN>
+	</question_cc_faq>
+	<answer_cc_faq>
+		<RU>Ответ</RU>
+		<UA>Відповідь</UA>
+		<EN>Answer</EN>
+	</answer_cc_faq>
+	<id_cc_faq_category>
+		<RU>Категория</RU>
+		<UA>Категорія</UA>
+		<EN>Category</EN>
+	</id_cc_faq_category>
+	<name_cc_faq_category>
+		<RU>Категория</RU>
+		<UA>Категорія</UA>
+		<EN>Category</EN>
+	</name_cc_faq_category>
+	<exist_flag>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exist</EN>
+	</exist_flag>
+	
+	<id_user>
+		<RU>ИД пользователя</RU>
+		<UA>ІД користувача</UA>
+		<EN>User ID</EN>
+	</id_user>
+	<name_user>
+		<RU>Название пользователя</RU>
+		<UA>Назва користувача</UA>
+		<EN>User name</EN>
+	</name_user>
+	<desc_user>
+		<RU>Описание пользователя</RU>
+		<UA>Опис користувача</UA>
+		<EN>User description</EN>
+	</desc_user>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<cc_user_status>
+		<RU>Статус пользователя</RU>
+		<UA>Статус користувача</UA>
+		<EN>User status</EN>
+	</cc_user_status>
+	<cc_user_question_type>
+		<RU>Типы вопросов пользователя</RU>
+		<UA>Типи запитань користувача</UA>
+		<EN>User question type</EN>
+	</cc_user_question_type>
+	<cc_all_question_type>
+		<RU>Все типы вопросов</RU>
+		<UA>Всі типи запитань</UA>
+		<EN>All question type</EN>
+	</cc_all_question_type>
+	
+	<cc_contact_type>
+		<RU>Тип контакта</RU>
+		<UA>Тип контакту</UA>
+		<EN>Contact type</EN>
+	</cc_contact_type>	
+	<cc_question_important>
+		<RU>Важность вопроса</RU>
+		<UA>Важність запитання</UA>
+		<EN>Question type</EN>
+	</cc_question_important>	
+	<cc_question_status>
+		<RU>Статус вопроса</RU>
+		<UA>Статус запитання</UA>
+		<EN>Question status</EN>
+	</cc_question_status>	
+	<cc_question_type>
+		<RU>Тип вопроса</RU>
+		<UA>Тип запитання</UA>
+		<EN>Question type</EN>
+	</cc_question_type>	
+	<cc_question_urgent>
+		<RU>Срочность вопроса</RU>
+		<UA>Срочність запитання</UA>
+		<EN>Question urgent</EN>
+	</cc_question_urgent>
+	
+	<id_cc_question>
+		<RU>ИД вопроса</RU>
+		<UA>ІД запитання</UA>
+		<EN>Question ID</EN>
+	</id_cc_question>
+	<found_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</found_date>
+	<found_time>
+		<RU>Время</RU>
+		<UA>Час</UA>
+		<EN>Time</EN>
+	</found_time>
+	<title>
+		<RU>Заголовок</RU>
+		<UA>Заголовок</UA>
+		<EN>Title</EN>
+	</title>
+	<due_date>
+		<RU>Дата регистрации/ обзвона</RU>
+		<UA>Дата реєстрації/ обзвону</UA>
+		<EN>Registration/ call date</EN>
+	</due_date>
+	<card_code>
+		<RU>Код карты</RU>
+		<UA>Код карти</UA>
+		<EN>Card code</EN>
+	</card_code>
+	<description>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</description>
+	<note>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN>
+	</note>
+	<resolution>
+		<RU>Резолюция</RU>
+		<UA>Резолюція</UA>
+		<EN>Resolution</EN>
+	</resolution>
+	<solution>
+		<RU>Решение</RU>
+		<UA>Рішення</UA>
+		<EN>Solution</EN>
+	</solution>
+	<id_cc_activity>
+		<RU>ИД действия</RU>
+		<UA>ІД дії</UA>
+		<EN>Activity ID</EN>
+	</id_cc_activity>
+	<begin_date>
+		<RU>Начало</RU>
+		<UA>Початок</UA>
+		<EN>Begin date</EN>
+	</begin_date>
+	<end_date>
+		<RU>Окончание</RU>
+		<UA>Завершення</UA>
+		<EN>End date</EN>
+	</end_date>
+	
+	<h_add_question>
+		<RU>Добавить вопрос</RU>
+		<UA>Додати запитання</UA>
+		<EN>Add question</EN>
+	</h_add_question>
+	<h_delete_question>
+		<RU>Удалить вопрос</RU>
+		<UA>Видалити запитання</UA>
+		<EN>Delete question</EN>
+	</h_delete_question>
+	<h_add_activity>
+		<RU>Добавить действие</RU>
+		<UA>Додати дію</UA>
+		<EN>Add activity</EN>
+	</h_add_activity>
+	<h_delete_activity>
+		<RU>Удалить действие</RU>
+		<UA>Видалити дію</UA>
+		<EN>Delete activity</EN>
+	</h_delete_activity>
+	<h_update_activity>
+		<RU>Редактировать действие</RU>
+		<UA>Редагувати дію</UA>
+		<EN>Update activity</EN>
+	</h_update_activity>
+	
+	<id_history_record>
+		<RU>ИД записи</RU>
+		<UA>ІД рядка</UA>
+		<EN>ID</EN>
+	</id_history_record>
+	<name_user_who_changed>
+		<RU>Пользователь, который внес изменения</RU>
+		<UA>Користувач, що вніс зміни</UA>
+		<EN>User who was changed</EN>
+	</name_user_who_changed>
+	<change_date>
+		<RU>Дата изменений</RU>
+		<UA>Дата змін</UA>
+		<EN>Change date</EN>
+	</change_date>
+	<change_description>
+		<RU>Описание изменений</RU>
+		<UA>Опис змін</UA>
+		<EN>Description</EN>
+	</change_description>
+	<old_value>
+		<RU>Старое значение</RU>
+		<UA>Старе значення</UA>
+		<EN>Old value</EN>
+	</old_value>
+	<new_value>
+		<RU>Новое значение</RU>
+		<UA>Нове значення</UA>
+		<EN>New value</EN>
+	</new_value>
+	
+	<assigned_user>
+		<RU>Назначено пользователю</RU>
+		<UA>Призначено користувачу</UA>
+		<EN>Assigned to user</EN>
+	</assigned_user>
+	
+	<h_add_faq>
+		<RU>Добавить FAQ</RU>
+		<UA>Додати FAQ</UA>
+		<EN>Add FAQ</EN>
+	</h_add_faq>
+	<h_delete_faq>
+		<RU>Удалить FAQ</RU>
+		<UA>Видалити FAQ</UA>
+		<EN>Delete</EN>
+	</h_delete_faq>
+	
+	<h_add_user>
+		<RU>Добавить пользователя</RU>
+		<UA>Додати користувача</UA>
+		<EN>Add user</EN>
+	</h_add_user>
+	<h_delete_user>
+		<RU>Удалить из списка пользователей Call-центра пользователя </RU>
+		<UA>Видалити зі списку користувачів Call-центру користувача</UA>
+		<EN>Delete from Call-center users list</EN>
+	</h_delete_user>
+	
+	<cd_cc_call_group_state>
+		<RU>Cостояние группы</RU>
+		<UA>Стан групи</UA>
+		<EN>Group state</EN>
+	</cd_cc_call_group_state>
+	<name_cc_call_group_state>
+		<RU>Cостояние группы</RU>
+		<UA>Стан групи</UA>
+		<EN>Group state</EN>
+	</name_cc_call_group_state>
+	<id_cc_call_group>
+		<RU>ИД группы</RU>
+		<UA>ІД групи</UA>
+		<EN>Group ID</EN>
+	</id_cc_call_group>
+	<name_cc_call_group>
+		<RU>Название группы</RU>
+		<UA>Назва групи</UA>
+		<EN>Group name</EN>
+	</name_cc_call_group>
+	<desc_cc_call_group>
+		<RU>Описание группы</RU>
+		<UA>Опис групи</UA>
+		<EN>Group description</EN>
+	</desc_cc_call_group>
+	<date_cc_call_group>
+		<RU>Дата создания группы</RU>
+		<UA>Дата створення групи</UA>
+		<EN>Group creation date</EN>
+	</date_cc_call_group>
+	<clients_count>
+		<RU>Количество клиентов</RU>
+		<UA>Кількість клієнтів</UA>
+		<EN>Clients count</EN>
+	</clients_count>
+	<h_add_call_group>
+		<RU>Добавить группу обзвона</RU>
+		<UA>Додати групу обзвону</UA>
+		<EN>Add call group</EN>
+	</h_add_call_group>
+	<h_delete_call_group>
+		<RU>Удалить группу обзвона</RU>
+		<UA>Видалити групу обзвону</UA>
+		<EN>Delete call group</EN>
+	</h_delete_call_group>
+	<h_update_call_group>
+		<RU>Изменить группу обзвона</RU>
+		<UA>Змінити групу обзвону</UA>
+		<EN>Update call group</EN>
+	</h_update_call_group>
+	<h_add_call_group_client>
+		<RU>Добавить клиента группы обзвона</RU>
+		<UA>Додати клієнта групи обзвону</UA>
+		<EN>Add call group client</EN>
+	</h_add_call_group_client>
+	<h_delete_call_group_client>
+		<RU>Удалить клиента группы обзвона</RU>
+		<UA>Видалити клієнта групи обзвону</UA>
+		<EN>Delete call group client</EN>
+	</h_delete_call_group_client>
+	
+	<inquirer_line_answer_style>
+		<RU>Стиль ответов в опроснике</RU>
+		<UA>Стиль відповідей в опитувальнику</UA>
+		<EN>Asnwer style in inquirer</EN>
+	</inquirer_line_answer_style>
+	<inquirer_line_answer_select>
+		<RU>Список выбора</RU>
+		<UA>Список вибору</UA>
+		<EN>Select</EN>
+	</inquirer_line_answer_select>
+	<inquirer_line_answer_radio>
+		<RU>Радио кнопки</RU>
+		<UA>Радіо кнопки</UA>
+		<EN>Radio</EN>
+	</inquirer_line_answer_radio>
+
+	<cg_criterion>
+		<RU>Критерии отбора:</RU>
+		<UA>Критерії відбору:</UA>
+		<EN>Criterion:</EN>
+	</cg_criterion>
+	<cg_crit_begin_purchase_date>
+		<RU>1. Неактивные с:</RU>
+		<UA>1. Неактивні з:</UA>
+		<EN>1. Inactive from:</EN>
+	</cg_crit_begin_purchase_date>
+	<cg_crit_end_purchase_date>
+		<RU>по:</RU>
+		<UA>по:</UA>
+		<EN>to:</EN>
+	</cg_crit_end_purchase_date>
+	<cg_crit_give_for_event>
+		<RU>2. Выданные по акции:</RU>
+		<UA>2. Видані по акції:</UA>
+		<EN>2. Issued for event:</EN>
+	</cg_crit_give_for_event>
+	<cg_crit_given_from_date>
+		<RU>3. Выданные с:</RU>
+		<UA>3. Видані з:</UA>
+		<EN>3. Issued from:</EN>
+	</cg_crit_given_from_date>
+	<cg_crit_given_to_date>
+		<RU>по:</RU>
+		<UA>по:</UA>
+		<EN>to:</EN>
+	</cg_crit_given_to_date>
+	<cg_crit_made_purchases>
+		<RU>4. Сделавшие покупок:</RU>
+		<UA>4. Що зробили покупок:</UA>
+		<EN>4. Made purchases:</EN>
+	</cg_crit_made_purchases>
+	<cg_crit_made_purchase_less>
+		<RU>меньше</RU>
+		<UA>меньше</UA>
+		<EN>less</EN>
+	</cg_crit_made_purchase_less>
+	<cg_crit_made_purchase_equal>
+		<RU>равно</RU>
+		<UA>рівно</UA>
+		<EN>equal</EN>
+	</cg_crit_made_purchase_equal>
+	<cg_crit_made_purchase_more>
+		<RU>больше</RU>
+		<UA>більше</UA>
+		<EN>more</EN>
+	</cg_crit_made_purchase_more>
+	<cg_crit_made_purchase_from_date>
+		<RU>за период с:</RU>
+		<UA>за період з:</UA>
+		<EN>period from:</EN>
+	</cg_crit_made_purchase_from_date>
+	<cg_crit_made_purchase_to_date>
+		<RU>по:</RU>
+		<UA>по:</UA>
+		<EN>to:</EN>
+	</cg_crit_made_purchase_to_date>
+	<crit_made_purchase_dealer>
+		<RU>у Партнера:</RU>
+		<UA>у Партнера:</UA>
+		<EN>on Partner:</EN>
+	</crit_made_purchase_dealer>
+	
+	<cd_cc_inquirer_state>
+		<RU>Cостояние опросника</RU>
+		<UA>Стан опитувальника</UA>
+		<EN>inquirer state</EN>
+	</cd_cc_inquirer_state>
+	<name_cc_inquirer_state>
+		<RU>Cостояние опросника</RU>
+		<UA>Стан опитувальника</UA>
+		<EN>inquirer state</EN>
+	</name_cc_inquirer_state>
+	<id_cc_inquirer>
+		<RU>ИД опросника</RU>
+		<UA>ІД опитувальника</UA>
+		<EN>inquirer ID</EN>
+	</id_cc_inquirer>
+	<name_cc_inquirer>
+		<RU>Название опросника</RU>
+		<UA>Назва опитувальника</UA>
+		<EN>inquirer name</EN>
+	</name_cc_inquirer>
+	<desc_cc_inquirer>
+		<RU>Описание опросника</RU>
+		<UA>Опис опитувальника</UA>
+		<EN>inquirer description</EN>
+	</desc_cc_inquirer>
+	<date_cc_inquirer>
+		<RU>Дата создания опросника</RU>
+		<UA>Дата створення опитувальника</UA>
+		<EN>inquirer creation date</EN>
+	</date_cc_inquirer>
+	<h_add_inquirer>
+		<RU>Добавить опросник</RU>
+		<UA>Додати опитувальник</UA>
+		<EN>Add inquirer</EN>
+	</h_add_inquirer>
+	<h_delete_inquirer>
+		<RU>Удалить опросник</RU>
+		<UA>Видалити опитувальник</UA>
+		<EN>Delete inquirer</EN>
+	</h_delete_inquirer>
+	<h_update_inquirer>
+		<RU>Изменить опросник</RU>
+		<UA>Змінити опитувальник</UA>
+		<EN>Update inquirer</EN>
+	</h_update_inquirer>
+	<h_add_inquirer_client>
+		<RU>Добавить клиента опросника</RU>
+		<UA>Додати клієнта опитувальника</UA>
+		<EN>Add inquirer client</EN>
+	</h_add_inquirer_client>
+	<h_delete_inquirer_client>
+		<RU>Удалить клиента опросника</RU>
+		<UA>Видалити клієнта опитувальника</UA>
+		<EN>Delete inquirer client</EN>
+	</h_delete_inquirer_client>
+	
+	<cd_cc_inquirer_line_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN>
+	</cd_cc_inquirer_line_type>
+	<name_cc_inquirer_line_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN>
+	</name_cc_inquirer_line_type>
+	<id_cc_inquirer_line>
+		<RU>ИД вопроса</RU>
+		<UA>ІД запитання</UA>
+		<EN>Question ID</EN>
+	</id_cc_inquirer_line>
+	<order_number>
+		<RU>№ п/п</RU>
+		<UA>№ з/п</UA>
+		<EN>Order</EN>
+	</order_number>
+	<question_cc_inquirer_line>
+		<RU>Вопрос</RU>
+		<UA>Запитання</UA>
+		<EN>Question</EN>
+	</question_cc_inquirer_line>
+	<desc_cc_inquirer_line>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</desc_cc_inquirer_line>
+	<required_inquirer_line>
+		<RU>Ответ обязательный</RU>
+		<UA>Відповідь обов'язкова</UA>
+		<EN>Required answer</EN>
+	</required_inquirer_line>
+	<multy_choice>`
+		<RU>Множ. значение</RU>
+		<UA>Множ. значення</UA>
+		<EN>Multy choice</EN>
+	</multy_choice>
+	<values_cc_inquirer_line>
+		<RU>Ответы</RU>
+		<UA>Відповіді</UA>
+		<EN>Answers</EN>
+	</values_cc_inquirer_line>
+	<values_cc_inquirer_line_html>
+		<RU>Ответы</RU>
+		<UA>Відповіді</UA>
+		<EN>Answers</EN>
+	</values_cc_inquirer_line_html>
+	<h_add_inquirer_line>
+		<RU>Добавить вопрос</RU>
+		<UA>Додати запитання</UA>
+		<EN>Add answer</EN>
+	</h_add_inquirer_line>
+	<h_delete_inquirer_line>
+		<RU>Удалить вопрос</RU>
+		<UA>Видалити запитання</UA>
+		<EN>Delete answer</EN>
+	</h_delete_inquirer_line>
+	<h_update_inquirer_line>
+		<RU>Изменить вопрос</RU>
+		<UA>Змінити запитання</UA>
+		<EN>Update answer</EN>
+	</h_update_inquirer_line>
+	
+	
+	<fio_nat_prs>
+		<RU>Клиент</RU>
+		<UA>Клієнт</UA>
+		<EN>Client</EN>
+	</fio_nat_prs>
+	<phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile</EN>
+	</phone_mobile>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<card_last_date_payment>
+		<RU>Дата последнего платежа</RU>
+		<UA>Дата останнього платежа</UA>
+		<EN>Last payment date</EN>
+	</card_last_date_payment>
+	<card_payment_count>
+		<RU>Количество платежей</RU>
+		<UA>Кількість платежів</UA>
+		<EN>Payment count</EN>
+	</card_payment_count>
+	<card_payment_sum>
+		<RU>Сумма платежей</RU>
+		<UA>Сума платежів</UA>
+		<EN>Payment sum</EN>
+	</card_payment_sum>
+	<card_bal_exist>
+		<RU>Баллов на карте</RU>
+		<UA>Балів на карті</UA>
+		<EN>Points on card</EN>
+	</card_bal_exist>
+	<card_bal_calc>
+		<RU>Задолженность/начисления</RU>
+		<UA>Заборгованість/нарахування</UA>
+		<EN>Debt/charges</EN>
+	</card_bal_calc>
+	<card_bal_feauture>
+		<RU>Планируемый остаток баллов</RU>
+		<UA>Планований залишок балів</UA>
+		<EN>Planned balance of points</EN>
+	</card_bal_feauture>
+	<suporbon_sum>
+		<RU>Д.А.Р. на карте</RU>
+		<UA>Д.А.Р. на карті</UA>
+		<EN>D.A.P. on card</EN>
+	</suporbon_sum>
+	<h_edit_call>
+		<RU>Провести опрос</RU>
+		<UA>Провести опитування</UA>
+		<EN>Get inquire</EN>
+	</h_edit_call>
+	<call_date>
+		<RU>Дата обзвона</RU>
+		<UA>Дата обзвона</UA>
+		<EN>Call date</EN>
+	</call_date>
+	
+</call_center>

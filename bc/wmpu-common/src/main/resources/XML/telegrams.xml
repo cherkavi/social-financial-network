@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<telegrams>
+	<general>
+		<RU>Телеграммы</RU>
+		<UA>Телеграми</UA>
+		<EN>Telegrams</EN>
+	</general>
+	<ID_TERM_SES>
+		<RU>ИД терминальной сессии</RU>
+		<UA>IД термінальної сесiї</UA>
+		<EN>Terminal session ID</EN>
+	</ID_TERM_SES>
+	<ID_TELGR>
+		<RU>ИД телеграммы</RU>
+		<UA>IД телеграми</UA>
+		<EN>Telegram ID</EN>
+	</ID_TELGR>
+	<CD_TELGR_TYPE>
+		<RU>Вид телеграммы</RU>
+		<UA>Вид телеграми</UA>
+		<EN>Telegram type</EN>
+	</CD_TELGR_TYPE>
+	<TEL_IDENTIFIER>
+		<RU>Код телеграммы</RU>
+		<UA>Код телеграми</UA>
+		<EN>Telegram code</EN>
+	</TEL_IDENTIFIER>
+	<TEL_LENGTH>
+		<RU>Длина телеграммы</RU>
+		<UA>Довжина телеграми</UA>
+		<EN>Telegram length </EN>
+	</TEL_LENGTH>
+	<NT_MSG_B>
+		<RU>№ телеграммы в терм. сессии</RU>
+		<UA>№ телеграми в терм. сесiї</UA>
+		<EN>Telegram number in term. session</EN>
+	</NT_MSG_B>
+	<TEL_VERSION>
+		<RU>Версия телеграммы</RU>
+		<UA>Версiя телеграми</UA>
+		<EN>Telegram session</EN>
+	</TEL_VERSION>
+	<VK_ENC>
+		<RU>Версия ключа шифрования</RU>
+		<UA>Версiя ключа шифрування</UA>
+		<EN>Version of encryption key</EN>
+	</VK_ENC>
+	<ID_SAM>
+		<RU>SAM</RU>
+		<UA>SAM</UA>
+		<EN>SAM</EN>
+	</ID_SAM>
+	<NT_SAM>
+		<RU>№ транзакции SAM</RU>
+		<UA>№ транзакцiї SAM</UA>
+		<EN>SAM transzaction number</EN>
+	</NT_SAM>
+	<ID_TERM>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</ID_TERM>
+	<MAC_PDA>
+		<RU>MAC</RU>
+		<UA>MAC</UA>
+		<EN>MAC</EN>
+	</MAC_PDA>
+	<DATE_TELGR>
+		<RU>Дата получения телеграммы</RU>
+		<UA>Дата отримання телеграми</UA>
+		<EN>Telegram receiving date</EN>
+	</DATE_TELGR>
+	<cd_telgr_state>
+		<RU>Состояние телеграммы</RU>
+		<UA>Стан телеграми</UA>
+		<EN>Telegram condition</EN>
+	</cd_telgr_state>
+	<name_telgr_state>
+		<RU>Состояние телеграммы</RU>
+		<UA>Стан телеграми</UA>
+		<EN>Telegram condition</EN>
+	</name_telgr_state>
+	<SRC_MSG>
+		<RU>Текст телеграммы</RU>
+		<UA>Текст телеграми</UA>
+		<EN>Telegram text</EN>
+	</SRC_MSG>
+	<STATE_RESPONCE_TELGR>
+		<RU>Состояние ответной телеграммы</RU>
+		<UA>Стан телеграми-вiдповiдi</UA>
+		<EN>Condition of responding telegram</EN>
+	</STATE_RESPONCE_TELGR>
+	<SRC_RESPONCE_TELGR>
+		<RU>Текст ответной телеграммы</RU>
+		<UA>Текст телеграми-вiдповiдi</UA>
+		<EN>Text of responding telegram</EN>
+	</SRC_RESPONCE_TELGR>
+	<TYPE_RESPONCE_TELGR>
+		<RU>Вид ответной телеграммы</RU>
+		<UA>Вид телеграми-вiдповiдi</UA>
+		<EN>Kind of responding telegram</EN>
+	</TYPE_RESPONCE_TELGR>
+	<way_telgr>
+		<RU>Обмен</RU>
+		<UA>Обмін</UA>
+		<EN>Interchange</EN></way_telgr>
+	<NC>
+		<RU>№ сбора</RU>
+		<UA>№ збору</UA>
+		<EN>Collection number</EN></NC>
+	<NI>
+		<RU>Транзакций в сборе</RU>
+		<UA>Транзакцій в зборі</UA>
+		<EN>Transactions in collection</EN></NI>
+
+	<n_payment>
+		<RU>Количество оплат</RU>
+		<UA>Кількість оплат</UA>
+		<EN>Payments count</EN></n_payment>
+	<n_mov_bon>
+		<RU>Количество переводов баллов </RU>
+		<UA>Кількість переведень балів</UA>
+		<EN>Move points count</EN></n_mov_bon>
+	<n_chk_card>
+		<RU>Количество проверок карты</RU>
+		<UA>Кількість перевірок карти</UA>
+		<EN>Checks card count</EN></n_chk_card>
+	<n_inval_card>
+		<RU>Количество блокировок карты</RU>
+		<UA>Кількість блокувань карти</UA>
+		<EN>Blocks card count</EN></n_inval_card>
+	<n_storno_bon>
+		<RU>Количество сторнирований</RU>
+		<UA>Кількість сторнувань</UA>
+		<EN>Storno count</EN></n_storno_bon>
+	<n_payment_im>
+		<RU>Количество оплат ИТ</RU>
+		<UA>Кількість оплат ІТ</UA>
+		<EN>IT payments count</EN></n_payment_im>
+	<n_payment_ext>
+		<RU>Количество расширенных оплат</RU>
+		<UA>Кількість розширених оплат</UA>
+		<EN>Extended payments count</EN></n_payment_ext>
+	<n_actvation>
+		<RU>Количество активаций карт</RU>
+		<UA>Кількість активацій карт</UA>
+		<EN>Activations cards count</EN>
+	</n_actvation>
+	<n_coupon>
+		<RU>Количество сертификатов</RU>
+		<UA>Кількість сертифікатів</UA>
+		<EN>Coupons count</EN>
+	</n_coupon>
+	<n_membership_fee>
+		<RU>Количество членских взносов</RU>
+		<UA>Кількість членських внесків</UA>
+		<EN>Membership fees count</EN>
+	</n_membership_fee>
+	<n_mtf>
+		<RU>Количество членских целевых взносов</RU>
+		<UA>Кількість членських цільових внесків</UA>
+		<EN>Membership target fees count</EN>
+	</n_mtf>
+	<n_point_fee>
+		<RU>Количество пополнений баллов</RU>
+		<UA>Кількість поповнень балів</UA>
+		<EN>Point fees count</EN>
+	</n_point_fee>
+	<n_put_card>
+		<RU>Количество выдач карт</RU>
+		<UA>Кількість видач карт</UA>
+		<EN>Puts card count</EN>
+	</n_put_card>
+	<n_questioning>
+		<RU>Количество обработок анкет</RU>
+		<UA>Кількість обробок анкет</UA>
+		<EN>Questionnings count</EN>
+	</n_questioning>
+	<n_share_fee>
+		<RU>Количество паевых взносов</RU>
+		<UA>Кількість паєвих внесків</UA>
+		<EN>Share fees count</EN>
+	</n_share_fee>
+	<n_transfer_put_point>
+		<RU>Количество зачислений при переводе</RU>
+		<UA>Кількість зарахувань при переведнні</UA>
+		<EN>The number of transfers when transferring</EN>
+	</n_transfer_put_point>
+	<n_payment_invoice>
+		<RU>Количество оплат по счету</RU>
+		<UA>Кількість оплат по рахунку</UA>
+		<EN>Payments invoice count</EN>
+	</n_payment_invoice>
+	<n_share_fee_change>
+		<RU>Количество пополнений ПФ со сдачи</RU>
+		<UA>Кількість поповнень ПФ зі здачі</UA>
+		<EN>Share fees from change count</EN>
+	</n_share_fee_change>
+	<n_transform_from_share>
+		<RU>Количество преобразований из ПФ</RU>
+		<UA>Кількість перетворень з ПФ</UA>
+		<EN>Transforms from share fund count</EN>
+	</n_transform_from_share>
+	<n_transfer_get_point>
+		<RU>Количество зачислений при переводе</RU>
+		<UA>Кількість зарахувань при переведенні</UA>
+		<EN>The number of write-offs when transferring</EN>
+	</n_transfer_get_point>
+
+	<outher_sid>
+		<RU>№ сессии терминального сервера</RU>
+		<UA>№ сесії термінального сервера</UA>
+		<EN>Terminal server session number</EN></outher_sid>
+	<id_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</id_service_place>
+	<name_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</name_service_place>
+	
+	<way_telgr_sent>
+		<RU>Отправлена</RU>
+		<UA>Відіслана</UA>
+		<EN>Sent</EN>
+	</way_telgr_sent>
+	<way_telgr_received>
+		<RU>Получена</RU>
+		<UA>Отримана</UA>
+		<EN>Received</EN>
+	</way_telgr_received>
+</telegrams>

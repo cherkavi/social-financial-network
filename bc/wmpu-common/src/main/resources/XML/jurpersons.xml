@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<jurpersons>
+	<general>
+		<RU>Торговые Партнеры</RU>
+		<UA>Торгівельні Партнери</UA>
+		<EN>Trade Partners</EN></general>
+	<title_club>
+		<ru>СМПУ</ru>
+		<ua>ММПО</ua>
+		<en>SMPU</en></title_club>
+	<title_partner>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en></title_partner>
+	<title_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service points</EN></title_service_place>
+	<JUR_PRS>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en></JUR_PRS>
+	<ID_JUR_PRS isObvious="Y" size="" JStype="integer">
+		<ru>ИД</ru>
+		<ua>ІД</ua>
+		<en>ID</en></ID_JUR_PRS>
+	<ACCOUNTANT>
+		<ru>Главный бухгалтер</ru>
+		<ua>Головний бухгалтер</ua>
+		<en>Chief accountant</en></ACCOUNTANT>
+	<ADR_FULL>
+		<ru>Полный адрес</ru>
+		<ua>Повна адреса</ua>
+		<en>Full address</en></ADR_FULL>
+	<ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en></ADR_CITY>
+	<ADR_DATE_BEG>
+		<ru>Дата начала размещения</ru>
+		<ua>Дата початку перебування</ua>
+		<en>Location beginning date</en>
+		</ADR_DATE_BEG>
+	<ADR_DATE_END>
+		<ru>Дата окончания размещения</ru>
+		<ua>Дата закінчення перебування</ua>
+		<en>Location ending date</en></ADR_DATE_END>
+	<ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en></ADR_HOUSE>
+	<ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>Case</en></ADR_CASE>
+	<ADR_HOUSE_CASE>
+		<ru>Дом/корпус</ru>
+		<ua>Будинок/корпус</ua>
+		<en>House/case</en></ADR_HOUSE_CASE>
+	<ADR_APARTMENT>
+		<ru>Офис (комната)</ru>
+		<ua>Офіс (кімната)</ua>
+		<en>Apartment</en></ADR_APARTMENT>
+	<ADR_HOUSE_CASE_APARTMENT>
+		<ru>Дом / корпус / офис</ru>
+		<ua>Будинок / корпус / офіс</ua>
+		<en>House / case / apartment</en></ADR_HOUSE_CASE_APARTMENT>
+	<ADR_DISTRICT>
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en></ADR_DISTRICT>
+	<ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Region</en></ADR_OBLAST>
+	<ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en></ADR_STREET>
+	<ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>ZIP code</en></ADR_ZIP_CODE>
+	<CAN_ACTION_MSG>
+		<ru>Получать сообщения об акциях</ru>
+		<ua>Отримувати повідомлення про акції</ua>
+		<en>Receive messages about events</en></CAN_ACTION_MSG>
+	<reg_code_country>
+		<ru>Страна регистрации</ru>
+		<ua>Країна реєстрації</ua>
+		<en>Registration country</en></reg_code_country>
+	<CODE_COUNTRY>
+		<ru>Код страны</ru>
+		<ua>Код країни</ua>
+		<en>Country code</en></CODE_COUNTRY>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></NAME_COUNTRY>
+	<CONTACT_PERSON>
+		<ru>Контактное лицо</ru>
+		<ua>Контактна особа</ua>
+		<en>Contact person</en></CONTACT_PERSON>
+	<CONTRACT_DATE>
+		<ru>Дата договора</ru>
+		<ua>Дата договору</ua>
+		<en>Contract date</en></CONTRACT_DATE>
+	<CONTRACT_DESC>
+		<ru>Описание договора</ru>
+		<ua>Опис договору</ua>
+		<en>Contract description</en></CONTRACT_DESC>
+	<CONTRACT_NUMBER>
+		<ru>Номер договора</ru>
+		<ua>Номер договору</ua>
+		<en>Contract number</en></CONTRACT_NUMBER>
+	<CREATED_BY>
+		<ru>Кем создано</ru>
+		<ua>Ким створено</ua>
+		<en>Created by</en></CREATED_BY>
+	<CREATION_DATE>
+		<ru>Дата создания</ru>
+		<ua>Дата створення</ua>
+		<en>Creation date</en></CREATION_DATE>
+	<inn_number>
+		<ru>ИНН</ru>
+		<ua>ЄДРПОУ</ua>
+		<en>INN</en></inn_number>
+	<kpp_number>
+		<ru>КПП</ru>
+		<ua>КПП</ua>
+		<en>KPP</en></kpp_number>
+	<ogrn_number>
+		<ru>ОГРН</ru>
+		<ua>ОДРН</ua>
+		<en>OGRN</en></ogrn_number>
+	<title_contact_info>
+		<ru>Контактная информация</ru>
+		<ua>Контактна інформація</ua>
+		<en>Contact information</en></title_contact_info>
+	<EMAIL>
+		<ru>Электронная почта</ru>
+		<ua>Електронна пошта</ua>
+		<en>E-mail</en></EMAIL>
+	<web_site>
+		<ru>Web-сайт</ru>
+		<ua>Web-сайт</ua>
+		<en>Web-site</en></web_site>
+	<FAX>
+		<ru>Факс</ru>
+		<ua>Факс</ua>
+		<en>Fax</en></FAX>
+	<ID_JUR_PRS_PARENT>
+		<ru>Головное предприятие</ru>
+		<ua>Головне підприємство</ua>
+		<en>Head enterprise</en></ID_JUR_PRS_PARENT>
+	<NAME_JUR_PRS_PARENT>
+		<ru>Головное предприятие</ru>
+		<ua>Головне підприємство</ua>
+		<en>Head enterprise</en></NAME_JUR_PRS_PARENT>
+	<ID_SUBMISSION_TYPE>
+		<ru>Тип подчинения</ru>
+		<ua>Тип підпорядкування</ua>
+		<en>Submission type</en></ID_SUBMISSION_TYPE>
+	<LAST_UPDATE_BY>
+		<ru>Кем обновлено</ru>
+		<ua>Ким оновлено</ua>
+		<en>Updated by</en></LAST_UPDATE_BY>
+	<LAST_UPDATE_DATE>
+		<ru>Дата последнего обновления</ru>
+		<ua>Дата останнього оновлення</ua>
+		<en>Last update date</en></LAST_UPDATE_DATE>
+	<MANAGER>
+		<ru>Руководитель</ru>
+		<ua>Керівник</ua>
+		<en>Manager</en></MANAGER>
+	<NAME_JUR_PRS>
+		<ru>Наименование</ru>
+		<ua>Найменування</ua>
+		<en>Name</en></NAME_JUR_PRS>
+	<PAGER>
+		<ru>Пейджер</ru>
+		<ua>Пейджер</ua>
+		<en>Pager</en></PAGER>
+	<PHONE_MOBILE>
+		<ru>Мобильный телефон</ru>
+		<ua>Мобільний телефон</ua>
+		<en>Mobile phone</en></PHONE_MOBILE>
+	<PHONE_WORK>
+		<ru>Рабочий телефон</ru>
+		<ua>Робочий телефон</ua>
+		<en>Work phone</en></PHONE_WORK>
+	<SNAME_JUR_PRS>
+		<ru>Сокращенное наименование</ru>
+		<ua>Скорочене найменування</ua>
+		<en>Short name</en></SNAME_JUR_PRS>
+	<VAT_DATE>
+		<ru>Дата регистрации плательщика НДС</ru>
+		<ua>Дата реєстрації платника ПДВ</ua>
+		<en>VAT certificate registration date</en></VAT_DATE>
+	<VAT_NUMBER>
+		<ru>№ свидетельства плательщика НДС</ru>
+		<ua>№ свидоцтва платника ПДВ</ua>
+		<en>VAT certificate registration number</en></VAT_NUMBER>
+	<TAX_PERCENT>
+		<ru>Налоговая ставка, %</ru>
+		<ua>Податкова ставка, %</ua>
+		<en>Tax, %</en></TAX_PERCENT>
+	<uniform_tax_certificate_number>
+		<ru>№ регистрации свидетельства ЕН</ru>
+		<ua>№ реєстрації свідоцтва ЄП</ua>
+		<en>Uniform tax certificate registration number</en>
+	</uniform_tax_certificate_number>
+	<uniform_tax_certificate_date>
+		<ru>Дата регистрации свидететельства ЕН</ru>
+		<ua>Дата реєстрації свідоцтва ЄП</ua>
+		<en>Uniform tax certificate registration date</en>
+	</uniform_tax_certificate_date>
+	<TAB_JURPRS_INFO>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></TAB_JURPRS_INFO>
+	<TAB_ACCOUNTS>
+		<ru>Банковские счета</ru>
+		<ua>Банківські рахунки</ua>
+		<en>Bank accounts</en></TAB_ACCOUNTS>
+	<TAB_TERMINALS>
+		<ru>Терминалы</ru>
+		<ua>Термінали</ua>
+		<en>Terminals</en></TAB_TERMINALS>
+	<TAB_CORRESPONDENTS>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></TAB_CORRESPONDENTS>
+	<LAB_ADD_JURPRS>
+		<ru>Добавить партнера</ru>
+		<ua>Додати партнера</ua>
+		<en>Add partner</en></LAB_ADD_JURPRS>
+	<LAB_DELETE_FLD>
+		<ru>Удалить партнера</ru>
+		<ua>Видалити партнера</ua>
+		<en>Delete partner</en>
+	</LAB_DELETE_FLD>
+	<LAB_EDIT_JURPRS>
+		<ru>Редактировать информацию о партнере</ru>
+		<ua>Редагувати інформацію про партнера</ua>
+		<en>Edit information about partner</en>
+	</LAB_EDIT_JURPRS>
+	<LAB_ADD_SERVICE_PLACE>
+		<ru>Добавить Пункт обслуживания</ru>
+		<ua>Додати Пункт обслуговування</ua>
+		<en>Add Service place</en>
+		</LAB_ADD_SERVICE_PLACE>
+	<LAB_DELETE_SERVICE_PLACE>
+		<ru>Удалить Пункт обслуживания</ru>
+		<ua>Видалити Пункт обслуговування</ua>
+		<en>Delete Service place</en>
+	</LAB_DELETE_SERVICE_PLACE>
+	<LAB_EDIT_SERVICE_PLACE>
+		<ru>Редактировать информацию о Пункте обслуживания</ru>
+		<ua>Редагувати інформацію про Пункт обслуговування</ua>
+		<en>Edit information about Service place</en>
+	</LAB_EDIT_SERVICE_PLACE>
+	<LAB_ADD_TERM_MANUFACTURER>
+		<ru>Добавить производителя терминалов</ru>
+		<ua>Добати виробника терміналів</ua>
+		<en>Add new terminal manufacturer</en></LAB_ADD_TERM_MANUFACTURER>
+	<LAB_DELETE_TERM_MANUFACTURER>
+		<ru>Удалить производителя терминалов</ru>
+		<ua>Видалити виробника терміналів</ua>
+		<en>Delete terminal manufacturer</en>
+	</LAB_DELETE_TERM_MANUFACTURER>
+	<LAB_EDIT_TERM_MANUFACTURER>
+		<ru>Редактировать параметры производителя терминалов</ru>
+		<ua>Редагувати параметри виробника терміналів</ua>
+		<en>Edit terminal manufacturer</en>
+	</LAB_EDIT_TERM_MANUFACTURER>
+	<NUMBER_BANK_ACCOUNT>
+		<ru>№ счета</ru>
+		<ua>№ рахунку</ua>
+		<en>Account #</en>
+	</NUMBER_BANK_ACCOUNT>
+	<name_account_type>
+		<ru>Тип счета</ru>
+		<ua>Тип рахунку</ua>
+		<en>Account type</en>
+	</name_account_type>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</name_currency>
+	<name_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en>
+	</name_bank>
+	<acc_date_beg>
+		<ru>Открыт</ru>
+		<ua>Відкриття</ua>
+		<en>Opened</en>
+	</acc_date_beg>
+	<acc_date_end>
+		<ru>Закрытие</ru>
+		<ua>Закриття</ua>
+		<en>Closed</en>
+	</acc_date_end>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<NAME_DEVICE_TYPE>
+		<ru>Тип терминала</ru>
+		<ua>Тип терміналу</ua>
+		<en>Terminal type</en></NAME_DEVICE_TYPE>
+	<name_term_status>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en></name_term_status>
+	<name_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en></name_bank>
+	<JUR_ADR_FULL>
+		<ru>Юридический адрес</ru>
+		<ua>Юридична адреса</ua>
+		<en>Legal address</en></JUR_ADR_FULL>
+	<FACT_ADR_FULL>
+		<ru>Фактический адрес</ru>
+		<ua>Фактична адреса</ua>
+		<en>Actual address</en></FACT_ADR_FULL>
+	<date_location>
+		<ru>Установлен</ru>
+		<ua>Встановлено</ua>
+		<en>Set</en></date_location>
+	<date_extract>
+		<ru>Изъят</ru>
+		<ua>Вилучено</ua>
+		<en>Removed</en></date_extract>
+	<type_trans>
+		<ru>Тип транзакции</ru>
+		<ua>Тип транзакції</ua>
+		<en>Transaction type</en>
+	</type_trans>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></name_currency>
+	<is_vat_payer>
+		<ru>Плательщик НДС?</ru>
+		<ua>Платник ПДВ?</ua>
+		<en>VAT payer?</en></is_vat_payer>
+	<registration_cert_number>
+		<ru>№ свидетельства о госрегистрации</ru>
+		<ua>№ свідоцтва про держреєстрацію</ua>
+		<en>Government registration_certificate number</en></registration_cert_number>
+	<registration_cert_date>
+		<ru>Дата свидететельства о госрегистрации</ru>
+		<ua>Дата свідоцтва про держреєстрацію</ua>
+		<en>Government registration_certificate date</en></registration_cert_date>
+	<NAME_LOYALITY_SCHEME_DEFAULT JStype="varchar2">
+		<ru>Схема лояльности по умолчанию</ru>
+		<ua>Схема лояльності за умовчанням</ua>
+		<en>Loyality scheme by default</en></NAME_LOYALITY_SCHEME_DEFAULT>
+	<id_shedule_default>
+		<ru>График по умолчанию</ru>
+		<ua>Графік за умовчанням</ua>
+		<en>Diagram by default</en></id_shedule_default>
+	<t_service_place>
+		<ru>Пункты обслуживания</ru>
+		<ua>Пункти обслуговування</ua>
+		<en>Service points</en></t_service_place>
+	<tab_workers>
+		<ru>Работники</ru>
+		<ua>Працівники</ua>
+		<en>Employees</en></tab_workers>
+	<tab_comission>
+		<RU>Комиссии</RU>
+		<UA>Комісії</UA>
+		<EN>Commission</EN></tab_comission>
+	<tab_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></tab_bk_accounts>
+	<ADR_CITY_DISTRICT>
+	<RU>Район в населенном пункте</RU>
+	<UA>Район в населеному пункті</UA>
+	<EN>City district</EN></ADR_CITY_DISTRICT>
+	<t_issuer>
+		<ru>Параметры эмитента</ru>
+		<ua>Параметри емітента</ua>
+		<en>Issuer's parameters</en></t_issuer>
+	<is_issuer>
+		<RU>Эмитент</RU>
+		<UA>Емітент</UA>
+		<EN>Issuer</EN>
+	</is_issuer>
+	<is_resident>
+		<RU>Резидент</RU>
+		<UA>Резидент</UA>
+		<EN>Resident</EN></is_resident>
+	<is_technical_acquirer>
+		<RU>Технический эквайр</RU>
+		<UA>Технічний еквайр</UA>
+		<EN>Technical acquirer</EN></is_technical_acquirer>
+	<is_finance_acquirer>
+		<RU>Финансовый эквайр</RU>
+		<UA>Фінансовий еквайр</UA>
+		<EN>Financial acquirer</EN></is_finance_acquirer>
+		
+	<is_agent>
+		<RU>Агент</RU>
+		<UA>Агент</UA>
+		<EN>Agent</EN>
+	</is_agent>
+	<is_dealer>
+		<RU>Торговый Партнер</RU>
+		<UA>Торговый Партнер</UA>
+		<EN>Trade Partner</EN>
+	</is_dealer>
+	<is_bank>
+		<RU>Банк</RU>
+		<UA>Банк</UA>
+		<EN>Bank</EN>
+	</is_bank>
+	<is_shareholder>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</is_shareholder>
+	<is_operator>
+		<RU>Оператор СМПУ</RU>
+		<UA>Оператор ММПО</UA>
+		<EN>Operator SMPU</EN>
+	</is_operator>
+	<is_partner>
+		<RU>Технический партнер</RU>
+		<UA>Технічний партнер</UA>
+		<EN>Technical partner</EN>
+	</is_partner>
+	<is_terminal_manufacturer>
+		<RU>Производитель терминалов</RU>
+		<UA>Виробник терміналів</UA>
+		<EN>Terminal's manufacturer</EN>
+	</is_terminal_manufacturer>
+	<is_registrator>
+		<RU>Регистратор</RU>
+		<UA>Реєстратор</UA>
+		<EN>Registrator</EN>
+	</is_registrator>
+	<is_coordinator>
+		<RU>Координатор</RU>
+		<UA>Координатор</UA>
+		<EN>Coordinator</EN>
+	</is_coordinator>
+	<is_curator>
+		<RU>Куратор</RU>
+		<UA>Куратор</UA>
+		<EN>Curator</EN>
+	</is_curator>
+	<jur_prs_kind>
+		<RU>Юр./Физ.лицо</RU>
+		<UA>Юр./Фіз.особа</UA>
+		<EN>Legal/Natural person</EN></jur_prs_kind>
+	<cd_jur_prs_kind>
+		<RU>Вид</RU>
+		<UA>Вид</UA>
+		<EN>Kind</EN></cd_jur_prs_kind>
+	<name_jur_prs_kind>
+		<RU>Вид</RU>
+		<UA>Вид</UA>
+		<EN>Kind</EN></name_jur_prs_kind>
+	<partner_or_service_place>
+		<RU>Партнер/Пункт обслуживания</RU>
+		<UA>Партнер/Пункт обслуговування</UA>
+		<EN>Partner/Service place</EN></partner_or_service_place>
+	<jur_prs_type>
+		<RU>Тип Партнера</RU>
+		<UA>Тип Партнера</UA>
+		<EN>Partner's type</EN></jur_prs_type>
+	<cd_jur_prs_primary_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN></cd_jur_prs_primary_type>
+	<name_jur_prs_primary_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN></name_jur_prs_primary_type>
+	<cd_jur_prs_primary_type>
+		<RU>Основной тип</RU>
+		<UA>Основний тип</UA>
+		<EN>Primary type</EN></cd_jur_prs_primary_type>
+	<button_copy_fact_address>
+		<RU>Как у Партнера</RU>
+		<UA>Як у Партнера</UA>
+		<EN>As in the Partner</EN></button_copy_fact_address>
+	<button_copy_jur_address>
+		<RU>Копировать юридический адрес</RU>
+		<UA>Копіювати юридичну адресу</UA>
+		<EN>Copy legal address</EN></button_copy_jur_address>
+	<h_add_all_comissions>
+		<RU>Добавить все комиссии</RU>
+		<UA>Додати всі комісії</UA>
+		<EN>Add all comissions</EN></h_add_all_comissions>
+	<h_delete_all_comissions>
+		<RU>Удалить все комиссии</RU>
+		<UA>Видалити всі комісії</UA>
+		<EN>Delete all comissions</EN></h_delete_all_comissions>
+	<BUTTON_SUBMIT_LOY>
+		<ru>Применить ко всем терминалам</ru>
+		<ua>Застосувати до всіх терміналів</ua>
+		<en>Apply to all terminals</en>
+	</BUTTON_SUBMIT_LOY>
+	<has_permission>
+		<ru>Доступ</ru>
+		<ua>Доступ</ua>
+		<en>Access</en>
+	</has_permission>
+	
+	<club_date_beg>
+		<ru>Дата регистрации в СМПУ</ru>
+		<ua>Дата реєстрації в ММПО</ua>
+		<en>Date of registration in SMPU</en>
+	</club_date_beg>
+	<club_date_end>
+		<ru>Дата выхода из СМПУ</ru>
+		<ua>Дата виходу з ММПО</ua>
+		<en>Out date from SMPU</en>
+	</club_date_end>
+	<t_loyality_param>
+		<ru>Параметры лояльности по умолчанию</ru>
+		<ua>Параметри лояльності за замовчуванням</ua>
+		<en>Default loyality parameters</en>
+	</t_loyality_param>
+	<h_worker_add>
+		<ru>Добавить работника</ru>
+		<ua>Додати працівника</ua>
+		<en>Add worker</en>
+	</h_worker_add>
+	<h_worker_detach>
+		<ru>Удалить работника</ru>
+		<ua>Видалити працівника</ua>
+		<en>Delete worker</en>
+	</h_worker_detach>
+	<h_worker_edit>
+		<ru>Редактировать параметры работника</ru>
+		<ua>Редагувати параметри працівника</ua>
+		<en>Edit worker's parameters</en>
+	</h_worker_edit>
+	<t_partners>
+		<ru>Партнеры</ru>
+		<ua>Партнери</ua>
+		<en>Partners</en>
+	</t_partners>
+	
+	<LAB_ADD_PARTNER>
+		<ru>Добавить Партнера</ru>
+		<ua>Додати Партнера</ua>
+		<en>Add Partner</en></LAB_ADD_PARTNER>
+	<LAB_DELETE_PARTNER>
+		<ru>Удалить Партнера</ru>
+		<ua>Видалити Партнера</ua>
+		<en>Delete Partner</en>
+	</LAB_DELETE_PARTNER>
+	<name_service_place>
+		<ru>Наименование Пункта обслуживания</ru>
+		<ua>Найменування Пункта обслуговування</ua>
+		<en>Service place name</en></name_service_place>
+	<sname_service_place>
+		<ru>Сокращ. наименование Пункта обслуживания</ru>
+		<ua>Скороч. найменування Пункта обслуговування</ua>
+		<en>Service place short name</en></sname_service_place>
+	<name_service_place_form>
+		<ru>Вид Пункта обслуживания</ru>
+		<ua>Вид Пункта обслуговування</ua>
+		<en>Service place kind</en></name_service_place_form>
+	<cd_club_service_place>
+		<ru>Код в СМПУ</ru>
+		<ua>Код в ММПО</ua>
+		<en>Code in SMPU</en></cd_club_service_place>
+	<id_profile>
+		<ru>Фильтр</ru>
+		<ua>Фільтр</ua>
+		<en>Filter</en></id_profile>
+		
+	<t_finance_param>
+		<ru>Клиент-банк</ru>
+		<ua>Клієнт-банк</ua>
+		<en>Client-bank</en></t_finance_param>
+	<client_bank_format>
+		<ru>Формат обмена с клиент-банком</ru>
+		<ua>Формат обміну з клієнт-банком</ua>
+		<en>Client-bank interchange format</en></client_bank_format>
+	<client_bank_charset>
+		<ru>Кодовая страница файлов обмена</ru>
+		<ua>Кодова сторінка файлів обміну</ua>
+		<en>Interchange files charset</en></client_bank_charset>
+		
+	<h_club_registration>
+		<ru>Регистрация в СМПУ</ru>
+		<ua>Реєстрація ММПО</ua>
+		<en>Registration in SMPU</en></h_club_registration>
+	<h_club_member_parameters>
+		<ru>Вид участия в СМПУ</ru>
+		<ua>Вид участі ММПО</ua>
+		<en>Participant kind</en></h_club_member_parameters>
+	<h_spd_additional_param>
+		<ru>Дополнительные параметры СПД</ru>
+		<ua>Додаткові параметри СПД</ua>
+		<en>SPD additional parameters</en></h_spd_additional_param>
+	<h_vat_parameters>
+		<ru>Параметры плательщика НДС</ru>
+		<ua>Параметри платника ПДВ</ua>
+		<en>VAT payer's parameters</en></h_vat_parameters>
+	<h_bank_parameters>
+		<ru>Дополнительные параметры банка</ru>
+		<ua>Додаткові параметри банка</ua>
+		<en>Bank's additional parameters</en></h_bank_parameters>
+		
+	<mfo_bank>
+		<ru>МФО</ru>
+		<ua>МФО</ua>
+		<en>Bank indetificxation code</en></mfo_bank>
+	<individual_tax_number>
+		<ru>ИНН</ru>
+		<ua>ІПН</ua>
+		<en>ITN</en></individual_tax_number>
+	<bank_licence_date>
+		<ru>Дата выдачи лицензии</ru>
+		<ua>Дата видачі лицензії</ua>
+		<en>Licence date</en></bank_licence_date>
+	<bank_licence_number>
+		<ru>№ лицензии о банковской деятельности</ru>
+		<ua>№ ліцензії про банківську діяльність</ua>
+		<en>Licence number about bank activity</en>
+	</bank_licence_number>
+	<h_go_to_club>
+		<ru>данные Оператора</ru>
+		<ua>дані Оператора</ua>
+		<en>Operator parameters</en>
+	</h_go_to_club>
+
+	<has_permission>
+		<RU>Доступ</RU>
+		<UA>Доступ</UA>
+		<EN>Permission</EN></has_permission>
+		
+	<t_nomenkl_param>
+		<ru>Номерклатура (в транзакции REC_PAYMENT_EXT)</ru>
+		<ua>Номенклатура (в транзакції REC_PAYMENT_EXT)</ua>
+		<en>Nomenklature (in REC_PAYMENT_EXT transaction)</en></t_nomenkl_param>
+	<rec_payment_ext_nomenkl_format>
+		<RU>Формат номенклатуры </RU>
+		<UA>Формат номенклатури</UA>
+		<EN>Nomenklature format</EN></rec_payment_ext_nomenkl_format>		
+
+	<id_jur_prs_nomenkl>
+		<RU>ИД номерклатуры</RU>
+		<UA>ІД номенклатури</UA>
+		<EN>Nomenklature ID</EN></id_jur_prs_nomenkl>
+	<cd_jur_prs_nomenkl>
+		<RU>Код товара</RU>
+		<UA>Код товара</UA>
+		<EN>Goods code</EN></cd_jur_prs_nomenkl>
+	<name_jur_prs_nomenkl>
+		<RU>Название товара</RU>
+		<UA>Назва товара</UA>
+		<EN>Goods name</EN></name_jur_prs_nomenkl>
+	<begin_action_date>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Begin action date</EN></begin_action_date>
+	<end_action_date>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>End action date</EN></end_action_date>
+	<cd_nomenkl_unit>
+		<RU>Единица измерения</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Unit</EN></cd_nomenkl_unit>
+	<name_nomenkl_unit>
+		<RU>Единица измерения</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Unit</EN></name_nomenkl_unit>
+	<sname_nomenkl_unit>
+		<RU>Единица измерения</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Unit</EN></sname_nomenkl_unit>
+	<sname_nomenkl_unit>
+		<RU>Единица измерения</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Unit</EN></sname_nomenkl_unit>
+	<h_add_nomenkl>
+		<RU>Добавить номенклатуру</RU>
+		<UA>Додати номенклатуру</UA>
+		<EN>Add nomenklature</EN></h_add_nomenkl>
+	<h_update_nomenkl>
+		<RU>Редактировать номенклатуру</RU>
+		<UA>Редагувати номенклатуру</UA>
+		<EN>Edit nomenklature</EN></h_update_nomenkl>
+	<h_delete_nomenkl>
+		<RU>Удалить номенклатуру</RU>
+		<UA>Видалити номенклатуру</UA>
+		<EN>Delete nomenklature</EN></h_delete_nomenkl>
+		
+	<cd_club_jur_prs>
+		<ru>Код в СМПУ</ru>
+		<ua>Код в ММПО</ua>
+		<en>Code in SMPU</en></cd_club_jur_prs>
+		
+	<id_jur_prs_form>
+		<ru>Вид пункта обслуживания</ru>
+		<ua>Вид пункта обслуговування</ua>
+		<en>Service place kind</en></id_jur_prs_form>
+	<name_jur_prs_form>
+		<ru>Вид пункта обслуживания</ru>
+		<ua>Вид пункта обслуговування</ua>
+		<en>Service place kind</en></name_jur_prs_form>
+		
+	<title_others>
+		<ru>Прочее</ru>
+		<ua>Інше</ua>
+		<en>Other</en></title_others>
+	<name_jur_prs_in_sms>
+		<ru>Наименование в СМС</ru>
+		<ua>Найменування в СМС</ua>
+		<en>Name in SMS</en></name_jur_prs_in_sms>
+	<name_service_place_in_sms>
+		<ru>Наименование Пункта обслуживания в СМС</ru>
+		<ua>Найменування Пункта обслуговування в СМС</ua>
+		<en>Name of Service place in SMS</en></name_service_place_in_sms>
+</jurpersons>
+

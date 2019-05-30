@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<reports>
+	<general>
+		<RU>Отчеты</RU>
+		<UA>Звіти</UA>
+		<EN>Reports</EN>
+	</general>
+	<system_reports>
+		<RU>Системные отчеты</RU>
+		<UA>Системні звіти</UA>
+		<EN>System reports</EN>
+	</system_reports>
+	<accounting_reports>
+		<RU>Бухгалтерские отчеты</RU>
+		<UA>Бухгалтерські звіти</UA>
+		<EN>Accounting reports</EN>
+	</accounting_reports>
+	<marketing_reports>
+		<RU>Маркетинговые отчеты</RU>
+		<UA>Маркетингові звіти</UA>
+		<EN>Marketing reports</EN>
+	</marketing_reports>
+	<id_report>
+		<RU>ИД отчета</RU>
+		<UA>ІД звіту</UA>
+		<EN>Report ID</EN>
+	</id_report>
+	<cd_report>
+		<RU>Код отчета</RU>
+		<UA>Код звіту</UA>
+		<EN>Report code</EN>
+	</cd_report>
+	<name_report>
+		<RU>Название отчета</RU>
+		<UA>Назва звіту</UA>
+		<EN>Report name</EN>
+	</name_report>
+	<desc_report>
+		<RU>Описание отчета</RU>
+		<UA>Опис звіту</UA>
+		<EN>Report description</EN>
+	</desc_report>
+	<id_privilege_type>
+		<RU>Привилегия доступа</RU>
+		<UA>Привілея доступу</UA>
+		<EN>Access privilege</EN>
+	</id_privilege_type>
+	<name_privilege_type>
+		<RU>Привилегия доступа</RU>
+		<UA>Привілея доступу</UA>
+		<EN>Access privilege</EN>
+	</name_privilege_type>
+	<t_execute>
+		<RU>Выполнить</RU>
+		<UA>Виконати</UA>
+		<EN>Execute</EN>
+	</t_execute>
+	<t_info>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_info>
+	<t_content>
+		<RU>Содержание отчета</RU>
+		<UA>Зміст звіту</UA>
+		<EN>Report's content</EN>
+	</t_content>
+	<t_log>
+		<RU>Журнальная информация</RU>
+		<UA>Журнальна інформація</UA>
+		<EN>Log</EN>
+	</t_log>
+	<exec_file>
+		<RU>Файл шаблона</RU>
+		<UA>Файл шаблону</UA>
+		<EN>Template file</EN>
+	</exec_file>
+	<creation_date>
+		<RU>Дата создания</RU>
+		<UA>Дата створення</UA>
+		<EN>Creation date</EN>
+	</creation_date>
+	<created_by>
+		<RU>Кем создано</RU>
+		<UA>Ким створено</UA>
+		<EN>Created by</EN>
+	</created_by>
+	<last_update_date>
+		<RU>Дата обновления</RU>
+		<UA>Дата оновлення</UA>
+		<EN>Last update date</EN>
+	</last_update_date>
+	<last_update_by>
+		<RU>Кем обновлено</RU>
+		<UA>Ким оновлено</UA>
+		<EN>Last updated by</EN>
+	</last_update_by>
+	<id_line>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN>
+	</id_line>
+	<name_bk_account_scheme_line>
+		<RU>Настройка бухгалтерских счетов</RU>
+		<UA>Настройка бухгалтерських рахунків</UA>
+		<EN>Tuning of business account setting</EN>
+	</name_bk_account_scheme_line>
+	<name_bk_account>
+		<RU>Бухгалтерский счет</RU>
+		<UA>Бухгалтерський рахунок</UA>
+		<EN>Business account</EN>
+	</name_bk_account>
+	<error_msg>
+		<RU>Результат</RU>
+		<UA>Результат</UA>
+		<EN>Result</EN>
+	</error_msg>
+	<state_line>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN>
+	</state_line>
+	<id_menu_element>
+		<RU>Меню</RU>
+		<UA>Меню</UA>
+		<EN>Menu</EN>
+	</id_menu_element>
+	<name_menu_element>
+		<RU>Меню</RU>
+		<UA>Меню</UA>
+		<EN>Menu</EN>
+	</name_menu_element>
+	<has_permission>
+		<ru>Доступ</ru>
+		<ua>Доступ</ua>
+		<en>Access</en>
+	</has_permission>
+	
+	<type_report>
+		<ru>Тип отчета</ru>
+		<ua>Тип звіту</ua>
+		<en>Report type</en>
+	</type_report>
+	<date_report>
+		<ru>Дата отчета</ru>
+		<ua>Дата звіту</ua>
+		<en>Report date</en>
+	</date_report>
+	<state_report>
+		<ru>Состояние отчета</ru>
+		<ua>Стан звіту</ua>
+		<en>Report state</en>
+	</state_report>
+	<line_number>
+		<ru>№ строки</ru>
+		<ua>№ рядка</ua>
+		<en>Line number</en>
+	</line_number>
+	<number_clearing>
+		<ru>Клиринг</ru>
+		<ua>Клірінг</ua>
+		<en>Clearing</en>
+	</number_clearing>
+	<id_posting_detail>
+		<ru>Проводка</ru>
+		<ua>Проводка</ua>
+		<en>Entries</en>
+	</id_posting_detail>
+	<number_bank_account>
+		<ru>Банковский счет</ru>
+		<ua>Банківський рахунок</ua>
+		<en>Bank account</en>
+	</number_bank_account>
+	<name_bank_account>
+		<ru>Банковский счет</ru>
+		<ua>Банківський рахунок</ua>
+		<en>Bank account</en>
+	</name_bank_account>
+	<oper_number>
+		<RU>Схема проводок</RU>
+		<UA>Схема проведень</UA>
+		<EN>Entries scheme</EN>
+	</oper_number>
+	<name_bk_operation_scheme_line>
+		<RU>Схема проводок</RU>
+		<UA>Схема проведень</UA>
+		<EN>Entries scheme</EN>
+	</name_bk_operation_scheme_line>
+	<name_club_rel>
+		<RU>Взаимоотношения</RU>
+		<UA>Взаємовідносини</UA>
+		<EN>Relationships</EN>
+	</name_club_rel>
+	<id_bank_statement_line>
+		<RU>ИД строки банковской выписки</RU>
+		<UA>ІД рядка банківської виписки</UA>
+		<EN>Bank statement line ID</EN>
+	</id_bank_statement_line>
+	
+	
+	<id_report_task>
+		<RU>ИД задачи</RU>
+		<UA>ІД завдання</UA>
+		<EN>Report task ID</EN>
+	</id_report_task>
+	<cd_report_task_state>
+		<RU>Состояние отчета</RU>
+		<UA>Стан звіту</UA>
+		<EN>Report state</EN>
+	</cd_report_task_state>
+	<name_report_task_state>
+		<RU>Состояние отчета</RU>
+		<UA>Стан звіту</UA>
+		<EN>Report state</EN>
+	</name_report_task_state>
+	<parameters_filename>
+		<RU>Файл параметров</RU>
+		<UA>Файл параметрів</UA>
+		<EN>Parameters file name</EN>
+	</parameters_filename>
+	<report_filename>
+		<RU>Файл отчета</RU>
+		<UA>Файл звіту</UA>
+		<EN>Report file name</EN>
+	</report_filename>
+	<error_message>
+		<RU>Сообщение об ошибке</RU>
+		<UA>Повідомлення про помилку</UA>
+		<EN>Error message</EN>
+	</error_message>
+	<date_report_task>
+		<RU>Дата выполнения</RU>
+		<UA>Дата виконання</UA>
+		<EN>Execution date</EN>
+	</date_report_task>
+	
+	<id_contact_prs>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</id_contact_prs>
+	<name_contact_prs>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</name_contact_prs>
+	
+	<title_report_in_development>
+		<RU>Отчет в разработке</RU>
+		<UA>Звіт в розробці</UA>
+		<EN>Report in development</EN>
+	</title_report_in_development>
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<cd_report_kind>
+		<RU>Вид отчета</RU>
+		<UA>Вид звіту</UA>
+		<EN>Report kind</EN>
+	</cd_report_kind>
+	<name_report_kind>
+		<RU>Вид отчета</RU>
+		<UA>Вид звіту</UA>
+		<EN>Report kind</EN>
+	</name_report_kind>
+</reports>

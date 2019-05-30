@@ -1,0 +1,291 @@
+@CHARSET "UTF-8";
+	.imgWait {
+		left: 250px;
+	}
+	body {
+    	margin:9px 9px 0 9px;
+    	padding:0;
+    	background:azure;
+	}
+	#logo {
+ 		font-family: Arial, sans-serif;
+		font-size: 90%;
+    	margin-left:3px;
+    	padding-left:3px;
+    	background:azure;
+    	border-bottom: 1px solid #2F4F4F;
+    	width: 99%;
+    	height: 45px;
+    	top: 0px;
+    	position: absolute;
+	}
+	#div_document {
+    	width : 98%;
+    	height : 95%;
+	}
+	#workarea {
+   		background: rgba(0, 0, 0, 0) url("../../images/background/1.png") repeat scroll center top;
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+    	width : 98%;
+    	height : 95%;
+    	padding-right:19px;
+    	position: absolute;
+		overflow: inherit;
+	}
+	#menu {
+    	padding-left:3px;
+    	width : 20%;
+    	height: 100%;
+    	border-right: 1px solid #2F4F4F;
+    	top: 0px;
+    	position: absolute;
+		overflow-x:auto;
+		overflow-y:auto;
+
+	}
+	#div_main {
+    	position:absolute;
+    	margin-left:5px;
+    	width : 99%;
+    	height: 100%;
+    	left: 0%;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+    	
+	}
+	
+	#div_tabsheet {
+	  	position:relative;
+    	width : 99%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data {
+	  	position:relative;
+    	width : 100%;
+    	height : 80%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data_detail {
+	  	position:relative;
+    	width : 100%;
+    	height : 100%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+    	overflow:auto;
+	}
+		
+	#div_oper_caption {
+	  	background-color: white;
+	}
+	
+	.div_table_element {
+	  font-size: 10px;
+	  color: red;
+	  cursor: pointer;
+	  display: inline-block;
+	}
+	.div_table_element_header {
+	  font-size: 10px;
+	  cursor: pointer;
+	  display: inline-block;
+	}
+	.div_pages {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_button {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_logo_hyperlink {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	  text-decoration: underline;
+	}
+	.div_goto {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font-weight: bold;
+	  padding: 0px;
+	}
+	.div_href {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_href2 {
+	  cursor: pointer;
+	  color: blue;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	  text-decoration: underline;
+	}
+	.div_href3 {
+	  cursor: pointer;
+	  color: green;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	  text-decoration: underline;
+	}
+	.div_caption {
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_caption2 {
+	  cursor: pointer;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_find {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: black;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_find_none {
+	  font-size: 10px;
+	  color: black;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+      background:#EFEFEF;
+	}
+	.img_ps {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	  border: 0px;
+	  cursor: pointer;
+	}
+	.div_title {
+	  color: black;
+	  background: white;
+	  font-size:22px;
+	  font-family:Arial;
+	  font-weight:bold;
+	  font-style: italic;
+	  cursor: pointer;
+	  height: 30;
+	}
+	
+	.div_title font.font_title {
+	  font-size:22px;
+	}
+	.div_title font.font_title:hover {
+	  font-size:22px;
+	  text-decoration: underline;
+	}
+
+	.div_tabs {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	  padding:7px;
+	}
+	.div_tabs li.s {
+		display: inline;
+		background: url(../../images/menu/tabsheet/greenbg_s.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	.div_tabs a.s {
+		color: #663300;
+		background: url(../../images/menu/tabsheet/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	.div_tabs a.s span {
+		background: url(../../images/menu/tabsheet/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	.div_tabs a.s span {
+		float: none;
+	}
+	
+	
+	.photo_image {
+		border:0;
+		width:150px;
+		height:150px;
+		border-radius: 4px;
+	}
+	.photo_rect {
+		width:150px;
+		height:150px;
+		border:4px solid #999999;
+		position: relative;
+		border-radius: 8px;
+	}	
+	.photo_rect p {
+	    cursor: pointer;
+	    margin: 47px 5px 0;
+	    position: absolute;
+	    text-align: center;
+	    width: 140px;
+	    font-size: 12px;
+	}
+	.photo_rect div {
+	    cursor: pointer;
+	    height: 16px;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 4px;
+	    width: 16px;
+	}
+	.photo_rect div.del {
+	    background:url(../../images/menu/del.png) no-repeat right top;
+	    right: 2px;
+	}
+	.photo_rect div.edt {
+	    background:url(../../images/menu/edt.png) no-repeat right top;
+	    right: 25px;
+	}
+	.photo_file {
+		cursor: pointer;
+    	height: 150px;
+    	opacity: 0;
+    	width: 150px;    
+    	position: absolute;
+	}	

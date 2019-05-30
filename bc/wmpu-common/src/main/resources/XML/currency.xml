@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<currency>
+	<general>
+		<RU>Валюты</RU>
+		<UA>Валюти</UA>
+		<EN>Currency</EN>
+	</general>
+	<cd_currency>
+		<RU>Код валюты</RU>
+		<UA>Код валюти</UA>
+		<EN>Currence code</EN>
+	</cd_currency>
+	<name_currency>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</name_currency>
+	<sname_currency>
+		<RU>Сокращенно</RU>
+		<UA>Скорочено</UA>
+		<EN>Briefly</EN>
+	</sname_currency>
+	<scd_currency>
+		<RU>Обозначение</RU>
+		<UA>Позначення</UA>
+		<EN>Denotation</EN>
+	</scd_currency>
+	<is_used>
+		<RU>Используется</RU>
+		<UA>Використовується</UA>
+		<EN>Used</EN>
+	</is_used>
+	<t_features>
+		<RU>Информация о валюте</RU>
+		<UA>Інформація про валюту</UA>
+		<EN>Currency information</EN>
+	</t_features>
+	<t_daily_rates>
+		<RU>Обменный курс</RU>
+		<UA>Курс обміну</UA>
+		<EN>Exchange rate</EN>
+	</t_daily_rates>
+	<cd_currency_in_telgr_hex>
+		<RU>Код в телеграмме (HEX)</RU>
+		<UA>Код в телеграмі (HEX)</UA>
+		<EN>Code in telegram (HEX)</EN></cd_currency_in_telgr_hex>
+</currency>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<reglaments>
+	<general>
+		<RU>Регламенты</RU>
+		<UA>Регламенти</UA>
+		<EN>Reglaments</EN>
+	</general>
+	<name_job>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+	</name_job>
+	<desc_job>
+		<ru>Описание</ru>
+		<ua>Опис</ua>
+		<en>Description</en></desc_job>
+	<what>
+		<ru>Выполняемая комманда</ru>
+		<ua>Команда, що виконується</ua>
+		<en>Executing command</en>
+	</what>
+	<next_date>
+		<ru>Дата следующего запуска</ru>
+		<ua>Дата наступного запуску</ua>
+		<en>Next run date</en>
+	</next_date>
+	<interval>
+		<ru>Интервал запуска</ru>
+		<ua>Інтервал запуску</ua>
+		<en>Job time interval</en>
+	</interval>
+	<is_enable>
+		<ru>Активный</ru>
+		<ua>Активний</ua>
+		<en>Active</en>
+	</is_enable>
+	<num_job>
+		<ru>Номер регламента в БД</ru>
+		<ua>Номер регламенту в БД</ua>
+		<en>Number of regulation in DB</en>
+	</num_job>
+	<LAB_EDIT_JOB>
+		<ru>Редактировать регламент</ru>
+		<ua>Редагувати регламент</ua>
+		<en>Edit regulation</en>
+	</LAB_EDIT_JOB> 
+	<LAB_INS_JOB>
+		<ru>Добавить регламент</ru>
+		<ua>Додати регламент</ua>
+		<en>Add regulation</en>
+	</LAB_INS_JOB>
+	<LAB_DEL_JOB>
+		<RU>Удалить регламент</RU>
+		<UA>Видалити регламент</UA>
+		<EN>Delete regulation</EN>
+	</LAB_DEL_JOB>
+	<LAB_RUN_JOB>
+		<RU>Выполнить регламент</RU>
+		<UA>Виконати регламент</UA>
+		<EN>Run regulation</EN>
+	</LAB_RUN_JOB>
+	<t_features>  
+		<ru>Информация о регламенте</ru>
+		<ua>Інформація про регламент</ua>
+		<en>Information regulation</en>
+	</t_features>
+	<id_job>
+	  	<RU>ИД</RU>
+	  	<UA>ІД</UA>
+	  	<EN>ID</EN>
+	</id_job>
+	<broken>
+	  	<RU>Статус</RU>
+	  	<UA>Статус</UA>
+	  	<EN>Status</EN>
+	</broken>
+</reglaments>
+	       		      

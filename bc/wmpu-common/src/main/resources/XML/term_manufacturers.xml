@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<term_manufacturers>
+	<general>
+		<RU>Производители терминалов</RU>
+		<UA>Виробники терміналів</UA>
+		<EN>Terminal's manufacturers</EN></general>
+	<ID_JUR_PRS isObvious="Y" size="" JStype="integer">
+		<ru>ИД</ru>
+		<ua>ІД</ua>
+		<en>ID</en></ID_JUR_PRS>
+	<ACCOUNTANT>
+		<ru>Главный бухгалтер</ru>
+		<ua>Головний бухгалтер</ua>
+		<en>Chief accountant</en></ACCOUNTANT>
+	<ADR_FULL>
+		<ru>Полный адрес</ru>
+		<ua>Повна адреса</ua>
+		<en>Address</en></ADR_FULL>
+	<ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en></ADR_CITY>
+	<ADR_DATE_BEG>
+		<ru>Дата начала размещения</ru>
+		<ua>Дата початку перебування</ua>
+		<en>Location beginning date</en>
+		</ADR_DATE_BEG>
+	<ADR_DATE_END>
+		<ru>Дата окончания размещения</ru>
+		<ua>Дата закінчення перебування</ua>
+		<en>Location ending date</en></ADR_DATE_END>
+	<ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en></ADR_HOUSE>
+	<ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>Case</en></ADR_CASE>
+	<ADR_HOUSE_CASE>
+		<ru>Дом/корпус</ru>
+		<ua>Будинок/корпус</ua>
+		<en>House/case</en></ADR_HOUSE_CASE>
+	<ADR_APARTMENT>
+		<ru>Офис (комната)</ru>
+		<ua>Офіс (кімната)</ua>
+		<en>Apartment</en></ADR_APARTMENT>
+	<ADR_DISTRICT>
+		<ru>Район</ru>		
+		<ua>Район</ua>
+		<en>District</en></ADR_DISTRICT>
+	<ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Region</en></ADR_OBLAST>
+	<ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en></ADR_STREET>
+	<ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>ZIP code</en></ADR_ZIP_CODE>
+	<CAN_ACTION_MSG>
+		<ru>Получать сообщения об акциях</ru>		
+		<ua>Отримувати повідомлення  про акції</ua>
+		<en>Receive messages about events</en></CAN_ACTION_MSG>
+	<CODE_COUNTRY>
+		<ru>Код страны</ru>		
+		<ua>Код країни</ua>
+		<en>Country code</en></CODE_COUNTRY>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></NAME_COUNTRY>
+	<CONTACT_PERSON>
+		<ru>Контактное лицо</ru>
+		<ua>Контактна особа</ua>
+		<en>Contact person</en></CONTACT_PERSON>
+	<CONTRACT_DATE>
+		<ru>Дата договора</ru>
+		<ua>Дата контракту</ua>
+		<en>Contract date</en></CONTRACT_DATE>
+	<CONTRACT_DESC>
+		<ru>Описание договора</ru>
+		<ua>Опис договору</ua>
+		<en>Contract description</en></CONTRACT_DESC>
+	<CONTRACT_NUMBER>
+		<ru>Номер договора</ru>
+		<ua>Номер договору</ua>
+		<en>Contract number</en></CONTRACT_NUMBER>
+	<CREATED_BY>
+		<ru>Кем создано</ru>
+		<ua>Ким створено</ua>
+		<en>Created by</en></CREATED_BY>
+	<CREATION_DATE>
+		<ru>Дата создания</ru>
+		<ua>Дата створення</ua>
+		<en>Creation date</en></CREATION_DATE>
+	<inn_number>
+		<ru>ИНН</ru>
+		<ua>ІПН</ua>
+		<en>ITN</en></inn_number>
+	<EMAIL>
+		<ru>Электронная почта</ru>
+		<ua>Електронна пошта</ua>
+		<en>E-mail</en></EMAIL>
+	<FAX>
+		<ru>Факс</ru>
+		<ua>Факс</ua>
+		<en>Fax</en></FAX>
+	<ID_JUR_PRS_PARENT>
+		<ru>Подчиняется</ru>
+		<ua>Підпорядковується</ua>
+		<en>Submitted to</en></ID_JUR_PRS_PARENT>
+	<NAME_JUR_PRS_PARENT>
+		<ru>Название высшего юридического лица</ru>
+		<ua>Назва вищої юридичної особи</ua>
+		<en>Higher legal person name</en></NAME_JUR_PRS_PARENT>
+	<ID_SUBMISSION_TYPE>
+		<ru>Тип подчинения</ru>
+		<ua>Тип підпорядкування</ua>
+		<en>Submission type</en></ID_SUBMISSION_TYPE>
+	<LAST_UPDATE_BY>
+		<ru>Кем обновлено</ru>
+		<ua>Ким оновлено</ua>
+		<en>Updated by</en></LAST_UPDATE_BY>
+	<LAST_UPDATE_DATE>
+		<ru>Дата последнего обновления</ru>
+		<ua>Дата останнього оновлення</ua>
+		<en>Last update date</en></LAST_UPDATE_DATE>
+	<MANAGER>
+		<ru>Руководитель</ru>
+		<ua>Керівник</ua>
+		<en>Manager</en></MANAGER>
+	<NAME_JUR_PRS>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en></NAME_JUR_PRS>
+	<PAGER>
+		<ru>Пейджер</ru>
+		<ua>Пейджер</ua>
+		<en>Pager</en></PAGER>
+	<PHONE_MOBILE>
+		<ru>Мобильный телефон</ru>
+		<ua>Мобільний телефон</ua>
+		<en>Mobile phone</en></PHONE_MOBILE>
+	<PHONE_WORK>
+		<ru>Рабочий телефон</ru>
+		<ua>Робочий телефон</ua>
+		<en>Work phone</en></PHONE_WORK>
+	<SNAME_JUR_PRS>
+		<ru>Сокращенное название</ru>
+		<ua>Скорочена назва</ua>
+		<en>Short name</en></SNAME_JUR_PRS>
+	<VAT_DATE>
+		<ru>Дата регистрации плательщика НДС</ru>
+		<ua>Дата реєстрації платника ПДВ</ua>
+		<en>VAT registration date</en></VAT_DATE>
+	<VAT_NUMBER>
+		<ru>№ свидетельства плательщика НДС</ru>
+		<ua>№ свидоцтва платника ПДВ</ua>
+		<en>VAT certificate registration number</en></VAT_NUMBER>
+	<uniform_tax_certificate_number>
+		<ru>№ регистрации свидететельства ЕН</ru>
+		<ua>№ реєстрації свідоцтва ЄП</ua>
+		<en>Uniform tax certificate registration number</en>
+	</uniform_tax_certificate_number>
+	<uniform_tax_certificate_date>
+		<ru>Дата регистрации свидететельства ЕН</ru>
+		<ua>Дата реєстрації свідоцтва ЄП</ua>
+		<en>Uniform tax certificate date registration</en>
+	</uniform_tax_certificate_date>
+	<TAB_JURPRS_INFO>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></TAB_JURPRS_INFO>
+	<TAB_ACCOUNTS>
+		<ru>Банковские счета</ru>
+		<ua>Банківські рахунки</ua>
+		<en>Bank accounts</en></TAB_ACCOUNTS>
+	<TAB_TERMINALS>
+		<ru>Терминалы</ru>
+		<ua>Термінали</ua>
+		<en>Terminals</en></TAB_TERMINALS>
+	<TAB_CORRESPONDENTS>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></TAB_CORRESPONDENTS>
+	<LAB_ADD_JURPRS>
+		<ru>Добавить новое юридическое лицо</ru>
+		<ua>Добавити нову юридичну особу</ua>
+		<en>Add new legal person</en></LAB_ADD_JURPRS>
+	<LAB_DELETE_FLD>
+		<ru>Удалить юридическое лицо</ru>
+		<ua>Видалити юридичну особу</ua>
+		<en>Delete legal person</en>
+	</LAB_DELETE_FLD>
+	<LAB_EDIT_JURPRS>
+		<ru>Редактировать параметры юридического лица</ru>
+		<ua>Редагувати параметри юридичної особи</ua>
+		<en>Edit legal person parameters</en>
+	</LAB_EDIT_JURPRS>
+	<NUMBER_BANK_ACCOUNT>
+		<ru>№ счета</ru>
+		<ua>№ рахунку</ua>
+		<en>Account #</en>
+	</NUMBER_BANK_ACCOUNT>
+	<name_account_type>
+		<ru>Тип счета</ru>
+		<ua>Тип рахунку</ua>
+		<en>Account type</en>
+	</name_account_type>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</name_currency>
+	<name_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en>
+	</name_bank>
+	<acc_date_beg>
+		<ru>Открыт</ru>		
+		<ua>Відкритий</ua>
+		<en>Opened</en>
+	</acc_date_beg>
+	<acc_date_end>
+		<ru>Закрытие</ru>
+		<ua>Закриття</ua>
+		<en>Closing</en>
+	</acc_date_end>
+	<id_term>
+		<ru>ИД терминала</ru>
+		<ua>ІД терміналу</ua>
+		<en>Terminal ID</en></id_term>
+	<NAME_DEVICE_TYPE>
+		<ru>Тип термінала</ru>
+		<ua>Тип терміналу</ua>
+		<en>Terminal type</en></NAME_DEVICE_TYPE>
+	<name_term_status>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en></name_term_status>
+	<name_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en></name_bank>
+	<JUR_ADR_FULL>
+		<ru>Юридический адрес</ru>
+		<ua>Юридична адреса</ua>
+		<en>Legal address</en></JUR_ADR_FULL>
+	<FACT_ADR_FULL>
+		<ru>Фактический адрес</ru>
+		<ua>Фактична адреса</ua>
+		<en>Actual address</en></FACT_ADR_FULL>
+	<date_location>
+		<ru>Установлен</ru>
+		<ua>Встановлено</ua>
+		<en>Set</en></date_location>
+	<date_extract>
+		<ru>Изъят</ru>
+		<ua>Вилучено</ua>
+		<en>Removed</en></date_extract>
+	<type_trans>
+		<ru>Тип транзакции</ru>
+		<ua>Тип транзакції</ua>
+		<en>Transaction type</en>
+	</type_trans>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></name_currency>
+	<id_term>
+		<ru>ИД терминала</ru>
+		<ua>ІД терміналу</ua>
+		<en>Terminal ID</en></id_term>
+	<id_trans>
+		<ru>ИД транзакции</ru>
+		<ua>ІД транзакції</ua>
+		<en>Transaction ID</en></id_trans>
+	<is_vat_payer>
+		<ru>Плательщик НДС?</ru>
+		<ua>Платник ПДВ?</ua>
+		<en>VAT payer?</en></is_vat_payer>
+	<registration_cert_number>
+		<ru>№ свидетельства о гос.регистрации</ru>
+		<ua>№ свідоцтва про держ.реєстрацію</ua>
+		<en>Government registration certificate number</en></registration_cert_number>
+	<registration_cert_date>
+		<ru>Дата свидететельства о гос.регистрации</ru>
+		<ua>Дата свідоцтва про держ.реєстрацію</ua>
+		<en>Government registration certificate date</en></registration_cert_date>
+	<NAME_LOYALITY_SCHEME_DEFAULT JStype="varchar2">
+		<ru>Схема лояльности по умолчанию</ru>
+		<ua>Схема лояльності за умовчанням</ua>
+		<en>Loyalty scheme by default</en></NAME_LOYALITY_SCHEME_DEFAULT>
+	<id_shedule_default>
+		<ru>График по умолчанию</ru>
+		<ua>Графік за умовчанням</ua>
+		<en>Diagram by default</en></id_shedule_default>
+	<t_service_place>
+		<ru>Пункты обслуживания</ru>
+		<ua>Пункти обслуговування</ua>
+		<en>Service points</en></t_service_place>
+	<tab_workers>
+		<ru>Работники</ru>
+		<ua>Працівники</ua>
+		<en>Employees</en></tab_workers>
+	<tab_comission>
+		<RU>Комиссии</RU>
+		<UA>Комісії</UA>
+		<EN>Comissions</EN></tab_comission>
+	<tab_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></tab_bk_accounts>
+	<ADR_CITY_DISTRICT>
+	<RU>Район в городе</RU>
+	<UA>Район в місті</UA>
+	<EN>City district</EN></ADR_CITY_DISTRICT>
+	<t_issuer>
+		<ru>Параметры эмитента</ru>
+		<ua>Параметри емітента</ua>
+		<en>Issuer's parameters</en></t_issuer>
+	<is_issuer>
+		<RU>Эмитент</RU>
+		<UA>Емітент</UA>
+		<EN>Issuer</EN>
+	</is_issuer>
+	<is_resident>
+		<RU>Резидент</RU>
+		<UA>Резидент</UA>
+		<EN>Resident</EN></is_resident>
+	<is_technical_acquirer>
+		<RU>Технический эквайр</RU>
+		<UA>Технічний еквайр</UA>
+		<EN>Technical acquirer</EN></is_technical_acquirer>
+	<is_finance_acquirer>
+		<RU>Финансовый эквайр</RU>
+		<UA>Фінансовий еквайр</UA>
+		<EN>Financial acquirer</EN></is_finance_acquirer>
+	<cd_jur_prs_kind>
+		<RU>Вид</RU>
+		<UA>Вид</UA>
+		<EN>Kind</EN></cd_jur_prs_kind>
+	<name_jur_prs_kind>
+		<RU>Вид</RU>
+		<UA>Вид</UA>
+		<EN>Kind</EN></name_jur_prs_kind>
+	<cd_jur_prs_type>
+		<RU>Тип юридического лица</RU>
+		<UA>Тип юридичної особи</UA>
+		<EN>Type</EN></cd_jur_prs_type>
+	<name_jur_prs_type>
+		<RU>Тип юридического лица</RU>
+		<UA>Тип юридичної особи</UA>
+		<EN>Type</EN></name_jur_prs_type>
+</term_manufacturers>
+

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<shedule>
+	<general>
+		<RU>График изменения схем лояльности на терминале</RU>
+		<UA>Графік зміни схем лояльності на терминалі</UA>
+		<EN>Diagram of loyalty schemes changings on terminal</EN>
+	</general>
+	<id_shedule>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</id_shedule>
+	<name_shedule>
+		<RU>Название графика</RU>
+		<UA>Назва графіка</UA>
+		<EN>Shedule name</EN>
+	</name_shedule>
+	<desc_shedule>
+		<RU>Описание графика</RU>
+		<UA>Опис графіка</UA>
+		<EN>Shedule description</EN>
+	</desc_shedule>
+	<name_loyality_scheme>
+		<RU>Схема лояльности</RU>
+		<UA>Схема лояльності</UA>
+		<EN>Loyalty scheme</EN>
+	</name_loyality_scheme>
+	<name_loyality_scheme_default>
+		<RU>Схема лояльности по умолчанию</RU>
+		<UA>Схема лояльності за умовчанням</UA>
+		<EN>Loyalty scheme by default</EN>
+	</name_loyality_scheme_default>
+	<t_parameters>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_parameters>
+	<t_lines>
+		<RU>Строки графика</RU>
+		<UA>Рядки графіку</UA>
+		<EN>Diagram lines</EN>
+	</t_lines>
+	<h_shedulelines_add>
+		<RU>Добавить график лояльности</RU>
+		<UA>Додати графік лояльності</UA>
+		<EN>Add loyality schedule</EN>
+	</h_shedulelines_add>
+	<h_shedulelines_delete>
+		<RU>Удалить график лояльности</RU>
+		<UA>Видалити графік лояльності</UA>
+		<EN>Delete loyality schedule</EN>
+	</h_shedulelines_delete>
+	<t_terminals>
+		<ru>Терминалы</ru>
+		<ua>Термінали</ua>
+		<en>Terminals</en></t_terminals>
+	<t_jur_prs>
+		<ru>Юридические лица</ru>
+		<ua>Юридичні особи</ua>
+		<en>Legal persons</en></t_jur_prs>
+	<date_beg>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Beginning date</EN></date_beg>
+	<date_end>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>Ending qction date</EN></date_end>
+	<term_type>
+		<RU>Тип терминала</RU>
+		<UA>Тип терміналу</UA>
+		<EN>Terminal type</EN></term_type>
+	<h_remove_line>
+		<RU>Удалить строку графика</RU>
+		<UA>Видалити рядок графіка</UA>
+		<EN>Delete schedule line</EN></h_remove_line>
+	<h_delete_schedule>
+		<RU>Удалить график лояльности</RU>
+		<UA>Видалити графік лояльності</UA>
+		<EN>Delete loyality schedule</EN></h_delete_schedule>
+</shedule>

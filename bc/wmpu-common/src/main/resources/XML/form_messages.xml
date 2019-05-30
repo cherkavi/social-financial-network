@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<form_messages>
+	<general>
+		<RU>Сообщения в формах</RU>
+		<UA>Повідомлення в формах</UA>
+		<EN>Messages in forms</EN>
+	</general>
+	<added>
+		<RU>Запись успешно добавлено</RU>
+		<UA>Запис вдало додано</UA>
+		<EN>Record is successfully added</EN>
+	</added>
+	<add_error>
+		<RU>Ошибка при добавлении записи</RU>
+		<UA>Помилка при додаванні запису</UA>
+		<EN>Error at addition of record</EN>
+	</add_error>
+	<saved>
+		<RU>Сохранение записи выполнено успешно</RU>
+		<UA>Збереження запису виконано успішно</UA>
+		<EN>Saving of record is executed successfully</EN>
+	</saved>
+	<save_error>
+		<RU>Ошибка сохранения записи</RU>
+		<UA>Помилка збереження запису</UA>
+		<EN>Error of record saving</EN>
+	</save_error>
+	<removed>
+		<RU>Запись успешно удалено</RU>
+		<UA>Запис успішно видалено</UA>
+		<EN>Record is successfully remote</EN>
+	</removed>
+	<remove_error>
+		<RU>Ошибка удаления записи</RU>
+		<UA>Помилка видалення запису</UA>
+		<EN>Error of record remoting</EN>
+	</remove_error>
+	<storno_error>
+		<ru>Ошибка сторнирования</ru>
+		<ua>Помилка сторнування</ua>
+		<en>Storno error</en></storno_error>
+	<storno_apply_error>
+		<ru>Ошибка применения результатов сторнирования</ru>
+		<ua>Помилка при застосуванні результатів сторнування</ua>
+		<en>Error in application of storno results</en></storno_apply_error>
+	<detach_bank_account>
+		<ru>Отменить назначение банковского счета юридическому лицу?</ru>
+		<ua>Відмінити призначення банківського рахунка юридичній особі?</ua>
+		<en>To abolish setting of bank account to physical person?</en></detach_bank_account>
+	<form_profile>
+		<ru>Профиль страницы</ru>
+		<ua>Профіль сторінки</ua>
+		<en>Page profile</en></form_profile>
+	<go_to>
+		<ru>перейти</ru>
+		<ua>перейти</ua>
+		<en>pass</en></go_to>
+	<processing_insert>
+		<RU>Выполнение процедуры добавления записи...</RU>
+		<UA>Виконання процедури додавання запису...</UA>
+		<EN>Implementation of procedure of record addition...</EN></processing_insert>
+	<processing_update>
+		<RU>Выполнение процедуры обновления записи...</RU>
+		<UA>Виконання процедури оновлення запису...</UA>
+		<EN>Implementation of procedure of record recovery...</EN></processing_update>
+	<processing_delete>
+		<RU>Выполнение процедуры удаления записи...</RU>
+		<UA>Виконання процедури видалення запису...</UA>
+		<EN>Implementation of procedure of record deleting...</EN></processing_delete>
+	<processing_run>
+		<RU>Выполнение процедуры ...</RU>
+		<UA>Виконання процедури ...</UA>
+		<EN>Implementation of procedure ...</EN></processing_run>
+	<unknown_action>
+		<RU>Неизвестный параметр &quot;ACTION&quot; для обработки записи!</RU>
+		<UA>Невідомий параметр &quot;ACTION&quot; для обробки запису!</UA>
+		<EN>Unknown parameter &quot;ACTION&quot; for treatment of record!</EN></unknown_action>
+	<unknown_process>
+		<RU>Неизвестный параметр &quot;PROCESS&quot; для обработки записи!</RU>
+		<UA>Невідомий параметр &quot;PROCESS&quot; для обробки запису!</UA>
+		<EN>Unknown parameter &amp;quot;PROCESS&amp;quot; for treatment of record!</EN></unknown_process>
+	<unktown_type>
+		<RU>Неизвестный параметр &amp;quot;TYPE&amp;quot; для обработки записи!</RU>
+		<UA>Невідомий параметр &amp;quot;TYPE&amp;quot; для обробки запису!</UA>
+		<EN>Unknown parameter &amp;amp;quot;TYPE&amp;amp;quot; for treatment of record!</EN></unktown_type>
+	<find>
+		<RU>Найти</RU>
+		<UA>Знайти</UA>
+		<EN>Find</EN></find>
+	<REPORT_FORMAT>
+		<RU>Формат отчета:</RU>
+		<UA>Формат звіту:</UA>
+		<EN>Report format:</EN></REPORT_FORMAT>
+	<operation_denied>
+		<RU>Выполнение операции запрещено!</RU>
+		<UA>Виконання операції заборонено!</UA>
+		<EN>Operation executing is denied!</EN></operation_denied>
+</form_messages>

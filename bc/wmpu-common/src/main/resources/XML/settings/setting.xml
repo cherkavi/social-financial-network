@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<connections>
+	<server_name1>146.255.193.66</server_name1>
+	<server_name>127.0.0.1</server_name>
+	<server_name3>192.168.15.254</server_name3>
+	<server_name4>212.113.35.37</server_name4>
+	
+	<database_name1>demo</database_name1>
+	<database_name>orcl</database_name>
+	<database_name3>club</database_name3>
+	<database_name4>club44</database_name4>
+	
+	<port_number>1521</port_number>
+	
+	<debug>true</debug>
+	<sql_debug>true</sql_debug>
+
+	<webpos_username>wradmin</webpos_username>
+	<webpos_password>wradmin</webpos_password>
+	
+	<webclient_username>wradmin</webclient_username>
+	<webclient_password>wradmin</webclient_password>
+
+	<anonymous_username>wcanonymous</anonymous_username>
+	<anonymous_password>admin1</anonymous_password>
+
+	<crm_username>wradmin</crm_username>
+	<crm_password>wradmin</crm_password>
+
+</connections>

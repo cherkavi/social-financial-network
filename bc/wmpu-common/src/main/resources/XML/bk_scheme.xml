@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<bk_scheme>
+	<general>
+		<RU>Схема бух.счетов</RU>
+		<UA>Схема бух.рахунків</UA>
+		<EN>Accounts settings</EN>
+	</general>
+	<id_bk_account_scheme_line>
+		<ru>ИД счета</ru>
+		<ua>ІД рахунку</ua>
+		<en>Account ID</en>
+	</id_bk_account_scheme_line>
+	<cd_bk_account_scheme_line>
+		<RU>Счет</RU>
+		<UA>Рахунок</UA>
+		<EN>Account</EN>
+	</cd_bk_account_scheme_line>
+	<name_bk_account_scheme_line>
+		<RU>Название счета</RU>
+		<UA>Назва рахунку</UA>
+		<EN>Account name</EN>
+	</name_bk_account_scheme_line>
+	<desc_bk_account_scheme_line>
+		<RU>Описание счета</RU>
+		<UA>Опис рахунку</UA>
+		<EN>Account description</EN>
+	</desc_bk_account_scheme_line>
+	<h_bk_accounts_add>
+		<RU>Добавить бухгалтерский счет</RU>
+		<UA>Додати бухгалтерский рахунок</UA>
+		<EN>Add business account</EN>
+	</h_bk_accounts_add>
+	<h_bk_accounts_edit>
+		<RU>Редактировать бухгалтерский счет</RU>
+		<UA>Редагувати бухгалтерский счет</UA>
+		<EN>Edit business account</EN>
+	</h_bk_accounts_edit>
+	<t_bk_accounts_scheme>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_bk_accounts_scheme>
+	<id_bk_account_scheme>
+		<ru>ИД схемы</ru>
+		<ua>ІД схеми</ua>
+		<en>Scheme ID</en>
+	</id_bk_account_scheme>
+	<desc_bk_account_scheme>
+		<RU>Описание схемы</RU>
+		<UA>Опис схеми</UA>
+		<EN>Scheme description</EN>
+	</desc_bk_account_scheme>
+	<state_bk_account_scheme>
+		<RU>Состояние схемы</RU>
+		<UA>Стан схеми</UA>
+		<EN>Scheme state</EN>
+	</state_bk_account_scheme>
+	<begin_action_date>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Begin action date</EN>
+	</begin_action_date>
+	<end_action_date>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата закінчення дії</UA>
+		<EN>End action date</EN>
+	</end_action_date>
+	<t_check>
+		<RU>Проверить</RU>
+		<UA>Перевірити</UA>
+		<EN>Check</EN></t_check>
+	<int_nm_bk_account_scheme_line>
+		<ru>Внутреннее название</ru>
+		<ua>Внутрішня назва</ua>
+		<en>Internal name</en>
+	</int_nm_bk_account_scheme_line>
+	<id_bk_account_type>
+		<ru>Тип бухгалтерского счета</ru>
+		<ua>Тип бухгалтерського рахунку</ua>
+		<en>Business account type</en></id_bk_account_type>
+	<name_bk_account_type>
+		<ru>Тип бухгалтерского счета</ru>
+		<ua>Тип бухгалтерського рахунку</ua>
+		<en>Business account type</en></name_bk_account_type>
+	<zero_amounts_allowed>
+		<ru>Создавать нулевые проводки</ru>
+		<ua>Створювати нульові проведення</ua>
+		<en>Create zero entries</en></zero_amounts_allowed>
+	<id_bank_account>
+		<ru>Банковский счет</ru>
+		<ua>Банківський рахунок</ua>
+		<en>Bank account</en></id_bank_account>
+	<id_in_segment>
+		<RU>Сегмент, содержащий ИД</RU>
+		<UA>Сегмент, що містить ИД</UA>
+		<EN>Segment containing ID</EN></id_in_segment>
+	<cd_participant>
+		<RU>Тип участника в сегменте ИД</RU>
+		<UA>Тип учасника в сегменті ІД</UA>
+		<EN>Participant type in ID segment</EN></cd_participant>
+	<name_participant>
+		<RU>Тип участника в сегменте ИД</RU>
+		<UA>Тип учасника в сегменті ІД</UA>
+		<EN>Participant type in ID segment</EN>
+	</name_participant>
+	<segment1>
+		<RU>Сегмент 1</RU>
+		<UA>Сегмент 1</UA>
+		<EN>Segment 1</EN>
+	</segment1>
+	<segment2>
+		<RU>Сегмент 2</RU>
+		<UA>Сегмент 2</UA>
+		<EN>Segment 2</EN>
+	</segment2>
+	<segment3>
+		<RU>Сегмент 3</RU>
+		<UA>Сегмент 3</UA>
+		<EN>Segment 3</EN>
+	</segment3>
+	<segment4>
+		<RU>Сегмент 4</RU>
+		<UA>Сегмент 4</UA>
+		<EN>Segment 4</EN>
+	</segment4>
+	<segment5>
+		<RU>Сегмент 5</RU>
+		<UA>Сегмент 5</UA>
+		<EN>Segment 5</EN>
+	</segment5>
+	<segment6>
+		<RU>Сегмент 6</RU>
+		<UA>Сегмент 6</UA>
+		<EN>Segment 6</EN>
+	</segment6>
+	<segment7>
+		<RU>Сегмент 7</RU>
+		<UA>Сегмент 7</UA>
+		<EN>Segment 7</EN>
+	</segment7>
+	<segment8>
+		<RU>Сегмент 8</RU>
+		<UA>Сегмент 8</UA>
+		<EN>Segment 8</EN>
+	</segment8>
+	<segment9>
+		<RU>Сегмент 9</RU>
+		<UA>Сегмент 9</UA>
+		<EN>Segment 9</EN>
+	</segment9>
+	<segment10>
+		<RU>Сегмент 10</RU>
+		<UA>Сегмент 10</UA>
+		<EN>Segment 10</EN>
+	</segment10>
+	<segment11>
+		<RU>Сегмент 11</RU>
+		<UA>Сегмент 11</UA>
+		<EN>Segment 12</EN>
+	</segment11>
+	<segment12>
+		<RU>Сегмент 12</RU>
+		<UA>Сегмент 12</UA>
+		<EN>Segment 12</EN>
+	</segment12>
+	<segment13>
+		<RU>Сегмент 13</RU>
+		<UA>Сегмент 13</UA>
+		<EN>Segment 13</EN>
+	</segment13>
+	<segment14>
+		<RU>Сегмент 14</RU>
+		<UA>Сегмент 14</UA>
+		<EN>Segment 14</EN>
+	</segment14>
+	<segment15>
+		<RU>Сегмент 15</RU>
+		<UA>Сегмент 15</UA>
+		<EN>Segment 15</EN>
+	</segment15>
+	<t_param>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN></t_param>
+	<exist_flag>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exists</EN></exist_flag>
+	<cd_bk_bank_account_type>
+		<RU>Тип банковского счета</RU>
+		<UA>Тип банківського рахунку</UA>
+		<EN>Bank account type</EN></cd_bk_bank_account_type>
+	<name_bk_bank_account_type>
+		<RU>Тип банковского счета</RU>
+		<UA>Тип банківського рахунку</UA>
+		<EN>Bank account type</EN></name_bk_bank_account_type>
+	<cd_bk_account>
+		<RU>Бухгалтерский счет</RU>
+		<UA>Бухгалтерський рахунок</UA>
+		<EN>Business account</EN></cd_bk_account>
+	<id_bank_account>
+		<RU>ИД банковского счета</RU>
+		<UA>ІД банківського рахунку</UA>
+		<EN>Bank account ID</EN></id_bank_account>
+	<number_bank_account>
+		<RU>Номер банковского счета</RU>
+		<UA>Номер банківського рахунку</UA>
+		<EN>Bank account number</EN></number_bank_account>
+	<name_bank_account>
+		<RU>Название банковского счета</RU>
+		<UA>Назва банківського рахунку</UA>
+		<EN>Bank account name</EN></name_bank_account>
+	<state_account>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></state_account>
+	<text_message>
+		<RU>Сообщение об ошибке</RU>
+		<UA>Повідомлення про помилку</UA>
+		<EN>Message about mistake</EN></text_message>
+	<p_is_empty>
+		<RU>НЕ УКАЗАНО</RU>
+		<UA>НЕ ЗАЗНАЧЕНО</UA>
+		<EN>IS EMPTY</EN></p_is_empty>
+	<is_group>
+		<RU>Группирующий</RU>
+		<UA>Групуючий</UA>
+		<EN>Grouping</EN></is_group>
+	<id_bk_account_scheme_ln_parent>
+		<RU>Группирующая настройка</RU>
+		<UA>Настройка, що групує</UA>
+		<EN>Grouping tuning</EN></id_bk_account_scheme_ln_parent>
+	<cd_bk_account_scheme_ln_parent>
+		<RU>Группирующая настройка</RU>
+		<UA>Настройка, що групує</UA>
+		<EN>Grouping tuning</EN></cd_bk_account_scheme_ln_parent>
+	<name_club_rel_type>
+		<RU>Тип взаимоотношений в обществе</RU>
+		<UA>Тип взаємовідносин в товаристві</UA>
+		<EN>Society's relationship type</EN></name_club_rel_type>
+	<cd_club_rel_type>
+		<RU>Тип взаимоотношений в обществе</RU>
+		<UA>Тип взаємовідносин в товаристві</UA>
+		<EN>Society's relationship type</EN></cd_club_rel_type>
+	<h_delete_bk_scheme>
+		<RU>Удалить схему бухгалтерских счетов</RU>
+		<UA>Видалити схему бухгалтерських рахунків</UA>
+		<EN>Delete accounting scheme</EN></h_delete_bk_scheme>
+	<h_delete_bk_scheme_line>
+		<RU>Удалить строку схемы бухгалтерских счетов</RU>
+		<UA>Видалити рядок схеми бухгалтерських рахунків</UA>
+		<EN>Delete accounting scheme line</EN></h_delete_bk_scheme_line>
+</bk_scheme>

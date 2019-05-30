@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clubcards>
+	
+	<general>
+		<RU>Карты клиентов</RU>
+		<UA>Карти клієнтів</UA>
+		<EN>Client's cards</EN></general>
+	<CARD_SERIAL_NUMBER>
+		<ru>Серийный № карты</ru>
+		<ua>Серійний № карти</ua>
+		<en>Serial number</en></CARD_SERIAL_NUMBER>
+	<NAME_CARD_TYPE>
+		<ru>Тип карты</ru>
+		<ua>Тип карти</ua>
+		<en>Card type</en></NAME_CARD_TYPE>
+	<NAME_CARD_STATUS>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en></NAME_CARD_STATUS>
+	<NAME_CARD_STATE>
+		<ru>Состояние карты</ru>
+		<ua>Стан карти</ua>
+		<en>Card state</en></NAME_CARD_STATE>
+	<NAME_BON_CATEGORY>
+		<RU>Катигория по баллам</RU>
+		<UA>Категорія за балами</UA>
+		<EN>Category on points</EN></NAME_BON_CATEGORY>
+	<NAME_DISC_CATEGORY>
+		<RU>Категория по скидке</RU>
+		<UA>Категорія за знижкою</UA>
+		<EN>Discount category</EN></NAME_DISC_CATEGORY>
+	<NAME_CURRENCY>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</NAME_CURRENCY>
+	<SNAME_CURRENCY>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</SNAME_CURRENCY>
+	<DATE_OPEN>
+		<ru>Дата инициализации паевого приложения на карте</ru>
+		<ua>Дата ініціалізації паєвого застосування на карті</ua>
+		<en>Date of initialization of share application on card</en></DATE_OPEN>
+	<DATE_CLOSE>
+		<ru>Дата изъятия/утери</ru>
+		<ua>Дата вилучення/втрати</ua>
+		<en>Exclude date</en></DATE_CLOSE>
+	<EXPIRY_DATE>
+		<ru>Подлежит замене до</ru>
+		<ua>Підлягає заміні до</ua>
+		<en>Must replacement to</en></EXPIRY_DATE>
+	<NT_ICC>
+		<RU>№ транзакции</RU>
+		<UA>№ транзакції</UA>
+		<EN>Transaction number</EN>
+	</NT_ICC>
+	<t_card_info>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en>
+	</t_card_info>
+	<t_card_app>
+		<ru>Паевое приложение на карте</ru>
+		<ua>Паєве застосування на карті</ua>
+		<en>Share application on card</en>
+	</t_card_app>
+	<t_transaction_ok>
+		<ru>Успешные транзакции</ru>
+		<ua>Успішні транзакції</ua>
+		<en>Success transactions</en>
+	</t_transaction_ok>
+	<t_transaction_error>
+		<ru>Ошибочные транзакции</ru>
+		<ua>Помилкові транзакції</ua>
+		<en>Error transactions</en>
+	</t_transaction_error>
+	<SERIAL_NUMBER>
+		<ru>Серийный номер</ru>
+		<ua>Серійний номер</ua>
+		<en>Serial number</en></SERIAL_NUMBER>
+	<NAME_NAT_PRS>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></NAME_NAT_PRS>
+	<NAME_BANK>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en>
+	</NAME_BANK>
+	<VER_KEY>
+		<ru>Версия ключа</ru>
+		<ua>Версія ключа</ua>
+		<en>Key version</en>
+	</VER_KEY>
+	<CONTRACT_NUMBER>
+		<ru>№ анкеты</ru>
+		<ua>№ анкети</ua>
+		<en>Questionnaire number</en></CONTRACT_NUMBER>
+	<CONTRACT_DATE>
+		<ru>Дата анкеты</ru>
+		<ua>Дата анкети</ua>
+		<en>Questionnaire date</en></CONTRACT_DATE>
+	<CONTRACT_DESC>
+		<ru>Описание анкеты</ru>
+		<ua>Опис анкети</ua>
+		<en>Questionnaire description</en></CONTRACT_DESC>
+	<LAST_UPDATE_CARD_STATE>
+		<ru>Дата последнего обновления состояния</ru>
+		<ua>Дата останнього оновлення стану</ua>
+		<en>Last update state date</en></LAST_UPDATE_CARD_STATE>
+	<DATE_LAST_TRANS>
+		<ru>Дата последней транзакции</ru>
+		<ua>Дата останньої транзакції</ua>
+		<en>Last transaction date</en></DATE_LAST_TRANS>
+	<ID_LAST_TRANS>
+		<ru>ИД последней транзакции</ru>
+		<ua>ІД останньої транзакції</ua>
+		<en>Last transaction ID</en></ID_LAST_TRANS>
+	<DATE_LAST_TERM_CARD_REQ>
+		<ru>Дата последнего запроса остатка</ru>
+		<ua>Дата останнього запиту залишку</ua>
+		<en>Last balance request date</en></DATE_LAST_TERM_CARD_REQ>
+	<ID_LAST_TERM_CARD_REQ>
+		<ru>ИД последнего запроса остатка</ru>
+		<ua>ІД останнього запиту залишку</ua>
+		<en>Last balance request ID</en></ID_LAST_TERM_CARD_REQ>
+	<CLUB_BON>
+		<RU>% баллов</RU>
+		<UA>% балів</UA>
+		<EN>% of points</EN></CLUB_BON>
+	<CLUB_DISC>
+		<RU>% скидки</RU>
+		<UA>% знижки</UA>
+		<EN>% of discount</EN></CLUB_DISC>
+	<BAL_ACC>
+		<ru>Сумма накопленных баллов</ru>
+		<ua>Сума накопичених балів</ua>
+		<en>Sum of accumulated points</en></BAL_ACC>
+	<BAL_CUR>
+		<ru>Сумма доступных баллов</ru>
+		<ua>Сума доступних балів</ua>
+		<en>Sum of accessible points</en></BAL_CUR>
+	<BAL_BON_PER>
+		<ru>Сумма баллов за период</ru>
+		<ua>Сума балів за період</ua>
+		<en>Sum of points by period</en></BAL_BON_PER>
+	<BAL_DISC_PER>
+		<ru>Накопленная скидка</ru>
+		<ua>Накопичена знижка</ua>
+		<en>Accumulated discount</en></BAL_DISC_PER>
+	<DATE_ACC>
+		<ru>Дата накопления баллов</ru>
+		<ua>Дата накопичення балів</ua>
+		<en>Date of accumulated points</en></DATE_ACC>
+	<DATE_MOV>
+		<ru>Дата перевода баллов в доступные</ru>
+		<ua>Дата переведення балів у доступні</ua>
+		<en>Date of transfering of points to accessible</en></DATE_MOV>
+	<DATE_CALC>
+		<ru>Дата расчета % баллов и скидки</ru>
+		<ua>Дата розрахунку % балів і знижки</ua>
+		<en>Date of calculation of % points and discount</en></DATE_CALC>
+	<DATE_ONL>
+		<ru>Дата &lt;b&gt;последнего&lt;/b&gt; обращения online</ru>
+		<ua>Дата &lt;b&gt;останнього&lt;/b&gt; звернення online</ua>
+		<en>&lt;b&gt;Last&lt;/b&gt; online request date</en>
+	</DATE_ONL>
+	<DATE_ONL_NEXT>
+		<ru>Дата &lt;b&gt;следующего&lt;/b&gt; обращения online</ru>
+		<ua>Дата &lt;b&gt;наступного&lt;/b&gt; звернення online</ua>
+		<en>&lt;b&gt;Next&lt;/b&gt; online request date</en>
+	</DATE_ONL_NEXT>
+	<id_issuer_type>
+		<ru>Тип эмитента</ru>
+		<ua>Тип емітенту</ua>
+		<en>Issuer's type</en>
+	</id_issuer_type>
+	<name_issuer_type>
+		<ru>Тип эмитента</ru>
+		<ua>Тип емітенту</ua>
+		<en>Issuer's type</en>
+	</name_issuer_type>
+	<id_payment_system>
+		<ru>Платежная система</ru>
+		<ua>Платіжна система</ua>
+		<en>Payment system</en>
+	</id_payment_system>
+	<name_payment_system>
+		<ru>Платежная система</ru>
+		<ua>Платіжна система</ua>
+		<en>Payment system</en>
+	</name_payment_system>
+	<id_card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</id_card_status>
+	<id_card_state>
+		<ru>Состояние карты</ru>
+		<ua>Стан карти</ua>
+		<en>Card state</en>
+	</id_card_state>
+	<id_card_type>
+		<ru>Тип карты</ru>
+		<ua>Тип карти</ua>
+		<en>Card type</en>
+	</id_card_type>
+	<id_bon_category>
+		<RU>Катигория по баллам</RU>
+		<UA>Категорія за балами</UA>
+		<EN>Category on points</EN>
+	</id_bon_category>
+	<id_disc_category>
+		<RU>Категория по скидке</RU>
+		<UA>Категорія за знижкою</UA>
+		<EN>Discount category</EN>
+	</id_disc_category>
+	<bal_full>
+		<ru>Заработано баллов (всего)</ru>
+		<ua>Зароблено балів (всього)</ua>
+		<en>Earned points (totally)</en>
+	</bal_full>
+	<disc_full>
+		<ru>Заработано скидки (всего)</ru>
+		<ua>Зароблено знижки (всього)</ua>
+		<en>Earned discount (totally)</en>
+	</disc_full>
+	<need_update_param>
+		<ru>Требуется обновление параметров</ru>
+		<ua>Потрібно оновити параметри</ua>
+		<en>Updating of parameters is required</en>
+	</need_update_param>
+	<new_id_card_status>
+		<ru>Новый вид карты</ru>
+		<ua>Новий вид карти</ua>
+		<en>New card kind</en>
+	</new_id_card_status>
+	<new_id_bon_category>
+		<ru>Новая категория по баллам</ru>
+		<ua>Нова категорія за балами</ua>
+		<en>New category on points</en>
+	</new_id_bon_category>
+	<new_id_disc_category>
+		<ru>Новая категория по скидке</ru>
+		<ua>Нова категорія за знижкою</ua>
+		<en>New discont category</en>
+	</new_id_disc_category>
+	<new_club_disc>
+		<ru>Новый % скидки</ru>
+		<ua>Новий % знижки</ua>
+		<en>New % of discount</en>
+	</new_club_disc>
+	<new_club_bon>
+		<ru>Новый % баллов</ru>
+		<ua>Новий % балів</ua>
+		<en>New % of points</en>
+	</new_club_bon>
+	<new_bal_acc>
+		<ru>Добавить накопленных баллов</ru>
+		<ua>Додати накопичених балів</ua>
+		<en>Add accumulated points</en>
+	</new_bal_acc>
+	<new_bal_cur>
+		<ru>Добавить использованных баллов</ru>
+		<ua>Додати використаних балів</ua>
+		<en>Add used points</en>
+	</new_bal_cur>
+	<new_bal_bon_per>
+		<ru>Добавить баллов за период</ru>
+		<ua>Додати балів за період</ua>
+		<en>Add points by the period</en>
+	</new_bal_bon_per>
+	<new_bal_disc_per>
+		<ru>Добавить накопленную скидку</ru>
+		<ua>Додати накопичену знижку</ua>
+		<en>Add accumulated discount</en>
+	</new_bal_disc_per>
+	<new_date_acc>
+		<ru>Новая дата накопления баллов</ru>
+		<ua>Нова дата накопичення балів</ua>
+		<en>New date of points accumulation</en>
+	</new_date_acc>
+	<new_date_mov>
+		<ru>Новая дата перевода баллов в использованные</ru>
+		<ua>Нова дата переводу балів у використані</ua>
+		<en>New date of transfering of points to used</en>
+	</new_date_mov>
+	<new_date_calc>
+		<ru>Новая дата расчета % баллов и скидки</ru>
+		<ua>Нова дата розрахунку % балів</ua>
+		<en>New date of calculation % of discount and points</en>
+	</new_date_calc>
+	<id_term_which_updated_param>
+		<ru>Терминал, который обновил параметры</ru>
+		<ua>Термінал, що оновив параметри</ua>
+		<en>Terminal which updated parameters</en>
+	</id_term_which_updated_param>
+	<cd_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></cd_currency>
+	<id_issuer>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en></id_issuer>
+	<name_issuer>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en></name_issuer>
+	<sname_issuer>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en></sname_issuer>
+	<id_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></id_nat_prs>
+	<h_edit_bonus_application>
+		<ru>Изменить параметры паевого приложения карты</ru>
+		<ua>Змінити параметри паєвого додатку карти</ua>
+		<en>Change parameters of card's share application</en></h_edit_bonus_application>
+	<UPDATE_PARAM_DATE>
+		<RU>Обновить параметры с</RU>
+		<UA>Оновити параметри з</UA>
+		<EN>Update parameters с</EN></UPDATE_PARAM_DATE>
+	<t_history>
+		<ru>История изменений</ru>
+		<ua>Історія змін</ua>
+		<en>History of updates</en></t_history>
+	<date_beg>
+		<ru>Дата регистрации в СМПУ</ru>
+		<ua>Дата реєстрації в ММПО</ua>
+		<en>Registration date in SMPU</en></date_beg>
+	<date_end>
+		<ru>Дата выхода из СМПУ</ru>
+		<ua>Дата виходу із ММПО</ua>
+		<en>Exit date from SMPU</en></date_end>
+	<t_apply_new_parameters>
+		<ru>Применить параметры</ru>
+		<ua>Застосувати параметри</ua>
+		<en>Apply parameters</en></t_apply_new_parameters>
+	<t_update_param>
+		<ru>Изменить параметры</ru>
+		<ua>Змінити параметри</ua>
+		<en>Change parameters</en></t_update_param>
+	<rn>
+		<ru>№ п/п</ru>
+		<ua>№ з/п</ua>
+		<en>№</en></rn>
+	<t_message>
+		<RU>Сообщение</RU>
+		<UA>Повідомлення</UA>
+		<EN>Message</EN></t_message>
+	<club_msg>
+		<RU>Сообщение</RU>
+		<UA>Повідомлення</UA>
+		<EN>Message</EN></club_msg>
+	<club_msg_send_date>
+		<RU>Отослать с</RU>
+		<UA>Відіслати з</UA>
+		<EN>Send with</EN></club_msg_send_date>
+	<t_requests>
+		<RU>Запросы по карте</RU>
+		<UA>Запити за картою</UA>
+		<EN>Queries for card</EN></t_requests>
+	<new_id_card_state>
+		<RU>Новое состояние карты</RU>
+		<UA>Новий стан карти</UA>
+		<EN>New card state</EN></new_id_card_state>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карки</UA>
+		<EN>Card number</EN></cd_card1>
+	<cd_card2>
+		<RU>Сокр.номер карты</RU>
+		<UA>Скороч.номер карти</UA>
+		<EN>Short card number</EN></cd_card2>
+	<id_first_payment_transaction>
+		<RU>ИД первой транзакции платежа</RU>
+		<UA>ІД першої транзакції платежу</UA>
+		<EN>First payment transaction ID</EN></id_first_payment_transaction>
+	<t_discount>
+		<RU>Баллы и скидки</RU>
+		<UA>Бали і знижки</UA>
+		<EN>Points and discounts</EN></t_discount>
+	<t_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></t_bk_accounts>
+	<id_quest_int>
+		<RU>ИД анкеты</RU>
+		<UA>ІД анкети</UA>
+		<EN>Questionaire ID</EN></id_quest_int>
+	<date_card_sale>
+		<RU>Дата продажи</RU>
+		<UA>Дата продажу</UA>
+		<EN>Sail date</EN></date_card_sale>
+	<has_sold_card_postings>
+		<RU>Формировались проводки по продаже</RU>
+		<UA>Формувались проведення з продажу</UA>
+		<EN>Has sold card postings</EN></has_sold_card_postings>
+	<name_serv_plce_where_card_sold>
+		<RU>Пункт обсл., где продана карта</RU>
+		<UA>Пункт обсл., де продано карту</UA>
+		<EN>Service place where the card is sold</EN></name_serv_plce_where_card_sold>
+	<sname_jur_pr_who_has_sold_card>
+		<RU>Юрлицо, которое продало карту</RU>
+		<UA>Юрособа, яка продала карту</UA>
+		<EN>Legal person who has sold card</EN></sname_jur_pr_who_has_sold_card>
+		
+	<h_task_delete>
+		<RU>Удалить задачу</RU>
+		<UA>Видалити завдання</UA>
+		<EN>Delete task</EN></h_task_delete>
+	
+	<history_date_beg>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+		<en>Begin action date</en></history_date_beg>
+	<history_date_end>
+		<ru>Дата окончания действия</ru>
+		<ua>Дата завершення дії</ua>
+		<en>End action date</en></history_date_end>
+		
+	<id_profile>
+		<ru>Фильтр по картам</ru>
+		<ua>Фільтр по картах</ua>
+		<en>Filtr</en>
+	</id_profile>
+		
+	<h_edit_trans_param>
+		<ru>Редактировать параметры транзакции</ru>
+		<ua>Редагувати параметри транзакції</ua>
+		<en>Edit transactions's parameters</en>
+	</h_edit_trans_param>
+	<nat_prs_office_password>
+		<RU>Пароль для доступа в личный кабинет</RU>
+		<UA>Пароль для доступу в особистий кабінет</UA>
+		<EN>Private office password</EN></nat_prs_office_password>
+		
+	<h_operator_registration>
+		<RU>Регистрация у оператора</RU>
+		<UA>Реєстрація в оператора</UA>
+		<EN>Registration in operator</EN></h_operator_registration>
+	<h_nat_prs_information>
+		<RU>Информация о выдаче карты</RU>
+		<UA>Інформація про видачу карти</UA>
+		<EN>Card distribution information</EN></h_nat_prs_information>
+	<h_sell_information>
+		<RU>Информация о продаже карты</RU>
+		<UA>Інформація про продаж карти</UA>
+		<EN>Information about card selling</EN></h_sell_information>
+	<h_additional_information>
+		<RU>Дополнительная информация</RU>
+		<UA>Додаткова інформація</UA>
+		<EN>Additional information</EN></h_additional_information>
+	<h_office_private_information>
+		<RU>Доступ в Личный кабинет</RU>
+		<UA>Доступ до Особистого кабінета</UA>
+		<EN>Private office access</EN></h_office_private_information>
+	<office_private_login>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User name</EN></office_private_login>
+		
+	<h_card_categories>
+		<RU>Категории карты</RU>
+		<UA>Категорії карти</UA>
+		<EN>Categories</EN></h_card_categories>
+	<h_card_rests>
+		<RU>Осттатки на карте</RU>
+		<UA>Залишки на карті</UA>
+		<EN>Rests</EN></h_card_rests>
+	<h_card_dates>
+		<RU>Даты на карте</RU>
+		<UA>Дати на карті</UA>
+		<EN>Dates</EN></h_card_dates>
+		
+	<card_purse>
+		<RU>Кошелек на карте</RU>
+		<UA>Гаманець на карті</UA>
+		<EN>Purse on card</EN></card_purse>
+	<id_card_purse>
+		<RU>ИД кошелька</RU>
+		<UA>ІД гаманця</UA>
+		<EN>Purse ID</EN></id_card_purse>
+	<cd_card_purse_type>
+		<RU>Тип кошелька</RU>
+		<UA>Тип гаманця</UA>
+		<EN>Purse type</EN></cd_card_purse_type>
+	<name_card_purse_type>
+		<RU>Тип кошелька</RU>
+		<UA>Тип гаманця</UA>
+		<EN>Purse type</EN></name_card_purse_type>
+	<value_card_purse>
+		<RU>Сумма на кошельке</RU>
+		<UA>Сума на гаманці</UA>
+		<EN>Purse total</EN></value_card_purse>
+	<number_card_purse>
+		<RU>Номер кошелька</RU>
+		<UA>Номер гаманця</UA>
+		<EN>Purse number</EN></number_card_purse>
+	<h_purse_edit>
+		<RU>Редактировать параметры кошелька</RU>
+		<UA>Редагувати параметри гаманця</UA>
+		<EN>Edit parameters of purse</EN></h_purse_edit>
+		
+	<club_event_given_card>
+		<RU>Акция по выдаче карты</RU>
+		<UA>Акція з видачі карти</UA>
+		<EN>Event for given of card</EN></club_event_given_card>
+		
+	<help_club_date_beg>
+		<RU>Дата, когда информация о карте была введена в систему</RU>
+		<UA>Дата, коли інформація про карту була введена в систему</UA>
+		<EN>Date when information about card was given in system</EN></help_club_date_beg>
+	<help_date_open>
+		<RU>Дата записи на карту паевого приложения</RU>
+		<UA>Дата запису на карту паєвого додатка</UA>
+		<EN>Date when share application was written to card</EN></help_date_open>
+		
+	<id_fn_card_oper>
+		<RU>ИД операции</RU>
+		<UA>ІД операції</UA>
+		<EN>Operation ID</EN></id_fn_card_oper>
+	<date_fn_card_oper>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN></date_fn_card_oper>
+	<payment_order_fn_card_oper>
+		<RU>Описание операции</RU>
+		<UA>Опис операції</UA>
+		<EN>Operation description</EN></payment_order_fn_card_oper>
+	<cd_fn_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation tyhpe</EN></cd_fn_oper_type>
+	<name_fn_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation tyhpe</EN></name_fn_oper_type>
+	<cd_fn_card_oper_state>
+		<RU>Состояние операции</RU>
+		<UA>Стан операції</UA>
+		<EN>Operation state</EN></cd_fn_card_oper_state>
+	<name_fn_card_oper_state>
+		<RU>Состояние операции</RU>
+		<UA>Стан операції</UA>
+		<EN>Operation state</EN></name_fn_card_oper_state>
+	<value_fn_card_oper>
+		<RU>Сумма операции</RU>
+		<UA>Сума операції</UA>
+		<EN>Operation amount</EN></value_fn_card_oper>
+		
+	<date_turnover>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN></date_turnover>
+	<bon_acc_balance>
+		<RU>Начисленные баллы</RU>
+		<UA>Нараховані бали</UA>
+		<EN>Accounted points</EN></bon_acc_balance>
+	<bon_cur_balance>
+		<RU>Доступные баллы</RU>
+		<UA>Доступні бали</UA>
+		<EN>Current points</EN></bon_cur_balance>
+	<bon_full_balance>
+		<RU>Всего баллов</RU>
+		<UA>Всього балів</UA>
+		<EN>All points</EN></bon_full_balance>
+	<purse_balance>
+		<RU>Движение средств на кошельке</RU>
+		<UA>Рух коштів на гаманці</UA>
+		<EN>Turnover amount on purse</EN></purse_balance>
+	<bon_turnover>
+		<RU>Обороты</RU>
+		<UA>Обороти</UA>
+		<EN>Turnover amount</EN></bon_turnover>
+	<purse_turnover>
+		<RU>Обороты</RU>
+		<UA>Обороти</UA>
+		<EN>Turnover amount</EN></purse_turnover>
+	<begin_balance>
+		<RU>Начальный баланс</RU>
+		<UA>Початковий баланс</UA>
+		<EN>Begin balance</EN></begin_balance>
+	<end_balance>
+		<RU>Конечный баланс</RU>
+		<UA>Кінцевий баланс</UA>
+		<EN>End balance</EN></end_balance>
+		
+	<h_office_private_action_param>
+		<RU>Параметры действия в Личном кабинете Клиента</RU>
+		<UA>Параметри дії в Персональному кабінеті Клієнта</UA>
+		<EN>Parameters of action in Client''s private office</EN></h_office_private_action_param>
+
+	<t_get_base_card_not_selected>
+		<ru>Не выбраны карты для синхронизации</ru>
+		<ua>Не вибрані карти для синхронізації</ua>
+		<en>Cards not selected</en>
+	</t_get_base_card_not_selected>
+	<h_get_base_cards>
+		<ru>Синхронизация параметров карты</ru>
+		<ua>Синхронізація параметрів карти</ua>
+		<en>Synchronization of cards parameters</en>
+	</h_get_base_cards>
+	<t_get_base_cards_update>
+		<ru>Обновить параметры карты</ru>
+		<ua>Оновити параметри карти</ua>
+		<en>Update cards parameters</en>
+	</t_get_base_cards_update>
+	<t_delete_card>
+		<ru>Удалить карту</ru>
+		<ua>Видалити карту</ua>
+		<en>Delete card</en>
+	</t_delete_card>
+	
+	<id_jur_prs_card_pack>
+		<ru>ИД пакета</ru>
+		<ua>ІД пакета</ua>
+		<en>Package ID</en>
+	</id_jur_prs_card_pack>
+	<name_jur_prs_card_pack>
+		<ru>Название пакета</ru>
+		<ua>Назва пакета</ua>
+		<en>Package name</en>
+	</name_jur_prs_card_pack>
+	<desc_jur_prs_card_pack>
+		<ru>Описание пакета</ru>
+		<ua>Опис пакета</ua>
+		<en>Package description</en>
+	</desc_jur_prs_card_pack>
+	<total_amount_card_pack>
+		<ru>Общая стоимость</ru>
+		<ua>Загальна вартість</ua>
+		<en>Total amount</en>
+	</total_amount_card_pack>
+	<action_date_beg>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+		<en>Begin action date</en>
+	</action_date_beg>
+	<action_date_end>
+		<ru>Дата окончания действия</ru>
+		<ua>Дата завершення дії</ua>
+		<en>End action date</en>
+	</action_date_end>
+	<card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</card_status>
+	<h_add_pack>
+		<ru>Добавить пакет карт</ru>
+		<ua>Додати пакет карт</ua>
+		<en>Add card package</en>
+	</h_add_pack>
+	<h_delete_pack>
+		<ru>Удалить пакет карт</ru>
+		<ua>Видалити пакет карт</ua>
+		<en>Delete card package</en>
+	</h_delete_pack>
+	<h_update_pack>
+		<ru>Изменить параметры пакета карт</ru>
+		<ua>Змінити параметри пакета карт</ua>
+		<en>Change card package parameters</en>
+	</h_update_pack>
+	<h_select_pack>
+		<ru>Выберите пакет карт</ru>
+		<ua>Виберіть пакет карт</ua>
+		<en>Select a card package</en>
+	</h_select_pack>
+	
+	<note_card_pack_line>
+		<ru>Примечания</ru>
+		<ua>Примітки</ua>
+		<en>Notes</en>
+	</note_card_pack_line>
+	<cd_card_pack_line_type>
+		<ru>Составляющая стоимости</ru>
+		<ua>Складова вартості</ua>
+		<en>Cost element</en>
+	</cd_card_pack_line_type>
+	<name_card_pack_line_type>
+		<ru>Составляющая стоимости</ru>
+		<ua>Складова вартості</ua>
+		<en>Cost element</en>
+	</name_card_pack_line_type>
+	<amount_card_pack_line>
+		<ru>Стоимость</ru>
+		<ua>Вартість</ua>
+		<en>Amount</en>
+	</amount_card_pack_line>
+	<h_add_pack_line>
+		<ru>Добавить составляющую стоимости</ru>
+		<ua>Додати складову вартості</ua>
+		<en>Add cost element</en>
+	</h_add_pack_line>
+	<h_update_pack_line>
+		<ru>Изменить составляющую стоимости</ru>
+		<ua>Змінити складову вартості</ua>
+		<en>Update cost element</en>
+	</h_update_pack_line>
+	<h_delete_pack_line>
+		<ru>Удалить составляющую стоимости</ru>
+		<ua>Видалити складову вартості</ua>
+		<en>Delete cost element</en>
+	</h_delete_pack_line>
+	
+	<id_jur_prs_card_pack>
+		<ru>ИД пакета</ru>
+		<ua>ІД пакета</ua>
+		<en>Package ID</en>
+	</id_jur_prs_card_pack>
+	<name_jur_prs_card_pack>
+		<ru>Название пакета</ru>
+		<ua>Назва пакета</ua>
+		<en>Package name</en>
+	</name_jur_prs_card_pack>
+	<desc_jur_prs_card_pack>
+		<ru>Описание пакета</ru>
+		<ua>Опис пакета</ua>
+		<en>Package description</en>
+	</desc_jur_prs_card_pack>
+	<name_base_card_pack>
+		<ru>Название базового пакета</ru>
+		<ua>Назва базового пакета</ua>
+		<en>Base package name</en>
+	</name_base_card_pack>
+	<sname_partner>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en>
+	</sname_partner>
+	<sname_jur_prs>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en>
+	</sname_jur_prs>
+	
+	<note_jur_prs_card_pack_line>
+		<ru>Примечания</ru>
+		<ua>Примітки</ua>
+		<en>Notes</en>
+	</note_jur_prs_card_pack_line>
+	<amount_jur_prs_card_pack_line>
+		<ru>Стоимость</ru>
+		<ua>Вартість</ua>
+		<en>Amount</en>
+	</amount_jur_prs_card_pack_line>
+	<month_count>
+		<ru>Месяцев</ru>
+		<ua>Місяців</ua>
+		<en>Months</en>
+	</month_count>
+	
+	<entrance_fee>
+		<RU>Вступительный взнос</RU>
+		<UA>Вступний внесок</UA>
+		<EN>Entrance fee</EN>
+	</entrance_fee>
+	<membership_fee>
+		<RU>Членский взнос</RU>
+		<UA>Членський внесок</UA>
+		<EN>Membership fee</EN>
+	</membership_fee>
+	<membership_fee_month_count>
+		<RU>за месяцев</RU>
+		<UA>за місяців</UA>
+		<EN>for months</EN>
+	</membership_fee_month_count>
+	<share_fee>
+		<RU>Паевой взнос</RU>
+		<UA>Паєвий внесок</UA>
+		<EN>Share fee</EN>
+	</share_fee>
+	<min_share_fee>
+		<RU>Минимальный паевой взнос</RU>
+		<UA>Мінімальний паєвий внесок</UA>
+		<EN>Minimal share fee</EN>
+	</min_share_fee>
+	<dealer_margin>
+		<RU>Наценка Торгового Партнера</RU>
+		<UA>Націнка Торгівельного Партнера</UA>
+		<EN>Trade Partner's margin</EN>
+	</dealer_margin>
+	<agent_margin>
+		<RU>Наценка Агента</RU>
+		<UA>Націнка Агента</UA>
+		<EN>Agent margin</EN>
+	</agent_margin>
+	<id_doc>
+		<RU>Документ</RU>
+		<UA>Документ</UA>
+		<EN>Document</EN>
+	</id_doc>
+	<is_dealer_margin_into_pack>
+		<RU>Наценку Торгового Партнера оплачивает Общество</RU>
+		<UA>Націнку Торгівельного Партнера сплачує Товариство</UA>
+		<EN>Trade Partner margin is paid by Society</EN>
+	</is_dealer_margin_into_pack>
+	<is_agent_margin_into_pack>
+		<RU>Наценку Агента оплачивает Общество</RU>
+		<UA>Націнку Агента сплачує Товариство</UA>
+		<EN>Agent margin is paid by Society</EN>
+	</is_agent_margin_into_pack>
+	
+	<total_amount_card_sale>
+		<RU>Сумма продажи карты</RU>
+		<UA>Сума продажу карти</UA>
+		<EN>Sum of card sale</EN>
+	</total_amount_card_sale>
+	<membership_month_sum>
+		<RU>Ежемесячный членский взнос</RU>
+		<UA>Щомісячний членський внесок</UA>
+		<EN>Monthly membership fees</EN>
+	</membership_month_sum>
+	<membership_last_date>
+		<RU>Оплачено членский взнос до</RU>
+		<UA>Оплачено членський внесок до</UA>
+		<EN>Paid membership dues to</EN>
+	</membership_last_date>
+	<adr_jur_prs>
+		<RU>Адрес партнера</RU>
+		<UA>Адреса партнера</UA>
+		<EN>Partner's address</EN>
+	</adr_jur_prs>
+	<name_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN>
+	</name_post>
+	<name_nat_prs_role_state>
+		<RU>Состояние выдачи карты</RU>
+		<UA>Стан видачі карти</UA>
+		<EN>Card given state</EN>
+	</name_nat_prs_role_state>
+	
+	<title_card_actions>
+		<RU>Действия с картой</RU>
+		<UA>Дії з картою</UA>
+		<EN>Actions with card</EN>
+	</title_card_actions>
+	<card_action_kind>
+		<RU>Действие</RU>
+		<UA>Дія</UA>
+		<EN>Action</EN>
+	</card_action_kind>
+	<title_card_action_give>
+		<RU>Выдать карту</RU>
+		<UA>Видати карту</UA>
+		<EN>Give card</EN>
+	</title_card_action_give>
+	<name_card_material>
+		<RU>Материал, из которого сделана карта</RU>
+		<UA>Матеріал, з якого зроблено карту</UA>
+		<EN>Material from card produce</EN>
+	</name_card_material>
+	<name_card_info_store>
+		<RU>Способ взаимодействия с картой</RU>
+		<UA>Спосіб взаємодії з картою</UA>
+		<EN>Way of interaction with card</EN>
+	</name_card_info_store>
+	<title_card_not_issued>
+		<RU>Карта не выдана</RU>
+		<UA>Карта не видана</UA>
+		<EN>Card isn't issued</EN>
+	</title_card_not_issued>
+	<sname_service_place_work>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</sname_service_place_work>
+</clubcards>

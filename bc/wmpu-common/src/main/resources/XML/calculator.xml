@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<calculator>
+	<general>
+		<RU>Калькулятор</RU>
+		<UA>Калькулятор</UA>
+		<EN>Calculator</EN>
+	</general>
+	<add>
+		<RU>Добавить</RU>
+		<UA>Додати</UA>
+		<EN>Add</EN>
+	</add>
+	<delete>
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN>
+	</delete>
+	<backspace>
+		<RU>Вернуть</RU>
+		<UA>Повернути</UA>
+		<EN>Backspace</EN>
+	</backspace>
+	<space>
+		<RU>Пробел</RU>
+		<UA>Пробіл</UA>
+		<EN>Space</EN>
+	</space>
+	<clear>
+		<RU>Очистить</RU>
+		<UA>Очистити</UA>
+		<EN>Clear</EN>
+	</clear>
+	<check>
+		<RU>Проверить</RU>
+		<UA>Перевірити</UA>
+		<EN>Check</EN>
+	</check>
+	<submit>
+		<RU>Подтвердить</RU>
+		<UA>Підтвердити</UA>
+		<EN>Submit</EN>
+	</submit>
+	<cancel>
+		<RU>Отмена</RU>
+		<UA>Відмінити</UA>
+		<EN>Cancel</EN>
+	</cancel>
+	<variables>
+		<RU>Переменные</RU>
+		<UA>Змінні</UA>
+		<EN>Variables</EN>
+	</variables>
+	<comissions>
+		<RU>Комиссии</RU>
+		<UA>Комісії</UA>
+		<EN>Comissions</EN>
+	</comissions>
+	<postings_parameters>
+		<RU>Параметры проводки</RU>
+		<UA>Параметри проведення</UA>
+		<EN>Entries parameters</EN>
+	</postings_parameters>
+	<operations_data>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</operations_data>
+	<opr_sum>
+		<RU>Сумма операции</RU>
+		<UA>Сума операції</UA>
+		<EN>Operation amount</EN>
+	</opr_sum>
+	<sum_pay_cash>
+		<RU>Сумма оплаты наличными</RU>
+		<UA>Сума оплати готівкою</UA>
+		<EN>Cash payment sum</EN>
+	</sum_pay_cash>
+	<sum_pay_card>
+		<RU>Сумма оплаты картой</RU>
+		<UA>Сума оплати картою</UA>
+		<EN>Sum of payment by card</EN>
+	</sum_pay_card>
+	<sum_pay_bon>
+		<RU>Сумма оплаты баллами</RU>
+		<UA>Сума оплати балами</UA>
+		<EN>Sum of payment by points</EN>
+	</sum_pay_bon>
+	<club_sum>
+		<ru>Сумма паевой покупки</ru>
+		<ua>Сума паевої купівлі</ua>
+		<en>Amount of share purchasing</en>
+	</club_sum>
+	<sum_bon>
+		<RU>Насчитано баллов</RU>
+		<UA>Нараховано балів</UA>
+		<EN>Points charged</EN>
+	</sum_bon>
+	<sum_disc>
+		<RU>Насчитано скидки</RU>
+		<UA>Нараховано знижки</UA>
+		<EN>Discount charged</EN>
+	</sum_disc>
+	<with_vat>
+		<RU>с НДС</RU>
+		<UA>з ПДВ</UA>
+		<EN>with VAT</EN>
+	</with_vat>
+	<without_vat>
+		<RU>без НДС</RU>
+		<UA>без ПДВ</UA>
+		<EN>without VAT</EN>
+	</without_vat>
+	<t_not_checked>
+		<RU>Формула не проверена</RU>
+		<UA>Формулу не перевірено</UA>
+		<EN>Formula is not checked</EN>
+	</t_not_checked>
+	
+	<t_percent_value>
+		<RU>% значение</RU>
+		<UA>% значення</UA>
+		<EN>% value</EN>
+	</t_percent_value>
+	<t_fixed_value>
+		<RU>Фиксированная сумма</RU>
+		<UA>Фіксована сума</UA>
+		<EN>Fixed sum</EN>
+	</t_fixed_value>
+
+	<t_docs>
+		<RU>Документы</RU>
+		<UA>Документи</UA>
+		<EN>Documents</EN>
+	</t_docs>
+	<t_doc_number>
+		<RU>Номер</RU>
+		<UA>Номер</UA>
+		<EN>Number</EN>
+	</t_doc_number>
+	<t_doc_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</t_doc_date>
+	<t_doc_name>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</t_doc_name>
+	
+	<t_debet>
+		<RU>Дебет</RU>
+		<UA>Дебет</UA>
+		<EN>Debet</EN>
+	</t_debet>
+	<t_credit>
+		<RU>Кредит</RU>
+		<UA>Кредит</UA>
+		<EN>Credit</EN>
+	</t_credit>
+	
+	<operation_amount>
+		<RU>Сумма проводки</RU>
+		<UA>Сума проводки</UA>
+		<EN>Posting sum</EN>
+	</operation_amount>
+	<formula>
+		<RU>Формула</RU>
+		<UA>Формула</UA>
+		<EN>Formula</EN>
+	</formula>
+	<formula_begin>
+		<RU>Начало формулы</RU>
+		<UA>Початок формули</UA>
+		<EN>Formula begin</EN>
+	</formula_begin>
+	<formula_end>
+		<RU>Окончание формулы</RU>
+		<UA>Закінчення формули</UA>
+		<EN>Formula end</EN>
+	</formula_end>
+</calculator>

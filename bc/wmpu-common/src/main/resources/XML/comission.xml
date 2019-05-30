@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<comission>
+	<general>
+		<RU>Комиссии</RU>
+		<UA>Комісії</UA>
+		<EN>Comissions</EN>
+	</general>
+	<id_comission_type>
+		<RU>ИД типа комиссии</RU>
+		<UA>ІД типу комісії</UA>
+		<EN>Comission type ID</EN>
+	</id_comission_type>
+	<cd_comission_type>
+		<RU>Код типа комиссии</RU>
+		<UA>Код типу комісії</UA>
+		<EN>Comission type code</EN>
+	</cd_comission_type>
+	<name_comission_type>
+		<RU>Тип комиссии</RU>
+		<UA>Тип комісії</UA>
+		<EN>Сomission type</EN>
+	</name_comission_type>
+	<name_comission_type_full>
+		<RU>Название типа комиссии</RU>
+		<UA>Назва типу комісії</UA>
+		<EN>Сomission type name</EN>
+	</name_comission_type_full>
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<fixed_value>
+		<RU>Фиксированная сумма</RU>
+		<UA>Фіксована сума</UA>
+		<EN>Fixed sum</EN>
+	</fixed_value>
+	<fixed_value_def>
+		<RU>Фиксированная сумма по умолчанию</RU>
+		<UA>Фіксована сума за замовчуванням</UA>
+		<EN>Default fixed sum</EN>
+	</fixed_value_def>
+	<percent_value>
+		<RU>% значение</RU>
+		<UA>% значення</UA>
+		<EN>% value</EN>
+	</percent_value>
+	<percent_value_def>
+		<RU>% значение по умолчанию</RU>
+		<UA>% значення за замовчуванням</UA>
+		<EN>Default % value</EN>
+	</percent_value_def>
+	<id_payment_system>
+		<RU>Платежная система</RU>
+		<UA>Платіжна система</UA>
+		<EN>Payment system</EN>
+	</id_payment_system>
+	<name_payment_system>
+		<RU>Платежная система</RU>
+		<UA>Платіжна система</UA>
+		<EN>Payment system</EN>
+	</name_payment_system>
+	<begin_action_date>
+		<RU>Начало действия</RU>
+		<UA>Початок дії</UA>
+		<EN>Beginning action date</EN>
+	</begin_action_date>
+	<end_action_date>
+		<RU>Окончание действия</RU>
+		<UA>Завершення дії</UA>
+		<EN>Ending action date</EN>
+	</end_action_date>
+	<description>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</description>
+	<full_doc>
+		<RU>Документ</RU>
+		<UA>Документ</UA>
+		<EN>Document</EN>
+	</full_doc>
+	<exist_flag>
+		<RU>Используется</RU>
+		<UA>Використовується</UA>
+		<EN>Used</EN>
+	</exist_flag>
+	<cd_participant_payer>
+		<RU>Плательщик: роль</RU>
+		<UA>Платник: роль</UA>
+		<EN>Payer: role</EN>
+	</cd_participant_payer>
+	<name_participant_payer>
+		<RU>Плательщик: роль</RU>
+		<UA>Платник: роль</UA>
+		<EN>Payer: role</EN>
+	</name_participant_payer>
+	<sname_jur_prs_payer>
+		<RU>Плательщик: роль</RU>
+		<UA>Платник: роль</UA>
+		<EN>Payer: role</EN>
+	</sname_jur_prs_payer>
+	
+	<jur_prs_payer>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</jur_prs_payer>
+	<jur_prs_receiver>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Receiver</EN>
+	</jur_prs_receiver>
+	
+	<cd_jur_prs_prim_type_payer>
+		<RU>Получатель: тип юрлица</RU>
+		<UA>Отримувач: тип юрособи</UA>
+		<EN>Receiver: juridical person type</EN>
+	</cd_jur_prs_prim_type_payer>
+	<cd_jur_prs_prim_type_receiver>
+		<RU>Получатель: тип юрлица</RU>
+		<UA>Отримувач: тип юрособи</UA>
+		<EN>Receiver: juridical person type</EN>
+	</cd_jur_prs_prim_type_receiver>
+	
+	<cd_participant_receiver>
+		<RU>Получатель: роль</RU>
+		<UA>Отримувач: роль</UA>
+		<EN>Receiver: role</EN>
+	</cd_participant_receiver>
+	<name_participant_receiver>
+		<RU>Получатель: роль</RU>
+		<UA>Отримувач: роль</UA>
+		<EN>Receiver: role</EN>
+	</name_participant_receiver>
+	<sname_jur_prs_receiver>
+		<RU>Получатель: роль</RU>
+		<UA>Отримувач: роль</UA>
+		<EN>Receiver: role</EN>
+	</sname_jur_prs_receiver>
+	<name_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</name_service_place>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<id_card_status>
+		<RU>Вид карты</RU>
+		<UA>Вид карти</UA>
+		<EN>Card kind</EN>
+	</id_card_status>
+	<need_comission_count>
+		<RU>Не создано комиссий</RU>
+		<UA>Не створено комісій</UA>
+		<EN>Not created comissions</EN></need_comission_count>
+	<all_comission_was_created>
+		<RU>Все комиссии созданы</RU>
+		<UA>Всі комісії створено</UA>
+		<EN>All comissions was created</EN></all_comission_was_created>
+	<h_add_comission>
+		<ru>Добавить комиссию</ru>
+		<ua>Додати комісію</ua>
+		<en>Add commission</en></h_add_comission>
+	<h_edit_comission>
+		<ru>Редактировать параметры комиссии</ru>
+		<ua>Редагувати параметри комісії</ua>
+		<en>Edit commission parameters</en></h_edit_comission>
+	<t_additional_param>
+		<ru>Дополнительные параметры</ru>
+		<ua>Додаткові параметри</ua>
+		<en>Additional parameters</en></t_additional_param>
+	<name_club_rel_type>
+		<ru>Тип взаимоотношений</ru>
+		<ua>Тип взаємовідносин</ua>
+		<en>Relationships type</en></name_club_rel_type>
+	<name_club_rel>
+		<ru>Взаимоотношение</ru>
+		<ua>Взаємовідносина</ua>
+		<en>Relationship</en></name_club_rel>
+	<full_name_club_rel>
+		<ru>Взаимоотношение</ru>
+		<ua>Взаємовідносина</ua>
+		<en>Relationship</en></full_name_club_rel>
+	<t_comistype>
+		<ru>Типы комиссий</ru>
+		<ua>Типи комісій</ua>
+		<en>Comissions type</en></t_comistype>
+	<H_COMISSION_TYPE_ADD>
+		<ru>Добавить тип комиссий </ru>
+		<ua>Додати тип комісій</ua>
+		<en>Add comissions type</en></H_COMISSION_TYPE_ADD>
+	<h_payer_and_receiver>
+		<ru>Плательщик и получатель</ru>
+		<ua>Платник і отримувач</ua>
+		<en>Payer and receiver</en></h_payer_and_receiver>
+	<h_cannon_update_comission_type>
+		<ru>Запрещено редактирование параметров типа комиссии: создано комиссий</ru>
+		<ua>Заборонено редагування параметрів типу комісії: створено комісій</ua>
+		<en>Cannot update comission's type parameters: comissions was created</en></h_cannon_update_comission_type>
+		
+	<h_delete_bank_comission>
+		<ru>Удалить комиссию</ru>
+		<ua>Видалити комісію</ua>
+		<en>Delete comission</en>
+	</h_delete_bank_comission>
+</comission>

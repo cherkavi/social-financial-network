@@ -1,0 +1,727 @@
+@CHARSET "UTF-8";
+	body {
+    	margin:9px 9px 0 9px;
+    	padding:0;
+    	background: #eeeeee;
+	}
+	#logo {
+ 		font-family: Arial, sans-serif;
+		font-size: 90%;
+    	background: #e0e0e0;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 0;
+    	margin-left:5px;
+    	width : 900px;
+    	height: 23px;
+    	top: 20px;
+    	position: relative;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		left: 15%;
+	}
+	#div_main {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 900px;
+    	height: 470px;
+    	left: 15%;
+    	top: 20px;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #ffffff;
+    	
+	}
+	
+	#workarea {
+		background: #e0e0e0;
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+    	width : 100%;
+    	height : 100%;
+    	padding-right:19px;
+    	position: absolute;
+    	top: 0;
+		overflow: inherit;
+	}
+	#leftarea {
+    	padding-left:3px;
+    	width : 250px;
+    	height: 100%;
+    	top: 0px;
+    	position: absolute;
+		overflow-x:auto;
+		overflow-y:auto;
+
+	}
+	#term_title {
+	  cursor: pointer;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	  text-align: right;
+	}
+	#card_visa {
+    	padding-left:7px;
+    	height: 25%;
+    	top: 0px;
+    	position: relative;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: url('images/visagold.png') no-repeat;
+	}
+	#card_barcode {
+    	padding-left:7px;
+    	height: 25%;
+    	top: 0px;
+    	position: relative;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: url('images/barcodecard.png') no-repeat;
+	}
+	#term_phisical {
+    	padding-left:30px;
+    	top: 0px;
+    	height: 75%;
+    	position: relative;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: url('images/varifone.png')  transparent no-repeat;
+	}
+	#term_bon_terminal {
+    	padding-left:30px;
+    	top: 0px;
+    	height: 75%;
+    	position: relative;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: url('images/bonterminal.png')  transparent no-repeat;
+	}
+	
+	#div_tabsheet {
+	  	position:relative;
+    	width : 100%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data {
+	  	position:relative;
+    	width : 100%;
+    	height : 80%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data_detail {
+	  	position:relative;
+    	width : 100%;
+    	height : 100%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+    	overflow:auto;
+	}
+	
+	.div_menu_element {
+	  font-size: 12px;
+	  cursor: pointer;
+	}
+	
+	.div_menu_element_disable {
+	  font-size: 12px;
+	  color: gray;
+	  cursor: auto;
+	}
+	.div_table_element {
+	  font-size: 10px;
+	  font: bold italic;
+	  color: red;
+	  cursor: pointer;
+	}
+	.div_table_element_header {
+	  font-size: 10px;
+	  cursor: pointer;
+	}
+	.div_pages {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_button {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_logo_hyperlink {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	  text-decoration: underline;
+	}
+	.div_goto {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  padding: 0px;
+	}
+	.div_href {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_caption {
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_caption2 {
+	  cursor: pointer;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_find {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_find_none {
+	  font-size: 10px;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+      background:#EFEFEF;
+	}
+	.img_ps {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	  border: 0px;
+	  cursor: pointer;
+	}
+	.div_title {
+	  color: black;
+	  background: white;
+	  font-size:22px;
+	  font-family:Arial;
+	  font-weight:bold;
+	  font-style: italic;
+	  cursor: pointer;
+	  height: 30;
+	}
+	
+	.div_title font.font_title {
+	  font-size:22px;
+	}
+	.div_title font.font_title:hover {
+	  font-size:22px;
+	  text-decoration: underline;
+	}
+
+	.div_tabs {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	  padding:7px;
+	}
+	.div_tabs li.s {
+		display: inline;
+		background: url(images/greenbg_s.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	.div_tabs a.s {
+		color: #663300;
+		background: url(images/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	.div_tabs a.s span {
+		background: url(images/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	.div_tabs a.s span {
+		float: none;
+	}
+	
+	#div_action {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 435px;
+    	height: 225px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	#div_action h1
+{
+    background-color: #BBBBBB;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 20px ;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+	.inputfield {
+		background: rgb(224, 238, 238);
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;    
+		margin-bottom: 10px;    
+    	width: auto !important;
+		line-height: 15px !important;
+		margin-bottom: 0px !important;
+		height: 20px;
+	}
+	.inputfield-ro {
+		background: #CCCCCC;
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;
+    	width: auto !important;
+    	line-height: 15px !important;
+		margin-bottom: 0px !important;
+	}
+	
+	#div_action table {
+	font-family:arial;
+	background-color: #FFFFFF;
+	border: 0px;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 10pt;
+	width: 98%;
+	margin-left: 7px;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0.1em 0.1em;
+}
+	
+	#div_card_list {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 200px;
+    	height: 450px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	.div_card_group {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 100px;
+    	height: 20px;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: yellow;
+		font-size: 12px;
+    	padding: 0 0 0 10px;
+	}
+	.div_noactive_card_group {
+		background: #eeeeee;
+	}
+	.div_add_card_group {
+		background: #a2b3c4;
+		cursor: pointer;
+	}
+	#div_card_add {
+		background: none repeat scroll 0 0 #ffffff;
+	    cursor: pointer;
+	    font-size: 12px;
+	    margin-bottom: 5px;
+	    position: absolute;
+	    top: 10px;
+	}
+	#div_card {
+		position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 198px;
+    	height: 50px;
+    	display:block;
+		background: #dddddd;
+		cursor: pointer;
+		margin-bottom: 5px;
+		font-size: 10px;
+	}
+	#div_card span.card_kind {
+		margin-right: 5px;
+    	padding: 0 0 0 10px;
+	}
+	#div_card span.card_status {
+		margin-right: 5px;
+		float:right;
+	}
+	#div_card span.card_code {
+		margin-right: 5px;
+    	padding: 0 0 0 10px;
+		display: block;
+	}
+	#div_card span.card_category {
+		margin-right: 5px;
+    	padding: 0 0 0 10px;
+	}
+	#div_card span.card_state {
+		margin-right: 5px;
+		float:right;
+	}
+	
+	#div_active_card {
+		position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 198px;
+    	height: 145px;
+    	display:block;
+		background: #ffffff;
+		margin-bottom: 5px;
+		font-size: 10px;
+		cursor: pointer;
+	}
+	#div_active_card span.card_kind {
+		margin-right: 5px;
+    	padding: 0 0 0 10px;
+	}
+	#div_active_card span.card_status {
+		margin-right: 5px;
+		float:right;
+	}
+	#div_active_card span.card_code {
+		margin-right: 5px;
+    	padding: 0 0 0 10px;
+		display: block;
+	}
+	#div_active_card span.card_state {
+		margin-right: 5px;
+		float:right;
+	}
+	#div_active_card span.card_state_title {
+		float:left;
+		display: block;
+		width: 188px;
+		border-top: 1px dashed #aaaaaa;
+    	padding: 2px 0 3px 10px;
+	}
+	#div_active_card span.card_state {
+		margin-right: 5px;
+		float:right;
+    	background: #00FF00;
+    	width: 70px;
+		text-align:right;
+	}
+	#div_active_card span.card_category_title {
+		float:left;
+		display: block;
+		width: 188px;
+		border-top: 1px dashed #aaaaaa;
+    	padding: 2px 0 3px 10px;
+	}
+	#div_active_card span.card_category {
+		margin-right: 5px;
+		float:right;
+    	background: #00FF00;
+    	width: 70px;
+		text-align:right;
+	}
+	#div_active_card span.card_bal_acc_title {
+		float:left;
+		display: block;
+		width: 188px;
+		border-top: 1px dashed #aaaaaa;
+    	padding: 2px 0 3px 10px;
+	}
+	#div_active_card span.card_bal_acc {
+		margin-right: 5px;
+		float:right;
+    	background: #00FF00;
+    	width: 70px;
+		text-align:right;
+	}
+	#div_active_card span.card_bal_cur_title {
+		float:left;
+		display: block;
+		width: 188px;
+		border-top: 1px dashed #aaaaaa;
+    	padding: 2px 0 3px 10px;
+	}
+	#div_active_card span.card_bal_cur {
+		margin-right: 5px;
+		float:right;
+    	background: #00FF00;
+    	width: 70px;
+		text-align:right;
+	}
+	#div_active_card span.card_used_time_tile {
+		float:left;
+		display: block;
+		width: 188px;
+		border-top: 1px dashed #aaaaaa;
+    	padding: 2px 0 3px 10px;
+	}
+	#div_active_card span.card_used_time {
+		margin-right: 5px;
+		float:right;
+    	background: #00FF00;
+    	width: 70px;
+		text-align:right;
+	}
+	
+	#div_card_param {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 670px;
+    	height: 450px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	
+	#div_card_sells {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 435px;
+    	height: 225px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	
+	#div_card_gifts {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 435px;
+    	height: 225px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	
+
+.tablebottom {
+	font-family:arial;
+	background-color: azure;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 98%;
+	text-align: left;    
+	margin-left: 5px;
+    margin-right: 5px;
+	border: 0px inherit;
+	border-collapse: collapse;
+}
+/*заголовок невиділений*/
+.tablebottom thead tr th, table.tablebottom tfoot tr th {
+	background-color: lightgray;
+	border: 1px solid #2F4F4F;
+	font-size: 8pt;
+	padding: 4px;	
+	text-align: center;
+	
+}
+.tablebottom thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tablebottom tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	background-color: #FFF;
+	vertical-align: top;
+	border: 1px solid #2F4F4F;
+	
+}
+.tablebottom tbody tr.odd td {
+	background-color:transparent;
+}
+
+.tablebottom-filter {
+	font-family:arial;
+	background-color: #FAFAFA;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 96%;
+	text-align: left;
+	margin-left: 7px;
+	margin-right: 14px;
+	padding-right: 14px;
+	border: 1px solid #EEEEEE;
+	vertical-align: middle;
+}
+.tablebottom-filter THEAD th {
+	color: white;
+	padding: 1px;
+	background-color: #ff9933;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+}
+.tablebottom-filter THEAD th.error {
+	color: white;
+	padding: 1px;
+	background-color: red;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+}
+.tablebottom-filter THEAD th.success {
+	color: white;
+	padding: 1px;
+	background-color: green;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+}
+.tablebottom-filter tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	background-color: #FAFAFA;
+	vertical-align: middle;
+	
+}
+.tablebottom-filter tbody tr.odd td {
+	background-color:transparent;
+}
+
+	#div_oper_list {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 200px;
+    	height: 450px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+		
+	#div_oper_param {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	margin-left:5px;
+    	width : 670px;
+    	height: 450px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	.div_oper {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 188px;
+    	height: 20px;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: white;
+		font-size: 12px;
+    	padding: 10px 0 0 10px;
+    	cursor: pointer;
+	}
+	.div_oper_group {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 150px;
+    	height: 20px;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: yellow;
+		font-size: 12px;
+    	padding: 0 0 0 10px;
+	}

@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<banks>
+
+	<general>
+		<RU>Банки</RU>
+		<UA>Банки</UA>
+		<EN>Banks</EN></general>
+	<ADR_LINE1>
+		<ru>Адрес</ru>
+		<ua>Адреса</ua>
+		<en>Address</en></ADR_LINE1>
+	<cd_nsmep>
+		<ru>Код учасника НСМЭП</ru>
+		<ua>Код учасника НСМЕП</ua>
+		<en>Participant of NSMEP code</en></cd_nsmep>
+	<commision_bank>
+		<ru>Комиссия банка</ru>
+		<ua>Комісія банку</ua>
+		<en>Bank commision</en></commision_bank>
+	<contact_person>
+		<ru>Контактное лицо</ru>
+		<ua>Контактна особа</ua>
+		<en>Contact  person</en></contact_person>
+	<corresp_account>
+		<ru>Корреспондентский счет</ru>
+		<ua>Кореспондентський рахунок</ua>
+		<en>Correspondent account</en></corresp_account>
+	<corresp_place>
+		<ru>Размещение корреспондентского счета</ru>
+		<ua>Знаходження кореспондентського рахунку</ua>
+		<en>Correspondent account location</en></corresp_place>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></NAME_COUNTRY>
+	<desc_bank>
+		<ru>Описание банка</ru>
+		<ua>Опис банку</ua>
+		<en>Bank description</en></desc_bank>
+	<filtr_bank>
+		<ru>Фильтр по банкам</ru>
+		<ua>Фільтр за банками</ua>
+		<en>Filter by banks</en></filtr_bank>
+	<ID_BANK_BRANCH>
+		<ru>ИД</ru>
+		<ua>ІД</ua>
+		<en>ID</en></ID_BANK_BRANCH>
+	<is_calc_bank_tsl>
+		<ru>Признак расчетного банка</ru>
+		<ua>Ознака розрахункового банку</ua>
+		<en>Account bank sign</en></is_calc_bank_tsl>
+	<IS_FINANCE_ACQUIRER_TSL>
+		<ru>Финансовый эквайр</ru>		
+		<ua>Фінансовий еквайр</ua>
+		<en>Financial acquirer</en></IS_FINANCE_ACQUIRER_TSL>
+	<IS_ISSUER_TSL>
+		<ru>Эмитент</ru>
+		<ua>Емітент</ua>
+		<en>Issuer</en></IS_ISSUER_TSL>
+	<IS_TECHNICAL_ACQUIRER_TSL>
+		<ru>Технический эквайр</ru>
+		<ua>Технічний еквайр</ua>
+		<en>Technical acquirer</en></IS_TECHNICAL_ACQUIRER_TSL>
+	<mfo_bank>
+		<ru>МФО</ru>
+		<ua>МФО</ua>
+		<en>Bank indetificxation code</en></mfo_bank>
+	<name_bank>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en></name_bank>
+	<edrpo>
+		<ru>ЕДРПОУ(ОКПО)</ru>
+		<ua>ЕДРПОУ(ОКПО)</ua>
+		<en>EDRPOU(OKPO)</en></edrpo>
+	<individual_tax_number>
+		<ru>ИНН</ru>
+		<ua>ІПН</ua>
+		<en>ITN</en></individual_tax_number>
+	<NAME_BANK_ALT>
+		<ru>Сокращенное название</ru>
+		<ua>Скорочена назва</ua>
+		<en>Short name</en></NAME_BANK_ALT>
+	<sname_bank>
+		<ru>Сокращенное название</ru>
+		<ua>Скорочена назва</ua>
+		<en>Short name</en></sname_bank>
+	<tax_licence_date>
+		<ru>Дата выдачи свидетельства ПН</ru>
+		<ua>Дата видачі свідоцтва ПП</ua>
+		<en>Certification date of TP</en></tax_licence_date>
+	<tax_licence_number>
+		<ru>№ свидетельства ПН</ru>
+		<ua>№ свідоцтва ПП</ua>
+		<en>TP number</en>
+	</tax_licence_number>
+	<bank_licence_date>
+		<ru>Дата выдачи лицензии</ru>
+		<ua>Дата видачі лицензії</ua>
+		<en>Licence date</en></bank_licence_date>
+	<bank_licence_number>
+		<ru>№ лицензии о банковской деятельности</ru>
+		<ua>№ ліцензії про банківську діяльність</ua>
+		<en>Licence number about bank activity</en>
+	</bank_licence_number>
+	<phone_work>
+		<ru>Контактный телефон</ru>
+		<ua>Контактний телефон</ua>
+		<en>Contact phone</en></phone_work>
+	<t_features>
+		<ru>Информация о банке</ru>
+		<ua>Інформація про банк</ua>
+		<en>Bank information</en></t_features>
+	<t_issuer>
+		<ru>Параметры эмитента</ru>
+		<ua>Параметри емітента</ua>
+		<en>Issuer's parameters</en></t_issuer>
+	<t_jur_accts>
+		<ru>Банковские счета</ru>
+		<ua>Банківські рахунки</ua>
+		<en>Bank accounts</en></t_jur_accts>
+	<t_terminals>
+		<ru>Терминалы</ru>
+		<ua>Термінали</ua>
+		<en>Terminals</en></t_terminals>
+	<LAB_ADD_BANK>
+		<ru>Добавить новый банк</ru>
+		<ua>Додати новий банк</ua>
+		<en>Add new bank</en>	
+	</LAB_ADD_BANK>	
+	<LAB_EDIT_BANK>
+		<ru>Редактировать банк</ru>
+		<ua>Редагувати банк</ua>
+		<en>Edit bank</en>	
+	</LAB_EDIT_BANK>
+	<NUMBER_BANK_ACCOUNT>
+		<ru>№ счета</ru>
+		<ua>№ рахунку</ua>
+		<en>Account number</en></NUMBER_BANK_ACCOUNT>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></name_currency>
+	<name_account_type>
+		<ru>Тип счета</ru>
+		<ua>Тип рахунку</ua>
+		<en>Account type</en></name_account_type>
+	<sname_jur_prs>
+		<ru>Юридическое лицо</ru>
+		<ua>Юридична особа</ua>
+		<en>Legal person</en></sname_jur_prs>
+	<acc_date_begin>
+		<ru>Открыт</ru>
+		<ua>Відкрито</ua>
+		<en>Open</en></acc_date_begin>
+	<acc_date_end>
+		<ru>Закрыт</ru>
+		<ua>Закрито</ua>
+		<en>Closed</en></acc_date_end>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<NAME_DEVICE_TYPE>
+		<ru>Тип терминаа</ru>
+		<ua>Тип терміналу</ua>		
+		<en>Terminal type</en>
+	</NAME_DEVICE_TYPE>
+	<name_term_status>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en></name_term_status>
+	<JUR_ADR_FULL>
+		<ru>Юридический адрес</ru>
+		<ua>Юридична адреса</ua>
+		<en>Legal address</en></JUR_ADR_FULL>
+	<FACT_ADR_FULL>
+		<ru>Фактический адрес</ru>
+		<ua>Фактична адреса</ua>
+		<en>Actual address</en></FACT_ADR_FULL>
+	<term_date_begin>
+		<ru>Установлен</ru>
+		<ua>Встановлено</ua>
+		<en>Setted</en></term_date_begin>
+	<term_date_end>
+		<ru>Изъят</ru>
+		<ua>Вилучено</ua>
+		<en>Removed</en></term_date_end>
+	<contract_number>
+		<ru>№ договора</ru>
+		<ua>№ договору</ua>
+		<en>Contract number</en></contract_number>
+	<contract_date>
+		<ru>Дата договора</ru>
+		<ua>Дата договору</ua>
+		<en>Conract date</en></contract_date>
+	<contract_desc>
+		<ru>Описание договора</ru>
+		<ua>Опис договору</ua>
+		<en>Contract description</en></contract_desc>
+	<cd_bank_unit_type>
+		<ru>Тип учреждения</ru>
+		<ua>Тип установи</ua>
+		<en>Enterprise type</en></cd_bank_unit_type>
+	<id_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en></id_bank>
+	<name_bank_unit_type>
+		<ru>Тип учреждения</ru>
+		<ua>Тип установи</ua>
+		<en>Enterprise type</en></name_bank_unit_type>
+	<t_comissions>
+		<ru>Комиссии</ru>
+		<ua>Комісії</ua>
+		<en>Commissions</en></t_comissions>
+	<cd_issuer_in_telgr_hex>
+		<RU>Код в телеграммах (HEX)</RU>
+		<UA>Код в телеграмах (HEX)</UA>
+		<EN>Code in telegrams (HEX)</EN></cd_issuer_in_telgr_hex>
+	<rep_bon_count>
+		<RU>Количество бонусов:</RU>
+		<UA>Кількість бонусів:</UA>
+		<EN>Quantity of bonuses:</EN></rep_bon_count>
+	<rep_acc_bon_sum>
+		<RU>Накопленных:</RU>
+		<UA>Накопичених:</UA>
+		<EN>Accumulated:</EN></rep_acc_bon_sum>
+	<rep_cur_bon_sum>
+		<RU>Используемых:</RU>
+		<UA>У використанні:</UA>
+		<EN>In use:</EN></rep_cur_bon_sum>
+	<rep_term_count>
+		<RU>Количество терминалов:</RU>
+		<UA>Кількість терміналів:</UA>
+		<EN>Quantity of terminals:</EN></rep_term_count>
+	<rep_card_count>
+		<RU>Количество карт:</RU>
+		<UA>Кількість карт:</UA>
+		<EN>Quantity of cards:</EN></rep_card_count>
+	<IS_RESIDENT>
+		<RU>Резидент</RU>
+		<UA>Резидент</UA>
+		<EN>Resident</EN></IS_RESIDENT>
+	<IS_RESIDENT_TSL>
+		<RU>Резидент</RU>
+		<UA>Резидент</UA>
+		<EN>Resident</EN></IS_RESIDENT_TSL>
+	<t_bk_accounts>
+		<RU>Бухгалтерские счета</RU>
+		<UA>Бухгалтерські рахунки</UA>
+		<EN>Business accounts</EN></t_bk_accounts>
+	<club_date_beg>
+		<ru>Дата регистрации у оператора</ru>
+		<ua>Дата реєстрації у оператора</ua>
+		<en>Operator registration date</en>
+	</club_date_beg>
+	<cd_club_member_status>
+		<ru>Статус в обществе</ru>
+		<ua>Статус в товаристві</ua>
+		<en>Society status</en>
+	</cd_club_member_status>
+	<h_delete_bank_account>
+		<ru>Удалить банковский счет</ru>
+		<ua>Видалити банківський рахунок</ua>
+		<en>Delete bank account</en>
+	</h_delete_bank_account>
+	<h_delete_bank_comission>
+		<ru>Удалить комиссию</ru>
+		<ua>Видалити комісію</ua>
+		<en>Delete comission</en>
+	</h_delete_bank_comission>
+	<h_delete_bank>
+		<ru>Удалить банк</ru>
+		<ua>Видалити банк</ua>
+		<en>Delete bank</en>
+	</h_delete_bank>
+</banks>

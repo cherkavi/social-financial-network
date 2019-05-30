@@ -1,0 +1,68 @@
+BODY {
+	background: azure
+	right top no-repeat fixed;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px; margin-bottom: 0px; 
+}
+A {
+	text-decoration: none;		/* Отменяем подчеркивание у ссылки */
+	color: blue;
+}
+
+.treeview{ /*CSS for Simple Tree Menu*/
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px; 
+	margin-bottom: 0px;
+}
+
+.treeview ul{ /*CSS for Simple Tree Menu*/
+	margin: 0;
+	padding: 0;
+	margin-left: 0px;
+	font-size: 10pt;
+}
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+	background: azure url(../../images/menu/list.gif) no-repeat left center;
+	list-style-type: none;
+	padding-left: 18px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	font-size: 10pt;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+	background: azure url(../../images/menu/closed.gif) no-repeat left 1px;
+	margin-left: 0px;
+	cursor: hand !important;
+	cursor: pointer !important;
+	font-size: 10pt;
+}
+
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+	display: none; /*Hide them by default. Don't delete. */
+	margin-left: 2px;
+	padding-left: 2px;
+	font-size: 10pt;
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+	cursor: default;
+	margin-left: 2px;
+	font-size: 10px;
+}
+
+.colelem {                           /*закрвыый уровень*/
+	position: relative;
+	display: none;
+	left: 375px;
+	top: 136px;
+}
+.expelem {							/*открытый уровень*/
+	position: relative; display: block;
+}

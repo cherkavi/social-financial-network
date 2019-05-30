@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <display-name>СМПУ</display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <!-- <welcome-file>webpos/main.jsp</welcome-file> -->
+  </welcome-file-list>
+
+  <!-- Thread Local variables for each request: SESSION_ID, LANG, DATE_FORMAT -->
+  <filter>
+    <filter-name>SessionParametersToThread</filter-name>
+    <filter-class>bc.servlet.SessionParametersEmitter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>SessionParametersToThread</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <!-- reporting -->
+  <servlet>
+    <servlet-name>Reporter</servlet-name>
+    <servlet-class>BonCard.Reports.Reporter</servlet-class>
+    <init-param>
+      <!-- path to jasper templates -->
+      <param-name>path_to_report</param-name>
+      <param-value>${wmpupt/jasper/templates}</param-value>
+    </init-param>
+    <init-param>
+      <!-- path to generated reports -->
+      <param-name>path_to_out</param-name>
+      <param-value>${wmpupt/jasper/output}</param-value>
+    </init-param>
+  </servlet>
+
+  <!-- DWR framework, call JS proxy function from server-->
+  <servlet>
+    <servlet-name>dwr-invoker</servlet-name>
+    <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <init-param>
+      <param-name>allowScriptTagRemoting</param-name>
+      <param-value>true </param-value>
+    </init-param>
+    <init-param>
+      <param-name>scriptCompressed</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>logLevel</param-name>
+      <param-value>DEBUG</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!-- "remote card reader" Applet interface -->
+  <servlet>
+    <servlet-name>DisplayForApplet</servlet-name>
+    <servlet-class>bc.applet.Display.Display.DisplayForApplet</servlet-class>
+  </servlet>
+
+  <!-- "remote card reader" remote client collaboration -->
+  <servlet>
+    <servlet-name>CardServer</servlet-name>
+    <servlet-class>bc.applet.CardManager.Server.CardServer</servlet-class>
+  </servlet>
+
+  <!-- @Deprecated 
+  file downloader with one parameter: FILENAME - path to file -->
+  <servlet>
+    <servlet-name>FileSender</servlet-name>
+    <servlet-class>bc.service.FileSender</servlet-class>
+  </servlet>
+
+  <!-- document downloader from certain directory, one parameter: filename - name of file -->
+  <servlet>
+    <servlet-name>DocumentDownloader</servlet-name>
+    <servlet-class>bc.doc.GeneralDocumentDownloader</servlet-class>
+    <!-- path to folder with files, which can be downloaded -->
+    <init-param>
+      <param-name>dir</param-name>
+      <param-value>${wmpupt/document/templates}</param-value>
+    </init-param>
+  </servlet>
+
+<servlet>
+  <servlet-name>NatPrsPhotoModule</servlet-name>
+  <servlet-class>bc.servlet.NatPrsPhotoServlet</servlet-class>
+    <init-param>
+      <param-name>upload_dir</param-name>
+      <param-value>${wmpupt/document/uploaded}</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+  <servlet-name>NatPrsPhotoModule</servlet-name>
+  <url-pattern>/NatPrsPhoto</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>TargetProgramPictureModule</servlet-name>
+  <servlet-class>bc.servlet.TargetProgramPictureServlet</servlet-class>
+    <init-param>
+      <param-name>upload_dir</param-name>
+      <param-value>${wmpupt/images/icons}</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+  <servlet-name>TargetProgramPictureModule</servlet-name>
+  <url-pattern>/TargetProgramPicture</url-pattern>
+</servlet-mapping>
+  <!-- upload file to the server -->
+  <servlet>
+    <servlet-name>DocumentUploader</servlet-name>
+    <servlet-class>bc.doc.GeneralDocumentUploader</servlet-class>
+    <!-- redirect page when upload was executed successfully -->
+    <init-param>
+      <param-name>page_upload_success</param-name>
+      <param-value>uploaded.jsp</param-value>
+    </init-param>
+    <!-- redirect page when upload was executed NOT successfully -->
+    <init-param>
+      <param-name>page_upload_error</param-name>
+      <param-value>error.jsp</param-value>
+    </init-param>
+    <!-- server folder with uploaded file  -->
+    <init-param>
+      <param-name>upload_dir</param-name>
+      <param-value>${wmpupt/document/uploaded}</param-value>
+    </init-param>
+    <!-- transit server folder, with temporary files which will created during upload process-->
+    <init-param>
+      <param-name>temp_dir</param-name>
+      <param-value>${wmpupt/document/uploaded_temp}</param-value>
+    </init-param>
+    <!-- max size of file, which can be uploaded -->
+    <init-param>
+      <param-name>max_file_size</param-name>
+      <param-value>10240000</param-value>
+    </init-param>
+  </servlet>
+
+
+  <!-- Completely Automated Public for Test Computer or Human Apart -->
+  <servlet>
+    <servlet-name>CaptchaGenerator</servlet-name>
+    <servlet-class>bc.servlet.CaptchaGenerator</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Reporter</servlet-name>
+    <url-pattern>/reports/Reporter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dwr-invoker</servlet-name>
+    <url-pattern>/dwr/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisplayForApplet</servlet-name>
+    <url-pattern>/DisplayForApplet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CardServer</servlet-name>
+    <url-pattern>/CardServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileSender</servlet-name>
+    <url-pattern>/FileSender</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocumentDownloader</servlet-name>
+    <url-pattern>/DocumentDownloader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocumentUploader</servlet-name>
+    <url-pattern>/DocumentUploader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CaptchaGenerator</servlet-name>
+    <url-pattern>/CaptchaGenerator</url-pattern>
+  </servlet-mapping>  
+</web-app>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<warnings>
+	<general>
+		<RU>Замечания</RU>
+		<UA>Зауваження</UA>
+		<EN>Warnings</EN>
+	</general>
+	<id_warning>
+		<RU>ИД замечания</RU>
+		<UA>ІД зауваження</UA>
+		<EN>Warning ID</EN>
+	</id_warning>
+	<name_warning>
+		<RU>Название замечания</RU>
+		<UA>Назва зауваження</UA>
+		<EN>Warning name</EN>
+	</name_warning>
+	<desc_warning>
+		<RU>Описание замечания</RU>
+		<UA>Опис зауваження</UA>
+		<EN>Warning description</EN>
+	</desc_warning>
+	<type_warning>
+		<RU>Тип замечания</RU>
+		<UA>Тип зауваження</UA>
+		<EN>Warning type</EN>
+	</type_warning>
+	<status_warning>
+		<RU>Статус замечания</RU>
+		<UA>Статус зауваження</UA>
+		<EN>Warning status</EN>
+	</status_warning>
+	<found_by>
+		<RU>Найдено</RU>
+		<UA>Знайдено</UA>
+		<EN>Found</EN>
+	</found_by>
+	<realization>
+		<RU>Реализация</RU>
+		<UA>Реалізація</UA>
+		<EN>Realization</EN>
+	</realization>
+	
+	<t_param>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></t_param>
+	<t_realization>
+		<ru>Реализация</ru>
+		<ua>Реалізація</ua>
+		<en>Realization</en></t_realization>
+	<h_warning_add>
+		<ru>Добавить замечание</ru>
+		<ua>Додати зауваження</ua>
+		<en>Add warning</en></h_warning_add>
+	<id_menu>
+		<ru>Меню</ru>
+		<ua>Меню</ua>
+		<en>Menu</en></id_menu>
+	<id_tab>
+		<ru>Закладка</ru>
+		<ua>Закладка</ua>
+		<en>Tabsheet</en></id_tab>
+	<name_menu_element>
+		<ru>Меню/закладка</ru>
+		<ua>Меню/закладка</ua>
+		<en>Menu/tabsheet</en></name_menu_element>
+	<h_delete_warning>
+		<ru>Удалить замечание</ru>
+		<ua>Видалити зауваження</ua>
+		<en>Delete warning</en></h_delete_warning>
+	<h_all>
+		<ru>Все</ru>
+		<ua>Всі</ua>
+		<en>All</en></h_all>
+	<h_current_user>
+		<ru>Собственные</ru>
+		<ua>Власні</ua>
+		<en>Owned</en></h_current_user>
+	<system_version>
+		<ru>Версия системы</ru>
+		<ua>Версія системи</ua>
+		<en>System version</en></system_version>
+		
+	<h_not_closed>
+		<ru>Не закрыто</ru>
+		<ua>Не закрито</ua>
+		<en>Not closed</en></h_not_closed>
+</warnings>

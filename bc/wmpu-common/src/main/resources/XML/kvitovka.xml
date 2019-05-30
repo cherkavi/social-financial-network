@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<kvitovka>
+	<general>
+		<RU>Выверка банковских выписок</RU>
+		<UA>Вивірення банківських виписок</UA>
+		<EN>Bank accounts reconcilation</EN>
+	</general>
+	<t_kvitovka>
+		<RU>Выверка банковских выписок</RU>
+		<UA>Вивірення банківських виписок</UA>
+		<EN>Bank accounts reconcilation</EN>
+	</t_kvitovka>
+	<number_line>
+		<RU>Номер строки</RU>
+		<UA>Номер рядка</UA>
+		<EN>Line number</EN>
+	</number_line>
+	<t_autoroconcilation>
+		<RU>Автовыверка</RU>
+		<UA>Автовивірення</UA>
+		<EN>Autoreconcilation</EN>
+	</t_autoroconcilation>
+	<id_autoreconcilation>
+		<RU>ИД автовыверки</RU>
+		<UA>ІД автовивірення</UA>
+		<EN>Autoreconcilation ID</EN>
+	</id_autoreconcilation>
+	<date_autoreconcilation>
+		<RU>Дата автовыверки</RU>
+		<UA>Дата автовивірення</UA>
+		<EN>Autoreconcilation date</EN>
+	</date_autoreconcilation>
+	<reconciled_lines_count>
+		<RU>Количество выверенных строк</RU>
+		<UA>Кількість вивірених рядків</UA>
+		<EN>Reconciled lines count</EN>
+	</reconciled_lines_count>
+	
+	<t_clearing>
+		<RU>Клиринг</RU>
+		<UA>Кліринг</UA>
+		<EN>Clearing</EN>
+	</t_clearing>
+	<number_clearing>
+		<RU>Номер</RU>
+		<UA>Номер</UA>
+		<EN>Number</EN>
+	</number_clearing>
+	<clearing_line_number>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN>
+	</clearing_line_number>
+	<t_bank_statement>
+		<RU>Банковская выписка</RU>
+		<UA>Банківська виписка</UA>
+		<EN>Bank statement</EN>
+	</t_bank_statement>
+	<number_bank_statement>
+		<RU>Номер</RU>
+		<UA>Номер</UA>
+		<EN>Number</EN>
+	</number_bank_statement>
+	<date_bank_statement>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</date_bank_statement>
+	<bank_statement_line_number>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN>
+	</bank_statement_line_number>
+	<reconciled_amount>
+		<RU>Выверенная сумма</RU>
+		<UA>Вивірена сума</UA>
+		<EN>Reconciled amount</EN>
+	</reconciled_amount>
+	<reconcile_type>
+		<RU>Тип выверки</RU>
+		<UA>Тип вивірення</UA>
+		<EN>Reconcile type</EN>
+	</reconcile_type>
+	<LAB_RUN_AUTORECONCIL>
+		<RU>Выполнить автовыверку</RU>
+		<UA>Виконати автовивірення</UA>
+		<EN>Run autoreconcilation</EN>
+	</LAB_RUN_AUTORECONCIL>
+</kvitovka>

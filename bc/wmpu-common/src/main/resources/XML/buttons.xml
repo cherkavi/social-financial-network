@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+	<general>
+		<RU>Названия кнопок на экранных формах</RU>
+		<UA>Назви кнопок на екранних формах</UA>
+		<EN>Buttons names on screen forms</EN>
+	</general>
+	<exit>
+		<RU>Выйти</RU>
+		<UA>Вийти</UA>
+		<EN>Exit</EN>
+	</exit>
+	<button_login>
+		<RU>Вход</RU>
+		<UA>Вхід</UA>
+		<EN>Login</EN>
+	</button_login>
+	<button_save>
+		<RU>Сохранить</RU>
+		<UA>Зберегти</UA>
+		<EN>Save</EN>
+	</button_save>
+	<button_set>
+		<RU>Установить</RU>
+		<UA>Встановити</UA>
+		<EN>Set</EN>
+	</button_set>
+	<title_storno>
+		<RU>Отмена операции</RU>
+		<UA>Відміна операції</UA>
+		<EN>Cancel operation</EN>
+	</title_storno>
+	<replenish>
+		<RU>Пополнить</RU>
+		<UA>Поповнити</UA>
+		<EN>Replanish</EN>
+	</replenish>
+	<bring>
+		<RU>Внести</RU>
+		<UA>Внести</UA>
+		<EN>Bring</EN>
+	</bring>
+	<submit>
+		<RU>Применить</RU>
+		<UA>Застосувати</UA>
+		<EN>Apply</EN>
+	</submit>
+	<reset>
+		<RU>Очистить</RU>
+		<UA>Очистити</UA>
+		<EN>Clear</EN>
+	</reset>
+	<clear>
+		<RU>Очистить</RU>
+		<UA>Очистити</UA>
+		<EN>Clear</EN>
+	</clear>
+	<repeat>
+		<RU>Повторить</RU>
+		<UA>Повторити</UA>
+		<EN>Repeat</EN>
+	</repeat>
+	<search>
+		<ru>Искать</ru>
+		<ua>Шукати</ua>
+		<en>Search</en>
+	</search>
+	<close>
+		<ru>Закрыть</ru>
+		<ua>Закрити</ua>
+		<en>Close</en>
+	</close>
+	<fill_up>
+		<ru>Пополнить</ru>
+		<ua>Поповнити</ua>
+		<en>Fill up</en>
+	</fill_up>
+	<send>
+		<ru>Отправить</ru>
+		<ua>Відправити</ua>
+		<en>Send</en>
+	</send>
+	<attach>
+		<RU>Прикрепить</RU>
+		<UA>Прикріпити</UA>
+		<EN>Attach</EN>
+	</attach>
+	<set_current>
+		<RU>Сделать текущим</RU>
+		<UA>Зробити поточним</UA>
+		<EN>Set current</EN>
+	</set_current>
+	<button_questionnaire>
+		<RU>Анкета</RU>
+		<UA>Анкета</UA>
+		<EN>Questionnaire</EN>
+	</button_questionnaire>
+	<cancel>
+		<RU>Отменить</RU>
+		<UA>Відмінити</UA>
+		<EN>Cancel</EN>
+	</cancel>
+	<return>
+		<RU>Вернуть</RU>
+		<UA>Повернути</UA>
+		<EN>Return</EN>
+	</return>
+	<canceled>
+		<RU>Отменено</RU>
+		<UA>Відмінено</UA>
+		<EN>Cancel</EN>
+	</canceled>
+	<cancelled>
+		<RU>Отменено</RU>
+		<UA>Відмінено</UA>
+		<EN>Cancel</EN>
+	</cancelled>
+	<returned>
+		<RU>Возвращено</RU>
+		<UA>Повернено</UA>
+		<EN>Returned</EN>
+	</returned>
+	<returned_partially>
+		<RU>Возвращено частично</RU>
+		<UA>Повернено частково</UA>
+		<EN>Returned partially</EN>
+	</returned_partially>
+	<warning>
+		<RU>Замечания</RU>
+		<UA>Зауваження</UA>
+		<EN>Warning</EN>
+	</warning>
+	<need_confirm>
+		<RU>Ожидание подтверждения</RU>
+		<UA>Очікування підтвердження</UA>
+		<EN>Confirmation expectation</EN>
+	</need_confirm>
+	<confirm>
+		<RU>Подтвердить</RU>
+		<UA>Підтвердити</UA>
+		<EN>Confirm</EN>
+	</confirm>
+	<invoice_sent_for_payment>
+		<RU>Счет отправлено на оплату</RU>
+		<UA>Рахунок відіслано на оплату</UA>
+		<EN>Invoice sent for payment</EN>
+	</invoice_sent_for_payment>
+	<sent_for_payment>
+		<RU>Отправлено на оплату</RU>
+		<UA>Відіслано на оплату</UA>
+		<EN>Sent for payment</EN>
+	</sent_for_payment>
+	<invoice_paid>
+		<RU>Счет оплачено</RU>
+		<UA>Рахунок оплачено</UA>
+		<EN>Invoice paid</EN>
+	</invoice_paid>
+	<paid>
+		<RU>Оплачено</RU>
+		<UA>Оплачено</UA>
+		<EN>Paid</EN>
+	</paid>
+	<finish>
+		<RU>Завершить</RU>
+		<UA>Завершити</UA>
+		<EN>Finish</EN>
+	</finish>
+	<calculate>
+		<RU>Рассчитать</RU>
+		<UA>Розрахувати</UA>
+		<EN>Calculate</EN>
+	</calculate>
+	<pay>
+		<RU>Оплатить</RU>
+		<UA>Сплатити</UA>
+		<EN>Pay</EN>
+	</pay>
+	<error>
+		<RU>Ошибка</RU>
+		<UA>Помилка</UA>
+		<EN>Error</EN>
+	</error>
+	<success>
+		<RU>Выполнено</RU>
+		<UA>Виконано</UA>
+		<EN>Success</EN>
+	</success>
+	<in_process>
+		<RU>В процессе</RU>
+		<UA>В процесі</UA>
+		<EN>In process</EN>
+	</in_process>
+	<delete>
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN>
+	</delete>
+	<go_back>
+		<RU>Вернуться</RU>
+		<UA>Повернутись</UA>
+		<EN>Back</EN>
+	</go_back>
+	<create>
+		<RU>Создать</RU>
+		<UA>Створити</UA>
+		<EN>Create</EN>
+	</create>
+	<execute>
+		<RU>Выполнить</RU>
+		<UA>Виконати</UA>
+		<EN>Execute</EN>
+	</execute>
+	<export>
+		<RU>Экспорт</RU>
+		<UA>Експорт</UA>
+		<EN>Export</EN>
+	</export>
+	<remind>
+		<RU>Напомнить</RU>
+		<UA>Нагадати</UA>
+		<EN>Remind</EN>
+	</remind>
+	<remind_pin>
+		<RU>Отправить ПИН</RU>
+		<UA>Відіслати ПІН</UA>
+		<EN>Send PIN</EN>
+	</remind_pin>
+	<change>
+		<RU>Изменить</RU>
+		<UA>Змiнити</UA>
+		<EN>Change</EN>
+	</change>
+	<button_message_read>
+		<RU>Прочитано</RU>
+		<UA>Прочитано</UA>
+		<EN>Read</EN>
+	</button_message_read>
+	<button_message_new>
+		<RU>Написать</RU>
+		<UA>Написати</UA>
+		<EN>Write</EN>
+	</button_message_new>
+	<button_message_reply>
+		<RU>Ответить</RU>
+		<UA>Відповісти</UA>
+		<EN>Reply</EN>
+	</button_message_reply>
+	<storno>
+		<RU>Выполнить</RU>
+		<UA>Виконати</UA>
+		<EN>Execute</EN>
+	</storno>
+	<find>
+		<ru>Найти</ru>
+		<ua>Знайти</ua>
+		<en>Find</en></find>
+	<find_string>
+		<ru>Строка поиска</ru>
+		<ua>Рядок пошуку</ua>
+		<en>Find string</en></find_string>
+	<show>
+		<ru>Показать</ru>
+		<ua>Показати</ua>
+		<en>Show</en></show>
+	<get_parameters>
+		<RU>Получить параметры</RU>
+		<UA>Отримати параметри</UA>
+		<EN>Get parameters</EN>
+	</get_parameters>
+	<verify>
+		<ru>Выверено</ru>
+		<ua>Вивірено</ua>
+		<en>Verified</en></verify>
+	<import>
+		<RU>Импорт</RU>
+		<UA>Імпорт</UA>
+		<EN>Import</EN></import>
+	<button_add>
+		<RU>Добавить</RU>
+		<UA>Додати</UA>
+		<EN>Add</EN></button_add>
+	<button_add_all>
+		<RU>Добавить все</RU>
+		<UA>Додати все</UA>
+		<EN>Add all</EN></button_add_all>
+	<button_copy>
+		<RU>Копировать</RU>
+		<UA>Копіювати</UA>
+		<EN>Copy</EN></button_copy>
+	<button_edit>
+		<RU>Редактировать</RU>
+		<UA>Редагувати</UA>
+		<EN>Edit</EN></button_edit>
+	<button_update>
+		<RU>Обновить</RU>
+		<UA>Оновити</UA>
+		<EN>Update</EN></button_update>
+	<button_delete>
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN></button_delete>
+	<button_delete_all>
+		<RU>Удалить все</RU>
+		<UA>Видалити все</UA>
+		<EN>Delete all</EN></button_delete_all>
+	<button_print>
+		<RU>Печатать</RU>
+		<UA>Друкувати</UA>
+		<EN>Print</EN></button_print>
+	<button_check>
+		<RU>Проверить</RU>
+		<UA>Перевірити</UA>
+		<EN>Check</EN></button_check>
+	<button_checkall>
+		<RU>Проверить все</RU>
+		<UA>Перевірити всі</UA>
+		<EN>Check all</EN></button_checkall>
+	<button_posting_line>
+		<RU>Проводки</RU>
+		<UA>Проведення</UA>
+		<EN>Entries</EN></button_posting_line>
+	<button_import>
+		<RU>Импортировать</RU>
+		<UA>Імпортувати</UA>
+		<EN>Import</EN></button_import>
+	<button_importall>
+		<RU>Импортировать все</RU>
+		<UA>Імпортувати всі</UA>
+		<EN>Import all</EN></button_importall>
+	<quit>
+		<RU>Выйти</RU>
+		<UA>Вийти</UA>
+		<EN>Quit</EN></quit>
+	<apply>
+		<RU>Применить</RU>
+		<UA>Підтвердити</UA>
+		<EN>Apply</EN></apply>
+	<subscribe>
+		<RU>Подписаться</RU>
+		<UA>Підписатись</UA>
+		<EN>Subscribe</EN></subscribe>
+	<open>
+		<RU>Открыть</RU>
+		<UA>Відкрити</UA>
+		<EN>Open</EN></open>
+	<button_begin>
+		<RU>Первая</RU>
+		<UA>Перша</UA>
+		<EN>First</EN></button_begin>
+	<button_end>
+		<RU>Последняя</RU>
+		<UA>Остання</UA>
+		<EN>Last</EN></button_end>
+	<button_next>
+		<RU>Следующая</RU>
+		<UA>Наступна</UA>
+		<EN>Next</EN></button_next>
+	<button_further>
+		<RU>Далее &gt;&gt;</RU>
+		<UA>Далі &gt;&gt;</UA>
+		<EN>Next &gt;&gt;</EN></button_further>
+	<button_previous>
+		<RU>Предыдущая</RU>
+		<UA>Попередня</UA>
+		<EN>Previous</EN></button_previous>
+	<button_select>
+		<RU>Выбрать</RU>
+		<UA>Вибрати</UA>
+		<EN>Select</EN></button_select>
+	<button_data_selector>
+		<RU>Выбрать</RU>
+		<UA>Вибрати</UA>
+		<EN>Select</EN></button_data_selector>
+	<button_posting>
+		<RU>Сформировать проводки</RU>
+		<UA>Сформувати проведення</UA>
+		<EN>Generate entries</EN></button_posting>
+	<button_report>
+		<RU>Отчет</RU>
+		<UA>Звіт</UA>
+		<EN>Report</EN></button_report>
+	<button_run>
+		<RU>Выполнить</RU>
+		<UA>Виконати</UA>
+		<EN>Run</EN></button_run>
+	<help>
+		<RU>Help</RU>
+		<UA>Help</UA>
+		<EN>Help</EN></help>
+	<button_apply>
+		<RU>Применить</RU>
+		<UA>Застосувати</UA>
+		<EN>Apply</EN></button_apply>
+	<button_apply_minus>
+		<RU>Отменить все</RU>
+		<UA>Відмінити все</UA>
+		<EN>Cancel all</EN></button_apply_minus>
+	<button_add_warning>
+		<RU>Добавить замечание</RU>
+		<UA>Додати зауваження</UA>
+		<EN>Add warning</EN></button_add_warning>
+	<button_help>
+		<RU>Помощь</RU>
+		<UA>Допомога</UA>
+		<EN>Help</EN></button_help>
+	<go_to_page>
+		<RU>Перейти на страницу</RU>
+		<UA>Перейти на сторінку</UA>
+		<EN>Go to page</EN></go_to_page>
+	<button_cheque>
+		<RU>Вывести чек</RU>
+		<UA>Вивести чек</UA>
+		<EN>Get cheque</EN></button_cheque>
+	<button_go_to_page>
+		<RU>Перейти</RU>
+		<UA>Перейти</UA>
+		<EN>Go</EN></button_go_to_page>
+	<button_set_to_term>
+		<RU>Сделать текущим</RU>
+		<UA>Зробити поточним</UA>
+		<EN>Set current</EN>
+	</button_set_to_term>
+	<button_revoke_from_term>
+		<RU>Отменить</RU>
+		<UA>Відмінити</UA>
+		<EN>Cancel</EN>
+	</button_revoke_from_term>
+	<button_save_warning>
+		<RU>Добавить к замечаниям</RU>
+		<UA>Додати до зауважень</UA>
+		<EN>Add to warnings</EN></button_save_warning>
+	<button_telgr_format>
+		<RU>Форматировано</RU>
+		<UA>Форматовано</UA>
+		<EN>Format</EN></button_telgr_format>
+	<button_telgr_source>
+		<RU>Исходный текст</RU>
+		<UA>Вихідний текст</UA>
+		<EN>Source</EN></button_telgr_source>
+	<button_reconcile>
+		<RU>Выверить</RU>
+		<UA>Вивірити</UA>
+		<EN>Reconcile</EN></button_reconcile>
+		
+	<button_back>
+		<RU>Назад &lt;&lt;</RU>
+		<UA>Назад &lt;&lt;</UA>
+		<EN>Back &lt;&lt;</EN></button_back>
+	<button_forward>
+		<RU>Вперед &gt;&gt;</RU>
+		<UA>Вперед &gt;&gt;</UA>
+		<EN>Forward &gt;&gt;</EN></button_forward>
+		
+	<button_to_selected>
+		<RU>В избранные</RU>
+		<UA>У вибрані</UA>
+		<EN>To selected</EN></button_to_selected>
+	<button_from_selected>
+		<RU>Из избранных</RU>
+		<UA>З вибраних</UA>
+		<EN>From selected</EN></button_from_selected>
+		
+	<button_history>
+		<RU>Исторические данные</RU>
+		<UA>Історичні дані</UA>
+		<EN>History data</EN></button_history>
+	<button_interchange>
+		<RU>Обмен</RU>
+		<UA>Обмін</UA>
+		<EN>Interchange</EN>
+	</button_interchange>
+	
+	<button_select_all>
+		<RU>Выбрать все</RU>
+		<UA>Вибрати всі</UA>
+		<EN>Select all</EN></button_select_all>
+	<button_get_base>
+		<RU>Загрузить</RU>
+		<UA>Завантажити</UA>
+		<EN>Load</EN></button_get_base>
+	<new>
+		<RU>Новый</RU>
+		<UA>Новий</UA>
+		<EN>New</EN></new>
+	<put>
+		<RU>Выдать</RU>
+		<UA>Видати</UA>
+		<EN>Put</EN></put>
+	<activate>
+		<RU>Активировать</RU>
+		<UA>Активувати</UA>
+		<EN>Activation</EN></activate>
+	<button_give>
+		<RU>Выдать</RU>
+		<UA>Видати</UA>
+		<EN>Give</EN></button_give>
+	<check>
+		<RU>Проверить</RU>
+		<UA>Перевірити</UA>
+		<EN>Check</EN></check>
+	<transfer>
+		<RU>Перевести</RU>
+		<UA>Перевести</UA>
+		<EN>Transfer</EN></transfer>
+	<button_send_sms>
+		<RU>Отправить СМС</RU>
+		<UA>Надіслати СМС</UA>
+		<EN>Send SMS</EN>
+	</button_send_sms>
+	<photo_delete>
+		<RU>Удалить фото</RU>
+		<UA>Видалити фото</UA>
+		<EN>Delete photo</EN>
+	</photo_delete>
+	<photo_edit>
+		<RU>Изменить фото</RU>
+		<UA>Змінити фото</UA>
+		<EN>Change photo</EN>
+	</photo_edit>
+</buttons>

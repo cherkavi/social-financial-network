@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<storno>
+	<general>
+		<RU>Сторнирование</RU>
+		<UA>Сторнування</UA>
+		<EN>Storno</EN>
+	</general>
+	<t_storno>
+		<RU>Сторнировать</RU>
+		<UA>Сторнувати</UA>
+		<EN>Storn</EN>
+	</t_storno>
+	<t_parameters>
+		<RU>Характеристики покупки</RU>
+		<UA>Характеристики купiвлi</UA>
+		<EN>Purchasing characteristics</EN>
+	</t_parameters>
+	<t_results>
+		<RU>Результаты сторнирования</RU>
+		<UA>Результати сторнування</UA>
+		<EN>Storno results</EN>
+	</t_results>
+	<h_storno_begin>
+		<RU>Сторнировать покупку (* - обязательные поля)</RU>
+		<UA>Сторнувати купiвлю (* - обов'язковi поля)</UA>
+		<EN>Storn purchasing (* - obligatory lines)</EN>
+	</h_storno_begin>
+	<c_accessible>
+		<RU>Доступно</RU>
+		<UA>Доступно</UA>
+		<EN>Accessible</EN>
+	</c_accessible>
+	<opr_sum_storno>
+		<RU>Сумма операции, которую нужно сторнировать</RU>
+		<UA>Сума операцiї, яку необхiдно сторнувати</UA>
+		<EN>Amount of operation needed to be storned</EN>
+	</opr_sum_storno>
+	<sum_pay_bon_storno>
+		<RU>Сумма оплаты баллами, которую нужно сторнировать</RU>
+		<UA>Сума оплати балами, яку необхiдно сторнувати</UA>
+		<EN>Amount of paying by points that shouls be storned</EN>
+	</sum_pay_bon_storno>
+	<opr_sum_end>
+		<RU>Сторнированная сумма покупки</RU>
+		<UA>Сторнована сума купiвлi</UA>
+		<EN>Storned purchasing amount</EN>
+	</opr_sum_end>
+	<sum_pay_cash_end>
+		<RU>Сторнированная сумма оплаты наличными</RU>
+		<UA>Сторнована сума оплати готiвкою</UA>
+		<EN>Storned amount of cash paying</EN>
+	</sum_pay_cash_end>
+	<sum_pay_card_end>
+		<RU>Сторнированная сумма оплаты картой</RU>
+		<UA>Сторнована сума оплати картою</UA>
+		<EN>Storned amount of card paying</EN>
+	</sum_pay_card_end>
+	<sum_pay_bon_end>
+		<RU>Сторнированная сумма оплаты баллами</RU>
+		<UA>Сторнована сума оплати балами</UA>
+		<EN>Storned amount of points paying</EN>
+	</sum_pay_bon_end>
+	<sum_bon_end>
+		<RU>Сторнированная сумма баллов</RU>
+		<UA>Сторнована сума балів</UA>
+		<EN>Storned amount of points</EN>
+	</sum_bon_end>
+	<sum_disc_end>
+		<RU>Сторнированная сумма скидки</RU>
+		<UA>Сторнована сума знижки</UA>
+		<EN>Storned amount of discount</EN>
+	</sum_disc_end>
+	<sum_back_user>
+		<RU>Вернуть наличными</RU>
+		<UA>Повернути готiвкою</UA>
+		<EN>Return cash</EN>
+	</sum_back_user>
+	<storno_result>
+		<RU>Результаты сторнирования</RU>
+		<UA>Результати сторнування</UA>
+		<EN>Storno results</EN>
+	</storno_result>
+	<storno_report>
+		<RU>Отчет</RU>
+		<UA>Звiт</UA>
+		<EN>Report</EN>
+	</storno_report>
+	<storno_detail>
+		<RU>Детально</RU>
+		<UA>Детально</UA>
+		<EN>Detailed</EN>
+	</storno_detail>
+</storno>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<taxes>
+	<general>
+		<RU>Налоги</RU>
+		<UA>Податки</UA>
+		<EN>Taxes</EN>
+	</general>
+	<h_current_value>
+		<RU>Текущее значение</RU>
+		<UA>Поточне значення</UA>
+		<EN>Current value</EN>
+	</h_current_value>
+	<cd_tax>
+		<RU>Код налога</RU>
+		<UA>Код податка</UA>
+		<EN>Tax code</EN>
+	</cd_tax>
+	<name_tax>
+		<RU>Название налога</RU>
+		<UA>Назва податка</UA>
+		<EN>Tax name</EN>
+	</name_tax>
+	<value_tax>
+		<RU>Значение налога</RU>
+		<UA>Значення податка</UA>
+		<EN>Tax value</EN>
+	</value_tax>
+	<cd_tax_value_type>
+		<RU>Единица изменерия</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Dimension value</EN>
+	</cd_tax_value_type>
+	<name_tax_value_type>
+		<RU>Единица изменерия</RU>
+		<UA>Одиниця виміру</UA>
+		<EN>Dimension value</EN>
+	</name_tax_value_type>
+	<cd_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</cd_currency>
+	<name_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</name_currency>
+	<begin_action_date>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+		<en>Begin action date</en>
+	</begin_action_date>
+	<end_action_date>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>End action date</EN>
+	</end_action_date>
+	<h_add_tax_value>
+		<RU>Добавить значение налога</RU>
+		<UA>Додати значення податка</UA>
+		<EN>Add tax value</EN>
+	</h_add_tax_value>
+	<h_edit_tax_value>
+		<RU>Изменить значение налога</RU>
+		<UA>Змінити значення податка</UA>
+		<EN>Update tax value</EN>
+	</h_edit_tax_value>
+	<l_remove_tax_value>
+		<RU>Удалить значение налога</RU>
+		<UA>Видалити значення податка</UA>
+		<EN>Delete tax value</EN>
+	</l_remove_tax_value>
+</taxes>

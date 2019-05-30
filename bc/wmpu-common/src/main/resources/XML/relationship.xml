@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<relationship>
+
+	<general>
+		<RU>Взаимоотношения</RU>
+		<UA>Взаємовідносини</UA>
+		<EN>Relationships</EN>
+	</general>
+	<id_club_rel>
+		<ru>ИД взаимоотношения</ru>
+		<ua>ІД взаємовідносини</ua>
+		<en>Relationship ID</en>
+	</id_club_rel>
+	<cd_club_rel_type>
+		<ru>Тип взаимоотношения</ru>
+		<ua>Тип взаємовідносини</ua>
+		<en>Relationship type</en>
+	</cd_club_rel_type>
+	<name_club_rel_type>
+		<ru>Тип взаимоотношения</ru>
+		<ua>Тип взаємовідносини</ua>
+		<en>Relationship type</en>
+	</name_club_rel_type>
+	<date_club_rel>
+		<RU>Дата начала взаимоотношений</RU>
+		<UA>Дата початку взаємовідносин</UA>
+		<EN>Relationship begin date</EN>
+	</date_club_rel>
+	<name_club_rel>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</name_club_rel>
+	<desc_club_rel>
+		<RU>Описание взаимоотношения</RU>
+		<UA>Опис взаємовідносини</UA>
+		<EN>Relationship description</EN>
+	</desc_club_rel>
+	<id_club_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_club_settlem_accnt>
+	<id_club_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_club_comis_accnt>
+	<sname_club_full>
+		<RU>Потребобщество</RU>
+		<UA>Споживче товариство</UA>
+		<EN>Society</EN>
+	</sname_club_full>
+	<title_society>
+		<RU>Общество</RU>
+		<UA>Товариство</UA>
+		<EN>Society</EN>
+	</title_society>
+	<title_partner>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</title_partner>
+	<sname_dealer>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_dealer>
+	<sname_dealer_full>
+		<RU>Торговый Партнер</RU>
+		<UA>Торговый Партнер</UA>
+		<EN>Trade Partner</EN>
+	</sname_dealer_full>
+	<id_dealer_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_dealer_settlem_accnt>
+	<id_dealer_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_dealer_comis_accnt>
+	<sname_fin_acquirer>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_fin_acquirer>
+	<sname_fin_acquirer_full>
+		<RU>Финансовый эквайер</RU>
+		<UA>Фінансовий еквайер</UA>
+		<EN>Finance acquirer</EN>
+	</sname_fin_acquirer_full>
+	<id_fin_acquirer_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_fin_acquirer_settlem_accnt>
+	<id_fin_acquirer_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_fin_acquirer_comis_accnt>
+	<sname_tech_acquirer>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_tech_acquirer>
+	<sname_tech_acquirer_full>
+		<RU>Технический эквайер</RU>
+		<UA>Технічний еквайер</UA>
+		<EN>Technical acquirer</EN>
+	</sname_tech_acquirer_full>
+	<id_tech_acquirer_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_tech_acquirer_settlem_accnt>
+	<id_tech_acquirer_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_tech_acquirer_comis_accnt>
+	<sname_issuer>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_issuer>
+	<sname_issuer_full>
+		<RU>Эмитент</RU>
+		<UA>Емітент</UA>
+		<EN>Issuer</EN>
+	</sname_issuer_full>
+	<id_issuer_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_issuer_settlem_accnt>
+	<id_issuer_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_issuer_comis_accnt>
+	<id_issuer_club_bon_accnt>
+		<RU>Счет Оператора в банке-эмитенте</RU>
+		<UA>Рахунок Оператора в банку-емітенті</UA>
+		<EN>Operator's account on issuer</EN>
+	</id_issuer_club_bon_accnt>
+	<id_club_distrib_accnt>
+		<RU>Распределительный счет оператора</RU>
+		<UA>Розподільчий рахунок оператора</UA>
+		<EN>Operator distributive account</EN>
+	</id_club_distrib_accnt>
+	<sname_term_manufact>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_term_manufact>
+	<sname_term_manufact_full>
+		<RU>Производитель терминалов</RU>
+		<UA>Виробник терміналів</UA>
+		<EN>Terminal's manufacturer</EN>
+	</sname_term_manufact_full>
+	<id_term_manufact_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_term_manufact_settlem_accnt>
+	<id_term_manufact_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_term_manufact_comis_accnt>
+	<h_add_relationship>
+		<RU>Добавить взаимоотношения</RU>
+		<UA>Додати взаємовідносини</UA>
+		<EN>Add relationship</EN>
+	</h_add_relationship>
+	<h_delete_relationship>
+		<RU>Удалить взаимоотношения</RU>
+		<UA>Видалити взаємовідносини</UA>
+		<EN>Delete relationship</EN>
+	</h_delete_relationship>
+	<h_edit_relationship>
+		<RU>Редактировать параметры взаимоотношения</RU>
+		<UA>Редагувати параметри взаємовідносини</UA>
+		<EN>Edit relationship</EN>
+	</h_edit_relationship>
+	<h_participants>
+		<RU>Участники взаимоотношений</RU>
+		<UA>Учасники взаємовідносин</UA>
+		<EN>Relationship participants</EN>
+	</h_participants>
+	
+	<sname_card_seller>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_card_seller>
+	<sname_card_seller_full>
+		<RU>Продавец карт</RU>
+		<UA>Продавець карт</UA>
+		<EN>Card seller</EN>
+	</sname_card_seller_full>
+	<id_card_seller_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_card_seller_settlem_accnt>
+	<id_card_seller_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_card_seller_comis_accnt>
+	
+	<sname_partner>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</sname_partner>
+	<sname_partner_full>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</sname_partner_full>
+	<id_partner_settlem_accnt>
+		<RU>Расчетный счет</RU>
+		<UA>Розрахунковий рахунок</UA>
+		<EN>Settlement account</EN>
+	</id_partner_settlem_accnt>
+	<id_partner_comis_accnt>
+		<RU>Счет комиссий</RU>
+		<UA>Рахунок комісій</UA>
+		<EN>Comission account</EN>
+	</id_partner_comis_accnt>
+	<exist_flag>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exist</EN>
+	</exist_flag>
+	<name_party1>
+		<RU>Сторона 1</RU>
+		<UA>Сторона 1</UA>
+		<EN>Party 1</EN>
+	</name_party1>
+	<sname_party1_full>
+		<RU>Сторона 1</RU>
+		<UA>Сторона 1</UA>
+		<EN>Party 1</EN>
+	</sname_party1_full>
+	<name_party2>
+		<RU>Сторона 2</RU>
+		<UA>Сторона 2</UA>
+		<EN>Party 2</EN>
+	</name_party2>
+	<sname_party2_full>
+		<RU>Сторона 2</RU>
+		<UA>Сторона 2</UA>
+		<EN>Party 2</EN>
+	</sname_party2_full>
+	<h_created>
+		<RU>Созданные</RU>
+		<UA>Створені</UA>
+		<EN>Created</EN>
+	</h_created>
+	<h_needed>
+		<RU>Требуются</RU>
+		<UA>Необхідні</UA>
+		<EN>Needed</EN>
+	</h_needed>
+	<need_relationships_count>
+		<RU>Не создано взаимоотношений</RU>
+		<UA>Не створено взаємовідносин</UA>
+		<EN>Not created relationships</EN>
+	</need_relationships_count>
+	<all_relationships_was_created>
+		<RU>Все взаимоотношения созданы</RU>
+		<UA>Всі взаємовідносини створено</UA>
+		<EN>All relationships was created</EN>
+	</all_relationships_was_created>
+	<name_doc_type>
+		<RU>Тип документа</RU>
+		<UA>Тип документа</UA>
+		<EN>Document's type</EN>
+	</name_doc_type>
+	<payment_function>
+		<RU>Назначение платежа</RU>
+		<UA>Призначення платежу</UA>
+		<EN>Payment function</EN>
+	</payment_function>
+</relationship>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<operators>
+	<greater JStype="digital">
+		<RU>больше</RU>		
+		<UA>більше</UA>
+		<EN>more</EN></greater>
+	<less JStype="digital">
+		<RU>меньше</RU>
+		<UA>менше</UA>
+		<EN>less</EN></less>
+	<equal JStype="all">
+		<RU>равняется</RU>
+		<UA>дорівнює</UA>
+		<EN>equal</EN></equal>
+	<not_equal JStype="all">
+		<RU>не равняется</RU>
+		<UA>не дорівнює</UA>
+		<EN>not equal</EN></not_equal>
+	<between JStype="digital">
+		<RU>между</RU>
+		<UA>між</UA>
+		<EN>between</EN></between>
+	<null JStype="all">
+		<RU>пусто</RU>
+		<UA>пусто</UA>
+		<EN>empty</EN></null>
+	<not_null JStype="all">
+		<RU>не пусто</RU>
+		<UA>не пусто</UA>
+		<EN>not empty</EN></not_null>
+	<like JStype="text" >
+		<RU>подобно</RU>
+		<UA>подібно</UA>
+		<EN>like</EN></like>
+	<not_like JStype="text">
+		<RU>не подобно</RU>
+		<UA>не подібно</UA>
+		<EN>not like</EN></not_like>
+</operators>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<loylines>
+    <general>
+        <RU>Начисление баллов</RU>
+        <UA>Нарахування балів</UA>
+        <EN>Points charging</EN>
+    </general>
+    <ID_LINE>
+    	<RU>Код строки</RU>
+        <UA>Код рядка</UA>
+        <EN>Line code</EN>
+    </ID_LINE>
+    <NAME_CATEGORY>
+    	<RU>Название категории</RU>
+        <UA>Назва категорії</UA>
+        <EN>Category name</EN>
+    </NAME_CATEGORY>
+    <CLUB_BON>
+    	<RU>% баллов</RU>
+		<UA>% балів</UA>
+		<EN>% of points</EN>
+	</CLUB_BON>
+    <CLUB_BON_PERCENT>
+    	<RU>% баллов</RU>
+		<UA>% балів</UA>
+		<EN>% of points</EN>
+    </CLUB_BON_PERCENT>
+    <MAX_BON_ST>
+    	<RU>Cумма покупки (накопления баллов) для данного % баллов</RU>
+		<UA>Сума покупки (накопичення балів) для даного % балів</UA>
+		<EN>Purchasing(accumulated points) amount for this % of points</EN>
+    </MAX_BON_ST>
+    <CLUB_DISC>
+    	<RU>% скидки</RU>
+		<UA>% знижки</UA>
+		<EN>% of discount</EN>
+    </CLUB_DISC>
+    <CLUB_DISC_PERCENT>
+    	<RU>% скидки</RU>
+		<UA>% знижки</UA>
+		<EN>% of discount</EN>
+    </CLUB_DISC_PERCENT>
+    <MAX_DISC_ST>
+    	<RU>Cумма покупки (накопления скидки) для данного % скидки</RU>
+		<UA>Сума покупки (накопичення знижки) для даного % знижки</UA>
+		<EN>Purchasing (accumulated discount) amount for this % of discount</EN>
+    </MAX_DISC_ST>
+    <name_loyality_scheme>
+        <RU>Название схемы</RU>
+        <UA>Назва схеми</UA>
+        <EN>Scheme name</EN>
+    </name_loyality_scheme>
+    <CD_KIND_LOYALITY>
+        <RU>Код вида программы лояльности</RU>
+        <UA>Код виду програми лояльності</UA>
+        <EN>Loyalty program kind code</EN>
+    </CD_KIND_LOYALITY>
+    <name_kind_loyality>
+        <RU>Название вида программы лояльности</RU>
+        <UA>Назва виду програми лояльності</UA>
+        <EN>Loyality program kind name</EN>
+    </name_kind_loyality>
+    <id_card_status>
+        <RU>ИД вида карты</RU>
+        <UA>ІД виду карти</UA>
+        <EN>Card kind ID</EN>
+    </id_card_status>
+    <name_card_status>
+        <RU>Название вида карты</RU>
+        <UA>Назва виду карти</UA>
+        <EN>Card kind name</EN>
+    </name_card_status>
+    <source_param>
+        <RU>Входной параметр</RU>
+        <UA>Вхідний параметр</UA>
+        <EN>Input parameter</EN>
+    </source_param>
+    <destination_param>
+        <RU>Выходной параметр</RU>
+        <UA>Вихідний параметр</UA>
+        <EN>Output parameter</EN>
+    </destination_param>
+    <bonus_transfer_term>
+        <RU>Срок перевода баллов, дней</RU>
+        <UA>Термін переведення балів, днів</UA>
+        <EN>Points transfer term, days</EN>
+    </bonus_transfer_term>
+    <bonus_transfer_term_money>
+        <RU>Срок перевода баллов (при оплате нал./безнал.), дней</RU>
+        <UA>Термін переведення балів (при оплаті гот./безгот.), днів</UA>
+        <EN>Points transfer term (for cash/nocash payments), days</EN>
+    </bonus_transfer_term_money>
+    <bonus_transfer_term_point>
+        <RU>Срок перевода баллов (при оплате картой СМПУ), дней</RU>
+        <UA>Термін переведення балів (при оплаті картою СМПУ), днів</UA>
+        <EN>Points transfer term (for SMPY card payments), days</EN>
+    </bonus_transfer_term_point>
+    <bonus_calc_term>
+        <RU>Расчетный период новой категории, дней</RU>
+        <UA>Розрахунковий період нової категорії, днів</UA>
+        <EN>Calculation period of new category, days</EN>
+    </bonus_calc_term>
+    <active>
+        <RU>Активно</RU>
+        <UA>Активно</UA>
+        <EN>Active</EN>
+    </active>
+    <h_loyality_add>
+        <RU>Добавить строку лояльности</RU>
+        <UA>Додати рядок лояльності</UA>
+        <EN>Add loyalty line</EN>
+    </h_loyality_add>
+    <h_loyality_edit>
+        <RU>Редактировать строку лояльности</RU>
+        <UA>Редагувати рядок лояльності</UA>
+        <EN>Edit loyalty line</EN>
+    </h_loyality_edit>
+    <h_loyality_delete>
+        <RU>Удалить строку лояльности</RU>
+        <UA>Видалити рядок лояльності</UA>
+        <EN>Delete loyalty line</EN>
+    </h_loyality_delete>
+    <opr_sum>
+    	<RU>Сумма операции</RU>
+    	<UA>Сума операції</UA>
+    	<EN>Operation amount</EN></opr_sum>
+    <disc_percent_value>
+    	<RU>% скидки</RU>
+    	<UA>% знижки</UA>
+    	<EN>% of discount</EN></disc_percent_value>
+    <disc_percent_value_percent>
+    	<RU>% скидки</RU>
+    	<UA>% знижки</UA>
+    	<EN>% of discount</EN></disc_percent_value_percent>
+    <disc_fixed_value>
+    	<RU>Сумма скидки</RU>
+    	<UA>Сума знижки</UA>
+    	<EN>Discount sum</EN></disc_fixed_value>
+    <disc_perc_and_fixed_value>
+    	<RU>%/ сумма скидки</RU>
+    	<UA>%/ сума знижки</UA>
+    	<EN>Discount percent/ sum</EN></disc_perc_and_fixed_value>
+    <bon_percent_value>
+    	<RU>% баллов</RU>
+    	<UA>% балів</UA>
+    	<EN>% of points</EN></bon_percent_value>
+    <bon_percent_value_percent>
+    	<RU>% баллов</RU>
+    	<UA>% балів</UA>
+    	<EN>% of points</EN></bon_percent_value_percent>
+    <bon_fixed_value>
+    	<RU>Сумма баллов</RU>
+    	<UA>Сума балів</UA>
+    	<EN>Points sum</EN></bon_fixed_value>
+    <bon_perc_and_fixed_value>
+    	<RU>%/ сумма баллов</RU>
+    	<UA>%/ сума балів</UA>
+    	<EN>%/ sum of points</EN></bon_perc_and_fixed_value>
+	<date_beg>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Beginning date</EN></date_beg>
+	<date_end>
+		<RU>Дата окончания</RU>
+		<UA>Дата завершення</UA>
+		<EN>Ending date</EN></date_end>
+	<nullperiod_flag>
+		<RU>Очистить данные за период</RU>
+		<UA>Очистити дані за період</UA>
+		<EN>Clear data for period</EN></nullperiod_flag>
+</loylines>

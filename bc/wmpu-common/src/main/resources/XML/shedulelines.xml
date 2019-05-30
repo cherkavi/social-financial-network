@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<shedulelines>
+	<general>
+		<RU>Строки графика лояльности</RU>
+		<UA>Рядки графіка лояльності</UA>
+		<EN>Diagram of loaylty lines</EN>
+	</general>
+	<id_shedule>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</id_shedule>
+	<line_number>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN>
+	</line_number>
+	<name_loyality_scheme>
+		<RU>Схема лояльности</RU>
+		<UA>Схема лояльності</UA>
+		<EN>Loyalty scheme</EN>
+	</name_loyality_scheme>
+	<date_beg>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Beginning date</EN>
+	</date_beg>
+	<date_end>
+		<RU>Дата окончания</RU>
+		<UA>Дата завершення</UA>
+		<EN>Ending date</EN>
+	</date_end>
+	<type_shedule>
+		<RU>Тип строки</RU>
+		<UA>Тип рядка</UA>
+		<EN>Line type</EN>
+	</type_shedule>
+	<day_time_beg>
+		<RU>Начальное время (HH24:MI)</RU>
+		<UA>Час початку (HH24:MI)</UA>
+		<EN>Initial time (HH24:MI)</EN>
+	</day_time_beg>
+	<day_time_end>
+		<RU>Конечное время (HH24:MI)</RU>
+		<UA>Час закінчення (HH24:MI)</UA>
+		<EN>Eventual time (HH24:MI)</EN>
+	</day_time_end>
+	<day_in_month>
+		<RU>№ дня в месяце</RU>
+		<UA>№ дня в місяці</UA>
+		<EN>Number of day in a month</EN>
+	</day_in_month>
+	<day_every_day_number>
+		<RU>Каждый N дня</RU>
+		<UA>Кожен N дня</UA>
+		<EN>Every N of day</EN>
+	</day_every_day_number>
+	<week_number>
+		<RU>№ недели в месяце</RU>
+		<UA>№ тижня в місяці</UA>
+		<EN>Number of week in a month</EN>
+	</week_number>
+	<week_monday>
+		<RU>Понедельник</RU>
+		<UA>Понеділок</UA>
+		<EN>Monday</EN>
+	</week_monday>
+	<week_tuesday>
+		<RU>Вторник</RU>
+		<UA>Вівторок</UA>
+		<EN>Tuesday</EN>
+	</week_tuesday>
+	<week_wednesday>
+		<RU>Среда</RU>
+		<UA>Середа</UA>
+		<EN>Wednesday</EN>
+	</week_wednesday>
+	<week_thursday>
+		<RU>Четверг</RU>
+		<UA>Четвер</UA>
+		<EN>Thursday</EN>
+	</week_thursday>
+	<week_friday>
+		<RU>Пятница</RU>
+		<UA>П'ятница</UA>
+		<EN>Friday</EN>
+	</week_friday>
+	<week_saturday>
+		<RU>Суббота</RU>
+		<UA>Субота</UA>
+		<EN>Saturday</EN>
+	</week_saturday>
+	<week_sunday>
+		<RU>Воскресенье</RU>
+		<UA>Неділя</UA>
+		<EN>Sunday</EN>
+	</week_sunday>
+	<month_january>
+		<RU>Январь</RU>
+		<UA>Січень</UA>
+		<EN>January</EN>
+	</month_january>
+	<month_february>
+		<RU>Февраль</RU>
+		<UA>Лютий</UA>
+		<EN>February</EN>
+	</month_february>
+	<month_march>
+		<RU>Март</RU>
+		<UA>Березень</UA>
+		<EN>March</EN>
+	</month_march>
+	<month_april>
+		<RU>Апрель</RU>
+		<UA>Квітень</UA>
+		<EN>April</EN>
+	</month_april>
+	<month_may>
+		<RU>Май</RU>
+		<UA>Травень</UA>
+		<EN>May</EN>
+	</month_may>
+	<month_june>
+		<RU>Июнь</RU>
+		<UA>Червень</UA>
+		<EN>June</EN>
+	</month_june>
+	<month_july>
+		<RU>Июль</RU>
+		<UA>Липень</UA>
+		<EN>July</EN>
+	</month_july>
+	<month_august>
+		<RU>Август</RU>
+		<UA>Серпень</UA>
+		<EN>August</EN>
+	</month_august>
+	<month_september>
+		<RU>Сентябрь</RU>
+		<UA>Вересень</UA>
+		<EN>September</EN>
+	</month_september>
+	<month_october>
+		<RU>Октябрь</RU>
+		<UA>Жовтень</UA>
+		<EN>October</EN>
+	</month_october>
+	<month_november>
+		<RU>Ноябрь</RU>
+		<UA>Листопад</UA>
+		<EN>November</EN>
+	</month_november>
+	<month_december>
+		<RU>Декабрь</RU>
+		<UA>Грудень</UA>
+		<EN>December</EN>
+	</month_december>
+	<exist_flag>
+		<RU>Активный</RU>
+		<UA>Активний</UA>
+		<EN>Active</EN>
+	</exist_flag>
+	<week_monday_s>
+		<RU>пн.</RU>
+		<UA>пн.</UA>
+		<EN>Mn.</EN>
+	</week_monday_s>
+	<week_tuesday_s>
+		<RU>вт.</RU>
+		<UA>вт.</UA>
+		<EN>Td.</EN>
+	</week_tuesday_s>
+	<week_wednesday_s>
+		<RU>ср.</RU>
+		<UA>ср.</UA>
+		<EN>Wd.</EN>
+	</week_wednesday_s>
+	<week_thursday_s>
+		<RU>чт.</RU>
+		<UA>чт.</UA>
+		<EN>Fr.</EN>
+	</week_thursday_s>
+	<week_friday_s>
+		<RU>пт.</RU>
+		<UA>пт.</UA>
+		<EN>Fd.</EN>
+	</week_friday_s>
+	<week_saturday_s>
+		<RU>сб.</RU>
+		<UA>сб.</UA>
+		<EN>St.</EN>
+	</week_saturday_s>
+	<week_sunday_s>
+		<RU>вс.</RU>
+		<UA>нд.</UA>
+		<EN>Sn.</EN>
+	</week_sunday_s>
+	<month_january_s>
+		<RU>янв</RU>
+		<UA>січ</UA>
+		<EN>Jan</EN>
+	</month_january_s>
+	<month_february_s>
+		<RU>фев</RU>
+		<UA>Feb</UA>
+		<EN>фев</EN>
+	</month_february_s>
+	<month_march_s>
+		<RU>мар</RU>
+		<UA>бер</UA>
+		<EN>Mar</EN>
+	</month_march_s>
+	<month_april_s>
+		<RU>апр</RU>
+		<UA>кві</UA>
+		<EN>Apr</EN>
+	</month_april_s>
+	<month_may_s>
+		<RU>май</RU>
+		<UA>тра</UA>
+		<EN>May</EN>
+	</month_may_s>
+	<month_june_s>
+		<RU>июн</RU>
+		<UA>чер</UA>
+		<EN>Jun</EN>
+	</month_june_s>
+	<month_july_s>
+		<RU>июл</RU>
+		<UA>лип</UA>
+		<EN>Jul</EN>
+	</month_july_s>
+	<month_august_s>
+		<RU>авг</RU>
+		<UA>сер</UA>
+		<EN>Aug</EN>
+	</month_august_s>
+	<month_september_s>
+		<RU>сен</RU>
+		<UA>вер</UA>
+		<EN>Sep</EN>
+	</month_september_s>
+	<month_october_s>
+		<RU>окт</RU>
+		<UA>жов</UA>
+		<EN>Oct</EN>
+	</month_october_s>
+	<month_november_s>
+		<RU>ноя</RU>
+		<UA>лис</UA>
+		<EN>Nov</EN>
+	</month_november_s>
+	<month_december_s>
+		<RU>дек</RU>
+		<UA>гру</UA>
+		<EN>Dec</EN>
+	</month_december_s>
+	<h_shedulelines_add>
+		<RU>Добавить строку графика</RU>
+		<UA>Додати рядок графіка</UA>
+		<EN>Add diagram line</EN>
+	</h_shedulelines_add>
+	<h_shedulelines_edit>
+		<RU>Редактировать строку графика</RU>
+		<UA>Edit diagram line</UA>
+		<EN>Редактировать строку графика</EN>
+	</h_shedulelines_edit>
+	<h_shedulelines_general>
+		<RU>Основные параметры</RU>
+		<UA>Основні параметри</UA>
+		<EN>Main parameters</EN>
+	</h_shedulelines_general>
+	<h_shedulelines_type>
+		<RU>Тип графика</RU>
+		<UA>Тип графіка</UA>
+		<EN>Diagram type</EN>
+	</h_shedulelines_type>
+	<DAY_IN_MONTH_H>
+		<RU>День месяца</RU>
+		<UA>День місяця</UA>
+		<EN>Month day</EN>
+	</DAY_IN_MONTH_H>
+	<DAYS_INTERVAL>
+		<RU>Через N дней</RU>
+		<UA>Через N днів</UA>
+		<EN>Through N of days</EN>
+	</DAYS_INTERVAL>
+	<EVERY_DAY>
+		<RU>Каждый день</RU>
+		<UA>Кожен день</UA>
+		<EN>Every day</EN>
+	</EVERY_DAY>
+	<EVERY_WEEK>
+		<RU>Каждую неделю</RU>
+		<UA>Кожен тиждень</UA>
+		<EN>Every week</EN>
+	</EVERY_WEEK>
+	<h_months>
+		<RU>Месяцы</RU>
+		<UA>Місяці</UA>
+		<EN>Months</EN>
+	</h_months>
+</shedulelines>

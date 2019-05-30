@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<term_ses>
+	<general>
+		<RU>Терминальные сессии</RU>
+		<UA>Термiнальнi сесiї</UA>
+		<EN>Terminal session</EN>
+	</general>
+	<rn>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN>
+	</rn>
+	<id_term_ses>
+		<RU>ИД сессии</RU>
+		<UA>IД сесії</UA>
+		<EN>Session ID</EN>
+	</id_term_ses>
+	<date_term_ses>
+		<RU>Дата сессии</RU>
+		<UA>Дата сесії</UA>
+		<EN>Session date</EN>
+	</date_term_ses>
+	<id_term>
+		<RU>Терминал</RU>
+		<UA>Термінал</UA>
+		<EN>Terminal</EN>
+	</id_term>
+	<id_sam>
+		<RU>SAM</RU>
+		<UA>SAM</UA>
+		<EN>SAM</EN>
+	</id_sam>
+	<nt_sam_begin>
+		<RU>№ транзакции SAM (начальный)</RU>
+		<UA>№ транзакції SAM (початковий)</UA>
+		<EN>SAM transzaction number (first)</EN>
+	</nt_sam_begin>
+	<nt_sam_end>
+		<RU>№ транзакции SAM (конечный)</RU>
+		<UA>№ транзакції SAM (кінцевий)</UA>
+		<EN>SAM transzaction number (last)</EN>
+	</nt_sam_end>
+	<date_beg>
+		<RU>Начало</RU>
+		<UA>Початок</UA>
+		<EN>Beginning</EN>
+	</date_beg>
+	<date_end>
+		<RU>Окончание</RU>
+		<UA>Завершення</UA>
+		<EN>Ending</EN>
+	</date_end>
+	<desc_term_ses>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</desc_term_ses>
+	<id_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</id_jur_prs>
+	<name_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</name_jur_prs>
+	<sname_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</sname_jur_prs>
+	
+	<id_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</id_service_place>
+	<name_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</name_service_place>
+	<sname_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</sname_service_place>
+	
+	<outher_sid>
+		<RU>ИД внешней сессии</RU>
+		<UA>ІД зовнішньої сесії</UA>
+		<EN>External session ID</EN>
+	</outher_sid>
+	<need_card_req>
+		<RU>Запрос остатка карты</RU>
+		<UA>Запит залишку карти</UA>
+		<EN>Query of card remain</EN>
+	</need_card_req>
+	<need_col_data>
+		<RU>Данные сбора</RU>
+		<UA>Данi збору</UA>
+		<EN>Collection information</EN>
+	</need_col_data>
+	<need_tpar_data>
+		<RU>Отправка параметров</RU>
+		<UA>Вiдправка параметрiв</UA>
+		<EN>Sending of parameters</EN>
+	</need_tpar_data>
+	<need_term_mon>
+		<RU>Мониторинг терминала</RU>
+		<UA>Моніторинг терміналу</UA>
+		<EN>Terminal monitoring</EN>
+	</need_term_mon>
+	<need_card_check>
+		<RU>Проверка карты онлайн</RU>
+		<UA>Перевірка онлайн</UA>
+		<EN>Check card online</EN>
+	</need_card_check>
+	<need_club_pay>
+		<RU>Платеж онлайн</RU>
+		<UA>Платіж онлайн</UA>
+		<EN>Online payment</EN>
+	</need_club_pay>
+	<need_online_pay>
+		<RU>Платеж баллами онлайн</RU>
+		<UA>Платіж балами онлайн</UA>
+		<EN>Online payment of points</EN>
+	</need_online_pay>
+	<need_adv_pay>
+		<RU>Код акции онлайн</RU>
+		<UA>Код акції онлайн</UA>
+		<EN>Advertise online code</EN>
+	</need_adv_pay>
+	<need_online_storno>
+		<RU>Сторно онлайн</RU>
+		<UA>Сторно онлайн</UA>
+		<EN>Online storno</EN>
+	</need_online_storno>
+	<id_last_input_telgr>
+		<RU>ИД последней входной телеграммы</RU>
+		<UA>IД останньої вхiдної телеграми</UA>
+		<EN>Last entrance telegram ID</EN>
+	</id_last_input_telgr>
+	<name_last_input_telgr>
+		<RU>Тип последней входной телеграммы</RU>
+		<UA>Тип останньої вхiдної телеграми</UA>
+		<EN>Last entrance telegram type</EN>
+	</name_last_input_telgr>
+	<id_last_output_telgr>
+		<RU>ИД последней выходной телеграммы</RU>
+		<UA>IД останньої вихiдної телеграми</UA>
+		<EN>Last outgoing telegram ID</EN>
+	</id_last_output_telgr>
+	<name_last_output_telgr>
+		<RU>Тип последней выходной телеграммы</RU>
+		<UA>Тип останньої вихiдної телеграми</UA>
+		<EN>Last outgoing telegram type</EN>
+	</name_last_output_telgr>
+	<resp_time>
+		<RU>Максимальное время ответа</RU>
+		<UA>Максимальний час вiдповiдi</UA>
+		<EN>Maximal time of answer</EN>
+	</resp_time>
+	<t_telegrams>
+		<RU>Телеграммы</RU>
+		<UA>Телеграми</UA>
+		<EN>Telegrams</EN></t_telegrams>
+	<t_transactions>
+		<RU>Транзакции</RU>
+		<UA>Транзакції</UA>
+		<EN>Transactions</EN></t_transactions>
+	<t_posting_transactions>
+		<RU>Проводки по транзакциям</RU>
+		<UA>Проведення по транзакціях</UA>
+		<EN>Transaction entries</EN></t_posting_transactions>
+	<t_sys_monitor>
+		<RU>Системный монитор</RU>
+		<UA>Системний монітор</UA>
+		<EN>System monitor</EN></t_sys_monitor>
+	<t_log>
+		<RU>Журнальная информация</RU>
+		<UA>Журнальна інформація</UA>
+		<EN>Log informtion</EN></t_log>
+		
+	<h_data_type>
+		<RU>Тип данных в терминальной сессии</RU>
+		<UA>Тип даних в термінальній сесії</UA>
+		<EN>Data type in terminal session</EN></h_data_type>
+	<h_data_state>
+		<RU>Состояние данных</RU>
+		<UA>Стан даних</UA>
+		<EN>Data state</EN></h_data_state>
+		
+		
+	<h_is_online_pay>
+		<RU>Платеж баллами online</RU>
+		<UA>Платіж балами online</UA>
+		<EN>Online payment of points</EN></h_is_online_pay>
+	<h_is_online_pay_short>
+		<RU>БП</RU>
+		<UA>БП</UA>
+		<EN>BP</EN></h_is_online_pay_short>
+	<h_is_club_pay>
+		<RU>Платеж online</RU>
+		<UA>Платіж online</UA>
+		<EN>Online payment</EN></h_is_club_pay>
+	<h_is_club_pay_short>
+		<RU>КП</RU>
+		<UA>КП</UA>
+		<EN>CP</EN></h_is_club_pay_short>
+	<h_is_online_storno>
+		<RU>Сторно online</RU>
+		<UA>Сторно online</UA>
+		<EN>Online storno</EN></h_is_online_storno>
+	<h_is_online_storno_short>
+		<RU>ОС</RU>
+		<UA>ОС</UA>
+		<EN>OS</EN></h_is_online_storno_short>
+	<h_is_adv_pay>
+		<RU>Код акции</RU>
+		<UA>Код акції</UA>
+		<EN>Advertise code</EN></h_is_adv_pay>
+	<h_is_adv_pay_short>
+		<RU>КА</RU>
+		<UA>КА</UA>
+		<EN>AC</EN></h_is_adv_pay_short>
+		
+	<h_card_req_action_0>
+		<RU>Успешно</RU>
+		<UA>Успішно</UA>
+		<EN>Success</EN>
+	</h_card_req_action_0>
+	<h_card_req_action_1>
+		<RU>Изменить параметры</RU>
+		<UA>Змінити параметри</UA>
+		<EN>Change parameters</EN>
+	</h_card_req_action_1>
+	<h_card_req_action_2>
+		<RU>Некорректный код пополнения</RU>
+		<UA>Некоректний код поповнення</UA>
+		<EN>Uncorrect code</EN>
+	</h_card_req_action_2>
+	<h_card_req_action_3>
+		<RU>Успешное сторнирование</RU>
+		<UA>Успішне сторнування</UA>
+		<EN>Storno success</EN>
+	</h_card_req_action_3>
+	<h_card_req_action_4>
+		<RU>Неправильный код платежа</RU>
+		<UA>Невірний код платежу</UA>
+		<EN>Payment code error</EN>
+	</h_card_req_action_4>
+	<h_card_req_action_5>
+		<RU>Невозможно проверить</RU>
+		<UA>Неможливо перевірити</UA>
+		<EN>Impossible to check</EN>
+	</h_card_req_action_5>
+	<h_card_req_action_6>
+		<RU>Блокировать карту</RU>
+		<UA>Блокувати карту</UA>
+		<EN>Block the card</EN>
+	</h_card_req_action_6>
+	<h_card_req_action_7>
+		<RU>Отказ в обслуживании</RU>
+		<UA>Відмова в обслуговуванні</UA>
+		<EN>Refusal in servicing</EN>
+	</h_card_req_action_7>
+	<h_card_req_action_8>
+		<RU>Ошибка платежа баллами (недостаточно средств)</RU>
+		<UA>Помилка платежу балами (недостатньо коштів)</UA>
+		<EN>Error of payment on points (there isn't enough means)</EN>
+	</h_card_req_action_8>
+	<h_card_req_action_9>
+		<RU>Ошибка сторнирования</RU>
+		<UA>Помилка сторнування</UA>
+		<EN>Storno error</EN>
+	</h_card_req_action_9>
+	<h_card_req_action_15>
+		<RU>Неизвестная ошибка</RU>
+		<UA>Невідома помилка</UA>
+		<EN>Unknown error</EN>
+	</h_card_req_action_15>
+	
+	<t_session_action>
+		<ru>Действия в сессии</ru>
+		<ua>Дії в сесії</ua>
+		<en>Actions in session</en>
+	</t_session_action>
+	<is_monitoring>
+		<ru>Мониторинг</ru>
+		<ua>Моніторинг</ua>
+		<en>Monitoring</en>
+	</is_monitoring>
+	<is_card_online>
+		<ru>Проверка карты</ru>
+		<ua>Перевірка карти</ua>
+		<en>Check card</en>
+	</is_card_online>
+	<is_online_pay>
+		<ru>Онлайн платеж</ru>
+		<ua>Онлайн платіж</ua>
+		<en>Online payment</en>
+	</is_online_pay>
+	<is_col_data>
+		<ru>Отправка сбора</ru>
+		<ua>Відсилання збору</ua>
+		<en>Send transactions</en>
+	</is_col_data>
+	<is_param>
+		<ru>Получение параметров</ru>
+		<ua>Отримання параметрів</ua>
+		<en>Get parameters</en>
+	</is_param>
+	
+	<h_need_card_req_state_0>
+		<ru>Не ожидается</ru>
+		<ua>Не очікується</ua>
+		<en>None</en>
+	</h_need_card_req_state_0>
+	<h_need_card_req_state_1>
+		<ru>Обработано</ru>
+		<ua>Оброблено</ua>
+		<en>Success</en>
+	</h_need_card_req_state_1>
+	<h_need_card_req_state_1neg>
+		<ru>Ожидается</ru>
+		<ua>Очікується</ua>
+		<en>Expected</en>
+	</h_need_card_req_state_1neg>
+	<h_need_card_req_state_9>
+		<ru>Отослано</ru>
+		<ua>Відіслано</ua>
+		<en>Send</en>
+	</h_need_card_req_state_9>
+	<h_need_card_req_state_9neg>
+		<ru>Ошибка</ru>
+		<ua>Помилка</ua>
+		<en>Error</en>
+	</h_need_card_req_state_9neg>
+</term_ses>

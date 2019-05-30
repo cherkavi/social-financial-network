@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<CD_PARAM>
+		<ru>Код параметра</ru>
+		<ua>Код параметра</ua>
+		<en>Parameter code</en></CD_PARAM>
+	<NAME_PARAM>
+		<ru>Название параметра</ru>
+		<ua>Назва параметра</ua>
+		<en>Parameter name</en></NAME_PARAM>
+	<VALUE_PARAM>
+		<ru>Значение параметра</ru>
+		<ua>Значення параметра</ua>
+		<en>Parameter value</en></VALUE_PARAM>
+	<DATE_PARAM>
+		<ru>Дата последней установки</ru>
+		<ua>Дата останнього встановлення</ua>
+		<en>Last setting date</en></DATE_PARAM>
+	<IS_USED>
+		<ru>Используется</ru>
+		<ua>Використовується</ua>
+		<en>In use</en></IS_USED>
+	<TYPE_PARAM>
+		<ru>Тип параметра</ru>
+		<ua>Тип параметра</ua>
+		<en>Parameter type</en></TYPE_PARAM>
+	<DEFAULT_VALUE>
+		<ru>Значение по умолчанию</ru>
+		<ua>Значення за умовчанням</ua>
+		<en>Default value</en></DEFAULT_VALUE>
+	<NAME_LOOKUP_TYPE>
+		<ru>Тип вибора</ru>
+		<ua>Тип вибору</ua>
+		<en>Choise type</en></NAME_LOOKUP_TYPE>
+	<LAB_EDIT_PARM>
+		<ru>Редактировать параметр</ru>
+		<ua>Редагувати параметр</ua>
+		<en>Edit parameter</en>
+	</LAB_EDIT_PARM> 
+	<t_features>
+		<ru>Значение параметра</ru>
+		<ua>Значення параметра</ua>
+		<en>Parameter settings</en></t_features>
+	<VALUE_PARAM>
+		<ru>Значение параметра</ru>
+		<ua>Значення параметра</ua>
+		<en>Parameter value</en></VALUE_PARAM>
+	<general>
+		<ru>Настройки и установки системы</ru>
+		<ua>Настройки та установки системи</ua>
+		<en>Settings</en></general>
+</settings>

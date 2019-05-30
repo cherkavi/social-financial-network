@@ -1,0 +1,3113 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<webpos>
+	<application_name>
+		<ru>СМПУ</ru>		
+		<ua>ММПО</ua>
+		<en>SMPY</en>
+	</application_name>
+	<application_description>
+		<ru>WebPos терминал</ru>		
+		<ua>WebPos термінал</ua>
+		<en>WebPos terminal</en>
+	</application_description>
+	<application_version>
+		<ru>Версия</ru>		
+		<ua>Версія</ua>
+		<en>Version</en>
+	</application_version>
+	<application_version_value>
+		<ru>WTI037151209</ru>		
+		<ua>WTI037151209</ua>
+		<en>WTI037151209</en>
+	</application_version_value>
+	
+	<login_login>
+		<RU>Номер карты или логин</RU>
+		<UA>Номер карти або логін</UA>
+		<EN>Card number or login</EN>
+	</login_login>
+	<login_password>
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN>
+	</login_password>
+	<login_password_new>
+		<RU>Новый пароль</RU>
+		<UA>Новий пароль</UA>
+		<EN>New password</EN>
+	</login_password_new>
+	<login_password_confirm>
+		<RU>Подтверждение пароля</RU>
+		<UA>Підтвердження пароля</UA>
+		<EN>Password confirmation</EN>
+	</login_password_confirm>
+	<forgot_password>
+		<RU>Забыли пароль?</RU>
+		<UA>Забули пароль?</UA>
+		<EN>Forgot password?</EN>
+	</forgot_password>
+	<restore_access>
+		<RU>Восстановить доступ</RU>
+		<UA>Відновити доступ</UA>
+		<EN>Restore access</EN>
+	</restore_access>
+	<capcha_title>
+		<RU>Введите код с картинки</RU>
+		<UA>Введіт код з картинки</UA>
+		<EN>Input code from image</EN>
+	</capcha_title>
+	<forgot_password_title>
+		<RU>Восстановление пароля</RU>
+		<UA>Відновлення пароля</UA>
+		<EN>Passport restore</EN>
+	</forgot_password_title>
+	<forgot_password_hint_title>
+		<RU>Введите номер моб.телефона, зарегистрированный за пользователем терминала</RU>
+		<UA>Введіть номер моб.телефона, що зареєстрований за користувачем термінала</UA>
+		<EN>Enter number of mobile phone registered for the user of the terminal</EN>
+	</forgot_password_hint_title>
+	<forgot_password_hint_example>
+		<RU>Пример:&lt;br&gt;Россия: +79781234567&lt;br&gt;Украина: +380961234567 или 0961234567&lt;br&gt;Белорусь: +375291234567&lt;br&gt;Казахстан: +7631234567</RU>
+		<UA>Приклад:&lt;br&gt;Росія: +79781234567&lt;br&gt;Україна: +380961234567 або 0961234567&lt;br&gt;Білорусь: +375291234567&lt;br&gt;Казахстан: +7631234567</UA>
+		<EN>Example:&lt;br&gt;Russia: +79781234567&lt;br&gt;Ukraine: +380961234567 or 0961234567&lt;br&gt;Belarus: +375291234567&lt;br&gt;Kazakhstan: +7631234567</EN>
+	</forgot_password_hint_example>
+	<forgot_password_phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</forgot_password_phone_mobile>
+	<forgot_password_sms1>
+		<RU>Ваш IP-адрес изменился с момента последнего входа.</RU>
+		<UA>Ваша IP-адреса змінилась з моменту останнього входа.</UA>
+		<EN>Your IP address changed from the moment of the last entrance.</EN>
+	</forgot_password_sms1>
+	<forgot_password_sms1>
+		<RU>Ваш IP-адрес изменился с момента последнего входа.</RU>
+		<UA>Ваша IP-адреса змінилась з моменту останнього входа.</UA>
+		<EN>Your IP address changed from the moment of the last entrance.</EN>
+	</forgot_password_sms1>
+	<forgot_password_sms2>
+		<RU>Введите код подтверждения, полученный из СМС</RU>
+		<UA>Введіть код підтверджерря, отриманий з СМС</UA>
+		<EN>Enter the confirmation code received from SMS</EN>
+	</forgot_password_sms2>
+	<password_restore_title>
+		<RU>Восстановление пароля</RU>
+		<UA>Підновлення пароля</UA>
+		<EN>Password restore</EN>
+	</password_restore_title>
+	<password_restore_success>
+		<RU>Пароль восстановлен успешно</RU>
+		<UA>Пароль відновлено успішно</UA>
+		<EN>Password was restore successful</EN>
+	</password_restore_success>
+	<password_restore_error>
+		<RU>Ошибка восстановления пароля</RU>
+		<UA>Помилка відновлення пароля</UA>
+		<EN>Restore password error</EN>
+	</password_restore_error>
+	<passwords_not_equals>
+		<RU>Пароль и подтверждение не совпадают</RU>
+		<UA>Пароль і підтвердження не співпадають</UA>
+		<EN>Password and confirmation not equals</EN>
+	</passwords_not_equals>
+	<password_length_error>
+		<RU>Длина пароля должна быть не меньше 4-х символов</RU>
+		<UA>Довжина пароля повинна бути не менше 4-х символів</UA>
+		<EN>Length of the password has to be not less than 4 symbols</EN>
+	</password_length_error>
+	
+	<month_short>
+		<RU>mec</RU>
+		<UA>mic</UA>
+		<EN>month</EN>
+	</month_short>
+	<pay_for_months>
+		<RU>Оплатить за месяцев</RU>
+		<UA>Сплатити за місяців</UA>
+		<EN>Pay for months</EN>
+	</pay_for_months>
+	<operation_error>
+		<RU>ОШИБКА!</RU>
+		<UA>ПОМИЛКА!</UA>
+		<EN>ERROR!</EN>
+	</operation_error>
+	<operation_warning>
+		<RU>Внимание!</RU>
+		<UA>Увага!</UA>
+		<EN>Warning!</EN>
+	</operation_warning>
+	<operation_success>
+		<RU>операция успешная</RU>
+		<UA>операція успішна</UA>
+		<EN>success</EN>
+	</operation_success>
+	<operation_confirmation>
+		<RU>Подтверждение</RU>
+		<UA>Підтвердження</UA>
+		<EN>Confirmation</EN>
+	</operation_confirmation>
+	<operation_confirm>
+		<RU>Подтверждено</RU>
+		<UA>Підтверджено</UA>
+		<EN>Confirm</EN>
+	</operation_confirm>
+	
+	<operation_cheque_payment>
+		<RU>Оплата счета</RU>
+		<UA>Оплата рахунка</UA>
+		<EN>Cheque payment</EN>
+	</operation_cheque_payment>
+	
+	<sms_confirmation>
+		<RU>СМС-подтверждение</RU>
+		<UA>СМС-підтвердження</UA>
+		<EN>SMS confirmation</EN>
+	</sms_confirmation>
+	<sms_confirmation_success>
+		<RU>СМС-подтверждение успешно</RU>
+		<UA>СМС-підтвердження успішно</UA>
+		<EN>SMS confirmation success</EN>
+	</sms_confirmation_success>
+	<sms_confirmation_error>
+		<RU>Ошибка СМС-подтверждения</RU>
+		<UA>Помилка СМС-підтвердження</UA>
+		<EN>SMS confirmation error</EN>
+	</sms_confirmation_error>
+	<sms_send>
+		<RU>На Ваш мобильный телефон отправлено СМС с кодом</RU>
+		<UA>На Ваш мобільний телефон відправлено СМС з кодом</UA>
+		<EN>SMS with a code is sent to your mobile phone</EN>
+	</sms_send>
+	<sms_send1>
+		<RU>На мобильный телефон клиента:</RU>
+		<UA>На мобільний телефон клієнта:</UA>
+		<EN>On the mobile phone of the client:</EN>
+	</sms_send1>
+	<sms_send2>
+		<RU>отправлен СМС c кодом подтверждения операции</RU>
+		<UA>відіслано СМС з кодом підтвердження операції</UA>
+		<EN>it is sent to the SMS with an operation confirmation code</EN>
+	</sms_send2>
+	<sms_send_error>
+		<RU>Ошибка отправки SMS</RU>
+		<UA>Помилка відсилання СМС</UA>
+		<EN>SMS send error</EN>
+	</sms_send_error>
+	<sms_phone>
+		<RU>Ваш телефон</RU>
+		<UA>Ваш телефон</UA>
+		<EN>Your phone</EN>
+	</sms_phone>
+	<sms_password>
+		<RU>Введите СМС подпись</RU>
+		<UA>Введіть СМС підпис</UA>
+		<EN>Enter a SMS signature</EN>
+	</sms_password>
+	<sms_password_hint>
+		<RU>должен прийти на Ваш мобильный телефон</RU>
+		<UA>повинен прийти на Ваш мобільний телефон</UA>
+		<EN>must put on your phone</EN>
+	</sms_password_hint>
+	
+	<terminal_error>
+		<RU>Пользователю не назначен терминал</RU>
+		<UA>Користувачу не призначено термінал</UA>
+		<EN>To the user the terminal isn't appointed</EN>
+	</terminal_error>
+	<terminal_type_error>
+		<RU>Неправильный тип терминала</RU>
+		<UA>Невірний тип термінала</UA>
+		<EN>Wrong type of the terminal</EN>
+	</terminal_type_error>
+	
+	<window_cheque>
+		<RU>Печать чека</RU>
+		<UA>Друк чека</UA>
+		<EN>Print cheque</EN>
+	</window_cheque>
+	<title_print_cheque>
+		<RU>Печать чека</RU>
+		<UA>Друк чека</UA>
+		<EN>Print cheque</EN>
+	</title_print_cheque>
+	<title_save_cheque>
+		<RU>Сохранение чека</RU>
+		<UA>Збереження чека</UA>
+		<EN>Save cheque</EN>
+	</title_save_cheque>
+	<save_cheque_hint>
+		<RU>Чек будет сохранен в локальной папке устройства, на котором запущен терминал</RU>
+		<UA>Чек буде збережено в локальній папці пристрою, на якому завантажено термінал</UA>
+		<EN>The check will be kept in the local folder of the device on which the terminal is started</EN>
+	</save_cheque_hint>
+	<title_note>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN>
+	</title_note>
+	<title_note_pay>
+		<RU>При оплате картой СМПУ потребуется ввод кода подтверждения, полученного из СМС</RU>
+		<UA>При сплаті картою ММПО необхідно буде ввести код підтвердження, отриманий з СМС</UA>
+		<EN>Note</EN>
+	</title_note_pay>
+	<title_note_new_client>
+		<RU>Активация карты потребует ввода кода подтверждения, полученного из СМС</RU>
+		<UA>Активація карти вимагатиме введення кода підтвердження, отриманого з СМС</UA>
+		<EN>Note</EN>
+	</title_note_new_client>
+	<title_note_replenish_mtf>
+		<RU>При оплате членского целевого взноса на следующем шаге нужно будет выбрать целевые программы</RU>
+		<UA>При сплаті членського цільового внеску на наступному кроці необхідно буде вибрати цільові програми</UA>
+		<EN>Note</EN>
+	</title_note_replenish_mtf>
+	<replenish_success>
+		<RU>Зачисление взноса выполнено успешно</RU>
+		<UA>Зарахування внеску виконано успішно</UA>
+		<EN>Success</EN>
+	</replenish_success>
+	<title_note_transfer>
+		<RU>Перевод баллов потребует ввода кода подтверждения, отправленного в СМС на мобильный телефон отправителя перевода</RU>
+		<UA>Перевадення балів вимагатиме введення кода підтвердження, надісланого в СМС на мобільний телефон відправника переводу</UA>
+		<EN>Note</EN>
+	</title_note_transfer>
+	
+	<title_user>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User</EN>
+	</title_user>
+	<title_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</title_service_place>
+	<title_terminal>
+		<RU>Терминал</RU>
+		<UA>Термінал</UA>
+		<EN>Terminal</EN>
+	</title_terminal>
+	<title_card_given_find>
+		<RU>Поиск информации о выдаче карт</RU>
+		<UA>Пошут інформації про видачу карт</UA>
+		<EN>Information search about issue of cards</EN>
+	</title_card_given_find>
+	<title_card_given_from_to>
+		<RU>Карты выданы c $from$ по $to$</RU>
+		<UA>Карти видані з $from$ по $to$</UA>
+		<EN>Cards given $from$ to $to$</EN>
+	</title_card_given_from_to>
+	<title_card_given_from>
+		<RU>Карты выданы с</RU>
+		<UA>Карти видані з</UA>
+		<EN>Cards given from</EN>
+	</title_card_given_from>
+	<title_card_given_to>
+		<RU>Карты выданы по</RU>
+		<UA>Карти видані по</UA>
+		<EN>Cards given to</EN>
+	</title_card_given_to>
+	<title_card_given_cd_card1>
+		<RU>Номер карты содержит</RU>
+		<UA>Номер карти містить</UA>
+		<EN>Card number contains</EN>
+	</title_card_given_cd_card1>
+	
+	<title_base_menu>
+		<RU>Основное меню</RU>
+		<UA>Основне меню</UA>
+		<EN>Base menu</EN>
+	</title_base_menu>
+	<title_oper_type>
+		<RU>Операция</RU>
+		<UA>Операція</UA>
+		<EN>Operation</EN>
+	</title_oper_type>
+	<title_pay_check>
+		<RU>Оплата</RU>
+		<UA>Оплата</UA>
+		<EN>Payment</EN>
+	</title_pay_check>
+	<title_replenish>
+		<RU>Прием взносов</RU>
+		<UA>Приймання внесків</UA>
+		<EN>Reception of contributions</EN>
+	</title_replenish>
+	<title_questioning>
+		<RU>Обработка анкет</RU>
+		<UA>Обробка анкет</UA>
+		<EN>Questioning</EN>
+	</title_questioning>
+	<title_cancel>
+		<RU>Отмена</RU>
+		<UA>Відміна</UA>
+		<EN>Cancel</EN>
+	</title_cancel>
+	<title_return>
+		<RU>Возврат</RU>
+		<UA>Повернення</UA>
+		<EN>Return</EN>
+	</title_return>
+	<title_point_fee>
+		<RU>Пополнение баллов</RU>
+		<UA>Поповлення балів</UA>
+		<EN>Points replenish</EN>
+	</title_point_fee>
+	<title_share_fee>
+		<RU>Паевой взнос</RU>
+		<UA>Паєвий внесок</UA>
+		<EN>Share fee</EN>
+	</title_share_fee>
+	<title_membership_fee>
+		<RU>Членский взнос</RU>
+		<UA>Членський внесок</UA>
+		<EN>Membership fee</EN>
+	</title_membership_fee>
+	<title_mtf>
+		<RU>Членский целевой взнос</RU>
+		<UA>Членський цільовий внесок</UA>
+		<EN>Membership target fee</EN>
+	</title_mtf>
+	<title_target_programs>
+		<RU>Целевые программы</RU>
+		<UA>Цільові програми</UA>
+		<EN>Target programs</EN>
+	</title_target_programs>
+	<title_target_programs2>
+		<RU>Программы</RU>
+		<UA>Програми</UA>
+		<EN>Programs</EN>
+	</title_target_programs2>
+	<title_add_target_program>
+		<RU>Добавить целевые программы</RU>
+		<UA>Додати цільові программи</UA>
+		<EN>Add target_program</EN>
+	</title_add_target_program>
+	<title_card_issue>
+		<RU>Выдача карты</RU>
+		<UA>Видача карти</UA>
+		<EN>Card issue</EN>
+	</title_card_issue>
+	<title_card_registration>
+		<RU>Выдача карты</RU>
+		<UA>Видача карти</UA>
+		<EN>Card issue</EN>
+	</title_card_registration>
+	<title_activation>
+		<RU>Активация карты</RU>
+		<UA>Активація карти</UA>
+		<EN>Card activation</EN>
+	</title_activation>
+	<title_payment_invoice>
+		<RU>Счет на оплату</RU>
+		<UA>Рахунок на оплату</UA>
+		<EN>Invoice</EN>
+	</title_payment_invoice>
+	<title_activate>
+		<RU>Активировать карту</RU>
+		<UA>Активувати карту</UA>
+		<EN>Activate card</EN>
+	</title_activate>
+	<title_input_client_data>
+		<RU>Ввод данных пайщика</RU>
+		<UA>Ведення даних пайовика</UA>
+		<EN>Input shareholder data</EN>
+	</title_input_client_data>
+	<client_photo>
+		<RU>Фото пайщика</RU>
+		<UA>Фото пайовика</UA>
+		<EN>Shareholder photo</EN>
+	</client_photo>
+	<titl_client_photo_load>
+		<RU>Кликните здесь для загрузки нового фото</RU>
+		<UA>Клікніть тут для завантаження нового фото</UA>
+		<EN>Click here for loading of a new photo</EN>
+	</titl_client_photo_load>
+	<titl_client_photo_edit>
+		<RU>Изменить фото</RU>
+		<UA>Змінити фото</UA>
+		<EN>Change photo</EN>
+	</titl_client_photo_edit>
+	<titl_client_photo_delete>
+		<RU>Удалить фото</RU>
+		<UA>Видалити фото</UA>
+		<EN>Delete photo</EN>
+	</titl_client_photo_delete>
+	<titl_load_file_error>
+		<RU>Ошибка загрузки файла</RU>
+		<UA>Помилка завантаження файлу</UA>
+		<EN>Load file error</EN>
+	</titl_load_file_error>
+	<title_transfer>
+		<RU>Перевод баллов</RU>
+		<UA>Переведення балів</UA>
+		<EN>Transfer of points</EN>
+	</title_transfer>
+	<title_coupon>
+		<RU>Сертификат</RU>
+		<UA>Сертифікат</UA>
+		<EN>Certificate</EN>
+	</title_coupon>
+	<title_storno>
+		<RU>Отмена/возврат</RU>
+		<UA>Відміна/повернення</UA>
+		<EN>Cancellation/return</EN>
+	</title_storno>
+	<title_storno_action>
+		<RU>Отмена/ возврат</RU>
+		<UA>Відміна/ повернення</UA>
+		<EN>Cancellation/ return</EN>
+	</title_storno_action>
+	<title_questionnaire>
+		<RU>Обработка анкет</RU>
+		<UA>Обробка анкет</UA>
+		<EN>Questionnaires</EN>
+	</title_questionnaire>
+	<title_questionnaire_from_to>
+		<RU>Карта выдана c $from$ по $to$</RU>
+		<UA>Карта видана з $from$ по $to$</UA>
+		<EN>Card given $from$ to $to$</EN>
+	</title_questionnaire_from_to>
+	<title_questionnaire_cd_card>
+		<RU>Номер карты содержит</RU>
+		<UA>Номер карти містить</UA>
+		<EN>Card number contain</EN>
+	</title_questionnaire_cd_card>
+	<title_questionnaire_find_all_period>
+		<RU>Поиск за весь период по всем картам</RU>
+		<UA>Пошук за весь період по всіх картах</UA>
+		<EN>Search for the entire period in all cards</EN>
+	</title_questionnaire_find_all_period>
+	<title_operation>
+		<RU>Операции на терминале</RU>
+		<UA>Операції на терміналі</UA>
+		<EN>Operations on terminal</EN>
+	</title_operation>
+	<title_operation_short>
+		<RU>Операции</RU>
+		<UA>Операції</UA>
+		<EN>Operations</EN>
+	</title_operation_short>
+	<title_operation_filter_set>
+		<RU>Установлены фильтры:</RU>
+		<UA>Встановлено фільтри:</UA>
+		<EN>Filters is set:</EN>
+	</title_operation_filter_set>
+	<title_operation_filter_not_set>
+		<RU>Фильтры не установлены</RU>
+		<UA>Фільтри не встановлено</UA>
+		<EN>Filters is't set</EN>
+	</title_operation_filter_not_set>
+	<title_button_filter_change>
+		<RU>Изменить</RU>
+		<UA>Змінити</UA>
+		<EN>Change</EN>
+	</title_button_filter_change>
+	<title_operation_from_to>
+		<RU>Операции c $from$ по $to$</RU>
+		<UA>Операції з $from$ по $to$</UA>
+		<EN>Operations from $from$ to $to$</EN>
+	</title_operation_from_to>
+	<title_operations_from>
+		<RU>Операции c</RU>
+		<UA>Операції з</UA>
+		<EN>Operations from</EN>
+	</title_operations_from>
+	<title_operations_to>
+		<RU>Операции по</RU>
+		<UA>Операції по</UA>
+		<EN>Operations to</EN>
+	</title_operations_to>
+	<title_operations_cd_card1>
+		<RU>Номер карты содержит</RU>
+		<UA>Номер карти містить</UA>
+		<EN>Card number contains</EN>
+	</title_operations_cd_card1>
+	<title_unknown_operation_type>
+		<RU>Неизвестная операция</RU>
+		<UA>Невідома операція</UA>
+		<EN>Unknown operation</EN>
+	</title_unknown_operation_type>
+	<title_cancelation_operation_forbidden>
+		<RU>Отмена операции запрещена</RU>
+		<UA>Відміна операції заборонена</UA>
+		<EN>Cancellation of operation is forbidden</EN>
+	</title_cancelation_operation_forbidden>
+	<title_reports>
+		<RU>Отчеты</RU>
+		<UA>Звіти</UA>
+		<EN>Reports</EN>
+	</title_reports>
+	<title_invoices>
+		<RU>Счета</RU>
+		<UA>Рахунки</UA>
+		<EN>Invoices</EN>
+	</title_invoices>
+	<title_templates>
+		<RU>Шаблоны документов</RU>
+		<UA>Шаблони документів</UA>
+		<EN>Templates</EN>
+	</title_templates>	
+	<title_templates_not_found>
+		<RU>&lt;font color="red"&gt;Не найдены&lt;/font&gt; документы с вхождением строки '%FIND_STRING%' в название документа</RU>
+		<UA>&lt;font color="red"&gt;Не знайдено&lt;/font&gt; документів з входженням рядка '%FIND_STRING%' в назву документа</UA>
+		<EN>Documents with '%FIND_STRING%' &lt;font color="red"&gt;not found&lt;/font&gt;</EN>
+	</title_templates_not_found>
+	
+	<title_access_denied>
+		<RU>Доступ запрещен</RU>
+		<UA>Доступ заборонено</UA>
+		<EN>Access denied</EN>
+	</title_access_denied>
+	<title_access_type>
+		<RU>Тип доступа</RU>
+		<UA>Тип доступу</UA>
+		<EN>Access type</EN>
+	</title_access_type>
+	<title_access_type_standard>
+		<RU>Стандартный</RU>
+		<UA>Стандартний</UA>
+		<EN>Standard</EN>
+	</title_access_type_standard>
+	<title_access_type_cashier>
+		<RU>Кассир</RU>
+		<UA>Касир</UA>
+		<EN>Cashier</EN>
+	</title_access_type_cashier>
+	<title_access_type_manager>
+		<RU>Менеджер</RU>
+		<UA>Менеджер</UA>
+		<EN>Manager</EN>
+	</title_access_type_manager>
+	<title_access_type_unknown>
+		<RU>Неизвестно</RU>
+		<UA>Невідомо</UA>
+		<EN>Unknown</EN>
+	</title_access_type_unknown>
+	<title_settings>
+		<RU>Настройки</RU>
+		<UA>Настройки</UA>
+		<EN>Settings</EN>
+	</title_settings>
+	<title_setting_user>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User</EN>
+	</title_setting_user>
+	<title_setting_terminal>
+		<RU>Терминал</RU>
+		<UA>Термінал</UA>
+		<EN>Terminal</EN>
+	</title_setting_terminal>
+	<title_setting_loyality>
+		<RU>Лояльность</RU>
+		<UA>Лояльність</UA>
+		<EN>Loyality</EN>
+	</title_setting_loyality>
+	<title_setting_administration>
+		<RU>Администрирование</RU>
+		<UA>Адміністрування</UA>
+		<EN>Administration</EN>
+	</title_setting_administration>
+	<title_setting_feedback>
+		<RU>Обратная связь</RU>
+		<UA>Зворотній зв'язко</UA>
+		<EN>Feedback</EN>
+	</title_setting_feedback>
+	<title_setting_messages>
+		<RU>Сообщения</RU>
+		<UA>Повідомлення</UA>
+		<EN>Messages</EN>
+	</title_setting_messages>
+	<title_setting_about>
+		<RU>О программе</RU>
+		<UA>Про програму</UA>
+		<EN>About</EN>
+	</title_setting_about>
+	<title_setting_help>
+		<RU>Справка</RU>
+		<UA>Довідка</UA>
+		<EN>Help</EN>
+	</title_setting_help>
+	<title_check_card>
+		<RU>Проверка карты</RU>
+		<UA>Перевірка карти</UA>
+		<EN>Check card</EN>
+	</title_check_card>
+	<title_cheque_actions>
+		<RU>Действия</RU>
+		<UA>Дії</UA>
+		<EN>Actions</EN>
+	</title_cheque_actions>
+	<title_send_cheque>
+		<RU>Отправка чека</RU>
+		<UA>Відсилання чеку</UA>
+		<EN>Send cheque</EN>
+	</title_send_cheque>
+	<title_send_cheque_email>
+		<RU>Отправка на E-mail</RU>
+		<UA>Відсилання на E-mail</UA>
+		<EN>Sending for E-mail</EN>
+	</title_send_cheque_email>
+	<send_cheque_email_action>
+		<RU>Отправить на E-mail</RU>
+		<UA>Відіслати на E-mail</UA>
+		<EN>Send to E-mail</EN>
+	</send_cheque_email_action>
+	<send_cheque_email_hint>
+		<RU>Чек будет отправлен на</RU>
+		<UA>Чек буде надіслано на</UA>
+		<EN>Cheque will be sent to</EN>
+	</send_cheque_email_hint>
+	<send_cheque_email_error>
+		<RU>В анкете пайщика не указан E-mail, отправка чека невозможна</RU>
+		<UA>В анкеті пайовика не вказано E-mail, відсилання чеку неможливе</UA>
+		<EN>In the questionnaire of the shareholder E-mail isn't specified, sending the cheque is impossible</EN>
+	</send_cheque_email_error>
+	<title_send_cheque_sms>
+		<RU>Отправка в виде СМС</RU>
+		<UA>Відсилання у вигляді СМС</UA>
+		<EN>Sending by SMS</EN>
+	</title_send_cheque_sms>
+	<send_cheque_sms_action>
+		<RU>Отправить в виде СМС</RU>
+		<UA>Відіслати у вигляді СМС</UA>
+		<EN>Send by SMS</EN>
+	</send_cheque_sms_action>
+	<send_cheque_sms_hint>
+		<RU>Чек будет отправлен на моб.телефон</RU>
+		<UA>Чек буде надіслано на моб.телефон</UA>
+		<EN>Cheque will be sent to mobile phone</EN>
+	</send_cheque_sms_hint>
+	<send_cheque_sms_error>
+		<RU>В анкете пайщика не указан моб.телефон, отправка чека невозможна</RU>
+		<UA>В анкеті пайовика не вказано моб.телефон, відсилання чеку неможливе</UA>
+		<EN>In the questionnaire of the shareholder mobile phone isn't specified, sending the cheque is impossible</EN>
+	</send_cheque_sms_error>
+	<send_cheque_sms_already_send>
+		<RU>Чек уже был отправлен пайщику на моб.телефон</RU>
+		<UA>Чек вже було відіслано пайовику на моб.телефон</UA>
+		<EN>The cheque was already sent to the shareholder to mobile phone</EN>
+	</send_cheque_sms_already_send>
+	<send_cheque_select_options_error>
+		<RU>Не выбраны варианты отправки чека</RU>
+		<UA>Не вибрані варіанти відсилання чека</UA>
+		<EN>Options of sending the cheque aren't chosen</EN>
+	</send_cheque_select_options_error>
+	<title_card_not_enter>
+		<RU>Не указан номер карты</RU>
+		<UA>Не вказано номер карти</UA>
+		<EN>Card number no enter</EN>
+	</title_card_not_enter>
+	
+	<card>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</card>
+	<cd_card1>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</cd_card1>
+	<cd_card1_hint>
+		<RU>Введите 13-значный номер карты</RU>
+		<UA>Введіть 13-значний номер карти</UA>
+		<EN>Enter card number</EN>
+	</cd_card1_hint>
+	<cd_card1_hide>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</cd_card1_hide>
+	<card_status>
+		<RU>Вид карты</RU>
+		<UA>Вид карти</UA>
+		<EN>Card kind</EN>
+	</card_status>
+	<membership_dues_aren_t_paid>
+		<RU>Не оплачен членский взнос</RU>
+		<UA>Не сплачено членський внесок</UA>
+		<EN>The membership dues aren't paid</EN>
+	</membership_dues_aren_t_paid>
+	<payment_for_goods>
+		<RU>Оплата</RU>
+		<UA>Оплата</UA>
+		<EN>Payment</EN>
+	</payment_for_goods>
+	<goods_pay_sum>
+		<RU>Сумма за товар</RU>
+		<UA>Сума за товар</UA>
+		<EN>Summa for goods</EN>
+	</goods_pay_sum>
+	<sum_discount>
+		<RU>Сумма скидки</RU>
+		<UA>Сума знижки</UA>
+		<EN>Discount summa</EN>
+	</sum_discount>
+	<goods_pay_point_sum>
+		<RU>Сумма оплаты баллами</RU>
+		<UA>Сума оплати балами</UA>
+		<EN>Sum of payment by points</EN>
+	</goods_pay_point_sum>
+	<point_currency_name>
+		<RU>баллов</RU>
+		<UA>балів</UA>
+		<EN>points</EN>
+	</point_currency_name>
+	<point_currency_name_1>
+		<RU>балл</RU>
+		<UA>бал</UA>
+		<EN>point</EN>
+	</point_currency_name_1>
+	<point_currency_name_2_4>
+		<RU>балла</RU>
+		<UA>бала</UA>
+		<EN>points</EN>
+	</point_currency_name_2_4>
+	<point_currency_name_5_more>
+		<RU>баллов</RU>
+		<UA>балів</UA>
+		<EN>points</EN>
+	</point_currency_name_5_more>
+	<cheque_entered_sum>
+		<RU>Внесено пайщиком</RU>
+		<UA>Внесено пайовиком</UA>
+		<EN>Granted by the shareholder</EN>
+	</cheque_entered_sum>
+	<entered_sum>
+		<RU>Внесено пайщиком</RU>
+		<UA>Внесено пайовиком</UA>
+		<EN>Granted by the shareholder</EN>
+	</entered_sum>
+	<entered_sum_title>
+		<RU>Сумма, внесенная пайщиком</RU>
+		<UA>Сума, внесена пайовиком</UA>
+		<EN>Sum granted by the shareholder</EN>
+	</entered_sum_title>
+	<cheque_sum_change>
+		<RU>Сдача</RU>
+		<UA>Здача</UA>
+		<EN>Change</EN>
+	</cheque_sum_change>
+	<sum_change>
+		<RU>Сдача</RU>
+		<UA>Здача</UA>
+		<EN>Change</EN>
+	</sum_change>
+	<sum_change_title>
+		<RU>Сумма сдачи</RU>
+		<UA>Сума здачі</UA>
+		<EN>The amount of change</EN>
+	</sum_change_title>
+	<sum_change_to_share_account>
+		<RU>Сдача в паевой фонд</RU>
+		<UA>Здача в паєвий фонд</UA>
+		<EN>Change to share fund</EN>
+	</sum_change_to_share_account>
+	<change_to_share_account>
+		<RU>Зачислить сдачу в паевой фонд</RU>
+		<UA>Зарахувати здачу в пайовий фонд</UA>
+		<EN>Enlist change in share fund</EN>
+	</change_to_share_account>
+	<goods_pay_way>
+		<RU>Способ оплаты</RU>
+		<UA>Спосіб оплати</UA>
+		<EN>Pay way</EN>
+	</goods_pay_way>
+	<goods_pay_cash>
+		<RU>наличными</RU>
+		<UA>готівкою</UA>
+		<EN>cash</EN>
+	</goods_pay_cash>
+	<goods_pay_cash_caption>
+		<RU>Наличные</RU>
+		<UA>Готівка</UA>
+		<EN>Cash</EN>
+	</goods_pay_cash_caption>
+	<goods_pay_card>
+		<RU>банковской картой</RU>
+		<UA>банківською картою</UA>
+		<EN>bank card</EN>
+	</goods_pay_card>
+	<goods_pay_card_caption>
+		<RU>Банк карта</RU>
+		<UA>Банк карта</UA>
+		<EN>Bank card</EN>
+	</goods_pay_card_caption>
+	<goods_pay_points>
+		<RU>картой СМПУ</RU>
+		<UA>картою ММПО</UA>
+		<EN>card WMPU</EN>
+	</goods_pay_points>
+	<goods_pay_points_caption>
+		<RU>СМПУ карта</RU>
+		<UA>ММПО карта</UA>
+		<EN>WMPU card</EN>
+	</goods_pay_points_caption>
+	<goods_pay_robokassa>
+		<RU>Робокасса</RU>
+		<UA>Робокаса</UA>
+		<EN>Robokassa</EN>
+	</goods_pay_robokassa>
+	<goods_pay_robokassa_caption>
+		<RU>Робокасса</RU>
+		<UA>Робокаса</UA>
+		<EN>Robokassa</EN>
+	</goods_pay_robokassa_caption>
+	<goods_pay_invoices>
+		<RU>Выставление счета</RU>
+		<UA>Виставлення рахунку</UA>
+		<EN>Make out invoice</EN>
+	</goods_pay_invoices>
+	<goods_pay_invoices_caption>
+		<RU>Выставление счета</RU>
+		<UA>Виставлення рахунку</UA>
+		<EN>Make out invoice</EN>
+	</goods_pay_invoices_caption>
+	<goods_pay_unknown>
+		<RU>неизвестно</RU>
+		<UA>невідомо</UA>
+		<EN>unknown</EN>
+	</goods_pay_unknown>
+	<goods_pay_unknown_title>
+		<RU>Неизвестный способ оплаты</RU>
+		<UA>Невідомий спосіб оплати</UA>
+		<EN>Unknown payment method</EN>
+	</goods_pay_unknown_title>
+	<goods_pay_cash_forbidden>
+		<RU>Доступ к оплате наличными запрещен</RU>
+		<UA>Доступ до оплати готівкою заборонено</UA>
+		<EN>Access to cash payment is forbidden</EN>
+	</goods_pay_cash_forbidden>
+	<goods_pay_card_forbidden>
+		<RU>Доступ к оплате банковской картой запрещен</RU>
+		<UA>Доступ до оплати банківською картою заборонено</UA>
+		<EN>Access to payment of bank card is forbidden</EN>
+	</goods_pay_card_forbidden>
+	<goods_pay_points_forbidden>
+		<RU>Доступ к оплате баллами запрещен</RU>
+		<UA>Доступ до оплати балами заборонено</UA>
+		<EN>Access to payment of poinst is forbidden</EN>
+	</goods_pay_points_forbidden>
+	<goods_pay_robokassa_forbidden>
+		<RU>Доступ к оплате через Робокассу запрещен</RU>
+		<UA>Доступ до оплати через Робокасу заборонено</UA>
+		<EN>Access to payment through Robokassa is forbidden</EN>
+	</goods_pay_robokassa_forbidden>
+	<goods_pay_hasnt_permission>
+		<RU>Нет разрешенных способов оплаты</RU>
+		<UA>Немає дозволених способів оплати</UA>
+		<EN>There are no the resolved payment methods</EN>
+	</goods_pay_hasnt_permission>
+		
+	<goods_pay_cash_short>
+		<RU>нал.</RU>
+		<UA>гот.</UA>
+		<EN>cash</EN>
+	</goods_pay_cash_short>
+	<goods_pay_card_short>
+		<RU>банк.</RU>
+		<UA>банк.</UA>
+		<EN>bank</EN>
+	</goods_pay_card_short>
+	<goods_pay_points_short>
+		<RU>СМПУ</RU>
+		<UA>ММПО</UA>
+		<EN>WMPU</EN>
+	</goods_pay_points_short>
+	<goods_pay_robokassa_short>
+		<RU>Робокасса</RU>
+		<UA>Робокаса</UA>
+		<EN>Robokassa</EN>
+	</goods_pay_robokassa_short>
+	<goods_pay_invoice_short>
+		<RU>счет</RU>
+		<UA>рахунок</UA>
+		<EN>invoice</EN>
+	</goods_pay_invoice_short>
+	<goods_pay_unknown_short>
+		<RU>неизв.</RU>
+		<UA>невід.</UA>
+		<EN>unknown</EN>
+	</goods_pay_unknown_short>
+	
+	<title_pay_robokassa>
+		<RU>Оплатить через Робокассу</RU>
+		<UA>Сплатити через Робокасу</UA>
+		<EN>Pay on Robokassa</EN>
+	</title_pay_robokassa>
+	
+	<title_choice>
+		<RU>Выбрать</RU>
+		<UA>Вибрати</UA>
+		<EN>Choice</EN>
+	</title_choice>
+	<title_choice_all>
+		<RU>Выбрать все</RU>
+		<UA>Вибрати всі</UA>
+		<EN>Choice all</EN>
+	</title_choice_all>
+	<point_fee_sum>
+		<RU>Сумма пополнения баллов</RU>
+		<UA>Сума поповнення балів</UA>
+		<EN>Points sum</EN>
+	</point_fee_sum>
+	<fee_sum>
+		<RU>Сумма взноса</RU>
+		<UA>Сума внеску</UA>
+		<EN>Fee sum</EN>
+	</fee_sum>
+	<share_fee_sum>
+		<RU>Сумма паевого взноса</RU>
+		<UA>Сума паєвого внеску</UA>
+		<EN>Share fee sum</EN>
+	</share_fee_sum>
+	<membership_fee_sum>
+		<RU>Сумма членского взноса</RU>
+		<UA>Сума членського внеску</UA>
+		<EN>Membership fee sum</EN>
+	</membership_fee_sum>
+	<membership_fee_dealer_margin>
+		<RU>Наценка за прием членского взноса</RU>
+		<UA>Націнка за прийом членського внеску</UA>
+		<EN>Membership fee margin</EN>
+	</membership_fee_dealer_margin>
+	<share_fee_dealer_margin>
+		<RU>Наценка за прием паевого взноса</RU>
+		<UA>Націнка за прийом пайового внеску</UA>
+		<EN>Share fee margin</EN>
+	</share_fee_dealer_margin>
+	<mtf_dealer_margin>
+		<RU>Наценка за прием ЧЦВ</RU>
+		<UA>Націнка за прийом ЧЦВ</UA>
+		<EN>MTF margin</EN>
+	</mtf_dealer_margin>
+	<share_fee_change_margin>
+		<RU>Наценка за зачисление сдачи в паевой фонд</RU>
+		<UA>Націнка за зарахування здачі в паєвий фонд</UA>
+		<EN>Margin for transfer of change in share fund</EN>
+	</share_fee_change_margin>
+	<mtf_sum>
+		<RU>Сумма ЧЦВ</RU>
+		<UA>Сума ЧЦВ</UA>
+		<EN>MTF sum</EN>
+	</mtf_sum>
+	<fee_sum_total>
+		<RU>Сумма взносов (всего)</RU>
+		<UA>Сума внесків (всього)</UA>
+		<EN>Fees sum (total)</EN>
+	</fee_sum_total>
+	<fee_kind>
+		<RU>Вид взноса</RU>
+		<UA>Вид внеску</UA>
+		<EN>Fee kind</EN>
+	</fee_kind>
+	<fee_kind_point>
+		<RU>Пополнение баллов</RU>
+		<UA>Поповнення палів</UA>
+		<EN>Points replenishment</EN>
+	</fee_kind_point>
+	<fee_kind_point2>
+		<RU>Баллы</RU>
+		<UA>Бали</UA>
+		<EN>Points</EN>
+	</fee_kind_point2>
+	<fee_kind_share>
+		<RU>Паевой взнос</RU>
+		<UA>Паєвий внесок</UA>
+		<EN>Share fee</EN>
+	</fee_kind_share>
+	<fee_kind_membership>
+		<RU>Членский взнос</RU>
+		<UA>Членський внесок</UA>
+		<EN>Membership fee</EN>
+	</fee_kind_membership>
+	<fee_kind_admission>
+		<RU>Членский целевой взнос (целевые программы)</RU>
+		<UA>Членський цільовий внесок (цільові програми)</UA>
+		<EN>Membership target fee (target program)</EN>
+	</fee_kind_admission>
+	<fee_kind_admission_short>
+		<RU>Членский целевой взнос (ЦП)</RU>
+		<UA>Членський цільовий внесок (ЦП)</UA>
+		<EN>Membership target fee (TP)</EN>
+	</fee_kind_admission_short>
+	<fee_kind_admission_short2>
+		<RU>ЧЦВ (ЦП)</RU>
+		<UA>ЧЦВ (ЦП)</UA>
+		<EN>MTF (TP)</EN>
+	</fee_kind_admission_short2>
+	<fee_kind_hasnt_permission>
+		<RU>Нет разрешенных видов взносов</RU>
+		<UA>Немає дозволених видів внесків</UA>
+		<EN>There are no the resolved types of contributions</EN>
+	</fee_kind_hasnt_permission>
+	<fee_kind_unknown_title>
+		<RU>Неизвестный вид взноса</RU>
+		<UA>Невідомий вид внеску</UA>
+		<EN>Unknown fee kind</EN>
+	</fee_kind_unknown_title>
+	
+	<transfer_type_share>
+		<RU>Паевой фонд</RU>
+		<UA>Паєвий фонд</UA>
+		<EN>Share fund</EN>
+	</transfer_type_share>
+	<transfer_type_point>
+		<RU>Баллы</RU>
+		<UA>Бали</UA>
+		<EN>Points</EN>
+	</transfer_type_point>
+	
+	<title_membership_fee>
+		<RU>Ежемесячный членский взнос</RU>
+		<UA>Щомісячний членський внесок</UA>
+		<EN>Month membership fee</EN>
+	</title_membership_fee>
+	<membership_fee_month_amount>
+		<RU>Сумма взноса в месяц</RU>
+		<UA>Сумма внеску за місяць</UA>
+		<EN>Membership fee for month</EN>
+	</membership_fee_month_amount>
+	<membership_fee_months>
+		<RU>Оплатить месяцев</RU>
+		<UA>Сплатити місяців</UA>
+		<EN>Pay for months</EN>
+	</membership_fee_months>
+	<membership_fee_total>
+		<RU>Итого членский взнос</RU>
+		<UA>Всього членський внесок</UA>
+		<EN>Membership fee total</EN>
+	</membership_fee_total>
+	<pay_total>
+		<RU>Итого к оплате</RU>
+		<UA>Всього до сплати</UA>
+		<EN>Payment total</EN>
+	</pay_total>
+	
+	<coupon>
+		<RU>Сертификат</RU>
+		<UA>Сертифікат</UA>
+		<EN>Certificate</EN>
+	</coupon>
+	<coupon_control_code>
+		<RU>Контрольный код</RU>
+		<UA>Контрольний код</UA>
+		<EN>Control code</EN>
+	</coupon_control_code>
+	
+	<activation_amount>
+		<RU>Вступительный взнос</RU>
+		<UA>Вступний внесок</UA>
+		<EN>Amount</EN>
+	</activation_amount>
+	<activation_package>
+		<RU>Пакет</RU>
+		<UA>Пакет</UA>
+		<EN>Package</EN>
+	</activation_package>
+	
+	<client_title>
+		<RU>Данные пайщика</RU>
+		<UA>Дані пайовика</UA>
+		<EN>Shareholder data</EN>
+	</client_title>
+	<client_in>
+		<RU>Карта пайщика (ИН)</RU>
+		<UA>Карта пайовика (ІН)</UA>
+		<EN>Shareholder card (IN)</EN>
+	</client_in>
+	<card_activation_code>
+		<RU>Код активации</RU>
+		<UA>Код активації</UA>
+		<EN>Activation code</EN>
+	</card_activation_code>
+	<referral_in>
+		<RU>Карта рекомендующего пайщика (ИН)</RU>
+		<UA>Карта рекомендуючого пайовика (ІН)</UA>
+		<EN>Recommending shareholder card (IN)</EN>
+	</referral_in>
+	<client_fullname>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</client_fullname>
+	<client_fio_nat_prs>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</client_fio_nat_prs>
+	<client_surname>
+		<RU>Фамилия</RU>
+		<UA>Прізвище</UA>
+		<EN>Surname</EN>
+	</client_surname>
+	<client_name>
+		<RU>Имя</RU>
+		<UA>Ім'я</UA>
+		<EN>Name</EN>
+	</client_name>
+	<client_patronymic>
+		<RU>Отчество</RU>
+		<UA>По батькові</UA>
+		<EN>Patronymic</EN>
+	</client_patronymic>
+	<client_phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</client_phone_mobile>
+	<client_phone_mobile_warning>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Вводить актуальный номер телефона, для активации карты потребуется код подтверждения из СМС!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Вводити актуальний номер телефона, активація карти потербує введення кода підтвердження із СМС!</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Enter actual phone number, activation of the card will require a confirmation code from SMS!</EN>
+	</client_phone_mobile_warning>
+	<client_email_warning>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Вводить актуальный Email, используется для отправки чеков!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Вводити актуальний Email, використовується для відсилання чеків!</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Enter actual Email, it is used for sending checks!</EN>
+	</client_email_warning>
+	<client_not_modified_again_warning>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Вводить корректные данные, в дальнейшем изменение запрещено!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Вводити коректні дані, в подальшому зміни заборонені!</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Enter correct data, further change is forbidden!</EN>
+	</client_not_modified_again_warning>
+	
+	<is_questionnaire_checked>
+		<RU>Анкета проверена</RU>
+		<UA>Анкета перевірена</UA>
+		<EN>Questionnaire was checked</EN>
+	</is_questionnaire_checked>
+	<questionnaire_checked_warning>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Установка значения этого поля в "Да" повлечет за собой запрет на изменение анкеты на терминале!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Встановлення значення цього поля в "Так" призведе до заборони зміни анкети на терміналі !</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Parameter setting of this field in "Yes" will cause a ban on change of the questionnaire on the terminal!</EN>
+	</questionnaire_checked_warning>
+	<client_phone_stationary>
+		<RU>Стац.телефон</RU>
+		<UA>Стац.телефон</UA>
+		<EN>Stationary phone</EN>
+	</client_phone_stationary>
+	<client_email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</client_email>
+	<client_date_of_birth>
+		<RU>Дата рождения</RU>
+		<UA>Дата народження</UA>
+		<EN>Date of birth</EN>
+	</client_date_of_birth>
+	<client_sex>
+		<RU>Пол</RU>
+		<UA>Стать</UA>
+		<EN>Sex</EN>
+	</client_sex>
+	
+	
+	<client_bank_account_title>
+		<ru>Банковские реквизиты пайщика</ru>
+		<ua>Банківські реквізити пайовика</ua>
+		<en>Bank accounts</en>
+	</client_bank_account_title>
+	<client_bik>
+		<ru>БИК банка</ru>
+		<ua>БІК банка</ua>
+		<en>BIK of bank</en>
+	</client_bik>
+	<client_bank_name>
+		<ru>Название банка</ru>
+		<ua>Назва банка</ua>
+		<en>Bank name</en>
+	</client_bank_name>
+	<client_bank_settlement_account>
+		<ru>р/с</ru>
+		<ua>р/р</ua>
+		<en>s/a</en>
+	</client_bank_settlement_account>
+	<client_bank_correspondent_account>
+		<ru>к/с</ru>
+		<ua>к/р</ua>
+		<en>c/a</en>
+	</client_bank_correspondent_account>
+	
+	<refferal_card>
+		<RU>Карта друга</RU>
+		<UA>Карта друга</UA>
+		<EN>Friend card</EN>
+	</refferal_card>
+	
+	<transfer_from_card>
+		<RU>Списать с карты</RU>
+		<UA>Списати з карти</UA>
+		<EN>Write off from card</EN>
+	</transfer_from_card>
+	<transfer_amount>
+		<RU>Сумма списания</RU>
+		<UA>Сума списання</UA>
+		<EN>Write off amount</EN>
+	</transfer_amount>
+	<transfer_account>
+		<RU>Списать с</RU>
+		<UA>Списати з</UA>
+		<EN>Write off from</EN>
+	</transfer_account>
+	<transfer_to_card>
+		<RU>Зачислить на карту</RU>
+		<UA>Зарахувати на карту</UA>
+		<EN>Add to card</EN>
+	</transfer_to_card>
+	
+	<cheque_error_not_found>
+		<RU>Операция не найдена</RU>
+		<UA>Операцію не знайдено</UA>
+		<EN>Operation not found</EN>
+	</cheque_error_not_found>
+	<cheque_wmpu>
+		<RU>СМПУ</RU>
+		<UA>ММПО</UA>
+		<EN>WMPU</EN>
+	</cheque_wmpu>
+	<cheque_payment>
+		<RU>Оплата</RU>
+		<UA>Оплата</UA>
+		<EN>Payment</EN>
+	</cheque_payment>
+	<cheque_payment_registration>
+		<RU>Регистрация оплаты</RU>
+		<UA>Реєстрація оплати</UA>
+		<EN>Payment registration</EN>
+	</cheque_payment_registration>
+	<cheque_organization_terminal>
+		<RU>Организация/терминал</RU>
+		<UA>Організація/термінал</UA>
+		<EN>Organization/terminal</EN>
+	</cheque_organization_terminal>
+	<cheque_put_card>
+		<RU>Услуга выдачи карты</RU>
+		<UA>Послуга видачі карти</UA>
+		<EN>Service of issue of the card</EN>
+	</cheque_put_card>
+	<cheque_number>
+		<RU>Док. №</RU>
+		<UA>Док. №</UA>
+		<EN>Doc.</EN>
+	</cheque_number>
+	<cheque_number_full>
+		<RU>Документ №</RU>
+		<UA>Документ №</UA>
+		<EN>Document</EN>
+	</cheque_number_full>
+	<cheque_type>
+		<RU>Тип чека</RU>
+		<UA>Тип чека</UA>
+		<EN>Cheque type</EN>
+	</cheque_type>
+	<cheque_sum>
+		<RU>Сумма</RU>
+		<UA>Сума</UA>
+		<EN>Sum</EN>
+	</cheque_sum>
+	<cheque_input_card>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</cheque_input_card>
+	<cheque_card_type>
+		<RU>Тип карты</RU>
+		<UA>Тип карти</UA>
+		<EN>Card type</EN>
+	</cheque_card_type>
+	<cheque_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</cheque_date>
+	<cheque_time>
+		<RU>Время</RU>
+		<UA>Час</UA>
+		<EN>Time</EN>
+	</cheque_time>
+	<cheque_operation_date>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</cheque_operation_date>
+	<cheque_cash>
+		<RU>Наличные</RU>
+		<UA>Готівка</UA>
+		<EN>Cash</EN>
+	</cheque_cash>
+	<cheque_card>
+		<RU>Карта банк</RU>
+		<UA>Карта банк</UA>
+		<EN>Card of bank</EN>
+	</cheque_card>
+	<cheque_smpu>
+		<RU>Карта СМПУ</RU>
+		<UA>Карта ММПО</UA>
+		<EN>WMPU card</EN>
+	</cheque_smpu>
+	<cheque_robokassa>
+		<RU>Робокасса</RU>
+		<UA>Робокаса</UA>
+		<EN>Robokassa</EN>
+	</cheque_robokassa>
+	<cheque_invoice>
+		<RU>Счет</RU>
+		<UA>Рахунок</UA>
+		<EN>Invoice</EN>
+	</cheque_invoice>
+	<cheque_invoice_from>
+		<RU>от</RU>
+		<UA>від</UA>
+		<EN>from</EN>
+	</cheque_invoice_from>
+	<cheque_unknown>
+		<RU>Неизвестно</RU>
+		<UA>Невідомо</UA>
+		<EN>Unknown</EN>
+	</cheque_unknown>
+	<cheque_target_program>
+		<RU>Целевая программа</RU>
+		<UA>Цільова програма</UA>
+		<EN>Target program</EN>
+	</cheque_target_program>
+	<cheque_target_program_group>
+		<RU>Группа</RU>
+		<UA>Група</UA>
+		<EN>Group</EN>
+	</cheque_target_program_group>
+	<cheque_target_program_amount>
+		<RU>Внесено</RU>
+		<UA>Внесено</UA>
+		<EN>Amount</EN>
+	</cheque_target_program_amount>
+	<cheque_target_program_period>
+		<RU>За</RU>
+		<UA>За</UA>
+		<EN>On</EN>
+	</cheque_target_program_period>
+	<cheque_recepient_card>
+		<RU>Зачислено на карту</RU>
+		<UA>Зараховано на карту</UA>
+		<EN>Card-recepient</EN>
+	</cheque_recepient_card>
+	<cheque_recepient_amount>
+		<RU>Сумма зачисления</RU>
+		<UA>Сума зарахування</UA>
+		<EN>Amount</EN>
+	</cheque_recepient_amount>
+	<cheque_recepient_put_point>
+		<RU>Зачислено баллов</RU>
+		<UA>Зараховано балів</UA>
+		<EN>Add points</EN>
+	</cheque_recepient_put_point>
+	<cheque_recepient_get_point>
+		<RU>Списано баллов</RU>
+		<UA>Списано балів</UA>
+		<EN>Write off points</EN>
+	</cheque_recepient_get_point>
+	<cheque_get_share_account>
+		<RU>Списано с личного паевого счета</RU>
+		<UA>Списано з особистого паєвого рахунку</UA>
+		<EN>Write off from personal share account</EN>
+	</cheque_get_share_account>
+	<cheque_used_share_account>
+		<RU>Списано с личного паевого счета для получения баллов</RU>
+		<UA>Списано з особистого паєвого рахунку для отримання балів</UA>
+		<EN>Write off from personal share account for receiving points</EN>
+	</cheque_used_share_account>
+	<cheque_add_share_account>
+		<RU>Пополнен паевой фонд</RU>
+		<UA>Поповнено паєвий фонд</UA>
+		<EN>Add to share fund</EN>
+	</cheque_add_share_account>
+	<add_share_account_from_change>
+		<RU>Пополнен паевой фонд со cдачи</RU>
+		<UA>Поповнено паєвий фонд зі здачі</UA>
+		<EN>Add to share fund from change</EN>
+	</add_share_account_from_change>
+	<cheque_add_point_all>
+		<RU>Начислено баллов всего</RU>
+		<UA>Нараховано балів всього</UA>
+		<EN>Added points all</EN>
+	</cheque_add_point_all>
+	<cheque_add_point>
+		<RU>Начислено баллов Пайщику</RU>
+		<UA>Нараховано балів Пайовику</UA>
+		<EN>Added points to Shareholder</EN>
+	</cheque_add_point>
+	<cheque_add_point_for_purchase>
+		<RU>Начислено баллов за покупку</RU>
+		<UA>Нараховано балів за купівлю </UA>
+		<EN>Added points for purchase</EN>
+	</cheque_add_point_for_purchase>
+	<cheque_add_point_total>
+		<RU>Начислено баллов (всего)</RU>
+		<UA>Нараховано балів (всього)</UA>
+		<EN>Add points (total)</EN>
+	</cheque_add_point_total>
+	<cheque_add_point_storno>
+		<RU>Начислено баллов по чеку RRN</RU>
+		<UA>Нараховано балів по чеку RRN</UA>
+		<EN>Add points on cheque RRN</EN>
+	</cheque_add_point_storno>
+	<cheque_write_off_point>
+		<RU>Списано доступных баллов</RU>
+		<UA>Списано доступних балів</UA>
+		<EN>Write off available points</EN>
+	</cheque_write_off_point>
+	<cheque_write_off_point_storno>
+		<RU>Списано баллов по чеку RRN</RU>
+		<UA>Списано балів по чеку RRN</UA>
+		<EN>Write off points on cheque RRN</EN>
+	</cheque_write_off_point_storno>
+	<cheque_write_off_point_return>
+		<RU>Списано доступных баллов</RU>
+		<UA>Списано доступних балів</UA>
+		<EN>Write off available points</EN>
+	</cheque_write_off_point_return>
+	<cheque_rrn>
+		<RU>RRN</RU>
+		<UA>RRN</UA>
+		<EN>RRN</EN>
+	</cheque_rrn>
+	<cheque_transaction>
+		<RU>Транзакция</RU>
+		<UA>Транзакція</UA>
+		<EN>Transaction</EN>
+	</cheque_transaction>
+	<cheque_transaction_short>
+		<RU>Транз. №</RU>
+		<UA>Транз. №</UA>
+		<EN>Trans.number</EN>
+	</cheque_transaction_short>
+	<cheque_barktrn>
+		<RU>BANKTRN</RU>
+		<UA>BANKTRN</UA>
+		<EN>BANKTRN</EN>
+	</cheque_barktrn>
+	<cheque_operation>
+		<RU>Операция</RU>
+		<UA>Операція</UA>
+		<EN>Operation</EN>
+	</cheque_operation>
+	<cheque_input_pin>
+		<RU>Введен ПИН-код</RU>
+		<UA>Введено ПІН-код</UA>
+		<EN>PIN is entered</EN>
+	</cheque_input_pin>
+	<cheque_input_code_from_sms>
+		<RU>Подтверждено СМС подписью</RU>
+		<UA>Підтверджено СМС підписом</UA>
+		<EN>Сonfirmed with SMS signature</EN>
+	</cheque_input_code_from_sms>
+	<cheque_input_activation_code>
+		<RU>Введен код активации</RU>
+		<UA>Введено код активації</UA>
+		<EN>Activation code is entered</EN>
+	</cheque_input_activation_code>
+	<cheque_information>
+		<RU>Информация</RU>
+		<UA>Інформація</UA>
+		<EN>Information</EN>
+	</cheque_information>
+	<cheque_operation_execute>
+		<RU>Операция успешная</RU>
+		<UA>Операція успішна</UA>
+		<EN>Operation successful</EN>
+	</cheque_operation_execute>
+	<cheque_operation_in_process>
+		<RU>Операция в процессе</RU>
+		<UA>Операція в процесі</UA>
+		<EN>Operation in process</EN>
+	</cheque_operation_in_process>
+	<cheque_operation_error>
+		<RU>Операция ошибочна</RU>
+		<UA>Операція помилкова</UA>
+		<EN>Operation is wrong</EN>
+	</cheque_operation_error>
+	<cheque_operation_cancelled>
+		<RU>Операция отменена</RU>
+		<UA>Операція відмінена</UA>
+		<EN>Operation was cancel</EN>
+	</cheque_operation_cancelled>
+	<cheque_operation_returned>
+		<RU>Выполнен возврат</RU>
+		<UA>Выконано повернення</UA>
+		<EN>Revert executed</EN>
+	</cheque_operation_returned>
+	<cheque_share_account_amount>
+		<RU>Личный паевой счет</RU>
+		<UA>Особистий паєвий рахунок</UA>
+		<EN>Personal share account</EN>
+	</cheque_share_account_amount>
+	<cheque_err_tx>
+		<RU>Код ответа</RU>
+		<UA>Код відповіді</UA>
+		<EN>Response code</EN>
+	</cheque_err_tx>
+	<cheque_bal_cur>
+		<RU>Доступно баллов</RU>
+		<UA>Доступно балів</UA>
+		<EN>Available points</EN>
+	</cheque_bal_cur>
+	<cheque_bal_acc>
+		<RU>Накоплено баллов</RU>
+		<UA>Накопичено балів</UA>
+		<EN>Accounted points</EN>
+	</cheque_bal_acc>
+	<cheque_end_line>
+		<RU>Спасибо! Приятных покупок!</RU>
+		<UA>Дякуємо! Приємних купівель!</UA>
+		<EN>Thanks! Pleasant purchases!</EN>
+	</cheque_end_line>
+	<membership_month_sum>
+		<RU>Сумма ежемесячного членского взноса</RU>
+		<UA>Сума щомісячного членського внеску</UA>
+		<EN>Sum of monthly membership dues</EN>
+	</membership_month_sum>
+	<membership_last_date>
+		<RU>Членский взнос оплачен до</RU>
+		<UA>Членський внесок сплачено до</UA>
+		<EN>The membership dues are paid to</EN>
+	</membership_last_date>
+	<membership_purse_rest>
+		<RU>Остаток членского взноса на счете</RU>
+		<UA>Залишок членського внеску на рахунку</UA>
+		<EN>The rest of membership dues on the account</EN>
+	</membership_purse_rest>
+	<membership_nopay_month>
+		<RU>Неоплачено месяцев</RU>
+		<UA>Несплачено місяців</UA>
+		<EN>Unpaid months</EN>
+	</membership_nopay_month>
+	<membership_rest_to_share_account>
+		<RU>Зачислить в паевой фонд</RU>
+		<UA>Зарахувати до паєвого фонду</UA>
+		<EN>Enlist in share fund</EN>
+	</membership_rest_to_share_account>
+	<cheque_dealer_margin>
+		<RU>Наценка Партнера</RU>
+		<UA>Націнка Партнера</UA>
+		<EN>Partner's margin</EN>
+	</cheque_dealer_margin>
+	<cheque_agent_margin>
+		<RU>Наценка агента</RU>
+		<UA>Націнка агента</UA>
+		<EN>Agent margin</EN>
+	</cheque_agent_margin>
+	<cheque_all_margin>
+		<RU>Общая наценка</RU>
+		<UA>Загальна націнка</UA>
+		<EN>Margin summary</EN>
+	</cheque_all_margin>
+	<cheque_cashier>
+		<RU>Кассир</RU>
+		<UA>Касир</UA>
+		<EN>Cashier</EN>
+	</cheque_cashier>
+	<cheque_cashier_card>
+		<RU>Карта кассира</RU>
+		<UA>Карта касира</UA>
+		<EN>Cashier card</EN>
+	</cheque_cashier_card>
+	<cheque_fee>
+		<RU>Сумма взноса</RU>
+		<UA>Сума внеску</UA>
+		<EN>Fee amount</EN>
+	</cheque_fee>
+	<cheque_membership_fee>
+		<RU>Членский взнос</RU>
+		<UA>Членський внесок</UA>
+		<EN>Membership fee</EN>
+	</cheque_membership_fee>
+	<cheque_tp_membership_fee>
+		<RU>ЧЦВ за участие в ЦП</RU>
+		<UA>ЧЦВ за участь в ЦП</UA>
+		<EN>MTF for TP</EN>
+	</cheque_tp_membership_fee>
+	<cheque_tp_membership_last_date>
+		<RU>ЧЦВ за участие в ЦП внесен до</RU>
+		<UA>ЧЦВ за участь в ЦП внесено до</UA>
+		<EN>MTF for TP last date</EN>
+	</cheque_tp_membership_last_date>
+	<cheque_tp_membership_last_date2>
+		<RU>внесен до</RU>
+		<UA>внесено до</UA>
+		<EN>last date</EN>
+	</cheque_tp_membership_last_date2>
+	<cheque_tp_entrance_fee>
+		<RU>ЧЦВ за вступление в ЦП</RU>
+		<UA>ЧЦВ за вступ в ЦП</UA>
+		<EN>MTF for TP</EN>
+	</cheque_tp_entrance_fee>
+	<cheque_mtf>
+		<RU>ЧЦВ по ЦП</RU>
+		<UA>ЧЦВ по ЦП</UA>
+		<EN>MTF for TP</EN>
+	</cheque_mtf>
+	<cheque_entrance_fee_date>
+		<RU>Дата оплаты</RU>
+		<UA>Дата оплати</UA>
+		<EN>Pay date</EN>
+	</cheque_entrance_fee_date>
+	<cheque_entrance_fee>
+		<RU>Вступительный взнос</RU>
+		<UA>Вступний внесок</UA>
+		<EN>Entrance fee</EN>
+	</cheque_entrance_fee>
+	<cheque_share_fee>
+		<RU>Паевой взнос</RU>
+		<UA>Паєвий внесок</UA>
+		<EN>Share fee</EN>
+	</cheque_share_fee>
+	<cheque_success_subscribe_target_prg>
+		<RU>Оформлена подписка на целевую программу</RU>
+		<UA>Оформлено підписання на цільову програму</UA>
+		<EN>Subscribe</EN>
+	</cheque_success_subscribe_target_prg>
+	<cheque_can_subscribe_target_prg>
+		<RU>Подписка на целевую программу</RU>
+		<UA>Підписання на цільову програму</UA>
+		<EN>Subscribe</EN>
+	</cheque_can_subscribe_target_prg>
+	<cheque_action>
+		<ru>Действие</ru>
+		<ua>Дія</ua>
+		<en>Action</en>
+	</cheque_action>
+	<cheque_fee_none>
+		<ru>Нет</ru>
+		<ua>Немає</ua>
+		<en>None</en>
+	</cheque_fee_none>
+	
+	<error_fee_amount_not_exist>
+		<RU>Не указана сумма взноса</RU>
+		<UA>Не вказана сума внеску</UA>
+		<EN>Fee amount not exist</EN>
+	</error_fee_amount_not_exist>
+	
+	
+	<client_country>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en>
+	</client_country>
+	<FACT_ADR_FULL>
+		<ru>Фактический адрес проживания</ru>
+		<ua>Фактична адреса проживання</ua>
+		<en>Actual living address</en>
+	</FACT_ADR_FULL>	
+	<FACT_ADR_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en>
+	</FACT_ADR_COUNTRY>
+	<FACT_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</FACT_ADR_ZIP_CODE>
+	<FACT_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</FACT_ADR_OBLAST>
+	<FACT_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en>
+	</FACT_ADR_DISTRICT>
+	<FACT_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en>
+	</FACT_ADR_CITY>
+	<FACT_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</FACT_ADR_STREET>
+	<FACT_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</FACT_ADR_HOUSE>
+	<FACT_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</FACT_ADR_CASE>
+	<FACT_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</FACT_ADR_APARTMENT>
+	<FACT_ADR_HOUSE_CASE_APARTMENT>
+		<ru>Дом/корпус/квартира</ru>
+		<ua>Будинок/корпус/квартира</ua>
+		<en>House/case/apartment</en>
+	</FACT_ADR_HOUSE_CASE_APARTMENT>
+	
+	
+	<REG_ADR_FULL>
+		<ru>Адрес регистрации (по паспорту)</ru>
+		<ua>Адреса реєстрації (за паспортом)</ua>
+		<en>Registration address (on passport)</en>
+	</REG_ADR_FULL>	
+	<REG_ADR_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en>
+	</REG_ADR_COUNTRY>
+	<REG_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</REG_ADR_ZIP_CODE>
+	<REG_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</REG_ADR_OBLAST>
+	<REG_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en>
+	</REG_ADR_DISTRICT>
+	<REG_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlment</en>
+	</REG_ADR_CITY>
+	<REG_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</REG_ADR_STREET>
+	<REG_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</REG_ADR_HOUSE>
+	<REG_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</REG_ADR_CASE>
+	<REG_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</REG_ADR_APARTMENT>
+	<REG_ADR_HOUSE_CASE_APARTMENT>
+		<ru>Дом/корпус/квартира</ru>
+		<ua>Будинок/корпус/квартира</ua>
+		<en>House/case/apartment</en>
+	</REG_ADR_HOUSE_CASE_APARTMENT>
+	
+	<new_client_package>
+		<ru>Сумма к оплате</ru>
+		<ua>Сума до сплати</ua>
+		<en>Sum to pay</en>
+	</new_client_package>
+	<club_date_beg>
+		<ru>Дата вступления</ru>
+		<ua>Дата вступу</ua>
+		<en>Input date</en>
+	</club_date_beg>
+	
+	<pasport_title>
+		<ru>Паспортные данные</ru>
+		<ua>Паспортні дані</ua>
+		<en>pasport data</en>
+	</pasport_title>
+	<pasport_code_country>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en>
+	</pasport_code_country>
+	<pasport_number>
+		<ru>Серия/номер</ru>
+		<ua>Серія/номер</ua>
+		<en>Series/number</en>
+	</pasport_number>
+	<pasport_date>
+		<ru>Дата выдачи</ru>
+		<ua>Дата видачі</ua>
+		<en>Given date</en>
+	</pasport_date>
+	<pasport_desc>
+		<ru>Кем выдан</ru>
+		<ua>Ким видано</ua>
+		<en>Who given</en>
+	</pasport_desc>
+	<pasport_division_code>
+		<ru>Код подразделения</ru>
+		<ua>Код підрозділу</ua>
+		<en>Division code</en>
+	</pasport_division_code>
+	
+	<jur_prs_legal_form>
+		<ru>Огр.-прав.форма</ru>
+		<ua>Огр.-прав.форма</ua>
+		<en>Org.-legal form</en>
+	</jur_prs_legal_form>
+	<jur_prs_name>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+	</jur_prs_name>
+	<jur_prs_short_name>
+		<ru>Сокр.название</ru>
+		<ua>Скор.назва</ua>
+		<en>Short name</en>
+	</jur_prs_short_name>
+	<jur_prs_phone>
+		<ru>Телефон</ru>
+		<ua>Телефон</ua>
+		<en>Phone</en>
+	</jur_prs_phone>
+	<jur_prs_email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</jur_prs_email>
+	<jur_prs_inn>
+		<ru>ИНН</ru>
+		<ua>ІПН</ua>
+		<en>INN</en>
+	</jur_prs_inn>
+	<jur_prs_ogrn>
+		<ru>ОГРН</ru>
+		<ua>ОГРН</ua>
+		<en>OGRN</en>
+	</jur_prs_ogrn>
+	<jur_prs_kpp>
+		<ru>КПП</ru>
+		<ua>КПП</ua>
+		<en>KPP</en>
+	</jur_prs_kpp>
+	<jur_prs_adr_full>
+		<ru>Адрес</ru>
+		<ua>Адреса</ua>
+		<en>Address</en>
+	</jur_prs_adr_full>	
+	<jur_prs_adr_country>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en>
+	</jur_prs_adr_country>
+	<jur_prs_adr_zip_code>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</jur_prs_adr_zip_code>
+	<jur_prs_adr_oblast>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</jur_prs_adr_oblast>
+	<jur_prs_adr_district>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en>
+	</jur_prs_adr_district>
+	<jur_prs_adr_city>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en>
+	</jur_prs_adr_city>
+	<jur_prs_adr_street>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</jur_prs_adr_street>
+	<jur_prs_adr_house>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</jur_prs_adr_house>
+	<jur_prs_adr_case>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</jur_prs_adr_case>
+	<jur_prs_adr_apartment>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</jur_prs_adr_apartment>
+	<jur_prs_adr_house_case_apartment>
+		<ru>Дом/корпус/квартира</ru>
+		<ua>Будинок/корпус/квартира</ua>
+		<en>House/case/apartment</en>
+	</jur_prs_adr_house_case_apartment>
+	
+	<user_param_name_user>
+		<ru>Имя пользователя</ru>
+		<ua>Ім'я користувача</ua>
+		<en>User name</en>
+	</user_param_name_user>
+	<user_param_fio_nat_prs>
+		<ru>ФИО пользователя</ru>
+		<ua>ФІО користувача</ua>
+		<en>Full user name</en>
+	</user_param_fio_nat_prs>
+	<user_name_short>
+		<ru>Пользователь</ru>
+		<ua>Користувач</ua>
+		<en>User</en>
+	</user_name_short>
+	<user_param_sname_jur_prs>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en>
+	</user_param_sname_jur_prs>
+	<user_param_name_service_place>
+		<ru>Пункт обслуживания</ru>
+		<ua>Пункт обслуговування</ua>
+		<en>Service place</en>
+	</user_param_name_service_place>
+	<user_param_id_term>
+		<ru>Терминал</ru>
+		<ua>Термінал</ua>
+		<en>Terminal</en>
+	</user_param_id_term>
+	<user_status>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en>
+	</user_status>
+	<user_status_full>
+		<ru>Статус пользователя</ru>
+		<ua>Статус користувача</ua>
+		<en>User status</en>
+	</user_status_full>
+	<user_status_opened>
+		<ru>Открыто</ru>
+		<ua>Відкрито</ua>
+		<en>Open</en>
+	</user_status_opened>
+	<user_status_blocked>
+		<ru>Блокировано</ru>
+		<ua>Блоковано</ua>
+		<en>Block</en>
+	</user_status_blocked>
+	<user_status_deleted>
+		<ru>Удалено</ru>
+		<ua>Видалено</ua>
+		<en>Delete</en>
+	</user_status_deleted>
+	<user_status_closed>
+		<ru>Закрыто</ru>
+		<ua>Закрито</ua>
+		<en>Close</en>
+	</user_status_closed>
+	<user_role>
+		<ru>Роль</ru>
+		<ua>Роль</ua>
+		<en>Role</en>
+	</user_role>
+	
+	<id_term>
+		<ru>Терминал</ru>
+		<ua>Термінал</ua>
+		<en>Terminal</en>
+	</id_term>
+	<storno_rrn>
+		<ru>RRN операции</ru>
+		<ua>RRN операції</ua>
+		<en>Operation RRN</en>
+	</storno_rrn>
+	<storno_type>
+		<ru>Действие</ru>
+		<ua>Дія</ua>
+		<en>Action</en>
+	</storno_type>
+	<storno_type_cancellation>
+		<ru>Отмена</ru>
+		<ua>Відміна</ua>
+		<en>Cancellation</en>
+	</storno_type_cancellation>
+	<storno_type_cancellation_hint>
+		<RU>Отмена операции проводится только в тот же день, что и операция. Отменяется вся операция полностью</RU>
+		<UA>Відміна операції проводиться тільки в той же день, що і операція. Відміняється вся операція повністю</UA>
+		<EN>Cancellation of operation is carried out only on the same day, as operation. All operation completely is cancelled</EN>
+	</storno_type_cancellation_hint>
+	<storno_type_cancellation_forbidden>
+		<RU>Отмена операции запрещена!</RU>
+		<UA>Відміну операції заборонено</UA>
+		<EN>Cancellation of operation is forbidden!</EN>
+	</storno_type_cancellation_forbidden>
+	<storno_type_cancellation_forbidden_return>
+		<RU>Отмена операции запрещена, поскольку по операции уже выполнялись возвраты!</RU>
+		<UA>Відміну операції заборонено, оскільки по операції вже виконувались повернення!</UA>
+		<EN>Cancellation of operation is forbidden as on operation returns were already carried out!</EN>
+	</storno_type_cancellation_forbidden_return>
+	
+	<storno_type_return>
+		<ru>Возврат</ru>
+		<ua>Повернення</ua>
+		<en>Return</en>
+	</storno_type_return>
+	<storno_type_return_hint>
+		<RU>Возврат выполняется только для операций оплаты ...</RU>
+		<UA>Возврат выполняется только для операций оплаты ...</UA>
+		<EN>Возврат выполняется только для операций оплаты ...</EN>
+	</storno_type_return_hint>
+	<storno_type_return_forbidden>
+		<RU>Возврат по операции запрещен!</RU>
+		<UA>Повернення по операції заборонено</UA>
+		<EN>Return on operation is forbidden!</EN>
+	</storno_type_return_forbidden>
+	<can_use_share_account>
+		<ru>Списать с паевого фонда?</ru>
+		<ua>Списати з паєвого фонда?</ua>
+		<en>Write off from share fund?</en>
+	</can_use_share_account>
+	<confirm_return>
+		<ru>Выполнить возврат?</ru>
+		<ua>Виконати повернення?</ua>
+		<en>Execute return?</en>
+	</confirm_return>
+	<text_message>
+		<ru>Текст сообщения</ru>
+		<ua>Текст повідомлення</ua>
+		<en>Text message</en>
+	</text_message>
+	
+	<text_theme>
+		<ru>Дизайн</ru>
+		<ua>Дизайн</ua>
+		<en>Design</en>
+	</text_theme>
+	<card_not_activated>
+		<ru>Карта не активирована</ru>
+		<ua>Карта не активована</ua>
+		<en>The card isn't activated</en>
+	</card_not_activated>
+	
+	<bank_trn>
+		<RU>Номер чека терминала</RU>
+		<UA>Номер чека термінала</UA>
+		<EN>Number of the check of the terminal</EN>
+	</bank_trn>
+	<title_pin_remind>
+		<RU>Напомнить ПИН-код клиенту (будет отправлено СМС на номер</RU>
+		<UA>Нагадати ПІН-код клієнту (буде надіслано СМС на номер</UA>
+		<EN>To remind a PIN to the client (it will be sent to the SMS to number</EN>
+	</title_pin_remind>
+	
+	<title_need_pin>
+		<ru>Для подтверждения операции клиент должен ввести ПИН-код карты</ru>
+		<ua>Для підтвердження операції клієнту необхідно ввести ПІН-код карти</ua>
+		<en>For operation confirmation the client has to enter a card PIN code</en>
+	</title_need_pin>
+	<title_pin>
+		<ru>Введите ПИН-код</ru>
+		<ua>Введіть ПІН-код</ua>
+		<en>Enter PIN code</en>
+	</title_pin>
+	<title_need_activation_code>
+		<ru>Для подтверждения операции клиент должен ввести код активации карты</ru>
+		<ua>Для підтвердження операції клієнту необхідно ввести код активації карти</ua>
+		<en>For operation confirmation the client has to enter a card activation code</en>
+	</title_need_activation_code>
+	<title_activation_code>
+		<ru>Введите код активации</ru>
+		<ua>Введіть код активації</ua>
+		<en>Enter activation code</en>
+	</title_activation_code>
+	
+	<oper_confirmation>
+		<RU>Подтверждение</RU>
+		<UA>Підтвердження</UA>
+		<EN>Confirmation</EN>
+	</oper_confirmation>
+	<oper_confirmation_success>
+		<RU>Подтверждение успешно</RU>
+		<UA>Підтвердження успішно</UA>
+		<EN>Сonfirmation success</EN>
+	</oper_confirmation_success>
+	<oper_confirmation_error>
+		<RU>Ошибка подтверждения</RU>
+		<UA>Помилка підтвердження</UA>
+		<EN>Сonfirmation error</EN>
+	</oper_confirmation_error>
+	
+	<title_error_target_program_not_found>
+		<RU>Не активированы целевые программы, прием взносов запрещен</RU>
+		<UA>Не активовані цільові програми, прийом внесків заборонений</UA>
+		<EN>Target programs aren't activated, reception of contributions is forbidden</EN>
+	</title_error_target_program_not_found>
+	
+	<shareholder_kind>
+		<RU>Вид пайщика</RU>
+		<UA>Вид пайовика</UA>
+		<EN>Shareholder kind</EN>
+	</shareholder_kind>
+	<shareholder_kind_nat_prs>
+		<RU>Физлицо</RU>
+		<UA>Фізособа</UA>
+		<EN>Natural person</EN>
+	</shareholder_kind_nat_prs>
+	<shareholder_kind_jur_prs>
+		<RU>Юрлицо</RU>
+		<UA>Юрособа</UA>
+		<EN>Legal person</EN>
+	</shareholder_kind_jur_prs>
+	<shareholder_kind_ie>
+		<RU>Индивидуальный предприниматель</RU>
+		<UA>Приватний підприємець</UA>
+		<EN>Individual entrepreneur</EN>
+	</shareholder_kind_ie>
+	<shareholder_operation>
+		<RU>Операция</RU>
+		<UA>Операція</UA>
+		<EN>Operation</EN>
+	</shareholder_operation>
+	
+	<operation_permission_denied>
+		<RU>Выполнение операции запрещено</RU>
+		<UA>Виконання операції заборонено</UA>
+		<EN>Performance of operation is forbidden</EN>
+	</operation_permission_denied>
+	
+	<user_target_program>
+		<RU>Целевые программы пайщика</RU>
+		<UA>Цільові програми пайщика</UA>
+		<EN>Shareholder's target programs</EN>
+	</user_target_program>
+	<all_target_program>
+		<RU>Все целевые программы</RU>
+		<UA>Всі цільові програми</UA>
+		<EN>All target programs</EN>
+	</all_target_program>
+	<all_target_program_short>
+		<RU>Все</RU>
+		<UA>Всі</UA>
+		<EN>All</EN>
+	</all_target_program_short>
+	
+	
+	<title_target_program_not_selected>
+		<RU>Не выбраны целевые программы для оплаты</RU>
+		<UA>Не вибрані цільові програми для оплати</UA>
+		<EN>Target programs for payment aren't chosen</EN>
+	</title_target_program_not_selected>
+	
+	<title_select_target_program>
+		<RU>Выберите одну или несколько целевых программ и нажмите кнопку "Далее"</RU>
+		<UA>Виберіть одну або декілька цільових програм і натисніть кнопку "Далі"</UA>
+		<EN>Select one or many target programs and push the button "Next"</EN>
+	</title_select_target_program>
+	<title_target_program_not_found>
+		<RU>Целевые программы не найдены!</RU>
+		<UA>Цільові програми не знайдено!</UA>
+		<EN>Target programs not found!</EN>
+	</title_target_program_not_found>
+	<title_target_program_not_found_find_all>
+		<RU>Целевые программы пайщика не найдены!</RU>
+		<UA>Цільові програми пайовика не знайдено!</UA>
+		<EN>Shareholder's target programs not found!</EN>
+	</title_target_program_not_found_find_all>
+	
+	<title_confirm_operations>
+		<RU>Запрашивать подтверждение операций</RU>
+		<UA>Запитувати підтвердження операцій</UA>
+		<EN>To request confirmation of operations</EN>
+	</title_confirm_operations>
+	<title_select_terminal>
+		<RU>Выберите терминал для работы</RU>
+		<UA>Виберіть термінал для роботи</UA>
+		<EN>Select terminal for work</EN>
+	</title_select_terminal>
+	
+	<title_question_confirm_pay_cash>
+		<RU>Оплатить наличными?</RU>
+		<UA>Сплатити готівкою?</UA>
+		<EN>Pay cash?</EN>
+	</title_question_confirm_pay_cash>
+	<title_question_confirm_pay_bank_card>
+		<RU>Оплатить банковской картой?</RU>
+		<UA>Сплатити банківською картою?</UA>
+		<EN>Pay bank card?</EN>
+	</title_question_confirm_pay_bank_card>
+	<title_question_confirm_pay_smpu_card>
+		<RU>Оплатить картой СМПУ?</RU>
+		<UA>Сплатити картою СМПУ?</UA>
+		<EN>Pay WMPU card?</EN>
+	</title_question_confirm_pay_smpu_card>
+	<title_question_confirm_share_fee>
+		<RU>Внести паевой взнос?</RU>
+		<UA>Внести паєвий внесок?</UA>
+		<EN>Put share fee?</EN>
+	</title_question_confirm_share_fee>
+	<title_question_confirm_membership_fee>
+		<RU>Внести членский взнос?</RU>
+		<UA>Внести членський внесок?</UA>
+		<EN>Put membership fee?</EN>
+	</title_question_confirm_membership_fee>
+	<title_question_confirm_membership_target_fee>
+		<RU>Внести членский целевой взнос?</RU>
+		<UA>Внести членський цільовий внесок?</UA>
+		<EN>Put membership target fee?</EN>
+	</title_question_confirm_membership_target_fee>
+	<title_question_confirm_storno>
+		<RU>Отменить операцию $rrn$?</RU>
+		<UA>Відмінити операцію $rrn$?</UA>
+		<EN>Cancel operation $rrn$?</EN>
+	</title_question_confirm_storno>
+	<title_question_confirm_coupon>
+		<RU>Проверить сертификат?</RU>
+		<UA>Перевірити сертифікат?</UA>
+		<EN>Check certificate?</EN>
+	</title_question_confirm_coupon>
+	<title_question_confirm_transfer>
+		<RU>Перевести баллы?</RU>
+		<UA>Перевести бали?</UA>
+		<EN>Transfer points?</EN>
+	</title_question_confirm_transfer>
+	<title_question_confirm_card_issue>
+		<RU>Выдать карту $cd_card1$?</RU>
+		<UA>Видати карту $cd_card1$?</UA>
+		<EN>Put card $cd_card1$?</EN>
+	</title_question_confirm_card_issue>
+	
+	<title_loyality_param_name>
+		<RU>Название параметра</RU>
+		<UA>Назва параметра</UA>
+		<EN>Parameter name</EN>
+	</title_loyality_param_name>
+	<title_loyality_param_value>
+		<RU>Значение</RU>
+		<UA>Значення</UA>
+		<EN>Value</EN>
+	</title_loyality_param_value>
+	
+	<cheque_card_status>
+		<RU>Статус</RU>
+		<UA>Статус</UA>
+		<EN>Status</EN>
+	</cheque_card_status>
+	<cheque_organization>
+		<RU>Огранизация</RU>
+		<UA>Організація</UA>
+		<EN>Orgatization</EN>
+	</cheque_organization>
+	<cheque_card_type>
+		<ru>Тип карты</ru>
+		<ua>Тип карти</ua>
+		<en>Card type</en>
+	</cheque_card_type>
+	<cheque_card_state>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en>
+	</cheque_card_state>
+	<cheque_cd_card1>
+		<RU>Карта</RU>
+		<UA>Карта</UA>
+		<EN>Card</EN>
+	</cheque_cd_card1>
+	<cheque_nt_icc>
+		<RU>№ транзакции</RU>
+		<UA>№ транзакції</UA>
+		<EN>Transaction number</EN>
+	</cheque_nt_icc>
+	<cheque_expiry_date>
+		<ru>Подлежит замене до</ru>
+		<ua>Підлягає заміні до</ua>
+		<en>Must replacement to</en>
+	</cheque_expiry_date>
+	<cheque_bonus_transfer_term>
+		<RU>Срок перевода баллов, дней</RU>
+		<UA>Термін переведення балів, днів</UA>
+		<EN>Points transfer duration, days</EN>
+	</cheque_bonus_transfer_term>
+	<cheque_bonus_transfer_term_money>
+		<RU>при оплате нал/банк.картой</RU>
+		<UA>при сплаті гот/банк.картою</UA>
+		<EN>at payment cash/bank card</EN>
+	</cheque_bonus_transfer_term_money>
+	<cheque_bonus_transfer_term_points>
+		<RU>при оплате картой СМПУ, дней</RU>
+		<UA>при сплаті картою СМПУ, днів</UA>
+		<EN>at payment by SMPU card, days</EN>
+	</cheque_bonus_transfer_term_points>
+	
+	<cheque_is_shareholder>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</cheque_is_shareholder>
+	<cheque_is_organizer>
+		<RU>Организатор</RU>
+		<UA>Організатор</UA>
+		<EN>Organizer</EN>
+	</cheque_is_organizer>
+	<cheque_is_investor>
+		<RU>Инвестор</RU>
+		<UA>Інвестор</UA>
+		<EN>Investor</EN>
+	</cheque_is_investor>
+	
+	<nat_prs_role_state>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN>
+	</nat_prs_role_state>
+	<nat_prs_role_state_given>
+		<RU>Выдана</RU>
+		<UA>Видана</UA>
+		<EN>Given</EN>
+	</nat_prs_role_state_given>
+	<nat_prs_role_state_questioned>
+		<RU>Введена анкета</RU>
+		<UA>Введена анкета</UA>
+		<EN>Questioned</EN>
+	</nat_prs_role_state_questioned>
+	<nat_prs_role_state_questioned_checked>
+		<RU>Анкета (пров.)</RU>
+		<UA>Анкета (перев.)</UA>
+		<EN>Questioned (checked)</EN>
+	</nat_prs_role_state_questioned_checked>
+	<nat_prs_role_state_questioned_not_checked>
+		<RU>Анкета (непров.)</RU>
+		<UA>Анкета (неперев.)</UA>
+		<EN>Questioned (not checked)</EN>
+	</nat_prs_role_state_questioned_not_checked>
+	<nat_prs_role_state_activated>
+		<RU>Активирована</RU>
+		<UA>Активована</UA>
+		<EN>Activated</EN>
+	</nat_prs_role_state_activated>
+	<nat_prs_role_state_cancel>
+		<RU>Отменена</RU>
+		<UA>Відмінена</UA>
+		<EN>Cancel</EN>
+	</nat_prs_role_state_cancel>
+	<nat_prs_role_state_error>
+		<RU>Ошибка</RU>
+		<UA>Помилка</UA>
+		<EN>Error</EN>
+	</nat_prs_role_state_error>
+	
+	<date_card_sale>
+		<RU>Дата продажи</RU>
+		<UA>Дата продажу</UA>
+		<EN>Sales date</EN>
+	</date_card_sale>
+	<total_amount_card_sale>
+		<RU>Сумма продажи</RU>
+		<UA>Сума продажу</UA>
+		<EN>Sales sum</EN>
+	</total_amount_card_sale>
+	
+	<cheque_target_prg_poriod_study_count>
+		<RU>занят.</RU>
+		<UA>занят.</UA>
+		<EN>studies</EN>
+	</cheque_target_prg_poriod_study_count>
+	<cheque_target_prg_poriod_month>
+		<RU>мес.</RU>
+		<UA>міс.</UA>
+		<EN>months</EN>
+	</cheque_target_prg_poriod_month>
+	
+	<attached_files>
+		<RU>Прикрепленные файлы</RU>
+		<UA>Прикріплені файли</UA>
+		<EN>Attached files</EN>
+	</attached_files>
+	<attached_files_warting>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Добавляются копии договора и заявления пайщика!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Добавляються копії договора і заяви пайовика!</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Add ...!</EN>
+	</attached_files_warting>
+	<attached_files_limit_warting>
+		<RU>Достигнут лимит количества присоединенных файлов (10)</RU>
+		<UA>Досягнуто ліміт кількості приєднаних файлів (10)</UA>
+		<EN>The limit of number of the attached files is reached (10)</EN>
+	</attached_files_limit_warting>
+	
+	<title_sold_card_information>
+		<RU>Информация о продаже карты</RU>
+		<UA>Інформація про продаж карти</UA>
+		<EN>Information about card sale</EN>
+	</title_sold_card_information>
+	<id_user_who_card_sold>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User</EN>
+	</id_user_who_card_sold>	
+	<id_term_who_card_sold>
+		<RU>Терминал</RU>
+		<UA>Термінал</UA>
+		<EN>Terminal</EN>
+	</id_term_who_card_sold>
+	<title_term_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</title_term_currency>
+	<title_print_cheque>
+		<RU>Печать чека</RU>
+		<UA>Друк чека</UA>
+		<EN>Print of cheque</EN>
+	</title_print_cheque>
+	<title_print_cheque_activation>
+		<RU>Печать чека активации карты</RU>
+		<UA>Друк чека активації карти</UA>
+		<EN>Print of card activation cheque</EN>
+	</title_print_cheque_activation>
+	<title_print_cheque_registration>
+		<RU>Печать чека выдачи карты</RU>
+		<UA>Друк чека видачі карти</UA>
+		<EN>Print of card registration cheque</EN>
+	</title_print_cheque_registration>
+	<title_online_pay_cash_conf_type>
+		<RU>Подтверждение &lt;b&gt;оплаты наличными&lt;/b&gt;</RU>
+		<UA>Підтвердження &lt;b&gt;оплати готівкою&lt;/b&gt;</UA>
+		<EN>&lt;b&gt;Cash payment&lt;/b&gt; confirmation way</EN>
+	</title_online_pay_cash_conf_type>
+	<title_online_pay_card_conf_type>
+		<RU>Подтверждение &lt;b&gt;оплаты БПК&lt;/b&gt;</RU>
+		<UA>Підтвердження &lt;b&gt;оплати БПК&lt;/b&gt;</UA>
+		<EN>Bank card payment&lt;/b&gt; confirmation way</EN>
+	</title_online_pay_card_conf_type>
+	<title_online_pay_point_conf_type>
+		<RU>Подтверждение &lt;b&gt;оплаты баллами&lt;/b&gt;</RU>
+		<UA>Підтвердження &lt;b&gt;оплати балами&lt;/b&gt;</UA>
+		<EN>&lt;b&gt;Point payment&lt;/b&gt; confirmation way</EN>
+	</title_online_pay_point_conf_type>
+	<title_online_pay_robokassa_conf_type>
+		<RU>Подтверждение &lt;b&gt;оплаты через Робокассу&lt;/b&gt;</RU>
+		<UA>Підтвердження &lt;b&gt;оплати через Робокасу&lt;/b&gt;</UA>
+		<EN>&lt;b&gt;Robokassa payment&lt;/b&gt; confirmation way</EN>
+	</title_online_pay_robokassa_conf_type>
+	<title_term_pay_robokassa_permission>
+		<RU>Оплата с терминала &lt;b&gt;через Робокассу&lt;/b&gt;</RU>
+		<UA>Оплата з термінала &lt;b&gt;через Робокасу&lt;/b&gt;</UA>
+		<EN>&lt;b&gt;Robokassa payment&lt;/b&gt; from terminal</EN>
+	</title_term_pay_robokassa_permission>
+	<title_cheque_save_format>
+		<RU>Формат сохранения чеков</RU>
+		<UA>Формат збереження чеків</UA>
+		<EN>Cheque save format</EN>
+	</title_cheque_save_format>
+	
+	<button_cheque_send_sms>
+		<RU>СМС-чек</RU>
+		<UA>СМС-чек</UA>
+		<EN>SMS-cheque</EN>
+	</button_cheque_send_sms>
+	
+	<storno_return_value>
+		<RU>Сумма возврата</RU>
+		<UA>Сума повернення</UA>
+		<EN>Return sum</EN>
+	</storno_return_value>
+	<storno_already_returned_value>
+		<RU>Возвращено ранее</RU>
+		<UA>Повернено раніше</UA>
+		<EN>Returned earlier</EN>
+	</storno_already_returned_value>
+	
+	<target_prg>
+		<RU>Целевая программа</RU>
+		<UA>Цільова програма</UA>
+		<EN>Target program</EN>
+	</target_prg>
+	<target_prg_pay_period>
+		<RU>Вид взносов</RU>
+		<UA>Вид внесків</UA>
+		<EN>Fees kind</EN>
+	</target_prg_pay_period>
+	<target_prg_pay_frequency>
+		<RU>Частота взносов</RU>
+		<UA>Частота внесків</UA>
+		<EN>Fees frequency</EN>
+	</target_prg_pay_frequency>
+	
+	<title_transfer_points_currency>
+		<RU>баллов</RU>
+		<UA>балів</UA>
+		<EN>points</EN>
+	</title_transfer_points_currency>
+	
+	<card_bal_cur>
+		<RU>Доступно баллов</RU>
+		<UA>Доступно балів</UA>
+		<EN>Available points</EN>
+	</card_bal_cur>
+	<pay_description>
+		<RU>Назначение платежа</RU>
+		<UA>Призначення платежу</UA>
+		<EN>Payment description</EN>
+	</pay_description>
+	<operation_find_rrn>
+		<ru>RRN операции</ru>
+		<ua>RRN операції</ua>
+		<en>Operation RRN</en>
+	</operation_find_rrn>
+	
+	<title_print_card_param>
+		<RU>Печать параметров карты</RU>
+		<UA>Друк параметрів карти</UA>
+		<EN>Print card parameters</EN>
+	</title_print_card_param>
+	<title_send_card_param_email>
+		<RU>Отправка на E-mail</RU>
+		<UA>Відсилання на E-mail</UA>
+		<EN>Sending for E-mail</EN>
+	</title_send_card_param_email>
+	<send_card_param_email_hint>
+		<RU>Параметры карты будут отправлены на</RU>
+		<UA>Параметри карти будуть надіслані на</UA>
+		<EN>Card parameters will be sent to</EN>
+	</send_card_param_email_hint>
+	
+	<title_report_card_rests>
+		<RU>Отчет по остаткам карты</RU>
+		<UA>Звіт про залишки карти</UA>
+		<EN>Report for card rests</EN>
+	</title_report_card_rests>
+	<title_unread_messages_count>
+		<RU>Непрочитанных сообщений</RU>
+		<UA>Непрочитаних повідомлень</UA>
+		<EN>Unread messages</EN>
+	</title_unread_messages_count>
+	
+	<operation_date>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</operation_date>
+	<operation_type>
+		<ru>Тип операции</ru>
+		<ua>Тип операції</ua>
+		<en>Operation type</en>
+	</operation_type>
+	<operation_state>
+		<ru>Состояние операции</ru>
+		<ua>Стан операції</ua>
+		<en>Operation state</en>
+	</operation_state>
+	<operation_sum>
+		<RU>Сумма операции</RU>
+		<UA>Сума операцiї</UA>
+		<EN>Operation amount</EN>
+	</operation_sum>
+	
+	<title_add_user>
+		<RU>Добавить пользователя</RU>
+		<UA>Додати користувача</UA>
+		<EN>Add user</EN>
+	</title_add_user>
+	<title_add_user_hint>
+		<RU>После добавления пользователя пользователь может изменить свой пароль из формы входа по ссылке "Забыли пароль?"</RU>
+		<UA>Після додавання користувача користувач може змінити свій пароль з форми входа по посиланню "Забули пароль?"</UA>
+		<EN>Note</EN>
+	</title_add_user_hint>
+	<title_add_user_phone_mobile_warning>
+		<RU>&lt;b&gt;Внимание!&lt;/b&gt; Вводить актуальный номер телефона, для изменения пароля пользователя потребуется код подтверждения из СМС!</RU>
+		<UA>&lt;b&gt;Увага!&lt;/b&gt; Вводити актуальний номер телефона, зміна пароля користувача потербує введення кода підтвердження із СМС!</UA>
+		<EN>&lt;b&gt;Attention!&lt;/b&gt; Enter actual phone number, change password of the user will require a confirmation code from SMS!</EN>
+	</title_add_user_phone_mobile_warning>
+	<title_update_user>
+		<RU>Изменить параметры пользователя</RU>
+		<UA>Змінити користувача</UA>
+		<EN>Update user's parameters</EN>
+	</title_update_user>
+	<user_phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</user_phone_mobile>
+	<user_email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</user_email>
+	<user_work_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</user_work_place>
+	<user_surname_nat_prs>
+		<RU>Фамилия</RU>
+		<UA>Прізвище</UA>
+		<EN>Surname</EN>
+	</user_surname_nat_prs>
+	<user_name_nat_prs>
+		<RU>Имя</RU>
+		<UA>Ім'я</UA>
+		<EN>Name</EN>
+	</user_name_nat_prs>
+	<user_patronymic_nat_prs>
+		<RU>Отчество</RU>
+		<UA>По-батькові</UA>
+		<EN>Patronymic</EN>
+	</user_patronymic_nat_prs>
+	<user_sex_nat_prs>
+		<RU>Пол</RU>
+		<UA>Стать</UA>
+		<EN>Sex</EN>
+	</user_sex_nat_prs>
+	<user_actions>
+		<RU>Действия</RU>
+		<UA>Дії</UA>
+		<EN>Actions</EN>
+	</user_actions>
+	<user_cd_card1>
+		<RU>Карта пайщика</RU>
+		<UA>Карта пайовика</UA>
+		<EN>Shareholder's card</EN>
+	</user_cd_card1>
+	<user_cd_card1_none>
+		<RU>Нет</RU>
+		<UA>Немає</UA>
+		<EN>None</EN>
+	</user_cd_card1_none>
+	<title_user_give_card>
+		<RU>Выдать карту</RU>
+		<UA>Видати карту</UA>
+		<EN>Give card</EN>
+	</title_user_give_card>
+	<title_user_give_card_short>
+		<RU>выдать</RU>
+		<UA>видати</UA>
+		<EN>give</EN>
+	</title_user_give_card_short>
+	
+	<title_send_pay_info_by_email>
+		<RU>Отправить информацию об оплате на E-mail пайщика</RU>
+		<UA>Відіслати інформацію про оплату на E-mail пайовика</UA>
+		<EN>Send information about payment by shareholder's E-mail</EN>
+	</title_send_pay_info_by_email>
+	<title_robokassa_confirm_pay>
+		<RU>Будет осуществлен переход на сервис &lt;b&gt;http://robokassa.ru&lt;/b&gt; для продолжения оплаты по счету</RU>
+		<UA>Буде здійснено перехід на сервіс &lt;b&gt;http://robokassa.ru&lt;/b&gt; для продовження оплати по рахунку</UA>
+		<EN>Transition to service &lt;b&gt;http://robokassa.ru&lt;/b&gt; will be carried out for continuation of payment on the account</EN>
+	</title_robokassa_confirm_pay>
+	<title_external_pay_result>
+		<RU>Результаты оплаты счета</RU>
+		<UA>Результати оплати рахунка</UA>
+		<EN>Results of invoice payment</EN>
+	</title_external_pay_result>
+	<send_cheque_to_pay>
+		<RU>Отправить счет на оплату</RU>
+		<UA>Відіслати рахунок на оплату</UA>
+		<EN>Send the invoice for payment</EN>
+	</send_cheque_to_pay>
+	<send_cheque_sms>
+		<RU>СМС на тел. $PHONE_MOBILE$</RU>
+		<UA>СМС на тел. $PHONE_MOBILE$</UA>
+		<EN>SMS on mob. $PHONE_MOBILE$</EN>
+	</send_cheque_sms>
+	<send_cheque_sms_impossible>
+		<RU>Отправка СМС невозможна - в анкете пайщика не указан моб.телефон</RU>
+		<UA>Відсилання СМС неможливе - в анкеті пайовика не вказано моб.телефон</UA>
+		<EN>Sending SMS is impossible - mob. phone isn't specified</EN>
+	</send_cheque_sms_impossible>
+	<send_cheque_sms_impossible_max_send>
+		<RU>Отправка СМС невозможна - достигнут предел максимального количества отправок СМС на одну операцию</RU>
+		<UA>Відсилання СМС неможливе - досягнуто межу максимальної кількості відсилань СМС на одну операцію</UA>
+		<EN>Sending SMS is impossible - limit of the maximum number of sendings SMS for one operation is reached</EN>
+	</send_cheque_sms_impossible_max_send>
+	<send_cheque_email>
+		<RU>на E-mail $EMAIL$</RU>
+		<UA>на E-mail $EMAIL$</UA>
+		<EN>on E-mail $EMAIL$</EN>
+	</send_cheque_email>
+	<send_cheque_email_impossible>
+		<RU>Отправка на E-mail невозможна - в анкете пайщика не указан E-mail</RU>
+		<UA>Відсилання на E-mail неможливе - в анкеті пайовика не вказано E-mail</UA>
+		<EN>Sending for E-mail is impossible - E-mail isn't specified</EN>
+	</send_cheque_email_impossible>
+	<send_cheque_office>
+		<RU>В личный кабинет $OFFICE$</RU>
+		<UA>В особистий кабінет $OFFICE$</UA>
+		<EN>To private office $OFFICE$</EN>
+	</send_cheque_office>
+	<pay_robokassa_no_service_connection_error>
+		<RU>Операции с Робокассой недоступны - сервис оплаты не отвечает</RU>
+		<UA>Операції з Робокасою неможливі - сервіс оплати не відповідає</UA>
+		<EN>Operations with Robocassa are inaccessible - payment service not answer</EN>
+	</pay_robokassa_no_service_connection_error>
+	<check_robokassa_no_service_connection_error>
+		<RU>Проверка оплаты через Робокассу невозможна - сервис оплаты не отвечает</RU>
+		<UA>Перевірка оплати через Робокасу неможлива - сервіс оплати не відповідає</UA>
+		<EN>Check of payment through Robokassa is impossible - payment service not answer</EN>
+	</check_robokassa_no_service_connection_error>
+	<robokassa_margin>
+		<RU>Комиссия за прием платежа</RU>
+		<UA>Комісія за прийом платіжа</UA>
+		<EN>Payment comission</EN>
+	</robokassa_margin>
+	<cd_telgr_external_state>
+		<RU>Состояние оплаты</RU>
+		<UA>Стан оплати</UA>
+		<EN>Payment state</EN>
+	</cd_telgr_external_state>
+	<date_external_pay>
+		<RU>Дата оплаты</RU>
+		<UA>Дата оплати</UA>
+		<EN>Payment date</EN>
+	</date_external_pay>
+	
+	<title_setting_card_pack>
+		<RU>Стоимость выдачи карт</RU>
+		<UA>Вартість видачі карт</UA>
+		<EN>Card give cost</EN>
+	</title_setting_card_pack>
+	
+	<title_card_pack_param_name>
+		<RU>Название параметра</RU>
+		<UA>Назва параметра</UA>
+		<EN>Parameter name</EN>
+	</title_card_pack_param_name>
+	<title_card_pack_param_value>
+		<RU>Значение</RU>
+		<UA>Значення</UA>
+		<EN>Value</EN>
+	</title_card_pack_param_value>
+	
+	<name_jur_prs_card_pack>
+		<RU>Название пакета</RU>
+		<UA>Назва пакета</UA>
+		<EN>Package name</EN>
+	</name_jur_prs_card_pack>
+	<desc_jur_prs_card_pack>
+		<RU>Описание пакета</RU>
+		<UA>Опис пакета</UA>
+		<EN>Package description</EN>
+	</desc_jur_prs_card_pack>
+	
+	<title_wrong_captcha>
+		<RU>Неверно введен код с картинки</RU>
+		<UA>Невірно введено код з картинки</UA>
+		<EN>Code from image is wrong</EN>
+	</title_wrong_captcha>
+	<title_warning>
+		<RU>Предупреждение</RU>
+		<UA>Попередження</UA>
+		<EN>Warning</EN>
+	</title_warning>
+	
+	<target_prg_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</target_prg_place>
+	<title_need_subscribe>
+		<RU>Подписаться на ЦП</RU>
+		<UA>Підписатись на ЦП</UA>
+		<EN>Subscribe TP</EN>
+	</title_need_subscribe>
+	
+	<sum_point>
+		<RU>Сумма баллов</RU>
+		<UA>Сума балів</UA>
+		<EN>Points sum</EN>
+	</sum_point>
+	<percent_point>
+		<RU>Процент баллов</RU>
+		<UA>Процент балів</UA>
+		<EN>Points percent</EN>
+	</percent_point>
+	<point_calc_way>
+		<RU>Способ начисления баллов</RU>
+		<UA>Спосіб нарахування балів</UA>
+		<EN>Points calculation way</EN>
+	</point_calc_way>
+	<point_calc_way_term>
+		<RU>На терминале</RU>
+		<UA>На терміналі</UA>
+		<EN>On terminal</EN>
+	</point_calc_way_term>
+	<title_can_share_fee>
+		<RU>Пополнить паевой фонд</RU>
+		<UA>Поповнити паєвий фонд</UA>
+		<EN>Put share fee</EN>
+	</title_can_share_fee>
+	<title_fees_through_share_fee>
+		<RU>Прием взносов с помощью пополнения паевого фонда и преобразования паевого взноса в баллы</RU>
+		<UA>Прийом внесків з допомогою поповнення паєвого фонду і перетворення паєвого внеску в бали</UA>
+		<EN>Put share fee?</EN>
+	</title_fees_through_share_fee>
+	<title_payment_through_share_fee>
+		<RU>Оплата с помощью пополнения паевого фонда и преобразования паевого взноса в баллы</RU>
+		<UA>Оплата з допомогою поповнення паєвого фонду і перетворення паєвого внеску в бали</UA>
+		<EN>Put share fee?</EN>
+	</title_payment_through_share_fee>
+	
+	<title_set>
+		<RU>Задать</RU>
+		<UA>Задати</UA>
+		<EN>Set</EN>
+	</title_set>
+	<title_calc_point_sum>
+		<RU>Рассчитать сумму баллов</RU>
+		<UA>Розрахувати суму балів</UA>
+		<EN>Calculate a points sum</EN>
+	</title_calc_point_sum>
+	<title_check_card>
+		<RU>Проверить карту</RU>
+		<UA>Перевірити карту</UA>
+		<EN>Check card</EN>
+	</title_check_card>
+	<title_access_denied>
+		<RU>Доступ запрещен</RU>
+		<UA>Доступ заборонено</UA>
+		<EN>Access denied</EN>
+	</title_access_denied>
+	<title_access_denied>
+		<RU>Доступ запрещен</RU>
+		<UA>Доступ заборонено</UA>
+		<EN>Access denied</EN>
+	</title_access_denied>
+	<title_entrance_error>
+		<RU>Вход не выполнен</RU>
+		<UA>Вхід не виконано</UA>
+		<EN>The entrance isn't executed</EN>
+	</title_entrance_error>
+	<title_terminal_blocked>
+		<RU>Терминал блокирован, выполнение операций невозможно</RU>
+		<UA>Термінал блоковано, виконання операцій неможливе</UA>
+		<EN>The terminal is blocked, performance of operations is impossible</EN>
+	</title_terminal_blocked>
+	
+	<window_invoice>
+		<RU>Печать счета</RU>
+		<UA>Друк рахунка</UA>
+		<EN>Print invoice</EN>
+	</window_invoice>
+	<title_print_invoice>
+		<RU>Печать счета</RU>
+		<UA>Друк рахунка</UA>
+		<EN>Print invoice</EN>
+	</title_print_invoice>
+	<send_invoice_select_options_error>
+		<RU>Не выбраны варианты отправки счета</RU>
+		<UA>Не вибрані варіанти відсилання рахунка</UA>
+		<EN>Options of sending the invoice aren't chosen</EN>
+	</send_invoice_select_options_error>
+	<title_invoice_actions>
+		<RU>Действия</RU>
+		<UA>Дії</UA>
+		<EN>Actions</EN>
+	</title_invoice_actions>
+	<title_print_invoice>
+		<RU>Печать счета</RU>
+		<UA>Друк рахунка</UA>
+		<EN>Print invoice</EN>
+	</title_print_invoice>
+	<title_save_invoice>
+		<RU>Сохранение счета</RU>
+		<UA>Збереження рахунка</UA>
+		<EN>Save invoice</EN>
+	</title_save_invoice>
+	<save_invoice_hint>
+		<RU>Счет будет сохранен в локальной папке устройства, на котором запущен терминал</RU>
+		<UA>Рахунок буде збережено в локальній папці пристрою, на якому завантажено термінал</UA>
+		<EN>The invoice will be kept in the local folder of the device on which the terminal is started</EN>
+	</save_invoice_hint>
+	
+	<title_send_invoice>
+		<RU>Отправка счета</RU>
+		<UA>Відсилання рахунка</UA>
+		<EN>Send invoice</EN>
+	</title_send_invoice>
+	<title_send_invoice_email>
+		<RU>Отправка на E-mail</RU>
+		<UA>Відсилання на E-mail</UA>
+		<EN>Sending for E-mail</EN>
+	</title_send_invoice_email>
+	<send_invoice_email_action>
+		<RU>Отправить на E-mail</RU>
+		<UA>Відіслати на E-mail</UA>
+		<EN>Send to E-mail</EN>
+	</send_invoice_email_action>
+	<send_invoice_email_hint>
+		<RU>Счет будет отправлен на</RU>
+		<UA>Рахунок буде надіслано на</UA>
+		<EN>Invoice will be sent to</EN>
+	</send_invoice_email_hint>
+	<send_invoice_email_error>
+		<RU>В анкете пайщика не указан E-mail, отправка счета невозможна</RU>
+		<UA>В анкеті пайовика не вказано E-mail, відсилання рахунку неможливе</UA>
+		<EN>In the questionnaire of the shareholder E-mail isn't specified, sending the invoice is impossible</EN>
+	</send_invoice_email_error>
+	<title_send_invoice_sms>
+		<RU>Отправка в виде СМС</RU>
+		<UA>Відсилання у вигляді СМС</UA>
+		<EN>Sending by SMS</EN>
+	</title_send_invoice_sms>
+	<send_invoice_sms_action>
+		<RU>Отправить в виде СМС</RU>
+		<UA>Відіслати у вигляді СМС</UA>
+		<EN>Send by SMS</EN>
+	</send_invoice_sms_action>
+	<send_invoice_sms_hint>
+		<RU>Счет будет отправлен на моб.телефон</RU>
+		<UA>Рахунок буде надіслано на моб.телефон</UA>
+		<EN>invoice will be sent to mobile phone</EN>
+	</send_invoice_sms_hint>
+	<send_invoice_sms_error>
+		<RU>В анкете пайщика не указан моб.телефон, отправка чека невозможна</RU>
+		<UA>В анкеті пайовика не вказано моб.телефон, відсилання чеку неможливе</UA>
+		<EN>In the questionnaire of the shareholder mobile phone isn't specified, sending the invoice is impossible</EN>
+	</send_invoice_sms_error>
+	<send_invoice_sms_already_send>
+		<RU>Счет уже был отправлен пайщику на моб.телефон</RU>
+		<UA>Рахунок вже було відіслано пайовику на моб.телефон</UA>
+		<EN>The invoice was already sent to the shareholder to mobile phone</EN>
+	</send_invoice_sms_already_send>
+	<send_invoice_select_options_error>
+		<RU>Не выбраны варианты отправки счета</RU>
+		<UA>Не вибрані варіанти відсилання рахунку</UA>
+		<EN>Options of sending the invoice aren't chosen</EN>
+	</send_invoice_select_options_error>
+	<title_trans_action_operation>
+		<RU>Операция</RU>
+		<UA>Операція</UA>
+		<EN>Operation</EN>
+	</title_trans_action_operation>
+	<title_trans_action_cancel>
+		<RU>Отмена</RU>
+		<UA>Відміна</UA>
+		<EN>Cancellation</EN>
+	</title_trans_action_cancel>
+	<title_trans_action_return>
+		<RU>Возврат</RU>
+		<UA>Повернення</UA>
+		<EN>Revert</EN>
+	</title_trans_action_return>
+	<invoice_expiration_date>
+		<ru>Счет действительный до</ru>
+		<ua>Рахунок дійсний до</ua>
+		<en>Expiration_date</en>
+	</invoice_expiration_date>
+	
+	<title_invoices_from_to>
+		<RU>Счета c $from$ по $to$</RU>
+		<UA>Рахунки з $from$ по $to$</UA>
+		<EN>Invoices from $from$ to $to$</EN>
+	</title_invoices_from_to>
+	<title_invoices_from>
+		<RU>Счета c</RU>
+		<UA>Рахунки з</UA>
+		<EN>Invoices from</EN>
+	</title_invoices_from>
+	<title_invoices_to>
+		<RU>Счета по</RU>
+		<UA>Рахунки по</UA>
+		<EN>Invoices to</EN>
+	</title_invoices_to>
+	
+	<invoice_priority_critical>
+		<RU>Критический</RU>
+		<UA>Критичний</UA>
+		<EN>Critical</EN>
+	</invoice_priority_critical>
+	<invoice_priority_high>
+		<RU>Высокий</RU>
+		<UA>Високий</UA>
+		<EN>High</EN>
+	</invoice_priority_high>
+	<invoice_priority_medium>
+		<RU>Средний</RU>
+		<UA>Середній</UA>
+		<EN>Medium</EN>
+	</invoice_priority_medium>
+	<invoice_priority_low>
+		<RU>Низкий</RU>
+		<UA>Низький</UA>
+		<EN>Low</EN>
+	</invoice_priority_low>
+	
+	<invoice_state_isnt_paid>
+		<RU>Не оплачен</RU>
+		<UA>Не оплачений</UA>
+		<EN>Isn't paid</EN>
+	</invoice_state_isnt_paid>
+	<invoice_state_paid>
+		<RU>Оплачен</RU>
+		<UA>Оплачений</UA>
+		<EN>Paid</EN>
+	</invoice_state_paid>
+	<invoice_state_cancelled>
+		<RU>Отменен</RU>
+		<UA>Відмінений</UA>
+		<EN>Cancelled</EN>
+	</invoice_state_cancelled>
+	<invoice_state_paid_partially>
+		<RU>Оплачен частично</RU>
+		<UA>Оплачений частково</UA>
+		<EN>Paid partially</EN>
+	</invoice_state_paid_partially>
+	<invoice_state_overpayment>
+		<RU>Переплата</RU>
+		<UA>Переплата</UA>
+		<EN>Overpayment</EN>
+	</invoice_state_overpayment>
+	
+	<number_invoice>
+		<RU>№ счета</RU>
+		<UA>№ рах.</UA>
+		<EN>Inv.#</EN>
+	</number_invoice>
+	<date_invoice>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</date_invoice>
+	<sname_jur_prs_payer>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</sname_jur_prs_payer>
+	<sname_jur_prs_receiver>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Receiver</EN>
+	</sname_jur_prs_receiver>
+	<total_sum>
+		<RU>Сумма</RU>
+		<UA>Сума</UA>
+		<EN>Amount</EN>
+	</total_sum>
+	<promo_code>
+		<RU>Промо-код</RU>
+		<UA>Промо-код</UA>
+		<EN>Promo-code</EN>
+	</promo_code>
+	
+	<title_invoice_state>
+		<RU>Состояние счета</RU>
+		<UA>Стан рахунка</UA>
+		<EN>Invoice state</EN>
+	</title_invoice_state>
+	<title_invoice_priority>
+		<RU>Приоритет счета</RU>
+		<UA>Пріоритет рахунка</UA>
+		<EN>Invoice priority</EN>
+	</title_invoice_priority>
+	<pay_type>
+		<RU>Способ оплаты</RU>
+		<UA>Спосіб оплати</UA>
+		<EN>Payment type</EN>
+	</pay_type>
+	<phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</phone_mobile>
+</webpos>

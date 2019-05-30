@@ -1,0 +1,48 @@
+	function start_load(){
+		var i=0;
+	}
+	function done_load(response){
+		var i=0;
+		alert(response);
+	}
+	
+	/** Ð_Ð¸Ð_Ð°Ð_Ð¸Ñ+Ð÷Ñ_ÐºÐ_Ð÷ Ñ_Ð_Ð·Ð_Ð°Ð_Ð¸Ð÷ Ñ"Ð_Ñ_Ð_Ñ<, Ð_Ñ<Ñ_Ð_Ð>Ð÷Ð_Ð¸Ð÷ "file",  Ð_Ñ'Ð¿Ñ_Ð°Ð_ÐºÐ° Ð_Ð° Ñ_ÐºÐ°Ð·Ð°Ð_Ð_Ñ<Ð¹ Ð°Ð_Ñ_Ð÷Ñ_
+	@param path_to_server - Ð¿Ñ_Ñ'Ñ_ Ðº Ñ_Ð÷Ñ_Ð_Ð÷Ñ_Ñ_
+	@param form_id - Ñ_Ð_Ð¸ÐºÐ°Ð>Ñ_Ð_Ñ<Ð¹ Ð¸Ð_Ð÷Ð_Ñ'Ð¸Ñ"Ð¸ÐºÐ°Ñ'Ð_Ñ_ Ñ"Ð_Ñ_Ð_Ñ< ( Ð_Ð_Ð¶Ð_Ð_ Ð+Ð_Ð>Ð÷Ð÷ Ð_Ð_Ð_Ð_Ð_Ð_ ) 
+		 
+	*/
+	function post_form(){
+		var argumentsLength=post_form.arguments.length;
+		
+		var destinationFormElement=document.createElement("FORM");
+		destinationFormElement.setAttribute("enctype","multipart/form-data");
+		var path_to_server=post_form.arguments[0];
+		destinationFormElement.setAttribute("action", path_to_server);
+		destinationFormElement.setAttribute("method","post");
+
+		//destinationFormElement.setAttribute("onsubmit","return AIM.submit(this, {'"+start_load_function+"' : startCallback, '"+done_load_function+"' : completeCallback})");
+		//destinationFormElement.onsubmit="return AIM.submit(this, {'"+start_load_function+"' : startCallback, '"+done_load_function+"' : completeCallback})";
+		
+	    for(var index=1;index<argumentsLength;index++){
+		    var form_id=post_form.arguments[index];
+			var sourceFormElement=document.getElementById(form_id);
+			findAndAppendInputChild(destinationFormElement, sourceFormElement);
+	    }
+	    document.body.appendChild(destinationFormElement);	
+		//destinationFormElement.submit();
+		AIM.submit(destinationFormElement, {'onStart' : start_load, 'onComplete': done_load });
+		//AIM.submit(destinationFormElement);
+		destinationFormElement.submit();
+		document.body.removeChild(destinationFormElement);
+		return false;
+	}
+
+
+
+
+
+----------------------
+	   <form id="form_1" >
+	  		<input type="file" name="file_1" id="file_1" />
+			<input 	type="button" value="send file to server" onclick="post_form('http://localhost:8080/HtmlFrame_Ajax/GetFile','form_1')"/>	   
+	   </form> 

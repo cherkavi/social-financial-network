@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>SSL</web-resource-name>
+			<url-pattern>/BonusDemo/crm/main.jsp</url-pattern>
+			<http-method>DELETE</http-method>
+			<http-method>POST</http-method>
+			<http-method>GET</http-method>
+			<http-method>PUT</http-method>
+		</web-resource-collection>
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
+	
+	<welcome-file-list>
+		<welcome-file>crm/main.jsp</welcome-file>
+	</welcome-file-list>
+
+	<filter>
+		<filter-name>SessionParametersToThread</filter-name>
+		<filter-class>bc.servlet.SessionParametersEmitter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>SessionParametersToThread</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>Reporter</display-name>
+		<servlet-name>Reporter</servlet-name>
+		<servlet-class>BonCard.Reports.Reporter</servlet-class>
+		<init-param>
+			<!--  Jasper pattern's -->
+			<param-name>path_to_report</param-name>
+			<param-value>${wmpupt/jasper/templates}</param-value>
+		</init-param>
+		<init-param>
+			<!--  path to out files(temp files for save report's) -->
+			<param-name>path_to_out</param-name>
+			<param-value>${wmpupt/jasper/output}</param-value>
+		</init-param>
+		
+	</servlet>
+
+<servlet>
+  <servlet-name>TargetProgramPictureModule</servlet-name>
+  <servlet-class>bc.servlet.TargetProgramPictureServlet</servlet-class>
+    <init-param>
+      <param-name>upload_dir</param-name>
+      <param-value>${wmpupt/images/icons}</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+  <servlet-name>TargetProgramPictureModule</servlet-name>
+  <url-pattern>/TargetProgramPicture</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>LoadedImage</servlet-name>
+  <servlet-class>bc.servlet.LoadedImageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LoadedImage</servlet-name>
+  <url-pattern>/LoadedImage</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>NatPrsPhoto</servlet-name>
+  <servlet-class>bc.servlet.NatPrsPhotoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>NatPrsPhoto</servlet-name>
+  <url-pattern>/NatPrsPhoto</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+		<description>
+		</description>
+		<display-name>ReporterUtility</display-name>
+		<servlet-name>ReporterUtility</servlet-name>
+		<servlet-class>BonCard.Reports.ReporterUtility</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Reporter</servlet-name>
+		<url-pattern>/reports/Reporter</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReporterUtility</servlet-name>
+		<url-pattern>/reports/ReporterUtility</url-pattern>
+	</servlet-mapping>
+	  	<servlet>
+  		<servlet-name>dwr-invoker</servlet-name>
+  		<servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+  		<init-param>
+     		<param-name>debug</param-name>
+     		<param-value>false</param-value>
+  		</init-param>
+		<init-param>
+    		<param-name>allowScriptTagRemoting</param-name >
+    		<param-value>true </param-value>
+  		</init-param>
+  		<init-param>
+    		<param-name>scriptCompressed</param-name >
+    		<param-value>true</param-value>
+  		</init-param>
+		<init-param>
+			<param-name>logLevel</param-name>
+		 	<param-value>DEBUG</param-value>
+	   </init-param>
+	   <load-on-startup>1</load-on-startup>   		
+	</servlet>
+
+	<servlet-mapping>
+  		<servlet-name>dwr-invoker</servlet-name>
+  		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>DisplayForApplet</display-name>
+    <servlet-name>DisplayForApplet</servlet-name>
+    <servlet-class>bc.applet.Display.Display.DisplayForApplet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayForApplet</servlet-name>
+    <url-pattern>/DisplayForApplet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>CardServer</display-name>
+    <servlet-name>CardServer</servlet-name>
+    <servlet-class>bc.applet.CardManager.Server.CardServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CardServer</servlet-name>
+    <url-pattern>/CardServer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>TerminalServer</display-name>
+    <servlet-name>TerminalServer</servlet-name>
+    <servlet-class>bc.data_terminal.server.terminal_server.TerminalServer</servlet-class>
+    <init-param>
+    	<param-name>temp_directory</param-name>
+    	<param-value>c:\temp\</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TerminalServer</servlet-name>
+    <url-pattern>/TerminalServer</url-pattern>
+  </servlet-mapping>
+
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  
+   <servlet>
+  <display-name>FileSender</display-name>
+  <servlet-name>FileSender</servlet-name>
+  <servlet-class>bc.service.FileSender</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>FileSender</servlet-name>
+  <url-pattern>/FileSender</url-pattern>
+ </servlet-mapping>
+	
+</web-app>

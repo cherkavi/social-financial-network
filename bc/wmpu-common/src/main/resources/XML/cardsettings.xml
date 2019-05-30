@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cardsettings>
+	<general>
+		<RU>Виды карт</RU>
+		<UA>Види карт</UA>
+		<EN>Card kinds</EN></general>
+	<card_status>
+		<ru>Вид карты</ru>
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</card_status>
+	<id_card_status>
+		<ru>ИД вида карты</ru>
+		<ua>ІД виду карти</ua>
+		<en>Card kind ID</en>
+	</id_card_status>
+	<NAME_CARD_STATUS>
+		<ru>Название вида карты</ru>
+		<ua>Назва виду карти</ua>
+		<en>Card kind name</en></NAME_CARD_STATUS>
+	<CLUB_BON>
+		<ru>% баллов</ru>
+		<ua>% балів</ua>
+		<en>% of points</en></CLUB_BON>
+	<CLUB_DISC>
+		<ru>% скидки</ru>
+		<ua>% знижки</ua>
+		<en>% of discount</en></CLUB_DISC>
+	<id_category>
+		<RU>ИД категории карты</RU>
+		<UA>ІД категорії карти</UA>
+		<EN>Card category ID</EN></id_category>
+	<name_category>
+		<RU>Категория карты</RU>
+		<UA>Категорія карти</UA>
+		<EN>Card category</EN></name_category>
+	<max_bon_st>
+		<RU>Максимальная сумма накопленных баллов</RU>
+		<UA>Максимальна сума накопичених балів</UA>
+		<EN>Maximal amount of accumulated points</EN></max_bon_st>
+	<bonus_transfer_term>
+		<RU>Срок перевода баллов, дней</RU>
+		<UA>Термін переведення балів, днів</UA>
+		<EN>Points transfer duration, days</EN></bonus_transfer_term>
+	<max_disc_st>
+		<RU>Максимальная сумма накопленной скидки</RU>
+		<UA>Максимальна сума накопиченої знижки</UA>
+		<EN>Maximal amount of accumulated discount</EN></max_disc_st>
+	<bonus_calc_term>
+		<RU>Срок расчета новой категории, дней</RU>
+		<UA>Термін розрахунку нової категорії, днів</UA>
+		<EN>Term of calculation of new category, days</EN></bonus_calc_term>
+	<t_parameters>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN></t_parameters>
+	<LAB_ADD>
+		<RU>Добавить настройку карт</RU>
+		<UA>Додати настройку карт</UA>
+		<EN>Add card setting</EN></LAB_ADD>
+	<LAB_DELETE>
+		<RU>Удалить настройку карт</RU>
+		<UA>Видалити настройку карт</UA>
+		<EN>Delete card setting</EN></LAB_DELETE>
+	<h_confirm_update>
+		<RU>Внимание!!! Обновление этих данных повлечет за собой обновление параметров лояльности всех терминалов, работающих с этой картой. Продолжить?</RU>
+		<UA>Увага!!! Оновлення цих даних призведе до оновлення параметрів лояльності всіх терміналів, що працюють з цією картою. Продовжити?</UA>
+		<EN>Attention!!! These data recovery will entail the update of parameters of loyalty for all terminals workings with this card. Continue?</EN></h_confirm_update>
+		
+	<telgr_name_card_status>
+		<RU>Название вида карты в телеграммах</RU>
+		<UA>Назва виду карти в телеграмах</UA>
+		<EN>Card kind name in telegrams</EN></telgr_name_card_status>
+	<day_next_online>
+		<RU>Дней до следующего выхода в ONLINE</RU>
+		<UA>Днів до наступного виходу в ONLINE</UA>
+		<EN>Days for next online</EN></day_next_online>
+	<categories_count>
+		<RU>Количество категорий</RU>
+		<UA>Кількість категорій</UA>
+		<EN>Categories count</EN></categories_count>
+		
+	<h_add_category>
+		<RU>Добавить категорию</RU>
+		<UA>Додати категорію</UA>
+		<EN>Add category</EN></h_add_category>
+	<h_update_category>
+		<RU>Изменить параметры категории</RU>
+		<UA>Змінити параметри категорії</UA>
+		<EN>Change category parameters</EN></h_update_category>
+	<h_delete_category>
+		<RU>Удалить категорию</RU>
+		<UA>Видалити категорію</UA>
+		<EN>Delete category</EN></h_delete_category>
+</cardsettings>

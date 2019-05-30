@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<loy>
+	<GENERAL>
+		<RU>Стандартные схемы лояльности</RU>
+		<UA>Стандартні схеми лояльності</UA>
+		<EN>Standart loyalty schemes</EN>
+	</GENERAL>
+	<TITLE_LOYALITY_SCHEME>
+		<RU>Схема лояльности</RU>
+		<UA>Схема лояльності</UA>
+		<EN>Loyality scheme</EN>
+	</TITLE_LOYALITY_SCHEME>
+	<ID_LOYALITY_SCHEME>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</ID_LOYALITY_SCHEME>
+	<NAME_LOYALITY_SCHEME isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Название схемы лояльности</RU>
+		<UA>Назва схеми лояльності</UA>
+		<EN>Loyality scheme name</EN>
+	</NAME_LOYALITY_SCHEME>
+	<DESC_LOYALITY_SCHEME isObvious="N" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Описание схемы лояльности</RU>
+		<UA>Опис схеми лояльності</UA>
+		<EN>Loyality scheme description</EN>
+	</DESC_LOYALITY_SCHEME>
+	<CD_KIND_LOYALITY isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Вид программы лояльности</RU>
+		<UA>Вид програми лояльності</UA>
+		<EN>Kind of loyalty scheme</EN>
+	</CD_KIND_LOYALITY>
+	<DATE_BEG isObvious="Y" isInFilter="Y" size="" JStype="date">
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Beginning date</EN>
+	</DATE_BEG>
+	<DATE_END isObvious="N" isInFilter="N" size="" JStype="date">
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>Ending action date</EN>
+	</DATE_END>
+	<NAME_KIND_LOYALITY isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Вид программы лояльности</RU>
+		<UA>Вид програми лояльності</UA>
+		<EN>Loyalty scheme kind</EN>
+	</NAME_KIND_LOYALITY>
+	<TERM_MAX_BONUS isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальная сумма начисления баллов</RU>
+		<UA>Максимальна сума нарахування балів</UA>
+		<EN>Maximum amount of points charging</EN>
+	</TERM_MAX_BONUS>
+	<TERM_MIN_AMOUNT isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Минимальная сумма оплаты деньгами</RU>
+		<UA>Мінімальна сума оплати грошима</UA>
+		<EN>Minimum amount of cash paying</EN>
+	</TERM_MIN_AMOUNT>
+	<TERM_MAX_SUMPAYOFFLINE isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальная сумма оплаты баллами в OFFLINE</RU>
+		<UA>Максимальна сума оплати балами в OFFLINE</UA>
+		<EN>Maximal points payed amount in OFFLINE</EN>
+	</TERM_MAX_SUMPAYOFFLINE>
+	<TERM_MAX_SUMPAYNOPIN isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальна сумма оплаты баллами без ПИН</RU>
+		<UA>Максимальна сума оплати балами без ПІН</UA>
+		<EN>Maximal points payed amount without PIN</EN>
+	</TERM_MAX_SUMPAYNOPIN>
+	<TERM_MAX_DATE_ONL_TERM isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальный срок обслуживания карты без ONLINE, дней</RU>
+		<UA>Максимальний термін обслуговування карти без ONLINE, днів</UA>
+		<EN>Maximal term of card service without ONLINE, days</EN>
+	</TERM_MAX_DATE_ONL_TERM>
+	<TERM_TYPE_CALC isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Тип расчета баллов</RU>
+		<UA>Тип розрахунків балів</UA>
+		<EN>Calculation type of points</EN>
+	</TERM_TYPE_CALC >
+	<TERM_ROUNDING_RULE isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Правило округления сумм</RU>
+		<UA>Правило округлення сум</UA>
+		<EN>Rule of sum rounding</EN>
+	</TERM_ROUNDING_RULE>
+	<TERM_NINCMAX isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальной количество транзакций в сборе</RU>
+		<UA>Максимальна кількість транзакцій в зборі</UA>
+		<EN>Maximal quantity of transactions in collection</EN>
+	</TERM_NINCMAX>
+	<TERM_VER_TELGR isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Версия телеграмм</RU>
+		<UA>Версія телеграм</UA>
+		<EN>Telegram version</EN>
+	</TERM_VER_TELGR>
+	<TERM_VK_ENC isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Версия ключа шифрования телеграмм</RU>
+		<UA>Версія ключа шифрування телеграм</UA>
+		<EN>Telegram enscrypt key version</EN>
+	</TERM_VK_ENC>
+	<TERM_CASH_BON isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Начислять баллы при оплате наличными</RU>
+		<UA>Нараховувати бали при оплаті готівкою</UA>
+		<EN>Count points if pay by cash</EN>
+	</TERM_CASH_BON>
+	<TERM_RESP_TIME isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Максимальное время ответа для телеграмм, сек.</RU>
+		<UA>Максимальний час відповіді для телеграм, сек.</UA>
+		<EN>Maximal time of responce for telegram, sec.</EN>
+	</TERM_RESP_TIME>
+	<TERM_CRYPT_TELGR isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Шифровать телеграммы</RU>
+		<UA>Шифрувати телеграми</UA>
+		<EN>Enscrypt telegrams</EN>
+	</TERM_CRYPT_TELGR>
+	<TERM_BON_BON isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Начислять баллы при оплате баллами</RU>
+		<UA>Нараховувати бали при оплаті балами</UA>
+		<EN>Count points if pay by points</EN>
+	</TERM_BON_BON>
+	<TERM_EXT_LOYL isObvious="Y" isInFilter="Y" size="" JStype="number">
+		<RU>Получать суммы лояльности от ЕККА</RU>
+		<UA>Отримувати суми лояльності від ЕККА</UA>
+		<EN>Receipt loyalty amounts from EKKA</EN>
+	</TERM_EXT_LOYL>
+	<TERM_TR_LIMIT isObvious="Y" isInFilter="Y" size="" JStype="varchar2">
+		<RU>Лимит транзакций модуля безопасности</RU>
+		<UA>Ліміт транзакцій модуля безпеки</UA>
+		<EN>SAM transactions limit</EN>
+	</TERM_TR_LIMIT>
+	<TERM_CODE_PAGE isObvious="Y" isInFilter="N" size="" JStype="varchar2">
+		<RU>Кодовая страница термнала</RU>
+		<UA>Кодова сторінка терміналу</UA>
+		<EN>Terminal code page</EN>
+	</TERM_CODE_PAGE>
+	<CLIENTS_LOY_INFO>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</CLIENTS_LOY_INFO>
+	<CLIENTS_LOY_BON>
+		<RU>Строки лояльности</RU>
+		<UA>Рядки лояльності</UA>
+		<EN>Loyalty lines</EN>
+	</CLIENTS_LOY_BON>
+	<CLIENTS_LOY_DISC>
+		<RU>Начисление скидки</RU>
+		<UA>Нарахування знижки</UA>
+		<EN>Charge of discount</EN>
+	</CLIENTS_LOY_DISC>
+	<H_LOYALITY_ADD>
+		<RU>Добавить схему лояльности</RU>
+		<UA>Додати схему лояльності</UA>
+		<EN>Add loyalty scheme</EN>
+	</H_LOYALITY_ADD>
+	<H_LOYALITY_EDIT>
+		<RU>Изменить параметры схемы лояльности</RU>
+		<UA>Змінити параметри схеми лояльності</UA>
+		<EN>Change loyalty scheme parameters</EN>
+	</H_LOYALITY_EDIT>
+	<H_LOYALITY_COPY>
+		<RU>Копировать схему лояльности</RU>
+		<UA>Копіювати схему лояльності</UA>
+		<EN>Copy loyalty scheme</EN>
+	</H_LOYALITY_COPY>
+	<H_LOYALITY_DELETE>
+		<RU>Удалить схему лояльности</RU>
+		<UA>Видалити схему лояльності</UA>
+		<EN>Delete loyalty scheme</EN>
+	</H_LOYALITY_DELETE>
+	<H_LOYALITY_SELECT>
+		<RU>Выберите схему лояльности</RU>
+		<UA>Виберіть схему лояльності</UA>
+		<EN>Select loyalty scheme</EN>
+	</H_LOYALITY_SELECT>
+	
+	<H_LOYALITY_LINES_ADD>
+		<RU>Добавить строку схемы лояльности</RU>
+		<UA>Додати рядок схеми лояльності</UA>
+		<EN>Add line of loyalty scheme</EN>
+	</H_LOYALITY_LINES_ADD>
+	<H_LOYALITY_LINES_EDIT>
+		<RU>Редактировать строку схемы лояльности</RU>
+		<UA>Редагувати рядок схеми лояльності</UA>
+		<EN>Add line of loyalty scheme</EN>
+	</H_LOYALITY_LINES_EDIT>
+	<CLIENTS_LOY_TERM>
+		<ru>Терминалы</ru>
+		<ua>Термінали</ua>
+		<en>Terminals</en></CLIENTS_LOY_TERM>
+	<CLIENTS_LOY_JURPRS>
+		<ru>Юридические лица</ru>
+		<ua>Юридичні особи</ua>
+		<en>Legal persons</en></CLIENTS_LOY_JURPRS>
+	<cd_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></cd_currency>
+	<h_current_parameters>
+		<RU>Текущие параметры лояльности</RU>
+		<UA>Поточні параметри лояльності</UA>
+		<EN>Current loyality parameters</EN></h_current_parameters>	
+	<h_historical_parameters>
+		<RU>Исторические параметры лояльности</RU>
+		<UA>Історичні параметри лояльності</UA>
+		<EN>Historical loyality parameters</EN></h_historical_parameters>	
+	<h_new_parameters>
+		<RU>Установить новые параметры лояльности</RU>
+		<UA>Встановити нові параметри лояльності</UA>
+		<EN>Set new loyality parameters</EN></h_new_parameters>
+	<term_type>
+		<RU>Тип терминала</RU>
+		<UA>Тип терміналу</UA>
+		<EN>Terminal type</EN></term_type>
+	<term_limit_cash>
+		<RU>Лимит приема наличными</RU>
+		<UA>Ліміт прийому готівки</UA>
+		<EN>Cash limit</EN></term_limit_cash>
+	<term_loyality_for_all_nsmep>
+		<RU>Рассчитывать лояльность для всех карт НСМЭП</RU>
+		<UA>Розраховувати лояльність для всіх карт НСМЕП</UA>
+		<EN>Calculate loyality for all NSMEP cards</EN></term_loyality_for_all_nsmep>
+	<h_delete_loy>
+		<RU>Удалить схему лояльности</RU>
+		<UA>Видалити схему лояльності</UA>
+		<EN>Delete loyality scheme</EN></h_delete_loy>
+	<id_loyality_history>
+		<RU>ИД записи</RU>
+		<UA>ІД запису</UA>
+		<EN>Record ID</EN></id_loyality_history>
+	<term_nomenkl>
+		<RU>Шаблон ввода номенклатуры</RU>
+		<UA>Шаблон введення номенклатури</UA>
+		<EN>Nomenclature input template</EN></term_nomenkl>
+	<term_print_filter>
+		<RU>Запрет печати строк в чеке Клиента</RU>
+		<UA>Заборона друкувати рядки в чеку Клієнта</UA>
+		<EN>The prohibition of the press of lines in the Client's check</EN></term_print_filter>
+	
+	<name_partner>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</name_partner>
+</loy>

@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<questionnaire>
+	<general>
+		<RU>Импорт анкет</RU>
+		<UA>Імпорт анкет</UA>
+		<EN>Questionnaire import</EN></general>
+	<pack>
+		<RU>Пачка анкет</RU>
+		<UA>Пачка анкет</UA>
+		<EN>Questionnaire pack</EN></pack>
+	<ID_QUEST_INT>
+		<ru>ИД анкеты</ru>
+		<ua>ІД анкети</ua>
+		<en>Questionnaire ID</en>
+	</ID_QUEST_INT>
+	<CODE_COUNTRY>
+		<ru>Код страны</ru>
+		<ua>Код країни</ua>
+		<en>Country code</en>
+	</CODE_COUNTRY>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країнa</ua>
+		<en>Country</en>
+	</NAME_COUNTRY>
+	<TAX_CODE>
+		<ru>Идентификационный номер</ru>
+		<ua>Ідентифікаційний номер</ua>
+		<en>Tax code</en>
+		</TAX_CODE>
+	<full_name_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en>
+	</full_name_nat_prs>
+	<SURNAME>
+		<ru>Фамилия</ru>
+		<ua>Прізвище</ua>
+		<en>Surname</en>
+	</SURNAME>
+	<NAME>
+		<ru>Имя</ru>
+		<ua>Ім'я</ua>
+		<en>Name</en>
+	</NAME>
+	<PATRONYMIC>
+		<ru>Отчество</ru>
+		<ua>По-батькові</ua>
+		<en>Patronymic</en>
+	</PATRONYMIC>
+	<FULL_NAME>
+		<ru>Полное имя</ru>
+		<ua>Повне ім'я</ua>
+		<en>Full name</en>
+	</FULL_NAME>
+	<SEX>
+		<ru>Пол</ru>
+		<ua>Стать</ua>
+		<en>Sex</en>
+	</SEX>
+	<DATE_OF_BIRTH>
+		<ru>Дата рождения</ru>
+		<ua>Дата народження</ua>
+		<en>Birthday</en>
+	</DATE_OF_BIRTH>
+	<REG_ADR_FULL>
+		<ru>Адрес регистрации</ru>
+		<ua>Адреса реєстрації</ua>
+		<en>Registration address</en>
+	</REG_ADR_FULL>	
+	<REG_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</REG_ADR_ZIP_CODE>
+	<REG_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</REG_ADR_OBLAST>
+	<REG_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>Distriction</en>
+	</REG_ADR_DISTRICT>
+	<REG_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en>
+	</REG_ADR_CITY>
+	<REG_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</REG_ADR_STREET>
+	<REG_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</REG_ADR_HOUSE>
+	<REG_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</REG_ADR_CASE>
+	<REG_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</REG_ADR_APARTMENT>
+	<PHONE_WORK>
+		<ru>Рабочий телефон</ru>
+		<ua>Робочий телефон</ua>
+		<en>Work phone</en>
+	</PHONE_WORK>
+	<PHONE_HOME>
+		<ru>Домашний телефон</ru>
+		<ua>Домашній телефон</ua>
+		<en>Home phone</en>
+	</PHONE_HOME>
+	<PHONE_MOBILE>
+		<ru>Мобильный телефон</ru>
+		<ua>Мобільний телефон</ua>
+		<en>Mobile phone</en>
+	</PHONE_MOBILE>
+	<PHONE_CONTACT order="5" isObvious="N" isInFilter="Y" size="14" JStype="varchar2">
+		<ru>Контактный телефон</ru>
+		<ua>Контактний телефон</ua>
+		<en>Contact number</en>
+	</PHONE_CONTACT>
+	<FAX>
+		<ru>Факс</ru>
+		<ua>Факс</ua>
+		<en>Fax</en>
+	</FAX>
+	<PAGER>
+		<ru>Пейджер</ru>
+		<ua>Пейджер</ua>
+		<en>Pager</en>
+	</PAGER>
+	<EMAIL order="6" isObvious="N" isInFilter="Y" size="10" JStype="email" value="example@gmail.com">
+		<ru>Электронная почта</ru>
+		<ua>Електронна пошта</ua>
+		<en>E-mail</en>
+	</EMAIL>
+	<T_INFO>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en>
+	</T_INFO>
+	<CD_CARD>
+		<ru>Номер карты</ru>
+		<ua>Номер карти</ua>
+		<en>Card number</en>
+	</CD_CARD>
+	<name_eng>
+		<ru>Имя на английском</ru>
+		<ua>Ім'я англійською</ua>
+		<en>Name in English</en></name_eng>
+	<surname_eng>
+		<ru>Фамилия на английском</ru>
+		<ua>Прізвище англійською</ua>
+		<en>Last name in English</en></surname_eng>
+	<contract_number>
+		<ru>№ анкеты</ru>
+		<ua>№ анкети</ua>
+		<en>Questionnaire number</en></contract_number>
+	<contract_date>
+		<ru>Дата анкеты</ru>
+		<ua>Дата анкети</ua>
+		<en>Questionnaire date</en></contract_date>
+	<contract_desc>
+		<ru>Описание анкеты</ru>
+		<ua>Опис анкети</ua>
+		<en>Questionnaire description</en></contract_desc>
+	<FACT_ADR_FULL>
+		<ru>Фактический адрес</ru>
+		<ua>Фактична адреса</ua>
+		<en>Actual address</en>
+	</FACT_ADR_FULL>	
+	<FACT_ADR_ZIP_CODE>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>Zip code</en>
+	</FACT_ADR_ZIP_CODE>
+	<FACT_ADR_OBLAST>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Oblast</en>
+	</FACT_ADR_OBLAST>
+	<FACT_ADR_DISTRICT>		
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>Distriction</en>
+	</FACT_ADR_DISTRICT>
+	<FACT_ADR_CITY>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en>
+	</FACT_ADR_CITY>
+	<FACT_ADR_STREET>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en>
+	</FACT_ADR_STREET>
+	<FACT_ADR_HOUSE>
+		<ru>Дом</ru>
+		<ua>Будинок</ua>
+		<en>House</en>
+	</FACT_ADR_HOUSE>
+	<FACT_ADR_CASE>
+		<ru>Корпус</ru>
+		<ua>Корпус</ua>
+		<en>House case</en>
+	</FACT_ADR_CASE>
+	<FACT_ADR_APARTMENT>
+		<ru>Квартира</ru>
+		<ua>Квартира</ua>
+		<en>Apartment</en>
+	</FACT_ADR_APARTMENT>
+	<PASPORT_CODE_COUNTRY>		
+		<ru>Паспорт: страна</ru>
+		<ua>Паспорт: країна</ua>
+		<en>Passport: country</en>
+	</PASPORT_CODE_COUNTRY>
+	<PASPORT_NUMBER>
+		<ru>Паспорт: номер</ru>
+		<ua>Паспорт: номер</ua>
+		<en>Passport: number</en>
+	</PASPORT_NUMBER>
+	<PASPORT_DATE>
+		<ru>Паспорт: дата выдачи</ru>
+		<ua>Паспорт: дата видачі</ua>
+		<en>Passport: issuing date</en>
+	</PASPORT_DATE>
+	<PASPORT_TEXT>
+		<ru>Паспорт: кем выдано</ru>
+		<ua>Паспорт: ким видано</ua>
+		<en>Passport: issued by</en>
+	</PASPORT_TEXT>
+	<FIND_PESON>
+		<ru>Поиск пайщиков</ru>
+		<ua>Пошук пайовиків</ua>
+		<en>Search of shareholders</en>
+	</FIND_PESON>
+	<CD_NAT_PRS_GROUP>
+		<RU>Социально-профессиональная группа</RU>
+		<UA>Соціально-професійна група</UA>
+		<EN>Socially-professional group</EN>
+	</CD_NAT_PRS_GROUP>
+	<CD_NAT_PRS_GROUP1>
+		<RU>Социально-профессиональная группа 1</RU>
+		<UA>Соціально-професійна група 1</UA>
+		<EN>Socially-professional group 1</EN>
+	</CD_NAT_PRS_GROUP1>
+	<CD_NAT_PRS_GROUP2>
+		<RU>Социально-профессиональная группа 2</RU>
+		<UA>Соціально-професійна група 2</UA>
+		<EN>Socially-professional group 2</EN>
+	</CD_NAT_PRS_GROUP2>
+	<CD_NAT_PRS_GROUP3>
+		<RU>Социально-профессиональная группа 3</RU>
+		<UA>Соціально-професійна група 3</UA>
+		<EN>Socially-professional group 3</EN>
+	</CD_NAT_PRS_GROUP3>
+	<CD_NAT_PRS_GROUP4>
+		<RU>Социально-профессиональная группа 4</RU>
+		<UA>Соціально-професійна група 4</UA>
+		<EN>Socially-professional group 4</EN>
+	</CD_NAT_PRS_GROUP4>
+	<CD_NAT_PRS_GROUP5>
+		<RU>Социально-профессиональная группа 5</RU>
+		<UA>Соціально-професійна група 5</UA>
+		<EN>Socially-professional group 5</EN>
+	</CD_NAT_PRS_GROUP5>
+	<CD_NAT_PRS_GROUP6>
+		<RU>Социально-профессиональная группа 6</RU>
+		<UA>Соціально-професійна група 6</UA>
+		<EN>Socially-professional group 6</EN>
+	</CD_NAT_PRS_GROUP6>
+	<CD_NAT_PRS_GROUP7>
+		<RU>Социально-профессиональная группа 7</RU>
+		<UA>Соціально-професійна група 7</UA>
+		<EN>Socially-professional group 7</EN>
+	</CD_NAT_PRS_GROUP7>
+	<CD_NAT_PRS_GROUP8>
+		<RU>Социально-профессиональная группа 8</RU>
+		<UA>Соціально-професійна група 8</UA>
+		<EN>Socially-professional group 8</EN>
+	</CD_NAT_PRS_GROUP8>
+	<CD_NAT_PRS_GROUP9>
+		<RU>Социально-профессиональная группа 9</RU>
+		<UA>Соціально-професійна група 9</UA>
+		<EN>Socially-professional group 9</EN>
+	</CD_NAT_PRS_GROUP9>
+	<CD_NAT_PRS_GROUP10>
+		<RU>Социально-профессиональная группа 10</RU>
+		<UA>Соціально-професійна група 10</UA>
+		<EN>Socially-professional group 10</EN>
+	</CD_NAT_PRS_GROUP10>
+	<NAME_OTHER_VARIANT_GROUP>
+		<RU>Другой вариант</RU>
+		<UA>Інший варіант</UA>
+		<EN>Other variant</EN>
+	</NAME_OTHER_VARIANT_GROUP>
+	<RECEPTION_INFORMATION_WAY>
+		<RU>Получать информацию</RU>
+		<UA>Отримувати інформацію</UA>
+		<EN>Receive information</EN>
+	</RECEPTION_INFORMATION_WAY>
+	<RECEPTION_INFORMATION_WAY1>
+		<RU>По телефону</RU>
+		<UA>Телефоном</UA>
+		<EN>By phone</EN>
+	</RECEPTION_INFORMATION_WAY1>
+	<RECEPTION_INFORMATION_WAY2>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</RECEPTION_INFORMATION_WAY2>
+	<RECEPTION_INFORMATION_WAY3>
+		<RU>SMS</RU>
+		<UA>SMS</UA>
+		<EN>SMS</EN>
+	</RECEPTION_INFORMATION_WAY3>
+	<RECEPTION_INFORMATION_WAY4>
+		<RU>По почте</RU>
+		<UA>Поштою</UA>
+		<EN>By post</EN>
+	</RECEPTION_INFORMATION_WAY4>
+	<SHOP_ADVANTAGE>
+		<RU>Преимущества Товарного Партнера</RU>
+		<UA>Переваги Товарного Партнера</UA>
+		<EN>Commodity Partmer advantages</EN>
+	</SHOP_ADVANTAGE>
+	<SHOP_ADVANTAGE1>
+		<RU>Удобное местоположение</RU>
+		<UA>Зручне розташування</UA>
+		<EN>Comfortable location</EN>
+	</SHOP_ADVANTAGE1>
+	<SHOP_ADVANTAGE2>
+		<RU>Низкие цены</RU>
+		<UA>Низькі ціни</UA>
+		<EN>Low prices</EN>
+	</SHOP_ADVANTAGE2>
+	<SHOP_ADVANTAGE3>
+		<RU>Привилегии</RU>
+		<UA>Привілеї</UA>
+		<EN>Privileges</EN>
+	</SHOP_ADVANTAGE3>
+	<SHOP_ADVANTAGE4>
+		<RU>Ассортимент</RU>
+		<UA>Асортимент</UA>
+		<EN>Assortment</EN>
+	</SHOP_ADVANTAGE4>
+	<SHOP_ADVANTAGE5>
+		<RU>Обслуживание</RU>
+		<UA>Обслуговування</UA>
+		<EN>Service</EN>
+	</SHOP_ADVANTAGE5>
+	<date_beg>
+		<ru>Дата регистрации в паевом учете</ru>
+		<ua>Дата реєстрації в паєвому обліку</ua>
+		<en>Date of registration in share accounting</en>
+	</date_beg>
+	<h_add_questionnaire>
+		<RU>Добавить анкету</RU>
+		<UA>Додати анкету</UA>
+		<EN>Add questionnaire</EN></h_add_questionnaire>
+	<h_remove_questionnaire>
+		<RU>Удалить анкету</RU>
+		<UA>Видалити анкету</UA>
+		<EN>Delete questionnaire</EN></h_remove_questionnaire>
+	<h_import_result>
+		<RU>Результаты импорта</RU>
+		<UA>Результати імпорта</UA>
+		<EN>Import results</EN></h_import_result>
+	<h_questionnaire_data>
+		<RU>Данные в анкете</RU>
+		<UA>Дані в анкеті</UA>
+		<EN>Data in quistionnaire</EN></h_questionnaire_data>
+	<f_not_imported>
+		<RU>Не импортированные</RU>
+		<UA>Не імпортовані</UA>
+		<EN>Not imported</EN></f_not_imported>
+	<f_new>
+		<RU>Новые</RU>
+		<UA>Нові</UA>
+		<EN>New</EN></f_new>
+	<f_error>
+		<RU>Ошибка</RU>
+		<UA>Помилка</UA>
+		<EN>Error</EN></f_error>
+	<f_imported>
+		<RU>Импортированные</RU>
+		<UA>Імпортовані</UA>
+		<EN>Imported</EN></f_imported>
+	<date_import>
+		<RU>Дата импорта</RU>
+		<UA>Дата імпорту</UA>
+		<EN>Import date</EN></date_import>
+	<state_quest>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></state_quest>
+	<line_number>
+		<RU>№ строки</RU>
+		<UA>№ рядка</UA>
+		<EN>Line number</EN></line_number>
+	<date_report>
+		<RU>Дата отчета</RU>
+		<UA>Дата звіту</UA>
+		<EN>Report date</EN></date_report>
+	<text_report>
+		<RU>Результат</RU>
+		<UA>Результат</UA>
+		<EN>Result</EN></text_report>
+	<validity_percent>
+		<RU>Валидность анкеты (%)</RU>
+		<UA>Валідність анкети (%)</UA>
+		<EN>Questionnaire validity (%)</EN></validity_percent>
+	<file_name>
+		<RU>Файл</RU>
+		<UA>Файл</UA>
+		<EN>File</EN></file_name>
+	<date_card_sale>
+		<RU>Дата продажи</RU>
+		<UA>Дата продажу</UA>
+		<EN>Sail date</EN></date_card_sale>
+	<time_card_sale>
+		<RU>Время продажи</RU>
+		<UA>Час продажу</UA>
+		<EN>Sail time</EN></time_card_sale>
+	<date_and_time_card_sale>
+		<RU>Дата и время продажи</RU>
+		<UA>Дата і час продажу</UA>
+		<EN>Sail date and time</EN></date_and_time_card_sale>
+		
+	<cheque_number>
+		<RU>Номер чека</RU>
+		<UA>Номер чека</UA>
+		<EN>Cheque number</EN></cheque_number>
+	<promoter_code>
+		<RU>Код промоутера</RU>
+		<UA>Код промоутера</UA>
+		<EN>Promoter code</EN></promoter_code>
+	<h_rules>
+		<RU>Ознакомлен с правилами начисления</RU>
+		<UA>Ознайомлений з правилами нарахування</UA>
+		<EN>Rules</EN></h_rules>
+	<rule_bon>
+		<RU>Баллов</RU>
+		<UA>Балів</UA>
+		<EN>Points</EN></rule_bon>
+	<rule_superbon>
+		<RU>Д.А.Р.</RU>
+		<UA>Д.А.Р.</UA>
+		<EN>D.A.P.</EN></rule_superbon>
+	<rule_discount_ground>
+		<RU>Скидки</RU>
+		<UA>Знижки</UA>
+		<EN>Discount</EN></rule_discount_ground>
+		
+	<quest_setting>
+		<RU>Настройка импорта анкет</RU>
+		<UA>Налаштування імпорту анкет</UA>
+		<EN>Questionnaires import setting</EN></quest_setting>
+	<id_import_setting>
+		<RU>ИД настройки</RU>
+		<UA>ІД налаштування</UA>
+		<EN>Setting ID</EN></id_import_setting>
+	<id_issuer>
+		<RU>Эмитент</RU>
+		<UA>Емітент</UA>
+		<EN>Issuer</EN></id_issuer>	
+	<id_card_status>
+		<RU>Вид карты</RU>
+		<UA>Вид карти</UA>
+		<EN>Card kind</EN></id_card_status>	
+	<id_bon_category>
+		<RU>Категория по баллам</RU>
+		<UA>Категорія за балами</UA>
+		<EN>Category on points</EN></id_bon_category>	
+	<id_disc_category>
+		<RU>Категория по скидкам</RU>
+		<UA>Категорія за знижкою</UA>
+		<EN>Category on discount</EN></id_disc_category>	
+	<id_card_status_before_import>
+		<RU>Вид карты до импорта</RU>
+		<UA>Вид карти до імпорту</UA>
+		<EN>Card kind before import</EN></id_card_status_before_import>	
+	<id_bon_category_before_import>
+		<RU>Категория по баллам до импорта</RU>
+		<UA>Категорія за балами до импорта</UA>
+		<EN>Category on points before import</EN></id_bon_category_before_import>	
+	<id_disc_category_before_import>
+		<RU>Категория по скидкам до импорта</RU>
+		<UA>Категорія за знижкою до импорта</UA>
+		<EN>Category on discount before import</EN></id_disc_category_before_import>	
+	<name_import_setting>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN></name_import_setting>	
+	<begin_action_date>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Begin action date</EN></begin_action_date>	
+	<end_action_date>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>End action date</EN></end_action_date>		
+	<t_from_param>
+		<RU>Предварительные условия:</RU>
+		<UA>Попередні умови:</UA>
+		<EN>Precedents of conditions:</EN></t_from_param>	
+	<t_to_param>
+		<RU>Изменить на:</RU>
+		<UA>Змінити на:</UA>
+		<EN>Change to:</EN></t_to_param>
+	<h_setting_add>
+		<RU>Добавить настройку импорта анкет</RU>
+		<UA>Додати налаштування імпорту анкет</UA>
+		<EN>Add questionnaires import setting</EN></h_setting_add>
+	<h_setting_delete>
+		<RU>Удалить настройку импорта анкет</RU>
+		<UA>Видалити налаштування імпорту анкет</UA>
+		<EN>Delete questionnaires import setting</EN></h_setting_delete>
+	<card_message>
+		<RU>Сообщение на карту</RU>
+		<UA>Повідомлення на карту</UA>
+		<EN>Message on card</EN></card_message>
+		
+	<tab_header_pack>
+		<RU>(пачки анкет)</RU>
+		<UA>(пачки анкет)</UA>
+		<EN>(questionnaires pack)</EN></tab_header_pack>
+	<tab_header_quest>
+		<RU>(анкеты)</RU>
+		<UA>(анкети)</UA>
+		<EN>(questionnaires)</EN></tab_header_quest>
+		
+	<tab_header_pack_full>
+		<RU>Пачки анкет</RU>
+		<UA>Пачки анкет</UA>
+		<EN>Questionnaires pack</EN></tab_header_pack_full>
+	<tab_header_quest_full>
+		<RU>Анкеты</RU>
+		<UA>Анкети</UA>
+		<EN>Questionnaires</EN></tab_header_quest_full>
+	<id_quest_pack>
+		<RU>ИД пачки</RU>
+		<UA>ІД пачки</UA>
+		<EN>Pack ID</EN></id_quest_pack>
+	<number_pack>
+		<RU>Номер пачки</RU>
+		<UA>Номер пачки</UA>
+		<EN>Pack number</EN></number_pack>
+	<note_quest_pack>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN></note_quest_pack>
+	<date_reception_pack>
+		<RU>Дата получения пачки</RU>
+		<UA>Дата отримання пачки</UA>
+		<EN>Pack date received</EN></date_reception_pack>
+	<name_serv_plce_where_card_sold>
+		<RU>Пункт обсл., где проданы карты</RU>
+		<UA>Пункт обсл., де продані карти</UA>
+		<EN>Service place where the card is sold</EN></name_serv_plce_where_card_sold>
+	<sname_jur_pr_who_has_sold_card>
+		<RU>Партнер, который продал карты</RU>
+		<UA>Партнер, який продав карти</UA>
+		<EN>Partner who has sold cards</EN></sname_jur_pr_who_has_sold_card>
+	<state_pack>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></state_pack>
+	<type_quest>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></type_quest>
+	<import_state_pack>
+		<RU>Состояние импорта</RU>
+		<UA>Стан імпорту</UA>
+		<EN>State</EN></import_state_pack>
+	<expected_quest_quantity>
+		<RU>Ожидается анкет</RU>
+		<UA>Очікується анкет</UA>
+		<EN>Questionnaires expected</EN></expected_quest_quantity>
+	<real_quest_quantity>
+		<RU>Анкет в пачке</RU>
+		<UA>Анкет в пачці</UA>
+		<EN>Questionnaires exist</EN></real_quest_quantity>
+	<imported_quest_quantity>
+		<RU>Анкет импортировано</RU>
+		<UA>Анкет імпортовано</UA>
+		<EN>Questionnaires imported</EN></imported_quest_quantity>
+		
+	<h_pack_add>
+		<RU>Добавить пачку анкет</RU>
+		<UA>Додати пачку анкет</UA>
+		<EN>Add questionnaires pack</EN></h_pack_add>
+	<h_pack_delete>
+		<RU>Удалить пачку анкет</RU>
+		<UA>Видалити пачку анкет</UA>
+		<EN>Delete questionnaires pack</EN></h_pack_delete>
+	<t_move_to_pack>
+		<RU>Переместить в пачку</RU>
+		<UA>Перемістити в пачку</UA>
+		<EN>Move to pack</EN></t_move_to_pack>
+	<t_quest_not_selected>
+		<ru>Не отмечены анкеты для переноса в пачку</ru>
+		<ua>Не вибрані анкети для перенесення в пачку</ua>
+	    <en>Questionnaires for carrying over to a pack are noted</en></t_quest_not_selected>
+	<t_cannot_move_quest>
+		<ru>Запрещено перемещение и импорт анкет, поскольку пачка закрыта</ru>
+		<ua>Заборонено переміщення та імпорт анкет, оскільки пачку закрито</ua>
+	    <en>Moving and import of questionnaires as the pack is closed is forbidden</en></t_cannot_move_quest>
+	<t_report_type_all>
+		<ru>Все пачки</ru>
+		<ua>Всі пачки</ua>
+	    <en>All packs</en></t_report_type_all>
+	<t_report_type_current>
+		<ru>Текущая пачка</ru>
+		<ua>Поточна пачка</ua>
+	    <en>Current pack</en></t_report_type_current>
+	<t_pack_quest>
+		<ru>Пачки/Анкеты</ru>
+		<ua>Пачки/Анкети</ua>
+	    <en>Packs/Questionnaires</en></t_pack_quest>
+	    
+	<h_dispatch_param>
+		<ru>Параметры рассылки</ru>
+		<ua>Параметри розсилання</ua>
+	    <en>Dispatch parameters</en></h_dispatch_param>
+	<id_sms_pattern>
+		<ru>Шаблон SMS</ru>
+		<ua>Шаблон SMS</ua>
+	    <en>SMS pattern</en></id_sms_pattern>
+	<id_email_pattern>
+		<ru>Шаблон E-mail</ru>
+		<ua>Шаблон E-mail</ua>
+	    <en>E-mail pattern</en></id_email_pattern>
+	<id_bon_card_pattern>
+		<ru>Шаблон сообщения на карту</ru>
+		<ua>Шаблон повідомлення на карту</ua>
+	    <en>Card message pattern</en></id_bon_card_pattern>
+	<id_office_pattern>
+		<ru>Шаблон сообщения в личный кабинет</ru>
+		<ua>Шаблон повідомлення в особистий кабінет</ua>
+	    <en>Personal office message pattern</en></id_office_pattern>
+	    
+	<id_bon_category_in_quest>
+		<ru>Категория по баллам в анкете</ru>
+		<ua>Категорія за балами в анкеті</ua>
+	    <en>Category on points in questionnaire</en></id_bon_category_in_quest>
+	<number_bon_category_in_quest>
+		<ru>Номер категории по баллам в анкете</ru>
+		<ua>Номер категорії за балами в анкеті</ua>
+	    <en>Points category number in questionnaire</en></number_bon_category_in_quest>
+	<id_disc_category_in_quest>
+		<ru>Категория по скидке в анкете</ru>
+		<ua>Категорія за знижкою в анкеті</ua>
+	    <en>Discount category in questionnaire</en></id_disc_category_in_quest>
+	<number_disc_category_in_quest>
+		<ru>Номер категории по скидке в анкете</ru>
+		<ua>Номер категорії за знижкою в анкеті</ua>
+	    <en>Discount category number in questionnaire</en></number_disc_category_in_quest>
+	<h_bon_card>
+		<ru>Карта</ru>
+		<ua>Карта</ua>
+	    <en>Card</en></h_bon_card>
+	<h_client_info>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+	    <en>Client</en></h_client_info>
+	<cd_purchase_frequence>
+		<ru>Частота покупок</ru>
+		<ua>Частота купівель</ua>
+	    <en>Purchase frequency</en></cd_purchase_frequence>
+		
+	<h_discount_card>
+		<RU>Дисконтная карта Товарного Партнера</RU>
+		<UA>Дисконтна карта Товарного Партнера</UA>
+		<EN>Discount card of Commodity Partner</EN>
+	</h_discount_card>
+	<discount_card_number>
+		<RU>Дисконтная карта</RU>
+		<UA>Дисконтна карта</UA>
+		<EN>Discount card</EN>
+	</discount_card_number>
+	<discount_card_percent>
+		<RU>Размер скидки, %</RU>
+		<UA>Розмір знижки, %</UA>
+		<EN>Discount value, %</EN>
+	</discount_card_percent>
+	
+	<quest_add_date>
+		<RU>Дата добавления анкеты</RU>
+		<UA>Дата додавання анкети</UA>
+		<EN>Add questionnaire date</EN>
+	</quest_add_date>
+	<all_serv_plce_where_card_sold>
+		<RU>Все пункты обсл. Партнера, где проданы карты</RU>
+		<UA>Все пункти обсл. Партнера, де продані карти</UA>
+		<EN>All Partner's service places where the card is sold</EN>
+	</all_serv_plce_where_card_sold>
+	<one_serv_plce_where_card_sold>
+		<RU>Один пункт обсл. Партнера, где проданы карты</RU>
+		<UA>Один пункт обсл. Партнера, де продані карти</UA>
+		<EN>Single Partner's service place where the card is sold</EN>
+	</one_serv_plce_where_card_sold>
+	
+	<cd_quest_payment_method>
+		<RU>Способ оплаты</RU>
+		<UA>Спосіб сплати</UA>
+		<EN>Payment method</EN>
+	</cd_quest_payment_method>
+	<name_quest_payment_method>
+		<RU>Способ оплаты</RU>
+		<UA>Спосіб сплати</UA>
+		<EN>Payment method</EN>
+	</name_quest_payment_method>
+	
+	<state_line>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></state_line>
+	
+	<id_quest_form>
+		<RU>ИД формы</RU>
+		<UA>ІД форми</UA>
+		<EN>Form ID</EN></id_quest_form>
+	<name_quest_form>
+		<RU>Название формы</RU>
+		<UA>Назва форми</UA>
+		<EN>Form name</EN></name_quest_form>
+	<sname_quest_form>
+		<RU>Сокр. название формы</RU>
+		<UA>Скороч. назва форми</UA>
+		<EN>Form short name</EN></sname_quest_form>
+	<desc_quest_form>
+		<RU>Описание формы</RU>
+		<UA>Опис форми</UA>
+		<EN>Form description</EN></desc_quest_form>
+	<cd_quest_form_state>
+		<RU>Состояние формы</RU>
+		<UA>Стан форми</UA>
+		<EN>Form state</EN></cd_quest_form_state>
+	<name_quest_form_state>
+		<RU>Состояние формы</RU>
+		<UA>Стан форми</UA>
+		<EN>Form state</EN></name_quest_form_state>
+	<date_beg_quest_form>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Begin action date</EN></date_beg_quest_form>
+	<date_end_quest_form>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>End action date</EN></date_end_quest_form>
+		
+	<has_auto>
+		<RU>Наличие автомобиля</RU>
+		<UA>Наявність автомобіля</UA>
+		<EN>Has auto</EN></has_auto>
+	<is_discount_card_changed>
+		<RU>Обмен дисконтной карты</RU>
+		<UA>Обмін дисконтної карти</UA>
+		<EN>Discount card interchange</EN></is_discount_card_changed>
+	<is_furchet_discount_card>
+		<RU>Дисконтная карта Фуршет</RU>
+		<UA>Дисконтна карта Фуршет</UA>
+		<EN>Furchet discount card</EN></is_furchet_discount_card>
+	<lg_promoter>
+		<ru>Промоутер</ru>
+		<ua>Промоутер</ua>
+		<en>Promoter</en>
+	</lg_promoter>
+	
+	<h_confirm_set_discount_card_interchange>
+		<ru>Установить признак обмена дисконтной карты</ru>
+		<ua>Встановити ознаку обміну дисконтної карти</ua>
+		<en>Set discount card interchange flag</en>
+	</h_confirm_set_discount_card_interchange>
+	<h_not_entered_questionnaire>
+		<ru>Анкеты не выбраны</ru>
+		<ua>Анкети не выбрані</ua>
+		<en>Questionnaires not selected</en>
+	</h_not_entered_questionnaire>
+	
+</questionnaire>

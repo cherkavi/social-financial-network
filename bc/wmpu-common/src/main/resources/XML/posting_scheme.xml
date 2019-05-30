@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<oper_scheme>
+	<general>
+		<RU>Схема проводок</RU>
+		<UA>Схема проведень</UA>
+		<EN>Entries scheme</EN>
+	</general>
+	<cd_bk_source>
+		<RU>Код источника данных</RU>
+		<UA>Код джерела даных</UA>
+		<EN>Data source code</EN>
+	</cd_bk_source>
+	<name_bk_source>
+		<RU>Источник данных</RU>
+		<UA>Джерело даних</UA>
+		<EN>Data source</EN>
+	</name_bk_source>
+	<id_bk_operation_type>
+		<RU>ИД типа операции</RU>
+		<UA>ІД типу операції</UA>
+		<EN>Operation type ID</EN>
+	</id_bk_operation_type>
+	<name_bk_operation_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</name_bk_operation_type>
+	<cd_bk_action_type>
+		<RU>Код документа</RU>
+		<UA>Код документа</UA>
+		<EN>Document code</EN>
+	</cd_bk_action_type>
+	<name_bk_action_type>
+		<RU>Документ</RU>
+		<UA>Документ</UA>
+		<EN>Document</EN>
+	</name_bk_action_type>
+	<cd_trans>
+		<RU>Код транзакции</RU>
+		<UA>Код транзакції</UA>
+		<EN>Transaction</EN>
+	</cd_trans>
+	<name_trans>
+		<RU>Транзакция</RU>
+		<UA>Транзакція</UA>
+		<EN>Transaction</EN>
+	</name_trans>
+	<cd_telgr>
+		<RU>Код телеграммы</RU>
+		<UA>Код телеграми</UA>
+		<EN>Telegram code</EN>
+	</cd_telgr>
+	<ver_telgr>
+		<RU>Версия телеграммы</RU>
+		<UA>Версія телеграми</UA>
+		<EN>Telegram version</EN>
+	</ver_telgr>
+	<action>
+		<RU>Действие в транзакции</RU>
+		<UA>Дія в транзакції</UA>
+		<EN>Action in transaction</EN>
+	</action>
+	<debet_cd_bk_account>
+		<RU>Дебет</RU>
+		<UA>Дебет</UA>
+		<EN>Debit</EN>
+	</debet_cd_bk_account>
+	<debet_name_bk_account>
+		<RU>Дебет</RU>
+		<UA>Дебет</UA>
+		<EN>Debit</EN>
+	</debet_name_bk_account>
+	<credit_cd_bk_account>
+		<RU>Кредит</RU>
+		<UA>Кредит</UA>
+		<EN>Credit</EN>
+	</credit_cd_bk_account>
+	<credit_name_bk_account>
+		<RU>Кредит</RU>
+		<UA>Кредит</UA>
+		<EN>Credit</EN>
+	</credit_name_bk_account>
+	<oper_number>
+		<RU>№ операции</RU>
+		<UA>№ операції</UA>
+		<EN>Operation number</EN>
+	</oper_number>
+	<amount>
+		<RU>Формула</RU>
+		<UA>Формула</UA>
+		<EN>Formula</EN>
+	</amount>
+	<exist_flag>
+		<RU>Активно</RU>
+		<UA>Активно</UA>
+		<EN>Active</EN>
+	</exist_flag>
+	<language>
+		<RU>Язык</RU>
+		<UA>Мова</UA>
+		<EN>Language</EN>
+	</language>
+	<id_bk_operation_scheme_line>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</id_bk_operation_scheme_line>
+	<t_postings_spec>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_postings_spec>
+	<h_postings_settings_edit>
+		<RU>Редактировать настройку</RU>
+		<UA>Редагувати настройку</UA>
+		<EN>Edit setting</EN>
+	</h_postings_settings_edit>
+	<h_postings_settings_add>
+		<RU>Добавить настройку</RU>
+		<UA>Додати настройку</UA>
+		<EN>Add setting</EN>
+	</h_postings_settings_add>
+	<cd_bk_event>
+		<ru>Событие</ru>
+		<ua>Подія</ua>
+		<en>Event</en></cd_bk_event>
+	<assignment_posting>
+		<ru>Описание проводки</ru>
+		<ua>Опис проведення</ua>
+		<en>Entry description</en></assignment_posting>
+	<t_lines>
+		<ru>Строки настройки</ru>
+		<ua>Рядки настройки</ua>
+		<en>Setting line</en></t_lines>
+	<oper_content>
+		<RU>Содержание операции</RU>
+		<UA>Зміст операції</UA>
+		<EN>Operation content</EN></oper_content>
+	<cd_frequence>
+		<RU>Частота</RU>
+		<UA>Частота</UA>
+		<EN>Frequence</EN></cd_frequence>
+	<nt_icc>
+		<RU>№ транзакции</RU>
+		<UA>№ транзакції</UA>
+		<EN>Transaction number</EN></nt_icc>
+	<cd_bk_phase>
+		<RU>Фаза</RU>
+		<UA>Фаза</UA>
+		<EN>Phase</EN></cd_bk_phase>
+	<name_bk_phase>
+		<RU>Фаза</RU>
+		<UA>Фаза</UA>
+		<EN>Phase</EN></name_bk_phase>
+	<oper_code>
+		<RU>Код операции</RU>
+		<UA>Код операції</UA>
+		<EN>Operation code</EN></oper_code>
+	<using_in_clearing>
+		<RU>Использование при клиринге?</RU>
+		<UA>Використання при клірингу?</UA>
+		<EN>Using in clearing?</EN></using_in_clearing>
+	<zero_amounts_allowed>
+		<RU>Создавать нулевые проводки</RU>
+		<UA>Створювати нульові проведення</UA>
+		<EN>Сreate zero entries</EN></zero_amounts_allowed>
+	<id_payment_system>
+		<RU>Платежная система</RU>
+		<UA>Платіжна система</UA>
+		<EN>Payment system</EN></id_payment_system>
+	<run_postings_export>
+		<RU>Выгружать в бух.системы?</RU>
+		<UA>Вивантажувати в бух.системи?</UA>
+		<EN>Export into accounting system?</EN></run_postings_export>
+	<cd_bk_doc_type>
+		<RU>Тип бухгалтерского документа</RU>
+		<UA>Тип бухгалтерського документа</UA>
+		<EN>Accounting document type</EN></cd_bk_doc_type>
+	<card_owner>
+		<RU>Владелец карт</RU>
+		<UA>Власник карт</UA>
+		<EN>Card's owner</EN></card_owner>
+	<run_postings_export>
+		<RU>Экспортировать проводки?</RU>
+		<UA>Експортувати проведення?</UA>
+		<EN>To export entries?</EN></run_postings_export>
+	<is_vat_payer>
+		<RU>Плательщик НДС</RU>
+		<UA>Платник ПДВ</UA>
+		<EN>Is VAT payer</EN></is_vat_payer>
+	<name_club_rel_type>
+		<RU>Тип взаимоотношения</RU>
+		<UA>Тип взаємовідносин</UA>
+		<EN>Relationship's type</EN></name_club_rel_type>
+	<exist_flag_rel>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exist</EN>
+	</exist_flag_rel>
+	<begin_action_date>
+		<RU>Начало действия</RU>
+		<UA>Початок дії</UA>
+		<EN>Begin action date</EN>
+	</begin_action_date>
+	<end_action_date>
+		<RU>Окончание действия</RU>
+		<UA>Завершення дії</UA>
+		<EN>End action date</EN>
+	</end_action_date>
+	<h_participant_type>
+		<RU>Тип участника:</RU>
+		<UA>Тип учасника:</UA>
+		<EN>Participant type:</EN>
+	</h_participant_type>
+	<cd_bk_condition>
+		<RU>Дополнительное условие</RU>
+		<UA>Додаткова умова</UA>
+		<EN>Additional condition</EN></cd_bk_condition>
+	<id_related_bk_oper_scheme_line>
+		<RU>Связанная схема проводок</RU>
+		<UA>Пов'язана схема проведень</UA>
+		<EN>Related entries scheme</EN></id_related_bk_oper_scheme_line>
+	<h_delete_scheme>
+		<RU>Удалить схему проводок</RU>
+		<UA>Видалити схему проведень</UA>
+		<EN>Delete entries scheme</EN></h_delete_scheme>
+	<h_delete_line>
+		<RU>Удалить настройку проводок</RU>
+		<UA>Видалити налаштування проведень</UA>
+		<EN>Delete entries setting</EN></h_delete_line>
+	<h_additional_param>
+		<RU>Дополнительные параметры</RU>
+		<UA>Додаткові параметри</UA>
+		<EN>Additional parameters</EN></h_additional_param>
+	<h_clearing_param>
+		<RU>Параметры клиринга</RU>
+		<UA>Параметри клірингу</UA>
+		<EN>Clearing parameters</EN></h_clearing_param>
+	<receiver_cd_bk_bank_accnt_type>
+		<RU>Получатель: тип банковского счета</RU>
+		<UA>Отримувач: тип банківського рахунку</UA>
+		<EN>Receiver: bank account type</EN></receiver_cd_bk_bank_accnt_type>
+	<payer_cd_bk_bank_accnt_type>
+		<RU>Плательщик: тип банковского счета</RU>
+		<UA>Платник: тип банківського рахунку</UA>
+		<EN>Payer: bank account type</EN></payer_cd_bk_bank_accnt_type>
+	<payment_function_default>
+		<RU>Назначение платежа по умолчанию</RU>
+		<UA>Призначення платежу за замовчуванням</UA>
+		<EN>Default payment function</EN>
+	</payment_function_default>
+		
+	<h_view_type>
+		<RU>Внешний вид</RU>
+		<UA>Зовнішній вигляд</UA>
+		<EN>View type</EN></h_view_type>
+	<h_view_table>
+		<RU>Таблица</RU>
+		<UA>Таблиця</UA>
+		<EN>Table</EN></h_view_table>
+	<h_view_tree>
+		<RU>Дерево</RU>
+		<UA>Дерево</UA>
+		<EN>Tree</EN></h_view_tree>
+	<h_check>
+		<RU>Выполнить проверку схемы проводок</RU>
+		<UA>Виконати перевірку схеми проведень</UA>
+		<EN>Check entries scheme</EN></h_check>
+		
+	<fn_posting_scheme>
+		<RU>Схема проводок</RU>
+		<UA>Схема проведень</UA>
+		<EN>Postings scheme</EN>
+	</fn_posting_scheme>
+	<id_fn_posting_scheme>
+		<RU>ИД схемы</RU>
+		<UA>ІД схеми</UA>
+		<EN>Scheme ID</EN>
+	</id_fn_posting_scheme>
+	<desc_fn_posting_scheme>
+		<RU>Описание схемы</RU>
+		<UA>Опис схеми</UA>
+		<EN>Scheme description</EN>
+	</desc_fn_posting_scheme>
+	<cd_fn_posting_scheme_state>
+		<RU>Состояние схемы</RU>
+		<UA>Стан схеми</UA>
+		<EN>Scheme state</EN>
+	</cd_fn_posting_scheme_state>
+	<name_fn_posting_scheme_state>
+		<RU>Состояние схемы</RU>
+		<UA>Стан схеми</UA>
+		<EN>Scheme state</EN>
+	</name_fn_posting_scheme_state>
+	<id_bk_account_scheme>
+		<RU>Схема бух.счетов</RU>
+		<UA>Схема бух.рахунків</UA>
+		<EN>Accounts settings</EN>
+	</id_bk_account_scheme>
+	<desc_bk_account_scheme>
+		<RU>Схема бух.счетов</RU>
+		<UA>Схема бух.рахунків</UA>
+		<EN>Accounts settings</EN>
+	</desc_bk_account_scheme>
+	<h_operation_scheme_add>
+		<RU>Добавить схему проводок</RU>
+		<UA>Додати схему проведень</UA>
+		<EN>Add entries scheme</EN>
+	</h_operation_scheme_add>
+</oper_scheme>

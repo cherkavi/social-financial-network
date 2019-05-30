@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<connections>
+	<general>
+		<RU>Соединение с базой данных</RU>
+		<UA>З'єднання з базою даних</UA>
+		<EN>Connection with database</EN>
+	</general>
+	<server_name1>
+		<RU>127.0.0.1</RU>
+		<UA>127.0.0.1</UA>
+		<EN>127.0.0.1</EN>
+	</server_name1>
+	<server_name>
+		<RU>88.208.0.166</RU>
+		<UA>88.208.0.166</UA>
+		<EN>88.208.0.166</EN>
+	</server_name>
+	<server_name3>
+		<RU>192.168.15.254</RU>
+		<UA>192.168.15.254</UA>
+		<EN>192.168.15.254</EN>
+	</server_name3>
+	<server_name4>
+		<RU>212.113.35.37</RU>
+		<UA>212.113.35.37</UA>
+		<EN>212.113.35.37</EN>
+	</server_name4>
+	<database_name1>
+		<RU>orcl</RU>
+		<UA>orcl</UA>
+		<EN>orcl</EN>
+	</database_name1>
+	<database_name>
+		<RU>demo</RU>
+		<UA>demo</UA>
+		<EN>demo</EN>
+	</database_name>
+	<database_name3>
+		<RU>club</RU>
+		<UA>club</UA>
+		<EN>club</EN>
+	</database_name3>
+	<database_name4>
+		<RU>club44</RU>
+		<UA>club44</UA>
+		<EN>club44</EN>
+	</database_name4>
+	<port_number>
+		<RU>1521</RU>
+		<UA>1521</UA>
+		<EN>1521</EN>
+	</port_number>
+</connections>

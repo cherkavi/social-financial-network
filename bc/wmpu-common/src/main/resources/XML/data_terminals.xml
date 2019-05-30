@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<data_terminals>
+	<general>
+		<RU>Терминалы данных</RU>
+		<UA>Термінали даних</UA>
+		<EN>Data terminals</EN>
+	</general>
+	<terminal>
+		<RU>Терминалы данных</RU>
+		<UA>Термінали даних</UA>
+		<EN>Data terminals</EN>
+	</terminal>
+	<ID_TERM>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</ID_TERM>
+	<ID_TERM_HEX>
+		<RU>Номер терминала (HEX)</RU>
+		<UA>Номер терміналу (HEX)</UA>
+		<EN>Terminal number (HEX)</EN>
+	</ID_TERM_HEX>
+	<id_device_type>
+		<RU>ИД типа устройства</RU>
+		<UA>ІД типу пристрою</UA>
+		<EN>Device type ID</EN>
+	</id_device_type>
+	<name_device_type>
+		<RU>Название типа устройства</RU>
+		<UA>Назва типу пристрою</UA>
+		<EN>Device type name</EN>
+	</name_device_type>
+	<desc_device_type>
+		<RU>Описание типа устройства</RU>
+		<UA>Опис типу пристрою</UA>
+		<EN>Device type description</EN>
+	</desc_device_type>
+	<h_add_devict_type>
+		<RU>Добавить тип устройства</RU>
+		<UA>Додати тип пристрою</UA>
+		<EN>Add device type</EN>
+	</h_add_devict_type>
+	<h_delete_devict_type>
+		<RU>Удалить тип устройства</RU>
+		<UA>Видалити тип пристрою</UA>
+		<EN>Delete device type</EN>
+	</h_delete_devict_type>
+	<h_update_devict_type>
+		<RU>Редактировать параметры типа устройства</RU>
+		<UA>Редагувати параметри типу пристрою</UA>
+		<EN>Edit parameters of device type</EN>
+	</h_update_devict_type>
+	<work_with_certificate>
+		<RU>Нужен сетрификат</RU>
+		<UA>Потрібен сертифікат</UA>
+		<EN>Certificate is required</EN>
+	</work_with_certificate>
+	<cd_term_status>
+		<RU>Статус терминала</RU>
+		<UA>Статус терміналу</UA>
+		<EN>Terminal status</EN>
+	</cd_term_status>
+	<name_term_status>
+		<RU>Статус терминала</RU>
+		<UA>Статус терміналу</UA>
+		<EN>Terminal status</EN>
+	</name_term_status>
+	<id_jur_prs>
+		<RU>ИД Товарного Партнера</RU>
+		<UA>ІД Товарноого Партнера</UA>
+		<EN>Commodity Partner ID</EN>
+	</id_jur_prs>
+	<JUR_PRS_NAME>
+		<RU>Торговый Партнер</RU>
+		<UA>Торговый Партнер</UA>
+		<EN>Trade Partner</EN>
+	</JUR_PRS_NAME>
+	<adr_full>
+		<RU>Адрес размещения</RU>
+		<UA>Адреса розміщення</UA>
+		<EN>Location address</EN>
+	</adr_full>
+	<id_bank_branch>
+		<RU>Финансовый эквайр</RU>
+		<UA>Фiнансовий еквайр</UA>
+		<EN>Financial acquirer</EN>
+	</id_bank_branch>
+	<NAME_FINANCE_ACQUIRER>
+		<RU>Финансовый эквайр</RU>
+		<UA>Фiнансовий еквайр</UA>
+		<EN>Financial acquirer</EN>
+	</NAME_FINANCE_ACQUIRER>
+	<date_location>
+		<RU>Дата размещения</RU>
+		<UA>Дата размiщення</UA>
+		<EN>Placement date</EN>
+	</date_location>
+	<date_extract>
+		<RU>Дата изъятия</RU>
+		<UA>Дата вилучення</UA>
+		<EN>Closing date</EN>
+	</date_extract>
+	<t_terminal_feature>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_terminal_feature>
+	<t_sucurity_module>
+		<RU>Модули безопасности</RU>
+		<UA>Модулі безпеки</UA>
+		<EN>SAM</EN>
+	</t_sucurity_module>
+	<t_session_param>
+		<RU>Статистика сеансов</RU>
+		<UA>Статистика сеансiв</UA>
+		<EN>Statistics of sessions</EN>
+	</t_session_param>
+	<t_loyality_params>
+		<RU>Настройки лояльности</RU>
+		<UA>Настройки лояльностi</UA>
+		<EN>Loyalty settings</EN>
+	</t_loyality_params>
+	<t_loyality_bon>
+		<RU>Настройки строк лояльности</RU>
+		<UA>Настройки рядків лояльності</UA>
+		<EN>Loyalty lines settings</EN>
+	</t_loyality_bon>
+	<t_loyality_disc>
+		<RU>Настройки скидки</RU>
+		<UA>Настройки знижки</UA>
+		<EN>Discount settings</EN>
+	</t_loyality_disc>
+	<t_certificates>
+		<RU>Сертификаты</RU>
+		<UA>Сертифікати</UA>
+		<EN>Certificates</EN>
+	</t_certificates>
+	<t_all_session>
+		<RU>Терминальные сессии</RU>
+		<UA>Термiнальнi сесiї</UA>
+		<EN>Terminal sessions</EN>
+	</t_all_session>
+	<max_bonus>
+		<RU>Максимальная сумма начисления баллов</RU>
+		<UA>Максимальна сума нарахування балів</UA>
+		<EN>Maximum amount of points charging</EN>
+	</max_bonus>
+	<min_amount>
+		<RU>Минимальная сумма оплаты деньгами</RU>
+		<UA>Мiнімальна сума оплати грошима</UA>
+		<EN>Minimum amount of paying by money</EN>
+	</min_amount>
+	<max_sumpayoffline>
+		<RU>Максимальная сумма оплаты баллами в OFFLINE</RU>
+		<UA>Максимальна сума оплати балами в OFFLINE</UA>
+		<EN>Maximal amount of paying by points in OFFLINE</EN>
+	</max_sumpayoffline>
+	<max_sumpaynopin>
+		<RU>Максимальная сумма оплаты баллами без ПИН</RU>
+		<UA>Максимальна сума оплати балами без ПIН</UA>
+		<EN>Maximal amount of paing by points without PIN</EN>
+	</max_sumpaynopin>
+	<max_date_onl_term>
+		<RU>Максимальный срок обслуживания карты без ONLINE</RU>
+		<UA>Максимальний термiн обслуговування карти без ONLINE</UA>
+		<EN>Maximal term of card service without ONLINE</EN>
+	</max_date_onl_term>
+	<type_calc>
+		<RU>Тип расчета баллов</RU>
+		<UA>Тип разрахункiв балів</UA>
+		<EN>Type of points calculation</EN>
+	</type_calc>
+	<rounding_rule>
+		<RU>Правило округления данных</RU>
+		<UA>Правило округлення даних</UA>
+		<EN>Rule of data rounding</EN>
+	</rounding_rule>
+	<nincmax>
+		<RU>Максимальное количество транзакций в сборе</RU>
+		<UA>Максимальна кiлькість транзакцiй в зборi</UA>
+		<EN>Maximim quantity of transactions in collection</EN>
+	</nincmax>
+	<ver_telgr>
+		<RU>Версия телеграмм</RU>
+		<UA>Версiя телеграм</UA>
+		<EN>Telegram version</EN>
+	</ver_telgr>
+	<vk_enc>
+		<RU>Версия ключа шифрования телеграмм</RU>
+		<UA>Версiя ключа шифрування телеграм</UA>
+		<EN>Version of telegram encrypt key</EN>
+	</vk_enc>
+	<cash_bon>
+		<RU>Начислять баллы при оплате наличными</RU>
+		<UA>Нараховувати бали при оплатi готiвкою</UA>
+		<EN>Count points if paying by cash</EN>
+	</cash_bon>
+	<resp_time>
+		<RU>Максимальное время ответа для телеграмм</RU>
+		<UA>Максимальний час вiдповiдi для телеграм</UA>
+		<EN>Maximal time of respond for telegram</EN>
+	</resp_time>
+	<crypt_telgr>
+		<RU>Шифровать телеграммы</RU>
+		<UA>Шифрувати телеграми</UA>
+		<EN>Encrypt telegrams</EN>
+	</crypt_telgr>
+	<name_loyality_scheme>
+		<RU>Схема лояльности</RU>
+		<UA>Схема лояльностi</UA>
+		<EN>Loaylty scheme</EN>
+	</name_loyality_scheme>
+	<cd_kind_loyality>
+		<RU>Вид программы лояльности</RU>
+		<UA>Вид програми лояльностi</UA>
+		<EN>Kind of loyalty program</EN>
+	</cd_kind_loyality>
+	<name_kind_loyality>
+		<RU>Вид программы лояльности</RU>
+		<UA>Вид програми лояльностi</UA>
+		<EN>Kind of loyalty program</EN>
+	</name_kind_loyality>
+	<need_sys_lock_name>
+		<RU>Признак системного блокирования</RU>
+		<UA>Ознака системного блокування</UA>
+		<EN>System blocking indicator</EN>
+	</need_sys_lock_name>
+	<need_sys_lock>
+		<RU>Признак системного блокирования</RU>
+		<UA>Ознака системного блокування</UA>
+		<EN>System blocking indicator</EN>
+	</need_sys_lock>
+	<cd_term_type>
+		<RU>Тип терминала</RU>
+		<UA>Тип терміналу</UA>
+		<EN>Terminal type</EN>
+	</cd_term_type>
+	<name_term_type>
+		<RU>Тип терминала</RU>
+		<UA>Тип терміналу</UA>
+		<EN>Terminal type</EN>
+	</name_term_type>
+	<contract_number>
+		<RU>№ договора</RU>
+		<UA>№ договору</UA>
+		<EN>Contract No</EN>
+	</contract_number>
+	<contract_date>
+		<RU>Дата договора</RU>
+		<UA>Дата договору</UA>
+		<EN>Contract No</EN>
+	</contract_date>
+	<contract_desc>
+		<RU>Описание договора</RU>
+		<UA>Опис договору</UA>
+		<EN>Contract description</EN>
+	</contract_desc>
+	<date_last_ses>
+		<RU>Дата последней сессии</RU>
+		<UA>Дата останньої сесiї</UA>
+		<EN>Date of last session</EN>
+	</date_last_ses>
+	<id_sam_last_ses>
+		<RU>SAM последней сессии</RU>
+		<UA>SAM останньої сесiї</UA>
+		<EN>SAM of last session</EN>
+	</id_sam_last_ses>
+	<nt_sam_last_ses>
+		<RU>№ транзакции SAM последней сессии</RU>
+		<UA>№ транзакцiї SAM останньої сесiї</UA>
+		<EN>Last session SAM number</EN>
+	</nt_sam_last_ses>
+	<id_last_ses>
+		<RU>ИД последней сессии</RU>
+		<UA>IД останньої сесiї</UA>
+		<EN>Last session ID</EN>
+	</id_last_ses>
+	<validity_param_last_date>
+		<RU>Срок действия параметров лояльности</RU>
+		<UA>Термiн дiї параметрiв лояльностi</UA>
+		<EN>Loyalty parameters terms duration</EN>
+	</validity_param_last_date>
+	<nt_msg_b_last_ses>
+		<RU>№ сообщения (NT_MSG_B) последней сессии</RU>
+		<UA>№ повiдомлення (NT_MSG_B) останньої сесiї</UA>
+		<EN>Message number (NT_MSG_B) in the last session</EN>
+	</nt_msg_b_last_ses>
+	<is_opened_session>
+		<RU>Сессия открыта?</RU>
+		<UA>Сесiю вiдкрито?</UA>
+		<EN>Is session opened?</EN>
+	</is_opened_session>
+	<date_last_telgr>
+		<RU>Дата последней телеграммы</RU>
+		<UA>Дата останньої телеграми</UA>
+		<EN>Date of the last telegram</EN>
+	</date_last_telgr>
+	<update_param_status>
+		<RU>Статус обновления параметров</RU>
+		<UA>Статус оновлення параметрiв</UA>
+		<EN>Parameters updating status</EN>
+	</update_param_status>
+	<error_messages_cnt>
+		<RU>Количество ошибочных сообщений</RU>
+		<UA>Кiлькість помилкових повiдомлень</UA>
+		<EN>Quantity of error messages</EN>
+	</error_messages_cnt>
+	<last_update_term_status>
+		<RU>Дата обновления статуса</RU>
+		<UA>Дата оновлення статусу</UA>
+		<EN>Date of status updating</EN>
+	</last_update_term_status>
+	<id_shedule>
+		<RU>ИД графика</RU>
+		<UA>IД графiку</UA>
+		<EN>Diargam ID</EN>
+	</id_shedule>
+	<name_loyality_scheme_next>
+		<RU>Следующая схема лояльности</RU>
+		<UA>Наступна схема лояльностi</UA>
+		<EN>Next loyalty scheme</EN>
+	</name_loyality_scheme_next>
+	<validity_param_last_date_next>
+		<RU>Следующая дата окончания действия параметров лояльности</RU>
+		<UA>Наступна дата закiнчення дiї параметрiв лояльностi</UA>
+		<EN>Next expiration date of action of loyalty parameters</EN>
+	</validity_param_last_date_next>
+	<cd_kind_loyality_next>
+		<RU>Следующий вид программы лояльности</RU>
+		<UA>Наступний вид програми лояльностi</UA>
+		<EN>Next kind of loyalty program</EN>
+	</cd_kind_loyality_next>
+	<autosynchronize_loy_param>
+		<RU>Автосинхронизация параметров лояльности</RU>
+		<UA>Автосинхронiзацiя параметрiв лояльностi</UA>
+		<EN>Self-timing of loyalty parameters</EN>
+	</autosynchronize_loy_param>
+	<creating_app_trar_data_date>
+		<RU>Дата создания APP_TPAR_DATA</RU>
+		<UA>Дата створення APP_TPAR_DATA</UA>
+		<EN>Creation date APP_TPAR_DATA</EN>
+	</creating_app_trar_data_date>
+	<id_bank_account>
+		<RU>ИД банковского счета</RU>
+		<UA>IД банкiвського рахунку</UA>
+		<EN>Bank account ID</EN>
+	</id_bank_account>
+	
+	<type_trans>
+		<RU>Тип транзакции</RU>
+		<UA>Тип транзакції</UA>
+		<EN>Transaction type</EN>
+	</type_trans>
+	<l_general>
+		<RU>Основные параметры</RU>
+		<UA>Основнi параметри</UA>
+		<EN>Main parameters</EN>
+	</l_general>
+	<l_contract>
+		<RU>Параметры договора</RU>
+		<UA>Параметри договору</UA>
+		<EN>Contract parameters</EN>
+	</l_contract>
+	<l_loyality>
+		<RU>Параметры лояльности</RU>
+		<UA>Параметри лояльностi</UA>
+		<EN>Loyalty parameters</EN>
+	</l_loyality>
+	<h_terminal_add>
+		<RU>Добавить терминал</RU>
+		<UA>Добавити термiнал</UA>
+		<EN>Add terminal</EN>
+	</h_terminal_add>
+	<h_terminal_edit>
+		<RU>Редактировать параметры терминала</RU>
+		<UA>Редагувати параметри термiналу</UA>
+		<EN>Edit terminal parameters</EN>
+	</h_terminal_edit>
+	<h_sam_add>
+		<ru>Назначение SAM терминалу</ru>
+		<ua>Призначення SAM терминалу</ua>
+		<en>Setting of SAM to terminal</en></h_sam_add>
+	<id_bank_finance_acquirer>
+		<ru>Финансовый эквайр (банк)</ru>
+		<ua>Фінансовий еквайр (банк)</ua>
+		<en>Financial ecquirer (bank)</en></id_bank_finance_acquirer>
+	<id_technical_acquirer>
+		<ru>Технический эквайр</ru>
+		<ua>Технічний еквайр</ua>
+		<en>Tecknical ecquirer</en></id_technical_acquirer>
+	<adr_zip_code>
+		<ru>Почтовый индекс</ru>
+		<ua>Поштовий індекс</ua>
+		<en>ZIP code</en></adr_zip_code>
+	<adr_oblast>
+		<ru>Область</ru>
+		<ua>Область</ua>
+		<en>Region</en></adr_oblast>
+	<adr_district>
+		<ru>Район</ru>
+		<ua>Район</ua>
+		<en>District</en></adr_district>
+	<adr_city>
+		<ru>Населенный пункт</ru>
+		<ua>Населений пункт</ua>
+		<en>Settlement</en></adr_city>
+	<adr_street>
+		<ru>Улица</ru>
+		<ua>Вулиця</ua>
+		<en>Street</en></adr_street>
+	<adr_det>
+		<ru>Детальное размещение</ru>
+		<ua>Детальне розташування</ua>
+		<en>Detailed location</en></adr_det>
+	<code_country>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></code_country>
+	<find_terminals>
+		<ru>Поиск терминала</ru>
+		<ua>Пошук терміналу</ua>
+		<en>Search of terminal</en>
+	</find_terminals>
+	<id_jur_prs_service_place>
+		<ru>Пункт обслуживания</ru>
+		<ua>Пункт обслуговування</ua>
+		<en>Service place</en></id_jur_prs_service_place>
+	<name_service_place>
+		<ru>Пункт обслуживания</ru>
+		<ua>Пункт обслуговування</ua>
+		<en>Service place</en></name_service_place>
+	<description>
+		<ru>Описание</ru>
+		<ua>Опис</ua>
+		<en>Description</en></description>
+	<H_LOYALITY_ADD>
+		<RU>Добавить стандартную схему лояльности (* - обязательные поля)</RU>
+		<UA>Додати стандартну схему лояльності (* - обов'язкові поля)</UA>
+		<EN>Add standard loyalty scheme (* - obligatory lines)</EN>
+	</H_LOYALITY_ADD>
+	<H_LOYALITY_EDIT>
+		<RU>Редактировать стандартную схему лояльности (* - обязательные поля)</RU>
+		<UA>Редагувати стандартну схему лояльності (* - обов'язкові поля)</UA>
+		<EN>Edit standard loyalty scheme (* - obligatory lines)</EN>
+	</H_LOYALITY_EDIT>
+	<H_LOYALITY_COPY>
+		<RU>Копировать стандартную схему лояльности (* - обязательные поля)</RU>
+		<UA>Копіювати стандартну схему лояльності (* - обов'язкові поля)</UA>
+		<EN>Copy standard loyalty scheme (* - obligatory lines)</EN>
+	</H_LOYALITY_COPY>
+	<H_LOYALITY_LINES_ADD>
+		<RU>Добавить строку схемы лояльности (* - обязательные поля)</RU>
+		<UA>Додати рядок схеми лояльності (* - обов'язкові поля)</UA>
+		<EN>Add line of loyality scheme (* - obligatory lines)</EN>
+	</H_LOYALITY_LINES_ADD>
+	<H_LOYALITY_LINES_EDIT>
+		<RU>Редактировать строку схемы лояльности (* - обязательные поля)</RU>
+		<UA>Редагувати рядок схеми лояльності (* - обов'язкові поля)</UA>
+		<EN>Edit standard loyalty scheme line (* - obligatory lines)</EN>
+	</H_LOYALITY_LINES_EDIT>
+	<date_beg>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Beginning date</EN></date_beg>
+	<date_end>
+		<RU>Дата окончания</RU>
+		<UA>Дата завершення</UA>
+		<EN>Ending date</EN></date_end>
+	<bon_bon>
+		<RU>Начислять баллы за платеж бонами</RU>
+		<UA>Нарахувати бали при платежі бонами</UA>
+		<EN>Charge points when pay by bons</EN></bon_bon>
+	<ext_loyl>
+		<RU>Получать суммы лояльности от ЕККА</RU>
+		<UA>Отримувати суми лояльності від ЕККА</UA>
+		<EN>Get loyalty amounts from EKKA</EN></ext_loyl>
+	<tr_limit>
+		<RU>Лимит транзакций МБ</RU>
+		<UA>Ліміт транзакцій МБ</UA>
+		<EN>SAM transactions limit</EN></tr_limit>
+	<detach_sam>
+		<ru>Отменить назначение терминалу SAM</ru>
+		<ua>Відмінити призначення терминалу SAM</ua>
+		<en>Abolish setting to terminal SAM</en></detach_sam>
+	<term_code_page>
+		<RU>Кодовая страница терминала</RU>
+		<UA>Кодова сторінка терміналу</UA>
+		<EN>Terminal code page</EN></term_code_page>
+	<l_work_without_certificate>
+		<RU>Терминал работает без сертификата</RU>
+		<UA>Термінал працює без сертифікату</UA>
+		<EN>Terminal works without certificate</EN></l_work_without_certificate>
+	<l_certificate_not_found>
+		<RU>Сертификат не установлен на терминале</RU>
+		<UA>Сертифікат не встановлено на терміналі</UA>
+		<EN>Certificat is not found on terminal</EN></l_certificate_not_found>
+	<l_current_certificate>
+		<RU>Текущий сертификат</RU>
+		<UA>Поточний сертифікат</UA>
+		<EN>Current certificate</EN></l_current_certificate>
+	<l_next_certificate>
+		<RU>Новый сертификат</RU>
+		<UA>Новий сертифікат</UA>
+		<EN>Next certificate</EN></l_next_certificate>
+	<need_update_certificate>
+		<RU>Обновить сертификат</RU>
+		<UA>Оновити сертифікат</UA>
+		<EN>Update certificate</EN></need_update_certificate>
+	<exist_flag>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exists</EN></exist_flag>
+	<club_registration_date>
+		<RU>Дата регистрации у оператора</RU>
+		<UA>Дата реєстрації у оператора</UA>
+		<EN>Operator registration date</EN></club_registration_date>
+	<term_owner>
+		<RU>Владелец терминала</RU>
+		<UA>Власник термінала</UA>
+		<EN>Terminal's owner</EN></term_owner>
+	<need_update_param>
+		<RU>Обновить параметры терминала</RU>
+		<UA>Оновити параметри терміналу</UA>
+		<EN>Update terminal parameters</EN></need_update_param>
+	<h_term_payment_systems>
+		<RU>Платежные системы, которые обслуживает терминал</RU>
+		<UA>Платіжні системі, які обслуговує термінал</UA>
+		<EN>Terminal payment system</EN></h_term_payment_systems>
+	<l_confirm_update_payment_system>
+		<RU>Внимание!!! Изменение перечня платежных систем затронет ВСЕ терминалы данного типа. Продолжить?</RU>
+		<UA>Увага!!! Зміна переліку платіжних систем вплине на ВСІ термінали даного типу. Продовжити?</UA>
+		<EN>Attention!!! Change of paying systems list will affect all terminals of this type. To continue?</EN></l_confirm_update_payment_system>
+	<cd_param>
+		<RU>Код параметра</RU>
+		<UA>Код параметру</UA>
+		<EN>Parameter CD</EN></cd_param>
+	<value_param>
+		<RU>Значение параметра</RU>
+		<UA>Значення параметру</UA>
+		<EN>Parameter value</EN></value_param>
+		
+	<id_task>
+		<RU>ИД задачи</RU>
+		<UA>ІД завдання</UA>
+		<EN>Task ID</EN></id_task>
+	<type_task>
+		<RU>Тип задачи</RU>
+		<UA>Тип завдання</UA>
+		<EN>Task type</EN>
+	</type_task>
+	<cd_task>
+		<RU>Код задачи</RU>
+		<UA>Task code</UA>
+		<EN>Parameter value</EN></cd_task>
+	<name_task>
+		<RU>Название задачи</RU>
+		<UA>Назва завдання</UA>
+		<EN>Task name</EN></name_task>
+	<name_term_task>
+		<RU>Название задачи на терминале</RU>
+		<UA>Назва завдання на терміналі</UA>
+		<EN>Task name on terminal</EN></name_term_task>
+	<id_task_parent>
+		<RU>ИД родительской задачи</RU>
+		<UA>ІД батьківського завдання</UA>
+		<EN>Parent task ID</EN></id_task_parent>
+	<task_level>
+		<RU>Уровень</RU>
+		<UA>Рівень</UA>
+		<EN>Level</EN></task_level>
+	<is_visible>
+		<RU>Видимо</RU>
+		<UA>Видиме</UA>
+		<EN>Visible</EN></is_visible>
+	<id_exchange_file>
+		<RU>ИД файла обмена</RU>
+		<UA>ІД файлу обміну</UA>
+		<EN>Exchange file ID</EN></id_exchange_file>
+	<cd_exchange_file>
+		<RU>Код файла обмена</RU>
+		<UA>Код файлу обміну</UA>
+		<EN>Exchange file code</EN></cd_exchange_file>
+	<name_exchange_file>
+		<RU>Название файла обмена</RU>
+		<UA>Назва файлу обміну</UA>
+		<EN>Exchange file name</EN></name_exchange_file>
+	<desc_exchange_file>
+		<RU>Описание файла обмена</RU>
+		<UA>Опис файлу обміну</UA>
+		<EN>Exchange file description</EN></desc_exchange_file>
+	<is_input_file>
+		<RU>Входной файл</RU>
+		<UA>Вхідний файл</UA>
+		<EN>Is input file</EN></is_input_file>
+	<db_table_name>
+		<RU>Название таблицы БД</RU>
+		<UA>Назва таблиці БД</UA>
+		<EN>DB table name</EN></db_table_name>
+	<date_beg>
+		<RU>Дата начало действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Begin action date</EN></date_beg>
+	<date_end>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>End action date</EN></date_end>
+		
+	<is_input_file>
+		<RU>Входной файл</RU>
+		<UA>Вхідний файл</UA>
+		<EN>Is input file</EN></is_input_file>
+	<db_table_name>
+		<RU>Таблица БД</RU>
+		<UA>Таблиця БД</UA>
+		<EN>DB table</EN></db_table_name>
+	<delimeter>
+		<RU>Разделитель</RU>
+		<UA>Розділювач</UA>
+		<EN>Delimiter</EN></delimeter>
+	<has_comments>
+		<RU>Есть комментарии</RU>
+		<UA>Має коментарі</UA>
+		<EN>Has comments</EN></has_comments>
+	<has_header>
+		<RU>Есть заголовок</RU>
+		<UA>Має заголовок</UA>
+		<EN>Has header</EN></has_header>
+	<need_log>
+		<RU>Ведется журнал</RU>
+		<UA>Ведеться журнал</UA>
+		<EN>Need log</EN></need_log>
+		
+	<db_column_name>
+		<RU>Поле БД</RU>
+		<UA>Поле БД</UA>
+		<EN>Column name</EN></db_column_name>
+	<h_add_menu>
+		<RU>Добавить меню</RU>
+		<UA>Додати меню</UA>
+		<EN>Add menu</EN></h_add_menu>
+	<h_copy_menu>
+		<RU>Создать копию меню</RU>
+		<UA>Створити копію меню</UA>
+		<EN>Copy menu</EN></h_copy_menu>
+	<h_add_task>
+		<RU>Добавить задачу</RU>
+		<UA>Додати завдання</UA>
+		<EN>Add task</EN></h_add_task>
+	<h_edit_task>
+		<RU>Редактировать параметры задачи</RU>
+		<UA>Редагувати параметри завдання</UA>
+		<EN>Edit task</EN></h_edit_task>
+	<h_delete_task>
+		<RU>Удалить задачу</RU>
+		<UA>Видалити завдання</UA>
+		<EN>Delete task</EN></h_delete_task>
+	<h_add_pattern>
+		<RU>Добавить шаблон обмена</RU>
+		<UA>Додати шаблон обміну</UA>
+		<EN>Add exchange pattern</EN></h_add_pattern>
+	<h_add_pattern_field>
+		<RU>Добавить поле шаблон обмена</RU>
+		<UA>Додати поле шаблон обміну</UA>
+		<EN>Add exchange pattern field</EN></h_add_pattern_field>
+	<h_delete_pattern_field>
+		<RU>Удалить поле</RU>
+		<UA>Видалити поле</UA>
+		<EN>Delete field</EN></h_delete_pattern_field>
+	<h_edit_pattern_field>
+		<RU>Редактировать параметры поля шаблон обмена</RU>
+		<UA>Редагувати параметри поля шаблон обміну</UA>
+		<EN>Edit exchange pattern field</EN></h_edit_pattern_field>
+	<kind_patterns>
+		<RU>Шаблоны</RU>
+		<UA>Шаблони</UA>
+		<EN>Patterns</EN></kind_patterns>
+	<kind_files>
+		<RU>Файлы</RU>
+		<UA>Файли</UA>
+		<EN>Files</EN></kind_files>
+		
+	<id_field>
+		<RU>ИД поля</RU>
+		<UA>ІД поля</UA>
+		<EN>Field ID</EN></id_field>
+	<cd_field>
+		<RU>Код поля</RU>
+		<UA>Код поля</UA>
+		<EN>Field code</EN></cd_field>
+	<name_field>
+		<RU>Название поля</RU>
+		<UA>Назва поля</UA>
+		<EN>Field name</EN></name_field>
+	<format_field>
+		<RU>Класс</RU>
+		<UA>Клас</UA>
+		<EN>Class</EN></format_field>
+	<format_data>
+		<RU>Формат данных</RU>
+		<UA>Формат даних</UA>
+		<EN>Data format</EN></format_data>
+	<order_number>
+		<RU>Порядковый номер</RU>
+		<UA>Порядковий номер</UA>
+		<EN>Order number</EN></order_number>
+	<required>
+		<RU>Обязательное</RU>
+		<UA>Обов'язкове</UA>
+		<EN>Required</EN></required>
+		
+	<id_transfer_record>
+		<RU>ИД передачи</RU>
+		<UA>ІД передачі</UA>
+		<EN>Transfer ID</EN></id_transfer_record>
+	<way_transfer>
+		<RU>Направление</RU>
+		<UA>Напрямок</UA>
+		<EN>Direction</EN></way_transfer>
+	<id_file_transfer>
+		<RU>ИД файла передачи</RU>
+		<UA>ІД файлу передачі</UA>
+		<EN>Transfer file ID</EN></id_file_transfer>
+	<name_file_transfer>
+		<RU>Название файла передачи</RU>
+		<UA>Назва файлу передачі</UA>
+		<EN>Transfer file name</EN></name_file_transfer>
+	<state_file_transfer>
+		<RU>Состояние файла</RU>
+		<UA>Стан файлу</UA>
+		<EN>File state</EN></state_file_transfer>
+	<date_transfer>
+		<RU>Дата передачи</RU>
+		<UA>Дата передавання</UA>
+		<EN>Transfer date</EN></date_transfer>
+	<result_transfer>
+		<RU>Результат</RU>
+		<UA>Результат</UA>
+		<EN>Result</EN></result_transfer>
+	<exist_in_file>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exist</EN></exist_in_file>
+	<format_data_pattern>		
+		<RU>Формат данных</RU>
+		<UA>Формат даних</UA>
+		<EN>Data format</EN></format_data_pattern>
+	<name_source_file>		
+		<RU>Название исходного файла</RU>
+		<UA>Назва вихідного файлу</UA>
+		<EN>Source file name</EN></name_source_file>
+	<error_text>		
+		<RU>Сообщение об ошибках</RU>
+		<UA>Повідомлення про помилки</UA>
+		<EN>Error messages</EN></error_text>
+	<h_patterns_files>		
+		<RU>Шаблоны/Файлы</RU>
+		<UA>Шаблони/Файли</UA>
+		<EN>Patterns/Files</EN></h_patterns_files>
+		
+	<id_dt_menu>		
+		<RU>ИД меню</RU>
+		<UA>ІД меню</UA>
+		<EN>Menu ID</EN></id_dt_menu>
+	<name_dt_menu>		
+		<RU>Название меню</RU>
+		<UA>Назва меню</UA>
+		<EN>Menu name</EN></name_dt_menu>
+	<desc_dt_menu>		
+		<RU>Описание меню</RU>
+		<UA>Опис меню</UA>
+		<EN>Menu description</EN></desc_dt_menu>
+		
+	<h_connection_info>		
+		<RU>Параметры подключения</RU>
+		<UA>Параметри підключення</UA>
+		<EN>Connection parameters</EN></h_connection_info>
+	<id_contact_prs>		
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN></id_contact_prs>
+	<name_contact_prs>		
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN></name_contact_prs>
+	<username_contact_prs>		
+		<RU>Имя пользователя</RU>
+		<UA>Ім'я користувача</UA>
+		<EN>User name</EN></username_contact_prs>
+	<password_contact_prs>		
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN></password_contact_prs>
+</data_terminals>

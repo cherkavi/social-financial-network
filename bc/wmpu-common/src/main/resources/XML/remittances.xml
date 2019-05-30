@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<remittances>
+	<general>
+		<RU>Перевод средств</RU>
+		<UA>Переведення коштів</UA>
+		<EN>Remittance</EN>
+	</general>
+	<id_remittance>
+		<RU>ИД операции</RU>
+		<UA>ІД операції</UA>
+		<EN>Operation ID</EN>
+	</id_remittance>
+	<date_remittance>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</date_remittance>
+	<cd_remittance_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</cd_remittance_type>
+	<name_remittance_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</name_remittance_type>
+	<cd_remittance_state>
+		<RU>Состояние операции</RU>
+		<UA>Стан операції</UA>
+		<EN>Operation state</EN>
+	</cd_remittance_state>
+	<name_remittance_state>
+		<RU>Состояние операции</RU>
+		<UA>Стан операції</UA>
+		<EN>Operation state</EN>
+	</name_remittance_state>
+	<from_participant>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</from_participant>
+	<to_participant>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Recepient</EN>
+	</to_participant>
+	<from_remittance_state>
+		<RU>Плательщик: состояние</RU>
+		<UA>Платник: стан</UA>
+		<EN>Payer: state</EN>
+	</from_remittance_state>
+	<to_remittance_state>
+		<RU>Получатель: состояние</RU>
+		<UA>Отримувач: стан</UA>
+		<EN>Recepient: state</EN>
+	</to_remittance_state>
+	<bal_full>
+		<RU>Сумма операции</RU>
+		<UA>Сума операції</UA>
+		<EN>Operation sum</EN>
+	</bal_full>
+	<basis_of_remittance>
+		<RU>Основание для операции</RU>
+		<UA>Причина операції</UA>
+		<EN>Operation's basis</EN>
+	</basis_of_remittance>
+	<id_sec_monitor>
+		<RU>ИД монитора безопасности</RU>
+		<UA>ІД монітора безпеки</UA>
+		<EN>Security monitor ID</EN>
+	</id_sec_monitor>
+	
+	<participant_cash>
+		<RU>Касса Оператора</RU>
+		<UA>Каса Оператора</UA>
+		<EN>Operator''s cash desc</EN>
+	</participant_cash>
+	
+	
+	<h_remittance_add>
+		<RU>Перевод средств</RU>
+		<UA>Переведення коштів</UA>
+		<EN>Remittance</EN>
+	</h_remittance_add>
+	<h_remittance_delete>
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN>
+	</h_remittance_delete>
+	<h_posting_delete>
+		<RU>Удалить проводки по переводу средств</RU>
+		<UA>Видалити проведення з переведення коштів</UA>
+		<EN>Delete entries for remittance</EN>
+	</h_posting_delete>
+	<LAB_ADD_POSTING>
+		<RU>Добавить проводку</RU>
+		<UA>Додати проводку</UA>
+		<EN>Add entry</EN>
+	</LAB_ADD_POSTING>
+	<LAB_EDIT_POSTING>
+		<RU>Редактировать параметры проводки</RU>
+		<UA>Редагувати параметри проводки</UA>
+		<EN>Edit entry</EN>
+	</LAB_EDIT_POSTING>
+	<LAB_DELETE_ALL_POSTINGS>
+		<RU>Удалить все проводки для перевода средств</RU>
+		<UA>Видалити всі проведення для переведення коштів</UA>
+		<EN>Delete all remittance entries</EN>
+	</LAB_DELETE_ALL_POSTINGS>
+	<LAB_DELETE_ONE_POSTING>
+		<RU>Удалить проводку</RU>
+		<UA>Видалити проводку</UA>
+		<EN>Delete entry</EN>
+	</LAB_DELETE_ONE_POSTING>
+</remittances>

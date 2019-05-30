@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<daily_rates>
+	<general>
+		<RU>Валюты</RU>
+		<UA>Валюти</UA>
+		<EN>Currency</EN>
+	</general>
+	<to_currency>
+		<RU>Конвертировать в (код валюты)</RU>
+		<UA>Конвертувати до (код валюти)</UA>
+		<EN>Convert to (currency code)</EN>
+	</to_currency>
+	<to_currency_name>
+		<RU>Конвертировать в (название валюты)</RU>
+		<UA>Конвертувати до (назва валюти)</UA>
+		<EN>Convert to (currency code)</EN>
+	</to_currency_name>
+	<conversion_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</conversion_date>
+	<conversion_type>
+		<RU>За сколько</RU>
+		<UA>За скільки</UA>
+		<EN>For how much</EN>
+	</conversion_type>
+	<conversion_rate>
+		<RU>Обменный курс</RU>
+		<UA>Курс обміну</UA>
+		<EN>Exchange rate</EN>
+	</conversion_rate>
+	<src_data>
+		<RU>Источник данных</RU>
+		<UA>Джерело даних</UA>
+		<EN>Data source</EN>
+	</src_data>
+	<h_rate_add>
+		<ru>Добавить обменный курс (* - обязательные поля)</ru>
+		<ua>Додати курс обміну (* - обов'язкові поля)</ua>
+		<en>Add exchange rate (* - obligatory lines)</en></h_rate_add>
+	<h_rate_edit>
+		<ru>Редактировать обменный курс (* - обязательные поля)</ru>
+		<ua>Редагувати курс обміну (* - обов'язкові поля)</ua>
+		<en>Edit exchange rate (* - obligatory lines)</en></h_rate_edit>
+	<from_currency>
+		<ru>Конвертировать из</ru>
+		<ua>Конвертувати з</ua>
+		<en>Convert from</en></from_currency>
+	<h_rate_remove>
+		<ru>Удалить обменный курс</ru>
+		<ua>Видалити курс обміну </ua>
+		<en>Delete exchange rate</en></h_rate_remove>
+	<src_data>
+		<ru>Источник данных</ru>
+		<ua>Джерело даних</ua>
+		<en>Data source</en></src_data>
+</daily_rates>
+

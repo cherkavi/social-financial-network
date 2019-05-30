@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sam>	
+	<general>
+		<RU>Модули безопасности</RU>
+		<UA>Модулі безпеки</UA>
+		<EN>Security modules</EN></general>
+	<ID_SAM>
+		<ua>Номер МБ</ua>
+		<ru>Номер МБ</ru>
+		<en>SAM number</en>
+	</ID_SAM>
+	<id_sam_hex>
+		<RU>Номер МБ (HEX)</RU>
+		<UA>Номер МБ (HEX)</UA>
+		<EN>SAM number (HEX)</EN>
+	</id_sam_hex>
+	<ID_TERM>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en></ID_TERM>
+	<CD_SAM_STATUS>
+		<ru>Состояние МБ</ru>
+		<ua>Стан МБ</ua>
+		<en>SAM state</en></CD_SAM_STATUS>
+	<NAME_SAM_STATUS>
+		<ru>Состояние МБ</ru>
+		<ua>Стан МБ</ua>
+		<en>SAM state</en></NAME_SAM_STATUS>
+	<NT_SAM_LAST_SES>
+		<ru>№ последней транзакции</ru>
+		<ua>№ останньої транзакції</ua>
+		<en>Last transaction number</en></NT_SAM_LAST_SES>
+	<CD_SAM_TYPE>
+		<ru>Код типа МБ</ru>
+		<ua>Код типу МБ</ua>
+		<en>SAM type code</en></CD_SAM_TYPE>
+	<NAME_SAM_TYPE>
+		<ru>Тип МБ</ru>
+		<ua>Тип МБ</ua>
+		<en>SAM type</en></NAME_SAM_TYPE>
+	<EXPIRY_DATE>
+		<ru>Дата окончания действия МБ</ru>
+		<ua>Дата закінчення дії МБ</ua>
+		<en>SAM expiration date</en></EXPIRY_DATE>
+	<t_card_info>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en>
+	</t_card_info>
+	<terminal>
+		<ru>Терминал</ru>
+		<ua>Термінал</ua>
+		<en>Terminal</en>
+	</terminal>
+	<name_terminal_type>
+		<ru>Тип терминала</ru>
+		<ua>Тип терміналу</ua>
+		<en>Terminal type</en>
+	</name_terminal_type>
+	<name_terminal_status>
+		<ru>Статус терминала</ru>
+		<ua>Статус терміналу</ua>
+		<en>Terminal status</en>
+	</name_terminal_status>
+	<user>
+		<ru>Пользователь, которому выдана карта</ru>
+		<ua>Користувач, якому видано карту</ua>
+		<en>User to which card given out </en>
+	</user>	
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<ID_USER>
+		<ru>Код</ru>
+		<ua>Код</ua>
+		<en>Code</en></ID_USER>
+	<NAME_USER>
+		<ru>Пользователь</ru>
+		<ua>Користувач</ua>
+		<en>User</en></NAME_USER>
+	<DESC_USER>
+		<ru>Описание</ru>
+		<ua>Опис</ua>
+		<en>Description</en></DESC_USER>
+	<NAME_ROLE>
+		<ru>Роль</ru>
+		<ua>Роль</ua>
+		<en>Role</en></NAME_ROLE>
+	<USER_DATE_BEG>
+		<ru>Действует: с</ru>
+		<ua>Діє: з </ua>
+		<en>Operates: from</en></USER_DATE_BEG>
+	<USER_DATE_END>
+		<ru>по</ru>
+		<ua>по</ua>
+		<en>to</en></USER_DATE_END>
+	<SAM_SERIAL_NUMBER>
+		<RU>Серийный номер МБ</RU>
+		<UA>Серійний номер МБ</UA>
+		<EN>SAM serial number</EN></SAM_SERIAL_NUMBER>
+	<VK_SYS_KEY_SAM>
+		<RU>Версия ключа</RU>
+		<UA>Версія ключа</UA>
+		<EN>Key version</EN></VK_SYS_KEY_SAM>
+	<vk_sys_key_sam_current>
+		<RU>Текущая версия ключа</RU>
+		<UA>Поточна версія ключа</UA>
+		<EN>Current key version</EN></vk_sys_key_sam_current>
+	<nc>
+		<RU>№ последнего сбора</RU>
+		<UA>№ останнього збору</UA>
+		<EN>Last collection number</EN></nc>
+	<exist_flag>
+		<RU>Существует?</RU>
+		<UA>Існує?</UA>
+		<EN>Exists?</EN></exist_flag>
+	<last_update_sam_status_date>
+		<RU>Дата последнего обновления статуса</RU>
+		<UA>Дата останнього оновлення статусу</UA>
+		<EN>Last update status date</EN></last_update_sam_status_date>
+	<club_registration_date>
+		<ru>Дата регистрации в СМПУ</ru>
+		<ua>Дата реєстрації в ММПО</ua>
+		<en>Date of registration in SMPU</en></club_registration_date>
+	<assign_term_date_beg>
+		<ru>Дата назначения терминалу</ru>
+		<ua>Дата призначення терміналу</ua>
+		<en>Setting to terminal date</en></assign_term_date_beg>
+	<assign_term_date_end>
+		<ru>Дата изъятия из терминала</ru>
+		<ua>Дата вилучення з терміналу</ua>
+		<en>Date of withdrawal from the terminal</en></assign_term_date_end>
+	<name_term_type>
+		<RU>Тип терминала</RU>
+		<UA>Тип терміналу</UA>
+		<EN>Terminal type</EN>
+	</name_term_type>
+	<h_terminal>
+		<RU>Назначение терминалу</RU>
+		<UA>Призначення терміналу</UA>
+		<EN>Terminal</EN>
+	</h_terminal>
+	<h_user>
+		<RU>Назначение пользователю</RU>
+		<UA>Призначення користувачу</UA>
+		<EN>User</EN>
+	</h_user>
+	<h_operator>
+		<RU>Регистрация в паевом учете</RU>
+		<UA>Реєстрація в паєвому обліку</UA>
+		<EN>Registration in share accounting</EN>
+	</h_operator>
+	<h_add_sam>
+		<RU>Добавить SAM</RU>
+		<UA>Додати SAM</UA>
+		<EN>Add SAM</EN>
+	</h_add_sam>
+</sam>

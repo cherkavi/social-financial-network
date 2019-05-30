@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<general>
+		<RU>События</RU>
+		<UA>Події</UA>
+		<EN>Events</EN></general>
+	<t_features>
+		<ru>Информация о событии</ru>
+		<ua>Інформація про подію</ua>
+	    <en>Event information</en>
+	</t_features>   
+	<ID_EVENT>
+    	<ru>ИД события</ru>
+		<ua>ІД події</ua>
+	    <en>Event ID</en></ID_EVENT>
+	<DESC_EVENT_TYPE>
+		<ru>Тип события</ru>
+		<ua>Тип події</ua>
+	    <en>Event Type</en></DESC_EVENT_TYPE>
+	<DESC_EVENT>
+		<ru>Описание события</ru>
+		<ua>Опис події</ua>
+	    <en>Event description</en></DESC_EVENT>
+	<PARAM_EVENT>
+    	<ru>Параметры события</ru>
+		<ua>Параметри події</ua>
+	    <en>Event parameters</en></PARAM_EVENT>
+	<CREATION_DATE>
+		<ru>Дата создания</ru>
+		<ua>Дата створення</ua>
+	    <en>Creation date</en> 	</CREATION_DATE>
+	<CREATED_BY>
+		<ru>Создал</ru>
+		<ua>Cтворено</ua>
+	    <en>Created by</en></CREATED_BY>
+	<t_delete_event>
+		<ru>Удалить событие</ru>
+		<ua>Видалити подію</ua>
+	    <en>Delete event</en></t_delete_event>
+	<t_events_not_selected>
+		<ru>Не отмечены события для удаления</ru>
+		<ua>Не вибрані події для видалення</ua>
+	    <en>Events for removal are noted</en></t_events_not_selected>
+	<t_confirm_delete>
+		<ru>Вы действительно хотите удалить выбранные события</ru>
+		<ua>Ви дійсно хочете видалити вибрані події</ua>
+	    <en>You really wish to remove the chosen events</en></t_confirm_delete>
+	<h_delete_event_for_pattern>
+		<ru>Удаление событий по условию</ru>
+		<ua>Видалення подій по умові</ua>
+	    <en>Delete events for pattern</en></h_delete_event_for_pattern>
+	<delete_pattern>
+		<ru>Шаблон для удаления</ru>
+		<ua>Шаблон для видалення</ua>
+	    <en>Delete pattern</en></delete_pattern>
+</events>
+	       		      

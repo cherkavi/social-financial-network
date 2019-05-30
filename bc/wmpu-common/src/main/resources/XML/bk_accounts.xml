@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<bk_accounts>
+	<general>
+		<RU>План счетов</RU>
+		<UA>План рахунків</UA>
+		<EN>Business accounts</EN>
+	</general>
+	<cd_bk_account>
+		<RU>Счет</RU>
+		<UA>Рахунок</UA>
+		<EN>Account</EN>
+	</cd_bk_account>
+	<name_bk_account>
+		<RU>Название счета</RU>
+		<UA>Назва рахунку</UA>
+		<EN>Account name</EN>
+	</name_bk_account>
+	<desc_bk_account>
+		<RU>Описание счета</RU>
+		<UA>Опис рахунку</UA>
+		<EN>Account description</EN>
+	</desc_bk_account>
+	<cd_bk_account_parent>
+		<RU>Счет группы</RU>
+		<UA>Рахунок групи</UA>
+		<EN>Group account</EN>
+	</cd_bk_account_parent>
+	<is_group>
+		<RU>Группирующий</RU>
+		<UA>Групуючий</UA>
+		<EN>Grouping</EN>
+	</is_group>
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<h_bk_accounts_add>
+		<RU>Добавить бухгалтерский счет</RU>
+		<UA>Додати бухгалтерський рахунок</UA>
+		<EN>Add business account</EN>
+	</h_bk_accounts_add>
+	<h_bk_accounts_edit>
+		<RU>Редактировать бухгалтерский счет</RU>
+		<UA>Редагувати бухгалтерський счет</UA>
+		<EN>Edit business account</EN>
+	</h_bk_accounts_edit>
+	<t_bk_accounts>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_bk_accounts>
+	<id_bk_account>
+		<ru>ИД счета</ru>
+		<ua>ІД рахунка</ua>
+		<en>Account ID</en></id_bk_account>
+	<internal_name_bk_account>
+		<ru>Внутреннее название</ru>
+		<ua>Внутрішня назва</ua>
+		<en>Internal name</en></internal_name_bk_account>
+	<id_bk_account_type>
+		<ru>Тип бухгалтерского счета</ru>
+		<ua>Тип бухгалтерського рахунку</ua>
+		<en>Business account type</en></id_bk_account_type>
+	<name_bk_account_type>
+		<ru>Тип бухгалтерского счета</ru>
+		<ua>Тип бухгалтерського рахунку</ua>
+		<en>Business account type</en></name_bk_account_type>
+	<zero_amounts_allowed>
+		<ru>Создавать нулевые проводки</ru>
+		<ua>Створювати нульові проведення</ua>
+		<en>Create zero entries</en></zero_amounts_allowed>
+	<id_bank_account>
+		<ru>Банковский счет</ru>
+		<ua>Банківський рахунок</ua>
+		<en>Bank account</en></id_bank_account>
+	<id_in_segment>
+		<RU>Сегмент, содержащий ИД</RU>
+		<UA>Сегмент, що містить ІД</UA>
+		<EN>Segment, containing ID</EN></id_in_segment>
+	<cd_participant>
+		<RU>Тип участника в сегменте ИД</RU>
+		<UA>Тип учасника в сегменті ІД</UA>
+		<EN>Participant type in ID segment</EN></cd_participant>
+	<name_participant>
+		<RU>Тип участника в сегменте ИД</RU>
+		<UA>Тип учасника в сегменті ІД</UA>
+		<EN>Participant type in ID segment</EN>
+	</name_participant>
+	<segment1>
+		<RU>Сегмент 1</RU>
+		<UA>Сегмент 1</UA>
+		<EN>Segment 1</EN>
+	</segment1>
+	<segment2>
+		<RU>Сегмент 2</RU>
+		<UA>Сегмент 2</UA>
+		<EN>Segment 2</EN>
+	</segment2>
+	<segment3>
+		<RU>Сегмент 3</RU>
+		<UA>Сегмент 3</UA>
+		<EN>Segment 3</EN>
+	</segment3>
+	<segment4>
+		<RU>Сегмент 4</RU>
+		<UA>Сегмент 4</UA>
+		<EN>Segment 4</EN>
+	</segment4>
+	<segment5>
+		<RU>Сегмент 5</RU>
+		<UA>Сегмент 5</UA>
+		<EN>Segment 5</EN>
+	</segment5>
+	<segment6>
+		<RU>Сегмент 6</RU>
+		<UA>Сегмент 6</UA>
+		<EN>Segment 6</EN>
+	</segment6>
+	<segment7>
+		<RU>Сегмент 7</RU>
+		<UA>Сегмент 7</UA>
+		<EN>Segment 7</EN>
+	</segment7>
+	<segment8>
+		<RU>Сегмент 8</RU>
+		<UA>Сегмент 8</UA>
+		<EN>Segment 8</EN>
+	</segment8>
+	<segment9>
+		<RU>Сегмент 9</RU>
+		<UA>Сегмент 9</UA>
+		<EN>Segment 9</EN>
+	</segment9>
+	<segment10>
+		<RU>Сегмент 10</RU>
+		<UA>Сегмент 10</UA>
+		<EN>Segment 10</EN>
+	</segment10>
+	<segment11>
+		<RU>Сегмент 11</RU>
+		<UA>Сегмент 11</UA>
+		<EN>Segment 12</EN>
+	</segment11>
+	<segment12>
+		<RU>Сегмент 12</RU>
+		<UA>Сегмент 12</UA>
+		<EN>Segment 12</EN>
+	</segment12>
+	<segment13>
+		<RU>Сегмент 13</RU>
+		<UA>Сегмент 13</UA>
+		<EN>Segment 13</EN>
+	</segment13>
+	<segment14>
+		<RU>Сегмент 14</RU>
+		<UA>Сегмент 14</UA>
+		<EN>Segment 14</EN>
+	</segment14>
+	<segment15>
+		<RU>Сегмент 15</RU>
+		<UA>Сегмент 15</UA>
+		<EN>Segment 15</EN>
+	</segment15>
+	<id_bk_account_scheme>
+		<RU>Строка настроек</RU>
+		<UA>Рядок настроювань</UA>
+		<EN>Tuning line</EN>
+	</id_bk_account_scheme>
+	<exist_flag>
+		<RU>Существует</RU>
+		<UA>Існує</UA>
+		<EN>Exists</EN>
+	</exist_flag>
+	<h_delete_all>
+		<RU>Удалить все бух.счета</RU>
+		<UA>Видалити всі бух.рахунки</UA>
+		<EN>Delete all accounts</EN>
+	</h_delete_all>
+	<h_delete_bk_account>
+		<RU>Удалить бух.счет</RU>
+		<UA>Видалити бух.рахунок</UA>
+		<EN>Delete account</EN>
+	</h_delete_bk_account>
+	
+	<begin_balance>
+		<RU>Сальдо на начало</RU>
+		<UA>Сальдо на початок</UA>
+		<EN>Begin balance</EN>
+	</begin_balance>
+	<accounting_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</accounting_date>
+	<rests>
+		<RU>Обороты</RU>
+		<UA>Обороти</UA>
+		<EN>Turn of money</EN>
+	</rests>
+	<end_balance>
+		<RU>Сальдо на конец</RU>
+		<UA>Сальдо на кінець</UA>
+		<EN>End balance</EN>
+	</end_balance>
+	<debet_amount>
+		<RU>Дебет</RU>
+		<UA>Дебет</UA>
+		<EN>Debet</EN>
+	</debet_amount>
+	<credit_amount>
+		<RU>Кредит</RU>
+		<UA>Кредит</UA>
+		<EN>Credit</EN>
+	</credit_amount>
+	
+	<h_begin_period>
+		<RU>Период: с</RU>
+		<UA>Період: з</UA>
+		<EN>Period: from</EN>
+	</h_begin_period>
+	<h_end_period>
+		<RU>по</RU>
+		<UA>по</UA>
+		<EN>to</EN>
+	</h_end_period>
+	<h_begin_period_full>
+		<RU>Начало периода</RU>
+		<UA>Початок періода</UA>
+		<EN>Begin period</EN>
+	</h_begin_period_full>
+	<h_end_period_full>
+		<RU>Окончание периода</RU>
+		<UA>Кінець періода</UA>
+		<EN>End period</EN>
+	</h_end_period_full>
+	<h_bank_account>
+		<RU>Банковский счет:</RU>
+		<UA>Банківський рахунок:</UA>
+		<EN>Bank account:</EN>
+	</h_bank_account>
+	<h_find_string>
+		<RU>Строка поиска:</RU>
+		<UA>Рядок пошуку:</UA>
+		<EN>Find string:</EN>
+	</h_find_string>
+	<h_calc_rests>
+		<RU>Пересчитать остатки</RU>
+		<UA>Вирахувати залишки</UA>
+		<EN>Calculate rests</EN>
+	</h_calc_rests>
+	<name_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</name_currency>
+</bk_accounts>

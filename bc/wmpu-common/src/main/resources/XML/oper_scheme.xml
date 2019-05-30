@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<oper_scheme>
+	<general>
+		<RU>Схема операций</RU>
+		<UA>Схема операцій</UA>
+		<EN>Scheme of operations</EN>
+	</general>
+	<id_fn_oper_scheme>
+		<RU>ИД схемы</RU>
+		<UA>ІД схеми</UA>
+		<EN>Scheme ID</EN>
+	</id_fn_oper_scheme>
+	<cd_fn_oper_scheme>
+		<RU>Код схемы</RU>
+		<UA>Код схеми</UA>
+		<EN>Scheme code</EN>
+	</cd_fn_oper_scheme>
+	<name_fn_oper_scheme>
+		<RU>Название схемы</RU>
+		<UA>Назва схеми</UA>
+		<EN>Scheme name</EN>
+	</name_fn_oper_scheme>
+	<desc_fn_oper_scheme>
+		<RU>Описание схемы</RU>
+		<UA>Опис схеми</UA>
+		<EN>Scheme description</EN>
+	</desc_fn_oper_scheme>
+	<note_fn_oper_scheme>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN>
+	</note_fn_oper_scheme>
+	<cd_fn_oper_exec_type>
+		<RU>Тип выполнения</RU>
+		<UA>Тип виконання</UA>
+		<EN>Execution type</EN>
+	</cd_fn_oper_exec_type>
+	<name_fn_oper_exec_type>
+		<RU>Тип выполнения</RU>
+		<UA>Тип виконання</UA>
+		<EN>Execution type</EN>
+	</name_fn_oper_exec_type>
+	<cd_fn_oper_state>
+		<RU>Состояние схемы</RU>
+		<UA>Стан схеми</UA>
+		<EN>Scheme state</EN>
+	</cd_fn_oper_state>
+	<name_fn_oper_state>
+		<RU>Состояние схемы</RU>
+		<UA>Стан схеми</UA>
+		<EN>Scheme state</EN>
+	</name_fn_oper_state>
+	<is_system_oper>
+		<RU>Системная операция</RU>
+		<UA>Системна операція</UA>
+		<EN>System operation</EN>
+	</is_system_oper>
+	
+	<id_fn_oper_scheme_line>
+		<RU>ИД операции</RU>
+		<UA>ІД операції</UA>
+		<EN>Operation ID</EN>
+	</id_fn_oper_scheme_line>
+	<desc_fn_oper_scheme_line>
+		<RU>Описание операции</RU>
+		<UA>Опис операції</UA>
+		<EN>Operation description</EN>
+	</desc_fn_oper_scheme_line>
+	<note_fn_oper_scheme_line>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN>
+	</note_fn_oper_scheme_line>
+	<order_number>
+		<RU>Порядок выполнения</RU>
+		<UA>Порядок виконання</UA>
+		<EN>Order number</EN>
+	</order_number>
+	<cd_fn_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</cd_fn_oper_type>
+	<name_fn_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</name_fn_oper_type>
+	<full_name_fn_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</full_name_fn_oper_type>
+</oper_scheme>

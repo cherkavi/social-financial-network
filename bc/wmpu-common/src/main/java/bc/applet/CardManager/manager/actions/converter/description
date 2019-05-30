@@ -1,0 +1,9 @@
+Данный пакет содержит классы, которые отвечают за конвертацию переданных им объектов
+Предок этих классов: 
+	ActionStepConverter
+имеет только один вызываемый метод Converter, который переопределен во всех потомках
+
+ConverterByteArrayToString
+ConverterIntToString
+ConverterStringToByteArray
+ConverterSubString

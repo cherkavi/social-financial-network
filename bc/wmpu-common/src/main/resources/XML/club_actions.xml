@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<club_events>
+	<general>
+		<RU>Акции</RU>
+		<UA>Акції</UA>
+		<EN>Events</EN>
+	</general>
+	<gifts>
+		<RU>Подарки</RU>
+		<UA>Подарунки</UA>
+		<EN>Gifts</EN>
+	</gifts>
+	<id_club_event>
+		<RU>ИД акции</RU>
+		<UA>ІД акції</UA>
+		<EN>Event ID</EN>
+	</id_club_event>
+	<cd_club_event_type>
+		<RU>Тип акции</RU>
+		<UA>Тип акції</UA>
+		<EN>Event type</EN>
+	</cd_club_event_type>
+	<name_club_event_type>
+		<RU>Тип акции</RU>
+		<UA>Тип акції</UA>
+		<EN>Event type</EN>
+	</name_club_event_type>
+	<cd_club_event_state>
+		<RU>Состояние акции</RU>
+		<UA>Стан акції</UA>
+		<EN>Event state</EN>
+	</cd_club_event_state>
+	<name_club_event_state>
+		<RU>Состояние акции</RU>
+		<UA>Стан акції</UA>
+		<EN>Event state</EN>
+	</name_club_event_state>
+	<name_club_event>
+		<RU>Название акции</RU>
+		<UA>Назва акції</UA>
+		<EN>Event name</EN>
+	</name_club_event>
+	<desc_action_club>
+		<RU>Описание акции</RU>
+		<UA>Опис акції</UA>
+		<EN>Event description</EN>
+	</desc_action_club>
+	
+	<can_send_nat_person>
+		<RU>Отправлять информацию пайщикам</RU>
+		<UA>Відправляти інформацію пайовикам</UA>
+		<EN>Send information to shareholder</EN>
+	</can_send_nat_person>
+	<can_send_jur_person>
+		<RU>Отправлять информацию Товарным Партнерам</RU>
+		<UA>Відправляти інформацію Товарним Партнерам</UA>
+		<EN>Send information to Commodity Partners</EN>
+	</can_send_jur_person>
+	<can_send_bank>
+		<RU>Отправлять информацию банкам</RU>
+		<UA>Відправляти інформацію банкам</UA>
+		<EN>Send information to banks</EN>
+	</can_send_bank>
+	<t_parameters>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></t_parameters>
+	<date_beg>
+		<ru>Дата начала акции</ru>
+		<ua>Дата початку акції</ua>
+		<en>Event beginning date</en></date_beg>
+	<date_end>
+		<ru>Дата окончания акции</ru>
+		<ua>Дата закінчення акції</ua>
+		<en>Event ending date</en></date_end>
+	<gift>
+		<ru>Подарок</ru>
+		<ua>Подарунок</ua>
+		<en>Gift</en></gift>
+	<gift_from_catalog>
+		<ru>Подарок из каталога</ru>
+		<ua>Подарунок з каталогу</ua>
+		<en>Gift from catalog</en></gift_from_catalog>
+	<id_gift>
+		<ru>ИД подарка</ru>
+		<ua>ІД подарунка</ua>
+		<en>Gift ID</en></id_gift>
+	<cd_gift>
+		<ru>Код подарка</ru>
+		<ua>Код подарунка</ua>
+		<en>Gift code</en></cd_gift>
+	<name_gift>
+		<ru>Название подарка</ru>
+		<ua>Назва подарунка</ua>
+		<en>Gift name</en></name_gift>
+	<desc_gift>
+		<ru>Описание подарка</ru>
+		<ua>Опис подарунка</ua>
+		<en>Gift description</en></desc_gift>
+	<cd_gift_type>
+		<ru>Тип подарка</ru>
+		<ua>Тип подарунка</ua>
+		<en>Gift type</en></cd_gift_type>
+	<name_gift_type>
+		<ru>Тип подарка</ru>
+		<ua>Тип подарунка</ua>
+		<en>Gift type</en></name_gift_type>
+	<count_gifts>
+		<ru>Количество всего</ru>
+		<ua>Кількість всього</ua>
+		<en>Totally quantity</en></count_gifts>
+	<count_gift_all>
+		<ru>Количество всего</ru>
+		<ua>Кількість всього</ua>
+		<en>Totally quantity</en></count_gift_all>
+	<count_gift_remain>
+		<ru>Осталось</ru>
+		<ua>Залишились</ua>
+		<en>Remaining</en></count_gift_remain>
+	<count_gift_reserved>
+		<ru>Зарезервировано</ru>
+		<ua>Зарезервовано</ua>
+		<en>Reserved</en></count_gift_reserved>
+	<count_gift_given>
+		<ru>Выдано</ru>
+		<ua>Видано</ua>
+		<en>Given</en></count_gift_given>
+	<count_gift_returned>
+		<ru>Возвращено</ru>
+		<ua>Повернено</ua>
+		<en>Returned</en></count_gift_returned>
+	<bal_count>
+		<ru>Сумма баллов</ru>
+		<ua>Сумма балів</ua>
+		<en>Amount of points</en></bal_count>
+	<is_active>
+		<ru>Активно</ru>
+		<ua>Активно</ua>
+		<en>Active</en></is_active>
+	<t_gifts>
+		<ru>Подарки</ru>
+		<ua>Подарунки</ua>
+		<en>Gifts</en></t_gifts>
+	<t_realization>
+		<ru>Проведение акции</ru>
+		<ua>Проведення акції</ua>
+		<en>Events providing</en></t_realization>
+	<review_count>
+		<ru>Количество повторов</ru>
+		<ua>Кількість повторів</ua>
+		<en>Quantity of reduplication</en></review_count>
+	<t_winners>
+		<ru>Победители</ru>
+		<ua>Переможці</ua>
+		<en>Winners</en></t_winners>
+	<cost_gift>
+		<ru>Стоимость подарка</ru>
+		<ua>Вартість подарунка</ua>
+		<en>Gift cost</en></cost_gift>
+	<cost_one_gift>
+		<ru>Стоимость за единицу</ru>
+		<ua>Вартість одиниці</ua>
+		<en>One gift cost</en></cost_one_gift>
+	<cost_one_ca_gift>
+		<ru>Стоимость из каталога</ru>
+		<ua>Вартість з каталогу</ua>
+		<en>Cost from catalog</en></cost_one_ca_gift>
+	<t_estimate>
+		<ru>Оценка акции</ru>
+		<ua>Оцінка акції</ua>
+		<en>Event estimation</en></t_estimate>
+	<id_club_event_estim_crit>
+		<ru>Критерий оценки</ru>
+		<ua>Критерій оцінки</ua>
+		<en>Estimation criterion</en></id_club_event_estim_crit>
+	<name_club_event_estim_crit>
+		<ru>Критерий оценки</ru>
+		<ua>Критерій оцінки</ua>
+		<en>Estimation criterion</en></name_club_event_estim_crit>
+	<value_criterion>
+		<ru>Значение критерия</ru>
+		<ua>Значення критерію</ua>
+		<en>Value of criterion</en></value_criterion>
+	<note_action>
+		<ru>Примечания</ru>
+		<ua>Примітки</ua>
+		<en>Notes</en></note_action>
+	<h_action_add>
+		<ru>Добавить акцию</ru>
+		<ua>Додати акцію</ua>
+		<en>Add to event</en></h_action_add>
+	<h_action_edit>
+		<ru>Редактировать параметры кации</ru>
+		<ua>Редагувати параметри акції</ua>
+		<en>Edit parameters of event</en></h_action_edit>
+	<h_realization_add>
+		<ru>Добавить период проведения акции</ru>
+		<ua>Додати період проведення акції</ua>
+		<en>Add period of event providing</en></h_realization_add>
+	<h_realization_edit>
+		<ru>Редактировать период проведения акции</ru>
+		<ua>Редагувати період проведення акції</ua>
+		<en>Edit period of event providing</en></h_realization_edit>
+	<h_gift_add>
+		<ru>Добавить подарок акции</ru>
+		<ua>Додати подарунок акції</ua>
+		<en>Add gift of event</en></h_gift_add>
+	<h_gift_edit>
+		<ru>Редактировать параметры подарка акции</ru>
+		<ua>Редагувати параметри подарунка акції</ua>
+		<en>Edit parameters of event gift</en></h_gift_edit>
+	<h_winner_add>
+		<ru>Добавить победителя акции</ru>
+		<ua>Додати переможця акції</ua>
+		<en>Добавить победителя акции</en></h_winner_add>
+	<h_winner_edit>
+		<ru>Редактировать параметры победителя акции</ru>
+		<ua>Редагувати параметри переможця акції</ua>
+		<en>Edit parameters of event winner</en></h_winner_edit>
+	<h_estimate_add>
+		<ru>Добавить оценку акции</ru>
+		<ua>Додати оцінку акції</ua>
+		<en>Add estimation of event</en></h_estimate_add>
+	<h_estimate_edit>
+		<ru>Редактировать оценку акции</ru>
+		<ua>Редагувати оцінку акції</ua>
+		<en>Edit estimation of event</en></h_estimate_edit>
+	<id_club_event_realization>
+		<ru>ИД проведения</ru>
+		<ua>ІД проведення</ua>
+		<en>Providing ID</en></id_club_event_realization>
+	<period_realization>
+		<ru>Период проведения</ru>
+		<ua>Період проведення</ua>
+		<en>Providing period</en></period_realization>
+	<exist_flag>
+		<ru>Существует</ru>
+		<ua>Існує</ua>
+		<en>Exists</en></exist_flag>
+	<cd_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></cd_currency>
+	<name_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></name_currency>
+	<sname_currency>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en></sname_currency>
+	<h_delete_action>
+		<ru>Удалить акцию</ru>
+		<ua>Видалити акцію</ua>
+		<en>Delete event</en></h_delete_action>
+	<h_delete_realization>
+		<ru>Удалить проведение акции</ru>
+		<ua>Видалити проведення акції</ua>
+		<en>Delete realization</en></h_delete_realization>
+	<h_delete_gift>
+		<ru>Удалить подарок</ru>
+		<ua>Видалити подарунок</ua>
+		<en>Delete gift</en></h_delete_gift>
+	<h_delete_winner>
+		<ru>Удалить победителя акции</ru>
+		<ua>Видалити переможця акції</ua>
+		<en>Delete winner</en></h_delete_winner>
+	<h_delete_estimate>
+		<ru>Удалить критерий оценки</ru>
+		<ua>Видалити критерій оцінки</ua>
+		<en>Delete estimate criterion</en></h_delete_estimate>
+		
+	<h_add_warehouse>
+		<ru>Добавить информацию о подарках на складе</ru>
+		<ua>Додати інформацію про подарунки на складі</ua>
+		<en>Add information about gifts on warehouse</en></h_add_warehouse>
+	<h_delete_warehouse>
+		<ru>Удалить информацию о подарках на складе</ru>
+		<ua>Видалити інформацію про подарунки на складі</ua>
+		<en>Delete information about gifts on warehouse</en></h_delete_warehouse>
+		
+	
+	<gifts_given_place>
+		<ru>Пункт выдачи</ru>
+		<ua>Пункт видачі</ua>
+		<en>Given place</en></gifts_given_place>
+	<id_gifts_given_place>
+		<ru>ИД пункта выдачи</ru>
+		<ua>ІД пункта видачі</ua>
+		<en>Given place ID</en></id_gifts_given_place>
+	<name_gifts_given_place>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en></name_gifts_given_place>
+	<sname_gifts_given_place>
+		<ru>Сокращенное название</ru>
+		<ua>Скорочена назва</ua>
+		<en>Short name</en></sname_gifts_given_place>
+	<adr_gifts_given_place>
+		<ru>Адрес выдачи</ru>
+		<ua>Адреса видачі</ua>
+		<en>Given adress</en></adr_gifts_given_place>
+	<desc_gifts_given_place>
+		<ru>Описание пункта выдачи</ru>
+		<ua>Опис пункта видачі</ua>
+		<en>Given place description</en></desc_gifts_given_place>
+	<send_name_gifts_given_place>
+		<ru>Название при отправке</ru>
+		<ua>Назва при відсиланні</ua>
+		<en>Name for send</en></send_name_gifts_given_place>
+	<cd_given_day>
+		<ru>День выдачи</ru>
+		<ua>День видачі</ua>
+		<en>Given day</en></cd_given_day>
+	<name_given_day>
+		<ru>День выдачи</ru>
+		<ua>День видачі</ua>
+		<en>Given day</en></name_given_day>
+		
+	<id_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></id_nat_prs>
+	<name_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></name_nat_prs>
+	<full_name>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></full_name>
+	<phone_contact>
+		<ru>Контактный телефон</ru>
+		<ua>Контактний телефон</ua>
+		<en>Contact phone</en></phone_contact>
+	<cd_nat_prs_gift_state>
+		<ru>Состояние подарка</ru>
+		<ua>Стан подарунка</ua>
+		<en>Gift state</en></cd_nat_prs_gift_state>
+	<name_nat_prs_gift_state>
+		<ru>Состояние подарка</ru>
+		<ua>Стан подарунка</ua>
+		<en>Gift state</en></name_nat_prs_gift_state>
+	<date_reserve>
+		<ru>Дата резервирования</ru>
+		<ua>Дата резервування</ua>
+		<en>Reserve date</en></date_reserve>
+	<date_given>
+		<ru>Дата выдачи</ru>
+		<ua>Дата видачі</ua>
+		<en>Given date</en></date_given>
+	<date_returned>
+		<ru>Дата возврата</ru>
+		<ua>Дата повернення</ua>
+		<en>Return date</en></date_returned>
+	<date_canceled>
+		<ru>Дата отказа</ru>
+		<ua>Дата відмови</ua>
+		<en>Cancel date</en></date_canceled>
+	<id_nat_prs_gift>
+		<ru>ИД заказа подарка</ru>
+		<ua>ІД замовлення подарунка</ua>
+		<en>Gift reserve ID</en></id_nat_prs_gift>
+	<reason_write_off_goods>
+		<ru>Причина списания средств</ru>
+		<ua>Причина списання коштів</ua>
+		<en>Write off goods reason</en></reason_write_off_goods>
+	<reason_delete_given>
+		<ru>Причина отмены выдачи подарка</ru>
+		<ua>Причина відміни видачі подарунка</ua>
+		<en>Write off goods reason</en></reason_delete_given>
+	<reason_return>
+		<ru>Причина возврата</ru>
+		<ua>Причина повернення</ua>
+		<en>Return reason</en></reason_return>
+	<reason_cancel>
+		<ru>Причина отказа</ru>
+		<ua>Причина відмови</ua>
+		<en>Cancel reason</en></reason_cancel>
+		
+	<id_lg_gift>
+		<ru>ИД подарка</ru>
+		<ua>ІД подарунка</ua>
+		<en>Gift ID</en></id_lg_gift>
+	<desc_gift>
+		<ru>Описание подарка</ru>
+		<ua>Опис подарунка</ua>
+		<en>Gift description</en></desc_gift>
+	<desc_lg_gift>
+		<ru>Подарок со склада</ru>
+		<ua>Подарунок зі складу</ua>
+		<en>Gift from warehouse</en></desc_lg_gift>
+		
+	<id_club_event_given_schedule>
+		<ru>ИД графика выдачи</ru>
+		<ua>ІД графіка видачі</ua>
+		<en>Given schedule ID</en></id_club_event_given_schedule>
+	<date_gifts_given>
+		<ru>Дата выдачи</ru>
+		<ua>Дата видачі</ua>
+		<en>Given date</en></date_gifts_given>
+	<given_period>
+		<ru>Период выдачи</ru>
+		<ua>Період видачі</ua>
+		<en>Given period</en></given_period>
+		
+	<h_add_club_event_given_schedule>
+		<ru>Добавить график выдачи подарков</ru>
+		<ua>Додати графік видачі подарунків</ua>
+		<en>Add gifts given schedule</en></h_add_club_event_given_schedule>
+	<h_delete_club_event_given_schedule>
+		<ru>Удалить график выдачи подарков</ru>
+		<ua>Видалити графік видачі подарунків</ua>
+		<en>Delete gifts given schedule</en></h_delete_club_event_given_schedule>
+	<h_update_club_event_given_schedule>
+		<ru>Изменить график выдачи подарков</ru>
+		<ua>Змінити графік видачі подарунків</ua>
+		<en>Update gifts given schedule</en></h_update_club_event_given_schedule>
+	<h_add_club_event_given_place>
+		<ru>Добавить пункт выдачи подарков</ru>
+		<ua>Додати пункт видачі подарунків</ua>
+		<en>Add gifts given place</en></h_add_club_event_given_place>
+	<h_delete_club_event_given_place>
+		<ru>Удалить пункт выдачи подарков</ru>
+		<ua>Видалити пункт видачі подарунків</ua>
+		<en>Delete gifts given place</en></h_delete_club_event_given_place>
+	<h_add_gifts_given_place>
+		<ru>Добавить пункт выдачи подарков</ru>
+		<ua>Додати пункт видачі подарунків</ua>
+		<en>Add gifts given place</en></h_add_gifts_given_place>
+	<h_delete_gifts_given_place>
+		<ru>Удалить пункт выдачи подарков</ru>
+		<ua>Видалити пункт видачі подарунків</ua>
+		<en>Delete gifts given place</en></h_delete_gifts_given_place>
+		
+	<h_add_nat_prs_gift>
+		<ru>Добавить подарок Клиента</ru>
+		<ua>Додати подарунок Клієнта</ua>
+		<en>Add Client's gift</en></h_add_nat_prs_gift>
+	<h_delete_nat_prs_gift>
+		<ru>Удалить подарок Клиента</ru>
+		<ua>Видалити подарунок Клієнта</ua>
+		<en>Delete Client's gift</en></h_delete_nat_prs_gift>
+	<h_update_nat_prs_gift>
+		<ru>Изменить подарок Клиента</ru>
+		<ua>Змінити подарунок Клієнта</ua>
+		<en>Edit Client's gift</en></h_update_nat_prs_gift>
+
+	<h_add_nat_prs_gift_request>
+		<ru>Добавить заявку на получение подарка</ru>
+		<ua>Додати заявку на отримання подарунка</ua>
+		<en>Add gift's request</en></h_add_nat_prs_gift_request>
+	<h_delete_nat_prs_gift_request>
+		<ru>Удалить заявку на получение подарка</ru>
+		<ua>Видалити заявку на отримання подарунка</ua>
+		<en>Delete gift's request</en></h_delete_nat_prs_gift_request>
+	<h_disassemble_nat_prs_gift_request>
+		<ru>Разобрать заявку</ru>
+		<ua>Розібрати заявку</ua>
+		<en>Disassemble request</en></h_disassemble_nat_prs_gift_request>
+		
+	<id_accept_sms_message>
+		<ru>SMS получения заявки</ru>
+		<ua>SMS отримання заявки</ua>
+		<en>Accept request SMS</en></id_accept_sms_message>
+
+	<nat_prs_gift_request>
+		<ru>Заявка на получение подарка</ru>
+		<ua>Заявка на отримання подарунка</ua>
+		<en>Gift's request</en></nat_prs_gift_request>
+	<cd_nat_prs_gift_request_state>
+		<ru>Состояние заявки</ru>
+		<ua>Стан заявки</ua>
+		<en>Request state</en></cd_nat_prs_gift_request_state>
+	<nm_nat_prs_gift_request_state>
+		<ru>Состояние заявки</ru>
+		<ua>Стан заявки</ua>
+		<en>Request state</en></nm_nat_prs_gift_request_state>
+	<cd_nat_prs_gift_request_type>
+		<ru>Тип заявки</ru>
+		<ua>Тип заявки</ua>
+		<en>Request type</en></cd_nat_prs_gift_request_type>
+	<name_nat_prs_gift_request_type>
+		<ru>Тип заявки</ru>
+		<ua>Тип заявки</ua>
+		<en>Request type</en></name_nat_prs_gift_request_type>
+	<id_nat_prs_gift_request>
+		<ru>ИД заявки</ru>
+		<ua>ІД заявки</ua>
+		<en>Request ID</en></id_nat_prs_gift_request>
+	<text_request>
+		<ru>Текст заявки</ru>
+		<ua>Текст заявки</ua>
+		<en>Request text</en></text_request>
+	<error_messages>
+		<ru>Ошибки</ru>
+		<ua>Помилки</ua>
+		<en>Errors</en></error_messages>
+	<date_accept>
+		<ru>Дата принятия заявки</ru>
+		<ua>Дата прийняття заявки</ua>
+		<en>Accept request date</en></date_accept>
+	<date_reject>
+		<ru>Дата отклонения заявки</ru>
+		<ua>Дата відхилення заявки</ua>
+		<en>Reject request date</en></date_reject>
+	<date_processed>
+		<ru>Дата выполнения заявки</ru>
+		<ua>Дата виконання заявки</ua>
+		<en>Process request date</en></date_processed>
+		
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<card_purse>
+		<ru>Кошелек карты</ru>
+		<ua>Гаманець карти</ua>
+		<en>Card's purse</en></card_purse>
+		
+	<h_add_gift_select>
+		<ru>Добавить подарки</ru>
+		<ua>Додати подарунки</ua>
+		<en>Add gifts</en></h_add_gift_select>
+	<h_gifts_reserve>
+		<ru>Резервирование подарка</ru>
+		<ua>Резервування подарунка</ua>
+		<en>Gift's reserve</en></h_gifts_reserve>
+	<h_gifts_given>
+		<ru>Выдача подарка Клиенту</ru>
+		<ua>Видача подарунка Клієнту</ua>
+		<en>Gift's given to Client</en></h_gifts_given>
+	<h_gifts_return>
+		<ru>Возврат подарка Клиентом</ru>
+		<ua>Повернення подарунка Клієнтом</ua>
+		<en>Gift's given of Client</en></h_gifts_return>
+	<h_gifts_cancel>
+		<ru>Отказ в выдаче подарка Клиенту</ru>
+		<ua>Відмова в видачі подарунка Клієнту</ua>
+		<en>Cancel of gifen to Client</en></h_gifts_cancel>
+		
+	<lg_action_date>
+		<ru>Дата получения на склад</ru>
+		<ua>Дата отримання на склад</ua>
+		<en>Given date into warehouse</en>
+	</lg_action_date>	
+	
+	<event_types>
+		<ru>Действия по акции:</ru>
+		<ua>Дії по акції:</ua>
+		<en>Events:</en>
+	</event_types>
+	
+	<cd_given_event_type>
+		<ru>Действия при выдаче подарка</ru>
+		<ua>Дії при видачі подарунка</ua>
+		<en>Events on gifts given</en>
+	</cd_given_event_type>
+	<event_type_none>
+		<ru>Нет действий</ru>
+		<ua>Немаэ дій</ua>
+		<en>None actions</en>
+	</event_type_none>
+	<event_type_up_categories>
+		<ru>Повышение категорий карты:</ru>
+		<ua>Підвищення категорій карти</ua>
+		<en>Up card's categories</en>
+	</event_type_up_categories>
+	<event_type_up_categories_bon>
+		<ru>повышение категории по баллам</ru>
+		<ua>підвищення категорії за балами</ua>
+		<en>up category on points</en>
+	</event_type_up_categories_bon>
+	<event_type_up_categories_disc>
+		<ru>повышение категории по скидке</ru>
+		<ua>підвищення категоії зі знижки</ua>
+		<en>up discount's category</en>
+	</event_type_up_categories_disc>
+	<event_type_write_off_goods>
+		<ru>Списание средств:</ru>
+		<ua>Списання коштів:</ua>
+		<en>Write off goods:</en>
+	</event_type_write_off_goods>
+	<event_type_write_off_bons>
+		<ru>списать баллы с карты</ru>
+		<ua>списати бали з карти</ua>
+		<en>write off points from card</en>
+	</event_type_write_off_bons>
+	<event_type_write_off_purse>
+		<ru>списывать с кошелька карты</ru>
+		<ua>списувати з гаманця карти</ua>
+		<en>write off from card's purse</en>
+	</event_type_write_off_purse>
+	<event_type_add_goods>
+		<ru>Зачисление средств:</ru>
+		<ua>Зарахування коштів:</ua>
+		<en>Add goods:</en>
+	</event_type_add_goods>
+	<event_type_add_goods_bons>
+		<ru>зачислить баллы на карту</ru>
+		<ua>зарахувати бали на карту</ua>
+		<en>add points on card</en>
+	</event_type_add_goods_bons>
+	<event_type_add_goods_purse>
+		<ru>зачислить средства на кошелек карты</ru>
+		<ua>зарахувати кошти на гаманець карти</ua>
+		<en>add goods on card's purse</en>
+	</event_type_add_goods_purse>
+	<cd_card_purse_type>
+		<RU>Тип кошелька</RU>
+		<UA>Тип гаманця</UA>
+		<EN>Purse type</EN>
+	</cd_card_purse_type>
+	
+	<h_gifts_statistics>
+		<ru>Статистика по подаркам</ru>
+		<ua>Статистика з подарунків</ua>
+		<en>Gifts statistics</en></h_gifts_statistics>
+	<id_club_event_gift>
+		<ru>ИД подарка в акции</ru>
+		<ua>ІД подарунка в акції</ua>
+		<en>Gift ID in event</en></id_club_event_gift>
+	<cd_club_event_gift>
+		<ru>Код подарка в акции</ru>
+		<ua>Код подарунка в акції</ua>
+		<en>Gift code in event</en></cd_club_event_gift>
+	<name_club_event_gift>
+		<ru>Название подарка в акции</ru>
+		<ua>Назва подарунка в акції</ua>
+		<en>Gift name in event</en></name_club_event_gift>
+		
+	<basis_for_gift>
+		<ru>Обоснование выдачи подарка</ru>
+		<ua>Обгрунтування видачі подарунка</ua>
+		<en>Basis for gift's given</en></basis_for_gift>
+	<write_off_amount>
+		<ru>Списываемая сумма</ru>
+		<ua>Сума, що списується</ua>
+		<en>Write off amount</en></write_off_amount>
+	<id_given_card_oper>
+		<ru>Задача на списание средств</ru>
+		<ua>Завдання на списання коштів</ua>
+		<en>Task to write off of goods</en></id_given_card_oper>
+	<id_return_card_oper>
+		<ru>Задача на зачисление средств</ru>
+		<ua>Завдання на зарахування коштів</ua>
+		<en>Task to put goods</en></id_return_card_oper>
+		
+	<cd_given_method_type>
+		<ru>Способ выдачи подарка</ru>
+		<ua>Спосіб видачі подарунка</ua>
+		<en>Given method</en></cd_given_method_type>
+	<cd_given_method_type_manual>
+		<ru>Вручную оператором</ru>
+		<ua>Вручну оператором</ua>
+		<en>Manual by operator</en></cd_given_method_type_manual>
+	<cd_given_method_type_card_request>
+		<ru>Запрос остатка карты</ru>
+		<ua>Запит залишку карти</ua>
+		<en>Card request</en></cd_given_method_type_card_request>
+</club_events>

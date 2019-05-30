@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<private_office>
+	<general>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</general>
+	<id_office_private>
+		<RU>ИД кабинета</RU>
+		<UA>ІД кабінета</UA>
+		<EN>Office ID</EN>
+	</id_office_private>
+	<cd_office_private_type>
+		<RU>Тип кабинета</RU>
+		<UA>Тип кабінета</UA>
+		<EN>Office type</EN>
+	</cd_office_private_type>
+	<name_office_private_type>
+		<RU>Тип кабинета</RU>
+		<UA>Тип кабінета</UA>
+		<EN>Office type</EN>
+	</name_office_private_type>
+	<cd_office_private_state>
+		<RU>Состояние кабинета</RU>
+		<UA>Стан кабінета</UA>
+		<EN>Office state</EN>
+	</cd_office_private_state>
+	<name_office_private_state>
+		<RU>Состояние кабинета</RU>
+		<UA>Стан кабінета</UA>
+		<EN>Office state</EN>
+	</name_office_private_state>
+	<code_office_private>
+		<RU>Код кабинета</RU>
+		<UA>Код кабінета</UA>
+		<EN>Office code</EN>
+	</code_office_private>
+	<name_office_private>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</name_office_private>
+	<sname_office_private>
+		<RU>Сокращенное название</RU>
+		<UA>Скорочена назва</UA>
+		<EN>Short name</EN>
+	</sname_office_private>
+	<placement_office_private>
+		<RU>Размещение</RU>
+		<UA>Розміщення</UA>
+		<EN>Placement</EN>
+	</placement_office_private>
+	<desc_office_private>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</desc_office_private>
+	<password_office_private>
+		<RU>Административный пароль</RU>
+		<UA>Адміністративний пароль</UA>
+		<EN>Admin password</EN>
+	</password_office_private>
+	<ip_addres_office_private>
+		<RU>IP-адрес</RU>
+		<UA>IP-адреса</UA>
+		<EN>IP-adress</EN>
+	</ip_addres_office_private>
+	<contact_person_office_private>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</contact_person_office_private>
+	<contact_phone_office_private>
+		<RU>Контактный телефон</RU>
+		<UA>Контактний телефон</UA>
+		<EN>Contact phone</EN>
+	</contact_phone_office_private>
+	<contact_email_office_private>
+		<RU>Контактный E-mail</RU>
+		<UA>Контактний E-mail</UA>
+		<EN>Contact E-mail</EN>
+	</contact_email_office_private>
+	
+	<is_selected>
+		<RU>Выбрано</RU>
+		<UA>Вибрано</UA>
+		<EN>Selected</EN>
+	</is_selected>
+	
+	<l_add_office_private>
+		<RU>Добавить личный кабинет</RU>
+		<UA>Додати особистий кабінет</UA>
+		<EN>Add private office</EN>
+	</l_add_office_private>
+	<l_delete_office_private>
+		<RU>Удалить личный кабинет</RU>
+		<UA>Видалити особистий кабінет</UA>
+		<EN>Delete private office</EN>
+	</l_delete_office_private>
+</private_office>

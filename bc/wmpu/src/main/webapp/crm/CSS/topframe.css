@@ -1,0 +1,183 @@
+@CHARSET "UTF-8";
+	
+	table.form-header {
+	  border: 0px solid maroon;
+	  width: 99%;
+	  height: 45px;
+	  background: white;
+	  margin-left: 5px;
+	  padding-right: 10px;
+	}
+	table.form-header TH {
+	  border: 1px solid green;
+	  text-align: center;
+	  color: white;
+	  background: maroon;
+	}
+	table.form-header TR {
+	  /*background: azure;*/
+	}
+	table.form-header TD {
+	  border: 0px solid green;
+	  color: black;
+	  background: white;
+	  font-family: Arial, sans-serif;
+	  font-size:12px;
+	  /*background: azure;*/
+	}
+	table.form-header TD FONT {
+	  	font-size:10px;
+		font-family:Arial,sans-serif;
+		font-weight:bold;
+		font-style: italic;
+		color:#333333;
+		margin-left: 10px;
+	  /*background: azure;*/
+	}
+
+	table.form-header TD FONT.topframe_title {
+	  color: black;
+	  background: white;
+	  font-size:16px;
+	  /*background: azure;*/
+	}
+	
+
+	table.form-header-filter {
+		font-family:arial;
+		background-color: #FAFAFA;
+		/*margin: 0px 0pt 15px;*/
+		font-size: 8pt;
+		width: 99%;
+		text-align: left;
+	  	margin-left: 7px;
+	  	padding-right: 10px;
+		border: 1px solid #EEEEEE;
+	    height: 35px;
+	}
+	table.form-header-filter tbody td {
+		color: #3D3D3D;
+		padding: 1px;
+		background-color: #FAFAFA;
+		vertical-align: top;
+		
+	}
+	table.form-header-filter tbody tr.odd td {
+		background-color:transparent;
+	}
+	
+	table.form-tabsheets {
+	    left: 0 !important;
+	    width: 99%;
+	}
+	
+	.button {
+		font-size:20px;
+		font-family:Arial,sans-serif;
+		font-weight:bold;
+		color:#2F4F4F;
+		background-color: rgb(224, 238, 238);
+		border-style:double;
+		border-color:#999999;
+		border-width:3px;	
+	}
+	
+	.button2 {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color:#2F4F4F;
+   		background-color: rgb(224, 238, 238);
+   		border-style: outset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	
+	#tabs {
+		text-align: center;
+		float: left; /*Set to "left" or "right" to position menu accordingly*/
+		/*border-bottom: 1px solid #999e87; uncomment this line to add bottom border*/
+    	border-bottom: 1px solid #a9aea7;
+    	width: 100%;
+	}
+	#tabs ul {
+		font-family: Verdana;
+		font-size: 10px;
+		font-weight: bold;
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		list-style:none;
+	}
+	#tabs li {
+		display: inline;
+		background: url(../../images/menu/tabsheet/greenbg.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	#tabs a {
+		color: #663300;
+		background: url(../../images/menu/tabsheet/greenleft.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	#tabs a span {
+		background: url(../../images/menu/tabsheet/greenright.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+	}
+	#tabs a span {
+		float: none;
+	}
+
+
+	#tabs li.s {
+		display: inline;
+		background: lightgray;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	#tabs a.s {
+		color: #663300;
+		background: url(../../images/menu/tabsheet/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	#tabs a.s span {
+		background: url(../../images/menu/tabsheet/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	#tabs a.s span {
+		float: none;
+	}
+	select {
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(255, 255, 255);
+	}
+	
+	input {
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(255, 255, 255);
+	}
+	
+	button {
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(255, 255, 255);
+	}
+	

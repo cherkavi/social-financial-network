@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+	<general>
+		<RU>Роли</RU>
+		<UA>Ролі</UA>
+		<EN>Roles</EN>
+	</general>
+	<ID_ROLE>
+		<ru>ИД Роли</ru>
+		<ua>ІД Ролі</ua>
+		<en>ID</en>
+	</ID_ROLE>
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<NAME_ROLE>
+		<ru>Название роли</ru>
+		<ua>Назва ролі</ua>
+	    <en>Role name</en>
+    </NAME_ROLE>
+	<DESC_ROLE>
+		<ru>Описание роли</ru>
+		<ua>Опис ролі</ua>
+	    <en>Role description</en>
+	</DESC_ROLE>
+	<DATE_BEG>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+	    <en>Beginning date</en>
+	 </DATE_BEG>
+	<DATE_END>
+		<ru>Дата окончания действия</ru>
+		<ua>Дата завершення дії</ua>
+	    <en>Ending date</en>
+	</DATE_END>
+	<CREATION_DATE>
+		<ru>Дата создания</ru>
+		<ua>Дата створення</ua>
+	    <en>Creation date</en>
+	</CREATION_DATE>
+	<LAST_UPDATE_DATE>
+		<ru>Дата изменения</ru>
+		<ua>Дата зміни</ua>
+	    <en>Update date</en>
+    </LAST_UPDATE_DATE>
+	<ID_MENU_ELEMENT>  
+		<ru>ИД елемента меню</ru>
+		<ua>ІД елементу меню</ua>
+	    <en>Menu element ID</en>
+	</ID_MENU_ELEMENT>
+	<ID_MENU_ELEMENT_PARENT>
+		<ru>ИД вышестоящего элемента</ru>
+		<ua>ІД верхнього рівня</ua>
+	    <en>Higher element ID</en>
+	</ID_MENU_ELEMENT_PARENT>
+	<NAME_MENU_ELEMENT>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+    </NAME_MENU_ELEMENT> 
+	<NAME_PRIVILEGE_TYPE>
+		<ru>Тип доступа</ru>
+		<ua>Тип доступу</ua>
+	    <en>Type of access</en>
+    </NAME_PRIVILEGE_TYPE> 
+	<LAB_ADD_ROLE>
+		<ru>Добавить новую роль</ru>
+		<ua>Додати нову роль</ua>
+		<en>Add new role</en>
+	</LAB_ADD_ROLE>	
+	<LAB_DELETE_ROLE>
+		<ru>Удалить роль</ru>
+		<ua>Видалити роль</ua>
+		<en>Delete role</en>
+	</LAB_DELETE_ROLE>
+	<LAB_EDIT_ROLE>
+		<ru>Редактировать параметры роли</ru>
+		<ua>Редагувати параметри ролі</ua>
+		<en>Edit role parameters</en>
+	</LAB_EDIT_ROLE> 
+	<LAB_SELECT_ROLE>
+		<ru>Выберите роль</ru>
+		<ua>Виберіть роль</ua>
+		<en>Select role</en>
+	</LAB_SELECT_ROLE> 
+	<LAB_COPY_ROLE>
+		<ru>Копировать роль</ru>
+		<ua>Копіювати роль</ua>
+		<en>Copy role</en>
+	</LAB_COPY_ROLE>
+	 <LAB_EDIT_ROLE_MENU>
+		<ru>Доступ к пунктам меню роли</ru>
+		<ua>Доступ до пунктів меню ролі</ua>
+		<en>Role menu access</en>
+	</LAB_EDIT_ROLE_MENU> 	         
+	<checkrole>
+		<ru>Назначена</ru>
+		<ua>Призначена</ua>
+		<en>Appointed</en>
+	</checkrole>    		      	
+	<selectdate>
+		<ru>Дата назначения</ru>
+		<ua>Дата призначеня</ua>
+		<en>Appointed date</en>
+	</selectdate>    		    		      
+	<t_features>
+	  	<ru>Параметры роли</ru>
+		<ua>Параметри ролі</ua>
+		<en>Role parameters</en>
+	</t_features>   
+	<t_users>  
+	  	<ru>Пользователи</ru>
+		<ua>Користувачі</ua>
+		<en>Users</en>
+	</t_users> 
+	<t_elements>  
+	    <ru>Доступ к меню</ru>
+		<ua>Доступ до меню</ua>
+	    <en>Menu access</en>
+	</t_elements>     		       		      	  		      
+	<f_roles>  
+	    <ru>Фильтр по ролям</ru>
+		<ua>Фільтр по ролях</ua>
+		<en>Filter by roles</en>
+	</f_roles> 	       		      
+	<type_menu_element>
+	  	<RU>Тип элемента меню</RU>
+	  	<UA>Тип элементу меню</UA>
+	  	<EN>Menu element type</EN>
+	</type_menu_element>       		      
+	<type_menu_element_menu>
+	  	<RU>Меню</RU>
+	  	<UA>Меню</UA>
+	  	<EN>Menu</EN>
+	</type_menu_element_menu>    		      
+	<type_menu_element_tabsheet>
+	  	<RU>Закладка</RU>
+	  	<UA>Закладка</UA>
+	  	<EN>Tabsheet</EN>
+	</type_menu_element_tabsheet>		      
+	<type_menu_element_function>
+	  	<RU>Функция</RU>
+	  	<UA>Функція</UA>
+	  	<EN>Function</EN>
+	</type_menu_element_function>
+	<LAB_REMOVE_PRIVILEGE>
+	  	<RU>Удалить доступ к элементу меню</RU>
+	  	<UA>Видалити доступ до елемента меню</UA>
+	  	<EN>Delete access to element</EN>
+	</LAB_REMOVE_PRIVILEGE>
+	<LAB_GRANT_REPORT_PRIV>
+	  	<RU>Предоставить доступ к отчету</RU>
+	  	<UA>Надати доступ до звіту</UA>
+	  	<EN>Grant access to report</EN>
+	</LAB_GRANT_REPORT_PRIV>
+	<LAB_REMOVE_REPORT_PRIV>
+	  	<RU>Удалить доступ к отчету</RU>
+	  	<UA>Видалити доступ до звіту</UA>
+	  	<EN>Delete access to report</EN>
+	</LAB_REMOVE_REPORT_PRIV>
+	<LAB_DETACH_USER>
+	  	<RU>Отменить назначение роли пользователю</RU>
+	  	<UA>Відмінити призначення ролі користувачу</UA>
+	  	<EN>Detach role from user</EN>
+	</LAB_DETACH_USER>
+	<has_permission>
+		<ru>Доступ</ru>
+		<ua>Доступ</ua>
+		<en>Access</en>
+	</has_permission>
+	<l_access_denied>
+		<ru>Доступ запрещен</ru>
+		<ua>Доступ заборонено</ua>
+		<en>Access denied</en>
+	</l_access_denied>
+	<partner>
+		<ru>Партнер</ru>
+		<ua>Партнер</ua>
+		<en>Partner</en>
+	</partner>
+</roles>
+	       		      

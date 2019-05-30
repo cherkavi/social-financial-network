@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<dictionary>
+	<general>
+		<RU>Справочники</RU>
+		<UA>Довідники</UA>
+		<EN>Dictionaries</EN>
+	</general>
+	<t_param>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN></t_param>
+	<dictionary_group>
+		<RU>Группа справочников</RU>
+		<UA>Група довідників</UA>
+		<EN>Dictionary groups</EN>
+	</dictionary_group>
+	<dictionary_group_full>
+		<RU>Группа справочников</RU>
+		<UA>Група довідників</UA>
+		<EN>Dictionary groups</EN>
+	</dictionary_group_full>
+	<table_name>
+		<RU>Название таблицы</RU>
+		<UA>Назва таблиці</UA>
+		<EN>Table name</EN>
+	</table_name>
+	<table_name_full>
+		<RU>Название таблицы</RU>
+		<UA>Назва таблиці</UA>
+		<EN>Table name</EN>
+	</table_name_full>
+	<view_name>
+		<RU>Название представления</RU>
+		<UA>Назва подання</UA>
+		<EN>View name</EN>
+	</view_name>
+	<has_translate>
+		<RU>Мультиязычный</RU>
+		<UA>Багатомовний</UA>
+		<EN>Multilanguage</EN>
+	</has_translate>
+	<updated>
+		<RU>Обновляемый</RU>
+		<UA>Оновлюється</UA>
+		<EN>Updated</EN>
+	</updated>
+	<ACTION>
+		<RU>Действие</RU>
+		<UA>Дія</UA>
+		<EN>Action</EN>
+	</ACTION>
+	<CD_BK_EVENT>
+		<RU>Код события</RU>
+		<UA>Код події</UA>
+		<EN>Event code</EN>
+	</CD_BK_EVENT>
+	<CD_BK_OPERATION_TYPE>
+		<RU>Код типа операции</RU>
+		<UA>Код типу операції</UA>
+		<EN>Operation type code</EN>
+	</CD_BK_OPERATION_TYPE>
+	<CD_CARD_SCHEME>
+		<RU>Код схемы карты</RU>
+		<UA>Код схеми карти</UA>
+		<EN>Card scheme code</EN>
+	</CD_CARD_SCHEME>
+	<CD_CARD_STATE>
+		<RU>Код состояния</RU>
+		<UA>Код стану</UA>
+		<EN>State code</EN>
+	</CD_CARD_STATE>
+	<CD_CARD_STATUS>
+		<RU>Код вида карты</RU>
+		<UA>Код виду карти</UA>
+		<EN>Card kind code</EN>
+	</CD_CARD_STATUS>
+	<CD_CARD_TYPE>
+		<RU>Код типа карты</RU>
+		<UA>Код типу карти</UA>
+		<EN>Card type code</EN>
+	</CD_CARD_TYPE>
+	<CD_COMISSION_TYPE>
+		<RU>Код типа комиссии</RU>
+		<UA>Код типу комісії</UA>
+		<EN>Commission type code</EN>
+	</CD_COMISSION_TYPE>
+	<CD_COUNTRY>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</CD_COUNTRY>
+	<CD_CURRENCY>
+		<RU>Код валюты</RU>
+		<UA>Код валюти</UA>
+		<EN>Currency code</EN>
+	</CD_CURRENCY>
+	<CD_CURRENCY_IN_TELGR_HEX>
+		<RU>Код валюты в телеграмме</RU>
+		<UA>Код валюти в телеграмі</UA>
+		<EN>Currency code in telegrams</EN>
+	</CD_CURRENCY_IN_TELGR_HEX>
+	<CD_EVENT_TYPE>
+		<RU>Код типа события</RU>
+		<UA>Код типу події</UA>
+		<EN>Event type code</EN>
+	</CD_EVENT_TYPE>
+	<CD_FREQUENCE>
+		<RU>Код частоты</RU>
+		<UA>Код частоти</UA>
+		<EN>Frequncy code</EN>
+	</CD_FREQUENCE>
+	<CD_KIND_LOYALITY>
+		<RU>Код вида программы лояльности</RU>
+		<UA>Код виду програми лояльності</UA>
+		<EN>Loyalty program kind code</EN>
+	</CD_KIND_LOYALITY>
+	<CD_LANGUAGE>
+		<RU>Код языка</RU>
+		<UA>Код мови</UA>
+		<EN>Language code</EN>
+	</CD_LANGUAGE>
+	<CODE_LANGUAGE>
+		<RU>Код языка</RU>
+		<UA>Код мови</UA>
+		<EN>Language code</EN>
+	</CODE_LANGUAGE>
+	<CD_NAT_PRS_GROUP>
+		<RU>Код социально-профессиональной группы</RU>
+		<UA>Код соціально-професійної групи</UA>
+		<EN>Socially-professional group code</EN>
+	</CD_NAT_PRS_GROUP>
+	<CD_PARAM>
+		<RU>Код параметра</RU>
+		<UA>Код параметру</UA>
+		<EN>Parameter code</EN>
+	</CD_PARAM>
+	<CD_PARTICIPANT>
+		<RU>Код участника</RU>
+		<UA>Код учасника</UA>
+		<EN>Participant code</EN>
+	</CD_PARTICIPANT>
+	<CD_PAYMENT_SYSTEM_IN_TELGR_HEX>
+		<RU>Код платежной системы в телеграмме</RU>
+		<UA>Код платіжної системи в телеграмі</UA>
+		<EN>Payment system code in telegrams</EN>
+	</CD_PAYMENT_SYSTEM_IN_TELGR_HEX>
+	<CD_PHASE>
+		<RU>Код фазы</RU>
+		<UA>Код фази</UA>
+		<EN>Phase code</EN>
+	</CD_PHASE>
+	<CD_TELGR>
+		<RU>Код телеграммы</RU>
+		<UA>Код телеграми</UA>
+		<EN>Telegram code</EN>
+	</CD_TELGR>
+	<CD_TRANS>
+		<RU>Код транзакции</RU>
+		<UA>Код транзакції</UA>
+		<EN>Transaction code</EN>
+	</CD_TRANS>
+	<CODE_COUNTRY>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</CODE_COUNTRY>
+	<COST_GIFT>
+		<RU>Стоимость подарка</RU>
+		<UA>Вартість подарку</UA>
+		<EN>Gift cost</EN>
+	</COST_GIFT>
+	<CREATED_BY>
+		<RU>Кем создано</RU>
+		<UA>Ким створено</UA>
+		<EN>Created by</EN>
+	</CREATED_BY>
+	<CREATION_DATE>
+		<RU>Дата создания</RU>
+		<UA>Дата створення</UA>
+		<EN>Creation date</EN>
+	</CREATION_DATE>
+	<DATA_TYPE>
+		<RU>Тип данных</RU>
+		<UA>Тип даних</UA>
+		<EN>Data type</EN>
+	</DATA_TYPE>
+	<DEFAULT_VALUE>
+		<RU>Значение по умолчанию</RU>
+		<UA>Значення за умовчанням</UA>
+		<EN>Default value</EN>
+	</DEFAULT_VALUE>
+	<desc_module_type>
+		<RU>Описание модуля</RU>
+		<UA>Опис модуля</UA>
+		<EN>Module description</EN>
+	</desc_module_type>
+	<DESC_DEVICE_TYPE>
+		<RU>Описание типа устройства</RU>
+		<UA>Опис типу пристрою</UA>
+		<EN>Device type description</EN>
+	</DESC_DEVICE_TYPE>
+	<DESC_EVENT_TYPE>
+		<RU>Описание типа события</RU>
+		<UA>Опис типу події</UA>
+		<EN>Event type description</EN>
+	</DESC_EVENT_TYPE>
+	<DESC_LOOKUP_TYPE>
+		<RU>Описание типа списка выбора</RU>
+		<UA>Опис типу списку вибору</UA>
+		<EN>Lookup type description</EN>
+	</DESC_LOOKUP_TYPE>
+	<DESCRIPTION>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</DESCRIPTION>
+	<ENABLED_FLAG>
+		<RU>Существует?</RU>
+		<UA>Існує?</UA>
+		<EN>Exists?</EN>
+	</ENABLED_FLAG>
+	<ERR_TX_DESC>
+		<RU>Описание ERR_TX</RU>
+		<UA>Опис ERR_TX</UA>
+		<EN>ERR_TX description</EN>
+	</ERR_TX_DESC>
+	<ERR_TX_GROUP>
+		<RU>Группа ERR_TX</RU>
+		<UA>Група ERR_TX</UA>
+		<EN>ERR_TX description</EN>
+	</ERR_TX_GROUP>
+	<ERR_TX_SEG1>
+		<RU>Сегмент 1 ERR_TX</RU>
+		<UA>Сегмент 1 ERR_TX</UA>
+		<EN>ERR_TX segment 1</EN>
+	</ERR_TX_SEG1>
+	<ERR_TX_SEG2>
+		<RU>Сегмент 2 ERR_TX</RU>
+		<UA>Сегмент 2 ERR_TX</UA>
+		<EN>ERR_TX segment 2</EN>
+	</ERR_TX_SEG2>
+	<EXIST_FLAG>
+		<RU>Существует?</RU>
+		<UA>Існує?</UA>
+		<EN>Exists?</EN>
+	</EXIST_FLAG>
+	<FL_WORK_ON>
+		<RU>Работает</RU>
+		<UA>Працює</UA>
+		<EN>Working</EN>
+	</FL_WORK_ON>
+	<FULL_NAME_COUNTRY>
+		<RU>Полное название страны</RU>
+		<UA>Повна назва країни</UA>
+		<EN>Country full name</EN>
+	</FULL_NAME_COUNTRY>
+	<CD_BANK_ACCOUNT_TYPE>
+		<RU>Код типа счета</RU>
+		<UA>Код типу рахунку</UA>
+		<EN>Account type CD</EN>
+	</CD_BANK_ACCOUNT_TYPE>
+	<ID_ACTION_ESTIM_CRITERION>
+		<RU>ИД критерия оценки акции</RU>
+		<UA>ІД критерію оцінки акції</UA>
+		<EN>Action estimate criterion ID</EN>
+	</ID_ACTION_ESTIM_CRITERION>
+	<ID_CARD_STATE>
+		<RU>ИД состояния карты</RU>
+		<UA>ІД стану карти</UA>
+		<EN>Card state ID</EN>
+	</ID_CARD_STATE>
+	<ID_CARD_STATUS>
+		<RU>ИД вида карты</RU>
+		<UA>ІД виду карти</UA>
+		<EN>Card kind ID</EN>
+	</ID_CARD_STATUS>
+	<ID_CARD_TYPE>
+		<RU>ИД типа карты</RU>
+		<UA>ІД типу карти</UA>
+		<EN>Card type ID</EN>
+	</ID_CARD_TYPE>
+	<ID_CATEGORY>
+		<RU>ИД категории</RU>
+		<UA>ІД категорії</UA>
+		<EN>Category ID</EN>
+	</ID_CATEGORY>
+	<ID_CITY>
+		<RU>ИД города</RU>
+		<UA>ІД міста</UA>
+		<EN>City ID</EN>
+	</ID_CITY>
+	<ID_CITY_DISTRICT>
+		<RU>ИД района в городе</RU>
+		<UA>ІД району в місті</UA>
+		<EN>City district ID</EN>
+	</ID_CITY_DISTRICT>
+	<ID_CLUB_EVENT_TYPE>
+		<RU>ИД типа акции</RU>
+		<UA>ІД типу акції</UA>
+		<EN>Event type ID</EN>
+	</ID_CLUB_EVENT_TYPE>
+	<cd_module_type>
+		<RU>Код модуля</RU>
+		<UA>Код модуля</UA>
+		<EN>Module code</EN>
+	</cd_module_type>
+	<ID_DEVICE_TYPE>
+		<RU>ИД типа устройства</RU>
+		<UA>ІД типу пристрою</UA>
+		<EN>Device type ID</EN>
+	</ID_DEVICE_TYPE>
+	<ID_DISTRICT>
+		<RU>ИД района</RU>
+		<UA>ІД району</UA>
+		<EN>District ID</EN>
+	</ID_DISTRICT>
+	<ID_GIFT>
+		<RU>ИД подарка</RU>
+		<UA>ІД подарунку</UA>
+		<EN>Gift ID</EN>
+	</ID_GIFT>
+	<ID_LANGUAGE>
+		<RU>ИД языка</RU>
+		<UA>ІД мови</UA>
+		<EN>Language ID</EN>
+	</ID_LANGUAGE>
+	<ID_OBLAST>
+		<RU>ИД области</RU>
+		<UA>ІД області</UA>
+		<EN>Oblast ID</EN>
+	</ID_OBLAST>
+	<ID_PAYMENT_SYSTEM>
+		<RU>ИД платежной системы</RU>
+		<UA>ІД платіжної системи</UA>
+		<EN>Payment system ID</EN>
+	</ID_PAYMENT_SYSTEM>
+	<ID_PRIVILEGE_TYPE>
+		<RU>ИД типа привилегии</RU>
+		<UA>ІД типу привілеї</UA>
+		<EN>Privilege type ID</EN>
+	</ID_PRIVILEGE_TYPE>
+	<ID_SERVICE_PLACE_TYPE>
+		<RU>ИД типа пункта обслуживания</RU>
+		<UA>ІД типу пункту обслуговування</UA>
+		<EN>Service place type ID</EN>
+	</ID_SERVICE_PLACE_TYPE>
+	<ID_SUBMISSION_TYPE>
+		<RU>ИД типа подчинения</RU>
+		<UA>ІД типу підпорядкування</UA>
+		<EN>Submission type ID</EN>
+	</ID_SUBMISSION_TYPE>
+	<CD_TERM_STATUS>
+		<RU>ИД статуса терминала</RU>
+		<UA>ІД статуса терміналу</UA>
+		<EN>Terminal status ID</EN>
+	</CD_TERM_STATUS>
+	<CD_TERM_TYPE>
+		<RU>ИД типа терминала</RU>
+		<UA>ІД типу термінала</UA>
+		<EN>Terminal type ID</EN>
+	</CD_TERM_TYPE>
+	<IS_INSTALLED>
+		<RU>Инсталлировано</RU>
+		<UA>Інстальовано</UA>
+		<EN>Is installed?</EN>
+	</IS_INSTALLED>
+	<ISO_LANGUAGE>
+		<RU>ISO язык</RU>
+		<UA>ISO мова</UA>
+		<EN>ISO language</EN>
+	</ISO_LANGUAGE>
+	<ISO_TERRITORY>
+		<RU>ISO территория</RU>
+		<UA>ISO територія</UA>
+		<EN>ISO territory</EN>
+	</ISO_TERRITORY>
+	<IS_USED>
+		<RU>Используется?</RU>
+		<UA>Використовується?</UA>
+		<EN>Is used?</EN>
+	</IS_USED>
+	<LANGUAGE>
+		<RU>Язык</RU>
+		<UA>Мова</UA>
+		<EN>Language</EN>
+	</LANGUAGE>
+	<LAST_UPDATE_BY>
+		<RU>Кем модифицировано</RU>
+		<UA>Ким модифіковано</UA>
+		<EN>Last updated by</EN>
+	</LAST_UPDATE_BY>
+	<LAST_UPDATE_DATE>
+		<RU>Дата модификации</RU>
+		<UA>Дата модифікації</UA>
+		<EN>Last update date</EN>
+	</LAST_UPDATE_DATE>
+	<LETTER_CODE_COUNTRY>
+		<RU>Буквенное обозначение страны</RU>
+		<UA>Літерне позначення країни</UA>
+		<EN>Letter code of country</EN>
+	</LETTER_CODE_COUNTRY>
+	<LOCAL_DATE_LANGUAGE>
+		<RU>Локальный язык</RU>
+		<UA>Локальна мова</UA>
+		<EN>Local language</EN>
+	</LOCAL_DATE_LANGUAGE>
+	<LOOKUP_CODE>
+		<RU>Код списка выбора</RU>
+		<UA>Код списку вибору</UA>
+		<EN>Lookup code</EN>
+	</LOOKUP_CODE>
+	<MEANING>
+		<RU>Обозначение</RU>
+		<UA>Позначення</UA>
+		<EN>Denotation</EN>
+	</MEANING>
+	<NAME_BANK_ACCOUNT_TYPE>
+		<RU>Название типа счета</RU>
+		<UA>Назва типу рахунку</UA>
+		<EN>Account type name</EN>
+	</NAME_BANK_ACCOUNT_TYPE>
+	<NAME_ACTION_ESTIM_CRITERION>
+		<RU>Название критерия оценки акции</RU>
+		<UA>Назва критерію оцінки акції</UA>
+		<EN>Estimate criterion name of event</EN>
+	</NAME_ACTION_ESTIM_CRITERION>
+	<NAME_BK_EVENT>
+		<RU>Название события</RU>
+		<UA>Назва події</UA>
+		<EN>Event name</EN>
+	</NAME_BK_EVENT>
+	<NAME_BK_OPERATION_TYPE>
+		<RU>Название типа операции</RU>
+		<UA>Назва типу операції</UA>
+		<EN>Operation type name</EN>
+	</NAME_BK_OPERATION_TYPE>
+	<NAME_CARD_STATE>
+		<RU>Название состояния</RU>
+		<UA>Назва стану</UA>
+		<EN>State name</EN>
+	</NAME_CARD_STATE>
+	<NAME_CARD_STATUS>
+		<RU>Название вида карты</RU>
+		<UA>Назва виду карти</UA>
+		<EN>Card kind name</EN>
+	</NAME_CARD_STATUS>
+	<TELGR_NAME_CARD_STATUS>
+		<RU>Название вида карты в телеграммах</RU>
+		<UA>Назва виду карти в телеграмах</UA>
+		<EN>Card kind name in telegrams</EN>
+	</TELGR_NAME_CARD_STATUS>
+	<NAME_CARD_TYPE>
+		<RU>Название типа</RU>
+		<UA>Назва типу</UA>
+		<EN>Type name</EN>
+	</NAME_CARD_TYPE>
+	<NAME_CATEGORY>
+		<RU>Название категории</RU>
+		<UA>Назва категорії</UA>
+		<EN>Category name</EN>
+	</NAME_CATEGORY>
+	<NAME_CITY>
+		<RU>Название города</RU>
+		<UA>Назва міста</UA>
+		<EN>City name</EN>
+	</NAME_CITY>
+	<NAME_CITY_DISTRICT>
+		<RU>Название района в городе</RU>
+		<UA>Назва району в місті</UA>
+		<EN>City district name</EN>
+	</NAME_CITY_DISTRICT>
+	<NAME_CLUB_EVENT_TYPE>
+		<RU>Название типа акции</RU>
+		<UA>Назва типу акції</UA>
+		<EN>Event type name</EN>
+	</NAME_CLUB_EVENT_TYPE>
+	<name_module_type>
+		<RU>Название модуля</RU>
+		<UA>Назва модуля</UA>
+		<EN>Module name</EN>
+	</name_module_type>
+	<NAME_COMISSION_TYPE>
+		<RU>Название типа комиссии</RU>
+		<UA>Назва типу комісії</UA>
+		<EN>Commission type name</EN>
+	</NAME_COMISSION_TYPE>
+	<NAME_COUNTRY>
+		<RU>Название страны</RU>
+		<UA>Назва країни</UA>
+		<EN>Country name</EN>
+	</NAME_COUNTRY>
+	<NAME_CURRENCY>
+		<RU>Название валюты</RU>
+		<UA>Назва валюти</UA>
+		<EN>Currency name</EN>
+	</NAME_CURRENCY>
+	<NAME_DEVICE_TYPE>
+		<RU>Название типа устройства</RU>
+		<UA>Назва типу пристрою</UA>
+		<EN>Device type name</EN>
+	</NAME_DEVICE_TYPE>
+	<NAME_DISTRICT>
+		<RU>Название района</RU>
+		<UA>Назва району</UA>
+		<EN>District name</EN>
+	</NAME_DISTRICT>
+	<NAME_DOMEN>
+		<RU>Название домена</RU>
+		<UA>Назва домену</UA>
+		<EN>Domen name</EN>
+	</NAME_DOMEN>
+	<NAME_FREQUENCE>
+		<RU>Название частоты</RU>
+		<UA>Назва частоти</UA>
+		<EN>Frequence name</EN>
+	</NAME_FREQUENCE>
+	<NAME_GIFT>
+		<RU>Название подарка</RU>
+		<UA>Назва подарунку</UA>
+		<EN>Gift name</EN>
+	</NAME_GIFT>
+	<NAME_KIND_LOYALITY>
+		<RU>Название вида программы лояльности</RU>
+		<UA>Назва виду програми лояльності</UA>
+		<EN>Loyalty program kind name</EN>
+	</NAME_KIND_LOYALITY>
+	<NAME_LANGUAGE>
+		<RU>Название языка</RU>
+		<UA>Назва мови</UA>
+		<EN>Language name</EN>
+	</NAME_LANGUAGE>
+	<NAME_LOOKUP_TYPE>
+		<RU>Название типа списка выбора</RU>
+		<UA>Назва типу списку вибору</UA>
+		<EN>Lookup type name</EN>
+	</NAME_LOOKUP_TYPE>
+	<NAME_NAT_PRS_GROUP>
+		<RU>Название социально-профессиональной группы</RU>
+		<UA>Назва соціально-професійної групи</UA>
+		<EN>Name of socially-professional group</EN>
+	</NAME_NAT_PRS_GROUP>
+	<NAME_OBLAST>
+		<RU>Название области</RU>
+		<UA>Назва області</UA>
+		<EN>Oblast name</EN>
+	</NAME_OBLAST>
+	<NAME_PARAM>
+		<RU>Название параметра</RU>
+		<UA>Назва параметру</UA>
+		<EN>Parameter name</EN>
+	</NAME_PARAM>
+	<NAME_PARTICIPANT>
+		<RU>Назва участника</RU>
+		<UA>Назва учаснику</UA>
+		<EN>Participant name</EN>
+	</NAME_PARTICIPANT>
+	<NAME_PAYMENT_SYSTEM>
+		<RU>Название платежной системы</RU>
+		<UA>Назва платіжної системи</UA>
+		<EN>Payment system name</EN>
+	</NAME_PAYMENT_SYSTEM>
+	<NAME_PHASE>
+		<RU>Название фазы</RU>
+		<UA>Назва фази</UA>
+		<EN>Phase name</EN>
+	</NAME_PHASE>
+	<NAME_PRIVILEGE_TYPE>
+		<RU>Название типа привилегии</RU>
+		<UA>Назва типу привілеї</UA>
+		<EN>Privilege type name</EN>
+	</NAME_PRIVILEGE_TYPE>
+	<NAME_SERVICE_PLACE_TYPE>
+		<RU>Название типа пункта обслуживания</RU>
+		<UA>Назва типу пункту обслуговування</UA>
+		<EN>Service place type name</EN>
+	</NAME_SERVICE_PLACE_TYPE>
+	<NAME_SUBMISSION_TYPE>
+		<RU>Название типа подчинения</RU>
+		<UA>Назва типу підпорядкування</UA>
+		<EN>Submission type name</EN>
+	</NAME_SUBMISSION_TYPE>
+	<NAME_TERM_STATUS>
+		<RU>Название статуса терминала</RU>
+		<UA>Назва статусу терміналу</UA>
+		<EN>Terminal status name</EN>
+	</NAME_TERM_STATUS>
+	<NAME_TERM_TYPE>
+		<RU>Название типа терминала</RU>
+		<UA>Назва типу терміналу</UA>
+		<EN>Terminal type name</EN>
+	</NAME_TERM_TYPE>
+	<NLS_CODESET>
+		<RU>NLS codeset</RU>
+		<UA>NLS codeset</UA>
+		<EN>NLS codeset</EN>
+	</NLS_CODESET>
+	<NLS_LANGUAGE>
+		<RU>NLS language</RU>
+		<UA>NLS language</UA>
+		<EN>NLS language</EN>
+	</NLS_LANGUAGE>
+	<NLS_TERRITORY>
+		<RU>NLS territory</RU>
+		<UA>NLS territory</UA>
+		<EN>NLS territory</EN>
+	</NLS_TERRITORY>
+	<NUMBER_VALUE>
+		<RU>Числовое значение</RU>
+		<UA>Числове значення</UA>
+		<EN>Number value</EN>
+	</NUMBER_VALUE>
+	<PIC_LANGUAGE>
+		<RU>PIC language</RU>
+		<UA>PIC language</UA>
+		<EN>PIC language</EN>
+	</PIC_LANGUAGE>
+	<POSITION_COUNTRY>
+		<RU>Размещение страны</RU>
+		<UA>Розміщення країни</UA>
+		<EN>Country location</EN>
+	</POSITION_COUNTRY>
+	<READ_ONLY>
+		<RU>Только для чтения</RU>
+		<UA>Тільки для читання</UA>
+		<EN>Only for reading</EN>
+	</READ_ONLY>
+	<SCD_CURRENCY>
+		<RU>Сокращенный	код валюты</RU>
+		<UA>Скорочений код валюти</UA>
+		<EN>Currency short code</EN>
+	</SCD_CURRENCY>
+	<SNAME_CURRENCY>
+		<RU>Сокращенное название валюты</RU>
+		<UA>Скорочена назва валюти</UA>
+		<EN>Currency short name</EN>
+	</SNAME_CURRENCY>
+	<STAT_CODE>
+		<RU>Статистический код</RU>
+		<UA>Статистичний код</UA>
+		<EN>Statistic code</EN>
+	</STAT_CODE>
+	<TYPE_PARAM>
+		<RU>Тип параметра</RU>
+		<UA>Тип параметру</UA>
+		<EN>Parameter type</EN>
+	</TYPE_PARAM>
+	<VER_TELGR>
+		<RU>Версия телеграмм</RU>
+		<UA>Версія телеграм</UA>
+		<EN>Telegram version</EN>
+	</VER_TELGR>
+	<cd_doc_type>
+		<RU>Код типа документов</RU>
+		<UA>Код типу документів</UA>
+		<EN>Document type code</EN>
+	</cd_doc_type>
+	<name_doc_type>
+		<RU>Название типа документов</RU>
+		<UA>Назва типу документів</UA>
+		<EN>Document type name</EN>
+	</name_doc_type>
+	<id_post>
+		<RU>Код должности</RU>
+		<UA>Код посади</UA>
+		<EN>Post code</EN>
+	</id_post>
+	<name_post>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</name_post>
+	<cd_jur_prs_kind>
+		<RU>Код вида юридического лица</RU>
+		<UA>Код виду юридичної особи</UA>
+		<EN>Legal person kind code</EN>
+	</cd_jur_prs_kind>
+	<name_jur_prs_kind>
+		<RU>Название вида юридического лица</RU>
+		<UA>Назва виду юридичної особи</UA>
+		<EN>Legal person kind name</EN>
+	</name_jur_prs_kind>
+	<cd_jur_prs_type>
+		<RU>Код типа юридического лица</RU>
+		<UA>Код типу юридичної особи</UA>
+		<EN>Legal person type code</EN>
+	</cd_jur_prs_type>
+	<name_jur_prs_type>
+		<RU>Название типа юридического лица</RU>
+		<UA>Назва типу юридичної особи</UA>
+		<EN>Legal person type name</EN>
+	</name_jur_prs_type>
+	<cd_user_status>
+		<RU>Код статуса пользователя</RU>
+		<UA>Код статусу користувача</UA>
+		<EN>User's status code</EN>
+	</cd_user_status>
+	<name_user_status>
+		<RU>Название статуса пользователя</RU>
+		<UA>Назва статусу користувача</UA>
+		<EN>User's status name</EN>
+	</name_user_status>
+	
+	<cd_cc_question_important>
+		<RU>Код важности вопроса</RU>
+		<UA>Код важливості питання</UA>
+		<EN>Question's important code</EN>
+	</cd_cc_question_important>
+	<name_cc_question_important>
+		<RU>Название важности вопроса</RU>
+		<UA>Назва важливості питання</UA>
+		<EN>Question's important name</EN>
+	</name_cc_question_important>
+	<id_cc_faq_category>
+		<RU>ИД категории FAQ</RU>
+		<UA>ІД категорії FAQ</UA>
+		<EN>FAQ category ID</EN>
+	</id_cc_faq_category>
+	<name_cc_faq_category>
+		<RU>Название категории FAQ</RU>
+		<UA>Назва категорії FAQ</UA>
+		<EN>FAQ category name</EN>
+	</name_cc_faq_category>
+	<cd_cc_question_urgent>
+		<RU>Код срочности вопроса</RU>
+		<UA>Код терміновості питання</UA>
+		<EN>Question's urgent code</EN>
+	</cd_cc_question_urgent>
+	<name_cc_question_urgent>
+		<RU>Название срочности вопроса</RU>
+		<UA>Назва терміновості питання</UA>
+		<EN>Question's urgent name</EN>
+	</name_cc_question_urgent>
+	<cd_cc_question_status>
+		<RU>Код статуса вопроса</RU>
+		<UA>Код статусу питання</UA>
+		<EN>Question's status code</EN>
+	</cd_cc_question_status>
+	<name_cc_question_status>
+		<RU>Название статуса вопроса</RU>
+		<UA>Назва статусу питання</UA>
+		<EN>Question's status name</EN>
+	</name_cc_question_status>
+	<cd_cc_user_status>
+		<RU>Код статуса пользователя</RU>
+		<UA>Код статусу котистувача</UA>
+		<EN>User's status code</EN>
+	</cd_cc_user_status>
+	<name_cc_user_status>
+		<RU>Название статуса пользователя</RU>
+		<UA>Назва статусу котистувача</UA>
+		<EN>User's status name</EN>
+	</name_cc_user_status>
+	<cd_cc_question_type>
+		<RU>Код типа вопроса</RU>
+		<UA>Код типу питання</UA>
+		<EN>Question's type code</EN>
+	</cd_cc_question_type>
+	<name_cc_question_type>
+		<RU>Название типа вопроса</RU>
+		<UA>Назва типу питання</UA>
+		<EN>Question's type name</EN>
+	</name_cc_question_type>
+	<cd_cc_contact_type>
+		<RU>Код типа контакта</RU>
+		<UA>Код типу контакту</UA>
+		<EN>Contact's type code</EN>
+	</cd_cc_contact_type>
+	<name_cc_contact_type>
+		<RU>Название типа контакта</RU>
+		<UA>Назва типу контакту</UA>
+		<EN>Contact's type name</EN>
+	</name_cc_contact_type>
+	<id_category_name>
+		<RU>ИД категории</RU>
+		<UA>ІД категорії</UA>
+		<EN>Category ID</EN>
+	</id_category_name>
+	<name_category_name>
+		<RU>Название категории</RU>
+		<UA>Назва категорії</UA>
+		<EN>Category name</EN>
+	</name_category_name>
+	<cd_bk_account_participant>
+		<RU>Код участника</RU>
+		<UA>Код учасника</UA>
+		<EN>Participant code</EN>
+	</cd_bk_account_participant>
+	<name_bk_account_participant>
+		<RU>Название участника</RU>
+		<UA>Назва учасника</UA>
+		<EN>Participant name</EN>
+	</name_bk_account_participant>
+	<cd_card_operation_type>
+		<RU>Код типа операции</RU>
+		<UA>Код типу операції</UA>
+		<EN>Operation type code</EN>
+	</cd_card_operation_type>
+	<name_card_operation_type>
+		<RU>Название типа операции</RU>
+		<UA>Назва типу операції</UA>
+		<EN>Operation type name</EN>
+	</name_card_operation_type>
+	
+	<exc_code>
+		<RU>Код проверки</RU>
+		<UA>Код перевірки</UA>
+		<EN>Check code</EN>
+	</exc_code>
+	<exc_dec_code>
+		<RU>Код проверки (DEC)</RU>
+		<UA>Код перевірки (DEC)</UA>
+		<EN>Check code (DEC)</EN>
+	</exc_dec_code>
+	<exc_bin_code>
+		<RU>Код проверки (BIN)</RU>
+		<UA>Код перевірки (BIN)</UA>
+		<EN>Check code (BIN)</EN>
+	</exc_bin_code>
+	<exc_desc>
+		<RU>Описание проверки</RU>
+		<UA>Опис перевірки</UA>
+		<EN>Check description</EN>
+	</exc_desc>
+	<name_param1>
+		<RU>Параметр 1</RU>
+		<UA>Параметр 1</UA>
+		<EN>Parameter 1</EN>
+	</name_param1>
+	<name_param2>
+		<RU>Параметр 2</RU>
+		<UA>Параметр 2</UA>
+		<EN>Parameter 2</EN>
+	</name_param2>
+	<check_phase>
+		<RU>Фаза проверки</RU>
+		<UA>Фаза перевірки</UA>
+		<EN>Check phase</EN>
+	</check_phase>
+	<input_telgr_check>
+		<RU>Проверять во входных телеграммах</RU>
+		<UA>Перевіряти у вхідних телеграмах</UA>
+		<EN>Check in input telegrams</EN>
+	</input_telgr_check>
+	<input_telgr_action>
+		<RU>Действия для входных телеграмм</RU>
+		<UA>Дії для вхідних телеграм</UA>
+		<EN>Actions for input telegrams</EN>
+	</input_telgr_action>
+	<output_telgr_check>
+		<RU>Проверять в выходных телеграммах</RU>
+		<UA>Перевіряти у вихідних телеграмах</UA>
+		<EN>Check in output telegrams</EN>
+	</output_telgr_check>
+	<output_telgr_action>
+		<RU>Действия для выходных телеграмм</RU>
+		<UA>Дії для вихідних телеграм</UA>
+		<EN>Actions for output telegrams</EN>
+	</output_telgr_action>
+	
+	<id_message>
+		<RU>Код сообщения</RU>
+		<UA>Код повідомлення</UA>
+		<EN>Message code</EN>
+	</id_message>
+	<text_message>
+		<RU>Текст сообщения</RU>
+		<UA>Текст повідомлення</UA>
+		<EN>Message text</EN>
+	</text_message>
+	<id_oracle_error>
+		<RU>Код сообщения БД</RU>
+		<UA>Код повідомлення БД</UA>
+		<EN>DB message code</EN>
+	</id_oracle_error>
+	<cd_club_rel_type>
+		<RU>Код типа взаимоотношений</RU>
+		<UA>Код типу взаємовідносин</UA>
+		<EN>Relationship type code</EN>
+	</cd_club_rel_type>
+	<name_club_rel_type>
+		<RU>Название типа взаимоотношений</RU>
+		<UA>Назва типу взаємовідносин</UA>
+		<EN>Relationship type name</EN>
+	</name_club_rel_type>
+	<priority>
+		<RU>Приоритет</RU>
+		<UA>Приорітет</UA>
+		<EN>Priority</EN>
+	</priority>
+	
+	<cd_dispatch_type>
+		<RU>Код типа распространения</RU>
+		<UA>Код типу розповсюдження</UA>
+		<EN>Dispatch type code</EN>
+	</cd_dispatch_type>
+	<name_dispatch_type>
+		<RU>Название типа распространения</RU>
+		<UA>Назва типу розповсюдження</UA>
+		<EN>Dispatch type name</EN>
+	</name_dispatch_type>
+	<cd_sms_profile_type>
+		<RU>Код типа профиля</RU>
+		<UA>Код типу профілю</UA>
+		<EN>Profile type code</EN>
+	</cd_sms_profile_type>
+	<name_sms_profile_type>
+		<RU>Название типа профиля</RU>
+		<UA>Назва типу профілю</UA>
+		<EN>Profile type name</EN>
+	</name_sms_profile_type>
+	<id_sms_region>
+		<RU>ИД региона</RU>
+		<UA>ІД регіону</UA>
+		<EN>Region ID</EN>
+	</id_sms_region>
+	<name_sms_region>
+		<RU>Название региона</RU>
+		<UA>Назва регіону</UA>
+		<EN>Region name</EN>
+	</name_sms_region>
+	<cd_participant_payer>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</cd_participant_payer>
+	<name_participant_payer>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</name_participant_payer>
+	<cd_participant_receiver>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Receiver</EN>
+	</cd_participant_receiver>
+	<name_participant_receiver>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Receiver</EN>
+	</name_participant_receiver>
+	<cd_club_member_status>
+		<RU>Код участия</RU>
+		<UA>Код участі</UA>
+		<EN>Code of status</EN>
+	</cd_club_member_status>
+	<name_club_member_status>
+		<RU>Название участия</RU>
+		<UA>Назва участі</UA>
+		<EN>Name of status</EN>
+	</name_club_member_status>
+	<id_post>
+		<RU>ИД должности</RU>
+		<UA>ІД посади</UA>
+		<EN>Post ID</EN>
+	</id_post>
+	<name_post>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</name_post>
+	
+	<input_type>
+		<RU>Тип ввода</RU>
+		<UA>Тип введення</UA>
+		<EN>Input type</EN>
+	</input_type>
+	<sql_to_select_values>
+		<RU>Запрос для получения списка значений</RU>
+		<UA>Запит для отримання списку значень</UA>
+		<EN>Request to select list of values</EN>
+	</sql_to_select_values>
+	<sql_get_one_value>
+		<RU>Запрос для получения одного значения</RU>
+		<UA>Запит для отримання одного значення</UA>
+		<EN>Request to select one value</EN>
+	</sql_get_one_value>
+	<cd_sec_monitor_disp_type>
+		<RU>Код способа выполнения</RU>
+		<UA>Код способу виконання</UA>
+		<EN>Dispatch type code</EN>
+	</cd_sec_monitor_disp_type>
+	<name_sec_monitor_disp_type>
+		<RU>Название способа выполнения</RU>
+		<UA>Назва способу виконання</UA>
+		<EN>Dispatch type name</EN>
+	</name_sec_monitor_disp_type>
+	<cd_param_type>
+		<RU>Код типа параметра</RU>
+		<UA>Код типу параметру</UA>
+		<EN>Parameter type code</EN>
+	</cd_param_type>
+	<name_param_type>
+		<RU>Название типа параметра</RU>
+		<UA>Назва типу параметру</UA>
+		<EN>Parameter type name</EN>
+	</name_param_type>
+	<cd_sec_monitor_result>
+		<RU>Код типа результата</RU>
+		<UA>Код типу результату</UA>
+		<EN>Result type code</EN>
+	</cd_sec_monitor_result>
+	<name_sec_monitor_result>
+		<RU>Название типа результата</RU>
+		<UA>Назва типу результату</UA>
+		<EN>Result type name</EN>
+	</name_sec_monitor_result>
+	<cd_task_type>
+		<RU>Код типа задачи</RU>
+		<UA>Код типу завдання</UA>
+		<EN>Task type code</EN>
+	</cd_task_type>
+	<name_task_type>
+		<RU>Название типа задачи</RU>
+		<UA>Назва типу завдання</UA>
+		<EN>Task type name</EN>
+	</name_task_type>
+	
+	<id_deliv_status>
+		<RU>ИД статуса доставки</RU>
+		<UA>ІД статусу доставлення</UA>
+		<EN>Delivery status ID</EN>
+	</id_deliv_status>
+	<name_deliv_status>
+		<RU>Название статуса доставки</RU>
+		<UA>Назва статусу доставлення</UA>
+		<EN>Delivery status name</EN>
+	</name_deliv_status>
+	<id_send_status>
+		<RU>ИД статуса отправки</RU>
+		<UA>ІД статусу відсилання</UA>
+		<EN>Send status ID</EN>
+	</id_send_status>
+	<name_send_status>
+		<RU>Название статуса отправки</RU>
+		<UA>Назва статусу відсилання</UA>
+		<EN>Send status name</EN>
+	</name_send_status>
+	<cd_sms_message_type>
+		<RU>Код типа сообщения</RU>
+		<UA>Код типу повідомлення</UA>
+		<EN>Message type code</EN>
+	</cd_sms_message_type>
+	<name_sms_message_type>
+		<RU>Название типа сообщения</RU>
+		<UA>Назва типу повідомлення</UA>
+		<EN>Message type name</EN>
+	</name_sms_message_type>
+	
+	<cd_post_type>
+		<RU>Код должности</RU>
+		<UA>Код посади</UA>
+		<EN>Post code</EN>
+	</cd_post_type>
+	<name_post_type>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</name_post_type>
+	<id_certificate_level>
+		<RU>ИД квалификационного уровня</RU>
+		<UA>ІД кваліфікаційного рівня</UA>
+		<EN>Qualification level ID</EN>
+	</id_certificate_level>
+	<name_certificate_level>
+		<RU>Название квалификационного уровня</RU>
+		<UA>Назва кваліфікаційного рівня</UA>
+		<EN>Qualification level name</EN>
+	</name_certificate_level>
+	
+	<used_in_logistic>
+		<RU>Используется в логистике</RU>
+		<UA>Використовується в логістиці</UA>
+		<EN>Used in logistic</EN>
+	</used_in_logistic>
+</dictionary>

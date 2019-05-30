@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<emails>
+	<general>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</general>
+	<general_profile>
+		<RU>Профили E-mail</RU>
+		<UA>Профілі E-mail</UA>
+		<EN>E-mail profiles</EN>
+	</general_profile>
+	<general_pattern>
+		<RU>Шаблоны E-mail</RU>
+		<UA>Шаблони E-mail</UA>
+		<EN>E-mail patterns</EN>
+	</general_pattern>
+	<id_email_profile>
+		<RU>ИД профиля</RU>
+		<UA>ІД профілю</UA>
+		<EN>Profile ID</EN>
+	</id_email_profile>
+	<name_email_profile>
+		<RU>Название профиля</RU>
+		<UA>Назва профілю</UA>
+		<EN>Profile name</EN>
+	</name_email_profile>
+	<desc_email_profile>
+		<RU>Описание профиля</RU>
+		<UA>Опис профілю</UA>
+		<EN>Profile description</EN>
+	</desc_email_profile>
+	<smtp_server>
+		<RU>SMTP сервер</RU>
+		<UA>SMTP сервер</UA>
+		<EN>SMTP server</EN>
+	</smtp_server>
+	<smtp_port>
+		<RU>SMTP порт</RU>
+		<UA>SMTP порт</UA>
+		<EN>SMTP port</EN>
+	</smtp_port>
+	<smtp_ssl>
+		<RU>Использовать SSL</RU>
+		<UA>Використовувати SSL</UA>
+		<EN>Use SSL</EN>
+	</smtp_ssl>
+	<smtp_user>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User</EN>
+	</smtp_user>
+	<smtp_password>
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN>
+	</smtp_password>
+	<NEED_AUTORIZATION>
+		<RU>Требуется авторизация</RU>
+		<UA>Потрібна авторизація</UA>
+		<EN>Need autorization</EN>
+	</NEED_AUTORIZATION>
+	<DELAY_NEXT_LETTER>
+		<RU>Задержка следующего письма, сек</RU>
+		<UA>Затримка наступного листа, сек</UA>
+		<EN>Next letter delay, sec.</EN>
+	</DELAY_NEXT_LETTER>
+	<max_error_messages>
+		<RU>Макс.количество ошибок</RU>
+		<UA>Макс.кількість помилок</UA>
+		<EN>Max.error messages</EN>
+	</max_error_messages>
+	<sender_email>
+		<RU>E-mail отправителя</RU>
+		<UA>E-mail відправника</UA>
+		<EN>Sender's e-mail</EN>
+	</sender_email>
+	<h_add_profile>
+		<RU>Добавить профиль</RU>
+		<UA>Додати профіль</UA>
+		<EN>Add profile</EN>
+	</h_add_profile>
+	<h_delete_profile>
+		<RU>Удалить профиль</RU>
+		<UA>Видалити профіль</UA>
+		<EN>Delete profile</EN>
+	</h_delete_profile>
+	<cd_profile_state>
+		<ru>Состояние профиля</ru>
+		<ua>Стан профілю</ua>
+		<en>Profile state</en></cd_profile_state>
+	<name_profile_state>
+		<ru>Состояние профиля</ru>
+		<ua>Стан профілю</ua>
+		<en>Profile state</en></name_profile_state>
+</emails>

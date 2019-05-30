@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<accounts>
+	<general>
+		<RU>Банковские счета</RU>
+		<UA>Банківські рахунки</UA>
+		<EN>Bank accounts</EN>
+	</general>
+	<card_cd_card>
+		<RU>Номер карты</RU>
+		<UA>Номер карки</UA>
+		<EN>Card number</EN>
+	</card_cd_card>
+	<cd_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</cd_currency>
+	<code_country>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</code_country>
+	<contact_person>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</contact_person>
+	<contact_phone>
+		<RU>Контактный телефон</RU>
+		<UA>Контактний телефон</UA>
+		<EN>Contact telephone</EN>
+	</contact_phone>
+	<date_beg>
+		<ru>Дата начала учета</ru>
+		<ua>Дата початку обліку</ua>
+		<en>Begin operation date</en>
+	</date_beg>
+	<date_end>
+		<RU>Дата окончания учета</RU>
+		<UA>Дата закінчення обліку</UA>
+		<EN>End registration date</EN>
+	</date_end>
+	<desc_bank_account>
+		<RU>Комментарии</RU>
+		<UA>Коментарі</UA>
+		<EN>Comments</EN>
+	</desc_bank_account>
+	<id_bank_account>
+		<RU>ИД счета</RU>
+		<UA>ІД рахунку</UA>
+		<EN>Accounts ID</EN>
+	</id_bank_account>
+	<id_bank_branch>
+		<RU>ИД банка</RU>
+		<UA>ІД банку</UA>
+		<EN>Bank ID</EN>
+	</id_bank_branch>
+	<card_id_issuer>
+		<RU>Issuer ID</RU>
+		<UA>ІД емітента</UA>
+		<EN>ID emitter</EN>
+	</card_id_issuer>
+	<card_id_issuer_type>
+		<RU>ИД типа эмитента</RU>
+		<UA>ІД типу емітента</UA>
+		<EN>Issuer ID type</EN>
+	</card_id_issuer_type>
+	<card_id_payment_system>
+		<RU>ИД платежной системы</RU>
+		<UA>ІД платіжної системи</UA>
+		<EN>Payment system ID</EN>
+	</card_id_payment_system>
+	<multy_currency_flag>
+		<RU>Многовалютный</RU>
+		<UA>Багатовалютний</UA>
+		<EN>Multicurrency</EN>
+	</multy_currency_flag>
+	<name_bank_account>
+		<RU>Название счета</RU>
+		<UA>Назва рахунку</UA>
+		<EN>Account name</EN>
+	</name_bank_account>
+	<name_bank>
+		<RU>Название банка</RU>
+		<UA>Назва банку</UA>
+		<EN>Bank name</EN>
+	</name_bank>
+	<name_bank_alt>
+		<RU>Банк</RU>
+		<UA>Банк</UA>
+		<EN>Bank</EN>
+	</name_bank_alt>
+	<name_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</name_currency>
+	<partner>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</partner>
+	<id_jur_prs>
+		<RU>Владелец счета: юрлицо</RU>
+		<UA>Власник рахунку: юрособа</UA>
+		<EN>Account owner: legal person</EN>
+	</id_jur_prs>
+	<name_jur_prs>
+		<RU>Владелец счета: юрлицо</RU>
+		<UA>Власник рахунку: юрособа</UA>
+		<EN>Account owner: legal person</EN>
+	</name_jur_prs>
+	<sname_jur_prs>
+		<RU>Владелец счета: юрлицо</RU>
+		<UA>Власник рахунку: юрособа</UA>
+		<EN>Account owner: legal person</EN>
+	</sname_jur_prs>
+	<name_nat_prs>
+		<RU>Владелец счета: физлицо</RU>
+		<UA>Власник рахунку: фізособа</UA>
+		<EN>Account owner: natural person</EN>
+	</name_nat_prs>
+	<number_bank_account>
+		<RU>Номер счета</RU>
+		<UA>Номер рахунку</UA>
+		<EN>Account number</EN>
+	</number_bank_account>
+	<cd_bank_account_type>
+		<RU>Тип счета</RU>
+		<UA>Тип рахунку</UA>
+		<EN>Account type</EN>
+	</cd_bank_account_type>
+	<name_bank_account_type>
+		<RU>Тип счета</RU>
+		<UA>Тип рахунку</UA>
+		<EN>Account type</EN>
+	</name_bank_account_type>
+	<name_doc_bank_account_type>
+		<RU>Тип счета в документе</RU>
+		<UA>Тип рахунку в документі</UA>
+		<EN>Account type in document</EN>
+	</name_doc_bank_account_type>
+	<zero_amounts_allowed>
+		<RU>Создавать нулевые проводки</RU>
+		<UA>Створювати нульові проведення</UA>
+		<EN>Create zero entries</EN>
+	</zero_amounts_allowed>
+	<t_accounts>
+		<RU>Описание счета</RU>
+		<UA>Опис рахунку</UA>
+		<EN>Account description</EN>
+	</t_accounts>
+	<h_accounts_add>
+		<RU>Добавить новый банковский счет</RU>
+		<UA>Додати новий банківський рахунок</UA>
+		<EN>Add new bank account</EN>
+	</h_accounts_add>
+	<h_accounts_edit>
+		<RU>Изменить параметры банковского счета</RU>
+		<UA>Змінити параметри банківського рахунка</UA>
+		<EN>Change of bank account parameters</EN>
+	</h_accounts_edit>
+	<h_add_many_accounts>
+		<RU>Добавить несколько банковских счетов</RU>
+		<UA>Додати декілька банківських рахунків</UA>
+		<EN>Add many bank accounts</EN>
+	</h_add_many_accounts>
+	<used_in_clearing_flag>
+		<ru>Участвует в клиринге</ru>
+		<ua>Бере участь у клірингу</ua>
+		<en>Take part in clearing</en></used_in_clearing_flag>
+	<mfo_bank>
+		<ru>МФО банка</ru>
+		<ua>МФО банку</ua>
+		<en>Bank identifier code</en></mfo_bank>
+	<id_bk_account>
+		<ru>Бухгалтерский счет</ru>
+		<ua>Бухгалтерський рахунок</ua>
+		<en>Busioness account</en></id_bk_account>
+	<id_owner_bank_account>
+		<ru>Владелец счета</ru>
+		<ua>Власник рахунку</ua>
+		<en>Account owner</en></id_owner_bank_account>
+	<name_owner_bank_account>
+		<ru>Владелец счета</ru>
+		<ua>Власник рахунку</ua>
+		<en>Account owner</en></name_owner_bank_account>
+	<sname_owner_bank_account>
+		<ru>Владелец счета</ru>
+		<ua>Власник рахунку</ua>
+		<en>Account owner</en></sname_owner_bank_account>
+	<h_delete_bank_account>
+		<ru>Удалить банковский счет</ru>
+		<ua>Видалити банківський рахунок</ua>
+		<en>Delete bank account</en></h_delete_bank_account>
+		
+	<NEED_BALANCE>
+		<ru>Выставлено требований</ru>
+		<ua>Виставлено вимог</ua>
+		<en>Exposed requirements</en></NEED_BALANCE>
+	<CONFIRM_RESTS>
+		<ru>Подтверждено</ru>
+		<ua>Підтверджено</ua>
+		<en>Confirmed</en></CONFIRM_RESTS>
+	<NEED_BEGIN_BALANCE>
+		<ru>Начальный баланс</ru>
+		<ua>Початковий баланс</ua>
+		<en>Begin balance</en></NEED_BEGIN_BALANCE>
+	<NEED_RECEIV_AMOUNT>
+		<ru>Поступления</ru>
+		<ua>Надходження</ua>
+		<en>Receipts</en></NEED_RECEIV_AMOUNT>
+	<NEED_PAY_AMOUNT>
+		<ru>Платежи</ru>
+		<ua>Платежі</ua>
+		<en>Payments</en></NEED_PAY_AMOUNT>
+	<NEED_END_BALANCE>
+		<ru>Конечный баланс</ru>
+		<ua>Кінцевий баланс</ua>
+		<en>End balance</en></NEED_END_BALANCE>
+	<CONFIRM_RECEIVED_AMOUNT>
+		<ru>Поступления</ru>
+		<ua>Надходження</ua>
+		<en>Receipts</en></CONFIRM_RECEIVED_AMOUNT>
+	<CONFIRM_PAYED_AMOUNT>
+		<ru>Платежи</ru>
+		<ua>Платежі</ua>
+		<en>Payments</en></CONFIRM_PAYED_AMOUNT>
+	<accounting_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</accounting_date>
+	<h_calc_rests>
+		<RU>Пересчитать остатки</RU>
+		<UA>Вирахувати залишки</UA>
+		<EN>Calculate rests</EN>
+	</h_calc_rests>
+	
+	<h_begin_period>
+		<RU>Период: с</RU>
+		<UA>Період: з</UA>
+		<EN>Period: from</EN>
+	</h_begin_period>
+	<h_end_period>
+		<RU>по</RU>
+		<UA>по</UA>
+		<EN>to</EN>
+	</h_end_period>	
+	<h_begin_period_full>
+		<RU>Начало периода</RU>
+		<UA>Початок періода</UA>
+		<EN>Begin period</EN>
+	</h_begin_period_full>
+	<h_end_period_full>
+		<RU>Окончание периода</RU>
+		<UA>Кінець періода</UA>
+		<EN>End period</EN>
+	</h_end_period_full>
+	<h_find_string>
+		<RU>Строка поиска:</RU>
+		<UA>Рядок пошуку:</UA>
+		<EN>Find string:</EN>
+	</h_find_string>
+</accounts>

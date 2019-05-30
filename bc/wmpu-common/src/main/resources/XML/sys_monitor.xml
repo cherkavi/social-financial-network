@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sys_monitor>
+	<general>
+		<RU>Системный монитор</RU>
+		<UA>Системний монітор</UA>
+		<EN>System monitor</EN>
+	</general>
+	<id_monitor>
+		<RU>ИД записи</RU>
+		<UA>ІД запису</UA>
+		<EN>Record ID</EN>
+	</id_monitor>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<id_sam>
+		<RU>Номер SAM</RU>
+		<UA>Номер SAM</UA>
+		<EN>SAM number</EN>
+	</id_sam>
+	<nt_sam>
+		<RU>№ транзакции SAM</RU>
+		<UA>№ транзакції SAM</UA>
+		<EN>SAM transaction number</EN>
+	</nt_sam>
+	<id_telgr>
+		<RU>ИД телеграммы</RU>
+		<UA>ІД телеграми</UA>
+		<EN>Telegram ID</EN>
+	</id_telgr>
+	<name_telgr>
+		<RU>Название телеграммы</RU>
+		<UA>Назва телеграми</UA>
+		<EN>Telegram name</EN>
+	</name_telgr>
+	<ver_telgr>
+		<RU>Версия телеграммы</RU>
+		<UA>Версія телеграми</UA>
+		<EN>Telegram version</EN>
+	</ver_telgr>
+	<id_trans>
+		<RU>ИД транзакции</RU>
+		<UA>ІД транзакції</UA>
+		<EN>Transaction ID</EN>
+	</id_trans>
+	<name_trans>
+		<RU>Название транзакции</RU>
+		<UA>Назва транзакції</UA>
+		<EN>Transaction name</EN>
+	</name_trans>
+	<cd_card>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Сard number</EN>
+	</cd_card>
+	<nt_icc>
+		<RU>№ транзакции</RU>
+		<UA>№ транзакції</UA>
+		<EN>Transaction number</EN>
+	</nt_icc>
+	<exc_code>
+		<RU>Код проверки</RU>
+		<UA>Код перевірки</UA>
+		<EN>Checking code</EN>
+	</exc_code>
+	<exc_desc>
+		<RU>Описание проверки</RU>
+		<UA>Опис перевірки</UA>
+		<EN>Checking description</EN>
+	</exc_desc>
+	<check_phase>
+		<RU>Фаза проверки</RU>
+		<UA>Фаза перевірки</UA>
+		<EN>Checking phase</EN>
+	</check_phase>
+	<check_result>
+		<RU>Результат</RU>
+		<UA>Результат</UA>
+		<EN>Result</EN>
+	</check_result>
+	<name_param1>
+		<RU>Название параметра 1</RU>
+		<UA>Назва параметра 1</UA>
+		<EN>Name of the 1st parameter</EN>
+	</name_param1>
+	<value_param1>
+		<RU>Значение параметра 1</RU>
+		<UA>Значення параметра 1</UA>
+		<EN>Value of the 1st parameter</EN>
+	</value_param1>
+	<name_param2>
+		<RU>Название параметра 2</RU>
+		<UA>Назва параметра 2</UA>
+		<EN>Name of the 2nd parameter</EN>
+	</name_param2>
+	<value_param2>
+		<RU>Значение параметра 2</RU>
+		<UA>Значення параметра 2</UA>
+		<EN>Value of the 2nd parameter</EN>
+	</value_param2>
+	<user_log_id>
+		<RU>ИД сессии пользователя</RU>
+		<UA>ІД сесії користувача</UA>
+		<EN>User session ID</EN>
+	</user_log_id>
+	<user_name>
+		<RU>Пользователь</RU>
+		<UA>Користувач</UA>
+		<EN>User name</EN>
+	</user_name>
+	<outher_sid>
+		<RU>ИД внешней сессии</RU>
+		<UA>ІД зовнішньої сесії</UA>
+		<EN>External session ID</EN>
+	</outher_sid>
+	<creation_date>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN>
+	</creation_date>
+</sys_monitor>

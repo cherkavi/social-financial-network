@@ -1,0 +1,52 @@
+<beans 
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+    xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+    xmlns:cxf="http://cxf.apache.org/core"
+    xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		
+		http://cxf.apache.org/core 
+		http://cxf.apache.org/schemas/core.xsd
+		
+		http://cxf.apache.org/jaxrs
+		http://cxf.apache.org/schemas/jaxrs.xsd
+		
+		http://cxf.apache.org/jaxws
+		http://cxf.apache.org/schemas/jaxws.xsd
+		
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd
+		">
+		
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+	
+	<context:component-scan base-package="bc.ws" />
+	
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="java:comp/env/jdbc/wmpu"/>
+    </bean>
+    
+	<!--  
+		url to description: http://localhost:8080/wmpuws/services  
+		url to wsdl for certain service: http://localhost:8080/wmpuws/services/cardOperations?wsdl
+	-->
+    <jaxws:endpoint 
+    	id="CardOperationsService" 
+    	implementor="bc.ws.service.CardOperationsService" 
+    	address="/cardOperations" 
+    />
+    
+    <jaxws:endpoint 
+    	id="UserParamsService" 
+    	implementor="bc.ws.service.UserParamsService" 
+    	address="/userParams" 
+    />
+    
+    
+</beans>

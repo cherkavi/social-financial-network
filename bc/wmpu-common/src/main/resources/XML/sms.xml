@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sms>
+	<general>
+		<RU>SMS</RU>
+		<UA>SMS</UA>
+		<EN>SMS</EN>
+	</general>
+	<general_client_profile>
+		<RU>Профили Клиентов</RU>
+		<UA>Профілі Клієтрів</UA>
+		<EN>Client's profiles</EN>
+	</general_client_profile>
+	<general_pattern>
+		<RU>Шаблоны SMS</RU>
+		<UA>Шаблони SMS</UA>
+		<EN>SMS patterns</EN>
+	</general_pattern>
+	<id_sms_message>
+		<RU>ИД сообщения</RU>
+		<UA>ІД повідомлення</UA>
+		<EN>Message ID</EN>
+	</id_sms_message>
+	<cd_sms_message_type>
+		<RU>Тип сообщения</RU>
+		<UA>Тип повідомлення</UA>
+		<EN>Message type</EN>
+	</cd_sms_message_type>
+	<name_sms_message_type>
+		<RU>Тип сообщения</RU>
+		<UA>Тип повідомлення</UA>
+		<EN>Message type</EN>
+	</name_sms_message_type>
+	<recepient>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</recepient>
+	<text_message>
+		<RU>Текст сообщения</RU>
+		<UA>Текст повідомлення</UA>
+		<EN>Text of message</EN>
+	</text_message>
+	<note_message>
+		<RU>Примечания</RU>
+		<UA>Примітки</UA>
+		<EN>Notes</EN>
+	</note_message>
+	<event_date>
+		<RU>Дата события</RU>
+		<UA>Дата події</UA>
+		<EN>Event date</EN>
+	</event_date>
+	<send_date>
+		<RU>Дата отправки</RU>
+		<UA>Дата відсилання</UA>
+		<EN>Send date</EN>
+	</send_date>
+	<receive_date>
+		<RU>Дата получения</RU>
+		<UA>Дата отримання</UA>
+		<EN>Receive date</EN>
+	</receive_date>
+	<call_in_date>
+		<RU>Дата входящего звонка</RU>
+		<UA>Дата вхідного дзвінка</UA>
+		<EN>Call in date</EN>
+	</call_in_date>
+	<call_out_date>
+		<RU>Дата исходящего звонка</RU>
+		<UA>Дата вихідного дзвінка</UA>
+		<EN>Call out date</EN>
+	</call_out_date>
+	<refno>
+		<RU>Служебное поле</RU>
+		<UA>Службове поле</UA>
+		<EN>REFNO</EN>
+	</refno>
+	<id_sms_action>
+		<RU>ИД действия</RU>
+		<UA>ІД дії</UA>
+		<EN>Action ID</EN>
+	</id_sms_action>
+	<error_message>
+		<RU>Сообщение об ошибке</RU>
+		<UA>Повідомлення про помилку</UA>
+		<EN>Error message</EN>
+	</error_message>
+	<cd_sms_state>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN>
+	</cd_sms_state>
+	<name_sms_state>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN>
+	</name_sms_state>
+	<id_send_status>
+		<RU>Статус сообщения</RU>
+		<UA>Статус повідомлення</UA>
+		<EN>Send status</EN>
+	</id_send_status>
+	<name_send_status>
+		<RU>Статус отправки</RU>
+		<UA>Статус відсилання</UA>
+		<EN>Send status</EN>
+	</name_send_status>
+	<send_status_date>
+		<RU>Дата отправки</RU>
+		<UA>Дата відсилання</UA>
+		<EN>Send date</EN>
+	</send_status_date>
+	<id_deliv_status>
+		<RU>Статус доставки</RU>
+		<UA>Статус доставки</UA>
+		<EN>Delivery status</EN>
+	</id_deliv_status>
+	<name_deliv_status>
+		<RU>Статус доставки</RU>
+		<UA>Статус доставки</UA>
+		<EN>Delivery status</EN>
+	</name_deliv_status>
+	<deliv_status_date>
+		<RU>Дата доставки</RU>
+		<UA>Дата доставки</UA>
+		<EN>Delivery date</EN>
+	</deliv_status_date>
+	<repeat_count>
+		<RU>Количество попыток отправки</RU>
+		<UA>Кількість спроб відсилання</UA>
+		<EN>Send repeat count</EN>
+	</repeat_count>
+	<send_count>
+		<RU>Количестов отправок</RU>
+		<UA>Кількість відправлень</UA>
+		<EN>Quantity of sendints</EN>
+	</send_count>
+	<error_sendings_quantity>
+		<RU>Количестов ошибок отправки</RU>
+		<UA>Кількість помилок відправлення</UA>
+		<EN>Quantity of sendint's errors</EN>
+	</error_sendings_quantity>
+	<all_sendings_count>
+		<RU>Количестов отправок/ ошибок</RU>
+		<UA>Кількість відсилань/ помилок</UA>
+		<EN>Quantity of sendings/ errors</EN>
+	</all_sendings_count>
+	<archiv>
+		<RU>Признак архива</RU>
+		<UA>Ознака архіву</UA>
+		<EN>Is archive</EN>
+	</archiv>
+	
+	<ds_cl_profile>
+		<RU>Профиль Клиента</RU>
+		<UA>Профіль Клієнта</UA>
+		<EN>Client's profile</EN>
+	</ds_cl_profile>
+	<id_ds_cl_profile>
+		<RU>ИД профиля</RU>
+		<UA>ІД профілю</UA>
+		<EN>Profile ID</EN>
+	</id_ds_cl_profile>
+	<name_ds_cl_profile>
+		<RU>Название профиля</RU>
+		<UA>Назва профілю</UA>
+		<EN>Profile name</EN>
+	</name_ds_cl_profile>
+	<desc_ds_cl_profile>
+		<RU>Описание профиля</RU>
+		<UA>Опис профілю</UA>
+		<EN>Profile description</EN>
+	</desc_ds_cl_profile>
+	<cd_pattern_type>
+		<RU>Тип шаблона</RU>
+		<UA>Тип шаблону</UA>
+		<EN>Pattern type</EN>
+	</cd_pattern_type>
+	<name_pattern_type>
+		<RU>Тип шаблона</RU>
+		<UA>Тип шаблону</UA>
+		<EN>Pattern type</EN>
+	</name_pattern_type>
+	
+	<id_cl_pattern>
+		<RU>ИД шаблона</RU>
+		<UA>ІД шаблону</UA>
+		<EN>Pattern ID</EN>
+	</id_cl_pattern>	
+	<name_cl_pattern>
+		<RU>Название шаблона</RU>
+		<UA>Назва шаблону</UA>
+		<EN>Pattern name</EN>
+	</name_cl_pattern>	
+	<cd_dispatch_type>
+		<RU>Тип выполнения</RU>
+		<UA>Тип виконання</UA>
+		<EN>Dispatch type</EN>
+	</cd_dispatch_type>
+	<name_dispatch_type>
+		<RU>Тип выполнения</RU>
+		<UA>Тип виконання</UA>
+		<EN>Dispatch type</EN>
+	</name_dispatch_type>
+	<text_sms_ru>
+		<RU>Текст SMS (рус.)</RU>
+		<UA>Текст SMS (рос.)</UA>
+		<EN>SMS text(rus.)</EN>
+	</text_sms_ru>
+	<text_sms_ua>
+		<RU>Текст SMS (укр.)</RU>
+		<UA>Текст SMS (укр.)</UA>
+		<EN>SMS text (ukr.)</EN>
+	</text_sms_ua>
+	<text_sms_en>
+		<RU>Текст SMS (англ.)</RU>
+		<UA>Текст SMS (англ.)</UA>
+		<EN>SMS text(eng.)</EN>
+	</text_sms_en>
+	<h_additional_parameters>
+		<RU>Дополнительные параметры</RU>
+		<UA>Додаткові параметри</UA>
+		<EN>Additional parameters</EN>
+	</h_additional_parameters>
+	<client_profile>
+		<RU>Профиль SMS</RU>
+		<UA>Профіль SMS</UA>
+		<EN>SMS profile</EN>
+	</client_profile>
+	<h_add_sms>
+		<RU>Добавить SMS</RU>
+		<UA>Додати SMS</UA>
+		<EN>Add SMS</EN>
+	</h_add_sms>
+	<h_delete_sms>
+		<RU>Удалить SMS</RU>
+		<UA>Видалити SMS</UA>
+		<EN>Delete SMS</EN>
+	</h_delete_sms>
+	<h_delete_sms>
+		<RU>Удалить неотосланные SMS</RU>
+		<UA>Видалити невідіслані SMS</UA>
+		<EN>Delete not sent SMS</EN>
+	</h_delete_sms>
+	<h_delete_not_sent_sms>
+		<RU>Удалить неотосланные SMS для выполнения</RU>
+		<UA>Видалити невідіслані SMS для виконання</UA>
+		<EN>Delete not sent SMS for execution</EN>
+	</h_delete_not_sent_sms>
+	<h_delete_exec>
+		<RU>Удалить выполнение</RU>
+		<UA>Видалити виконання</UA>
+		<EN>Delete execution</EN>
+	</h_delete_exec>
+	<h_run_exec>
+		<RU>Выполнить</RU>
+		<UA>Виконати</UA>
+		<EN>Execute</EN>
+	</h_run_exec>
+	
+	<execution_date>
+		<RU>Дата выполнения</RU>
+		<UA>Дата виконання</UA>
+		<EN>Execution date</EN>
+	</execution_date>
+	<has_sent_messages>
+		<RU>Есть отправленные сообщения</RU>
+		<UA>Є відіслані повідомлення</UA>
+		<EN>Has send messages</EN>
+	</has_sent_messages>
+	<h_change_region>
+		<RU>Изменить регион</RU>
+		<UA>Змінити регіон</UA>
+		<EN>Change region</EN>
+	</h_change_region>
+	<CODE_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></CODE_COUNTRY>
+	<NAME_COUNTRY>
+		<ru>Страна</ru>
+		<ua>Країна</ua>
+		<en>Country</en></NAME_COUNTRY>
+	<h_not_entered_deleted_sms>
+		<ru>Не отмечены SMS для удаления</ru>
+		<ua>Не вибрані SMS для видалення</ua>
+		<en>SMS for delete not entered</en></h_not_entered_deleted_sms>
+	<h_not_entered_sms>
+		<ru>Не отмечены SMS</ru>
+		<ua>Не вибрані SMS</ua>
+		<en>SMS not entered</en></h_not_entered_sms>
+	<h_confirm_delete>
+		<ru>Вы действительно хотите удалить выбранные SMS?</ru>
+		<ua>Ви дійсно бажаєте видалити вибрані SMS?</ua>
+		<en>You really wish to remove chosen SMS?</en></h_confirm_delete>
+		
+	<name_pattern_status>
+		<ru>Статус шаблона</ru>
+		<ua>Статус шаблону</ua>
+		<en>Pattern status</en></name_pattern_status>
+	<begin_action_date>
+		<ru>Начало действия</ru>
+		<ua>Початок дії</ua>
+		<en>Begin action date</en></begin_action_date>
+	<end_action_date>
+		<ru>Окончание действия</ru>
+		<ua>Завершення дії</ua>
+		<en>End action date</en></end_action_date>
+		
+	<h_input_message>
+		<ru>Входящее сообщение с запросом</ru>
+		<ua>Вхідне повідомлення з запитом</ua>
+		<en>Incoming message with request</en></h_input_message>
+		
+	<sms_profile>
+		<ru>Профиль SMS</ru>
+		<ua>Профіль SMS</ua>
+		<en>SMS Profile</en></sms_profile>
+	<id_sms_profile>
+		<ru>ИД профиля</ru>
+		<ua>ІД профілю</ua>
+		<en>Profile ID</en></id_sms_profile>
+	<name_sms_profile>
+		<ru>Название профиля</ru>
+		<ua>Назва профілю</ua>
+		<en>Profile name</en></name_sms_profile>
+	<cd_profile_state>
+		<ru>Состояние профиля</ru>
+		<ua>Стан профілю</ua>
+		<en>Profile state</en></cd_profile_state>
+	<name_profile_state>
+		<ru>Состояние профиля</ru>
+		<ua>Стан профілю</ua>
+		<en>Profile state</en></name_profile_state>
+	<desc_sms_profile>
+		<ru>Описание профиля</ru>
+		<ua>Опис профілю</ua>
+		<en>Profile description</en></desc_sms_profile>
+	<name_sms_device_type>
+		<ru>Тип устройства</ru>
+		<ua>Тип пристрою</ua>
+		<en>Device type</en></name_sms_device_type>
+	<device_serial_number>
+		<ru>Серийный номер устройства</ru>
+		<ua>Серійний номер пристрою</ua>
+		<en>Device serial number</en></device_serial_number>
+	<mobile_operator>
+		<ru>Оператор связи</ru>
+		<ua>Оператор зв'язку</ua>
+		<en>Mobile operator</en></mobile_operator>
+	<phone_mobile>
+		<ru>Номер телефона</ru>
+		<ua>Номер телефону</ua>
+		<en>Phone number</en></phone_mobile>
+	<max_send_repeat_count>
+		<ru>Количество повторов</ru>
+		<ua>Кількість повторів</ua>
+		<en>Repeat count</en></max_send_repeat_count>
+	<delay_message_msec>
+		<ru>Задержка отправки (мсек.)</ru>
+		<ua>Затримка відправлення (мсек.)</ua>
+		<en>Delay of dispatch (msec)</en></delay_message_msec>
+	<max_delivery_time_sec>
+		<ru>Ожидание подтверждения (сек.)</ru>
+		<ua>Очікування підтвердження (сек.)</ua>
+		<en>Delivery time (msec)</en></max_delivery_time_sec>
+	<check_new_messages_time_msec>
+		<ru>Проверка новых сообщений (мсек.)</ru>
+		<ua>Перевірка нових повідомлень (мсек.)</ua>
+		<en>Check new messages (msec)</en></check_new_messages_time_msec>
+	<analyse_old_messages_time_msec>
+		<ru>Анализ устаревших сообщений (мсек.)</ru>
+		<ua>Аналіз застарілих повідомлень (мсек.)</ua>
+		<en>Analise old messages (mmsec)</en></analyse_old_messages_time_msec>
+	<is_archive>
+		<ru>В архиве</ru>
+		<ua>В архіві</ua>
+		<en>In archive</en></is_archive>
+		
+	<h_source_data>
+		<ru>Источник сообщения</ru>
+		<ua>Джерело повідомлення</ua>
+		<en>Message source</en></h_source_data>
+	<id_cl_pattern>
+		<ru>Шаблон сообщения</ru>
+		<ua>Шаблон повідомлення</ua>
+		<en>Message pattern</en></id_cl_pattern>
+	<id_quest_int>
+		<ru>ИД анкеты</ru>
+		<ua>ІД анкети</ua>
+		<en>Questionnaire ID</en></id_quest_int>
+
+	<cd_dispatch_kind>
+		<ru>Получатель/ отправитель</ru>
+		<ua>Отримувач/ відправник</ua>
+		<en>Recepient/ sender</en></cd_dispatch_kind>
+	<name_dispatch_kind>
+		<ru>Получатель/ отправитель</ru>
+		<ua>Отримувач/ відправник</ua>
+		<en>Recepient/ sender</en></name_dispatch_kind>
+
+	<id_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></id_nat_prs>
+	<full_name_nat_prs>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en></full_name_nat_prs>
+		
+	<full_name_recepient>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en></full_name_recepient>
+
+	<h_change_sms_profile>
+		<ru>Изменить профиль SMS</ru>
+		<ua>Змінити профіль SMS</ua>
+		<en>Change SMS profile</en></h_change_sms_profile>
+		
+	<h_input_message2>
+		<ru>Входящее сообщение</ru>
+		<ua>Вхідне повідомлення</ua>
+		<en>Input message</en></h_input_message2>
+	<h_repeat_on_message>
+		<ru>Ответить на сообщение</ru>
+		<ua>Відповісти на повідомлення</ua>
+		<en>Repeat on message</en></h_repeat_on_message>
+		
+	<last_send_date>
+		<RU>Дата последней отправки</RU>
+		<UA>Дата останнього відсилання</UA>
+		<EN>Last send date</EN>
+	</last_send_date>
+	
+</sms>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+    "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+	<allow>
+    	<!--  объявление объекта и доступных функций -->
+    	<create creator="new" javascript="ReporterUtility">
+    		<!--  param name="scope" value="session" -->
+      		<param name="class" value="BonCard.Reports.JavaScript.ReporterUtility"/>
+      		<include method="sendToServer" />
+    	</create>
+    	<!--  обязательный параметр, который говорит о том что нужно преобразовывать объекты Java<=>JavaScript -->
+    	<convert converter="bean" match="BonCard.Reports.JavaScript.Fragment"/>
+    	
+    	<create creator="new" javascript="responseUtility">
+    		<!--  param name="scope" value="session" -->
+      		<param name="class" value="bc.ajax.responseUtility"/>
+      		<include method="get_responce" />
+      		<include method="getOblastArray" />
+      		<include method="getAddressArray" />
+    	</create>
+    	<!--  обязательный параметр, который говорит о том что нужно преобразовывать объекты Java<=>JavaScript -->
+    	<convert converter="bean" match="bc.ajax.transport"/>
+    	<convert converter="bean" match="bc.ajax.address"/>
+
+	</allow>
+</dwr>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<exp_files>
+	<general>
+		<RU>Файлы экспорта</RU>
+		<UA>Файли експорту</UA>
+		<EN>Export files</EN>
+	</general>
+	<id_file>
+		<RU>ИД файла</RU>
+		<UA>ІД файлу</UA>
+		<EN>File ID</EN>
+	</id_file>
+	<name_file>
+		<RU>Название файла</RU>
+		<UA>Назва файлу</UA>
+		<EN>File name</EN>
+	</name_file>
+	<path_file>
+		<RU>Каталог</RU>
+		<UA>Каталог</UA>
+		<EN>Catalogue</EN>
+	</path_file>
+	<desc_file>
+		<RU>Описание файла</RU>
+		<UA>Опис файлу</UA>
+		<EN>File description</EN>
+	</desc_file>
+	<creation_date>
+		<RU>Дата создания</RU>
+		<UA>Дата створення</UA>
+		<EN>Creation date</EN>
+	</creation_date>
+	<id_user>
+		<RU>Кем создано</RU>
+		<UA>Ким створено</UA>
+		<EN>Created by</EN>
+	</id_user>
+	<name_user>
+		<RU>Кем создано</RU>
+		<UA>Ким створено</UA>
+		<EN>Created by</EN></name_user>
+	<record_count>
+		<ru>Количество записей</ru>
+		<ua>Кількість записів</ua>
+		<en>Record's count</en></record_count>
+	<operation_type>
+		<ru>Тип операции</ru>
+		<ua>Тип операції</ua>
+		<en>Operation type</en></operation_type>
+	<date_beg>
+		<ru>Дата начала</ru>
+		<ua>Дата початку</ua>
+		<en>Beginning date</en></date_beg>
+	<date_end>
+		<ru>Дата окончания</ru>
+		<ua>Дата завершення</ua>
+		<en>Ending date</en></date_end>
+	<file_type>
+		<ru>Тип файла</ru>
+		<ua>Тип файлу</ua>
+		<en>File type</en></file_type>
+	<file_charset>
+		<ru>Кодовая страница файла</ru>
+		<ua>Кодова сторінка файлу</ua>
+		<en>File codepage</en></file_charset>
+	<data_format>
+		<ru>Формат данных</ru>
+		<ua>Формат даних</ua>
+		<en>Data format</en></data_format>
+</exp_files>

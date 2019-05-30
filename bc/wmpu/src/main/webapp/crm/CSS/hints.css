@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+.tp {position:relative;text-indent:0;}
+.tp b {
+   border-bottom:#90f 1px dotted;
+   color:#90f;
+   cursor:help;
+   font-weight:normal;
+   position: relative;
+   display: inline-block;
+}
+.tp b span {display:none;}
+/*-- для FF, OPERA, IE7 --*/
+.tp b:hover {
+   border-bottom:red 1px dotted;
+   color:red;
+}
+.tp b:hover span {
+   background:lightcyan;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+   border:silver 2px outset;
+   color:#000;
+   display:block;
+   padding:7px;
+   position:absolute;
+   top:-35px;
+   left:5px;
+   z-index:10;
+   text-align:left;
+   width:250px;
+}

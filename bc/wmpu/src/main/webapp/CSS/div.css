@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+	body {
+    	margin:9px 9px 0 9px;
+    	padding:0;
+    	background:azure;
+	}
+	.div_find {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_find_none {
+	  font-size: 10px;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+      background:#EFEFEF;
+	}
+	.div_find_marked {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font-weight: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.img_ps {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	  border: 0px;
+	  cursor: pointer;
+	}
+	.div_title {
+	  color: black;
+	  background: white;
+	  font-size:22px;
+	  font-family:Arial;
+	  font-weight:bold;
+	  font-style: italic;
+	  cursor: pointer;
+	  height: 30;
+	}
+	
+	.div_title font.font_title {
+	  font-size:22px;
+	}
+	.div_title font.font_title:hover {
+	  font-size:22px;
+	  text-decoration: underline;
+	}
+
+	.div_tabs {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	  padding:7px;
+	}
+	.div_tabs li.s {
+		display: inline;
+		background: url(../../images/menu/tabsheet/greenbg_s.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	.div_tabs a.s {
+		color: #663300;
+		background: url(../../images/menu/tabsheet/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	.div_tabs a.s span {
+		background: url(../../images/menu/tabsheet/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	.div_tabs a.s span {
+		float: none;
+	}
+	
+	

@@ -1,0 +1,66 @@
+/* This file skins tableSorter */
+
+	input.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+textarea.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+select.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+input.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+textarea.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+select.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+input.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+textarea.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+select.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+

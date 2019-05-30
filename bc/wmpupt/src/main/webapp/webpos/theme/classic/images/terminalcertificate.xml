@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<terminalcertificate>
+	<general>
+		<RU>Терминальные сертификаты</RU>
+		<UA>Термінальні сертифікати</UA>
+		<EN>Terminal certificates</EN>
+	</general>
+	<id_term_certificate>
+		<RU>ИД сертификата</RU>
+		<UA>ІД сертифікату</UA>
+		<EN>Certificate ID</EN>
+	</id_term_certificate>
+	<date_beg>
+		<RU>Дата начала изменений</RU>
+		<UA>Дата початку змін</UA>
+		<EN>Beginning date of updates</EN>
+	</date_beg>
+	<date_end>
+		<RU>Дата окончания изменений</RU>
+		<UA>Дата завершення змін</UA>
+		<EN>Ending date of updates</EN>
+	</date_end>
+	<jur_prs_manufacturer>
+		<RU>Производитель</RU>
+		<UA>Виробник</UA>
+		<EN>Manufacturer</EN>
+	</jur_prs_manufacturer>
+	<sname_jur_prs_manufacturer>
+		<RU>Производитель</RU>
+		<UA>Виробник</UA>
+		<EN>Manufacturer</EN>
+	</sname_jur_prs_manufacturer>
+	<id_term>
+		<RU>ИД терминала</RU>
+		<UA>ІД терміналу</UA>
+		<EN>Terminal ID</EN>
+	</id_term>
+	<id_term_hex>
+		<RU>ИД терминала (HEX)</RU>
+		<UA>ІД терміналу (HEX)</UA>
+		<EN>Terminal ID (HEX)</EN>
+	</id_term_hex>
+	<ID_TERM_NBU>
+		<RU>ИД терминала (НБУ)</RU>
+		<UA>IД терміналу (НБУ)</UA>
+		<EN>Terminal ID (NBU)</EN>
+	</ID_TERM_NBU>
+	<device_type>
+		<RU>Тип устройства</RU>
+		<UA>Тип пристрою</UA>
+		<EN>Device type</EN>
+	</device_type>
+	<name_device_type>
+		<RU>Тип устройства</RU>
+		<UA>Тип пристрою</UA>
+		<EN>Device type</EN>
+	</name_device_type>
+	<work_with_certificate>
+		<RU>Нужен сертификат</RU>
+		<UA>Потрібен сертифікат</UA>
+		<EN>Certificate is required</EN>
+	</work_with_certificate>
+	<is_certificate_current>
+		<RU>Текущий</RU>
+		<UA>Поточний</UA>
+		<EN>Current</EN>
+	</is_certificate_current>
+	<is_certificate_next>
+		<RU>Следующий</RU>
+		<UA>Наступний</UA>
+		<EN>Next</EN>
+	</is_certificate_next>
+	<is_certificate_received>
+		<RU>Отправлено на терминал</RU>
+		<UA>Відіслано на термінал</UA>
+		<EN>Sent to terminal</EN>
+	</is_certificate_received>
+	<date_certificate_received>
+		<RU>Дата отправки</RU>
+		<UA>Дата відсилання</UA>
+		<EN>Sending date</EN>
+	</date_certificate_received>
+	<text_certificate>
+		<RU>Сертификат</RU>
+		<UA>Сертифікат</UA>
+		<EN>Certificate</EN>
+	</text_certificate>
+	<src_text_certificate>
+		<RU>Исходный текст сертификата</RU>
+		<UA>Вихідний текст сертифікату</UA>
+		<EN>Certificate source</EN>
+	</src_text_certificate>
+	<begin_action_date>
+		<RU>Дата начала действия</RU>
+		<UA>Дата початку дії</UA>
+		<EN>Beginnig date of action</EN>
+	</begin_action_date>
+	<begin_action_time>
+		<RU>Время начала действия</RU>
+		<UA>Час початку дії</UA>
+		<EN>Beginnig time of action</EN>
+	</begin_action_time>
+	<end_action_date>
+		<RU>Дата окончания действия</RU>
+		<UA>Дата завершення дії</UA>
+		<EN>Ending date of action</EN>
+	</end_action_date>
+	<end_action_time>
+		<RU>Время окончания действия</RU>
+		<UA>Час завершення дії</UA>
+		<EN>Ending time of action</EN>
+	</end_action_time>
+	<t_param>
+		<RU>Параметры сертификата</RU>
+		<UA>Параметри сертифікату</UA>
+		<EN>Certificate parameters</EN>
+	</t_param>
+	<t_current>
+		<RU>Текущие</RU>
+		<UA>Поточні</UA>
+		<EN>Current</EN>
+	</t_current>
+	<t_validity>
+		<RU>Действующие</RU>
+		<UA>Діючі</UA>
+		<EN>Operating</EN>
+	</t_validity>
+	<t_end_of_term>
+		<RU>Срок действия закончился</RU>
+		<UA>Термін дії завершено</UA>
+		<EN>Term of action is expired</EN>
+	</t_end_of_term>
+	<t_import>
+		<RU>Импортировать</RU>
+		<UA>Імпортувати</UA>
+		<EN>Import</EN>
+	</t_import>
+	<filtr_current>
+		<RU>Текущие</RU>
+		<UA>Поточні</UA>
+		<EN>Current</EN>
+	</filtr_current>
+	<filtr_term>
+		<RU>По терминалам</RU>
+		<UA>По терміналах</UA>
+		<EN>On terminals</EN>
+	</filtr_term>
+	<filtr_loaded>
+		<RU>Загруженные</RU>
+		<UA>Завантажені</UA>
+		<EN>Loaded</EN>
+	</filtr_loaded>
+	<filtr_interface>
+		<RU>Незагруженные</RU>
+		<UA>Незавантажені</UA>
+		<EN>Not loaded</EN>
+	</filtr_interface>
+	<file_name>
+		<RU>Название файла</RU>
+		<UA>Назва файлу</UA>
+		<EN>File name</EN>
+	</file_name>
+	<directory_name>
+		<RU>Каталог</RU>
+		<UA>Каталог</UA>
+		<EN>Directory</EN>
+	</directory_name>
+	<state_certificate>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN>
+	</state_certificate>
+	<error_text>
+		<RU>Текст ошибки</RU>
+		<UA>Текст помилки</UA>
+		<EN>Error text</EN>
+	</error_text>
+	<file_name>
+		<RU>Файл</RU>
+		<UA>Файл</UA>
+		<EN>File</EN>
+	</file_name>
+	<need_update_certificate>
+		<RU>Обновить сертификат</RU>
+		<UA>Оновити сертифікат</UA>
+		<EN>Update certificate</EN></need_update_certificate>
+	<h_status>
+		<RU>Статус</RU>
+		<UA>Статус</UA>
+		<EN>Status</EN></h_status>
+</terminalcertificate>

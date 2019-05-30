@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+	<general>
+		<RU>Параметри</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</general>
+	<debug>
+		<RU>false</RU>
+		<UA>false</UA>
+		<EN>false</EN>
+	</debug>
+	<sql_debug>
+		<RU>true</RU>
+		<UA>true</UA>
+		<EN>true</EN>
+	</sql_debug>
+</parameters>

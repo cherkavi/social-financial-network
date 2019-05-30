@@ -1,0 +1,521 @@
+@CHARSET "UTF-8";
+	body {
+    	margin:9px 9px 0 9px;
+    	padding:0;
+    	background:#ffffff;
+    	text-align: center;
+	}
+	#div_workarea {
+    	background:url(../images/background/bg4.jpg) repeat center top;
+	    padding: 5px 0 5px 7px;
+	    position: relative;
+	    z-index: 0;
+	    -moz-border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;  
+	    width: 445px;
+	    -webkit-box-shadow:
+	          0 0 2px rgba(0, 0, 0, 0.2),
+	          0 1px 1px rgba(0, 0, 0, .2),
+	          0 3px 0 #fff,
+	          0 4px 0 rgba(0, 0, 0, .2),
+	          0 6px 0 #fff,  
+	          0 7px 0 rgba(0, 0, 0, .2);
+	    -moz-box-shadow:
+	          0 0 2px rgba(0, 0, 0, 0.2),  
+	          1px 1px   0 rgba(0,   0,   0,   .1),
+	          3px 3px   0 rgba(255, 255, 255, 1),
+	          4px 4px   0 rgba(0,   0,   0,   .1),
+	          6px 6px   0 rgba(255, 255, 255, 1),  
+	          7px 7px   0 rgba(0,   0,   0,   .1);
+	    box-shadow:
+	          0 0 2px rgba(0, 0, 0, 0.2),  
+	          0 1px 1px rgba(0, 0, 0, .2),
+	          0 2px 0 rgba(0, 0, 0, .2);
+	    margin: 0 auto;
+	}
+	#div_logo {
+    	position: relative;
+    	border-color: #f0f0f0;
+        border-style: solid;
+        border-width: 0px;
+    	display:table-row;
+		overflow-x:auto;
+		overflow-y:auto;
+ 		font-family: Arial, sans-serif;
+		font-size: 90%;
+	}
+	#imgWait{
+		display: block;
+    	float: left;
+    	left: 95px;
+    	position: absolute;
+    	top: 5px;
+	}
+	
+	#div_logo table {
+		font-family:arial;
+		border: 0px;
+		/*margin: 0px 0pt 15px;*/
+		font-size: 10pt;
+		padding: 0 10px 0 10px;
+		text-align: left;
+		border-collapse: separate;
+		border-spacing: 0.1em 0.1em;
+		vertical-align: middle;
+	}
+	#div_hints{
+		position: relative;
+    	width : 100%;
+    	top: 10px;
+		float:left;
+		display:block;
+		z-index:0;
+		background: #FDFDFD;
+		font-family:arial;
+		font-size: 8pt;
+	}
+	#div_hints b{
+		color: blue;
+	}
+	
+	#div_logo table span, a {
+		cursor: pointer;
+		color: red;
+	}
+	#div_status_bar {
+ 		font-family: Arial, sans-serif;
+		font-size: 90%;
+		vertical-align: top;
+		white-space: nowrap;
+		display: inline-block;
+	}
+	#div_status_bar_left {
+ 		display: inline-block;
+ 		float:left;
+ 		width:300px;
+	}
+	#div_status_bar_center {
+ 		fdisplay: inline-block;
+ 		float:left;
+ 		width:125px;
+ 		height: 90px;
+	}
+	#div_status_bar_center .logo{
+ 		display:inline-block;
+ 		width:50px;
+ 		height: 65px;
+    	background:url(../images/logo_small.png) no-repeat right top;
+	}
+	#div_status_bar_center .imgwait{
+ 		display:inline-block;
+ 		width:50px;
+ 		height: 65px;
+	}
+	#div_status_bar_right {
+ 		display: inline-block;
+ 		float:left;
+ 		width:275px;
+ 		text-align: right;
+	}
+	#div_status_bar_right #language {
+ 		display: block;
+ 		float:right;
+ 		width:200px;
+ 		text-align: right;
+ 		font-size: 12px;
+	}
+	#div_status_bar_right #phone {
+ 		display: block;
+ 		float:right;
+ 		width:200px;
+ 		text-align: right;
+ 		font-size: 12px;
+	}
+	#div_status_bar_right #exit {
+ 		display: block;
+ 		float:right;
+ 		width:200px;
+ 		text-align: right;
+ 		font-size: 12px;
+	}
+	#div_status_bar_right a.exit{
+    	position: relative;
+		font-size: 12px;
+		color: blue;
+		cursor: pointer;
+    	background:url(../images/menu/menu_exit.png) no-repeat right top;
+		width:20px;
+		height: 20px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+	#div_status_bar .terminal{
+    	position: relative;
+		font-size: 12px;
+		color: black;
+		cursor: pointer;
+		display: block;
+	}
+	#div_status_bar .terminal_img{
+    	position: relative;
+    	background:url(../images/menu/menu_terminal2.jpg) no-repeat right top;
+		width:20px;
+		height: 20px;
+		float:right;
+		display:block;
+		cursor: pointer;
+	}
+	#div_status_bar .user{
+    	position: relative;
+		font-size: 12px;
+		color: black;
+		cursor: pointer;
+		display: block;
+	}
+	#div_status_bar .smpy-title{
+		background:url(../../../images/smpu-logo_small.png) no-repeat left 10px top transparent;
+		background-size: 16px 16px;
+    	position: relative;
+		font-size: 12px;
+		color: black;
+		cursor: pointer;
+		display: block;
+	}
+	#div_status_bar .user_img{
+    	position: relative;
+    	background:url(../images/menu/menu_user42.png) no-repeat right top transparent;
+		width:52px;
+		height: 50px;
+		float:left;
+		display:block;
+		cursor: pointer;
+	}
+	#div_status_bar .service_place{
+    	position: relative;
+		font-size: 12px;
+		color: black;
+		cursor: pointer;
+		display: block;
+	}
+	#div_main_all {
+    	position: relative;
+    	border-color: #f0f0f0;
+        border-style: solid;
+        border-width: 0;
+    	top: 1px;
+    	left: 1px;
+    	display: table;
+	}
+	#div_main {
+    	border-color: #f0f0f0;
+        border-style: solid;
+        border-width: 0px;
+    	top: 1px;
+    	display: table-cell;
+    	padding-right: 5px;
+	}
+	
+	#div_tabsheet {
+	  	position:relative;
+    	width : 100%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data {
+	  	position:relative;
+    	width : 100%;
+    	height : 80%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+	}
+		
+	#div_data_detail {
+	  	position:relative;
+    	width : 100%;
+    	height : 100%;
+    	left: 0px;
+    	top: 0px;
+    	border: 0px solid #2F4F4F;
+    	display:block;
+    	overflow:auto;
+	}
+	
+	.div_menu_element {
+	  font-size: 12px;
+	  cursor: pointer;
+	}
+	
+	.div_menu_element_disable {
+	  font-size: 12px;
+	  color: gray;
+	  cursor: auto;
+	}
+	.div_table_element {
+	  font-size: 10px;
+	  font: bold italic;
+	  color: red;
+	  cursor: pointer;
+	}
+	.div_table_element_header {
+	  font-size: 10px;
+	  cursor: pointer;
+	}
+	.div_pages {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_button {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	}
+	.div_logo_hyperlink {
+	  font-size: 12px;
+	  color: maroon;
+	  cursor: pointer;
+	  text-decoration: underline;
+	}
+	.div_goto {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  padding: 0px;
+	}
+	.div_href {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_caption {
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_caption2 {
+	  cursor: pointer;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  font-weight:bold;
+	  color: #1E1E1E;
+	}
+	.div_find {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	}
+	.div_find_none {
+	  font-size: 10px;
+	  color: black;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+      background:#EFEFEF;
+	}
+	.img_ps {
+	  font-size: 10px;
+	  cursor: pointer;
+	  color: green;
+	  font: bold;
+	  float: inherit;
+	  padding: 0px;
+	  border: 0px;
+	  cursor: pointer;
+	}
+	.div_title {
+	  color: black;
+	  background: white;
+	  font-size:22px;
+	  font-family:Arial;
+	  font-weight:bold;
+	  font-style: italic;
+	  cursor: pointer;
+	  height: 30;
+	}
+	
+	.div_title font.font_title {
+	  font-size:22px;
+	}
+	.div_title font.font_title:hover {
+	  font-size:22px;
+	  text-decoration: underline;
+	}
+
+	.div_tabs {
+	  font-size: 10px;
+	  color: maroon;
+	  cursor: pointer;
+	  padding:7px;
+	}
+	.div_tabs li.s {
+		display: inline;
+		background: url(../images/tabs/greenbg_s.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	.div_tabs a.s {
+		color: #663300;
+		background: url(../images/tabs/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	.div_tabs a.s span {
+		background: url(../images/tabs/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	.div_tabs a.s span {
+		float: none;
+	}
+	
+	#div_action_big {
+    	position: relative;
+    border-radius: 5px; /* Уголки */
+    border: 1px solid #FFA500;
+    	width : 100%;
+    	left: 0%;
+    	top: 0%;
+    box-shadow:
+          5px 5px 5px rgba(3, 3, 3, 0.3),
+          5px 5px 5px rgba(3, 3, 3, 0.3),
+          5px 5px 5px rgba(3, 3, 3, 0.3);
+    	
+	}
+	#div_action_big h1 {
+	    background-color: #7777ee;
+	    text-align: left;
+	    color: #000000;
+	    margin: 0 0 10px 0;
+	    padding: 3px 0 3px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	#div_action_big h1.confirm {
+	    background-color: #00cc00;
+	    text-align: left;
+	    color: #000000;
+	    margin: 0 0 10px 0;
+	    padding: 0 0 5px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	#div_action_big h1.error {
+	    background-color: red;
+	    text-align: left;
+	    color: white;
+	    margin: 0 0 10px 0;
+	    padding: 3px 0 3px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	
+	.div_action_small {
+    	position: relative;
+    	border-color: #2f4f4f;
+        border-style: solid;
+        border-width: 1px;
+    	width : 435px;
+    	height: 220px;
+    	left: 0%;
+    	top: 0%;
+    	display:block;
+		overflow-x:auto;
+		overflow-y:auto;
+		background: #f9f9f9;
+    	
+	}
+	.div_action_small h1 {
+	    background-color: #BBBBBB;
+	    text-align: left;
+	    color: #000000;
+	    margin: 0 0 10px 0;
+	    padding: 0 0 5px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	.div_action_small h1.confirm {
+	    background-color: green !important;
+	    text-align: left;
+	    color: #000000;
+	    margin: 0 0 10px 0;
+	    padding: 0 0 5px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	.div_action_small h1.error {
+	    background-color: red !important;
+	    text-align: left;
+	    color: #000000;
+	    margin: 0 0 10px 0;
+	    padding: 0 0 5px 20px ;
+	    font-family: Arial, sans-serif;
+	    font-size: 16px;
+	    position: relative;
+	}
+	
+	table.action_table {
+		font-family:arial;
+		background-color: #FFFFFF;
+		border: 0px;
+		/*margin: 0px 0pt 15px;*/
+		font-size: 10pt;
+		width: 98%;
+		margin-left: 2px;
+		text-align: left;
+		border-collapse: separate;
+		border-spacing: 0.1em 0.1em;
+	}
+	
+	table.action_table TBODY TD {
+		background-color: #FFFFFF;
+	}
+	
+	table.action_table TBODY TD.forbidden {
+		color: red;
+		font-weight: bold;
+		text-align: center;
+		
+	}
+	
+#error_title{
+   	color: red; 
+   	font-weight: bold;
+}
+#error_description{
+   	color: red; 
+}
+#succes_title{
+   	color: blue; 
+   	font-weight: bold;
+}
+#succes_description{
+   	color: blue; 
+}

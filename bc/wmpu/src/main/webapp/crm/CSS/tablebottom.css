@@ -1,0 +1,504 @@
+/* This file skins tableSorter */
+
+.tabledetail {
+	font-family:arial;
+	background-color: #FFFFFF;
+	border-left: 1px solid #2F4F4F;
+	border-top: 1px solid #2F4F4F;
+	border-bottom: 3px solid #2F4F4F;
+	border-right: 3px solid #2F4F4F;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 98%;
+	margin-left: 7px;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0px;
+	/*border-spacing: 0.1em 0.1em;*/
+}
+/*заголовок невиділений*/
+.tabledetail thead tr th, table.tabledetail tfoot tr th {
+	background-color: #FFFFFF;
+	border: 0px solid #CFCFCF;
+	font-size: 8pt;
+	padding: 1px;	
+	vertical-align: middle;
+	
+}
+.tabledetail thead tr .header {
+	background-image: url(../../images/oper/sort/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tabledetail tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	border: 0px solid #CFCFCF;
+	background-color: #FFF;
+	vertical-align: top;
+	
+}
+.tabledetail tbody tr.odd td {
+	background-color:transparent;
+}
+.tabledetail .bottom_line {
+	border-bottom:solid windowtext 1.0pt;
+}
+.tabledetail .top_line {
+	border-top:solid windowtext 1.0pt;
+}
+.tabledetail .left_line {
+	border-left:solid windowtext 1.0pt;
+}
+.tabledetail .right_line {
+	border-right:solid windowtext 1.0pt;
+}
+.tabledetail .bottom_line_gray {
+	border-top: 1px dashed #cccccc;
+}
+.tabledetail .top_line_gray {
+	border-top: 1px dashed #cccccc;
+}
+.tabledetail .gray_background {
+	background:#f7f7f7;
+}
+#change_button {
+	background:#d0d0d0;
+	cursor:pointer;
+}
+#addit_button {
+	background:#d0d0d0;
+	cursor:pointer;
+}
+
+.tabledetail A.submitlink {
+	  border: 1px solid gray;	/* рамка вокруг ссылок */
+	  padding: 1px; 		/* Поля вокруг текста */
+	  text-decoration: none;	/* Скрываем подчеркивание */
+	  font-size: 14px;
+	  color: red;
+	  background: rgb(224, 238, 238);
+	}
+.tabledetail A.submitlink:hover {
+	  border: 1px solid maroon;	/* Красная рамка при наведении курсора на ссылку */
+	  font-size: 14px;
+	  color: red;
+	  padding: 1px; 		/* Поля вокруг текста */
+	  background: rgb(224, 238, 238);
+	}
+
+.tabledetail .checkAllLink {
+	  text-decoration: underline;	/* Скрываем подчеркивание */
+	  color: maroon;
+	  cursor: pointer;
+	}
+.tabledetail .checkAllLink:hover {
+	  cursor: pointer;
+	}
+
+
+.tabledetailoperations {
+	font-family:arial;
+	background-color: #FFFFFF;
+	border-left: 0px solid #2F4F4F;
+	border-top: 0px solid #2F4F4F;
+	border-bottom: 0px solid #2F4F4F;
+	border-right: 0px solid #2F4F4F;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 98%;
+	margin-left: 7px;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0.1em 0.1em;
+}
+/*заголовок невиділений*/
+.tabledetailoperations thead tr th, table.tabledetail tfoot tr th {
+	background-color: #FFFFFF;
+	border: 0px solid #CFCFCF;
+	font-size: 8pt;
+	padding: 1px;	
+	vertical-align: middle;
+	
+}
+.tabledetailoperations thead tr .header {
+	background-image: url(../../images/oper/sort/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tabledetailoperations tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	border: 0px solid #CFCFCF;
+	background-color: #FFF;
+	vertical-align: top;
+	
+}
+.tabledetailoperations tbody tr.odd td {
+	background-color:transparent;
+}
+
+.tabledetailoperations .format_text {
+	font-size: 10pt;
+	color: green;
+	font-family:arial;
+	font-weight:bold;
+}
+
+.tablereport {
+	font-family:arial;
+	background-color: #FFFFFF;
+	border-left: 1px solid #2F4F4F;
+	border-top: 1px solid #2F4F4F;
+	border-bottom: 3px solid #2F4F4F;
+	border-right: 3px solid #2F4F4F;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0.1em 0.1em;
+}
+/*заголовок невиділений*/
+.tablereport thead tr th, table.tablereport tfoot tr th {
+	background-color: #FFFFFF;
+	border: 0px solid #CFCFCF;
+	font-size: 8pt;
+	padding: 1px;	
+	vertical-align: middle;
+	
+}
+.tablereport thead tr .header {
+	background-image: url(../../images/oper/sort/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tablereport tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	border: 0px solid #CFCFCF;
+	background-color: #FFF;
+	vertical-align: top;
+	
+}
+.tablereport tbody tr.odd td {
+	background-color:transparent;
+}
+
+
+.tableuserparam {
+	font-family:arial;
+	background-color: #FFFFFF;
+	border-left: 1px solid #2F4F4F;
+	border-top: 1px solid #2F4F4F;
+	border-bottom: 3px solid #2F4F4F;
+	border-right: 3px solid #2F4F4F;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 40%;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0.1em 0.1em;
+}
+.tableuserparam thead tr th, table.tableuserparam tfoot tr th {
+	background-color: #FFFFFF;
+	border: 0px solid #CFCFCF;
+	font-size: 8pt;
+	padding: 1px;	
+	vertical-align: middle;
+	
+}
+.tableuserparam thead tr .header {
+	background-image: url(../../images/oper/sort/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tableuserparam tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	border: 0px solid #CFCFCF;
+	background-color: #FFF;
+	vertical-align: top;
+	
+}
+.tableuserparam tbody tr.odd td {
+	background-color:transparent;
+}
+
+
+.tablebottom {
+	font-family:arial;
+	background-color: azure;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 98%;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 10px;
+}
+/*заголовок невиділений*/
+.tablebottom thead tr th, table.tablebottom tfoot tr th {
+	background-color: lightgray;
+	border: 1px solid #2F4F4F;
+	font-size: 8pt;
+	padding: 4px;	
+	text-align: center;
+	
+}
+.tablebottom thead tr .header {
+	background-image: url(../../images/oper/sort/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.tablebottom tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	background-color: #FFF;
+	vertical-align: top;
+	border: 1px solid #2F4F4F;
+	
+}
+.tablebottom tbody tr.odd td {
+	background-color:transparent;
+}
+
+.tablebottom-filter {
+	font-family:arial;
+	background-color: #FAFAFA;
+	/*margin: 0px 0pt 15px;*/
+	font-size: 8pt;
+	width: 96%;
+	text-align: left;
+	margin-left: 7px;
+	margin-right: 14px;
+	padding-right: 14px;
+	border: 1px solid #EEEEEE;
+	vertical-align: middle;
+}
+.tablebottom-filter tbody td {
+	color: #3D3D3D;
+	padding: 1px;
+	background-color: #FAFAFA;
+	vertical-align: middle;
+	
+}
+.tablebottom-filter tbody tr.odd td {
+	background-color:transparent;
+}
+
+
+	.inputfield {
+		background: none repeat scroll 0 0 #F4F4F4 !important;
+		color: #1E1E1E !important;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;    
+		margin-bottom: 10px;    
+    	width: auto !important;
+		line-height: 15px !important;
+		margin-bottom: 0px !important;
+	}
+	.inputfield_modified {
+		background: none repeat scroll 0 0 #F4F464 !important;
+		color: #1E1E1E !important;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;
+		margin-bottom: 10px;    
+    	width: auto !important;
+		line-height: 15px !important;
+		margin-bottom: 0px !important;
+		border:2px solid red;
+	}
+	.inputfield select {
+		height: 20px;
+	}
+	.inputfield textarea{
+    	width: auto !important;
+	}
+	.inputfield-ro {
+		background: none repeat scroll 0 0 #cccccc !important;
+		color: #1E1E1E !important;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;
+    	width: auto !important;
+    	line-height: 15px !important;
+		margin-bottom: 0px !important;
+	}
+	.inputfield-disable {
+		background: none repeat scroll 0 0 #dddddd !important;
+		color: gray !important;
+		font-family: Arial, sans-serif;
+		font-size: 90% !important;
+    	width: auto !important;
+    	line-height: 15px !important;
+		margin-bottom: 0px !important;
+	}
+	select, input {
+		height: 20px;
+		padding: 0 6px;
+	}
+	textarea{
+    	width: auto !important;
+    	padding: 0 6px;
+	}
+	.inputfield2 {
+		background: rgb(224, 238, 238);
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 110%;
+    	width: auto;
+	}
+
+	.button {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color:#2F4F4F;
+   		background-color: rgb(224, 238, 238);
+   		border-style: outset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	.button:hover {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color: white;
+   		background-color: maroon;
+   		border-style: inset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	.button2 {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color:#2F4F4F;
+   		background-color: rgb(224, 238, 238);
+   		border-style: outset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	
+input.focus
+{
+	background-color:#ffbbbb !important;
+	color: #1e1e1e !important;
+    font-family: Arial,sans-serif;
+    font-size: 90% !important;
+    line-height: 15px !important;
+    margin-bottom: 0 !important;
+    width: auto !important;
+}
+textarea.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb !important;    
+	width: auto !important;
+}
+select.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb !important;    
+	width: auto !important;
+}
+input.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff !important;
+}
+textarea.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff !important;
+}
+select.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff !important;
+}
+input.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+textarea.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+select.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+form 
+{
+	margin-top: 0px;
+}
+IMG 
+{
+	border: 0px;
+}
+
+
+label 
+{
+	cursor: pointer;
+	font-size: 14px;
+}
+.calculator_label 
+{
+	cursor: pointer;
+	font-size: 11px;
+}
+.checbox_label 
+{
+	cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    height: 16px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+.checbox_label_disable
+{
+	cursor: default;
+    display: inline-block;
+    font-size: 11px;
+    height: 16px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+.checbox_label_checked
+{
+	color: green !important;
+    font-weight: bold;
+}
+
+.tooltip { width:216px;color:#000;font:lighter 11px/1.3 Arial,sans-serif;text-decoration:none;text-align:left; }
+.tooltip span.top { padding:36px 16px 0px 20px;background:url(../../images/dot5hosting_bt.gif) no-repeat top }
+.tooltip b.bottom { padding:12px 8px 15px 0px;color:#548912;background:url(../../images/dot5hosting_bt.gif) no-repeat bottom }

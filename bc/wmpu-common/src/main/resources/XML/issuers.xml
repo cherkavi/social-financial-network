@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<issuers>
+	<general>
+		<ua>Параметри емітента</ua>
+		<ru>Параметры эмитента</ru>
+		<en>Issuer parameters</en>
+	</general>
+	<id_issuer>
+		<RU>ИД эмитента</RU>
+		<UA>ІД емітента</UA>
+		<EN>Issuer ID</EN>
+	</id_issuer>
+	<id_payment_system>
+		<RU>ИД платежной системы</RU>
+		<UA>ІД платіжної системи</UA>
+		<EN>Payment system ID</EN>
+	</id_payment_system>
+	<name_payment_system>
+		<RU>Название платежной системы</RU>
+		<UA>Назва платіжної системи</UA>
+		<EN>Payment system ID</EN>
+	</name_payment_system>
+	<cd_issuer_in_telgr_hex>
+		<RU>Код эмитента в телеграммах (HEX)</RU>
+		<UA>Код емітента в телеграмах (HEX)</UA>
+		<EN>Issuer ID in telegrams (HEX)</EN>
+	</cd_issuer_in_telgr_hex>
+	<EXIST_FLAG>
+		<ru>Используется</ru>	
+		<ua>Використовується</ua>
+		<en>Used</en>
+	</EXIST_FLAG>
+</issuers>

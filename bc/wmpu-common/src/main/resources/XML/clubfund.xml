@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<club>
+	<general>
+		<RU>Фонды</RU>
+		<UA>Фонди</UA>
+		<EN>Funds</EN>
+	</general>
+	<id_club_fund>
+		<RU>ИД фонда</RU>
+		<UA>ІД фонду</UA>
+		<EN>Fund ID</EN>
+	</id_club_fund>
+	<name_club_fund>
+		<RU>Название фонда</RU>
+		<UA>Назва фонду</UA>
+		<EN>Fund name</EN>
+	</name_club_fund>
+	<sname_club_fund>
+		<RU>Сокр.название фонда</RU>
+		<UA>Скор.назва фонду</UA>
+		<EN>Fund short name</EN>
+	</sname_club_fund>
+	<desc_club_fund>
+		<RU>Описание фонда</RU>
+		<UA>Опис фонду</UA>
+		<EN>Fund description</EN>
+	</desc_club_fund>
+	<sname_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</sname_jur_prs>
+	<sname_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service_place</EN>
+	</sname_service_place>
+	<adr_jur_prs>
+		<RU>Адрес</RU>
+		<UA>Адреса</UA>
+		<EN>Adress</EN>
+	</adr_jur_prs>
+	<fund_date_beg>
+		<RU>Дата создания фонда</RU>
+		<UA>Дата створення фонда</UA>
+		<EN>Fund creation date</EN>
+	</fund_date_beg>
+	<fund_date_end>
+		<RU>Дата ликвидации фонда</RU>
+		<UA>Дата ліквідації фонда</UA>
+		<EN>Fund elimination date</EN>
+	</fund_date_end>
+	<target_program_date_beg>
+		<RU>Дата создания ЦП</RU>
+		<UA>Дата створення ЦП</UA>
+		<EN>TP creation date</EN>
+	</target_program_date_beg>
+	<target_program_date_end>
+		<RU>Дата ликвидации ЦП</RU>
+		<UA>Дата ліквідації ЦП</UA>
+		<EN>TP elimination date</EN>
+	</target_program_date_end>
+	<payment_date_beg>
+		<RU>Дата начала приема платежей</RU>
+		<UA>Дата початку прийому платежів</UA>
+		<EN>Payment begin date</EN>
+	</payment_date_beg>
+	<payment_date_end>
+		<RU>Дата окончания приема платежей</RU>
+		<UA>Дата завершення прийому платежів</UA>
+		<EN>Payment end date</EN>
+	</payment_date_end>
+	
+	<h_calc_rests>
+		<RU>Пересчитать обороты</RU>
+		<UA>Вирахувати обороти</UA>
+		<EN>Calculate turns</EN>
+	</h_calc_rests>
+	<h_add_club_fund>
+		<ru>Добавить фонд</ru>
+		<ua>Додати фонд</ua>
+		<en>Add fund</en>
+	</h_add_club_fund>
+	<h_delete_club_fund>
+		<ru>Удалить фонд</ru>
+		<ua>Видалити фонд</ua>
+		<en>Delete fund</en>
+	</h_delete_club_fund>
+	<h_edit_club_fund>
+		<ru>Редактировать параметры фонда</ru>
+		<ua>Редагувати параметри фонду</ua>
+		<en>Edit fund's parameters</en>
+	</h_edit_club_fund>
+	
+	
+	<id_target_prg_parent>
+		<RU>Входит в целевую программу</RU>
+		<UA>Входить до цільової програми</UA>
+		<EN>Enters the target program</EN>
+	</id_target_prg_parent>
+	<id_target_prg>
+		<RU>ИД целевой программы</RU>
+		<UA>ІД цільової програми</UA>
+		<EN>Target program ID</EN>
+	</id_target_prg>
+	<name_target_prg>
+		<RU>Название целевой программы</RU>
+		<UA>Назва цільової програми</UA>
+		<EN>Target program name</EN>
+	</name_target_prg>
+	<sname_target_prg>
+		<RU>Сокращенное название целевой программы</RU>
+		<UA>Скорочена назва цільової програми</UA>
+		<EN>Target program short name</EN>
+	</sname_target_prg>
+	<desc_target_prg>
+		<RU>Комментарии</RU>
+		<UA>Коментарі</UA>
+		<EN>Comments</EN>
+	</desc_target_prg>
+	<initiator_target_prg>
+		<RU>Инициатор ЦП</RU>
+		<UA>Ініціатор ЦП</UA>
+		<EN>Initiator TP</EN>
+	</initiator_target_prg>
+	<administrator_target_prg>
+		<RU>Администратор ЦП</RU>
+		<UA>Адміністратор ЦП</UA>
+		<EN>Administrator TP</EN>
+	</administrator_target_prg>
+	<name_service_place>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</name_service_place>
+	<adr_service_place>
+		<RU>Адрес</RU>
+		<UA>Адреса</UA>
+		<EN>Address</EN>
+	</adr_service_place>
+	<adr_target_prg>
+		<RU>Физический адрес ЦП</RU>
+		<UA>Фізична адреса ЦП</UA>
+		<EN>Physical address TP</EN>
+	</adr_target_prg>
+	<min_pay_amount>
+		<RU>Минимальный взнос</RU>
+		<UA>Мінімальний внесок</UA>
+		<EN>Minimal fee</EN>
+	</min_pay_amount>
+	
+	<titl_picture_load>
+		<RU>Кликните здесь для загрузки нового изображения</RU>
+		<UA>Клікніть тут для завантаження нового зображення</UA>
+		<EN>Click here for loading of a new image</EN>
+	</titl_picture_load>
+	<titl_picture_not_found>
+		<RU>Изображения нет</RU>
+		<UA>Зображення немає</UA>
+		<EN>Image not found</EN>
+	</titl_picture_not_found>
+	<titl_load_file_error>
+		<RU>Ошибка загрузки файла</RU>
+		<UA>Помилка завантаження файлу</UA>
+		<EN>Load file error</EN>
+	</titl_load_file_error>
+	
+	<name_target_prg_group>
+		<RU>Название группы</RU>
+		<UA>Назва групи</UA>
+		<EN>Group name</EN>
+	</name_target_prg_group>
+	<desc_target_prg_group>
+		<RU>Описание группы</RU>
+		<UA>Опис групи</UA>
+		<EN>Group description</EN>
+	</desc_target_prg_group>
+	<target_prg_pay_period>
+		<RU>Периодичность оплаты</RU>
+		<UA>Періодичність оплати</UA>
+		<EN>Frequency of payment</EN>
+	</target_prg_pay_period>
+	<fio_nat_prs>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</fio_nat_prs>
+	<target_program_fees>
+		<RU>Взносы</RU>
+		<UA>Внески</UA>
+		<EN>Fees</EN>
+	</target_program_fees>
+	<cd_currency>
+		<RU>Валюта взносов</RU>
+		<UA>Валюта внесків</UA>
+		<EN>Fees currency</EN>
+	</cd_currency>
+	<pay_amount>
+		<RU>Размер ЧЦВ (членского целевого взноса)</RU>
+		<UA>Розмір ЧЦВ (членського цільвого внеску) </UA>
+		<EN>Amount MTD (membership target dues)</EN>
+	</pay_amount>
+	<pay_amount_short>
+		<RU>Взнос</RU>
+		<UA>Внесок</UA>
+		<EN>Due</EN>
+	</pay_amount_short>
+	<pay_count>
+		<RU>Количество</RU>
+		<UA>Кількість</UA>
+		<EN>Count</EN>
+	</pay_count>
+	<pay_due_count>
+		<RU>Оплатить взносов</RU>
+		<UA>Сплатити внесків</UA>
+		<EN>Pay dues</EN>
+	</pay_due_count>
+	<pay_due_sum>
+		<RU>Сумма к оплате</RU>
+		<UA>Сума до сплати</UA>
+		<EN>Pay sum</EN>
+	</pay_due_sum>
+	<is_checked>
+		<RU>Выбрать</RU>
+		<UA>Вибрати</UA>
+		<EN>Select</EN>
+	</is_checked>
+	<input_sum>
+		<RU>Сумма оплаты</RU>
+		<UA>Сума оплати</UA>
+		<EN>Pay sum</EN>
+	</input_sum>
+	<referral_scheme>
+		<RU>Реферальная схема</RU>
+		<UA>Реферальна схема</UA>
+		<EN>Referral scheme</EN>
+	</referral_scheme>
+	<h_add_target_program>
+		<RU>Добавить целевую программу</RU>
+		<UA>Додати цільову програму</UA>
+		<EN>Add target program</EN>
+	</h_add_target_program>
+	<h_delete_target_program>
+		<RU>Удалить целевую программу</RU>
+		<UA>Видалити цільову програму</UA>
+		<EN>Delete target program</EN>
+	</h_delete_target_program>
+	<h_update_target_program>
+		<RU>Изменить параметры целевой программы</RU>
+		<UA>Змінити параметри цільової програми</UA>
+		<EN>Change target program parameters</EN>
+	</h_update_target_program>
+	<h_select_target_program>
+		<RU>Выберите целевую программу</RU>
+		<UA>Виберіть цільову програму</UA>
+		<EN>Select target program</EN>
+	</h_select_target_program>
+	
+	<target_program_subscribe>
+		<RU>Подписка на ЦП</RU>
+		<UA>Підписання на ЦП</UA>
+		<EN>Subscription</EN>
+	</target_program_subscribe>
+	<need_subscribe>
+		<RU>Требуется подписка</RU>
+		<UA>Потрібне підписання</UA>
+		<EN>Need subscribe</EN>
+	</need_subscribe>
+	<need_administrator_confirm>
+		<RU>Требуется подтверждение администратором</RU>
+		<UA>Потрібне підтвердження адміністратором</UA>
+		<EN>Need administrator confirmation</EN>
+	</need_administrator_confirm>
+	
+	<is_administrator_confirm>
+		<RU>Подтверждено администратором</RU>
+		<UA>Підтверджено адміністратором</UA>
+		<EN>Confirmed by administrator</EN>
+	</is_administrator_confirm>
+	<can_subscribe>
+		<RU>Оформлена подписка</RU>
+		<UA>Оформлено підписання</UA>
+		<EN>Can subscribe</EN>
+	</can_subscribe>
+	<cd_target_prg_use_type>
+		<RU>Статус участия</RU>
+		<UA>Статус участі</UA>
+		<EN>Use type</EN>
+	</cd_target_prg_use_type>
+	<cd_target_prg_use_type_signed>
+		<RU>Присоединено</RU>
+		<UA>Приєднано</UA>
+		<EN>Signed</EN>
+	</cd_target_prg_use_type_signed>
+	<cd_target_prg_use_type_paid>
+		<RU>Оплачено</RU>
+		<UA>Сплачено</UA>
+		<EN>Paid</EN>
+	</cd_target_prg_use_type_paid>
+	<cd_subscribe_state>
+		<RU>Состояние подписки</RU>
+		<UA>Стан підписання</UA>
+		<EN>Subscription state</EN>
+	</cd_subscribe_state>
+	<cd_subscribe_state_yes>
+		<RU>Подписано</RU>
+		<UA>Підписано</UA>
+		<EN>Signed</EN>
+	</cd_subscribe_state_yes>
+	<cd_subscribe_state_no>
+		<RU>Не подписано</RU>
+		<UA>Не підписано</UA>
+		<EN>Isn't signed</EN>
+	</cd_subscribe_state_no>
+	<cd_subscribe_state_not_confirm>
+		<RU>Не подтверждено</RU>
+		<UA>Не підтверджено</UA>
+		<EN>Isn't confirmed</EN>
+	</cd_subscribe_state_not_confirm>
+	<cd_subscribe_state_not_used>
+		<RU>Не требуется</RU>
+		<UA>Не потребує</UA>
+		<EN>Isn't required</EN>
+	</cd_subscribe_state_not_used>
+	<cd_subscribe_state_unknown>
+		<RU>Неизвестно</RU>
+		<UA>Невідомо</UA>
+		<EN>Unknown</EN>
+	</cd_subscribe_state_unknown>
+	<entrance_fee>
+		<RU>Вступительный взнос</RU>
+		<UA>Вступний внесок</UA>
+		<EN>Entrance fee</EN>
+	</entrance_fee>
+	<membership_fee>
+		<RU>Членский взнос</RU>
+		<UA>Членський внесок</UA>
+		<EN>Membership fee</EN>
+	</membership_fee>
+	<pay_entrance_fee>
+		<RU>Оплачено вступительный взнос</RU>
+		<UA>Сплачено вступний внесок</UA>
+		<EN>Paid an entrance fee</EN>
+	</pay_entrance_fee>
+	<membership_fee_sum>
+		<RU>Оплачено членский взнос</RU>
+		<UA>Сплачено членський внесок</UA>
+		<EN>Paid a membership fee</EN>
+	</membership_fee_sum>
+	<membership_last_date>
+		<RU>Членский взнос оплачено до</RU>
+		<UA>Членський внесок сплачено до</UA>
+		<EN>Membership fee last date</EN>
+	</membership_last_date>
+	<target_prg_poriod_month>
+		<RU>мес.</RU>
+		<UA>міс.</UA>
+		<EN>months</EN>
+	</target_prg_poriod_month>
+	
+	<title_membership_for>
+		<RU>за</RU>
+		<UA>за</UA>
+		<EN>for</EN>
+	</title_membership_for>
+	<title_membership_many_days>
+		<RU>дней</RU>
+		<UA>днів</UA>
+		<EN>days</EN>
+	</title_membership_many_days>
+	<title_membership_months>
+		<RU>в месяц</RU>
+		<UA>в місяці</UA>
+		<EN>a month</EN>
+	</title_membership_months>
+	<title_membership_weeks>
+		<RU>в неделю</RU>
+		<UA>в тиждень</UA>
+		<EN>a week</EN>
+	</title_membership_weeks>
+	<title_membership_days>
+		<RU>в день</RU>
+		<UA>в день</UA>
+		<EN>a day</EN>
+	</title_membership_days>
+	<title_membership_hours>
+		<RU>в час</RU>
+		<UA>в годину</UA>
+		<EN>an hour</EN>
+	</title_membership_hours>
+	<title_membership_studies>
+		<RU>занятий</RU>
+		<UA>занять</UA>
+		<EN>studies</EN>
+	</title_membership_studies>
+	
+	<name_club_fund_payment_kind>
+		<RU>Вид операции</RU>
+		<UA>Вид операції</UA>
+		<EN>Operation kind</EN>
+	</name_club_fund_payment_kind>
+	<name_club_fund_oper_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</name_club_fund_oper_type>
+	
+	<date_fund_oper>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</date_fund_oper>
+	<amount_fund_oper>
+		<RU>Сумма операции</RU>
+		<UA>Сума операції</UA>
+		<EN>Operation sum</EN>
+	</amount_fund_oper>
+	<desc_fund_oper>
+		<RU>Описание операции</RU>
+		<UA>Опис операції</UA>
+		<EN>Operation description</EN>
+	</desc_fund_oper>
+	
+	<date_turnover>
+		<RU>Дата</RU>
+		<UA>Дата</UA>
+		<EN>Date</EN></date_turnover>
+	<fund_balance>
+		<RU>Движение средств в фонде</RU>
+		<UA>Рух коштів у фонді</UA>
+		<EN>Turnover amount</EN></fund_balance>
+	<fund_income>
+		<RU>Зачисления</RU>
+		<UA>Зарахування</UA>
+		<EN>Income</EN></fund_income>
+	<fund_turnover>
+		<RU>Итого</RU>
+		<UA>Всього</UA>
+		<EN>Total</EN></fund_turnover>
+	<fund_expense>
+		<RU>Списания</RU>
+		<UA>Списання</UA>
+		<EN>Expense</EN></fund_expense>
+	<begin_balance>
+		<RU>Начальный баланс</RU>
+		<UA>Початковий баланс</UA>
+		<EN>Begin balance</EN></begin_balance>
+	<end_balance>
+		<RU>Конечный баланс</RU>
+		<UA>Кінцевий баланс</UA>
+		<EN>End balance</EN></end_balance>
+		
+	<title_fund_rest_total>
+		<RU>Итого по фонду</RU>
+		<UA>Всьго по фонду</UA>
+		<EN>Total</EN></title_fund_rest_total>
+	<date_calc_rest>
+		<RU>Дата расчета остатка</RU>
+		<UA>Дата расчета остатка</UA>
+		<EN>Rest calculate date</EN></date_calc_rest>
+	<amount_rest>
+		<RU>Остаток средств в фонде</RU>
+		<UA>Залишок коштів в фонді</UA>
+		<EN>Rest amount</EN></amount_rest>
+	<id_trans>
+		<RU>Транзакция</RU>
+		<UA>Транзакція</UA>
+		<EN>Transaction</EN></id_trans>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+		
+	<h_add_service_place>
+		<RU>Добавить пункт обслуживания</RU>
+		<UA>Додати пункт обслуговування</UA>
+		<EN>Add service place</EN>
+	</h_add_service_place>
+	<h_update_service_place>
+		<RU>Изменить параметры пункта обслуживания</RU>
+		<UA>Змінити параметри пункту обслуговування</UA>
+		<EN>Update service place parameters</EN>
+	</h_update_service_place>
+	<h_delete_service_place>
+		<RU>Удалить пункт обслуживания</RU>
+		<UA>Видалити пункт обслуговування</UA>
+		<EN>Delete service place</EN>
+	</h_delete_service_place>
+	<h_add_referral_scheme>
+		<RU>Добавить реферальную схему</RU>
+		<UA>Додати реферальну схему</UA>
+		<EN>Add referral scheme</EN>
+	</h_add_referral_scheme>
+	<h_delete_referral_scheme>
+		<RU>Удалить реферальную схему</RU>
+		<UA>Видалити реферальну схему</UA>
+		<EN>Delete referral scheme</EN>
+	</h_delete_referral_scheme>
+	
+	<h_add_participant>
+		<RU>Добавить участника</RU>
+		<UA>Додати учасника</UA>
+		<EN>Add participant</EN>
+	</h_add_participant>
+	<h_update_participant>
+		<RU>Изменить параметры участника</RU>
+		<UA>Змінити параметри учасника</UA>
+		<EN>Update participant parameters</EN>
+	</h_update_participant>
+	<h_delete_participant>
+		<RU>Удалить участника</RU>
+		<UA>Видалити учасника</UA>
+		<EN>Delete participant</EN>
+	</h_delete_participant>
+		
+	<title_others>
+		<ru>Прочее</ru>
+		<ua>Інше</ua>
+		<en>Other</en></title_others>
+	<name_target_prg_in_sms>
+		<ru>Наименование в СМС</ru>
+		<ua>Найменування в СМС</ua>
+		<en>Name in SMS</en></name_target_prg_in_sms>
+</club>

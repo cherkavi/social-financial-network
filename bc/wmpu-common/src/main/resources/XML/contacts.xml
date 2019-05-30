@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contacts>
+	<general>
+		<RU>Контакты</RU>
+		<UA>Контакти</UA>
+		<EN>Contacts</EN>
+	</general>
+	<id_contact_prs>
+		<RU>ИД контактного лица</RU>
+		<UA>ІД контактної особи</UA>
+		<EN>Contact person ID</EN>
+	</id_contact_prs>
+	<cd_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN>
+	</cd_post>
+	<name_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN>
+	</name_post>
+	<name_contact_prs>
+		<RU>Контактное лицо</RU>
+		<UA>Контактна особа</UA>
+		<EN>Contact person</EN>
+	</name_contact_prs>
+	<desc_contact_prs>
+		<RU>Комментарии</RU>
+		<UA>Коментарі</UA>
+		<EN>Comments</EN>
+	</desc_contact_prs>
+	<phone_work>
+		<RU>Рабочий телефон</RU>
+		<UA>Робочий телефон</UA>
+		<EN>Work phone</EN>
+	</phone_work>
+	<phone_mobile>
+		<RU>Мобильный телефон</RU>
+		<UA>Мобільний телефон</UA>
+		<EN>Mobile phone</EN>
+	</phone_mobile>
+	<fax>
+		<RU>Факс</RU>
+		<UA>Факс</UA>
+		<EN>Fax</EN>
+	</fax>
+	<web_site>
+		<RU>Web-сайт</RU>
+		<UA>Web-сайт</UA>
+		<EN>Web-site</EN>
+	</web_site>
+	<email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</email>
+	<email_work>
+		<RU>Рабочий E-mail</RU>
+		<UA>Робочий E-mail</UA>
+		<EN>Work E-mail</EN>
+	</email_work>
+	<l_add_contact>
+		<RU>Добавить контактное лицо</RU>
+		<UA>Додати контактну особу</UA>
+		<EN>Add contact person</EN>
+	</l_add_contact>
+	<l_edit_contact>
+		<RU>Редактировать параметры контактного лица</RU>
+		<UA>Редагувати параметри контактної особи</UA>
+		<EN>Edit contact person parameters</EN>
+	</l_edit_contact>
+	<l_remove_contact>
+		<RU>Удалить контактное лицо</RU>
+		<UA>Видалити контактну особу</UA>
+		<EN>Delete contact person</EN>
+	</l_remove_contact>
+	<is_shareholder>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</is_shareholder>
+	<contact_prs_place>
+		<RU>Место работы</RU>
+		<UA>Місце роботи</UA>
+		<EN>Work place</EN>
+	</contact_prs_place>
+	<id_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</id_jur_prs>
+	<name_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</name_jur_prs>
+	<sname_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</sname_jur_prs>
+	<id_service_place_work>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</id_service_place_work>
+	<name_service_place_work>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</name_service_place_work>
+	<sname_service_place_work>
+		<RU>Пункт обслуживания</RU>
+		<UA>Пункт обслуговування</UA>
+		<EN>Service place</EN>
+	</sname_service_place_work>
+	<username_contact_prs>		
+		<RU>Имя пользователя</RU>
+		<UA>Ім'я користувача</UA>
+		<EN>User name</EN></username_contact_prs>
+	<password_contact_prs>		
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN></password_contact_prs>
+	<H_DELETE_DT_TERM>		
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN></H_DELETE_DT_TERM>
+	<H_DELETE_JOFFICE_USER>		
+		<RU>Удалить</RU>
+		<UA>Видалити</UA>
+		<EN>Delete</EN></H_DELETE_JOFFICE_USER>
+	<id_role>		
+		<RU>Роль</RU>
+		<UA>Роль</UA>
+		<EN>Role</EN></id_role>
+	<name_role>		
+		<RU>Роль</RU>
+		<UA>Роль</UA>
+		<EN>Role</EN></name_role>
+	<id_joffice_user>		
+		<RU>ИД пользователя</RU>
+		<UA>ІД користувача</UA>
+		<EN>User ID</EN></id_joffice_user>
+	<l_add_joffice_user>
+		<RU>Добавить логин в личный оффис</RU>
+		<UA>Додати логін в персональний офіс</UA>
+		<EN>Add privat office login</EN>
+	</l_add_joffice_user>
+	<l_delete_joffice_user>
+		<RU>Удалить логин в личный оффис</RU>
+		<UA>Видалити логін в персональний офіс</UA>
+		<EN>Delete privat office login</EN>
+	</l_delete_joffice_user>
+	
+	<l_addit_param>
+		<RU>Дополнительные параметры</RU>
+		<UA>Додаткові параметри</UA>
+		<EN>Additional parameters</EN>
+	</l_addit_param>
+	<need_login_by_card>
+		<RU>Вход по карте</RU>
+		<UA>Вхід по карті</UA>
+		<EN>Login by card</EN>
+	</need_login_by_card>
+	<h_contact_information>
+		<RU>Контактная информация</RU>
+		<UA>Контактна інформація</UA>
+		<EN>Contact information</EN></h_contact_information>
+		
+	<cd_joffice_state>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></cd_joffice_state>
+	<name_joffice_state>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>State</EN></name_joffice_state>
+		
+	<date_last_connect>
+		<RU>Дата последнего подключения</RU>
+		<UA>Дата останнього підключення</UA>
+		<EN>Last connection date</EN></date_last_connect>
+	
+	<id_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</id_office_private>
+	<name_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</name_office_private>
+	<sname_office_private>
+		<RU>Личный кабинет</RU>
+		<UA>Особистий кабінет</UA>
+		<EN>Private office</EN>
+	</sname_office_private>
+	
+	<cd_op_action_state>
+		<RU>Состояние действия</RU>
+		<UA>Стан дії</UA>
+		<EN>Action state</EN>
+	</cd_op_action_state>
+	<name_op_action_state>
+		<RU>Состояние действия</RU>
+		<UA>Стан дії</UA>
+		<EN>Action state</EN>
+	</name_op_action_state>
+	<cd_op_action_type>
+		<RU>Тип действия</RU>
+		<UA>Тип дії</UA>
+		<EN>Action type</EN>
+	</cd_op_action_type>
+	<name_op_action_type>
+		<RU>Тип действия</RU>
+		<UA>Тип дії</UA>
+		<EN>Action type</EN>
+	</name_op_action_type>
+	<id_op_action>
+		<RU>ИД действия</RU>
+		<UA>ІД дії</UA>
+		<EN>Action ID</EN>
+	</id_op_action>
+	<date_op_action>
+		<RU>Дата действия</RU>
+		<UA>Дата дії</UA>
+		<EN>Action date</EN>
+	</date_op_action>
+	<name_report>
+		<RU>Название отчета</RU>
+		<UA>Назва звіту</UA>
+		<EN>Report name</EN>
+	</name_report>
+	<error_op_action>
+		<RU>Сообщение об ошибках</RU>
+		<UA>Повідомлення про помилки</UA>
+		<EN>Error messages</EN>
+	</error_op_action>
+	
+	<cd_card2>
+		<RU>Имя пользователя</RU>
+		<UA>Ім'я користувача</UA>
+		<EN>User name</EN>
+	</cd_card2>
+
+	<cd_op_action_param>
+		<RU>Код параметра</RU>
+		<UA>Код параметра</UA>
+		<EN>Parameter code</EN>
+	</cd_op_action_param>
+	<value_op_action_param>
+		<RU>Значение параметра</RU>
+		<UA>Значення параметра</UA>
+		<EN>Parameter value</EN>
+	</value_op_action_param>
+	<desc_op_action_param>
+		<RU>Описание параметра</RU>
+		<UA>Опис параметра</UA>
+		<EN>Parameter description</EN>
+	</desc_op_action_param>
+	
+	<ID_TERM>
+		<ru>Терминал</ru>
+		<ua>Термінал</ua>
+		<en>Terminal</en>
+	</ID_TERM>
+	<name_term_user_access_type>
+		<RU>Тип доступа на терминале</RU>
+		<UA>Тип доступу на терміналі</UA>
+		<EN>Terminal access type</EN>
+	</name_term_user_access_type>
+	<name_term_user_status>
+		<RU>Состояние пользователя терминала</RU>
+		<UA>Стан користувача на терміналі</UA>
+		<EN>Terminal user state</EN>
+	</name_term_user_status>
+	<NAME_USER_STATUS>
+		<ru>Состояние пользователя</ru>
+		<ua>Стан користувача</ua>
+		<en>User state</en></NAME_USER_STATUS>
+	<is_test_mode>
+		<RU>Тестовый режим на терминале</RU>
+		<UA>Тестовий режим на терміналі</UA>
+		<EN>Test mode on terminal</EN>
+	</is_test_mode>
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<NAME_USER>
+	 	<ru>Имя пользователя</ru>
+		<ua>Ім'я користувача</ua>
+		<en>User name</en>
+	</NAME_USER>
+	<DESC_USER>
+	 	<ru>Описание пользователя</ru>
+		<ua>Опис користувача</ua>
+		<en>User description</en>
+	</DESC_USER>
+	<LOGIN_TERM_USER>
+	 	<ru>Логин</ru>
+		<ua>Логін</ua>
+		<en>Login</en>
+	</LOGIN_TERM_USER>
+	<NAME_TERM_USER>
+	 	<ru>Пользователь терминала</ru>
+		<ua>Користувач термінала</ua>
+		<en>Terminal user</en>
+	</NAME_TERM_USER>
+	<title_select_term>
+	 	<ru>Выберите терминал</ru>
+		<ua>Виберіть термінал</ua>
+		<en>Select terminal</en>
+	</title_select_term>
+	<title_select_user>
+	 	<ru>Выберите системного пользователя</ru>
+		<ua>Виберіть системного користувача</ua>
+		<en>Select system user</en>
+	</title_select_user>
+	<club_date_beg>
+		<ru>Дата регистрации в СМПУ</ru>
+		<ua>Дата реєстрації в ММПО</ua>
+		<en>Date of registration in SMPU</en>
+	</club_date_beg>
+	<club_date_end>
+		<ru>Дата выхода из СМПУ</ru>
+		<ua>Дата виходу з ММПО</ua>
+		<en>Out date from SMPU</en>
+	</club_date_end>
+</contacts>

@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+	body {
+	background: rgb(224, 238, 238);
+	margin-top: 0px;
+	font-size: 11px;
+	}
+	table {
+	border: 1px solid #7D9EC0;
+	border-bottom: 3px solid #2F4F4F;
+	border-right: 3px solid #2F4F4F;
+	background: azure;
+	padding: 5px;
+	color: #383838;
+	/*width: 100%;*/
+
+	}
+	.inputfield {
+		background: rgb(224, 238, 238);
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+	}
+	.inputfield_modified {
+		background: rgb(224, 238, 100);
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+		border:1px solid red;
+	}
+	.inputfield-ro {
+		background: #CCCCCC;
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+	}
+	.inputfield2 {
+		background: rgb(224, 238, 238);
+		color: #1E1E1E;
+		font-family: Arial, sans-serif;
+		font-size: 110%;
+	}
+
+	.button {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color:#2F4F4F;
+   		background-color: rgb(224, 238, 238);
+   		border-style: outset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	.button:hover {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color: white;
+   		background-color: maroon;
+   		border-style: inset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	.emtybody {
+		body: background: red url(../images/background/bgspec.png) center top repeat-x ;
+		color: red;
+	}
+	
+	.button2 {
+		font-size:10px;
+  		font-family:Arial,sans-serif;
+ 		font-weight:bold;
+		color:#2F4F4F;
+   		background-color: rgb(224, 238, 238);
+   		border-style: outset;
+   		border-color:#999999;
+   		border-width:2px;	
+	}
+	
+	a {
+	color: green;
+	}
+
+	#tabs {
+	text-align: center;
+	float: left; /*Set to "left" or "right" to position menu accordingly*/
+	/*border-bottom: 1px solid #999e87; uncomment this line to add bottom border*/
+	}
+	#tabs ul {
+		font-family: Verdana;
+		font-size: 9px;
+		font-weight: bold;
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		list-style:none;
+	}
+	#tabs li {
+		display: inline;
+		background: url(../images/menu/tabsheet/greenbg.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	#tabs a {
+		color: #663300;
+		background: url(../images/menu/tabsheet/greenleft.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	#tabs a span {
+		background: url(../images/menu/tabsheet/greenright.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+	}
+	#tabs a span {
+		float: none;
+	}
+
+
+	#tabs li.s {
+		display: inline;
+		background: url(../images/menu/tabsheet/greenbg_s.gif) repeat-x center top;
+		text-align: center;
+		padding: 0;
+		margin-right: 1px;
+		float: left;
+	}
+	#tabs a.s {
+		color: #663300;
+		background: url(../images/menu/tabsheet/greenleft_s.gif) no-repeat left top;
+		float: left;
+		margin:	0;
+		padding-left:7px;
+		text-decoration: none;
+	}
+	#tabs a.s span {
+		background: url(../images/menu/tabsheet/greenright_s.gif) no-repeat right top;
+		display: block;
+		padding:7px 13px 4px 5px;
+		color: black;
+	}
+	#tabs a.s span {
+		float: none;
+	}
+input.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+textarea.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+select.focus
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#ffbbbb;
+}
+input.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+textarea.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+select.incorrect
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:#bbbbff;
+}
+input.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+textarea.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+select.valid
+{
+	color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	background-color:rgb(224, 238, 238);
+}
+form 
+{
+	margin-top: 0px;
+}
+
+.div_check_result {
+	  color: maroon;
+	  cursor: pointer;
+	  border: 3px;
+	}

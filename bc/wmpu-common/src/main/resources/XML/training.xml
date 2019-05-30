@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<training>
+	<general>
+		<RU>Обучение</RU>
+		<UA>Навчання</UA>
+		<EN>Training</EN>
+	</general>
+	<h_cources>
+		<RU>Темы</RU>
+		<UA>Теми</UA>
+		<EN>Themes</EN>
+	</h_cources>
+	<h_trainings>
+		<RU>Тренинги</RU>
+		<UA>Тренінги</UA>
+		<EN>Trainings</EN>
+	</h_trainings>
+	<h_persons>
+		<RU>Участники</RU>
+		<UA>Учасники</UA>
+		<EN>Persons</EN>
+	</h_persons>
+	<h_participants>
+		<RU>Участники тренинга</RU>
+		<UA>Учасники тренінгу</UA>
+		<EN>Training participants</EN>
+	</h_participants>
+	<h_reports>
+		<RU>Отчеты по обучению</RU>
+		<UA>Звіти з навчання</UA>
+		<EN>Training reports</EN>
+	</h_reports>
+	<id_cource>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</id_cource>
+	<name_cource>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</name_cource>
+	<desc_cource>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</desc_cource>
+	<date_beg>
+		<RU>Дата регистрации</RU>
+		<UA>Дата реєстрації</UA>
+		<EN>Registration date</EN>
+	</date_beg>
+	<has_certification>
+		<RU>Нужна сертификация?</RU>
+		<UA>Потрібна сертифікація?</UA>
+		<EN>Need certificatioin?</EN>
+	</has_certification>
+	<id_line>
+		<RU>ИД строки</RU>
+		<UA>ІД рядка</UA>
+		<EN>Line ID</EN>
+	</id_line>
+	<sname_jur_prs>
+		<RU>Юрлицо</RU>
+		<UA>Юрособа</UA>
+		<EN>Jur.person</EN>
+	</sname_jur_prs>
+	<has_permission>
+		<RU>Участвует</RU>
+		<UA>Бере участь</UA>
+		<EN>Participant</EN>
+	</has_permission>
+	<day_number>
+		<RU>День</RU>
+		<UA>День</UA>
+		<EN>Day</EN>
+	</day_number>
+	<time_beg>
+		<RU>Начало (чч24:ми)</RU>
+		<UA>Початок (гг24:хв)</UA>
+		<EN>Begin (hh24:mi)</EN>
+	</time_beg>
+	<time_end>
+		<RU>Окончание (чч24:ми)</RU>
+		<UA>Завершення (гг24:хв)</UA>
+		<EN>End (hh24:mi)</EN>
+	</time_end>
+	<desc_schedule_line>
+		<RU>Описание</RU>
+		<UA>Опис</UA>
+		<EN>Description</EN>
+	</desc_schedule_line>
+	<id_training>
+		<RU>ИД</RU>
+		<UA>ІД</UA>
+		<EN>ID</EN>
+	</id_training>
+	<begin_date_training>
+		<RU>Дата начала</RU>
+		<UA>Дата початку</UA>
+		<EN>Begin date</EN>
+	</begin_date_training>
+	<end_date_training>
+		<RU>Дата окончания</RU>
+		<UA>Дата завершення</UA>
+		<EN>End date</EN>
+	</end_date_training>
+	<adr_training>
+		<RU>Адрес обучения</RU>
+		<UA>Адреса навчання</UA>
+		<EN>Training's adress</EN>
+	</adr_training>
+	<been_certification>
+		<RU>Проводилась сертификация</RU>
+		<UA>Проводилась сертифікація</UA>
+		<EN>Been certification</EN>
+	</been_certification>
+	<id_post>
+		<RU>ИД должности</RU>
+		<UA>ІД посади</UA>
+		<EN>Post ID</EN>
+	</id_post>
+	<name_post>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</name_post>
+	<desc_post>
+		<RU>Описание должности</RU>
+		<UA>Опис посади</UA>
+		<EN>Post description</EN>
+	</desc_post>
+	<surname_person>
+		<RU>Фамилия</RU>
+		<UA>Прізвище</UA>
+		<EN>Surname</EN>
+	</surname_person>
+	<name_person>
+		<RU>Имя</RU>
+		<UA>Ім'я</UA>
+		<EN>Name</EN>
+	</name_person>
+	<patronymic_person>
+		<RU>Отчество</RU>
+		<UA>По батькові</UA>
+		<EN>Patronymic</EN>
+	</patronymic_person>
+	<date_of_birth>
+		<RU>Дата рождения</RU>
+		<UA>Дата народження</UA>
+		<EN>Date of birth</EN>
+	</date_of_birth>
+	<id_person>
+		<RU>ИД участника</RU>
+		<UA>ІД учасника</UA>
+		<EN>Person ID</EN>
+	</id_person>
+	<full_name>
+		<RU>ФИО</RU>
+		<UA>ПІБ</UA>
+		<EN>Name</EN>
+	</full_name>
+	<h_add_cource>
+		<RU>Добавить тему</RU>
+		<UA>Додати тему</UA>
+		<EN>Add theme</EN>
+	</h_add_cource>
+	<h_delete_cource>
+		<RU>Удалить тему</RU>
+		<UA>Видалити тему</UA>
+		<EN>Delete theme</EN>
+	</h_delete_cource>
+	<h_add_schedule_line>
+		<RU>Добавить строку графика</RU>
+		<UA>Додати рядок графіка</UA>
+		<EN>Add schedule line</EN>
+	</h_add_schedule_line>
+	<h_update_schedule_line>
+		<RU>Редактировать строку графика</RU>
+		<UA>Редагувати рядок графіка</UA>
+		<EN>Update schedule line</EN>
+	</h_update_schedule_line>
+	<h_delete_schedule_line>
+		<RU>Удалить строку графика</RU>
+		<UA>Видалити рядок графіка</UA>
+		<EN>Delete schedule line</EN>
+	</h_delete_schedule_line>
+	<h_add_training>
+		<RU>Добавить тренинг</RU>
+		<UA>Додати тренінг</UA>
+		<EN>Add training</EN>
+	</h_add_training>
+	<h_delete_training>
+		<RU>Удалить тренинг</RU>
+		<UA>Видалити тренінг</UA>
+		<EN>Delete training</EN>
+	</h_delete_training>
+	<h_add_training_part>
+		<RU>Добавить участника обучения</RU>
+		<UA>Додати учасника навчання</UA>
+		<EN>Add training participant</EN>
+	</h_add_training_part>
+	<h_delete_training_part>
+		<RU>Удалить участника обучения</RU>
+		<UA>Видалити учасника навчання</UA>
+		<EN>Delete training participant</EN>
+	</h_delete_training_part>
+	<h_add_jur_prs>
+		<RU>Добавить юрлицо</RU>
+		<UA>Додати юрособу</UA>
+		<EN>Add jur.person</EN>
+	</h_add_jur_prs>
+	<h_new_jur_prs>
+		<RU>Создать новое юрлицо</RU>
+		<UA>Створити нову юоособу</UA>
+		<EN>Add new jur.person</EN>
+	</h_new_jur_prs>
+	<h_exists_jur_prs>
+		<RU>Выбрать юрлицо</RU>
+		<UA>Вибрати юрособу</UA>
+		<EN>Get jur.person</EN>
+	</h_exists_jur_prs>
+	<h_delete_jur_prs>
+		<RU>Удалить юрлицо</RU>
+		<UA>Видалити юрособу</UA>
+		<EN>Delete jur.person</EN>
+	</h_delete_jur_prs>
+	<id_post_parent>
+		<RU>Подчиняется</RU>
+		<UA>Підпорядковується</UA>
+		<EN>Submission</EN>
+	</id_post_parent>
+	<h_add_post>
+		<RU>Добавить должность</RU>
+		<UA>Додати посаду</UA>
+		<EN>Add post</EN>
+	</h_add_post>
+	<h_delete_post>
+		<RU>Удалить должность</RU>
+		<UA>Видалити посаду</UA>
+		<EN>Delete post</EN>
+	</h_delete_post>
+	<h_edit_post>
+		<RU>Редактировать должность</RU>
+		<UA>Редагувати посаду</UA>
+		<EN>Edit post</EN>
+	</h_edit_post>
+	<h_add_staff>
+		<RU>Добавить работника</RU>
+		<UA>Додати працівника</UA>
+		<EN>Add worker</EN>
+	</h_add_staff>
+	<h_delete_staff>
+		<RU>Удалить работника</RU>
+		<UA>Видалити працівника</UA>
+		<EN>Delete worker</EN>
+	</h_delete_staff>
+	<h_edit_staff>
+		<RU>Редактировать работника</RU>
+		<UA>Редагувати працівника</UA>
+		<EN>Edit worker</EN>
+	</h_edit_staff>
+	<adr_home>
+		<RU>Домашний адрес</RU>
+		<UA>Домашня адреса</UA>
+		<EN>Home adress</EN>
+	</adr_home>
+	<phone_home>
+		<RU>Домашний телефон</RU>
+		<UA>Домашній телефон</UA>
+		<EN>Home phone</EN>
+	</phone_home>
+	<phone_mobile>
+		<RU>Мобильный телефон</RU>
+		<UA>Мобільни телефон</UA>
+		<EN>Mobile phone</EN>
+	</phone_mobile>
+	<email>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</email>
+	<has_certificate>
+		<RU>Есть сертификат</RU>
+		<UA>Є сертифікат</UA>
+		<EN>Has certificate</EN>
+	</has_certificate>
+	<date_ceftification>
+		<RU>Дата сертификации</RU>
+		<UA>Дата сертифікації</UA>
+		<EN>Certification date</EN>
+	</date_ceftification>
+	<certificate_level>
+		<RU>Квалификационный уровень</RU>
+		<UA>Кваліфікаційний рівень</UA>
+		<EN>Qualification level</EN>
+	</certificate_level>
+	<id_certificate_level>
+		<RU>Квалификационный уровень</RU>
+		<UA>Кваліфікаційний рівень</UA>
+		<EN>Qualification level</EN>
+	</id_certificate_level>
+	<name_certificate_level>
+		<RU>Квалификационный уровень</RU>
+		<UA>Кваліфікаційний рівень</UA>
+		<EN>Qualification level</EN>
+	</name_certificate_level>
+	<cd_post_type>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</cd_post_type>
+	<name_post_type>
+		<RU>Название должности</RU>
+		<UA>Назва посади</UA>
+		<EN>Post name</EN>
+	</name_post_type>
+	
+	<h_participant_type>
+		<RU>Участники обучения</RU>
+		<UA>Учасники навчання</UA>
+		<EN>Participant of trainings</EN>
+	</h_participant_type>
+	<h_participant_organizations>
+		<RU>Организации</RU>
+		<UA>Організації</UA>
+		<EN>Organizations</EN>
+	</h_participant_organizations>
+	<h_participant_persons>
+		<RU>Студенты</RU>
+		<UA>Студенти</UA>
+		<EN>Students</EN>
+	</h_participant_persons>
+</training>

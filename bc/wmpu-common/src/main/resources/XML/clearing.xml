@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<clearing>
+	<general>
+		<RU>Клиринг</RU>
+		<UA>Кліринг</UA>
+		<EN>Clearing</EN>
+	</general>
+	<id_clearing>
+		<RU>ИД клиринга</RU>
+		<UA>ІД клірингу</UA>	
+		<EN>Clearing ID</EN>
+	</id_clearing>
+	<date_clearing>
+		<RU>Дата клиринга</RU>
+		<UA>Дата клірингу</UA>	
+		<EN>Clearing date</EN>
+	</date_clearing>
+	<operation_date>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</operation_date>
+	<begin_period>
+		<RU>Начало периода</RU>
+		<UA>Початок періода</UA>
+		<EN>Begin of period</EN>
+	</begin_period>
+	<end_period>
+		<RU>Окончание периода</RU>
+		<UA>Завершення періода</UA>
+		<EN>End of period</EN>
+	</end_period>
+	<state_clearing>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>Condition</EN>
+	</state_clearing>
+	<posting_count>
+		<RU>Количество проводок</RU>
+		<UA>Кількість проведень</UA>
+		<EN>Number of entries</EN>
+	</posting_count>
+	<id_clearing_line>
+		<RU>ИД строки</RU>
+		<UA>ІД рядка</UA>
+		<EN>Line ID</EN>
+	</id_clearing_line>
+	<number_line>
+		<RU>Номер строки</RU>
+		<UA>Номер рядка</UA>
+		<EN>Line ID</EN>
+	</number_line>
+	<number_doc_clearing>
+		<RU>Номер документа</RU>
+		<UA>Номер документу</UA>
+		<EN>Document number</EN>
+	</number_doc_clearing>
+	<receiver_participant>
+		<RU>Получатель</RU>
+		<UA>Отримувач</UA>
+		<EN>Recipient</EN>
+	</receiver_participant>
+	<payer_participant>
+		<RU>Плательщик</RU>
+		<UA>Платник</UA>
+		<EN>Payer</EN>
+	</payer_participant>
+	<receiver_sname_owner_ba>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</receiver_sname_owner_ba>
+	<receiver_number_bank_account>
+		<RU>Счет</RU>
+		<UA>Рахунок</UA>
+		<EN>Account</EN>
+	</receiver_number_bank_account>
+	<receiver_name_bank_alt>
+		<RU>Банк</RU>
+		<UA>Банк</UA>
+		<EN>Bank</EN>
+	</receiver_name_bank_alt>
+	<receiver_mfo_bank>
+		<RU>МФО банка</RU>
+		<UA>МФО банку</UA>
+		<EN>Bank identifier code</EN>
+	</receiver_mfo_bank>
+	<receiver_inn_number>
+		<RU>ИНН</RU>
+		<UA>ІПН</UA>
+		<EN>ITN</EN>
+	</receiver_inn_number>
+	<receiver_code_country>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</receiver_code_country>
+	<payer_sname_owner_ba>
+		<RU>Название</RU>
+		<UA>Назва</UA>
+		<EN>Name</EN>
+	</payer_sname_owner_ba>
+	<payer_number_bank_account>
+		<RU>Счет</RU>
+		<UA>Рахунок</UA>
+		<EN>Account</EN>
+	</payer_number_bank_account>
+	<payer_name_bank_alt>
+		<RU>Банк</RU>
+		<UA>Банк</UA>
+		<EN>Bank</EN>
+	</payer_name_bank_alt>
+	<payer_mfo_bank>
+		<RU>МФО банка</RU>
+		<UA>МФО банку</UA>
+		<EN>Bank identifier code</EN>
+	</payer_mfo_bank>
+	<payer_inn_number>
+		<RU>ИНН</RU>
+		<UA>ІПН</UA>
+		<EN>ITN</EN>
+	</payer_inn_number>
+	<payer_code_country>
+		<RU>Код страны</RU>
+		<UA>Код країни</UA>
+		<EN>Country code</EN>
+	</payer_code_country>
+	<cd_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</cd_currency>
+	<name_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</name_currency>
+	<entered_amount>
+		<RU>Сумма</RU>
+		<UA>Сума</UA>
+		<EN>Amount</EN>
+	</entered_amount>
+	<cd_base_currency>
+		<RU>Базовая валюта</RU>
+		<UA>Базова валюта</UA>
+		<EN>Base currency</EN>
+	</cd_base_currency>
+	<name_base_currency>
+		<RU>Базовая валюта</RU>
+		<UA>Базова валюта</UA>
+		<EN>Base currency</EN>
+	</name_base_currency>
+	<accounted_amount>
+		<RU>Рассчитанная сумма</RU>
+		<UA>Розрахована сума</UA>
+		<EN>Calculated amount</EN>
+	</accounted_amount>
+	<need_clearing_line_export>
+		<RU>Экспортировать</RU>
+		<UA>Експортувати</UA>
+		<EN>Necessary to export</EN>
+	</need_clearing_line_export>
+	<state_clearing_line_export>
+		<RU>Состояние экспорта</RU>
+		<UA>Стан експорта</UA>
+		<EN>Export state</EN>
+	</state_clearing_line_export>
+	<t_lines>
+		<ru>Строки клиринга</ru>
+		<ua>Рядки клірингу</ua>
+		<en>Clearing lines</en></t_lines>
+	<t_postings>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></t_postings>
+	<state_clearing_line>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>Condition</en></state_clearing_line>
+	<id_export_file>
+		<ru>Файл экспорта</ru>
+		<ua>Файл експорту</ua>
+		<en>Export file</en></id_export_file>
+	<t_export>
+		<ru>Экспорт</ru>
+		<ua>Експорт</ua>
+		<en>Export</en></t_export>
+	<t_export_files>
+		<ru>Файлы експорта</ru>
+		<ua>Файли експорту</ua>
+		<en>Export files</en></t_export_files>
+	<number_clearing>
+		<ru>Номер клиринга</ru>
+		<ua>Номер клірингу</ua>
+		<en>Clearing number</en></number_clearing>
+	<payment_function>
+		<ru>Назначение платежа</ru>
+		<ua>Призначення платежу</ua>
+		<en>Purpose of payment</en></payment_function>
+	<line_count>
+		<ru>Количество строк</ru>
+		<ua>Кількість рядків</ua>
+		<en>Quantity of lines</en></line_count>
+	<reconciled_line_count>
+		<ru>Количество выверенных строк</ru>
+		<ua>Кількість вивірених рядків</ua>
+		<en>Quantity of checked lines</en></reconciled_line_count>
+	<reconciled_amount>
+		<ru>Выверенная сумма</ru>
+		<ua>Вивірена сума</ua>
+		<en>Reconciled amount</en></reconciled_amount>
+	<unreconciled_amount>
+		<ru>Невыверенная сумма</ru>
+		<ua>Невивірена сума</ua>
+		<en>Unreconciled amount</en></unreconciled_amount>
+	<h_clearing_remove>
+		<ru>Удалить клиринг</ru>
+		<ua>Видалити кліринг</ua>
+		<en>Delete clearing</en></h_clearing_remove>
+	<export_with_some_bank_account>
+		<ru>Выгружать проводки с одинаковым счетом в дебете и кредите</ru>
+		<ua>Вивантажувати проведення з одинаковими рахунками в дебеті і кредиті</ua>
+		<en>Shipped out entries with equal account in debet and credit</en></export_with_some_bank_account>
+	<export_0_amount>
+		<ru>Выгружать проводки с нулевой суммой</ru>
+		<ua>Вивантажувати проведення з нульовою сумою</ua>
+		<en>Shipped out entries with zero amount</en></export_0_amount>
+	<h_reconcile>
+		<ru>Выверка</ru>
+		<ua>Вивірення</ua>
+		<en>Reconcile</en></h_reconcile>
+	<reconcile_state>
+		<ru>Выверка</ru>
+		<ua>Вивірення</ua>
+		<en>Reconcile</en></reconcile_state>
+	<h_owner>
+		<ru>Владелец счета</ru>
+		<ua>Власник рахунку</ua>
+		<en>Bank account owner</en></h_owner>
+	<t_export_files>
+		<ru>Файлы экспорта</ru>
+		<ua>Файли експорту</ua>
+		<en>Export files</en></t_export_files>
+	<t_log>
+		<ru>Журнальная информация</ru>
+		<ua>Журнальна інформація</ua>
+		<en>Log</en></t_log>
+	<LAB_RUN_CLEARING>
+		<RU>Сформировать клиринг</RU>
+		<UA>Сформувати кліринг</UA>
+		<EN>Create clearing</EN></LAB_RUN_CLEARING>
+	<tab_header_clearing>
+		<ru>Клиринг</ru>
+		<ua>Кліринг</ua>
+		<en>Clearing</en></tab_header_clearing>
+	<tab_header_lines>
+		<ru>Строки</ru>
+		<ua>Рядки</ua>
+		<en>Lines</en></tab_header_lines>
+	<tab_header_reports>
+		<ru>Отчеты о формировании</ru>
+		<ua>Звіти про формування</ua>
+		<en>Creation reports</en></tab_header_reports>
+	<h_export>
+		<ru>Экспорт</ru>
+		<ua>Експорт</ua>
+		<en>Export</en></h_export>
+	<h_cancel_reconcile>
+		<ru>Отменить выверку</ru>
+		<ua>Відмінити вивірення</ua>
+		<en>Cancel reconcile</en></h_cancel_reconcile>
+	<t_file_content>
+		<ru>Содержимое файла</ru>
+		<ua>Вміст файлу</ua>
+		<en>File content</en></t_file_content>
+		
+	<h_create_all>
+		<ru>Сформировать документы по всем проводкам, которые не отправлялись на клиринг</ru>
+		<ua>Створити документи по всіх проведеннях, які не відправлялись на кліринг</ua>
+		<en>Create documents for all postings</en></h_create_all>
+	<h_create_for_period>
+		<ru>Сформировать документы для проводок за период</ru>
+		<ua>Сформувати документи для проведень за період</ua>
+		<en>Create documents for posting for period</en></h_create_for_period>
+		
+	<id_payment_order>
+		<ru>ИД платежного поручения</ru>
+		<ua>ІД платіжного доручення</ua>
+		<en>Payment order ID</en></id_payment_order>
+	<date_payment_order>
+		<ru>Дата платежного поручения</ru>
+		<ua>Дата платіжного доручення</ua>
+		<en>Payment order date</en></date_payment_order>
+	<number_line_payment_order>
+		<ru>№ платежного поручения</ru>
+		<ua>№ платіжного доручення</ua>
+		<en>Payment order number</en></number_line_payment_order>
+	<h_payment_order_remove>
+		<ru>Удалить платежное поручение</ru>
+		<ua>Видалити платіжне доручення</ua>
+		<en>Delete payment order</en></h_payment_order_remove>
+	<h_payment_order_create>
+		<ru>Создать платежное поручение</ru>
+		<ua>Створити платіжне доручення</ua>
+		<en>Create payment order</en></h_payment_order_create>
+
+	<h_payment_order_create_all>
+		<ru>Создать платежные поручения для клирингов, по которым платежные поручения не формировались</ru>
+		<ua>Створити платіжні доручення для клірингів, за якими платіжні доручення не формувались</ua>
+		<en>Create payment orders for all clearings</en></h_payment_order_create_all>
+	<h_payment_order_create_for_period>
+		<ru>Создать платежные поручения для клирингов за период</ru>
+		<ua>Створити платіжні доручення для клірингів за період</ua>
+		<en>Create payment orders for clearing for period</en></h_payment_order_create_for_period>
+	
+	<number_invoice>
+		<ru>Номер счета</ru>
+		<ua>Номер рахунку</ua>
+		<en>Invoice number</en>
+	</number_invoice>
+	<date_invoice>
+		<ru>Дата выставления счета</ru>
+		<ua>Дата виставлення рахунку</ua>
+		<en>Invoice date</en>
+	</date_invoice>
+	<sname_jur_prs_payer>
+		<ru>Плательщик</ru>
+		<ua>Платник</ua>
+		<en>Payer</en>
+	</sname_jur_prs_payer>
+	<sname_jur_prs_receiver>
+		<ru>Получатель</ru>
+		<ua>Отримувач</ua>
+		<en>Receiver</en>
+	</sname_jur_prs_receiver>
+	<partner1>
+		<ru>Партнер 1</ru>
+		<ua>Партнер 1</ua>
+		<en>Partner 1</en>
+	</partner1>
+	<partner2>
+		<ru>Партнер 2</ru>
+		<ua>Партнер 2</ua>
+		<en>Partner 2</en>
+	</partner2>
+	<bank_account_receiver>
+		<ru>Банковский счет получателя</ru>
+		<ua>Банківський рахунок отримувача</ua>
+		<en>Bank account of receiver</en>
+	</bank_account_receiver>
+	<name_fn_priority>
+		<ru>Приоритет</ru>
+		<ua>Пріоритет</ua>
+		<en>Priority</en>
+	</name_fn_priority>
+	<name_fn_invoice_state>
+		<ru>Состояние оплаты</ru>
+		<ua>Стан оплати</ua>
+		<en>Payments state</en>
+	</name_fn_invoice_state>
+	<name_fn_invoice_module>
+		<ru>Где создан</ru>
+		<ua>Де створений</ua>
+		<en>Where created</en>
+	</name_fn_invoice_module>
+	<name_fn_invoice_creation>
+		<ru>Способ создания</ru>
+		<ua>Спосіб створення</ua>
+		<en>Creation way</en>
+	</name_fn_invoice_creation>
+	<title_invoice_period>
+		<ru>Счет за период</ru>
+		<ua>Рахунок за період</ua>
+		<en>Invoice on period</en>
+	</title_invoice_period>
+	<begin_period_date>
+		<ru>Начало периода</ru>
+		<ua>Початок періода</ua>
+		<en>Begin period</en>
+	</begin_period_date>
+	<end_period_date>
+		<ru>Окончание периода</ru>
+		<ua>Закінчення періода</ua>
+		<en>End period</en>
+	</end_period_date>
+	<total_sum>
+		<ru>Общая сумма</ru>
+		<ua>Загальна сума</ua>
+		<en>Total amount</en>
+	</total_sum>
+	<total_without_tax_sum>
+		<ru>Сумма без налогов</ru>
+		<ua>Сума без податків</ua>
+		<en>Amount without tax</en>
+	</total_without_tax_sum>
+	<paid_sum>
+		<ru>Оплаченная сумма</ru>
+		<ua>Оплачена сума</ua>
+		<en>Paid amount</en>
+	</paid_sum>
+	<debt_sum>
+		<ru>Долг</ru>
+		<ua>Борг</ua>
+		<en>Debt</en>
+	</debt_sum>
+	<overpayment_sum>
+		<ru>Переплата</ru>
+		<ua>Переплата</ua>
+		<en>Overpayment</en>
+	</overpayment_sum>
+	<tax_sum>
+		<ru>Сумма налогов</ru>
+		<ua>Сума податків</ua>
+		<en>Tax amount</en>
+	</tax_sum>
+	<invoice_doc>
+		<ru>Договор</ru>
+		<ua>Договір</ua>
+		<en>Document</en>
+	</invoice_doc>
+	<title_payment_details>
+		<ru>Реквизиты для оплаты</ru>
+		<ua>Реквізити для оплати</ua>
+		<en>Details for payment</en>
+	</title_payment_details>
+	<title_total_amounts>
+		<ru>Итоговые суммы</ru>
+		<ua>Кінцеві суми</ua>
+		<en>Total amounts</en>
+	</title_total_amounts>
+	<h_add_invoice>
+		<ru>Добавить счет</ru>
+		<ua>Додати рахунок</ua>
+		<en>Add invoice</en>
+	</h_add_invoice>
+	<h_delete_invoice>
+		<ru>Удалить счет</ru>
+		<ua>Видалити рахунок</ua>
+		<en>Delete invoice</en>
+	</h_delete_invoice>
+	<h_update_invoice>
+		<ru>Изменить параметры счета</ru>
+		<ua>Змінити параметри рахунку</ua>
+		<en>Change invoice parameters</en>
+	</h_update_invoice>
+	<h_create_invoice>
+		<ru>Сформировать счет на основании операций</ru>
+		<ua>Сформувати рахунок на остові операцій</ua>
+		<en>Create invoice base on operations</en>
+	</h_create_invoice>
+	<h_invoice_param>
+		<ru>Параметры счета</ru>
+		<ua>Параметри рахунка</ua>
+		<en>Invoice parameters</en>
+	</h_invoice_param>
+	
+	<h_invoice_lines>
+		<ru>Товары, работы, услуги</ru>
+		<ua>Товари, роботи, послуги</ua>
+		<en>Goods, works, services</en>
+	</h_invoice_lines>
+	<h_add_invoice_line>
+		<ru>Добавить товар, работу, услугу</ru>
+		<ua>Додати товар, роботу, послуги</ua>
+		<en>Add good, work, service</en>
+	</h_add_invoice_line>
+	<h_delete_invoice_line>
+		<ru>Удалить товар, работу, услугу</ru>
+		<ua>Видалити товар, роботу, послуги</ua>
+		<en>Delete good, work, service</en>
+	</h_delete_invoice_line>
+	<h_edit_invoice_line>
+		<ru>Изменить параметры товара, работы, услуги</ru>
+		<ua>Змінити параметри товара, роботи, послуги</ua>
+		<en>Chenga parameters of goods, works, services</en>
+	</h_edit_invoice_line>
+	<name_nomenkl>
+		<ru>Номенклатура</ru>
+		<ua>Номенклатура</ua>
+		<en>Nomenklature</en>
+	</name_nomenkl>
+	<count_nomenkl>
+		<ru>Количество</ru>
+		<ua>Кількість</ua>
+		<en>Count</en>
+	</count_nomenkl>
+	<price_nomenkl>
+		<ru>Цена</ru>
+		<ua>Ціна</ua>
+		<en>Price</en>
+	</price_nomenkl>
+	<total_amount>
+		<ru>Сумма</ru>
+		<ua>Сума</ua>
+		<en>Price</en>
+	</total_amount>
+	<tax_percent>
+		<ru>% налогов</ru>
+		<ua>% податків</ua>
+		<en>Tax percent</en>
+	</tax_percent>
+	<tax_amount>
+		<ru>Сумма налогов</ru>
+		<ua>Сума податків</ua>
+		<en>Tax amount</en>
+	</tax_amount>
+	<title_invoice_from>
+		<ru>от</ru>
+		<ua>від</ua>
+		<en>from</en>
+	</title_invoice_from>
+	<title_invoice_from_wn>
+		<ru>Счет от</ru>
+		<ua>Рахунок від</ua>
+		<en>Account from</en>
+	</title_invoice_from_wn>
+	<title_current_invoice>
+		<ru>Текущий счет</ru>
+		<ua>Поточний рахунок</ua>
+		<en>Current invoice</en>
+	</title_current_invoice>
+	<title_current_invoice_pay>
+		<ru>Оплатить</ru>
+		<ua>Оплатити</ua>
+		<en>Paid</en>
+	</title_current_invoice_pay>
+	<title_current_invoice_cancel>
+		<ru>Отменить</ru>
+		<ua>Відмінити</ua>
+		<en>Cancel</en>
+	</title_current_invoice_cancel>
+	<h_invoice_actions>
+		<ru>Действия</ru>
+		<ua>Дії</ua>
+		<en>Actions</en>
+	</h_invoice_actions>
+	<title_new_invoice>
+		<ru>Новый счет</ru>
+		<ua>Новий рахунок</ua>
+		<en>New invoice</en>
+	</title_new_invoice>
+</clearing>

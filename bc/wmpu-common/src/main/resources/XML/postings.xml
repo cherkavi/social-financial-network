@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<postings>
+	<general>
+		<RU>Проводки</RU>
+		<UA>Проведення</UA>
+		<EN>Entries</EN>
+	</general>
+	<bk_docs>
+		<RU>Бухгалтерские документы</RU>
+		<UA>Бухгалтерські документи</UA>
+		<EN>Accounting documents</EN>
+	</bk_docs>
+	<h_not_exported>
+		<ru>Неэкспортированные проводки</ru>
+		<ua>Неекспортовані проведення</ua>
+		<en>Nonexported entries</en>
+	</h_not_exported>
+	<id_posting>
+		<RU>ИД документа</RU>
+		<UA>ІД документу</UA>
+		<EN>Document ID</EN>
+	</id_posting>
+	<number_posting>
+		<RU>№ документа</RU>
+		<UA>№ документу</UA>
+		<EN>Document number</EN>
+	</number_posting>
+	<id_posting_detail>
+		<RU>ИД проводки</RU>
+		<UA>ІД проведення</UA>
+		<EN>Entry ID</EN>
+	</id_posting_detail>
+	<id_posting_line>
+		<RU>ИД строки бух.документа</RU>
+		<UA>ІД рядка бух.документа</UA>
+		<EN>Accounting document's line ID</EN>
+	</id_posting_line>
+	<operation_date>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</operation_date>
+	<id_term>
+		<ru>Номер терминала</ru>
+		<ua>Номер терміналу</ua>
+		<en>Terminal number</en>
+	</id_term>
+	<id_trans>
+		<RU>Транзакция</RU>
+		<UA>Транзакція</UA>
+		<EN>Transaction</EN>
+	</id_trans>
+	<type_trans>
+		<RU>Тип транзакции</RU>
+		<UA>Тип транзакції</UA>
+		<EN>Transaction type</EN>
+	</type_trans>
+	<date_trans>
+		<RU>Дата транзакции</RU>
+		<UA>Дата транзакції</UA>
+		<EN>Дата транзакции</EN>
+	</date_trans>
+	<cd_currency>
+		<RU>Код валюты</RU>
+		<UA>Код валюти</UA>
+		<EN>Currency code</EN>
+	</cd_currency>
+	<receiver_id_jur_prs>
+		<RU>ИД юридического лица дебета</RU>
+		<UA>ІД юридичної особи дебету</UA>
+		<EN>Legal person debit ID</EN>
+	</receiver_id_jur_prs>
+	<debet_id_bk_account>
+		<RU>Счет по дебету</RU>
+		<UA>Рахунок за дебетом</UA>
+		<EN>Account by debit</EN>
+	</debet_id_bk_account>
+	<debet_cd_bk_account>
+		<RU>Счет по дебету</RU>
+		<UA>Рахунок за дебетом</UA>
+		<EN>Account by debit</EN>
+	</debet_cd_bk_account>
+	<payer_id_jur_prs>
+		<RU>ИД юридического лица кредита</RU>
+		<UA>ІД юридичної особи кредиту</UA>
+		<EN>Legal person credit ID</EN>
+	</payer_id_jur_prs>
+	<credit_id_bk_account>
+		<RU>Счет по кредиту</RU>
+		<UA>Рахунок за кредитом</UA>
+		<EN>Account by credit</EN>
+	</credit_id_bk_account>
+	<credit_cd_bk_account>
+		<RU>Счет по кредиту</RU>
+		<UA>Рахунок за кредитом</UA>
+		<EN>Счет по кредиту</EN>
+	</credit_cd_bk_account>
+	<entered_amount>
+		<RU>Сумма</RU>
+		<UA>Сума</UA>
+		<EN>Amount</EN>
+	</entered_amount>
+	<exchange_rate>
+		<RU>Обменный курс</RU>
+		<UA>Курс обміну</UA>
+		<EN>Currency exchange</EN>
+	</exchange_rate>
+	<accounted_amount>
+		<RU>Рассчитанная сумма</RU>
+		<UA>Розрахована сума</UA>
+		<EN>Calculated amount</EN>
+	</accounted_amount>
+	<state_posting>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>Condition</EN>
+	</state_posting>
+	<id_clearing>
+		<RU>ИД клиринга</RU>
+		<UA>ІД клірингу</UA>
+		<EN>Clearing ID</EN>
+	</id_clearing>
+	<id_clearing_line>
+		<RU>Строка клиринга</RU>
+		<UA>Рядок клірингу</UA>
+		<EN>Clearing line</EN>
+	</id_clearing_line>
+	<conversion_date>
+		<RU>Дата перерасчета</RU>
+		<UA>Дата перерахунку</UA>
+		<EN>Recalculation date</EN>
+	</conversion_date>
+	<name_currency>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</name_currency>
+	<base_currency>
+		<RU>Базовая валюта</RU>
+		<UA>Базова валюта</UA>
+		<EN>Base currency</EN>
+	</base_currency>
+	<state_posting>
+		<RU>Состояние</RU>
+		<UA>Стан</UA>
+		<EN>Condition</EN>
+	</state_posting>
+	<type_trans>
+		<RU>Тип транзакции</RU>
+		<UA>Тип транзакції</UA>
+		<EN>Transaction date</EN>
+	</type_trans>
+	<h_postings_add>
+		<RU>Добавить проводку</RU>
+		<UA>Додати проведення</UA>
+		<EN>Add the entry</EN>
+	</h_postings_add>
+	<h_postings_edit>
+		<RU>Редактировать проводку</RU>
+		<UA>Редагувати проведення</UA>
+		<EN>Edit the entry</EN>
+	</h_postings_edit>
+	<t_postings>
+		<RU>Параметры</RU>
+		<UA>Параметри</UA>
+		<EN>Parameters</EN>
+	</t_postings>
+	<assignment_posting>
+		<RU>Описание проводки</RU>
+		<UA>Опис проведення</UA>
+		<EN>Description of entry</EN>
+	</assignment_posting>
+	<h_trans_parameters>
+		<RU>Параметры транзакции</RU>
+		<UA>Параметри транзакцiї</UA>
+		<EN>Transaction parameters</EN>
+	</h_trans_parameters>
+	<state_posting_line>
+		<ru>Состояние проводки</ru>
+		<ua>Стан проведення</ua>
+		<en>Entry condition</en></state_posting_line>
+	<id_bk_operation_scheme>
+		<ru>Схема проводок</ru>
+		<ua>Схема проведення</ua>
+		<en>Scheme of entries</en></id_bk_operation_scheme>
+	<id_bk_operation_scheme_line>
+		<ru>Настройка проводок</ru>
+		<ua>Настройка проведення</ua>
+		<en>Entrie's setting</en></id_bk_operation_scheme_line>
+	<name_bk_operation_scheme_line>
+		<ru>Настройка проводок</ru>
+		<ua>Настройка проведення</ua>
+		<en>Entrie's setting</en></name_bk_operation_scheme_line>
+	<cd_bk_source>
+		<ru>Источник</ru>
+		<ua>Джерело</ua>
+		<en>Source</en></cd_bk_source>
+	<posting_count>
+		<ru>Строк документа</ru>
+		<ua>Рідків документа</ua>
+		<en>Lines</en></posting_count>
+	<line_count>
+		<ru>Детальных проводок</ru>
+		<ua>Детальних проведень</ua>
+		<en>Detail entries</en></line_count>
+	<t_export>
+		<ru>Экспорт</ru>
+		<ua>Експорт</ua>
+		<en>Еxport</en></t_export>
+	<l_export_all>
+		<ru>Экспортировать все проводки</ru>
+		<ua>Експортувати всі проведення</ua>
+		<en>Export of entries</en></l_export_all>
+	<l_export_current_group>
+		<ru>Экспортировать группу проводок</ru>
+		<ua>Експортувати групу проведень</ua>
+		<en>Export of entries group</en></l_export_current_group>
+	<l_export_period>
+		<ru>Экспортировать документы за период</ru>
+		<ua>Експортувати документи за період</ua>
+		<en>Export of documents for period</en></l_export_period>
+	<l_export_period_begin>
+		<ru>с</ru>
+		<ua>з</ua>
+		<en>с</en></l_export_period_begin>
+	<l_export_period_end>
+		<ru>по</ru>
+		<ua>по</ua>
+		<en>по</en></l_export_period_end>
+	<l_export_current>
+		<ru>Экспортировать документ</ru>
+		<ua>Експортувати документ</ua>
+		<en>Export of document</en></l_export_current>
+	<t_create>
+		<ru>Сформировать</ru>
+		<ua>Сформувати</ua>
+		<en>Form</en></t_create>
+	<t_postings_trans>
+		<ru>Проводки по транзакциям</ru>
+		<ua>Проведення по транзакціях</ua>
+		<en>Entries by transactions</en></t_postings_trans>
+	<t_clearing>
+		<ru>Клиринг</ru>
+		<ua>Кліринг</ua>
+		<en>Clearing</en></t_clearing>
+	<trace_level>
+		<ru>Уровень сообщений</ru>
+		<ua>Рівень повідомлень</ua>
+		<en>Level of messages</en></trace_level>
+	<debug>
+		<ru>Режим отладки</ru>
+		<ua>Режим настройки</ua>
+		<en>Checkout regime</en></debug>
+	<id_posting_group>
+		<ru>ИД группы проводок</ru>
+		<ua>ІД групи проведень</ua>
+		<en>ID of entry group</en></id_posting_group>
+	<date_posting>
+		<ru>Дата формирования</ru>
+		<ua>Дата формування</ua>
+		<en>Creation date</en></date_posting>
+	<tab_header_postings>
+		<ru>Проводки</ru>
+		<ua>Проведення</ua>
+		<en>Entries</en></tab_header_postings>
+	<tab_header_documents>
+		<ru>Документы</ru>
+		<ua>Документи</ua>
+		<en>Documents</en></tab_header_documents>
+	<tab_header_reports>
+		<ru>Отчеты о формировании</ru>
+		<ua>Звіти про формування</ua>
+		<en>Creation reports</en></tab_header_reports>
+	<tab_header_transactions>
+		<ru>По транзакциях</ru>
+		<ua>По транзакціях</ua>
+		<en>By transactions</en></tab_header_transactions>
+	<id_report>
+		<ru>ИД отчета</ru>
+		<ua>ІД звіту</ua>
+		<en>Report ID</en></id_report>
+	<type_report>
+		<ru>Тип отчета</ru>
+		<ua>Тип звіту</ua>
+		<en>Report type</en></type_report>
+	<date_report>
+		<ru>Дата формирования</ru>
+		<ua>Дата формування</ua>
+		<en>Creation date</en></date_report>
+	<state_report>
+		<ru>Состояние</ru>
+		<ua>Стан</ua>
+		<en>State</en></state_report>
+	<export_with_some_bank_account>
+		<ru>Выгружать проводки с одинаковым счетом в дебете и кредите</ru>
+		<ua>Вивантажувати проведення з одинаковим рахунком в дебеті і кредиті</ua>
+		<en>Unload entries with equal account in debit and credit</en></export_with_some_bank_account>
+	<export_0_amount>
+		<ru>Выгружать проводки с нулевой суммой</ru>
+		<ua>Вивантажувати проведення з нульовою сумою</ua>
+		<en>Unload entries with zero amount</en></export_0_amount>
+	<h_posting_param>
+		<ru>Параметры проводки</ru>
+		<ua>Параметри проведення</ua>
+		<en>Posting's parameters</en></h_posting_param>
+	<posting_execution_type>
+		<ru>Тип проводок</ru>
+		<ua>Тип проведень</ua>
+		<en>Posting's type</en></posting_execution_type>
+	<id_club_rel>
+		<ru>Взаимоотношения</ru>
+		<ua>Взаємовідносини</ua>
+		<en>Relationship</en></id_club_rel>
+	<rejection_state>
+		<ru>Состояние забраковки</ru>
+		<ua>Стан забраковки</ua>
+		<en>Rejection state</en></rejection_state>
+	<is_grouped>
+		<RU>Выгружена в бух.систему</RU>
+		<UA>Вивантажена в бух.систему</UA>
+		<EN>Exported into accounting system</EN></is_grouped>
+	<is_clearing>
+		<ru>Отправлена на клиринг</ru>
+		<ua>Відіслана на кліринг</ua>
+		<en>Sent to clearing</en></is_clearing>
+	<receiver_id_bank_account>
+		<ru>Получатель: банковский счет</ru>
+		<ua>Отримувач: банківський рахунок</ua>
+		<en>Receiver: bank account</en>
+	</receiver_id_bank_account>
+	<payer_id_bank_account>
+		<ru>Плательщик: банковский счет</ru>
+		<ua>Платник: банківський рахунок</ua>
+		<en>Payer: bank account</en>
+	</payer_id_bank_account>
+	<id_remittance>
+		<ru>Перевод средств</ru>
+		<ua>Переведення коштів</ua>
+		<en>Remittance</en>
+	</id_remittance>
+	<id_card_operation>
+		<ru>Задача по карте</ru>
+		<ua>Завдання по карті</ua>
+		<en>Card task</en>
+	</id_card_operation>
+	<id_creation_report>
+		<ru>ИД отчета о создании</ru>
+		<ua>ІД звіту про створення</ua>
+		<en>Creation report ID</en>
+	</id_creation_report>
+	<h_clearing>
+		<ru>Клиринг</ru>
+		<ua>Кліринг</ua>
+		<en>Clearing</en>
+	</h_clearing>
+	<h_grouping>
+		<ru>Бухгалтерский документ</ru>
+		<ua>Бухгалтерський документ</ua>
+		<en>Accounting documents</en>
+	</h_grouping>
+	<h_source>
+		<ru>Источник проводки</ru>
+		<ua>Джерело проведення</ua>
+		<en>Posting source</en>
+	</h_source>
+	<h_to_base>
+		<ru>Приведение к базовой валюте</ru>
+		<ua>Приведення до базової валюти</ua>
+		<en>Go to base currency</en>
+	</h_to_base>
+	<h_delete_posting>
+		<ru>Удалить проводку</ru>
+		<ua>Видалити проведення</ua>
+		<en>Delete entry</en>
+	</h_delete_posting>
+	<LAB_DELETE_ALL_POSTINGS>
+		<RU>Удалить все проводки</RU>
+		<UA>Видалити всі проведення</UA>
+		<EN>Delete all entries</EN></LAB_DELETE_ALL_POSTINGS>
+	<LAB_RUN_POSTINGS>
+		<RU>Сформировать проводки</RU>
+		<UA>Сформувати проведення</UA>
+		<EN>Create entries</EN></LAB_RUN_POSTINGS>
+	<LAB_RUN_POSTINGS_TRANS>
+		<RU>Сформировать проводки для транзакции</RU>
+		<UA>Сформувати проведення для транзакції</UA>
+		<EN>Create entries for transaction</EN></LAB_RUN_POSTINGS_TRANS>
+	<LAB_RUN_POSTINGS_CARD_SALE>
+		<RU>Сформировать проводки по продаже карты</RU>
+		<UA>Сформувати проведення з продажу карти</UA>
+		<EN>Create entries for card sale</EN></LAB_RUN_POSTINGS_CARD_SALE>
+	<LAB_RUN_POSTINGS_TRANS_ALL>
+		<RU>Сформировать проводки для всех НЕПРОВЕДЕННЫХ транзакций</RU>
+		<UA>Сформувати проведення для всіх НЕПРОВЕДЕНИХ транзакцій</UA>
+		<EN>Create entries for all transactions without entries</EN></LAB_RUN_POSTINGS_TRANS_ALL>
+	<LAB_RUN_POSTINGS_CARD_TASKS>
+		<RU>Сформировать проводки для задачи по карте</RU>
+		<UA>Сформувати проведення для завдання по карті</UA>
+		<EN>Create entries for card task</EN></LAB_RUN_POSTINGS_CARD_TASKS>
+	<LAB_RUN_POSTINGS_CARD_TASKS_ALL>
+		<RU>Сформировать проводки для всех НЕПРОВЕДЕННЫХ задач по картам</RU>
+		<UA>Сформувати проведення для всіх НЕПРОВЕДЕНИХ завдань по картах</UA>
+		<EN>Create entries for all cards tastks without entries</EN></LAB_RUN_POSTINGS_CARD_TASKS_ALL>
+	<LAB_RUN_POSTINGS_REMITTANCE>
+		<RU>Сформировать проводки для операции перевода средств</RU>
+		<UA>Сформувати проведення для операції переведення коштів</UA>
+		<EN>Create entries for remittance</EN></LAB_RUN_POSTINGS_REMITTANCE>
+	<LAB_RUN_POSTINGS_REMITTANCE_ALL>
+		<RU>Сформировать проводки для всех НЕПРОВЕДЕННЫХ операций перевода средств</RU>
+		<UA>Сформувати проведення для всіх НЕПРОВЕДЕНИХ операцій переведення коштів</UA>
+		<EN>Create entries for all remittances without entries</EN></LAB_RUN_POSTINGS_REMITTANCE_ALL>
+	<LAB_RUN_DOC>
+		<RU>Сформировать бухгалтерский документ</RU>
+		<UA>Сформувати бухгалтерський документ</UA>
+		<EN>Create document</EN></LAB_RUN_DOC>
+	<LAB_RUN_POSTINGS>
+		<RU>Сформировать проводки</RU>
+		<UA>Сформувати проведення</UA>
+		<EN>Create entries</EN></LAB_RUN_POSTINGS>
+	<h_export_files>
+		<ru>Файлы экспорта</ru>
+		<ua>Файли експорту</ua>
+		<en>Export files</en>
+	</h_export_files>
+	<h_documents_entries>
+		<ru>Документы/Проводки</ru>
+		<ua>Документи/Проведення</ua>
+		<en>Documents/Entries</en>
+	</h_documents_entries>
+	<h_doc_caption>
+		<ru>Документ</ru>
+		<ua>Документ</ua>
+		<en>Document</en>
+	</h_doc_caption>
+	<h_grouped>
+		<ru>Группированы</ru>
+		<ua>Груповані</ua>
+		<en>Grouped</en>
+	</h_grouped>
+	<h_not_grouped>
+		<ru>Не группированы</ru>
+		<ua>Не груповані</ua>
+		<en>Not grouped</en>
+	</h_not_grouped>
+	<h_clearing>
+		<ru>На клиринге</ru>
+		<ua>На клірингу</ua>
+		<en>In clearing</en>
+	</h_clearing>
+	<h_not_clearing>
+		<ru>Не на клиринге</ru>
+		<ua>Не на клірингу</ua>
+		<en>Not in clearing</en>
+	</h_not_clearing>
+	<h_export>
+		<ru>Экспорт</ru>
+		<ua>Експорт</ua>
+		<en>Export</en></h_export>
+	<id_quest_int>
+		<RU>Анкета</RU>
+		<UA>Анкета</UA>
+		<EN>Questionnaire</EN>
+	</id_quest_int>
+	<id_bank_statement_line>
+		<RU>Строка банк.выписки</RU>
+		<UA>Рядок банк.виписки</UA>
+		<EN>Bank statement line</EN>
+	</id_bank_statement_line>
+	<h_posting_creation_title>
+		<RU>Проводки формируются на основании правил, указанных в пункте меню "Финансы"->"Схема проводок"</RU>
+		<UA>Проводки формуються на основі правил, що вказані в пункті меню "Фінанси"->"Схема проведень"</UA>
+		<EN>Проводки формируются на основании правил, указанных в пункте меню "Finance"->"Posting scheme"</EN>
+	</h_posting_creation_title>
+</postings>

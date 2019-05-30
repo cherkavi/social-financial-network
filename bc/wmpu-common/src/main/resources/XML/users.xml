@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<general>
+		<RU>Пользователи</RU>
+		<UA>Користувачі</UA>
+		<EN>Users</EN></general>
+	<USER>
+	 	<ru>Пользователь</ru>
+		<ua>Користувач</ua>
+		<en>User</en></USER>
+	<ID_USER>
+		<ru>ИД пользователя</ru>
+		<ua>ІД користувача</ua>
+	    <en>User ID</en></ID_USER>
+	<NAME_USER>
+	 	<ru>Логин</ru>
+		<ua>Логін</ua>
+		<en>Login</en></NAME_USER>
+	<DESC_USER>
+		<ru>Комментарии</ru>
+		<ua>Коментарі</ua>
+	    <en>Comments</en>
+	</DESC_USER>
+	<FIO_NAT_PRS>
+		<ru>Физлицо</ru>
+		<ua>Фізособа</ua>
+	    <en>Legal person</en>
+	</FIO_NAT_PRS>
+	<FIO_NAT_PRS_INITIAL>
+		<ru>Физлицо</ru>
+		<ua>Фізособа</ua>
+	    <en>Legal person</en>
+	</FIO_NAT_PRS_INITIAL>
+	<FIO_USER>
+		<ru>ФИО пользователя</ru>
+		<ua>ПІБ користувача</ua>
+	    <en>User initials</en>
+	</FIO_USER>
+	<PHONE_MOBILE>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</PHONE_MOBILE>
+	<EMAIL_WORK>
+		<RU>E-mail</RU>
+		<UA>E-mail</UA>
+		<EN>E-mail</EN>
+	</EMAIL_WORK>
+	<ID_TERM>
+		<ru>Терминал</ru>
+		<ua>Термінал</ua>
+		<en>Terminal</en>
+	</ID_TERM>
+	<name_user_access_type>
+		<RU>Тип доступа</RU>
+		<UA>Тип доступу</UA>
+		<EN>Access type</EN>
+	</name_user_access_type>
+	<is_test_mode>
+		<RU>Тестовый режим</RU>
+		<UA>Тестовий режим</UA>
+		<EN>Test mode</EN>
+	</is_test_mode>
+	<sname_service_place_work>
+		<RU>Место работы</RU>
+		<UA>Місце роботи</UA>
+		<EN>Work place</EN>
+	</sname_service_place_work>
+	<name_post>
+		<RU>Должность</RU>
+		<UA>Посада</UA>
+		<EN>Post</EN>
+	</name_post>
+	
+	<DATE_BEG>
+		<ru>Дата начала действия</ru>
+		<ua>Дата початку дії</ua>
+	    	<en>Beginniung date</en></DATE_BEG>
+	<DATE_END>
+		<ru>Дата окончания действия</ru>
+		<ua>Дата завершення дії</ua>
+	    <en>Ending date</en> </DATE_END>
+	<CREATION_DATE>
+		<ru>Дата создания</ru>
+		<ua>Дата створення</ua>
+	    	<en>Creation date</en></CREATION_DATE>
+	<CREATED_BY>
+		<ru>Создана</ru>
+		<ua>Cтворена</ua>
+	    <en>Created</en></CREATED_BY>
+	<LAST_UPDATE_DATE>
+		<ru>Дата изменения</ru>
+		<ua>Дата зміни</ua>
+	    	<en>Update date </en></LAST_UPDATE_DATE>
+	<ID_ROLE>
+    		<ru>ИД роли</ru>
+		<ua>ІД ролі</ua>
+		<en>Role ID</en></ID_ROLE>
+	<cd_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</cd_module_type>
+	<name_module_type>
+		<RU>Модуль</RU>
+		<UA>Модуль</UA>
+		<EN>Module</EN>
+	</name_module_type>
+	<JUR_PRS_ID>
+		<ru>ИД юридического лица</ru>
+		<ua>ІД юридичної особи</ua>
+		<en>Legal person ID</en></JUR_PRS_ID>
+	<ID_BANK>
+		<ru>ИД банка</ru>
+		<ua>ІД банку</ua>
+	    	<en>Bank ID</en></ID_BANK>
+	<LAST_UPDATE_BY>
+		<ru>Изменено пользователем</ru>
+		<ua>Змінено користувачем</ua>
+	    <en>Updated by user</en></LAST_UPDATE_BY>
+	<CD_USER_STATUS>
+		<ru>Состояние пользователя</ru>
+		<ua>Стан користувача</ua>
+		<en>User state</en></CD_USER_STATUS>
+	<NAME_USER_STATUS>
+		<ru>Состояние пользователя</ru>
+		<ua>Стан користувача</ua>
+		<en>User state</en></NAME_USER_STATUS>
+	<DATE_STATUS>
+		<ru>Дата изменения статуса</ru>
+		<ua>Дата зміни статусу</ua>
+	        <en>Updating date of status</en></DATE_STATUS>	       		      
+	<USER_LOG_ID>
+		<ru>ИД журнала</ru>
+		<ua>ІД журналу</ua>
+	    	<en>User log ID</en></USER_LOG_ID>	 
+	<ID_LAST_SESSION>
+		<ru>ИД последней сессии</ru>
+		<ua>ІД останьої сессії</ua>
+	    	<en>Last session ID</en></ID_LAST_SESSION>
+	<EXIST_FLAG>
+		<ru>Существует</ru>
+		<ua>Існує</ua>
+	    	<en>Exists</en></EXIST_FLAG>
+	<ID_VIRTUAL_TERM>
+		<ru>ИД виртуального терминала</ru>
+		<ua>ІД віртуального терміналу</ua>
+	    	<en>Virtual terminal ID</en></ID_VIRTUAL_TERM>	       	
+	<NAME_JUR_PRS>
+		<ru>ИД юридического лица</ru>
+		<ua>ІД юридичної особи</ua>
+	    <en>Legal person ID</en></NAME_JUR_PRS>
+	<NAME_BANK>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en></NAME_BANK>	       		      
+	<ID_MENU_ELEMENT>
+		<ru>ИД елемента меню</ru>
+		<ua>ІД елементу меню</ua>
+	    	<en>Menu elemeny ID</en></ID_MENU_ELEMENT>
+	<ID_MENU_ELEMENT_PARENT>
+		<ru>ИД вышестоящего элемента</ru>
+		<ua>ІД верхнього рівня</ua>
+	    <en>Higher level ID</en></ID_MENU_ELEMENT_PARENT>
+	<NAME_MENU_ELEMENT>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+	    	<en>Name</en></NAME_MENU_ELEMENT> 
+	<NAME_PRIVILEGE_TYPE>
+		<ru>Тип доступа</ru>
+		<ua>Тип доступу</ua>
+	    	<en>Type of access</en></NAME_PRIVILEGE_TYPE> 
+	<LAB_ADD_USER>
+		<ru>Добавить нового пользователя</ru>
+		<ua>Додати нового користувача</ua>
+		<en>Add new user</en></LAB_ADD_USER>	
+	<LAB_DELETE_USER>
+		<ru>Удалить пользователя </ru>
+		<ua>Видалити користувача </ua>
+		<en>Delete user with </en></LAB_DELETE_USER>
+	<LAB_EDIT_USER>
+		<ru>Изменить параметрі пользователя</ru>
+		<ua>Змінити параметри користувача</ua>
+		<en>Edit user parameters</en></LAB_EDIT_USER> 	     
+	 <LAB_EDIT_USER_MENU>
+		<ru>Доступ к пунктам меню пользователя</ru>
+		<ua>Доступ до пунктів меню користувача</ua>
+		<en>Access to user menu items</en></LAB_EDIT_USER_MENU> 
+	<LAB_EDIT_USER_ROLES>
+		<ru>Назначение ролей пользователю</ru>
+		<ua>Призначеня ролей користувачеві</ua>
+		<en>Setting of roles to user</en></LAB_EDIT_USER_ROLES>        		      	       		      
+	<t_features>
+	  	<ru>Информация о пользователе</ru>
+		<ua>Інформація про користувача</ua>
+	    <en>User information</en></t_features>   
+	<t_userroles>
+		<ru>Роли пользователя</ru>
+		<ua>Ролі користувача</ua>
+	    	<en>User roles</en></t_userroles> 
+	<t_usermenu>
+		<ru>Меню пользователя</ru>
+		<ua>Меню користувача</ua>
+	    	<en>User menu</en></t_usermenu> 		      
+	<f_users>
+		<ru>Фильтр по пользователям</ru>
+		<ua>Фільтр по користувачам</ua>
+	    	<en>Users filter</en></f_users>
+	<h_user_access>
+	  	<ru>Параметры доступа</ru>
+	  	<ua>Параметри доступу</ua>
+	  	<en>Access parameters</en></h_user_access>
+	<t_usersettings>
+	  	<ru>Параметры пользователя</ru>
+	  	<ua>Параметри користувача</ua>
+	  	<en>User settings</en></t_usersettings>
+	<find_users>
+		<ru>Поиск пользователей</ru>
+		<ua>Пошук користувачів</ua>
+	  	<en>Searching of users</en></find_users>
+	<name_role>
+		<ru>Роль</ru>
+		<ua>Роль</ua>
+	  	<en>Role</en></name_role>
+	<desc_role>
+		<ru>Описание роли</ru>
+		<ua>Опис ролі </ua>
+	  	<en>Role describtion</en></desc_role>
+	  <clubident>
+	  	<ru>Оператор</ru>
+	  	<ua>Оператор</ua>
+	  	<en>Operator</en></clubident>
+	  <dateformat>
+	  	<ru>Формат даты</ru>
+	  	<ua>Формат дати</ua>
+	  	<en>Date format</en></dateformat>
+	  <uil>
+	  	<ru>Язык интерфейса</ru>
+	  	<ua>Мова інтерфейсу</ua>
+	  	<en>Interface language</en></uil>
+	  <PASSWORD>
+	  	<RU>Пароль</RU>
+	  	<UA>Пароль</UA>
+	  	<EN>Password</EN></PASSWORD>
+	  <CONFIRM_PASSWORD>
+	  	<RU>Подтверждение пароля</RU>
+	  	<UA>Підтвердження паролю</UA>
+	  	<EN>Password confirmation</EN></CONFIRM_PASSWORD>
+	  <report_format>
+	  	<RU>Формат отчетов</RU>
+	  	<UA>Формат звітів</UA>
+	  	<EN>Format of reports</EN></report_format>
+	  <assign_to_user_date>
+	  	<RU>Дата назначения пользователю</RU>
+	  	<UA>Дата призначення користувачеві</UA>
+	  	<EN>User assign date</EN></assign_to_user_date>
+	  <l_has_jur_prs_permission>
+	  	<RU>Выбрано</RU>
+	  	<UA>Вибрано</UA>
+	  	<EN>Selected</EN>
+	  </l_has_jur_prs_permission>
+	<t_password>
+	  	<RU>Изменение пароля</RU>
+	  	<UA>Зміна паролю</UA>
+	  	<EN>Change password</EN>
+	</t_password>
+	<DB_CONNECTION_COUNT>
+	  	<RU>Количество подключений к БД</RU>
+	  	<UA>Кількість підключень до БД</UA>
+	  	<EN>DB connection count</EN>
+	</DB_CONNECTION_COUNT>
+	<h_current_user_cannot_be_deleted>
+	  	<RU>Запрещено удаление текущего пользователя</RU>
+	  	<UA>Заборонено видалення поточного користувача</UA>
+	  	<EN>Current user cannot be deleted</EN>
+	</h_current_user_cannot_be_deleted>
+	
+	<id_db_session>
+	  	<RU>ИД подключения</RU>
+	  	<UA>ІД підключення</UA>
+	  	<EN>Connection ID</EN>
+	</id_db_session>
+	<date_connect>
+	  	<RU>Дата подключения</RU>
+	  	<UA>Дата підключення</UA>
+	  	<EN>Connection date</EN>
+	</date_connect>
+	<date_disconnect>
+	  	<RU>Дата отключения</RU>
+	  	<UA>Дата відключення</UA>
+	  	<EN>Disconnection date</EN>
+	</date_disconnect>
+	<database_sid>
+	  	<RU>SID базы данных</RU>
+	  	<UA>SID бази даних</UA>
+	  	<EN>Database SID</EN>
+	</database_sid>
+	
+	<rows_on_page>
+	  	<RU>Строк на странице</RU>
+	  	<UA>Рядків на сторінці</UA>
+	  	<EN>Rows on page</EN>
+	</rows_on_page>
+	<has_permission>
+		<ru>Доступ</ru>
+		<ua>Доступ</ua>
+		<en>Access</en>
+	</has_permission>
+	
+	<input_result>
+		<ru>Результат</ru>
+		<ua>Результат</ua>
+		<en>Result</en>
+	</input_result>
+	<text_input_operation>
+		<ru>Операция</ru>
+		<ua>Операція</ua>
+		<en>Operation</en>
+	</text_input_operation>
+	
+	<user_message_type>
+		<ru>Тип сообщения</ru>
+		<ua>Тип повідомлення</ua>
+		<en>Message type</en>
+	</user_message_type>
+	<user_message_type_send>
+		<ru>Исходящее</ru>
+		<ua>Вихідне</ua>
+		<en>Send</en>
+	</user_message_type_send>
+	<user_message_type_receive>
+		<ru>Входящее</ru>
+		<ua>Вхідне</ua>
+		<en>Receive</en>
+	</user_message_type_receive>
+	<user_message_state>
+		<ru>Состояние сообщения</ru>
+		<ua>Стан повідомлення</ua>
+		<en>Message state</en>
+	</user_message_state>
+	<user_message_state_not_read>
+		<ru>Не прочитано</ru>
+		<ua>Не прочитано</ua>
+		<en>Not read</en>
+	</user_message_state_not_read>
+	<user_message_state_read>
+		<ru>Прочитано</ru>
+		<ua>Прочитано</ua>
+		<en>Read</en>
+	</user_message_state_read>
+	<date_user_message>
+		<ru>Дата сообщения</ru>
+		<ua>Дата повідомлення</ua>
+		<en>Message date</en>
+	</date_user_message>
+	<text_message>
+		<ru>Текст сообщения</ru>
+		<ua>Текст повідомлення</ua>
+		<en>Message text</en>
+	</text_message>
+	<text_message_short>
+		<ru>Текст сообщения</ru>
+		<ua>Текст повідомлення</ua>
+		<en>Message text</en>
+	</text_message_short>
+	
+	<cd_card1>
+		<RU>Номер карты</RU>
+		<UA>Номер карти</UA>
+		<EN>Card number</EN>
+	</cd_card1>
+	<contact_prs>
+		<ru>Контактное лицо</ru>
+		<ua>Контактна особа</ua>
+		<en>Contact person</en>
+	</contact_prs>
+	<club_data_access>
+		<RU>Доступ к данным СМПУ</RU>
+		<UA>Доступ до даних ММПО</UA>
+		<EN>Access to SMPU data</EN>
+	</club_data_access>
+	<permit_ip>
+		<RU>Разрешенные IP</RU>
+		<UA>Дозволені IP</UA>
+		<EN>Permitted IP</EN>
+	</permit_ip>
+	
+	<title_connection_type>
+		<RU>Соединения / сессии</RU>
+		<UA>З'єднання / сесії</UA>
+		<EN>Connection / session</EN>
+	</title_connection_type>
+	<title_connection>
+		<RU>Соединения</RU>
+		<UA>З'єднання</UA>
+		<EN>Connection</EN>
+	</title_connection>
+	<title_session>
+		<RU>Сессии</RU>
+		<UA>Сесії</UA>
+		<EN>Session</EN>
+	</title_session>
+	
+	<web_session>
+		<RU>Web-сессия</RU>
+		<UA>Web-сесія</UA>
+		<EN>Web session</EN>
+	</web_session>
+	<id_term_session>
+		<RU>Сессия терминала</RU>
+		<UA>Сесія термінала</UA>
+		<EN>Terminal session</EN>
+	</id_term_session>
+	
+	<last_connection_date>
+		<RU>Дата последнего соединения</RU>
+		<UA>Дата останнього з'єднання</UA>
+		<EN>Last connection date</EN>
+	</last_connection_date>
+	<last_connection_ip>
+		<RU>IP последнего соединения</RU>
+		<UA>IP останнього з'єднання</UA>
+		<EN>Last connection IP</EN>
+	</last_connection_ip>
+	<error_connection_count>
+		<RU>Количество ошибок подключения</RU>
+		<UA>Кількість помилок з'єднання</UA>
+		<EN>Error connection count</EN>
+	</error_connection_count>
+	<sms_confirm_code>
+		<RU>Код подтверждения СМС</RU>
+		<UA>Код підтвердження СМС</UA>
+		<EN>SMS confirmation code</EN>
+	</sms_confirm_code>
+	<date_send_sms_confirm_code>
+		<RU>Дата отправки СМС</RU>
+		<UA>Дата відсилання СМС</UA>
+		<EN>Date of send SMS</EN>
+	</date_send_sms_confirm_code>
+	<date_send_sms_conf_code>
+		<RU>Дата отправки СМС</RU>
+		<UA>Дата відсилання СМС</UA>
+		<EN>Date of send SMS</EN>
+	</date_send_sms_conf_code>
+	<count_send_sms_confirm_code>
+		<RU>Количество отправок СМС</RU>
+		<UA>Кількість відсилань СМС</UA>
+		<EN>Count of send SMS</EN>
+	</count_send_sms_confirm_code>
+	<ip_send_sms_confirm_code>
+		<RU>IP, с которого был последний запрос СМС</RU>
+		<UA>IP, з якого був останній запит СМС</UA>
+		<EN>IP from which there was the last request of SMS</EN>
+	</ip_send_sms_confirm_code>
+</users>
+	       		      

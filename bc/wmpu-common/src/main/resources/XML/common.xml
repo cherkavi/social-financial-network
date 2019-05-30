@@ -1,0 +1,980 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<common>
+	<application_name>
+		<ru>СМПУ</ru>		
+		<ua>СМПО</ua>
+		<en>WMPU</en>
+	</application_name>
+	<result_success>
+		<ru>Успешно</ru>		
+		<ua>Успішно</ua>
+		<en>Success</en>
+	</result_success>
+	<result_error>
+		<ru>Ошибка</ru>		
+		<ua>Помилка</ua>
+		<en>Error</en>
+	</result_error>
+	<h_interface_language>
+		<ru>Язык интерфейса</ru>		
+		<ua>Мова інтерфейса</ua>
+		<en>Interface language</en>
+	</h_interface_language>
+	<h_interface_version>
+		<ru>Версия интерфейса</ru>		
+		<ua>Версія інтерфейса</ua>
+		<en>Interface version</en>
+	</h_interface_version>
+	<h_database_version>
+		<ru>Версия базы данных</ru>		
+		<ua>Версія бази даних</ua>
+		<en>Database version</en>
+	</h_database_version>
+	<h_all_version>
+		<ru>Версия интерфейса и базы данных</ru>		
+		<ua>Версія інтерфейса і бази даних</ua>
+		<en>Interface and database version</en>
+	</h_all_version>
+	<quit>
+		<ru>выйти</ru>		
+		<ua>вийти</ua>
+		<en>quit</en>
+	</quit>
+	<access_denied>
+		<ru>Доступ запрещен</ru>
+		<ua>Доступ заборонено</ua>
+		<en>Access denied</en>
+	</access_denied>
+	<select_lang>
+		<ru>выберите язык</ru>
+		<ua>виберіть мову</ua>
+		<en>choose language</en>
+	</select_lang>
+	<cards>
+		<ru>Карты</ru>
+		<ua>Карти</ua>
+		<en>Cards</en>
+	</cards>
+	<disabled_cards>
+		<ru>Заблокированные карты</ru>
+		<ua>Блоковані карти</ua>
+		<en>Blocked cards</en>
+	</disabled_cards>
+	<service_cards>
+		<ru>Служебные карты</ru>
+		<ua>Службові карти</ua>
+		<en>Service cards</en>
+	</service_cards>
+	<nat_persons>
+		<ru>Пайщики</ru>
+		<ua>Пайовики</ua>
+		<en>Shareholders</en>
+	</nat_persons>
+	<jur_persons>
+		<ru>Юридические лица</ru>
+		<ua>Юридичні особи</ua>
+		<en>Legal persons</en>
+	</jur_persons>
+	<banks>
+		<ru>Банки</ru>
+		<ua>Банки</ua>
+		<en>Banks</en>
+	</banks>
+	<events>
+		<ru>События</ru>
+		<ua>Події</ua>
+		<en>Events</en>
+	</events>
+	<roles>
+		<ru>Роли</ru>
+		<ua>Ролі</ua>
+		<en>Roles</en>
+	</roles>
+	<users>
+		<ru>Пользователи</ru>
+		<ua>Користувачі</ua>
+		<en>Users</en>
+	</users>
+	<club-operator>
+		<ru>Оператор</ru>		
+		<ua>Оператор</ua>
+		<en>Operator</en>
+	</club-operator>
+	<currencies>
+		<ru>Типы валют</ru>		
+		<ua>Типи валют</ua>
+		<en>Types of currencies</en>
+	</currencies>
+	<tcorrections>
+		<ru>Допроведение транзакций</ru>		
+		<ua>Допроведення транзакцій</ua>
+		<en>Transaction correction</en>
+	</tcorrections>
+	<CARD_STATUS>
+		<ru>Вид карты</ru>		
+		<ua>Вид карти</ua>
+		<en>Card kind</en>
+	</CARD_STATUS>
+	<CATEGORY>
+		<ru>Категория</ru>
+		<ua>Категорія</ua>
+		<en>Category</en>
+	</CATEGORY>
+	<SUM>
+		<ru>Сумма</ru>		
+		<ua>Сума</ua>
+		<en>Amount</en>
+	</SUM>
+	<DISC_PERCENT>
+		<ru>Процент скидки</ru>		
+		<ua>Відсоток знижки</ua>
+		<en>Discount percent</en>
+	</DISC_PERCENT>
+	<DISC_FIXED>
+		<ru>Сумма скидки</ru>		
+		<ua>Сума знижки</ua>
+		<en>Discount amount</en>
+	</DISC_FIXED>
+	<BON_PERCENT>
+		<RU>% баллов</RU>
+		<UA>% балів</UA>
+		<EN>% of points</EN>
+	</BON_PERCENT>
+	<BON_FIXED>
+		<ru>Сумма баллов</ru>		
+		<ua>Сума балів</ua>
+		<en>Points amount</en>
+	</BON_FIXED>
+	<APPLY>
+		<ru>Применить</ru>
+		<ua>Застосувати</ua>
+		<en>Apply</en>
+	</APPLY>
+	<CLEAN>
+		<ru>Очистить</ru>
+		<ua>Очистити</ua>
+		<en>Clean</en>
+	</CLEAN>
+	<CANCEL>
+		<ru>Отменить</ru>
+		<ua>Відмінити</ua>
+		<en>Cancel</en>
+	</CANCEL>
+	<search>
+		<ru>Искать</ru>
+		<ua>Шукати</ua>
+		<en>Search</en>
+	</search>
+	<LAB_OBV_FIELDS>
+		<ru>обязательные поля</ru>
+		<ua>обов'язкові поля</ua>
+		<en>obligatory fields</en>
+	</LAB_OBV_FIELDS>
+	<RAW_INSERT_OK>
+		<ru>Запись успешно добавлена</ru>
+		<ua>Запис успішно додано</ua>
+		<en>Record was added successfully</en>
+	</RAW_INSERT_OK>
+	<RAW_INSERT_ERROR>
+		<ru>Возникла ошибка при вставке записи</ru>
+		<ua>Виникла помилка при додаванні запису</ua>
+		<en>Error has occurred while adding record</en>
+	</RAW_INSERT_ERROR>
+	<RAW_DELETE_OK>
+		<ru>Запись успешно удалена</ru>
+		<ua>Запис успішно видалено</ua>
+		<en>Record was deleted successfully</en>
+	</RAW_DELETE_OK>
+	<RAW_DELETE_ERROR>
+		<ru>Возникла ошибка при удалении записи</ru>
+		<ua>Виникла помилка при видалені запису</ua>
+		<en>Error has occured while deleting record</en>
+	</RAW_DELETE_ERROR>
+	<RAW_UPDATE_OK>
+		<ru>Запись успешно изменена</ru>
+		<ua>Запис успішно змінено</ua>
+		<en>Record was edited successfully</en>
+	</RAW_UPDATE_OK>
+	<RAW_UPDATE_ERROR>
+		<ru>Возникла ошибка при редактивании записи</ru>
+		<ua>Виникла помилка при редагуванні запису</ua>
+		<en>Error has occured while editing record</en>
+	</RAW_UPDATE_ERROR>
+	<RETURN>
+		<ru>Вернуться</ru>
+		<ua>Повернутися</ua>
+		<en>Return</en>
+	</RETURN>
+	<ASK_CLEAR_FLTR>
+		<ru>Очистить фильтр</ru>
+		<ua>Очистити фільтр</ua>
+		<en>Clear filter</en>
+	</ASK_CLEAR_FLTR>
+	<FILTR_APPL>
+		<ru>Используется фильтр</ru>
+		<ua>Застосовано фільтр</ua>
+		<en>Filter is in use</en>
+	</FILTR_APPL>
+	<FILTR>
+	</FILTR>
+	<yes>
+		<ru>Да</ru>
+		<ua>Так</ua>
+		<en>Yes</en>	
+	</yes>
+	<no>
+		<ru>Нет</ru>
+		<ua>Ні</ua>
+		<en>No</en>
+	</no>
+	<delete>
+		<ru>Удалить</ru>
+		<ua>Видалити</ua>
+		<en>Delete</en>
+	</delete>
+	<canceled>
+		<ru>Отменено</ru>
+		<ua>Відмінено</ua>
+		<en>Canceled</en>
+	</canceled>
+	<UNKNOWN_ACTION>
+		<ru>Неизвестный параметр "ACTION" для обработки записи!</ru>
+		<ua>Невідомий параметр "ACTION" для обробки запису!</ua>
+		<en>Unknown parameter "ACTION" to process record!</en>
+	</UNKNOWN_ACTION>
+	<Service_info>
+		<ru>Служебная информация</ru>
+		<ua>Службова інформація</ua>
+		<en>Service information</en>
+	</Service_info>
+	<NOT_FOUND>
+		<ru>Не найдено ни одной записи</ru>
+		<ua>Не знайдено жодного запису</ua>
+		<en>No record found</en>
+	</NOT_FOUND>
+	<page>
+		<ru>Страница</ru>
+		<ua>Сторінка</ua>
+		<en>Page</en>
+	</page>
+	<page_short>
+		<RU>Стр.</RU>
+		<UA>Стор.</UA>
+		<EN>Pg.</EN>
+	</page_short>
+	<input_find_str>
+		<ru>Введите строку поиска</ru>
+		<ua>Введіть дані для пошуку</ua>
+		<en>Enter searching line</en>
+	</input_find_str>
+	<user_settings>
+		<ru>Параметры пользователя</ru>
+		<ua>Параметри користувача</ua>
+		<en>User parameters</en>
+	</user_settings>
+	<select_field>
+		<ru>Выберите поле</ru>
+		<ua>Виберіть поле</ua>
+		<en>Select field</en>
+	</select_field>
+	<select_operator>
+		<ru>Выберите оператора</ru>
+		<ua>Виберіть оператора</ua>
+		<en>Select operator</en>
+	</select_operator>
+	<input_value>
+		<ru>Введите значение</ru>
+		<ua>Введіть значення</ua>
+		<en>Input value</en>
+	</input_value>
+	<and>
+		<ru>и</ru>
+		<ua>та</ua>
+		<en>and</en>
+	</and>
+	<added>
+		<RU>Запись успешно добавлена</RU>
+		<UA>Запис успішно додано</UA>
+		<EN>Record was successfully added</EN>
+	</added>
+	<add_error>
+		<RU>Ошибка при добавлении записи</RU>
+		<UA>Помилка при додаванні запису</UA>
+		<EN>Error has occured while record adding</EN>
+	</add_error>
+	<copy_error>
+		<RU>Ошибка при копировании записи</RU>
+		<UA>Помилка при копіюванні запису</UA>
+		<EN>Error has occured while record copying</EN>
+	</copy_error>
+	<edit_error>
+		<RU>Ошибка при редактировании записи</RU>
+		<UA>Помилка при редагуванні запису</UA>
+		<EN>Error has occured while record editing</EN>
+	</edit_error>
+	<remove_error>
+		<RU>Ошибка при удалении записи</RU>
+		<UA>Помилка при видалені запису</UA>
+		<EN>Error has occured while record editing</EN>
+	</remove_error>
+	<saved>
+		<RU>Сохранение записи выполнено успешно</RU>
+		<UA>Збереження запису виконано успішно</UA>
+		<EN>Saving of record was made successfully</EN>
+	</saved>
+	<save_error>
+		<RU>Ошибка сохранения записи</RU>
+		<UA>Помилка збереження запису</UA>
+		<EN>Error of record saving</EN>
+	</save_error>
+	<removed>
+		<RU>Запись успешно удалено</RU>
+		<UA>Запис успішно видалено</UA>
+		<EN>Record was deleted successfully</EN>
+	</removed>
+	<remove_error>
+		<RU>Ошибка удаления записи</RU>
+		<UA>Помилка видалення запису</UA>
+		<EN>Error of record deleting</EN>
+	</remove_error>
+	<detach_sam>
+		<ru>Отменить назначение SAM терминалу?</ru>
+		<ua>Відмінити призначення SAM терминалу?</ua>
+		<en>To abolish setting of SAM to terminal?</en></detach_sam>
+	<storno_error>
+		<ru>Ошибка сторнирования</ru>
+		<ua>Помилка сторнування</ua>
+		<en>Storno error</en></storno_error>
+	<storno_apply_error>
+		<ru>Ошибка применения результатов сторнирования</ru>
+		<ua>Помилка при застосуванні результатів сторнування</ua>
+		<en>Error of  storno results application</en></storno_apply_error>
+	<detach_bank_account>
+		<ru>Отменить назначение банковского счета юридическому лицу?</ru>
+		<ua>Відмінити призначення банківського рахунка юридичній особі?</ua>
+		<en>To abolish setting of bank account to legal person?</en></detach_bank_account>
+	<form_profile>
+		<ru>Профиль страницы</ru>
+		<ua>Профіль сторінки</ua>
+		<en>Page profile</en></form_profile>
+	<choice>
+		<ru>Выбрать</ru>
+		<ua>Вибрати</ua>
+		<en>Choice</en></choice>
+	<go_to>
+		<ru>перейти</ru>
+		<ua>перейти</ua>
+		<en>pass to</en></go_to>
+	<go_back>
+		<ru>вернуться</ru>
+		<ua>повернутися</ua>
+		<en>go back</en>
+	</go_back>
+	<view>
+		<ru>Просмотреть</ru>
+		<ua>Продивитись</ua>
+		<en>View</en>		
+	</view>
+	<select>		
+		<ru>Выберите</ru>
+		<ua>Виберіть</ua>
+		<en>Select</en>
+	</select>
+	<selected_female>		
+		<ru>выбранная</ru>
+		<ua>обрана</ua>
+		<en>selected</en></selected_female>
+	<selected_male>		
+		<ru>выбранный</ru>
+		<ua>обраний</ua>
+		<en>selected</en></selected_male>	
+	<terminal>
+		<ru>терминал</ru>
+		<ua>термінал</ua>
+		<en>terminal</en>
+	</terminal>
+	<terminal_genitive>
+		<ru>терминала</ru>
+		<ua>терміналу</ua>
+		<en>of terminal</en>
+	</terminal_genitive>
+	<date>
+		<ru>дата</ru>
+		<ua>дата</ua>
+		<en>date</en>
+	</date>
+	<date_genitive>
+		<ru>дате</ru>
+		<ua>даті</ua>
+		<en>date</en>
+	</date_genitive>
+	<insert_date>
+		<ru>Введите дату</ru>
+		<ua>Введіть дату</ua>
+		<en>Input date</en>
+	</insert_date>
+	<example>
+		<ru>Пример</ru>
+		<ua>Приклад</ua>
+		<en>Example</en>
+	</example>
+	<DD_MM_SS>
+		<ru>часы:минуты:секунды</ru>
+		<ua>години:хвилини:секунди</ua>
+		<en>hours:minutes:seconds</en>
+	</DD_MM_SS>
+	<make_selection>
+		<ru>Сделать выборку по </ru>
+		<ua>Зробити вибірку по </ua>
+		<en>Make selection by </en>
+	</make_selection>
+	<current_male>
+		<ru>текущий</ru>
+		<ua>поточний</ua>
+		<en>current</en>
+	</current_male>
+	<current_female>
+		<ru>текущая</ru>
+		<ua>поточна</ua>
+		<en>current</en>
+	</current_female>
+	<new_male>
+		<ru>новый</ru>
+		<ua>новий</ua>
+		<en>new</en>
+	</new_male>
+	<new_female>
+		<ru>новая</ru>
+		<ua>нова</ua>
+		<en>new</en>
+	</new_female>
+	<historical_male>
+		<ru>историчный</ru>
+		<ua>історичний</ua>
+		<en>historical</en>
+	</historical_male>
+	<historical_female>
+		<ru>историческая</ru>
+		<ua>історична</ua>
+		<en>historical</en>
+	</historical_female>
+	<parameter>
+		<ru>параметр</ru>
+		<ua>параметр</ua>
+		<en>parameter</en>
+	</parameter>
+	<last_used_male>
+		<RU>последний действующий</RU>
+		<UA>останній діючий</UA>
+		<EN>last operating</EN></last_used_male>
+	<last_used_female>
+		<RU>последняя действующая</RU>
+		<UA>остання діюча</UA>
+		<EN>last operating</EN></last_used_female>
+	<parameter_plural>
+		<ru>параметры</ru>
+		<ua>параметри</ua>
+		<en>parameters</en>
+	</parameter_plural>
+	<report>
+		<ru>отчет</ru>
+		<ua>звіт</ua>
+		<en>report</en>
+	</report>
+	<report_plural>
+		<ru>отчеты</ru>
+		<ua>звіти</ua>
+		<en>reports</en>
+	</report_plural>
+	<login_registration>
+		<RU>Регистрация</RU>
+		<UA>Реєстрація</UA>
+		<EN>Registration</EN></login_registration>
+	<login_prompt>
+		<RU>Введите, пожалуйста, логин и пароль</RU>
+		<UA>Введіть, будь-ласка, логін та пароль</UA>
+		<EN>Please enter login and password</EN></login_prompt>
+	<login_login>
+		<RU>Логин</RU>
+		<UA>Логін</UA>
+		<EN>Login</EN></login_login>
+	<login_password>
+		<RU>Пароль</RU>
+		<UA>Пароль</UA>
+		<EN>Password</EN></login_password>
+	<login_param_empty>
+		<RU>Не заданы логин и/или пароль</RU>
+		<UA>Не вказані логін та/або пароль</UA>
+		<EN>Login and/or password is not set</EN></login_param_empty>
+	<login_registration_error>
+		<RU>Неверно заданы логин и/или пароль</RU>
+		<UA>Невірно вказані логін та/або пароль</UA>
+		<EN>Wrong login and/or password</EN></login_registration_error>
+	<msg_cancel_edit_form_confirm>
+		<RU>Вы не сохранили изменения. Действительно хотите уйти из этой формы?</RU>
+		<UA>Ви не зберегли зміни. Дійсно хочете вийти з цієї форми?</UA>
+		<EN>You did not save changes. Are you really want to go away from this form?</EN>
+	</msg_cancel_edit_form_confirm>
+	<login_access_error>
+		<RU>Ошибка доступа</RU>
+		<UA>Помилка доступу</UA>
+		<EN>Access error</EN></login_access_error>
+	<find_bk_accounts>
+		<RU>Поиск бухгалтерских счетов</RU>
+		<UA>Пошук бухгалтерских рахунків</UA>
+		<EN>Search of business accounts</EN></find_bk_accounts>
+	<find_bank_accounts>
+		<RU>Поиск банковских счетов</RU>
+		<UA>Пошук банківських рахунків</UA>
+		<EN>Search of bank accounts</EN></find_bank_accounts>
+	<find_cards>
+		<RU>Поиск карт</RU>
+		<UA>Пошук карт</UA>
+		<EN>Search of cards</EN></find_cards>
+	<find_card_pack>
+		<RU>Поиск пакетов карт</RU>
+		<UA>Пошук пакетів карт</UA>
+		<EN>Search of cards packages</EN></find_card_pack>
+	<find_gifts>
+		<RU>Поиск подарков</RU>
+		<UA>Пошук подарунків</UA>
+		<EN>Search of gifts</EN></find_gifts>
+	<find_jur_and_nat_prs>
+		<RU>Поиск партнеров и пайщиков</RU>
+		<UA>Пошук партнерів і пайовиків</UA>
+		<EN>Search of partners and shareholders</EN></find_jur_and_nat_prs>
+	<find_jur_prs>
+		<RU>Поиск партнеров</RU>
+		<UA>Пошук партнерів</UA>
+		<EN>Search of partners</EN></find_jur_prs>
+	<find_jur_prs_dealer>
+		<RU>Поиск Товарных Партнеров</RU>
+		<UA>Пошук товарних Партнерів</UA>
+		<EN>Search of Commodity Partners</EN></find_jur_prs_dealer>
+	<find_jur_prs_banks>
+		<RU>Поиск банков</RU>
+		<UA>Пошук банків</UA>
+		<EN>Search of banks</EN></find_jur_prs_banks>
+	<find_email_profile>
+		<RU>Поиск профилей E-mail</RU>
+		<UA>Пошук профілів E-mail</UA>
+		<EN>Search of E-mail profiles</EN></find_email_profile>
+	<find_jur_prs_issuer>
+		<RU>Поиск эмитентов</RU>
+		<UA>Пошук емітентів</UA>
+		<EN>Search of issuers</EN></find_jur_prs_issuer>
+	<find_jur_prs_fin_acquirer>
+		<RU>Поиск финансовых эквайров</RU>
+		<UA>Пошук фінансових еквайрів</UA>
+		<EN>Search of bank acquirers</EN></find_jur_prs_fin_acquirer>
+	<find_jur_prs_tech_acquirer>
+		<RU>Поиск технических эквайров</RU>
+		<UA>Пошук технічних еквайрів</UA>
+		<EN>Search of tecjnical acquirers</EN></find_jur_prs_tech_acquirer>
+	<find_jur_prs_terminal_manufacturer>
+		<RU>Поиск производителей терминалов</RU>
+		<UA>Пошук виробників терміналів</UA>
+		<EN>Search of terminal manufacturers</EN></find_jur_prs_terminal_manufacturer>
+	<find_jur_prs_partner>
+		<RU>Поиск партнеров</RU>
+		<UA>Пошук партнерів</UA>
+		<EN>Search of partners</EN></find_jur_prs_partner>
+	<find_jur_prs_card_seller>
+		<RU>Поиск продавцов карт</RU>
+		<UA>Пошук продавців карт</UA>
+		<EN>Search of card sellers</EN></find_jur_prs_card_seller>
+	<find_loy_scheme>
+		<RU>Поиск схем лояльности</RU>
+		<UA>Пошук схем лояльності</UA>
+		<EN>Search of loyalty schemes</EN></find_loy_scheme>
+	<find_nat_prs>
+		<RU>Поиск пайщиков</RU>
+		<UA>Пошук пайовиків</UA>
+		<EN>Search of shareholders</EN></find_nat_prs>
+	<find_nat_prs_role>
+		<RU>Поиск пайщиков</RU>
+		<UA>Пошук пайовиків</UA>
+		<EN>Search of shareholders</EN></find_nat_prs_role>
+	<find_posting_settings>
+		<RU>Поиск настроек проводок</RU>
+		<UA>Пошук настроювань проведень</UA>
+		<EN>Search of entries settings</EN></find_posting_settings>
+	<find_referral_scheme>
+		<RU>Поиск реферальных схем</RU>
+		<UA>Пошук реферальних схем</UA>
+		<EN>Search of referral schemes</EN></find_referral_scheme>
+	<find_sam>
+		<RU>Поиск модулей безопасности</RU>
+		<UA>Пошук модулів безпеки</UA>
+		<EN>Search of SAMs</EN></find_sam>
+	<find_shedule>
+		<RU>Поиск графиков лояльности</RU>
+		<UA>Пошук графіків лояльності</UA>
+		<EN>Search of loyalty diagrams</EN></find_shedule>
+	<find_service_places>
+		<RU>Поиск пунктов обслуживания</RU>
+		<UA>Пошук пунктів обслуговування</UA>
+		<EN>Search of service points</EN></find_service_places>
+	<find_terminals>
+		<RU>Поиск терминалов</RU>
+		<UA>Пошук терміналів</UA>
+		<EN>Search of terminals</EN></find_terminals>
+	<find_training_persons>
+		<RU>Поиск участников обучения</RU>
+		<UA>Пошук учасників навчання</UA>
+		<EN>Search of training persons</EN></find_training_persons>
+	<find_users>
+		<RU>Поиск пользователей</RU>
+		<UA>Пошук користувачів</UA>
+		<EN>Search of users</EN></find_users>
+	<find_faq>
+		<RU>Поиск FAQ</RU>
+		<UA>Пошук FAQ</UA>
+		<EN>Search of FAQ</EN></find_faq>
+	<find_doc>
+		<RU>Поиск документов</RU>
+		<UA>Пошук документів</UA>
+		<EN>Search of documents</EN></find_doc>
+	<find_contact_prs>
+		<RU>Поиск контактных лиц</RU>
+		<UA>Пошук контактних осіб</UA>
+		<EN>Search of contact persons</EN></find_contact_prs>
+	<find_relationship>
+		<RU>Поиск взаимоотношений</RU>
+		<UA>Пошук взаємовідносин</UA>
+		<EN>Search of relationships</EN></find_relationship>
+	<find_questionnaire_pack>
+		<RU>Поиск пачек анкет</RU>
+		<UA>Пошук пачок анкет</UA>
+		<EN>Search of questionnaires pack</EN></find_questionnaire_pack>
+	<find_client_profile>
+		<RU>Поиск профилей Клиентов</RU>
+		<UA>Пошук профілів Клієнтів</UA>
+		<EN>Search of client's profiles</EN></find_client_profile>
+	<find_partner_profile>
+		<RU>Поиск профилей Партнеров</RU>
+		<UA>Пошук профілів Партнерів</UA>
+		<EN>Search of partner's profiles</EN></find_partner_profile>
+	<find_club_event_given_places>
+		<RU>Поиск пунктов выдачи подарков</RU>
+		<UA>Пошук пунктів видачі подарунків</UA>
+		<EN>Search of gifts given places</EN></find_club_event_given_places>
+	<find_club_event_gifts>
+		<RU>Поиск подарков акций</RU>
+		<UA>Пошук подарунків акцій</UA>
+		<EN>Search of gifts</EN></find_club_event_gifts>
+	<FIND_GIFTS_LOGISTIC>
+		<RU>Поиск подарков на складе</RU>
+		<UA>Пошук подарунків на складі</UA>
+		<EN>Search of gifts on warehouse</EN></FIND_GIFTS_LOGISTIC>
+	<find_club_events>
+		<RU>Поиск акций</RU>
+		<UA>Пошук акцій</UA>
+		<EN>Search of events</EN></find_club_events>
+	<FIND_CLUB_EVENT_GIVEN_SCHEDULE>
+		<RU>Поиск графика выдачи подарков</RU>
+		<UA>Пошук графіка видачі подарунків</UA>
+		<EN>Search of gifts given schedule</EN></FIND_CLUB_EVENT_GIVEN_SCHEDULE>
+	<FIND_CLUB_EVENT_GIVEN_PLACE>
+		<RU>Поиск пунктов выдачи подарков</RU>
+		<UA>Пошук пунктів видачі подарунків</UA>
+		<EN>Search of gifts given places</EN></FIND_CLUB_EVENT_GIVEN_PLACE>
+	<find_club>
+		<RU>Поиск обществ</RU>
+		<UA>Пошук товариств</UA>
+		<EN>Search of societies</EN></find_club>
+	<FIND_DISPATCH_MESSAGE_SENDER>
+		<RU>Поиск получателей/отправителей рассылки</RU>
+		<UA>Пошук отримувачів/відправників розсилання</UA>
+		<EN>Search of senders/receivers</EN></FIND_DISPATCH_MESSAGE_SENDER>
+
+	<date_format>
+		<RU>формат даты</RU>
+		<UA>формат дати</UA>
+		<EN>date format</EN></date_format>
+	<rn>
+		<RU>№ п/п</RU>
+		<UA>№ з/п</UA>
+		<EN>№</EN></rn>
+	<doc_warehouse>
+		<RU>c:\temp\</RU>
+		<UA>c:\temp\</UA>
+		<EN>c:\temp\</EN>
+	</doc_warehouse>
+	<h_error_edit_permission>
+		<RU>У пользователя нет прав на выполнение данной операции</RU>
+		<UA>У користувача немає прав на виконання даної операції</UA>
+		<EN>The user does not have rights to performance of the given operation</EN>
+	</h_error_edit_permission>
+	<h_id_not_found>
+		<RU>Сущность не указана</RU>
+		<UA>Сутність не вказано</UA>
+		<EN>Entry not found</EN>
+	</h_id_not_found>
+	<h_period_from>
+		<RU>с</RU>
+		<UA>з</UA>
+		<EN>from</EN>
+	</h_period_from>
+	<h_period_to>
+		<RU>по</RU>
+		<UA>по</UA>
+		<EN>to</EN>
+	</h_period_to>
+	
+	<h_chosen>
+		<RU>Выбрано</RU>
+		<UA>Вибрано</UA>
+		<EN>Chosen</EN>
+	</h_chosen>
+	<h_not_chosen>
+		<RU>Не выбрано</RU>
+		<UA>Не вибрано</UA>
+		<EN>Not chosen</EN>
+	</h_not_chosen>
+	
+	<h_debug>
+		<RU>Режим отладки</RU>
+		<UA>Режим журнала</UA>
+		<EN>Debug</EN>
+	</h_debug>
+	
+	<error_max_row_count>
+		<RU>Номер страницы не должна быть больше</RU>
+		<UA>Номер сторінки не повинна бути більше</UA>
+		<EN>Page number cannot be greatest</EN>
+	</error_max_row_count>
+	
+	<h_change_club_confirm>
+		<RU>Поскольку общество не совпадает с текущим обществом, данные станут невидимыми для пользователя. Продолжить?</RU>
+		<UA>Оскільки товариство не співпадає з поточним товариством, дані стануть невидимими для користувача. Продовжити?</UA>
+		<EN>Society not equal current society. Confirm?</EN>
+	</h_change_club_confirm>
+	
+	<h_get_param_value_error>
+		<RU>Ошибка при получении значения параметра:</RU>
+		<UA>Помилка при отриманні значення параметра:</UA>
+		<EN>Get parameter value error</EN>
+	</h_get_param_value_error>
+	
+	<h_record_param>
+		<RU>Параметры создания и изменения</RU>
+		<UA>Параметри створення та зміни</UA>
+		<EN>Creation and modification parameters</EN>
+	</h_record_param>
+	<entry_id>
+		<RU>Внутр.идентификатор</RU>
+		<UA>Внутр.ідентифікатор</UA>
+		<EN>Internal identifier</EN>
+	</entry_id>
+	<creation_date>
+		<RU>Дата создания</RU>
+		<UA>Дата створення</UA>
+		<EN>Creation date</EN>
+	</creation_date>
+	<created_by>
+		<RU>Кем создано</RU>
+		<UA>Ким створено</UA>
+		<EN>Created by</EN>
+	</created_by>
+	<last_update_date>
+		<RU>Дата модификации</RU>
+		<UA>Дата модифікації</UA>
+		<EN>Update date</EN>
+	</last_update_date>
+	<last_update_by>
+		<RU>Кем модифицировано</RU>
+		<UA>Ким модифіковано</UA>
+		<EN>Updated by</EN>
+	</last_update_by>
+	
+	<h_days>
+		<RU>дней</RU>
+		<UA>днів</UA>
+		<EN>days</EN>
+	</h_days>
+	
+	<h_exist_flag_n>
+		<RU>не существует</RU>
+		<UA>не існує</UA>
+		<EN>not exist</EN>
+	</h_exist_flag_n>
+	
+	<date_modification>
+		<RU>Дата изменения</RU>
+		<UA>Дата зміни</UA>
+		<EN>Modification date</EN>
+	</date_modification>
+	<field_name>
+		<RU>Данные</RU>
+		<UA>Дані</UA>
+		<EN>Data</EN>
+	</field_name>
+	<old_value>
+		<RU>Старое значение</RU>
+		<UA>Старе значення</UA>
+		<EN>Old value</EN>
+	</old_value>
+	<new_value>
+		<RU>Новое значение</RU>
+		<UA>Нове значення</UA>
+		<EN>New value</EN>
+	</new_value>
+	<id_user_who_modified>
+		<RU>Пользователь, который внес изменения</RU>
+		<UA>Користувач, що вніс зміни</UA>
+		<EN>User who modified</EN>
+	</id_user_who_modified>
+	<time_modification>
+		<RU>Время изменения</RU>
+		<UA>Час зміни</UA>
+		<EN>Modification time</EN>
+	</time_modification>
+	<operation_type>
+		<RU>Тип операции</RU>
+		<UA>Тип операції</UA>
+		<EN>Operation type</EN>
+	</operation_type>
+	
+	<operation_insert>
+		<RU>Добавление</RU>
+		<UA>Додавання</UA>
+		<EN>Insert</EN>
+	</operation_insert>
+	<operation_update>
+		<RU>Обновление</RU>
+		<UA>Оновлення</UA>
+		<EN>Update</EN>
+	</operation_update>
+	<operation_delete>
+		<RU>Удаление</RU>
+		<UA>Видалення</UA>
+		<EN>Delete</EN>
+	</operation_delete>
+	
+	<h_all>
+		<ru>Все</ru>
+		<ua>Всі</ua>
+		<en>All</en></h_all>
+	<h_jur_prs>
+		<RU>Юрлица</RU>
+		<UA>Юрособи</UA>
+		<EN>Legal persons</EN>
+	</h_jur_prs>
+	<h_nat_prs>
+		<RU>Физлица</RU>
+		<UA>Фізособи</UA>
+		<EN>Natural persons</EN>
+	</h_nat_prs>
+	<h_jur_prs_one>
+		<RU>Юрлицо</RU>
+		<UA>Юрособа</UA>
+		<EN>Legal person</EN>
+	</h_jur_prs_one>
+	<h_nat_prs_one>
+		<RU>Физлицо</RU>
+		<UA>Фізособа</UA>
+		<EN>Natural person</EN>
+	</h_nat_prs_one>
+	
+	<title_per_month>
+		<RU>мес.</RU>
+		<UA>міс.</UA>
+		<EN>month</EN>
+	</title_per_month>
+	<phone_mobile>
+		<RU>Моб.телефон</RU>
+		<UA>Моб.телефон</UA>
+		<EN>Mobile phone</EN>
+	</phone_mobile>
+	
+	<title_home>
+		<RU>Главное меню</RU>
+		<UA>Головне меню</UA>
+		<EN>Top menu</EN>
+	</title_home>
+	<title_exit>
+		<RU>Выход</RU>
+		<UA>Вихід</UA>
+		<EN>Exit</EN>
+	</title_exit>
+	
+	<title_reference_designation>
+		<RU>Условные обозначения</RU>
+		<UA>Умовні позначення</UA>
+		<EN>Reference designations</EN>
+	</title_reference_designation>
+	<title_actions>
+		<RU>Действия</RU>
+		<UA>Дії</UA>
+		<EN>Actions</EN>
+	</title_actions>
+	<title_refresh>
+		<RU>Обновить</RU>
+		<UA>Оновити</UA>
+		<EN>Refresh</EN>
+	</title_refresh>
+	
+	<title_1_month>
+		<RU>Месяц</RU>
+		<UA>Місяць</UA>
+		<EN>Month</EN>
+	</title_1_month>
+	<title_2_4_months>
+		<RU>Месяца</RU>
+		<UA>Місяці</UA>
+		<EN>Months</EN>
+	</title_2_4_months>
+	<title_5_more_months>
+		<RU>Месяцев</RU>
+		<UA>Місяців</UA>
+		<EN>Months</EN>
+	</title_5_more_months>
+	
+	<title_1_study>
+		<RU>Занятие</RU>
+		<UA>Заняття</UA>
+		<EN>Study</EN>
+	</title_1_study>
+	<title_2_4_studies>
+		<RU>Занятия</RU>
+		<UA>Заняття</UA>
+		<EN>Studies</EN>
+	</title_2_4_studies>
+	<title_5_more_studies>
+		<RU>Занятий</RU>
+		<UA>Занять</UA>
+		<EN>Studies</EN>
+	</title_5_more_studies>
+	
+	<title_copyright>
+		<RU>Все права защищены</RU>
+		<UA>Всі права захищені</UA>
+		<EN>All rights reserved</EN>
+	</title_copyright>
+	<entry_type>
+		<RU>Тип</RU>
+		<UA>Тип</UA>
+		<EN>Type</EN>
+	</entry_type>
+	<entry_type_jur_prs>
+		<RU>Партнер</RU>
+		<UA>Партнер</UA>
+		<EN>Partner</EN>
+	</entry_type_jur_prs>
+	<entry_type_nat_prs>
+		<RU>Пайщик</RU>
+		<UA>Пайовик</UA>
+		<EN>Shareholder</EN>
+	</entry_type_nat_prs>
+	<entry_name>
+		<RU>Наименование</RU>
+		<UA>Найменування</UA>
+		<EN>Name</EN>
+	</entry_name>
+	<entry_address>
+		<RU>Адрес</RU>
+		<UA>Адреса</UA>
+		<EN>Address</EN>
+	</entry_address>
+</common>

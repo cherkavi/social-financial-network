@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<documents>
+	<general>
+		<RU>Документы</RU>
+		<UA>Документи</UA>
+		<EN>Documents</EN>
+	</general>
+	<title_doc>
+		<RU>Документ</RU>
+		<UA>Документ</UA>
+		<EN>Document</EN>
+	</title_doc>
+	<id_doc>
+		<RU>ИД документа</RU>
+		<UA>ІД документа</UA>
+		<EN>Document ID</EN>
+	</id_doc>
+	<id_doc_type>
+		<RU>Тип документа</RU>
+		<UA>Тип документа</UA>
+		<EN>Document type</EN>
+	</id_doc_type>
+	<cd_doc_type>
+		<RU>Тип документа</RU>
+		<UA>Тип документа</UA>
+		<EN>Document type</EN>
+	</cd_doc_type>
+	<name_doc_type>
+		<RU>Тип документа</RU>
+		<UA>Тип документа</UA>
+		<EN>Document type</EN>
+	</name_doc_type>
+	<cd_doc_state>
+		<RU>Состояние документа</RU>
+		<UA>Стан документа</UA>
+		<EN>Document state</EN>
+	</cd_doc_state>
+	<name_doc_state>
+		<RU>Состояние документа</RU>
+		<UA>Стан документа</UA>
+		<EN>Document state</EN>
+	</name_doc_state>
+	<number_doc>
+		<RU>№ документа</RU>
+		<UA>№ документа</UA>
+		<EN>Document number</EN>
+	</number_doc>
+	<date_doc>
+		<RU>Документ от</RU>
+		<UA>Документ від</UA>
+		<EN>Document from</EN>
+	</date_doc>
+	<date_begin_doc>
+		<RU>Дата начала действия документа</RU>
+		<UA>Дата початку дії документа</UA>
+		<EN>Date of begin action of document</EN>
+	</date_begin_doc>
+	<date_end_doc>
+		<RU>Дата окончания действия документа</RU>
+		<UA>Дата завершення дії документа</UA>
+		<EN>Date of end action of document</EN>
+	</date_end_doc>
+	<name_doc>
+		<RU>Название документа</RU>
+		<UA>Назва документа</UA>
+		<EN>Document name</EN>
+	</name_doc>
+	<desc_doc>
+		<RU>Описание документа</RU>
+		<UA>Опис документа</UA>
+		<EN>Document description</EN>
+	</desc_doc>
+	<id_jur_prs>
+		<RU>Юридическое лицо</RU>
+		<UA>Юридична особа</UA>
+		<EN>Legal person</EN>
+	</id_jur_prs>
+	<name_jur_prs>
+		<RU>Юридическое лицо</RU>
+		<UA>Юридична особа</UA>
+		<EN>Legal person</EN>
+	</name_jur_prs>
+	<sname_jur_prs>
+		<RU>Юридическое лицо</RU>
+		<UA>Юридична особа</UA>
+		<EN>Legal person</EN>
+	</sname_jur_prs>
+	<l_add_doc>
+		<RU>Добавить документ</RU>
+		<UA>Додати документ</UA>
+		<EN>Add document</EN>
+	</l_add_doc>
+	<l_edit_doc>
+		<RU>Изменить параметры документа</RU>
+		<UA>Змінити параметри документа</UA>
+		<EN>Change parameters of document</EN>
+	</l_edit_doc>
+	<l_remove_doc>
+		<RU>Удалить документ</RU>
+		<UA>Видалити документ</UA>
+		<EN>Delete document</EN>
+	</l_remove_doc>
+	<l_remove_src_doc>
+		<RU>Удалить текст документа</RU>
+		<UA>Видалити текст документу</UA>
+		<EN>Delete document's source</EN>
+	</l_remove_src_doc>
+	<l_remove_file>
+		<RU>Удалить файл</RU>
+		<UA>Видалити файл</UA>
+		<EN>Delete file</EN>
+	</l_remove_file>
+	<parties_doc>
+		<RU>Стороны документа</RU>
+		<UA>Сторони документа</UA>
+		<EN>Documents parties</EN>
+	</parties_doc>
+	<name_party1>
+		<RU>Сторона 1</RU>
+		<UA>Сторона 1</UA>
+		<EN>Party 1</EN>
+	</name_party1>
+	<name_party2>
+		<RU>Сторона 2</RU>
+		<UA>Сторона 2</UA>
+		<EN>Party 2</EN>
+	</name_party2>
+	<name_party3>
+		<RU>Сторона 3</RU>
+		<UA>Сторона 3</UA>
+		<EN>Party 3</EN>
+	</name_party3>
+	<sname_jur_prs_party1>
+		<RU>Сторона 1</RU>
+		<UA>Сторона 1</UA>
+		<EN>Party 1</EN>
+	</sname_jur_prs_party1>
+	<sname_jur_prs_party2>
+		<RU>Сторона 2</RU>
+		<UA>Сторона 2</UA>
+		<EN>Party 2</EN>
+	</sname_jur_prs_party2>
+	<sname_jur_prs_party3>
+		<RU>Сторона 3</RU>
+		<UA>Сторона 3</UA>
+		<EN>Party 3</EN>
+	</sname_jur_prs_party3>
+	<full_doc>
+		<RU>Реквизиты документа</RU>
+		<UA>Реквізити документу</UA>
+		<EN>Document's name</EN>
+	</full_doc>
+	<name_club_relationship>
+		<RU>Взаимосвязь участников</RU>
+		<UA>Взаємозв'язок учасників</UA>
+		<EN>Relationship of participants</EN>
+	</name_club_relationship>
+	<src_doc>
+		<RU>Текст документа</RU>
+		<UA>Текст документу</UA>
+		<EN>Document's source</EN>
+	</src_doc>
+	
+	<h_comis_kind>
+		<RU>Комиссия во взаимоотношении</RU>
+		<UA>Комісія у взаємовідношенні</UA>
+		<EN>Comission in relationship</EN>
+	</h_comis_kind>
+	<h_comis_doc>
+		<RU>В документе</RU>
+		<UA>В документі</UA>
+		<EN>In document</EN>
+	</h_comis_doc>
+	<h_comis_doc_empty>
+		<RU>Документ не указан</RU>
+		<UA>Документ не вказано</UA>
+		<EN>Document not entered</EN>
+	</h_comis_doc_empty>
+	<h_club_rel_empty>
+		<RU>Взаимоотношение не указано</RU>
+		<UA>Взаэмовідносини не вказано</UA>
+		<EN>Relationship not entered</EN>
+	</h_club_rel_empty>
+	<h_upload_file_error>
+		<RU>Ошибка загрузки файла</RU>
+		<UA>Помилка завантаження файла</UA>
+		<EN>File upload error</EN>
+	</h_upload_file_error>
+	<club_rel_type>
+		<RU>Тип отношений</RU>
+		<UA>Тип відносин</UA>
+		<EN>Relations type</EN>
+	</club_rel_type>
+	
+	<file_caption>
+		<RU>Название файла</RU>
+		<UA>Назва файлу</UA>
+		<EN>File caption</EN>
+	</file_caption>
+	<file_version>
+		<RU>Версия файла</RU>
+		<UA>Версія файлу</UA>
+		<EN>File version</EN>
+	</file_version>
+	<file_name>
+		<RU>Имя файла</RU>
+		<UA>Ім'я файлу</UA>
+		<EN>File name</EN>
+	</file_name>
+	<file_load_date>
+		<RU>Дата загрузки</RU>
+		<UA>Дата завантаження</UA>
+		<EN>Load date</EN>
+	</file_load_date>
+	<h_add_file>
+		<RU>Добавить файл</RU>
+		<UA>Додати файл</UA>
+		<EN>Add file</EN>
+	</h_add_file>
+	<h_delete_file>
+		<RU>Удалить файл</RU>
+		<UA>Видалити файл</UA>
+		<EN>Delete file</EN>
+	</h_delete_file>
+	<h_update_file>
+		<RU>Изменить параметры файла</RU>
+		<UA>Змінити параметри файлу</UA>
+		<EN>Change file parameters</EN>
+	</h_update_file>
+	<file_doc>
+		<RU>Файл</RU>
+		<UA>Файл</UA>
+		<EN>File</EN>
+	</file_doc>
+	<h_add_doc_bank_account>
+		<RU>Добавить банковский счет в документе</RU>
+		<UA>Додати банківський рахунок в документі</UA>
+		<EN>Add bank account in document</EN>
+	</h_add_doc_bank_account>
+	<h_edit_doc_bank_account>
+		<RU>Изменить параметры банковского счета в документе</RU>
+		<UA>Змінити параметри банківського рахунку в документі</UA>
+		<EN>Change bank account parameters in document</EN>
+	</h_edit_doc_bank_account>
+	<h_delete_doc_bank_account>
+		<RU>Удалить банковский счет '%1' из документа</RU>
+		<UA>Видалити банківський рахунок '%1' з документа</UA>
+		<EN>Delete bank account '%1' from document</EN>
+	</h_delete_doc_bank_account>
+	<h_add_all_doc_bank_account>
+		<RU>Прикрепить банковские счета к документу</RU>
+		<UA>Прикріпити банківські рахунки до документа</UA>
+		<EN>Add bank accounts to document</EN>
+	</h_add_all_doc_bank_account>
+	<name_doc_bank_account_type>
+		<RU>Тип счета в документе</RU>
+		<UA>Тип рахунку в документі</UA>
+		<EN>Account type in document</EN>
+	</name_doc_bank_account_type>
+</documents>

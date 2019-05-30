@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<bank_statements>
+	<general>
+		<RU>Банковские выписки</RU>
+		<UA>Банківські виписки</UA>
+		<EN>Bank statement of accounts</EN>
+	</general>
+	<h_client>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en>
+	</h_client>
+	<h_correspondent>
+		<ru>Корреспондент</ru>
+		<ua>Кореспондент</ua>
+		<en>Correspondent</en>
+	</h_correspondent>
+	<id_bank_statement>
+		<RU>ИД выписки</RU>
+		<UA>ІД виписки</UA>
+		<EN>Statement of account ID</EN>
+	</id_bank_statement>
+	<id_jur_prs_client>
+		<RU>ИД клиента</RU>
+		<UA>ІД клієнта</UA>
+		<EN>Client ID</EN>
+	</id_jur_prs_client>
+	<name_jur_prs_client>
+		<ru>Клиент</ru>
+		<ua>Клієнт</ua>
+		<en>Client</en>
+	</name_jur_prs_client>
+	<id_bank_branch_client>
+		<RU>ИД банка клиента</RU>
+		<UA>ІД банку клиента</UA>
+		<EN>Client bank ID</EN>
+	</id_bank_branch_client>
+	<name_bank_branch_client>
+		<ru>Банк клиента</ru>
+		<ua>Банк клієнта</ua>
+		<en>Bank of the client</en>
+	</name_bank_branch_client>
+	<id_bank_account_client>
+		<RU>Счет клиента</RU>
+		<UA>Рахунок клієнта</UA>
+		<EN>Client account</EN>
+	</id_bank_account_client>
+	<number_bank_account_client>
+		<ru>Счет клиента</ru>
+		<ua>Рахунок клієнта</ua>
+		<en>Client account</en>
+	</number_bank_account_client>
+	<cd_currency_client>
+		<RU>Валюта</RU>
+		<UA>Валюта</UA>
+		<EN>Currency</EN>
+	</cd_currency_client>
+	<name_currency_client>
+		<ru>Валюта</ru>
+		<ua>Валюта</ua>
+		<en>Currency</en>
+	</name_currency_client>
+	<date_operation>
+		<RU>Дата операции</RU>
+		<UA>Дата операції</UA>
+		<EN>Operation date</EN>
+	</date_operation>
+	<cd_operation>
+		<RU>Код операции</RU>
+		<UA>Код операції</UA>
+		<EN>Operation code</EN>
+	</cd_operation>
+	<id_jur_prs_correspondent>
+		<RU>ИД корреспондента</RU>
+		<UA>ІД кореспондента</UA>
+		<EN>Correspondent ID</EN>
+	</id_jur_prs_correspondent>
+	<correspondent>
+		<ru>Корреспондент</ru>
+		<ua>Кореспондент</ua>
+		<en>Correspondent</en>
+	</correspondent>
+	<name_jur_prs_correspondent>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+	</name_jur_prs_correspondent>
+	<name_jur_prs>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+	</name_jur_prs>
+	<id_bank_branch_correspondent>
+		<RU>ИД банка корреспондента</RU>
+		<UA>ІД банку кореспондента</UA>
+		<EN>Correspondent bank ID</EN>
+	</id_bank_branch_correspondent>
+	<name_bank_branch_correspondent>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en>
+	</name_bank_branch_correspondent>
+	<name_bank_branch>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en>
+	</name_bank_branch>
+	<id_bank_account_correspondent>
+		<RU>Банковский счет</RU>
+		<UA>Банківський рахунок</UA>
+		<EN>Bank account</EN>
+	</id_bank_account_correspondent>
+	<num_bank_account_correspondent>
+		<RU>Банковский счет</RU>
+		<UA>Банківський рахунок</UA>
+		<EN>Bank account</EN>
+	</num_bank_account_correspondent>
+	<number_bank_account>
+		<RU>Банковский счет</RU>
+		<UA>Банківський рахунок</UA>
+		<EN>Bank account</EN>
+	</number_bank_account>
+	<number_document>
+		<RU>№ документа</RU>
+		<UA>№ документу</UA>
+		<EN>Document number</EN>
+	</number_document>
+	<date_document>
+		<RU>Дата документа</RU>
+		<UA>Дата документу</UA>
+		<EN>Document date</EN>
+	</date_document>
+	<debet_amount>
+		<RU>Сумма по дебету</RU>
+		<UA>Дебетова сума</UA>
+		<EN>Debit amount</EN>
+	</debet_amount>
+	<credit_amount>
+		<RU>Сумма по кредиту</RU>
+		<UA>Кредитова сума</UA>
+		<EN>Credit amount</EN>
+	</credit_amount>
+	<payment_assignment>
+		<RU>Назначение платежа</RU>
+		<UA>Призначення платежу</UA>
+		<EN>Purpose of the payment</EN>
+	</payment_assignment>
+	<id_bank_statement_line>
+		<ru>ИД строки</ru>
+		<ua>ІД рядка</ua>
+		<en>Line ID</en>
+	</id_bank_statement_line>
+	<line_number>
+		<ru>№ строки</ru>
+		<ua>№ рядка</ua>
+		<en>Line number</en>
+	</line_number>
+	<line_text>
+		<ru>Текст строки</ru>
+		<ua>Текст рядка</ua>
+		<en>Line text</en>
+	</line_text>
+	<number_bank_statement>
+		<ru>Номер выписки</ru>
+		<ua>Номер виписки</ua>
+		<en>Statement of account number</en></number_bank_statement>
+	<date_bank_statement>
+		<ru>Дата выписки</ru>
+		<ua>Дата виписки</ua>
+		<en>Statement of account date</en></date_bank_statement>
+	<begin_balance>
+		<ru>Входное сальдо</ru>
+		<ua>Вхідне сальдо</ua>
+		<en>Entrance balance</en></begin_balance>
+	<end_balance>
+		<ru>Выходное сальдо</ru>
+		<ua>Вихідне сальдо</ua>
+		<en>Output balance</en></end_balance>
+	<debet_total>
+		<ru>Всего по дебету</ru>
+		<ua>Всього за дебетом</ua>
+		<en>Totally be debit</en></debet_total>
+	<credit_total>
+		<ru>Всего по кредиту</ru>
+		<ua>Всього за кредитом</ua>
+		<en>Totally be credit</en></credit_total>
+	<line_count>
+		<ru>Количество строк</ru>
+		<ua>Кількість рядків</ua>
+		<en>Quantity of lines</en></line_count>
+	<debet_line_count>
+		<ru>Количество строк по дебету</ru>
+		<ua>Кількість рядків за дебетом</ua>
+		<en>Quantity of lines by debit</en></debet_line_count>
+	<credit_line_count>
+		<ru>Количество строк по кредиту</ru>
+		<ua>Кількість рядків за кредитом</ua>
+		<en>Quantity of lines by credit</en></credit_line_count>
+	<record_status_flag>
+		<ru>Статус</ru>
+		<ua>Статус</ua>
+		<en>Status</en></record_status_flag>
+	<inn_number_jur_prs_client>
+		<ru>ИНН клиента</ru>
+		<ua>ІПН клиента</ua>
+		<en>Client ITN</en></inn_number_jur_prs_client>
+	
+	<inn_number>
+		<ru>ИНН</ru>
+		<ua>ІНН</ua>
+		<en>ITN</en></inn_number>
+	<t_parameters>
+		<ru>Параметры</ru>
+		<ua>Параметри</ua>
+		<en>Parameters</en></t_parameters>
+	<t_lines>
+		<ru>Строки выписки</ru>
+		<ua>Рядки виписки</ua>
+		<en>Statement of account lines</en></t_lines>
+	<mfo_bank_client>
+		<ru>МФО банка</ru>
+		<ua>МФО банку</ua>
+		<en>Bank indetification code</en></mfo_bank_client>
+	<mfo_bank_correspondent>
+		<ru>МФО банка</ru>
+		<ua>МФО банку</ua>
+		<en>Bank indetification code</en></mfo_bank_correspondent>
+	<id_bank_statement_line>
+		<ru>ИД строки</ru>
+		<ua>ІД рядка</ua>
+		<en>Line ID</en></id_bank_statement_line>
+	<inn_number_jur_prs_corr>
+		<ru>ИНН корреспондента</ru>
+		<ua>ІПН кореспондента</ua>
+		<en>Correspondent ITN</en></inn_number_jur_prs_corr>
+	<amount>
+		<ru>Сумма</ru>
+		<ua>Сума</ua>
+		<en>Amount</en></amount>
+	<reconcile_state>
+		<ru>Состояние выверки</ru>
+		<ua>Стан вивірення</ua>
+		<en>Reconcile state</en></reconcile_state>
+	<reconciled_amount>
+		<ru>Выверенная сумма</ru>
+		<ua>Вивірена сума</ua>
+		<en>Reconciled amount</en></reconciled_amount>
+	<generalimport>
+		<RU>Импорт банковских выписок</RU>
+		<UA>Імпорт банківських виписок</UA>
+		<EN>Import of bank statement of accounts</EN></generalimport>
+	<t_import>
+		<ru>Импорт</ru>
+		<ua>Імпорт</ua>
+		<en>Import</en></t_import>
+	<l_import_all>
+		<ru>Импортировать все выписки</ru>
+		<ua>Імпортувати всі виписки</ua>
+		<en>Import all statement of accounts</en></l_import_all>
+	<l_import_one_statement>
+		<ru>Импортировать выписку</ru>
+		<ua>Імпортувати виписку</ua>
+		<en>Import statement of account</en></l_import_one_statement>
+	<report_id_report>
+		<ru>Идентификатор</ru>
+		<ua>Ідентифікатор</ua>
+		<en>Identifier</en></report_id_report>
+	<report_date_report>
+		<ru>Дата</ru>
+		<ua>Дата</ua>
+		<en>Date</en></report_date_report>
+	<report_line_report>
+		<ru>№ п/п</ru>
+		<ua>№ з/п</ua>
+		<en>Тumber one after another</en></report_line_report>
+	<report_bs_number>
+		<ru>Номер банковской выписки</ru>
+		<ua>Номер банківської виписки</ua>
+		<en>Bank statement of account number</en></report_bs_number>
+	<report_bs_line_number>
+		<ru>Номер строки банковской выписки</ru>
+		<ua>Номер рядка банківської виписки</ua>
+		<en>Bank statement of account line number</en></report_bs_line_number>
+	<report_check_result>
+		<ru>Результат проверки</ru>
+		<ua>Результат перевірки</ua>
+		<en>Checking result</en></report_check_result>
+	<report_text_result>
+		<ru>Текст</ru>
+		<ua>Текст</ua>
+		<en>Text</en></report_text_result>
+	<h_add_header>
+		<ru>Добавить банковскую выписку</ru>
+		<ua>Додати банківську виписку</ua>
+		<en>Add bank statement of account</en></h_add_header>
+	<h_delete_header>
+		<ru>Удалить банковскую выписку</ru>
+		<ua>Видалити банківську виписку</ua>
+		<en>Delete bank statement of account</en></h_delete_header>
+	<h_update_header>
+		<ru>Обновить банковскую выписку</ru>
+		<ua>Оновити банківську виписку</ua>
+		<en>Update bank statement of account</en></h_update_header>
+	<h_add_line>
+		<ru>Добавить строку банковской выписки</ru>
+		<ua>Додати рядок банківської виписки</ua>
+		<en>Add bank statement of account line</en></h_add_line>
+	<h_delete_line>
+		<ru>Удалить строку банковской выписки</ru>
+		<ua>Видалити рядок банківської виписки</ua>
+		<en>Delete bank statement of account line</en></h_delete_line>
+	<h_update_line>
+		<ru>Редактировать строку банковской выписки</ru>
+		<ua>Редагувати рядок банківської виписки</ua>
+		<en>Update bank statement of account line</en></h_update_line>
+	<h_load_from_file>
+		<ru>Загрузить банковскую выписку из файла</ru>
+		<ua>Завантажити банківську виписку з файла</ua>
+		<en>Load bank statement from file</en></h_load_from_file>
+		
+	<name_file>
+		<ru>Файл банковской выписки</ru>
+		<ua>Файл банківської виписки</ua>
+		<en>Bank statement file</en></name_file>
+	<file_type>
+		<ru>Тип файла</ru>
+		<ua>Тип файлу</ua>
+		<en>File type</en></file_type>
+	<source_file>
+		<ru>Исходный файл</ru>
+		<ua>Вихідний файл</ua>
+		<en>Source file</en></source_file>
+		
+	<tab_headers>
+		<ru>Выписки</ru>
+		<ua>Виписки</ua>
+		<en>Statements</en></tab_headers>
+	<tab_lines>
+		<ru>Строки</ru>
+		<ua>Рядки</ua>
+		<en>Lines</en></tab_lines>
+	<tab_reports>
+		<ru>Отчеты о загрузке</ru>
+		<ua>Звіти про завантаження</ua>
+		<en>Load reports</en></tab_reports>
+		
+	
+	<name_bank>
+		<ru>Банк</ru>
+		<ua>Банк</ua>
+		<en>Bank</en>
+	</name_bank>
+	<bank_account>
+		<ru>Банковский счет</ru>
+		<ua>Банківський рахунок</ua>
+		<en>Account</en>
+	</bank_account>
+	<name_jur_prs>
+		<ru>Название</ru>
+		<ua>Назва</ua>
+		<en>Name</en>
+	</name_jur_prs>
+	<mfo_bank>
+		<ru>МФО банка</ru>
+		<ua>МФО банку</ua>
+		<en>Bank indetification code</en></mfo_bank>
+		
+		
+	<reconcile_type>
+		<ru>Тип выверки</ru>
+		<ua>Тип вивірення</ua>
+		<en>Reconcile type</en></reconcile_type>
+		
+	<h_import_state>
+		<ru>Состояние импорта</ru>
+		<ua>Стан імпорту</ua>
+		<en>Import state</en></h_import_state>
+	<h_imported>
+		<ru>Импортированные</ru>
+		<ua>Імпортовані</ua>
+		<en>Imported</en></h_imported>
+	<h_not_imported>
+		<ru>Не импортированные</ru>
+		<ua>Не імпортовані</ua>
+		<en>Not imported</en></h_not_imported>
+	<import_state_bs_line>
+		<ru>Состояние импорта</ru>
+		<ua>Стан імпорту</ua>
+		<en>Import state</en></import_state_bs_line>
+	<import_state_bs_header>
+		<ru>Состояние импорта</ru>
+		<ua>Стан імпорту</ua>
+		<en>Import state</en></import_state_bs_header>
+	<need_bs_line_import>
+		<ru>Нужно импортировать</ru>
+		<ua>Треба імпортувати</ua>
+		<en>Need import</en></need_bs_line_import>
+</bank_statements>
