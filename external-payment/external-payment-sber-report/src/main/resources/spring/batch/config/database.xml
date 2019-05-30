@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/jdbc 
+		http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd">
+
+    <bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${db-job-driverClassName}" />
+		<property name="url" value="${db-job-url}" />
+		<property name="username" value="${db-job-username}" />
+		<property name="password" value="${db-job-password}" />
+    </bean>
+    
+    <bean id="dataSourceDestination"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${db-dest-driverClassName}" />
+		<property name="url" value="${db-dest-url}" />
+		<property name="username" value="${db-dest-username}" />
+		<property name="password" value="${db-dest-password}" />
+    </bean>
+
+
+</beans>

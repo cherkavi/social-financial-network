@@ -1,0 +1,337 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<name>external-payment</name>
+	<artifactId>external-payment</artifactId>
+	<packaging>war</packaging>
+	<groupId>bc</groupId>
+	<version>1.0-SNAPSHOT</version>
+
+	<modelVersion>4.0.0</modelVersion>
+	<url>http://maven.apache.org</url>
+
+    	<scm>
+		<connection>scm:svn:https://xp-dev.com/svn/WM_system/trunk/external-payment</connection>
+		<developerConnection>scm:svn:https://xp-dev.com/svn/WM_system/trunk/external-payment</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://xp-dev.com/svn/WM_system/trunk/external-payment</url>
+	</scm>
+
+  	<properties>
+  		<java.version>1.6</java.version>
+  		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version>3.2.0.RELEASE</spring.version>
+		<jackson.version>1.9.13</jackson.version>
+		<jetty.version>8.1.18.v20150929</jetty.version>
+  	</properties>
+
+	<dependencies>
+
+		<!-- tests -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+<!--
+		<dependency>
+			<groupId>bc</groupId>
+			<artifactId>wmpu-common</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<exclusions>
+
+				<exclusion>
+					<groupId>org.directwebremoting</groupId>
+					<artifactId>dwr</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.hibernate</groupId>
+					<artifactId>hibernate-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.hibernate</groupId>
+					<artifactId>hibernate-annotations</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sf.jasperreports</groupId>
+					<artifactId>jasperreports</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sourceforge.javacsv</groupId>
+					<artifactId>javacsv</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sf.barcode4j</groupId>
+					<artifactId>barcode4j</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sourceforge.jexcelapi</groupId>
+					<artifactId>jxl</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sourceforge.jexcelapi</groupId>
+					<artifactId>jxl</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.cxf</groupId>
+					<artifactId>cxf-rt-frontend-jaxws</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.cxf</groupId>
+					<artifactId>cxf-rt-transports-http</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.httpcomponents</groupId>
+					<artifactId>httpclient</artifactId>
+				</exclusion>
+
+				<exclusion>
+					<groupId>com.octo.captcha</groupId>
+					<artifactId>jcaptcha-all</artifactId>
+				</exclusion>
+
+				<exclusion>
+					<groupId>bc</groupId>
+					<artifactId>reporter-common</artifactId>
+				</exclusion>
+
+			</exclusions>
+		</dependency>
+-->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.3.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- HTTP 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+-->
+		<!-- DB -->
+		<!--     ORACLE JDBC driver -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+		
+		<!-- spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<!-- xml marshalling -->
+		<dependency>
+			<groupId>org.simpleframework</groupId>
+			<artifactId>simple-xml</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+
+		<!-- MD5 -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.10</version>
+		</dependency>
+
+		<!-- commons -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+
+		<!-- http client -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.4.1</version>
+		</dependency>
+
+		<!-- logger -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.15</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.jms</groupId>
+					<artifactId>jms</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.sun.jdmk</groupId>
+					<artifactId>jmxtools</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.sun.jmx</groupId>
+					<artifactId>jmxri</artifactId>
+				</exclusion>
+			</exclusions>
+
+		</dependency>
+
+		<!-- bc interfaces -->
+		<dependency>
+			<groupId>bc</groupId>
+			<artifactId>payment-common</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+	<!--
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>webservices-api</artifactId>
+			<version>2.1-b14</version>
+		</dependency>
+	-->
+		<!-- JSON mapper
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		-->
+	</dependencies>
+
+  	<build>
+    		<finalName>externalpayment</finalName>
+    		<testResources>
+    			<testResource>
+    			    <directory>src/test/webapp</directory>
+    			</testResource>
+    			<testResource>
+    			    <directory>src/test/resources</directory>
+    			</testResource>
+		</testResources>
+		<resources>
+			<resource>
+				<directory>src/main/webapp</directory>
+			</resource>
+		</resources>
+	    	<plugins>
+
+			<!-- Generate Java classes from WSDL during build  -->
+			<!--
+			<plugin>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-codegen-plugin</artifactId>
+				<version>${cxf.version}</version>
+				<executions>
+					<execution>
+						<id>generate-sources</id>
+						<phase>generate-sources</phase>
+						<configuration>
+						<sourceRoot>${basedir}/target/generated/src/main/java</sourceRoot>
+						<wsdlOptions>
+							<wsdlOption>
+								<wsdl>http://test.robokassa.ru/Webservice/Service.asmx?WSDL</wsdl>
+								<wsdl>https://auth.robokassa.ru/Merchant/WebService/Service.asmx?WSDL</wsdl>
+								<extraargs>
+									<extraarg>-client</extraarg>
+								</extraargs>
+							</wsdlOption>
+						</wsdlOptions>
+						</configuration>
+						<goals>
+							<goal>wsdl2java</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			-->
+
+
+			<!-- java compile version -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+				</configuration>
+			</plugin>
+
+			<!-- time stamp -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>buildnumber-maven-plugin</artifactId>
+				<version>1.0</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>create</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+				<timestampFormat>{0,date,MM/dd/yyyy hh:mm:ss a}</timestampFormat >
+				<doCheck>false</doCheck>
+				<doUpdate>false</doUpdate>
+				</configuration>
+			</plugin>
+
+			<!-- SVN revision and assemble time -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+				<archive>
+					<manifest>
+						<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+					</manifest>
+					<manifestEntries>
+						<Revision>${buildNumber}</Revision>
+						<Build-Time>${timestamp}</Build-Time>
+					</manifestEntries>
+				</archive>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.19.1</version>
+			</plugin>
+		</plugins>
+	</reporting>
+
+</project>

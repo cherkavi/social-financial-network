@@ -1,0 +1,1 @@
+java -cp target/lib/*:target/externalpayment-sberreport.jar bc.payments.sberbank.report.ReportReader /home/technik/projects/nmtg/wm-system/trunk/external-payment-sber-report/application-demo.properties

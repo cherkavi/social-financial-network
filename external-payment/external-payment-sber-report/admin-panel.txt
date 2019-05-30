@@ -1,0 +1,6 @@
+How to install:
+create DB for mysql:
+mysql -u root -p spring-batch-test
+
+How to control the batch:
+http://docs.spring.io/spring-batch-admin/getting-started.html

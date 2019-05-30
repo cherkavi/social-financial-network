@@ -1,0 +1,93 @@
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+    xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+						http://www.springframework.org/schema/jdbc 
+						http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd
+                		http://www.springframework.org/schema/context
+                		http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<context:property-placeholder location="file:///${main.properties}" />
+	<import resource="database.xml" />
+        
+	<bean id="transactionManager"
+		class="org.springframework.batch.support.transaction.ResourcelessTransactionManager" />
+ 	 
+ 	<!-- stored job-meta in database, create job-meta tables automatically  -->
+	<jdbc:initialize-database data-source="dataSource" enabled="${db-job-init}">
+        <!-- spring-batch-core-2.0.2.RELEASE.jar -->
+		<!-- jdbc:script location="org/springframework/batch/core/schema-drop-oracle10g.sql" />
+		<jdbc:script location="org/springframework/batch/core/schema-oracle10g.sql" --> 
+		
+		<jdbc:script location="org/springframework/batch/core/schema-drop-mysql.sql" />
+		<jdbc:script location="org/springframework/batch/core/schema-mysql.sql"  /> 
+    </jdbc:initialize-database >
+        
+	<bean id="jobRepository" 
+		  class="org.springframework.batch.core.repository.support.JobRepositoryFactoryBean">
+		<property name="dataSource" 
+				  ref="dataSource" />
+		<property name="transactionManager" 
+				  ref="transactionManager" />
+		<!-- change to oracle -->
+		<property name="databaseType" value="mysql" />
+		
+	</bean>
+	
+	<!-- stored job-meta in memory - 
+	<bean id="jobRepository"
+		class="org.springframework.batch.core.repository.support.MapJobRepositoryFactoryBean">
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+        -->
+        
+	<bean id="jobLauncher"
+		class="org.springframework.batch.core.launch.support.SimpleJobLauncher">
+		<property name="jobRepository" ref="jobRepository" />
+	</bean>	
+
+	<!--         tasks  -->
+
+    <!--  parse file and save it into DB  -->
+    <bean id="fileParserDbWriter" class="bc.payments.sberbank.report.task.database.ReportDbSaver" >
+    	<constructor-arg  index="0">
+    		<bean class="bc.payments.sberbank.report.task.database.ReportService">
+    			<constructor-arg  index="0" ref="dataSourceDestination" />
+    			<constructor-arg  index="1" value="${outputDirectory}" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+    
+    <!--  read file from E-mail  -->    
+    <bean id="emailReader" class="bc.payments.sberbank.report.task.messaging.email.EmailSingleAttachmentReader" >
+    	<constructor-arg index="0">
+    		<bean class="bc.payments.sberbank.report.task.messaging.email.EmailCredential">
+    			<constructor-arg  index="0" value="${emailPopUrl}" />
+    			<constructor-arg  index="1" value="#{new Integer('${emailPopPort}')}" />
+    			<!--  <constructor-arg  index="1" value="10" />  -->
+    			<constructor-arg  index="2" value="${emailLogin}" />
+    			<constructor-arg  index="3" value="${emailPassword}" />
+    		</bean> 
+    	</constructor-arg>
+    	
+    	<constructor-arg index="1">
+    		<bean class="bc.payments.sberbank.report.task.messaging.email.Pop3SslSource">
+    			<constructor-arg>
+    				<bean class="bc.payments.sberbank.report.task.messaging.email.AttachmentRetrieveProcessor">
+    					<constructor-arg>
+    						<bean class="bc.payments.sberbank.report.task.messaging.email.TemporaryFileStorage" />
+    					</constructor-arg>
+    				</bean>
+    			</constructor-arg>
+    		</bean> 
+    	</constructor-arg>
+    </bean>
+    
+    
+    <!-- shared information between steps -->
+    <bean class="bc.payments.sberbank.report.task.common.SharedInformation" />
+
+</beans>

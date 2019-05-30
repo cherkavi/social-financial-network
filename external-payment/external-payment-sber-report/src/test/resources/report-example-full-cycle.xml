@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry format="P03" form_date="2011-05-13 12:00:00">
+	<reg_date>2011-05-12</reg_date>
+	<agent_name>ООО Агент</agent_name>
+	<prov_name>ООО Оператор</prov_name>
+	<pays>
+		<pay agent_date="2011-05-12 11:22:33" 
+			pay_id="2345" 
+			pay_date="2011-05-12 11:00:12" 
+			account="54321"
+			pay_amount="10000" 
+			reg_id="98765" 
+			err_code="0" 
+			note="" />
+		<pay agent_date="2011-05-12 11:22:35" 
+			pay_id="2346" 
+			pay_date="2011-05-12 11:00:17" 
+			account="65432"
+			pay_amount="20000" 
+			reg_id="98767" 
+			err_code="99" 
+			note="Ошибка подключения к серверу оператора" />
+	</pays>
+</registry>
