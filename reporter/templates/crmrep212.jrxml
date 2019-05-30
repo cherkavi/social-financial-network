@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!-- Created with iReport - A designer for JasperReports -->
+<!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport
+		 name="crmrep212"
+		 columnCount="1"
+		 printOrder="Vertical"
+		 orientation="Portrait"
+		 pageWidth="595"
+		 pageHeight="842"
+		 columnWidth="555"
+		 columnSpacing="0"
+		 leftMargin="20"
+		 rightMargin="20"
+		 topMargin="20"
+		 bottomMargin="20"
+		 whenNoDataType="AllSectionsNoDetail"
+		 isTitleNewPage="false"
+		 isSummaryNewPage="false"
+		 isIgnorePagination="true">
+	<property name="net.sf.jasperreports.print.keep.full.text" value="true" />
+	<property name="ireport.scriptlethandling" value="0" />
+	<property name="ireport.encoding" value="UTF-8" />
+	<import value="java.util.*" />
+	<import value="net.sf.jasperreports.engine.*" />
+	<import value="net.sf.jasperreports.engine.data.*" />
+
+	<parameter name="DEFAULT_SPACE" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ID_DEALER" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="NEED_DATE_IN_REPORT" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DATE_REPORT" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" isForPrompting="true" class="java.lang.String">
+		<defaultValueExpression ><![CDATA[".\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="DATASOURCE_1" isForPrompting="false" class="net.sf.jasperreports.engine.JRResultSetDataSource"/>
+	<parameter name="DATASOURCE_2" isForPrompting="false" class="net.sf.jasperreports.engine.JRResultSetDataSource"/>
+	<parameter name="DATASOURCE_3" isForPrompting="false" class="net.sf.jasperreports.engine.JRResultSetDataSource"/>
+	<parameter name="SHOW_REPORT_1" isForPrompting="false" class="java.lang.Boolean">
+		<defaultValueExpression ><![CDATA[new Boolean(false)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SHOW_REPORT_2" isForPrompting="false" class="java.lang.Boolean">
+		<defaultValueExpression ><![CDATA[new Boolean(false)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SHOW_REPORT_3" isForPrompting="false" class="java.lang.Boolean">
+		<defaultValueExpression ><![CDATA[new Boolean(false)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="DATA_PERIOD" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="SNAME_DEALER" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="NAME_DEALER" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="FIO_CHIEF" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="ACCEPTED_NAT_PRS_COUNT" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="ACCEPTED_JUR_PRS_COUNT" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="EXCEPTED_COUNT" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DATA_PERIOD_TXT" isForPrompting="false" class="java.lang.String"/>
+	<queryString><![CDATA[SELECT 
+       a.id_bank, 
+       a.name_bank, 
+       a.id_dealer, 
+       a.name_dealer, 
+       a.id_term,
+       a.cd_card1, 
+       a.sys_date, 
+       a.opr_sum_frmt, -- сумма операций в гривнах
+       a.opr_sum/100 opr_sum, -- 
+       a.sum_pay_cash_frmt,  -- сумма оплаты наличными
+       a.sum_pay_cash/100 sum_pay_cash, --
+       a.sum_pay_card_frmt,  -- сумма оплаты безналичными
+       a.sum_pay_card/100 sum_pay_card,  --
+       a.sum_pay_bon_frmt, -- использовано бонов
+       a.sum_pay_bon/100 sum_pay_bon, --
+       a.sum_bon_frmt,  -- насчитано бонов 
+       a.sum_bon/100 sum_bon,  -- 
+       a.sum_disc_frmt,  -- насчитано дисконта
+       a.sum_disc/100 sum_disc  -- 
+  FROM vc_trans_ok_short_all a]]></queryString>
+
+	<variable name="counter_general" class="java.lang.Integer" resetType="Report" calculation="Count">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_term" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_sp" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_dealer" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_all" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_agent" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_cashier" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+
+		<group  name="accepted" >
+			<groupExpression><![CDATA[]]></groupExpression>
+			<groupHeader>
+			<band height="23"  isSplitAllowed="true" >
+				<subreport  isUsingCache="true">
+					<reportElement
+						x="0"
+						y="0"
+						width="555"
+						height="23"
+						key="subreport-1">
+							<printWhenExpression><![CDATA[$P{SHOW_REPORT_1}]]></printWhenExpression>
+						</reportElement>
+					<subreportParameter  name="DEFAULT_SPACE">
+						<subreportParameterExpression><![CDATA[$P{DEFAULT_SPACE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATE_REPORT">
+						<subreportParameterExpression><![CDATA[$P{DATE_REPORT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATA_PERIOD">
+						<subreportParameterExpression><![CDATA[$P{DATA_PERIOD}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="ID_DEALER">
+						<subreportParameterExpression><![CDATA[$P{ID_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="SNAME_DEALER">
+						<subreportParameterExpression><![CDATA[$P{SNAME_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="NAME_DEALER">
+						<subreportParameterExpression><![CDATA[$P{NAME_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATA_PERIOD_TXT">
+						<subreportParameterExpression><![CDATA[$P{DATA_PERIOD_TXT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<dataSourceExpression><![CDATA[$P{DATASOURCE_1}]]></dataSourceExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "crmrep212_accept.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			</groupHeader>
+			<groupFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+			</groupFooter>
+		</group>
+		<group  name="excepted" >
+			<groupExpression><![CDATA[]]></groupExpression>
+			<groupHeader>
+			<band height="26"  isSplitAllowed="true" >
+				<subreport  isUsingCache="true">
+					<reportElement
+						x="0"
+						y="0"
+						width="555"
+						height="26"
+						key="subreport-2">
+							<printWhenExpression><![CDATA[$P{SHOW_REPORT_2}]]></printWhenExpression>
+						</reportElement>
+					<subreportParameter  name="DEFAULT_SPACE">
+						<subreportParameterExpression><![CDATA[$P{DEFAULT_SPACE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="ID_DEALER">
+						<subreportParameterExpression><![CDATA[$P{ID_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATE_REPORT">
+						<subreportParameterExpression><![CDATA[$P{DATE_REPORT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATA_PERIOD">
+						<subreportParameterExpression><![CDATA[$P{DATA_PERIOD}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="SNAME_DEALER">
+						<subreportParameterExpression><![CDATA[$P{SNAME_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="NAME_DEALER">
+						<subreportParameterExpression><![CDATA[$P{NAME_DEALER}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter  name="DATA_PERIOD_TXT">
+						<subreportParameterExpression><![CDATA[$P{DATA_PERIOD_TXT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<dataSourceExpression><![CDATA[$P{DATASOURCE_2}]]></dataSourceExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "crmrep212_exception.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			</groupHeader>
+			<groupFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+			</groupFooter>
+		</group>
+		<background>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</background>
+		<title>
+			<band height="607"  isSplitAllowed="true" >
+				<staticText>
+					<reportElement
+						x="0"
+						y="0"
+						width="555"
+						height="20"
+						key="staticText-1"/>
+					<box leftPadding="2"></box>
+					<textElement textAlignment="Center">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA["Сетевая модель паевого учета"]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="20"
+						width="555"
+						height="18"
+						key="staticText-4"/>
+					<box leftPadding="2"></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[ПРОТОКОЛ №_____________________]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="38"
+						width="555"
+						height="21"
+						key="staticText-5"/>
+					<box leftPadding="2"></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[заседания совета]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="89"
+						width="261"
+						height="15"
+						key="staticText-6"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[г. Севастополь]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="59"
+						width="555"
+						height="15"
+						key="textField-251"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(($P{SNAME_DEALER}==null)?$P{DEFAULT_SPACE}:$P{SNAME_DEALER})]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="261"
+						y="89"
+						width="294"
+						height="15"
+						key="textField-252"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($P{DATE_REPORT}==null)?$P{DEFAULT_SPACE}:$P{DATE_REPORT}+" г."]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="104"
+						width="555"
+						height="15"
+						key="staticText-7"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="119"
+						width="261"
+						height="23"
+						key="staticText-8"/>
+					<box leftPadding="2"></box>
+					<textElement verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Присутствовали члены совета:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="74"
+						width="555"
+						height="15"
+						key="staticText-9"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="207"
+						width="555"
+						height="21"
+						key="staticText-13"/>
+					<box leftPadding="2"></box>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Кворум имеется. Заседание правомочно.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="228"
+						width="555"
+						height="15"
+						key="staticText-14"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="243"
+						width="555"
+						height="15"
+						key="staticText-15"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Повестка дня:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="288"
+						width="555"
+						height="15"
+						key="staticText-17"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[2. О добровольном выходе из Общества.]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="258"
+						width="555"
+						height="30"
+						key="textField-253"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["1. О приеме в члены-пайщики "+(($P{NAME_DEALER}==null)?$P{DEFAULT_SPACE}:$P{NAME_DEALER})+" (в дальнейшем, Общество) " + (($P{DATE_REPORT}==null)?$P{DEFAULT_SPACE}:$P{DATE_REPORT}+" г.")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="303"
+						width="555"
+						height="15"
+						key="staticText-18"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="318"
+						width="555"
+						height="15"
+						key="staticText-19"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Решили:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="333"
+						width="555"
+						height="72"
+						key="textField-254"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["1. Принять в члены-пайщики Общества "+(($P{ACCEPTED_NAT_PRS_COUNT}==null)?"0":$P{ACCEPTED_NAT_PRS_COUNT})+" физических лиц и "+(($P{ACCEPTED_JUR_PRS_COUNT}==null)?"0":$P{ACCEPTED_JUR_PRS_COUNT})+" юр.лица, подавших заявление на вступление в Общество и оплативших вступительный и мини-мальный паевой взнос в "+$P{DATA_PERIOD_TXT}+" г., с момента получения оплаты указанных взносов на расчетный счёт или в кассу Общества. (Список членов-пайщиков, принятых в "+$P{DATA_PERIOD_TXT}+" г. – в Приложении №1)"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="405"
+						width="555"
+						height="15"
+						key="staticText-20"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="420"
+						width="555"
+						height="15"
+						key="staticText-21"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isItalic="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Решение по первому пункту повестки дня принято единогласно.]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="450"
+						width="555"
+						height="47"
+						key="textField-255"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["2. Прекратить членство в Обществе "+$P{EXCEPTED_COUNT}+" пайщиков, подавших заявление на добровольный выход из Общества (п.10.1.1. Устава) в "+$P{DATA_PERIOD_TXT}+" (Документы прилагаются)"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="497"
+						width="555"
+						height="15"
+						key="staticText-22"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="512"
+						width="555"
+						height="15"
+						key="staticText-23"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isItalic="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Решение по второму пункту повестки дня принято единогласно.]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="261"
+						y="542"
+						width="294"
+						height="30"
+						key="textField-256"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["__________________ /____________/"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="542"
+						width="261"
+						height="30"
+						key="textField-257"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Председатель совета " + (($P{SNAME_DEALER}==null)?$P{DEFAULT_SPACE}:$P{SNAME_DEALER})]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="572"
+						width="555"
+						height="15"
+						key="staticText-25"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="261"
+						y="587"
+						width="294"
+						height="15"
+						key="textField-258"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["__________________ /____________/"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="587"
+						width="261"
+						height="15"
+						key="textField-259"/>
+					<box leftPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Секретарь заседания"]]></textFieldExpression>
+				</textField>
+				<subreport  isUsingCache="true">
+					<reportElement
+						x="0"
+						y="142"
+						width="555"
+						height="65"
+						key="subreport-3"
+						stretchType="RelativeToBandHeight"
+						positionType="Float">
+							<printWhenExpression><![CDATA[$P{SHOW_REPORT_3}]]></printWhenExpression>
+						</reportElement>
+					<dataSourceExpression><![CDATA[$P{DATASOURCE_3}]]></dataSourceExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "crmrep212_council.jasper"]]></subreportExpression>
+				</subreport>
+				<staticText>
+					<reportElement
+						x="0"
+						y="527"
+						width="555"
+						height="15"
+						key="staticText-26"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="435"
+						width="555"
+						height="15"
+						key="staticText-27"/>
+					<box leftPadding="2"></box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="12" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[]]></text>
+				</staticText>
+			</band>
+		</title>
+		<pageHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageHeader>
+		<columnHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnHeader>
+		<detail>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</detail>
+		<columnFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnFooter>
+		<pageFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageFooter>
+		<summary>
+			<band height="3"  isSplitAllowed="true" >
+			</band>
+		</summary>
+</jasperReport>

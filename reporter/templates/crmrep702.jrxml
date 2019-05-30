@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!-- Created with iReport - A designer for JasperReports -->
+<!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport
+		 name="crmrep702"
+		 columnCount="1"
+		 printOrder="Vertical"
+		 orientation="Landscape"
+		 pageWidth="1072"
+		 pageHeight="595"
+		 columnWidth="1032"
+		 columnSpacing="0"
+		 leftMargin="20"
+		 rightMargin="20"
+		 topMargin="20"
+		 bottomMargin="20"
+		 whenNoDataType="AllSectionsNoDetail"
+		 isTitleNewPage="false"
+		 isSummaryNewPage="false">
+	<property name="ireport.scriptlethandling" value="0" />
+	<property name="ireport.encoding" value="UTF-8" />
+	<import value="java.util.*" />
+	<import value="net.sf.jasperreports.engine.*" />
+	<import value="net.sf.jasperreports.engine.data.*" />
+
+	<parameter name="DATE_BEG" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DATE_END" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DEFAULT_SPACE" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ID_DEALER" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="ID_BANK" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="NEED_DATE_IN_REPORT" isForPrompting="false" class="java.lang.String"/>
+	<queryString><![CDATA[SELECT 
+       a.id_bank, 
+       a.name_bank, 
+       a.id_dealer, 
+       a.name_dealer, 
+       a.id_term,
+       a.cd_card1, 
+       a.sys_date, 
+       a.opr_sum_frmt, -- сумма операций в гривнах
+       a.opr_sum/100 opr_sum, -- 
+       a.sum_pay_cash_frmt,  -- сумма оплаты наличными
+       a.sum_pay_cash/100 sum_pay_cash, --
+       a.sum_pay_card_frmt,  -- сумма оплаты безналичными
+       a.sum_pay_card/100 sum_pay_card,  --
+       a.sum_pay_bon_frmt, -- использовано бонов
+       a.sum_pay_bon/100 sum_pay_bon, --
+       a.sum_bon_frmt,  -- насчитано бонов 
+       a.sum_bon/100 sum_bon,  -- 
+       a.sum_disc_frmt,  -- насчитано дисконта
+       a.sum_disc/100 sum_disc  -- 
+  FROM vc_trans_ok_short_all a]]></queryString>
+
+	<field name="ID_SERVICE_PLACE" class="java.math.BigDecimal"/>
+	<field name="NAME_SERVICE_PLACE" class="java.lang.String"/>
+	<field name="SUM_MTF_ORDER_POINT" class="java.lang.String"/>
+	<field name="SUM_MTF_FOR_GOODS_POINT" class="java.lang.String"/>
+	<field name="SUM_CHANGE_TO_SHARE_ACCOUNT" class="java.lang.String"/>
+	<field name="SUM_SHARE_FEE_CASH" class="java.lang.String"/>
+	<field name="SUM_SHARE_FEE_CARD" class="java.lang.String"/>
+	<field name="SUM_SHARE_FEE_ROBOKASSA" class="java.lang.String"/>
+	<field name="ID_TARGET_PRG" class="java.lang.String"/>
+	<field name="NAME_TARGET_PRG" class="java.lang.String"/>
+	<field name="ID_DEALER" class="java.lang.String"/>
+	<field name="NAME_DEALER" class="java.lang.String"/>
+	<field name="SUM_MTF_PERIOD_POINT" class="java.lang.String"/>
+	<field name="SUM_MEMBERSHIP_FEE_POINT" class="java.lang.String"/>
+	<field name="SUM_MTF_ORDER_PERCENT" class="java.lang.String"/>
+	<field name="SUM_SHARE_FEE_CHANGE" class="java.lang.String"/>
+	<field name="SUM_TRANSFER_TO_SOCIETY" class="java.lang.String"/>
+
+	<variable name="counter_general" class="java.lang.Integer" resetType="Report" calculation="Count">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_share_fee_card" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CARD})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_sp" class="java.lang.Integer" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_change_to_share_account" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_CHANGE_TO_SHARE_ACCOUNT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_mtf_for_goods_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_FOR_GOODS_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_mtf_order_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_ORDER_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_share_fee_robokassa" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_ROBOKASSA})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_share_fee_cash" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CASH})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_mtf_period_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_PERIOD_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_membership_fee_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MEMBERSHIP_FEE_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_share_fee_change" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CHANGE})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_sp_transfer_to_society" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_TRANSFER_TO_SOCIETY})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_transfer_to_society" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_TRANSFER_TO_SOCIETY})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_change_to_share_account" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_CHANGE_TO_SHARE_ACCOUNT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_membership_fee_point" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MEMBERSHIP_FEE_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_mtf_for_goods_point" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_FOR_GOODS_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_mtf_order_point" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_ORDER_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_mtf_period_point" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_MTF_PERIOD_POINT})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_share_fee_card" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CARD})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_share_fee_cash" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CASH})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_share_fee_change" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_CHANGE})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="sum_tp_share_fee_robokassa" class="java.lang.Double" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_SHARE_FEE_ROBOKASSA})/100)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_tp" class="java.lang.Integer" resetType="Group" resetGroup="TargetProgram" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+
+		<group  name="ServicePlace" >
+			<groupExpression><![CDATA[$F{ID_SERVICE_PLACE}.toString()]]></groupExpression>
+			<groupHeader>
+			<band height="20"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="0"
+						width="1023"
+						height="20"
+						key="textField-295"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Партнер: \"" + (($F{NAME_DEALER}==null)?$P{DEFAULT_SPACE}:$F{NAME_DEALER}) + "\""]]></textFieldExpression>
+				</textField>
+			</band>
+			</groupHeader>
+			<groupFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+			</groupFooter>
+		</group>
+		<group  name="TargetProgram" >
+			<groupExpression><![CDATA[$F{ID_SERVICE_PLACE}.toString()+"."+$F{ID_TARGET_PRG}.toString()]]></groupExpression>
+			<groupHeader>
+			<band height="137"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="28"
+						y="19"
+						width="210"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-8"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["ЦВТП"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="19"
+						width="28"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-18"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["№"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="28"
+						y="120"
+						width="210"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-195"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["2"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="120"
+						width="28"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-196"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["1"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="238"
+						y="53"
+						width="75"
+						height="67"
+						backcolor="#EEEDED"
+						key="textField-207"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["наличными"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="238"
+						y="120"
+						width="75"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-210"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["3"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="313"
+						y="53"
+						width="75"
+						height="67"
+						backcolor="#EEEDED"
+						key="textField-237"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["БПК"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="313"
+						y="120"
+						width="75"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-238"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["4"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="859"
+						y="19"
+						width="82"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-240"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма пополнения паевого фонда пайщика за счет сдачи, руб"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="859"
+						y="120"
+						width="82"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-241"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["11"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="695"
+						y="19"
+						width="82"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-243"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма внесения Членского целевого взноса за обработку заказа за счет преобразования баллов, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="463"
+						y="120"
+						width="75"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-244"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["6"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="941"
+						y="19"
+						width="82"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-246"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма, котору администратор ЦВТП принял от пайщиков и должен передать в кассу Общества, руб"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="941"
+						y="120"
+						width="82"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-247"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["12"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="388"
+						y="53"
+						width="75"
+						height="67"
+						backcolor="#EEEDED"
+						key="textField-279"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Робокасса"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="388"
+						y="120"
+						width="75"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-280"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["5"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="238"
+						y="19"
+						width="225"
+						height="34"
+						backcolor="#EEEDED"
+						key="textField-291"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма внесенного пайщиком-потребителем Паевого взноса, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="463"
+						y="19"
+						width="75"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-296"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма преобразованного Паевого взноса пайщика-потребителя в баллы, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="695"
+						y="120"
+						width="82"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-300"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["9"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="777"
+						y="19"
+						width="82"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-309"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма списания баллов пайщика-потребителя за переданный товар по цене поставщика, балл"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="777"
+						y="120"
+						width="82"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-310"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["10"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="0"
+						width="1023"
+						height="19"
+						key="textField-315"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Целевая программа: \"" + (($F{NAME_TARGET_PRG}==null)?$P{DEFAULT_SPACE}:$F{NAME_TARGET_PRG}) + "\""]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="538"
+						y="19"
+						width="75"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-317"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма внесения Членского взноса по СМПУ за счет преобразования баллов, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="613"
+						y="19"
+						width="82"
+						height="101"
+						backcolor="#EEEDED"
+						key="textField-318"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма ЧЦВ за период внесенная пайщиком-потребителем для участия в ЦП на 30 дней преобразованная с карты СМПУ, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="538"
+						y="120"
+						width="75"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-319"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["7"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="613"
+						y="120"
+						width="82"
+						height="17"
+						backcolor="#EEEDED"
+						key="textField-320"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["8"]]></textFieldExpression>
+				</textField>
+			</band>
+			</groupHeader>
+			<groupFooter>
+			<band height="25"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="0"
+						width="238"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-330"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isItalic="false" isUnderline="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Всего по Целевой проргамме '" + (($F{NAME_TARGET_PRG}==null)?$P{DEFAULT_SPACE}:$F{NAME_TARGET_PRG}) + "' операций: "+$V{count_tp}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="859"
+						y="0"
+						width="82"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-332"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_share_fee_change})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="463"
+						y="0"
+						width="75"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-333"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_change_to_share_account})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="941"
+						y="0"
+						width="82"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-334"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_transfer_to_society})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="238"
+						y="0"
+						width="75"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-336"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_share_fee_cash})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="313"
+						y="0"
+						width="75"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-337"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_share_fee_card})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="388"
+						y="0"
+						width="75"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-338"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_share_fee_robokassa})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="776"
+						y="0"
+						width="82"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-339"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_mtf_for_goods_point})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="695"
+						y="0"
+						width="82"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-340"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_mtf_order_point})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="538"
+						y="0"
+						width="75"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-342"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_membership_fee_point})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="613"
+						y="0"
+						width="82"
+						height="25"
+						backcolor="#FFFFFF"
+						key="textField-343"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_tp_mtf_period_point})+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+			</band>
+			</groupFooter>
+		</group>
+		<background>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</background>
+		<title>
+			<band height="63"  isSplitAllowed="true" >
+				<staticText>
+					<reportElement
+						x="111"
+						y="0"
+						width="748"
+						height="15"
+						key="staticText-1"/>
+					<box></box>
+					<textElement textAlignment="Center">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Сетевая модель паевого учета]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="15"
+						width="1023"
+						height="30"
+						key="staticText-2"/>
+					<box></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="14" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[СЗ1.2. Отчет по операциям пайщиков по всем ЦВТП]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="859"
+						y="0"
+						width="164"
+						height="15"
+						key="textField-24"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($P{NEED_DATE_IN_REPORT}==null)?$P{DEFAULT_SPACE}:$P{NEED_DATE_IN_REPORT}.toString()]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="45"
+						width="1023"
+						height="18"
+						forecolor="#000000"
+						key="textField-113"/>
+					<box></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["за период с: "+(($P{DATE_BEG}==null||$P{DATE_BEG}=="")?"________":$P{DATE_BEG}) +" г. по "+(($P{DATE_END}==null||$P{DATE_END}=="")?"________":$P{DATE_END})+" г."]]></textFieldExpression>
+				</textField>
+			</band>
+		</title>
+		<pageHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageHeader>
+		<columnHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnHeader>
+		<detail>
+			<band height="17"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="28"
+						y="0"
+						width="210"
+						height="17"
+						key="textField"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{NAME_SERVICE_PLACE}==null)?$P{DEFAULT_SPACE}:$F{NAME_SERVICE_PLACE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="0"
+						width="28"
+						height="17"
+						key="textField-19"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.Integer"><![CDATA[$V{counter_general}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="859"
+						y="0"
+						width="82"
+						height="17"
+						key="textField-242"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_SHARE_FEE_CHANGE})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="463"
+						y="0"
+						width="75"
+						height="17"
+						key="textField-245"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_CHANGE_TO_SHARE_ACCOUNT})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="941"
+						y="0"
+						width="82"
+						height="17"
+						key="textField-248"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_TRANSFER_TO_SOCIETY})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="238"
+						y="0"
+						width="75"
+						height="17"
+						key="textField-277"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_SHARE_FEE_CASH})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="313"
+						y="0"
+						width="75"
+						height="17"
+						key="textField-278"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_SHARE_FEE_CARD})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="388"
+						y="0"
+						width="75"
+						height="17"
+						key="textField-284"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_SHARE_FEE_ROBOKASSA})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="776"
+						y="0"
+						width="82"
+						height="17"
+						key="textField-304"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_MTF_FOR_GOODS_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="695"
+						y="0"
+						width="82"
+						height="17"
+						key="textField-308"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_MTF_ORDER_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="538"
+						y="0"
+						width="75"
+						height="17"
+						key="textField-327"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_MEMBERSHIP_FEE_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="613"
+						y="0"
+						width="82"
+						height="17"
+						key="textField-328"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_MTF_PERIOD_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
+				</textField>
+			</band>
+		</detail>
+		<columnFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnFooter>
+		<pageFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageFooter>
+		<summary>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</summary>
+</jasperReport>

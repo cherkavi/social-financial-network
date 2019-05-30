@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!-- Created with iReport - A designer for JasperReports -->
+<!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport
+		 name="sp_det_bank_card"
+		 columnCount="1"
+		 printOrder="Vertical"
+		 orientation="Landscape"
+		 pageWidth="1125"
+		 pageHeight="595"
+		 columnWidth="1085"
+		 columnSpacing="0"
+		 leftMargin="20"
+		 rightMargin="20"
+		 topMargin="20"
+		 bottomMargin="20"
+		 whenNoDataType="AllSectionsNoDetail"
+		 isTitleNewPage="false"
+		 isSummaryNewPage="false">
+	<property name="ireport.scriptlethandling" value="0" />
+	<property name="ireport.encoding" value="UTF-8" />
+	<import value="java.util.*" />
+	<import value="net.sf.jasperreports.engine.*" />
+	<import value="net.sf.jasperreports.engine.data.*" />
+
+	<parameter name="DATE_BEG" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DATE_END" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="DEFAULT_SPACE" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ID_DEALER" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="NEED_DATE_IN_REPORT" isForPrompting="false" class="java.lang.String"/>
+	<queryString><![CDATA[SELECT 
+       a.id_bank, 
+       a.name_bank, 
+       a.id_dealer, 
+       a.name_dealer, 
+       a.id_term,
+       a.cd_card1, 
+       a.sys_date, 
+       a.opr_sum_frmt, -- сумма операций в гривнах
+       a.opr_sum/100 opr_sum, -- 
+       a.sum_pay_cash_frmt,  -- сумма оплаты наличными
+       a.sum_pay_cash/100 sum_pay_cash, --
+       a.sum_pay_card_frmt,  -- сумма оплаты безналичными
+       a.sum_pay_card/100 sum_pay_card,  --
+       a.sum_pay_bon_frmt, -- использовано бонов
+       a.sum_pay_bon/100 sum_pay_bon, --
+       a.sum_bon_frmt,  -- насчитано бонов 
+       a.sum_bon/100 sum_bon,  -- 
+       a.sum_disc_frmt,  -- насчитано дисконта
+       a.sum_disc/100 sum_disc  -- 
+  FROM vc_trans_ok_short_all a]]></queryString>
+
+	<field name="SELLER_ID_JUR_PRS" class="java.math.BigDecimal"/>
+	<field name="SELLER_SNAME_JUR_PRS" class="java.lang.String"/>
+	<field name="CD_CARD1" class="java.lang.String"/>
+	<field name="DATE_CARD_SALE" class="java.lang.String"/>
+	<field name="FIO_NAT_PRS" class="java.lang.String"/>
+	<field name="PHONE_MOBILE" class="java.lang.String"/>
+	<field name="MEMBERSHIP_MONTH_SUM" class="java.lang.String"/>
+	<field name="MEMBERSHIP_LAST_DATE" class="java.lang.String"/>
+	<field name="TOTAL_AMOUNT_CARD_SALE" class="java.lang.String"/>
+	<field name="NAME_NAT_PRS_ROLE_STATE" class="java.lang.String"/>
+	<field name="REFERRAL_CD_CARD1" class="java.lang.String"/>
+	<field name="REFERRAL_FIO_NAT_PRS" class="java.lang.String"/>
+	<field name="SELLER_FIO_NAT_PRS" class="java.lang.String"/>
+
+	<variable name="counter_general" class="java.lang.Integer" resetType="Report" calculation="Count">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_dealer" class="java.lang.Integer" resetType="Group" resetGroup="Dealer" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+	<variable name="count_all" class="java.lang.Integer" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
+		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
+	</variable>
+
+		<group  name="Dealer" >
+			<groupExpression><![CDATA[$F{SELLER_ID_JUR_PRS}.toString()]]></groupExpression>
+			<groupHeader>
+			<band height="92"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="123"
+						y="0"
+						width="910"
+						height="15"
+						key="textField"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{SELLER_SNAME_JUR_PRS}==null)?$P{DEFAULT_SPACE}:$F{SELLER_SNAME_JUR_PRS}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="0"
+						y="0"
+						width="123"
+						height="15"
+						forecolor="#000000"
+						key="staticText-18"/>
+					<box leftPadding="2" rightPadding="2"></box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA[Торговый Партнер:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="28"
+						y="15"
+						width="68"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-7"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Дата продажи"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="445"
+						y="15"
+						width="68"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-8"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Членский взнос оплачен до"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="15"
+						width="28"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-18"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["№"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="28"
+						y="77"
+						width="68"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-194"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["2"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="445"
+						y="77"
+						width="68"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-195"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["7"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="77"
+						width="28"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-196"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["1"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="246"
+						y="15"
+						width="70"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-203"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Моб.телефон"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="246"
+						y="77"
+						width="70"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-204"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["4"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="396"
+						y="15"
+						width="49"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-208"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Членский взнос, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="396"
+						y="77"
+						width="49"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-211"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["6"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="513"
+						y="15"
+						width="57"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-212"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма, за которую продана карта, руб."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="513"
+						y="77"
+						width="57"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-213"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["8"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="316"
+						y="15"
+						width="80"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-226"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Кассира пайщика"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="316"
+						y="77"
+						width="80"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-227"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["5"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="96"
+						y="15"
+						width="150"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-237"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["ФИО пайщика"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="96"
+						y="77"
+						width="150"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-238"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["3"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="570"
+						y="15"
+						width="92"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-240"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Обработана ли анкета"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="570"
+						y="77"
+						width="92"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-241"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["9"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="662"
+						y="15"
+						width="71"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-242"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Карта реферала"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="662"
+						y="77"
+						width="71"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-243"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["10"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="733"
+						y="15"
+						width="150"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-244"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["ФИО реферала"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="733"
+						y="77"
+						width="150"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-245"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["11"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="883"
+						y="15"
+						width="150"
+						height="62"
+						backcolor="#F0EFEF"
+						key="textField-246"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Кто внес анкету"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="883"
+						y="77"
+						width="150"
+						height="15"
+						backcolor="#F0EFEF"
+						key="textField-247"/>
+					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["12"]]></textFieldExpression>
+				</textField>
+			</band>
+			</groupHeader>
+			<groupFooter>
+			<band height="15"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="0"
+						width="1033"
+						height="15"
+						backcolor="#F5F4F4"
+						key="textField-89"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isItalic="false" isUnderline="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Всего операций по Торговому Партнеру "+(($F{SELLER_SNAME_JUR_PRS}==null)?$P{DEFAULT_SPACE}:$F{SELLER_SNAME_JUR_PRS}) + ": " + $V{count_dealer}]]></textFieldExpression>
+				</textField>
+			</band>
+			</groupFooter>
+		</group>
+		<background>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</background>
+		<title>
+			<band height="72"  isSplitAllowed="true" >
+				<staticText>
+					<reportElement
+						x="96"
+						y="0"
+						width="787"
+						height="15"
+						key="staticText-1"/>
+					<box></box>
+					<textElement textAlignment="Center">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA["Сетевая модель паевого учета"]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="0"
+						y="15"
+						width="1033"
+						height="39"
+						key="staticText-2"/>
+					<box></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="14" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<text><![CDATA["О6.0 Реестр выданных Карт СМПУ"]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="883"
+						y="0"
+						width="150"
+						height="15"
+						key="textField-24"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($P{NEED_DATE_IN_REPORT}==null)?$P{DEFAULT_SPACE}:$P{NEED_DATE_IN_REPORT}.toString()]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="54"
+						width="1033"
+						height="18"
+						forecolor="#000000"
+						key="textField-113"/>
+					<box></box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["за период с: "+(($P{DATE_BEG}==null||$P{DATE_BEG}=="")?"________":$P{DATE_BEG}) +" г. по "+(($P{DATE_END}==null||$P{DATE_END}=="")?"________":$P{DATE_END})+" г."]]></textFieldExpression>
+				</textField>
+			</band>
+		</title>
+		<pageHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageHeader>
+		<columnHeader>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnHeader>
+		<detail>
+			<band height="15"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="445"
+						y="0"
+						width="68"
+						height="15"
+						key="textField"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{MEMBERSHIP_LAST_DATE}==null)?$P{DEFAULT_SPACE}:$F{MEMBERSHIP_LAST_DATE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="28"
+						y="0"
+						width="68"
+						height="15"
+						key="textField"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{DATE_CARD_SALE}==null)?$P{DEFAULT_SPACE}:$F{DATE_CARD_SALE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="0"
+						y="0"
+						width="28"
+						height="15"
+						key="textField-19"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Center">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.Integer"><![CDATA[$V{counter_general}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="246"
+						y="0"
+						width="70"
+						height="15"
+						key="textField-205"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{PHONE_MOBILE}==null)?$P{DEFAULT_SPACE}:$F{PHONE_MOBILE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="396"
+						y="0"
+						width="49"
+						height="15"
+						key="textField-220"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{MEMBERSHIP_MONTH_SUM}==null)?$P{DEFAULT_SPACE}:$F{MEMBERSHIP_MONTH_SUM}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="513"
+						y="0"
+						width="57"
+						height="15"
+						key="textField-221"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Right">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{TOTAL_AMOUNT_CARD_SALE}==null)?$P{DEFAULT_SPACE}:$F{TOTAL_AMOUNT_CARD_SALE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="316"
+						y="0"
+						width="80"
+						height="15"
+						key="textField-228"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{CD_CARD1}==null)?$P{DEFAULT_SPACE}:$F{CD_CARD1}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="96"
+						y="0"
+						width="150"
+						height="15"
+						key="textField-239"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{FIO_NAT_PRS}==null)?$P{DEFAULT_SPACE}:$F{FIO_NAT_PRS}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="570"
+						y="0"
+						width="92"
+						height="15"
+						key="textField-248"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{NAME_NAT_PRS_ROLE_STATE}==null)?$P{DEFAULT_SPACE}:$F{NAME_NAT_PRS_ROLE_STATE}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="662"
+						y="0"
+						width="71"
+						height="15"
+						key="textField-249"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{REFERRAL_CD_CARD1}==null)?$P{DEFAULT_SPACE}:$F{REFERRAL_CD_CARD1}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="733"
+						y="0"
+						width="150"
+						height="15"
+						key="textField-250"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{REFERRAL_FIO_NAT_PRS}==null)?$P{DEFAULT_SPACE}:$F{REFERRAL_FIO_NAT_PRS}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="883"
+						y="0"
+						width="150"
+						height="15"
+						key="textField-251"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2" topPadding="1" bottomPadding="1">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement>
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{SELLER_FIO_NAT_PRS}==null)?$P{DEFAULT_SPACE}:$F{SELLER_FIO_NAT_PRS}]]></textFieldExpression>
+				</textField>
+			</band>
+		</detail>
+		<columnFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnFooter>
+		<pageFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</pageFooter>
+		<summary>
+			<band height="15"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						mode="Opaque"
+						x="0"
+						y="0"
+						width="1033"
+						height="15"
+						backcolor="#F5F4F4"
+						key="textField-252"
+						stretchType="RelativeToTallestObject"/>
+					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isItalic="false" isUnderline="false" pdfEncoding ="Cp1251"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Всего операций: " + $V{count_all}]]></textFieldExpression>
+				</textField>
+			</band>
+		</summary>
+</jasperReport>
