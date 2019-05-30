@@ -1,0 +1,35 @@
+SELECT SYS_CONTEXT('bc', 'general_db_scheme') FROM dual
+
+Это префикс схемы
+
+
+Соединился под BC_REPORTS, выполнил этот запрос, получил значение
+
+Потом ВО ВСЕХ запросах и вызовах функций пакетов пишеш это значение  вместо BC_ADMIN
+
+SELECT SYS_CONTEXT('bc', 'general_db_scheme') FROM dual
+
+
+ Получаешь BC_ADMIN
+--------------------------------------------------------------
+Получить все доступные для формирования отчеты по пользователю (юр.лицу )
+select * from BC_ADMIN.vc_contact_prs_jof_reports_all WHERE id_joffice_user = 2 order by id_report;
+
+--------------------------------------------------------------
+Получить все параметры доступных для формирования отчетов пользователя
+
+select * from VC_USER_REPORTS_PARAM_ALL where id_report=5
+
+--------------------------------------------------------------
+Получение всех отчетов, которые находятся в выполнены/ошибочно-выполнены/в-процессе/новые
+select * from bc_admin.sys_reports_task
+
+--------------------------------------------------------------
+Получение всех выходных форматов отчетов
+
+SELECT lookup_code, meaning FROM vc_lookup_values WHERE name_lookup_type = 'REPORT_FORMAT' AND enabled_flag = 'Y';
+
+--------------------------------------------------------------
+Получить все возможные варианты установки в поле  sys_report_task.CD_REPORT_TASK_STATE
+SELECT cd_report_task_state, name_report_task_state FROM bc_admin.VC_REPORTS_TASK_STATE_ALL
+--------------------------------------------------------------

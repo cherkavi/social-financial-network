@@ -1,0 +1,9 @@
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+  <service>
+    <name>add_report</name>
+    <namespace>reports</namespace>
+    <serviceClass>bonclub.reports.web_service.interf.IReporter</serviceClass>
+    <implementationClass>bonclub.reports.web_service.implementation.ReporterImplementation</implementationClass>
+  </service>  
+
+</beans>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>OfficePrivatePartnerReporter</display-name>
+
+
+	<context-param>
+    	<param-name>log4jConfigLocation</param-name>
+    	<param-value>/WEB-INF/log4j.properties</param-value>
+	</context-param>
+	
+   <servlet>
+        <servlet-name>XFireServlet</servlet-name>
+         <servlet-class>org.codehaus.xfire.transport.http.XFireConfigurableServlet</servlet-class>  
+    <!-- <servlet-class>org.codehaus.xfire.transport.http.XFireServlet</servlet-class> -->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+   
+   <servlet>
+   	<display-name>StartupServlet</display-name>
+   	<servlet-name>StartupServlet</servlet-name>
+   	<servlet-class>bonclub.reports.StartupServlet</servlet-class>
+   	
+   	<init-param>
+   		<param-name>linux_path_settings</param-name>
+   		<param-value>/srv/reporter/reporter.properties</param-value>	
+   	</init-param>
+   	<init-param>
+   		<param-name>windows_path_settings</param-name>
+   		<param-value>D:\eclipse_workspace\OfficePrivatePartnerReporter\reporter.properties</param-value>	
+   	</init-param>
+	<init-param>
+		<param-name>oracle_url</param-name>
+		<param-value>jdbc:oracle:thin:@146.255.193.66:1521:demo</param-value>
+	</init-param>
+	<init-param>
+		<param-name>oracle_login</param-name>
+		<!-- 
+		<param-value>bc_demo</param-value>
+		<param-value>BC_WMUP</param-value>
+		-->
+		<param-value>bc_demo</param-value>
+	</init-param>
+	<init-param>
+		<param-name>oracle_password</param-name>
+		<param-value>wmup201501</param-value>
+	</init-param>
+	<init-param>
+		<param-name>oracle_pool_size</param-name>
+		<param-value>10</param-value>
+	</init-param>
+   	
+   	<load-on-startup>1</load-on-startup>
+   </servlet>
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>ReportDownloader</display-name>
+   	<servlet-name>ReportDownloader</servlet-name>
+   	<servlet-class>
+   	bonclub.reports.ReportDownloader</servlet-class>
+   </servlet>
+   
+
+    <servlet-mapping>
+        <servlet-name>XFireServlet</servlet-name>
+        <url-pattern>/servlet/XFireServlet/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>XFireServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>StartupServlet</servlet-name>
+    	<url-pattern>/StartupServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>ReportDownloader</servlet-name>
+    	<url-pattern>/ReportDownloader</url-pattern>
+    </servlet-mapping>
+	
+	
+</web-app>

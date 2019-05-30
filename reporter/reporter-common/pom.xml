@@ -1,0 +1,179 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>bc</groupId>
+  <artifactId>reporter-common</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>reporter-common</name>
+  <url>http://maven.apache.org</url>
+
+    <scm>
+        <connection>scm:svn:https://xp-dev.com/svn/WM_system/trunk/reporter-common</connection>
+        <developerConnection>scm:svn:https://xp-dev.com/svn/WM_system/trunk/reporter-common</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://xp-dev.com/svn/WM_system/trunk/reporter-common</url>
+    </scm>
+
+	<properties>
+		<java.version>1.6</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+
+  <!-- tests -->
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.8.2</version>
+    <scope>test</scope>
+  </dependency>
+
+  <!-- logger -->
+  <dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.15</version>
+    <exclusions>
+      <exclusion>
+        <groupId>javax.jms</groupId>
+        <artifactId>jms</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>com.sun.jdmk</groupId>
+        <artifactId>jmxtools</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>com.sun.jmx</groupId>
+        <artifactId>jmxri</artifactId>
+      </exclusion>
+    </exclusions>
+
+  </dependency>
+
+  <!-- pool connection -->
+  <dependency>
+  	<groupId>commons-pool</groupId>
+  	<artifactId>commons-pool</artifactId>
+  	<version>1.6</version>
+  </dependency>
+
+  <dependency>
+  	<groupId>commons-dbcp</groupId>
+  	<artifactId>commons-dbcp</artifactId>
+  	<version>1.4</version>
+  </dependency>
+
+  <!-- ORACLE JDBC driver -->
+  <dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc14</artifactId>
+    <version>10.2.0.4.0</version>
+  </dependency>
+
+  <!-- DB dependencies -->
+  <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>3.3.2.GA</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-annotations</artifactId>
+    <version>3.3.1.GA</version>
+  </dependency>
+
+  <dependency>
+    <groupId>com.mchange</groupId>
+    <artifactId>c3p0</artifactId>
+    <version>0.9.2</version>
+  </dependency>
+
+  <!-- general purposes -->
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.3.2</version>
+  </dependency>
+
+  <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.4</version>
+  </dependency>
+
+  <dependency>
+  	<groupId>org.codehaus.xfire</groupId>
+  	<artifactId>xfire-all</artifactId>
+  	<version>1.2.4</version>
+  </dependency>
+
+	</dependencies>
+
+  <build>
+    	<finalName>reporter-common</finalName>
+<!--
+	  <resources>
+	        <resource>
+	            <directory>src/main/resources</directory>
+	        </resource>
+	  </resources>
+-->
+	    <plugins>
+  			<!-- java compile version -->
+  			<plugin>
+  				<artifactId>maven-compiler-plugin</artifactId>
+  				<version>3.1</version>
+  				<configuration>
+  					<source>${java.version}</source>
+  					<target>${java.version}</target>
+  					<showDeprecation>true</showDeprecation>
+  					<showWarnings>true</showWarnings>
+  				</configuration>
+  			</plugin>
+
+			<!-- time stamp -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>buildnumber-maven-plugin</artifactId>
+				<version>1.0</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>create</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+				<timestampFormat>{0,date,MM/dd/yyyy hh:mm:ss a}</timestampFormat >
+				<doCheck>false</doCheck>
+				<doUpdate>false</doUpdate>
+				</configuration>
+			</plugin>
+
+			<!-- SVN revision and assemble time -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+				<archive>
+					<manifest>
+						<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+					</manifest>
+					<manifestEntries>
+						<Revision>${buildNumber}</Revision>
+						<Build-Time>${timestamp}</Build-Time>
+					</manifestEntries>
+				</archive>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+</project>
