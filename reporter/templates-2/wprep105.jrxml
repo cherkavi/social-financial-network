@@ -2,7 +2,7 @@
 <!-- Created with iReport - A designer for JasperReports -->
 <!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
 <jasperReport
-		 name="dealer_group_bank_card"
+		 name="dealer_group_cash"
 		 columnCount="1"
 		 printOrder="Vertical"
 		 orientation="Portrait"
@@ -58,7 +58,7 @@
 	<field name="ID_SERVICE_PLACE" class="java.math.BigDecimal"/>
 	<field name="NAME_SERVICE_PLACE" class="java.lang.String"/>
 	<field name="ID_TERM" class="java.math.BigDecimal"/>
-	<field name="SUM_PAY_CARD" class="java.lang.String"/>
+	<field name="SUM_PAY_CASH" class="java.lang.String"/>
 	<field name="SNAME_CURRENCY" class="java.lang.String"/>
 	<field name="CD_CURRENCY" class="java.lang.String"/>
 	<field name="AGENT_MARGIN" class="java.lang.String"/>
@@ -82,16 +82,16 @@
 		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_sp_pay_card" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CARD})/100)]]></variableExpression>
+	<variable name="sum_sp_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_dealer_pay_card" class="java.lang.Double" resetType="Group" resetGroup="Agent" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CARD})/100)]]></variableExpression>
+	<variable name="sum_dealer_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="Agent" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_all_pay_card" class="java.lang.Double" resetType="Report" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CARD})/100)]]></variableExpression>
+	<variable name="sum_all_pay_cash" class="java.lang.Double" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
 	<variable name="count_term" class="java.lang.Integer" resetType="Report" calculation="Sum">
@@ -118,8 +118,8 @@
 		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_agent_pay_card" class="java.lang.Double" resetType="Group" resetGroup="Agent" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CARD})/100)]]></variableExpression>
+	<variable name="sum_agent_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="Agent" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
 
@@ -243,7 +243,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма операций БПК за товар, руб."]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма оплаты наличными за товар, руб."]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -453,7 +453,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_sp_pay_card})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_sp_pay_cash})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -499,7 +499,7 @@
 			</band>
 		</background>
 		<title>
-			<band height="69"  isSplitAllowed="true" >
+			<band height="59"  isSplitAllowed="true" >
 				<staticText>
 					<reportElement
 						x="38"
@@ -518,13 +518,13 @@
 						x="0"
 						y="15"
 						width="535"
-						height="36"
+						height="26"
 						key="staticText-2"/>
 					<box></box>
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="14" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<text><![CDATA["Т2.2. Сводный отчет по расчетам за товар с использованием банковских платежных карточек по Торговому партнеру"]]></text>
+				<text><![CDATA["Т1.2. Сводный отчет по наличным расчетам за товар по Торговому партнеру"]]></text>
 				</staticText>
 				<textField isStretchWithOverflow="false" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -542,7 +542,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="0"
-						y="51"
+						y="41"
 						width="535"
 						height="18"
 						forecolor="#000000"
@@ -581,7 +581,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_PAY_CARD})/100)+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_PAY_CASH})/100)+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -653,7 +653,7 @@
 					<textElement>
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$F{NAME_SERVICE_PLACE}.toString()]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{NAME_SERVICE_PLACE}==null)?$P{DEFAULT_SPACE}:$F{NAME_SERVICE_PLACE}]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -737,7 +737,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_pay_card})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_pay_cash})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement

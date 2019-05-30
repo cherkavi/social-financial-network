@@ -643,7 +643,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="14" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<text><![CDATA["Т5.1. Отчет по отмененным операциям и возвратам товаров пайщиками СМПУ по пункту обслуживания"]]></text>
+				<text><![CDATA["Т5.2. Сводный отчет по отмененным операциям и возвратам товаров пайщиками СМПУ по Торговому партнеру"]]></text>
 				</staticText>
 				<textField isStretchWithOverflow="false" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -754,7 +754,7 @@
 					<textElement>
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$F{NAME_SERVICE_PLACE}.toString()]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{NAME_SERVICE_PLACE}==null)?$P{DEFAULT_SPACE}:$F{NAME_SERVICE_PLACE}]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement

@@ -59,9 +59,9 @@
 	<field name="NAME_SERVICE_PLACE" class="java.lang.String"/>
 	<field name="ID_TERM" class="java.lang.String"/>
 	<field name="CD_CARD1" class="java.lang.String"/>
-	<field name="SYS_DATE" class="java.lang.String"/>
+	<field name="DATE_TELGR" class="java.lang.String"/>
 	<field name="SUM_PAY_POINT" class="java.lang.String"/>
-	<field name="SYS_DATE_FRMT" class="java.lang.String"/>
+	<field name="DATE_TELGR_FRMT" class="java.lang.String"/>
 	<field name="SNAME_CURRENCY" class="java.lang.String"/>
 	<field name="CD_CURRENCY" class="java.lang.String"/>
 	<field name="NC_TERM" class="java.lang.String"/>
@@ -880,7 +880,7 @@
 					<textElement>
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$F{SYS_DATE_FRMT}]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$F{DATE_TELGR_FRMT}]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="##0" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement

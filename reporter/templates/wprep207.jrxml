@@ -2,7 +2,7 @@
 <!-- Created with iReport - A designer for JasperReports -->
 <!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
 <jasperReport
-		 name="sp_det_bank_card"
+		 name="sp_det_smpu_card"
 		 columnCount="1"
 		 printOrder="Vertical"
 		 orientation="Portrait"
@@ -60,52 +60,52 @@
 	<field name="ID_TERM" class="java.lang.String"/>
 	<field name="CD_CARD1" class="java.lang.String"/>
 	<field name="DATE_TELGR" class="java.lang.String"/>
-	<field name="SUM_PAY_CASH" class="java.lang.String"/>
+	<field name="SUM_PAY_POINT" class="java.lang.String"/>
 	<field name="DATE_TELGR_FRMT" class="java.lang.String"/>
 	<field name="SNAME_CURRENCY" class="java.lang.String"/>
 	<field name="CD_CURRENCY" class="java.lang.String"/>
 	<field name="NC_TERM" class="java.lang.String"/>
 	<field name="ID_AGENT" class="java.math.BigDecimal"/>
 	<field name="SNAME_AGENT" class="java.lang.String"/>
-	<field name="AGENT_MARGIN" class="java.lang.String"/>
+	<field name="SUM_POINT" class="java.lang.String"/>
 	<field name="RRN" class="java.lang.String"/>
 	<field name="CASHIER_CD_CARD1" class="java.lang.String"/>
 	<field name="CASHIER_NAME" class="java.lang.String"/>
 
-	<variable name="sum_term_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="Term" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
+	<variable name="sum_term_pay_point" class="java.lang.Double" resetType="Group" resetGroup="Term" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_term_agent_margin" class="java.lang.Double" resetType="Group" resetGroup="Term" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
+	<variable name="sum_term_point" class="java.lang.Double" resetType="Group" resetGroup="Term" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
 	<variable name="counter_general" class="java.lang.Integer" resetType="Report" calculation="Count">
 		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_dealer_agent_margin" class="java.lang.Double" resetType="Group" resetGroup="Dealer" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
+	<variable name="sum_dealer_point" class="java.lang.Double" resetType="Group" resetGroup="Dealer" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_all_agent_margin" class="java.lang.Double" resetType="Report" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
+	<variable name="sum_all_point" class="java.lang.Double" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_sp_agent_margin" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
+	<variable name="sum_sp_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_sp_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
+	<variable name="sum_sp_pay_point" class="java.lang.Double" resetType="Group" resetGroup="ServicePlace" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_dealer_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="Dealer" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
+	<variable name="sum_dealer_pay_point" class="java.lang.Double" resetType="Group" resetGroup="Dealer" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_all_pay_cash" class="java.lang.Double" resetType="Report" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
+	<variable name="sum_all_pay_point" class="java.lang.Double" resetType="Report" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
 	<variable name="count_term" class="java.lang.Integer" resetType="Group" resetGroup="Term" calculation="Sum">
@@ -132,50 +132,19 @@
 		<variableExpression><![CDATA[new Integer(1)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Integer(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_cashier_agent_margin" class="java.lang.Double" resetType="Group" resetGroup="cashier" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{AGENT_MARGIN})/100)]]></variableExpression>
+	<variable name="sum_cashier_point" class="java.lang.Double" resetType="Group" resetGroup="cashier" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
-	<variable name="sum_cashier_pay_cash" class="java.lang.Double" resetType="Group" resetGroup="cashier" calculation="Sum">
-		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_CASH})/100)]]></variableExpression>
+	<variable name="sum_cashier_pay_point" class="java.lang.Double" resetType="Group" resetGroup="cashier" calculation="Sum">
+		<variableExpression><![CDATA[new Double(Double.parseDouble($F{SUM_PAY_POINT})/100)]]></variableExpression>
 		<initialValueExpression><![CDATA[new Double(0)]]></initialValueExpression>
 	</variable>
 
 		<group  name="Agent" >
 			<groupExpression><![CDATA[$F{ID_AGENT}.toString()]]></groupExpression>
 			<groupHeader>
-			<band height="15"  isSplitAllowed="true" >
-				<staticText>
-					<reportElement
-						x="0"
-						y="0"
-						width="159"
-						height="15"
-						forecolor="#000000"
-						key="staticText-20"/>
-					<box leftPadding="2" rightPadding="2"></box>
-					<textElement textAlignment="Left" verticalAlignment="Middle">
-						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="false" pdfEncoding ="Cp1251"/>
-					</textElement>
-				<text><![CDATA[Агент:]]></text>
-				</staticText>
-				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
-					<reportElement
-						x="159"
-						y="0"
-						width="394"
-						height="15"
-						key="textField-236"/>
-					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.0"/>
-					<leftPen lineWidth="0.0"/>
-					<bottomPen lineWidth="0.0"/>
-					<rightPen lineWidth="0.0"/>
-</box>
-					<textElement textAlignment="Left" verticalAlignment="Middle">
-						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" pdfEncoding ="Cp1251"/>
-					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[($F{SNAME_AGENT}==null)?$P{DEFAULT_SPACE}:$F{SNAME_AGENT}]]></textFieldExpression>
-				</textField>
+			<band height="0"  isSplitAllowed="true" >
 			</band>
 			</groupHeader>
 			<groupFooter>
@@ -228,7 +197,7 @@
 		<group  name="ServicePlace" >
 			<groupExpression><![CDATA[$F{ID_AGENT}.toString()+"."+$F{ID_DEALER}.toString()+"."+$F{ID_SERVICE_PLACE}.toString()]]></groupExpression>
 			<groupHeader>
-			<band height="92"  isSplitAllowed="true" >
+			<band height="103"  isSplitAllowed="true" >
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="159"
@@ -265,7 +234,7 @@
 						x="159"
 						y="15"
 						width="95"
-						height="62"
+						height="73"
 						key="textField-7"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -282,7 +251,7 @@
 						x="303"
 						y="15"
 						width="83"
-						height="62"
+						height="73"
 						key="textField-8"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -299,7 +268,7 @@
 						x="0"
 						y="15"
 						width="28"
-						height="62"
+						height="73"
 						key="textField-18"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -314,7 +283,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="159"
-						y="77"
+						y="88"
 						width="95"
 						height="15"
 						key="textField-194"/>
@@ -331,7 +300,7 @@
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="303"
-						y="77"
+						y="88"
 						width="83"
 						height="15"
 						key="textField-195"/>
@@ -348,7 +317,7 @@
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="0"
-						y="77"
+						y="88"
 						width="28"
 						height="15"
 						key="textField-196"/>
@@ -367,7 +336,7 @@
 						x="28"
 						y="15"
 						width="53"
-						height="62"
+						height="73"
 						key="textField-203"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -382,7 +351,7 @@
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="28"
-						y="77"
+						y="88"
 						width="53"
 						height="15"
 						key="textField-204"/>
@@ -401,7 +370,7 @@
 						x="446"
 						y="15"
 						width="52"
-						height="62"
+						height="73"
 						key="textField-206"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -411,14 +380,14 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA["Вознаграждение агента, руб."]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Начисленно баллов пайщику за платеж картой СМПУ балл"]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="386"
 						y="15"
 						width="60"
-						height="62"
+						height="73"
 						key="textField-207"/>
 					<box leftPadding="2" rightPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -428,14 +397,14 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма оплаты наличными за товар, руб."]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA["Сумма оплаты за товар картой СМПУ руб."]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="254"
 						y="15"
 						width="49"
-						height="62"
+						height="73"
 						key="textField-208"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -450,7 +419,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="446"
-						y="77"
+						y="88"
 						width="52"
 						height="15"
 						key="textField-209"/>
@@ -467,7 +436,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="386"
-						y="77"
+						y="88"
 						width="60"
 						height="15"
 						key="textField-210"/>
@@ -484,7 +453,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="254"
-						y="77"
+						y="88"
 						width="49"
 						height="15"
 						key="textField-211"/>
@@ -503,7 +472,7 @@
 						x="498"
 						y="15"
 						width="55"
-						height="62"
+						height="73"
 						key="textField-212"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -518,7 +487,7 @@
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="498"
-						y="77"
+						y="88"
 						width="55"
 						height="15"
 						key="textField-213"/>
@@ -537,7 +506,7 @@
 						x="81"
 						y="15"
 						width="78"
-						height="62"
+						height="73"
 						key="textField-226"/>
 					<box leftPadding="2" rightPadding="2" topPadding="2" bottomPadding="2">					<topPen lineWidth="0.25"/>
 					<leftPen lineWidth="0.25"/>
@@ -552,7 +521,7 @@
 				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="81"
-						y="77"
+						y="88"
 						width="78"
 						height="15"
 						key="textField-227"/>
@@ -633,7 +602,7 @@
 					<textElement textAlignment="Right" verticalAlignment="Top">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_term_pay_cash})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_term_pay_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -651,7 +620,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_term_agent_margin})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_term_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -734,7 +703,7 @@
 					<textElement textAlignment="Right" verticalAlignment="Top">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_cashier_pay_cash})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_cashier_pay_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -752,7 +721,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_cashier_agent_margin})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_cashier_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -780,7 +749,7 @@
 			</band>
 		</background>
 		<title>
-			<band height="53"  isSplitAllowed="true" >
+			<band height="72"  isSplitAllowed="true" >
 				<staticText>
 					<reportElement
 						x="81"
@@ -799,13 +768,13 @@
 						x="0"
 						y="15"
 						width="553"
-						height="20"
+						height="39"
 						key="staticText-2"/>
 					<box></box>
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="14" isBold="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<text><![CDATA["Т1.1. Отчет по наличным расчетам за товар по пункту обслуживания"]]></text>
+				<text><![CDATA["О3.1. Отчет по приобретению товаров с использованием карт СМПУ по Пункту обслуживания"]]></text>
 				</staticText>
 				<textField isStretchWithOverflow="false" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -823,7 +792,7 @@
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						x="0"
-						y="35"
+						y="54"
 						width="553"
 						height="18"
 						forecolor="#000000"
@@ -934,7 +903,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_PAY_CASH})/100)+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_PAY_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -952,7 +921,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="8" isBold="false" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{AGENT_MARGIN})/100)+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format(Double.parseDouble($F{SUM_POINT})/100)+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="dd.MM.yyyy" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -1054,7 +1023,7 @@
 					<textElement textAlignment="Right" verticalAlignment="Top">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_pay_cash})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_pay_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="#0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
@@ -1072,7 +1041,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="Times New Roman" pdfFontName="tahomabd.ttf" size="10" isBold="true" isPdfEmbedded ="true" pdfEncoding ="Cp1251"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_agent_margin})+"").replace(".",",")]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[(new DecimalFormat("#0.00").format($V{sum_all_point})+"").replace(".",",")]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="true" pattern="##0.00" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
