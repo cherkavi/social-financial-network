@@ -1,0 +1,20 @@
+1) - создать Dynamic Web Project
+2) - создать интерфейс ( TransactionAware )
+	2.1) - создать транзакционный объект ( BookkeepingTransactionItem implements Serializable )
+3) - для оригинального файла-конфигурации ( WebServiceToJdbc_generator ) изменяем только один параметр 
+	( задаем полный путь к файлу-интерфейсу )
+	<bean id="path_to_interface" class="java.lang.String">
+		<constructor-arg><value>D:\eclipse_workspace\TestWeb2\src\com\nmtg\office_private\interf\TransactionAware.java</value></constructor-arg>
+	</bean>
+4) - Созданные файлы после запуска ua.com.nmtg.private_office.web_service.EnterPointService
+	web.xml
+		скопировать в WEB-INF/web.xml
+		создать файл META-INF/context.xml (jndi: jdbc/data_source)
+	TransactionAware_WS.java
+		создать подкаталог "service" в пакете интерфейса, скопировать 
+	TransactionAware_Proxy.java
+		скопировать в каталог интерфейса
+		скопировать имплементацию из Bookkeeping 
+	TransactionAware_Proxy.php
+		файл-прослойка по работе на PHP стороне 
+	

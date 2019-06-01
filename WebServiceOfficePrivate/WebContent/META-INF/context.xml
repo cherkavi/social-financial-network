@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource name="jdbc/data_source" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="bc_office" 
+              password="office"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@91.195.53.27:1521:demo"
+              maxActive="10" 
+              maxIdle="4"/>
+</Context>

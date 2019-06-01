@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<beans xmlns="http://www.springframework.org/schema/beans"	
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	      xmlns:jaxws="http://cxf.apache.org/jaxws"	
+	      xsi:schemaLocation="http://www.springframework.org/schema/beans	
+			http://www.springframework.org/schema/beans/spring-beans.xsd	
+			http://cxf.apache.org/jaxws	
+			http://cxf.apache.org/schemas/jaxws.xsd">	
+		
+	  <import resource="classpath:META-INF/cxf/cxf.xml" />	
+	  <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>	
+	  <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />	
+		
+	  <jaxws:endpoint id="ibookkeeping"	
+	                  implementor="bonclub.office_private.web_service.IBookkeeping_WS"	
+	                  address="/ibookkeeping"/>	
+
+	  <jaxws:endpoint id="ieventnotifier"	
+	                  implementor="bonclub.office_private.web_service.IEventNotifier_WS"	
+	                  address="/ieventnotifier"/>	
+		
+	  <jaxws:endpoint id="imessagefromparent"	
+	                  implementor="bonclub.office_private.web_service.IMessageFromParent_WS"	
+	                  address="/imessagefromparent"/>	
+
+	  <jaxws:endpoint id="iratings"	
+	                  implementor="bonclub.office_private.web_service.IRatings_WS"	
+	                  address="/iratings"/>	
+
+	  <jaxws:endpoint id="iregistration"	
+	                  implementor="bonclub.office_private.web_service.IRegistration_WS"	
+	                  address="/iregistration"/>	
+
+	  <jaxws:endpoint id="iusersparent"	
+	                  implementor="bonclub.office_private.web_service.IUsersParent_WS"	
+	                  address="/iusersparent"/>	
+	                  
+	  <jaxws:endpoint id="iaccountsuperbon"	
+	                  implementor="bonclub.office_private.web_service.IAccountSuperBon_WS"	
+	                  address="/iaccountsuperbon"/>	
+
+	  <jaxws:endpoint id="icommodityinformation"	
+	                  implementor="bonclub.office_private.web_service.ICommodityInformation_WS"	
+	                  address="/icommodityinformation"/>	
+
+	  <jaxws:endpoint id="iaccountibon"	
+	                  implementor="bonclub.office_private.web_service.IAccountIbon_WS"	
+	                  address="/iaccountibon"/>	
+
+</beans>	
