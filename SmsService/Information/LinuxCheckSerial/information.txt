@@ -1,0 +1,2 @@
+check available Serial Ports:
+	dmesg | grep tty

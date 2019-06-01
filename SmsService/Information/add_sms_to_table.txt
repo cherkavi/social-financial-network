@@ -1,0 +1,27 @@
+ƒл€ установки SMS в базу, необходимы пол€ дл€ заполнени€
+“аблица, в которой находитс€ SMS: 
+D_DS_SMS
+
+CD_SMS_MESSAGE_TYPE='SEND'
+RECIPIENT='+380*********'
+TEXT_MESSAGE='hello from message service'
+ID_SEND_STATUS=0
+SEND_STATUS_DATE=CURRENT_DATE -- врем€ установки статуса
+REPEAT_COUNT=3
+ARCHIV=0
+ACTION_DATE=CURRENT_DATE -- дата создани€ сообщени€
+
+
+D_DS_SMS
+ID_SEND_STATUS=0
+ID_DELIV_STATUS=0
+ARCHIV=0
+
+
+	private int idDelivStatus;
+	@Column(name="DELIV_STATUS_DATE")
+	private Date delivStatusDate;
+	@Column(name="REPEAT_COUNT")
+	private Integer repeatCount;
+	@Column(name="ARCHIV")
+	private int archiv;

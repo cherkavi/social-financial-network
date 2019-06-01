@@ -1,0 +1,8 @@
+copy libLinuxSerialParallel.so to /usr/lib/
+copy javax.comm.properties to [JDK-directory]/jre/lib/
+copy comm.jar to [JDK-directory]/lib/
+
+
+javax.comm.properties
+# Implementation specific driver
+driver=com.sun.comm.LinuxDriver

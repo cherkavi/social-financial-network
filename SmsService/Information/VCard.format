@@ -1,0 +1,36 @@
+//SCKL23F4 BEGIN:VCARD
+N:John Doe
+TEL:+31647134225
+END:VCARD
+
+
+[19:06:11] Vitaliy: //SCKE2 BEGIN:VCARD
+VERSION:2.1
+N: Esimerkki Erkki
+TEL:+358401234567
+END: VCARD
+
+
+[19:06:20] Vitaliy: BEGIN:VCARD
+VERSION:2.1
+N:Smith;Paul
+BDAY:19770304
+END:VCARD
+
+
+
+[19:18:08] Vitaliy: BEGIN:VCARD
+VERSION:2.1
+N:family name;given name
+TEL;VOICE;HOME:home landline phone number
+TEL;VOICE;WORK:work landline phone number
+TEL;CELL:mobile phone number
+TEL;CELL;WORK:work mobile phone number
+TEL;FAX:fax number
+EMAIL:e-mail address
+URL:homepage address
+BDAY:date of birthday
+NOTE:note text
+END:VCARD
+
+http://www.ozekisms.com/index.php?owpn=253

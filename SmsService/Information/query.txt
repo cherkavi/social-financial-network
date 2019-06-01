@@ -1,0 +1,328 @@
+Новые функции:
+
+
+PACK_BC_SMS_SEND
+/*
+   Фукнція повертає параметри профіля за його серійним номером
+*/
+FUNCTION get_profile_param(
+     p_device_serial_number IN VARCHAR2			-- 2: Серийный номер устройства
+    ,p_id_sms_profile OUT NUMBER				-- 3: ИД профиля
+    ,p_cd_profile_state OUT VARCHAR2			-- 4: Код состояния профиля
+    ,p_max_send_repeat_count OUT NUMBER			-- 5: Максимальное поличество повторов
+    ,p_delay_message_msec OUT NUMBER			-- 6: Задержка отправки
+    ,p_max_delivery_time_sec OUT NUMBER			-- 7: Максимальное время ожидания подтверждения
+	,p_check_new_messages_time_msec OUT NUMBER  -- 8: Время, через которое база данных будет опрошена на наличие сообщений на отправку
+    ,p_analyse_old_messages_time_ms OUT NUMBER  -- 9: Время, через которое будет вызвана процедура по анализу устаревших сообщений	
+    ,p_error_msg OUT VARCHAR2					--10: сообщение про ошибку 
+) RETURN VARCHAR2  							-- 1:
+
+
+
+/*
+   Фукнція додає SMS-повідомлення
+*/
+FUNCTION add_sms(
+     p_recepient IN VARCHAR2            -- 2: Отримувач
+    ,p_cd_sms_message_type IN VARCHAR2  -- 3: Тип повідомлення
+					--   SEND - вихідне повідомлення
+					--   RECEIVE - прийняте повідомлення
+					--   CALL_IN - вхідний дзвінок
+					--   CALL_OUT - вихідний дзвінок
+    ,p_text_message IN VARCHAR2         -- 4: Повідомлення 
+    ,p_id_sms_profile IN NUMBER         -- 5: ІД профіля
+    ,p_id_sms_message OUT NUMBER        -- 6: ІД збереженого повідомлення
+    ,p_error_msg OUT VARCHAR2           -- 7: 
+) RETURN VARCHAR2                       -- 1: 
+
+
+
+
+/*
+   Фукнція додає інформацію про відсилання повідомлення
+*/
+FUNCTION add_sms_action(
+     p_id_sms_message IN NUMBER         -- 2: ІД сообщения
+    ,p_recepient IN VARCHAR2            -- 3: Отримувач
+    ,p_text_message IN VARCHAR2         -- 4: Повідомлення
+    ,p_id_send_status IN NUMBER         -- 5: ІД статусу отримання повідомлення /**   select * from bc_admin.vc_ds_sms_state_all   */
+    ,p_error_message IN VARCHAR2        -- 6: Повідомлення про помилку
+    ,p_id_sms_profile IN NUMBER         -- 7: ІД профіля SMS
+    ,p_id_sms_action OUT NUMBER         -- 8: ІД результату відсилання повідомлення
+    ,p_result_msg OUT VARCHAR2			-- 9: результирующее сообщение 
+) RETURN VARCHAR2;                      -- 1: возвращаемое значение 
+
+
+Состояния отправки
+vc_ds_sms_send_status
+   id_send_status,  -- Код состояния полученного сообщения
+   name_send_status  -- Название состояния отправки
+
+/*
+   Фукнція змінює інформацію про відсилання повідомлення
+*/
+FUNCTION update_sms_action_state(
+     p_id_sms_action IN NUMBER			-- полученный из add_sms_action[8] код данного Action
+    ,p_id_send_status IN NUMBER         -- ІД статусу отримання повідомлення
+    ,p_refno IN NUMBER                  -- REFNO
+    ,p_error_message IN VARCHAR2        -- Повідомлення про помилку
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2;
+
+/*
+   Фукнція змінює інформацію про відсилання повідомлення за REFNO
+*/
+FUNCTION update_sms_action_for_refno(
+     p_id_sms_profile IN NUMBER         -- ІД профіля SMS
+    ,p_recepient IN VARCHAR2            -- телефон
+    ,p_refno IN NUMBER                  -- REFNO
+    ,p_id_deliv_status IN NUMBER        -- Статус доставки
+    ,p_error_message IN VARCHAR2        -- Повідомлення про помилку
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2
+
+/*
+   Фукнція переводить всі повідоалення зі стану IN_PROCESS в стан NEW
+*/
+FUNCTION sms_state_reset(
+     p_id_sms_profile IN NUMBER         -- ІД профіля SMS
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2;
+
+/*
+   Фукнція переводить всі повідоалення зі стану IN_PROCESS в стан NEW
+*/
+FUNCTION check_max_delivery_time(
+     p_id_sms_profile IN NUMBER         -- ІД профіля SMS
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2;
+
+--------------------------------------------------------------
+Есть таблица с сообщениями (MESSAGE), и к этим сообщениям есть действия (ACTION) по этому сообщению.
+
+-- Состояние профиля
+vc_ds_profile_state_all
+   cd_profile_state,		-- Код состояния профиля
+   name_profile_state,		-- Название состояния профиля
+ACTIVE
+INACTIVE
+
+-- 1. Профиль SMS (ИНФОРМАЦИОННО. Для получения параметров профиля использовать
+                   функцию get_profile_param пакета PACK_BC_SMS)
+vc_ds_sms_profile_all
+   id_sms_profile,		-- ИД профиля
+   name_sms_profile,		-- Названия профиля
+   desc_sms_profile,		-- Описание профиля
+   cd_profile_state,		-- Код состояния профиля
+   name_profile_state,		-- Название состояния профиля
+   device_serial_number,	-- Серийный номер устройства
+   name_sms_device_type,	-- Название устройства
+   mobile_operator,		-- Оператор связи
+   phone_mobile,		-- Мобильный оператор
+   max_send_repeat_count,	-- Максимальное поличество повторов
+   delay_message_msec,		-- Задержка отправки
+   max_delivery_time_sec	-- Максимальное время ожидания подтверждения
+
+-- !!!ВАЖНО. Активными являются профили с cd_profile_state=ACTIVE
+
+-- 2. Сообщения
+ vc_ds_sms_all, 		-- ВСЕ
+ vc_ds_sms_new_all 		-- ТОЛЬКО ТЕ, КОТОРЫЕ НУЖНО ОТПРАВИТЬ
+   id_sms_message,		-- ИД сообщения
+   begin_action_date,		-- Дата начала действия
+   begin_action_date_frmt,	-- Дата начала действия (форматировано)
+   cd_sms_message_type,		-- Код типа сообщения
+   name_sms_message_type,	-- Название типа сообщения
+   cd_sms_state,		-- Код состояния сообщения
+   name_sms_state,		-- Название состояния сообщения
+   recepient,			-- Получатель
+   text_message,		-- Текст сообщения
+   event_date,			-- Дата события (отправки, получения и т.д)
+   event_date_frmt,		-- Дата события (форматировано)
+   refno_input,			-- REFNO входящий
+   repeat_count,		-- Количество повторов
+   id_sms_profile,		-- ИД профиля
+
+-- Состояния сообщения ( DELETED )
+vc_ds_sms_state_all
+   cd_sms_state,		-- Код состояния сообщения
+   name_sms_state		-- Название состояния сообщения
+PREPARED
+NEW
+IN_PROCESS
+DELIVERED
+ERROR
+RECEIVED
+
+
+-- 3. Действия по отправке
+vc_ds_sms_action_all
+   id_sms_action,		-- ИД действия
+   id_sms_message,		-- ИД сообщения
+   recepient,			-- Получатель
+   text_message,		-- Текст сообщения
+   id_send_status,		-- Код состояния отправки
+   name_send_status,		-- Название состояния отправки
+   send_status_date,		-- Дата отправки
+   send_status_date_frmt,	-- Дата отправки (форматировано)
+   refno_output,		-- REFNO отправки
+   error_message		-- Сообщение об ошибке
+
+-- Состояния отправки
+vc_ds_sms_send_status
+   id_send_status,		-- Код состояния отправки
+   name_send_status		-- Название состояния отправки
+0  Нове
+1  Взяте до відсилання
+2  Відіслано
+3  Очікування підтвердження
+4  Не доставлено
+-1 Готове до відправлення
+
+
+-- Тип сообщения
+vc_ds_sms_type
+   cd_sms_message_type,		-- Код типа сообщения
+   name_sms_message_type        -- Название типа сообщения
+CALL_IN
+CALL_OUT
+RECEIVE
+SEND
+
+-------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------
+BC_ADMIN.
+/*
+   Фукнція повертає параметри профіля за його серійним номером
+*/
+FUNCTION PACK_BC_SMS.get_profile_param(
+     p_device_serial_number IN VARCHAR2		-- Серийный номер устройства
+    ,p_id_sms_profile OUT NUMBER		-- ИД профиля (уникальный идентификатор)
+    ,p_cd_profile_state OUT VARCHAR2		-- Код состояния профиля ()
+    ,p_max_send_repeat_count OUT NUMBER		-- Максимальное поличество повторов
+    ,p_delay_message_msec OUT NUMBER		-- Задержка отправки
+    ,p_max_delivery_time_sec OUT NUMBER		-- Максимальное время ожидания подтверждения
+    ,p_error_msg OUT VARCHAR2			
+) RETURN VARCHAR2
+
+
+/*
+   Фукнція додає SMS-повідомлення
+*/
+FUNCTION PACK_BC_SMS.add_sms(
+     p_id_nat_prs IN NUMBER             -- 1 ІД клієнта
+    ,p_recepient IN VARCHAR2            -- 2 Отримувач
+    ,p_cd_sms_message_type IN VARCHAR2  -- 3 Тип повідомлення
+					--   SEND - вихідне повідомлення
+					--   RECEIVE - прийняте повідомлення
+					--   CALL_IN - вхідний дзвінок
+					--   CALL_OUT - вихідний дзвінок
+    ,p_text_message IN VARCHAR2         -- 4 Повідомлення 
+    ,p_begin_action_date IN DATE        -- 5 Дата початку дії
+    ,p_cd_sms_state IN VARCHAR2         -- 6 Стан повідомлення (для типу повідомлення RECEIVE і CALL_IN завжди буде встановлено в RECEIVED,
+					--		      решта станів описана в vc_ds_sms_state_all)
+    ,p_id_sms_profile IN NUMBER         -- 7 ІД профіля
+    ,p_id_sms_message OUT NUMBER        -- 8 ІД збереженого повідомлення
+    ,p_error_msg OUT VARCHAR2           -- 9 текст ошибки 
+) RETURN VARCHAR2
+
+CALL_IN
+CALL_OUT
+RECEIVE
+SEND
+
+/*
+   Фукнція додає інформацію про відсилання повідомлення
+состояния, в которых находятся в данный момент сообщения
+*/
+FUNCTION PACK_BC_SMS.add_sms_action(
+     p_id_sms_message IN NUMBER         -- ІД сообщения
+    ,p_recepient IN VARCHAR2            -- Отримувач
+    ,p_text_message IN VARCHAR2         -- Повідомлення
+    ,p_id_send_status IN NUMBER         -- ІД статусу отримання повідомлення ()
+    ,p_refno_output IN VARCHAR2         -- REFNO
+    ,p_error_message IN VARCHAR2        -- Повідомлення про помилку
+    ,p_id_sms_action OUT NUMBER         -- ІД результату відсилання повідомлення
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2;
+
+
+/*
+   Фукнція змінює інформацію про відсилання повідомлення
+*/
+FUNCTION PACK_BC_SMS.update_sms_action(
+     p_id_sms_action IN NUMBER
+    ,p_id_send_status IN NUMBER         -- ІД статусу отримання повідомлення
+    ,p_refno_output IN VARCHAR2         -- REFNO
+    ,p_error_message IN VARCHAR2        -- Повідомлення про помилку
+    ,p_result_msg OUT VARCHAR2
+) RETURN VARCHAR2;
+
+	
+
+----------------------------------------------------------
+Пожелания по работе:
+
+Статусы для сообщений:
+0 -	NEW - новое сообщение 
+1 - GET_FOR_SEND (or IN_PROCESS)- взято в процесс обработки, то есть взято для доставки по алгоритмам до модема
+2 -	SENDED - отправлено на модем
+3 -	SEND_ERROR - ошибка отправки сообщения
+4 -	DELIVERY - доставлено, пришло подтверждение от модема 
+----
+	
+убрать функцию add_sms_action, вызывать данную функцию при создании сообщения (add_sms) и давать статус NEW
+----
+
+добавить функцию (например: sms_state_reset ) которая бы переводила все статусы GET_FOR_SEND в статусы NEW
+( данная функция будет активироваться при старте программы, переведя взятые в работу сообщения 
+и не доставленные до модема)
+----
+
+Сопряжение функций JavaCode и Database:
+	/** получить сообщения из базы данных, время ожидания подтверждения для которых истекло */
+	public List<MessageOut> getOutMessageForWaitDelivery()
+	 Пример запроса для времени ожидания равного 30 минутам
+	select * from bc_admin.vc_ds_sms_all
+	where CD_SMS_STATE='IN_PROCESS'
+	and nvl2(BEGIN_ACTION_DATE,begin_action_date,sysdate-30)<sysdate-(30/1440)
+----
+Сопряжение функций JavaCode и Database:
+	/** установить для данных сообщений "взято в процесс отправки" */
+	Вызов функции
+	update_sms_action(
+		<vc_ds_sms_all.id_sms_message>,
+		2, -- GET_FOR_SEND
+		null,
+		null,
+		out VARCHAR2
+	)
+----
+Сопряжение функций JavaCode и Database:
+	/** проверить данное сообщение на установленный флаг доставки
+	 * @return 
+	 * <ul> <b>true</b> - доставлено </ul>
+	 * <ul> <b>false</b> - не доставлено </ul>
+	 *  */
+	public boolean isMessageDelivered(MessageOut element)
+	Вызов функции
+	select * from bc_admin.vc_ds_sms_all
+	where CD_SMS_STATE='DELIVERED'
+	and id_sms_message=<vc_ds_sms_all.id_sms_message>
+----
+Сопряжение функций JavaCode и Database:
+	/** по указанному сообщению не пришло подтверждение о доставке - повторить, если повторы возможны, или же записать как не доставленное */
+	public void setMessageForRepeat(MessageOut element) {
+	???
+----
+Сопряжение функций JavaCode и Database:
+	/** обработать входящее сообщение о доставке как DELIVERED подтверждение */
+	???
+	/** обработать входящее сообщение о доставке как ABORTED подтврждение */
+	???
+	/** обработать входящее сообщение о доставке как UNKNOWN подтврждение */
+	???
