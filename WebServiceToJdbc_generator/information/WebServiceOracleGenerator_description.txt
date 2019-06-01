@@ -1,0 +1,152 @@
+Последовательность действий:
+	1 - определить Oracle.Procedure, с которой производить работу 
+		( check_nat_prs )
+		
+	2 - создать Dynamic Web application
+		2.1) создать файл META-INF/context.xml 
+			<?xml version="1.0" encoding="UTF-8"?>
+			<Context>
+				<!-- Specify a JDBC datasource -->
+				<Resource name="jdbc/data_source" 
+						  auth="Container"
+						  type="javax.sql.DataSource" 
+						  username="bc_office" 
+						  password="office"
+						  driverClassName="oracle.jdbc.driver.OracleDriver"
+						  url="jdbc:oracle:thin:@91.195.53.27:1521:demo"
+						  maxActive="10" 
+						  maxIdle="4"/>		
+			</Context>
+	
+		
+		
+	3 - создать необходимый интерфейс по работе с Oracle Procedure:
+		D:\eclipse_workspace\TestWeb\src\com\nmtg\web_service_to_jdbc\test\office_private_user_package.java 
+			public interface office_private_user_package {
+				/** 
+				 * check user for exists
+				 * @param p_cd_card2 - number of the card
+				 * @param p_password - password for the card
+				 * @return
+				 */
+				public check_nat_prs_out check_nat_prs(check_nat_prs_in input);
+			}
+	
+	4- запуск 
+		ua.com.nmtg.private_office.web_service.EnterPointService.java <absolute path to Spring configuration> 
+		создает сущности:
+			office_private_user_package_Proxy.php
+				- прослойка для PHP реализации 
+				( !!! ВАЖНО !!! - обязательно наличие модуля php_curl )
+					- скопировать в PHP каталог
+					- необходимые дополнения в PHP файл ( Hessian реализация ):
+						include_once 'hessian_lib/HessianClient.php';	
+					- пример тестов:
+						$testurl = 'http://localhost:8080/TestWeb/office_private_user_package';
+
+						$proxy = new office_private_user_package_Proxy($testurl);
+						$value=new check_nat_prs_in();
+						$value->setP_language('RU');
+						$value->setP_cd_card2('1058293');
+						$value->setP_password('2633');
+						
+						$returnValue=$proxy->check_nat_prs($value);
+						echo 'result: ';
+						print_r( $returnValue );
+						echo '<br /><br />';
+						echo urldecode($returnValue->p_card_name_issuer);
+				
+				
+			office_private_user_package_Proxy.java
+				- скопировать в каталог с интерфейсом 
+				- файл-реализация 
+					public check_nat_prs_out check_nat_prs(check_nat_prs_in input){
+						try{
+							check_nat_prs_out output=new check_nat_prs_out();
+							String returnValue=new check_nat_prs_out_helper(this.dataSource).check_nat_prs(input, output);
+							System.out.println("check_nat_prs ReturnValue:"+returnValue);
+							return output;
+						}catch(Exception ex){
+							System.out.println("Exception: "+ex.getMessage());
+							return null;
+						}
+					}
+				
+				
+			office_private_user_package_WS.java
+				- скопировать в каталог с интерфейсом 
+				- файл с описанием прослойки между Web-service
+				
+			web.xml
+				- скопировать в WEB-INF/web.xml
+			
+		---------дополнительные сущности --------
+		check_nat_prs_in.java
+			входящие параметры для процедуры (Java)
+		check_nat_prs_in.php
+			входящие параметры для процедуры (PHP)
+			!!! Важно !!! пользоваться только get-set -ами ( public for field is must )
+		check_nat_prs_out.java
+			исходящие параметры для процеруды ( Java )
+		check_nat_prs_out.php
+			исходящие параметры для процеруды ( PHP )
+			!!! Важно !!! пользоваться только get-set -ами ( public for field is must )
+		check_nat_prs_out_helper.java
+			обертка для "бесшовного" запуска процедуры
+	
+=======================================================
+========== Пример реализации клиента (Java) для проверки работоспособности приложения 
+=======================================================
+				
+		String url = "http://localhost:8080/TestWeb/office_private_user_package";
+		HessianProxyFactory factory = new HessianProxyFactory();
+		office_private_user_package proxy = (office_private_user_package) factory.create(office_private_user_package.class, url);
+		check_nat_prs_in input=new check_nat_prs_in();
+		input.setP_language("RU");
+		input.setP_cd_card2("1058293");
+		input.setP_password("2633");
+		input.setP_language("RU");
+		
+		check_nat_prs_out output=proxy.check_nat_prs(input);
+		System.out.println(output);
+		System.out.println("Ok");
+				
+=======================================================
+========== Пример реализации клиента (PHP) для проверки работоспособности приложения 
+=======================================================
+<?php
+include_once 'hessian_lib/HessianClient.php';	
+include_once 'check_nat_prs_in.php';
+include_once 'check_nat_prs_out.php';
+include_once 'office_private_user_package_Proxy.php';
+
+$testurl = 'http://localhost:8080/TestWeb/office_private_user_package';
+
+$proxy = new office_private_user_package_Proxy($testurl);
+$value=new check_nat_prs_in();
+$value->setP_language('RU');
+$value->setP_cd_card2('1058293');
+$value->setP_password('2633');
+
+$returnValue=$proxy->check_nat_prs($value);
+echo 'result: ';
+print_r( $returnValue );
+echo '<br /><br />';
+echo urldecode($returnValue->p_card_name_issuer);
+?>				
+=======================================================
+	Все библиотеки в Servlet Container:
+		hessian-4.0.7.jar
+		ojdbc14.jar
+		log4j-1.2.15.jar
+
+=======================================================
+операции со строками необходимо проводить только через преобразования:
+java -> PHP
+	java: URLEncoder.encode( String s )
+	php:  urldecode($returnValue->p_card_name_issuer)
+
+PHP -> java
+	php: urlencode( $value )
+	java: URLDecoder.decode( String s )
+=======================================================

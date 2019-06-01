@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+<!--  begin______________ writers ____________________ --> 
+	<bean id="path_to_interface" class="java.lang.String">
+		<constructor-arg><value>D:\eclipse_workspace\TestWeb\src\com\nmtg\web_service_to_jdbc\test\office_private_user_package.java</value></constructor-arg>
+	</bean>
+	
+	<bean id="path_to_output" class="java.lang.String">
+		<constructor-arg><value>c:\temp\</value></constructor-arg>
+	</bean>
+	
+	<!--  Java WebService generator -->
+	<bean id="java_web_service_writer" class="ua.com.nmtg.private_office.web_service.writer.FileWriter" >
+		<constructor-arg index="0" ref="java_web_service_generator"></constructor-arg> 
+		<constructor-arg index="1" ref="path_to_interface" /> 
+		<constructor-arg index="2" ref="path_to_output"/> 
+	</bean>
+
+	<!--  web.xml writer -->
+	<bean id="web_xml_writer" class="ua.com.nmtg.private_office.web_service.writer.FileWriter" >
+		<constructor-arg index="0" ref="web_xml_generator"></constructor-arg> 
+		<constructor-arg index="1" ref="path_to_interface" /> 
+		<constructor-arg index="2" ref="path_to_output"/> 
+	</bean>
+
+	<!--  PHP proxy  writer -->
+	<bean id="php_writer" class="ua.com.nmtg.private_office.web_service.writer.FileWriter" >
+		<constructor-arg index="0" ref="php_generator"></constructor-arg> 
+		<constructor-arg index="1" ref="path_to_interface" /> 
+		<constructor-arg index="2" ref="path_to_output"/> 
+	</bean>
+	<!--  Java Proxy writer  -->
+	<bean id="java_proxy_writer" class="ua.com.nmtg.private_office.web_service.writer.FileWriter" >
+		<constructor-arg index="0" ref="java_proxy_generator"></constructor-arg> 
+		<constructor-arg index="1" ref="path_to_interface" /> 
+		<constructor-arg index="2" ref="path_to_output"/> 
+	</bean>
+	
+	<!--  helper writers  -->
+	<bean id="helper_generator" class="ua.com.nmtg.private_office.jdbc.WrapGenerator">
+		<constructor-arg index="0"><value>jdbc:oracle:thin:@91.195.53.27:1521:demo</value></constructor-arg>
+		<constructor-arg index="1"><value>bc_office</value></constructor-arg>
+		<constructor-arg index="2"><value>office</value></constructor-arg>
+		<constructor-arg index="3"><value>bc_admin</value></constructor-arg>
+		<constructor-arg index="4"><value>check_nat_prs</value></constructor-arg>
+		<constructor-arg index="5"><value>com.ntmg</value></constructor-arg>
+		<constructor-arg index="6"><value>c:\temp\temp2\</value></constructor-arg>
+	</bean>
+	
+<!--  end _________________ writers ____________________ -->
+
+<!--  begin_______________ common elements ____________________ -->
+	<!--  name for Service  -->
+	<bean id="service_name_decorator" class="ua.com.nmtg.private_office.web_service.generator.name_decorator.PrePostNameDecorator">
+		<constructor-arg index="0"><value></value></constructor-arg>
+		<constructor-arg index="1"><value>_WS</value></constructor-arg>
+	</bean>
+	
+	<bean id="java_proxy_decorator" class="ua.com.nmtg.private_office.web_service.generator.name_decorator.PrePostNameDecorator">
+		<constructor-arg index="0"><value></value></constructor-arg>
+		<constructor-arg index="1"><value>_Proxy</value></constructor-arg>
+	</bean>
+
+	<bean id="service_change_package_strategy" class="ua.com.nmtg.private_office.web_service.generator.change_package.SubPackage">
+		<constructor-arg><value>service</value></constructor-arg>
+	</bean>
+	
+	<bean id="java_proxy_package_decorator" class="ua.com.nmtg.private_office.web_service.generator.change_package.NoChangePackageStrategy" />
+	
+<!--  end ____________________ common elements ____________________ -->
+
+
+<!-- begin_________________ generators ____________________ -->
+	<!--  generator for WebService  -->
+	<bean id="java_web_service_generator" class="ua.com.nmtg.private_office.web_service.generator.java_service.JavaServiceGenerator">
+		<property name="nameDecorator">
+			<bean class="ua.com.nmtg.private_office.web_service.generator.name_decorator.PrePostNameDecorator">
+				<constructor-arg index="0"><value></value></constructor-arg>
+				<constructor-arg index="1"><value>_WS</value></constructor-arg>
+			</bean>
+		</property>
+		<property name="changePackageStrategy" ref="service_change_package_strategy" />
+		
+		<property name="proxyObjectNameDecorator" ref="java_proxy_decorator" />
+		<property name="proxyChangePackageStrategy" ref="java_proxy_package_decorator" />
+		
+		<property name="dataSourceStrategy">
+			<bean class="ua.com.nmtg.private_office.web_service.generator.java_service.data_access_strategy.DataSourceJndiStrategy">
+				<constructor-arg><value>java:/comp/env/jdbc/data_source</value></constructor-arg>
+			</bean>
+		</property>
+		<property name="serviceStrategy">
+			<bean class="ua.com.nmtg.private_office.web_service.generator.java_service.ws_strategy.HessianServiceStrategy"/>
+		</property>
+		<property name="annotationVisitors">
+			<list>
+				<bean class="ua.com.nmtg.private_office.web_service.generator.code_description.visitors.annotation.implementation.DataBaseTypeAnnotation" />	
+			</list>
+		</property>
+	</bean>
+
+
+	<!-- generator for java proxy   -->
+	<bean id="java_proxy_generator" class="ua.com.nmtg.private_office.web_service.generator.java_proxy.JavaProxyGenerator">
+		<property name="changePackageStrategy" ref="java_proxy_package_decorator" />
+		<property name="nameDecorator" ref="java_proxy_decorator" />
+		<property name="proxyServiceStrategy">
+			<bean class="ua.com.nmtg.private_office.web_service.generator.java_proxy.strategy.DataSourceProxyServiceStrategy" />
+		</property>
+		<property name="annotationVisitors">
+			<list>
+				<bean class="ua.com.nmtg.private_office.web_service.generator.code_description.visitors.annotation.implementation.DataBaseTypeAnnotation" />	
+			</list>
+		</property>
+	</bean>
+
+	<!--  generator for proxy PHP file  -->
+	<bean id="php_generator" class="ua.com.nmtg.private_office.web_service.generator.php.PhpProxyHessianGenerator">
+		<property name="nameDecorator" ref="java_proxy_decorator" />
+		<property name="annotationVisitors">
+			<list>
+				<bean class="ua.com.nmtg.private_office.web_service.generator.code_description.visitors.annotation.implementation.DataBaseTypeAnnotation" />	
+			</list>
+		</property>
+	</bean>
+	
+	<!--  generator for Web.xml file  -->
+	<bean id="web_xml_generator" class="ua.com.nmtg.private_office.web_service.generator.web_xml.WebXmlHessianGenerator">
+		<property name="displayName">
+			<value>TestWebService</value>
+			</property>
+		<property name="serviceNameDecorator" ref="service_name_decorator" />
+		<property name="changePackageStrategy" ref="service_change_package_strategy" />
+		<property name="additionalTags">
+			<value><![CDATA[
+		   <resource-ref>  
+		   	   <description>connection to Database</description>   
+		      <res-ref-name>jdbc/data_source</res-ref-name>   
+		      <res-type>javax.sql.DataSource</res-type>  
+		      <res-auth>Container</res-auth>  
+		   </resource-ref> 
+			]]> </value>
+		</property>		
+		<property name="annotationVisitors">
+			<list>
+				<bean class="ua.com.nmtg.private_office.web_service.generator.code_description.visitors.annotation.implementation.DataBaseTypeAnnotation" />	
+			</list>
+		</property>
+	</bean>
+
+<!-- end_________________ generators ____________________ -->
+ 
+</beans>
