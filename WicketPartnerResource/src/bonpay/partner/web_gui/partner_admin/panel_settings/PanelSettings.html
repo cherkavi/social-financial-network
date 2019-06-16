@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<wicket:panel>
+		<wicket:message key="description_short" ></wicket:message>
+		<br>
+		<br>
+		<wicket:message key="description_full"></wicket:message>
+		<br>
+		<form wicket:id="form_main">
+		<table width=500>
+			<tr>
+				<td align="right"><wicket:message key="name"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_name"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_url"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="description"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_description"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_ok"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_url_ok"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_ok_method"></wicket:message></td>
+				<td align="left"><select wicket:id="dropdown_url_ok_method"></select></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_cancel"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_url_cancel"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_cancel_method"></wicket:message></td>
+				<td align="left"><select wicket:id="dropdown_url_cancel_method"></select></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_error"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_url_error"/></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="url_error_method"></wicket:message></td>
+				<td align="left"><select wicket:id="dropdown_url_error_method"></select></td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="parameter_key"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_parameter_key" /> </td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="e_mail"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_e_mail" /> </td>
+			</tr>
+			<tr>
+				<td align="right"><wicket:message key="phone_for_sms"></wicket:message></td>
+				<td align="left"><input type="text" wicket:id="textfield_phone_for_sms" /> </td>
+			</tr>
+			<tr>
+				<td align="right" style="margin-right:20">
+					<input type="submit" wicket:message="value:button_save" wicket:id="button_save"/>  
+				</td>
+				<td align="left" style="margin-left:20">
+					<input type="submit" wicket:message="value:button_cancel" wicket:id="button_cancel"/>  
+				</td>
+			</tr>
+		</table>
+		</form>
+	</wicket:panel>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<wicket:panel>
+		<H3> <wicket:message key="message_head"></wicket:message></H3>
+		<br>
+		<b> <wicket:message key="message_description"></wicket:message></b>
+		<br>
+		<table align="center" width="50%" style="position:relative; overflow:visible">
+			<tr>
+				<form wicket:id="form_money_out">
+				<td align="right"> <wicket:message key="shop_caption"></wicket:message><br>
+					 <select wicket:id="shop_choice">
+				 	</select>
+				</td>
+				<td align="left">
+					<input wicket:id="button_money_out" type="submit" wicket:message="value:button_money_out_caption" /> 
+				</td>
+				</form>
+			</tr>
+		</table>
+		<br>
+		<table align="center" width="75%">
+			<tr>
+				<td> 
+					<form wicket:id="form_money_show">
+						<a wicket:id="link_history_month"><wicket:message key="caption_history_month"></wicket:message> </a>
+						<a wicket:id="link_history_year"><wicket:message key="caption_history_year"></wicket:message> </a>
+						<br>
+						<wicket:message key="caption_range_begin"> </wicket:message>
+						<input type="text" wicket:id="date_begin" style="overflow:visible" />
+						<wicket:message key="caption_range_end"></wicket:message>
+						<input type="text" wicket:id="date_end" style="overflow:visible">
+						<input type="submit" wicket:id="button_history" wicket:message="value:button_history_caption" />  
+					</form>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</wicket:panel>
+</body>
+</html>

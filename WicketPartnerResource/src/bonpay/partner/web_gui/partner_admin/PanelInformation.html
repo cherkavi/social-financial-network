@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--  панель отображения данных по парнтеру  -->
+	<wicket:panel>
+		<table>
+			<tr>
+				<td><wicket:message key="message_hello"></wicket:message><br><b wicket:id="partner_name"></b></td> 
+			</tr>
+			<tr> 
+				<td><wicket:message key="message_pay"></wicket:message><b wicket:id="pay"></b></td>
+			</tr>
+			<tr> 
+				<td><wicket:message key="message_money_balance"></wicket:message> <b wicket:id="money_balance"></b></td>
+			</tr>
+			<tr> 
+				<td><wicket:message key="message_money_all"></wicket:message><b wicket:id="money_all"></b> </td>
+			</tr>
+			<tr>
+				<td><a wicket:id="link_shop_manager"><wicket:message key="label_shop_manager"></wicket:message></a></td>
+			</tr>
+			<tr>
+				<td><a wicket:id="link_partner"><wicket:message key="label_partner"></wicket:message></a></td>
+			</tr>
+			<tr>
+				<td><a wicket:id="link_money_out"><wicket:message key="label_money_out"></wicket:message></a></td>
+			</tr>
+			<tr>
+				<td><a wicket:id="link_profile"><wicket:message key="label_profile"></wicket:message></a></td>
+			</tr>
+			<tr>
+				<td><a wicket:id="link_exit"><wicket:message key="label_exit"></wicket:message></a></td>
+			</tr>
+		</table>
+	</wicket:panel>
+</body>
+</html>

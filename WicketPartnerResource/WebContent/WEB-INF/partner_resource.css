@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.panel_head{
+	float:left;
+	width: 100%;
+	height:100px;
+	background-color: #ccccdd;
+}
+
+.panel_navigator{
+	float:left;
+	width:30%;
+	background-color: #ccccff;
+	
+}
+
+.panel_main{
+	float:left;
+	width: 70%;
+	background-color: #ccccaa;
+}
+
+.button_gradient{
+	background-image: url("file:///D:/eclipse_workspace/PartnerResource/Information/images/body.png");
+	background-repeat: repeat-x;
+	height: 40 px;
+	color: #ff0000; 
+}
