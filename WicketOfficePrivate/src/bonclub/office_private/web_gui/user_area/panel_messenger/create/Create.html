@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Create</title>
+</head>
+<body>
+	<wicket:panel>
+		<table border=1 width=500>
+			<tr>
+				<td>
+					<form wicket:id="form_message">
+					<table width=400>
+						<tr>
+							<td><center><wicket:message key="caption" /> </center></td>
+						</tr>
+						<tr> 
+							<td>
+								<table>
+									<tr>
+										<td width=50><b><wicket:message key="recipients" /> </b></td>
+										<td width=300><span wicket:id="users_string"></span></td>
+										<td width=50>
+											<input type="submit" wicket:id="button_user_edit"/>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr height="200">
+							<td>
+								<textarea cols="50" rows="20" wicket:id="message_text"> </textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td width=300></td>
+										<td width=50><input type="submit" wicket:id="button_send"/></td>
+										<td width=50><input type="submit" wicket:id="button_cancel"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					</form>
+				</td> 
+			</tr>
+		</table>
+	</wicket:panel>	
+</body>
+</html>

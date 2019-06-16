@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Recipient_list</title>
+</head> 
+<body>
+	<wicket:panel>
+		<form wicket:id="form_main">
+		<table width=400 border=1>
+			<tr>
+				<td>
+					<center><b><wicket:message key="caption" /></b></center>
+				</td>
+			</tr>
+			<tr height="300">
+				<td>
+					<table>
+						<tr wicket:id="recipient_list">
+							<td><input type="checkbox" wicket:id="user_checkbox" /></td>
+							<td><span wicket:id="recipient_nick" /></td>
+							<td><span wicket:id="recipient_full_name" /></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><input wicket:id="button_done" type="submit" value="Done" /> </td>
+							<td><input wicket:id="button_add" type="submit" value="Add User" /> </td>
+							<td><input wicket:id="button_remove" type="submit" value="Remove selected" /> </td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>	
+		</form>
+	</wicket:panel>
+</body>
+</html>

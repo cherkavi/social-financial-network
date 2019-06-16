@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Letter is sended </title>
+</head>
+<body>
+	<wicket:panel>
+		<table>
+			<tr>
+				<td> Your letter is sended for Recipient: 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table border=1>
+						<tr>
+							<td><wicket:message key="nick.caption" /> </td>
+							<td><wicket:message key="name.caption" /> </td>
+						</tr>
+						<tr wicket:id="user_list">
+							<td wicket:id="nick"></td>
+							<td wicket:id="full_name"></td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<form wicket:id="form_buttons">
+					<table>
+						<tr>
+							<td>
+								<center><input wicket:id="button_more" type="submit" value="Send more letter for this recipient(s)"></center>
+							</td>
+							<td>
+								<center><input wicket:id="button_new" type="submit" value="Send new letter"></center>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</tr>
+		</table>
+	</wicket:panel>	
+</body>
+</html>

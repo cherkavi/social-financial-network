@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title wicket:id="title_message"></title>
+	</head>
+<body>
+	<form wicket:id="form_main">
+		<table>
+			<tr>
+				<th><wicket:message key="caption_column_1" /></th>
+				<th><wicket:message key="caption_column_2" /></th>
+			</tr>
+			<tr>
+				<td><wicket:message key="caption_login" /> 
+					<span wicket:id="edit_login_error" /> 
+				</td>
+				<td><input type="text" wicket:id="edit_login"></td>
+			</tr>
+			<tr>
+				<td><wicket:message key="caption_password" />
+					<span wicket:id="edit_password_error" /> 
+				</td>
+				<td><input type="text" wicket:id="edit_password"></td>
+			</tr>
+			<tr>
+				<td><wicket:message key="caption_boncard_number" />
+					<span wicket:id="edit_boncard_error"  />
+				</td>
+				<td><input type="text" wicket:id="edit_boncard_number"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<span wicket:id="form_error" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" width="100%"> <input type="submit" wicket:id="button_add" width="100%" /> </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

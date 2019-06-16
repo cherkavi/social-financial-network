@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<body>
+		<wicket:panel>
+			<form wicket:id="form_main_address">
+			<table>
+				<tbody>
+					<tr>
+						<td colspan="2" align="left" class="panel_private_data_header">
+							<wicket:message key="caption" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_1" /> 
+							<span wicket:id="edit_post_index_error" class="panel_private_data_value_error" />
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_post_index" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_2" /> 
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_oblast" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_3" /> 
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_region" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_4" />
+							<span wicket:id="edit_city_error" class="panel_private_data_value_error" />							 
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_city" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_5" /> 
+							<span wicket:id="edit_street_error" class="panel_private_data_value_error" />
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_street" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_6" /> 
+							<span wicket:id="edit_house_error" class="panel_private_data_value_error" />
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_house" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_7" /> 
+							<span wicket:id="edit_flat_error" class="panel_private_data_value_error" />
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_flat" />
+						</td>
+					</tr>
+					<tr>
+						<td class="panel_private_data_label">
+							<wicket:message key="label_8" /> 
+						</td>
+						<td class="panel_private_data_value">
+							<input type="text" wicket:id="edit_housing" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<center>
+								<span wicket:id="form_main_error" />
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<center>
+								<input type="submit" wicket:id="button_save" />
+							</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+		</wicket:panel>
+	</body>
+</html>

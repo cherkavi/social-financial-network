@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html style="height:100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body class="body">
+	<wicket:panel>
+		<span class="panel_main_register">
+			<h2><wicket:message key="title" class="panel_main_register_title" /></h2>
+			<wicket:message key="description" class="panel_main_register_description" />
+			<br>
+			<form wicket:id="form_main">
+				<table class="reg_table">
+					<tbody>
+						<tr>
+							<td class="panel_main_register_label" >
+								<wicket:message key="bon_card_number" />
+							</td>
+							<td class="panel_main_register_input">
+								<input type="text" wicket:id="edit_bon_card_number" />
+								<span class="panel_main_register_error" wicket:id="error_bon_card_number" />
+							</td>
+						</tr>
+						<tr>
+							<td class="panel_main_register_label" >
+								<wicket:message key="birth_day" />
+							</td>
+							<td class="panel_main_register_input">
+								<input type="text" wicket:id="edit_birth_day" />
+								<span class="panel_main_register_error" wicket:id="error_birth_day" />
+							</td>
+						</tr>
+						<tr>
+							<td class="panel_main_register_label" >
+								<wicket:message key="email" />
+							</td>
+							<td class="panel_main_register_input">
+								<input type="text" wicket:id="edit_mail" />
+								<span class="panel_main_register_error" wicket:id="error_mail" />
+							</td>
+						</tr>
+						<tr>
+							<td class="panel_main_register_label" >
+								<wicket:message key="mobile_phone" />
+							</td>
+							<td class="panel_main_register_input">
+								<input type="text" wicket:id="edit_mobile_phone" />
+								<span class="panel_main_register_error" wicket:id="error_mobile_phone" />
+							</td>
+						</tr>
+						<tr>
+							<td class="panel_main_register_label" >
+								<wicket:message key="control_value" />
+							</td>
+							<td class="panel_main_register_input">
+								<input type="text" wicket:id="edit_control_value" />
+								<span class="panel_main_register_error" wicket:id="error_control_value" />
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								<input type="button" wicket:id="button_control_image_refresh" />
+							</td>
+							<td align="right" style="padding-right:36px;">
+								<span wicket:id="wrap_control_image">
+									<img wicket:id="control_image" />
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<span wicket:id="form_main_error" class="panel_main_register_error"  />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="right">
+								<input type="submit" wicket:id="button_register" /> 
+							</td>
+						</tr>
+					</tbody>
+				</table>			
+			</form>
+		</span>
+	</wicket:panel>
+</body>
+</html>
