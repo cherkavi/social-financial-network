@@ -22,7 +22,7 @@
 		<spring.version>3.2.0.RELEASE</spring.version>
 		<jackson.version>1.9.13</jackson.version>
 		<cxf.version>3.0.4</cxf.version>
-		<jetty.version>8.1.18.v20150929</jetty.version>
+		<jetty.version>9.4.34.v20201102</jetty.version>
 		<jaxws.version>2.2.10</jaxws.version>
   	</properties>
 
